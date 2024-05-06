@@ -1,0 +1,9 @@
+[submodule "chaizi-re"]
+	path = chaizi-re
+	url = https://github.com/jack2game/chaizi-re.git
+[submodule "rime-moran"]
+	path = rime-moran
+	url = https://github.com/jack2game/rime-moran.git
+[submodule "rime-snow-pinyin"]
+	path = rime-snow-pinyin
+	url = https://github.com/jack2game/rime-snow-pinyin.git
