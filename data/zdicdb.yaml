@@ -2261,7 +2261,6 @@
 寎	bǐng
 寎	bìng
 仒	bīng
-仒	eo
 𩬝	bìng
 𩬝	fǎng
 眪	bǐng
@@ -2760,7 +2759,6 @@
 𨙴	zài
 𧵤	cái
 𧵤	zhù
-乲	cal
 𠠋	cán
 𠡡	cán
 𢦸	cán
@@ -3124,9 +3122,6 @@
 噌	chēng
 竲	céng
 竲	zēng
-硛	ceok
-硳	ceok
-猠	ceon
 𠽹	chá
 𡝐	chá
 𡝙	chá
@@ -8145,7 +8140,6 @@
 𧶲	zhuàn
 耑	duān
 耑	zhuān
-叾	dug
 𠏮	duì
 𠜑	duì
 𠫨	duì
@@ -8843,7 +8837,6 @@
 煾	ēn
 煾	yūn
 鞥	ēng
-旕	eos
 𠒆	ér
 𡦕	ér
 𣩚	ér
@@ -11022,7 +11015,6 @@
 縆	gèng
 𩱋	gēng
 𩱋	pēng
-怾	gi
 𠌕	gòng
 𠞖	gòng
 𡔕	gòng
@@ -13172,7 +13164,6 @@
 悙	hēng
 悙	hèng
 哼	hēng
-哼	hng
 䬝	héng
 䬝	hòng
 䒛	héng
@@ -13181,7 +13172,6 @@
 䄓	huáng
 亨	hēng
 亨	pēng
-乥	hol
 𠪷	hóng
 𠲓	hóng
 𡇳	hóng
@@ -18942,7 +18932,6 @@
 丂	kǎo
 丂	qiǎo
 丂	yú
-桛	kasei
 翗	ké
 𠅔	kè
 𠅡	kè
@@ -19195,9 +19184,6 @@
 摼	qiān
 𡷨	kēng
 𡷨	xíng
-迲	keop
-唟	keos
-厼	keum
 𤗇	kòng
 𦁈	kòng
 㸜	kòng
@@ -19900,7 +19886,6 @@
 𪗽	huá
 髺	kuò
 髺	yuè
-穒	kweok
 𤷟	la
 𩋷	la
 鞡	la
@@ -23876,7 +23861,6 @@
 㝑	páng
 盳	máng
 盳	wàng
-匁	mangmi
 𡹰	máo
 𣭮	máo
 𣹪	máo
@@ -24030,7 +24014,6 @@
 𢘅	róu
 夘	mǎo
 夘	wǎn
-唜	mas
 嚰	mè
 濹	mè
 嚒	mē
@@ -25428,7 +25411,6 @@
 𢘃	wǔ
 㒇	mù
 㒇	wǔ
-椧	myeong
 𡰀	ná
 𢜲	ná
 𣸏	ná
@@ -25913,7 +25895,6 @@
 𨶙	něng
 能	néng
 能	nài
-莻	neus
 嗯	eng
 𠆵	ní
 𠽬	ní
@@ -26755,7 +26736,6 @@
 哦	é
 喔	ō
 喔	wō
-夞	oes
 𦂕	óu
 𪙃	óu
 𣉾	òu
@@ -28093,7 +28073,6 @@
 捊	póu
 捊	pōu
 捊	fū
-哛	ppun
 𡰿	pú
 𢈲	pú
 𤗵	pú
@@ -30623,7 +30602,6 @@
 囷	qūn
 夋	qūn
 逡	qūn
-囕	ramo
 𠊌	rán
 𠤀	rán
 𠯍	rán
@@ -31420,7 +31398,6 @@
 㳐	sà
 㳐	zhá
 㳐	zhǎ
-栍	saeng
 𡬉	sài
 𦞫	sài
 僿	sài
@@ -31452,7 +31429,6 @@
 揌	sāi
 揌	zǒng
 揌	cāi
-虄	sal
 壭	san
 𢚗	sàn
 𢿱	sàn
@@ -31734,7 +31710,6 @@
 䒏	sēng
 僧	sēng
 鬙	sēng
-縇	seon
 啥	shá
 𠍽	shà
 𠚺	shà
@@ -34613,7 +34588,6 @@
 𪘁	xiá
 䍝	tà
 䍝	zǎn
-襨	tae
 𡒢	tái
 𢖤	tái
 𣣿	tái
@@ -35170,7 +35144,6 @@
 痋	chóng
 熥	tēng
 熥	tōng
-朰	teul
 𡰎	tí
 𣄍	tí
 𣖅	tí
@@ -35651,7 +35624,6 @@
 怗	zhān
 聑	tiē
 聑	zhé
-朩	tin
 𣂴	tíng
 𤗞	tíng
 𥥶	tíng
@@ -36912,7 +36884,6 @@
 𣶈	wǎng
 𣶈	mǎng
 罖	wǎng
-罖	ra
 王	wáng
 王	wàng
 暀	wǎng
@@ -83011,3 +82982,32 @@
 # 巼	phas
 # 闏	phdeng
 # 喸	phos
+# 硛	ceok
+# 硳	ceok
+# 猠	ceon
+# 仒	eo
+# 乲	cal
+# 叾	dug
+# 旕	eos
+# 怾	gi
+# 哼	hng
+# 乥	hol
+# 桛	kasei
+# 迲	keop
+# 唟	keos
+# 厼	keum
+# 穒	kweok
+# 匁	mangmi
+# 唜	mas
+# 椧	myeong
+# 莻	neus
+# 夞	oes
+# 哛	ppun
+# 囕	ramo
+# 栍	saeng
+# 虄	sal
+# 縇	seon
+# 襨	tae
+# 朰	teul
+# 朩	tin
+# 罖	ra

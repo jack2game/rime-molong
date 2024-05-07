@@ -2260,7 +2260,6 @@
 寎	bing3
 寎	bing4
 仒	bing1
-仒	eo0
 𩬝	bing4
 𩬝	fang3
 眪	bing3
@@ -2759,7 +2758,6 @@
 𨙴	zai4
 𧵤	cai2
 𧵤	zhu4
-乲	cal0
 𠠋	can2
 𠡡	can2
 𢦸	can2
@@ -3123,9 +3121,6 @@
 噌	cheng1
 竲	ceng2
 竲	zeng1
-硛	ceok0
-硳	ceok0
-猠	ceon0
 𠽹	cha2
 𡝐	cha2
 𡝙	cha2
@@ -8144,7 +8139,6 @@
 𧶲	zhuan4
 耑	duan1
 耑	zhuan1
-叾	dug0
 𠏮	dui4
 𠜑	dui4
 𠫨	dui4
@@ -8842,7 +8836,6 @@
 煾	en1
 煾	yun1
 鞥	eng1
-旕	eos0
 𠒆	er2
 𡦕	er2
 𣩚	er2
@@ -11021,7 +11014,6 @@
 縆	geng4
 𩱋	geng1
 𩱋	peng1
-怾	gi0
 𠌕	gong4
 𠞖	gong4
 𡔕	gong4
@@ -13171,7 +13163,6 @@
 悙	heng1
 悙	heng4
 哼	heng1
-哼	hng0
 䬝	heng2
 䬝	hong4
 䒛	heng2
@@ -13180,7 +13171,6 @@
 䄓	huang2
 亨	heng1
 亨	peng1
-乥	hol0
 𠪷	hong2
 𠲓	hong2
 𡇳	hong2
@@ -18941,7 +18931,6 @@
 丂	kao3
 丂	qiao3
 丂	yu2
-桛	kasei0
 翗	ke2
 𠅔	ke4
 𠅡	ke4
@@ -19194,9 +19183,6 @@
 摼	qian1
 𡷨	keng1
 𡷨	xing2
-迲	keop0
-唟	keos0
-厼	keum0
 𤗇	kong4
 𦁈	kong4
 㸜	kong4
@@ -19899,7 +19885,6 @@
 𪗽	hua2
 髺	kuo4
 髺	yue4
-穒	kweok0
 𤷟	la0
 𩋷	la0
 鞡	la0
@@ -23875,7 +23860,6 @@
 㝑	pang2
 盳	mang2
 盳	wang4
-匁	mangmi0
 𡹰	mao2
 𣭮	mao2
 𣹪	mao2
@@ -24029,7 +24013,6 @@
 𢘅	rou2
 夘	mao3
 夘	wan3
-唜	mas0
 嚰	me4
 濹	me4
 嚒	me1
@@ -25427,7 +25410,6 @@
 𢘃	wu3
 㒇	mu4
 㒇	wu3
-椧	myeong0
 𡰀	na2
 𢜲	na2
 𣸏	na2
@@ -25912,7 +25894,6 @@
 𨶙	neng3
 能	neng2
 能	nai4
-莻	neus0
 嗯	eng0
 𠆵	ni2
 𠽬	ni2
@@ -26754,7 +26735,6 @@
 哦	e2
 喔	o1
 喔	wo1
-夞	oes0
 𦂕	ou2
 𪙃	ou2
 𣉾	ou4
@@ -28092,7 +28072,6 @@
 捊	pou2
 捊	pou1
 捊	fu1
-哛	ppun0
 𡰿	pu2
 𢈲	pu2
 𤗵	pu2
@@ -30622,7 +30601,6 @@
 囷	qun1
 夋	qun1
 逡	qun1
-囕	ramo0
 𠊌	ran2
 𠤀	ran2
 𠯍	ran2
@@ -31419,7 +31397,6 @@
 㳐	sa4
 㳐	zha2
 㳐	zha3
-栍	saeng0
 𡬉	sai4
 𦞫	sai4
 僿	sai4
@@ -31451,7 +31428,6 @@
 揌	sai1
 揌	zong3
 揌	cai1
-虄	sal0
 壭	san0
 𢚗	san4
 𢿱	san4
@@ -31733,7 +31709,6 @@
 䒏	seng1
 僧	seng1
 鬙	seng1
-縇	seon0
 啥	sha2
 𠍽	sha4
 𠚺	sha4
@@ -34612,7 +34587,6 @@
 𪘁	xia2
 䍝	ta4
 䍝	zan3
-襨	tae0
 𡒢	tai2
 𢖤	tai2
 𣣿	tai2
@@ -35169,7 +35143,6 @@
 痋	chong2
 熥	teng1
 熥	tong1
-朰	teul0
 𡰎	ti2
 𣄍	ti2
 𣖅	ti2
@@ -35650,7 +35623,6 @@
 怗	zhan1
 聑	tie1
 聑	zhe2
-朩	tin0
 𣂴	ting2
 𤗞	ting2
 𥥶	ting2
@@ -36911,7 +36883,6 @@
 𣶈	wang3
 𣶈	mang3
 罖	wang3
-罖	ra0
 王	wang2
 王	wang4
 暀	wang3
@@ -83010,3 +82981,32 @@
 # 巼	phas
 # 闏	phdeng
 # 喸	phos
+# 硛	ceok
+# 硳	ceok
+# 猠	ceon
+# 仒	eo
+# 乲	cal
+# 叾	dug
+# 旕	eos
+# 怾	gi
+# 哼	hng
+# 乥	hol
+# 桛	kasei
+# 迲	keop
+# 唟	keos
+# 厼	keum
+# 穒	kweok
+# 匁	mangmi
+# 唜	mas
+# 椧	myeong
+# 莻	neus
+# 夞	oes
+# 哛	ppun
+# 囕	ramo
+# 栍	saeng
+# 虄	sal
+# 縇	seon
+# 襨	tae
+# 朰	teul
+# 朩	tin
+# 罖	ra
