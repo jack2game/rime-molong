@@ -10,3 +10,6 @@
 [submodule "rime-moflice"]
 	path = rime-moflice
 	url = https://github.com/jack2game/rime-moflice.git
+[submodule "rime-zrlong"]
+	path = rime-zrlong
+	url = https://github.com/jack2game/rime-zrlong.git
