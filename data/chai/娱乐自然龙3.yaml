@@ -1,0 +1,267 @@
+version: 0.1.6
+source: null
+info:
+  name: 娱乐自然龙3
+  version: 0.1.0
+  author: 无名氏
+  description: 从模板创建
+analysis:
+  classifier: {}
+  degenerator:
+    feature:
+      提: 横
+      捺: 点
+    no_cross: false
+  selector:
+    - 结构完整
+    - 根少优先
+    - 能连不交
+    - 能散不连
+    - 全符笔顺
+    - 取大优先
+algebra:
+  龙码韵母:
+    - type: xform
+      from: (?<=[jqxy])u(?=\d)
+      to: v
+    - type: xform
+      from: ^.*?([aeiouv].*|m|ng?)(\d)$
+      to: $1$2
+    - type: xform
+      from: '5'
+      to: '1'
+    - type: xform
+      from: ^ng
+      to: eng
+    - type: xform
+      from: ^m
+      to: en
+    - type: xform
+      from: ue(?=\d)
+      to: ve
+  龙码声母:
+    - type: xform
+      from: ^([bpmfdtnlgkhjqxzcsrywaoe]h?|).+$
+      to: $1
+form:
+  alphabet: qwertyuiopasdfghjklzxcvbnm
+  mapping:
+    龙码韵母-ang3: j
+    龙码韵母-iang3: m
+    龙码韵母-ang2: b
+    龙码韵母-en3: k
+    龙码韵母-ing2: g
+    龙码韵母-ian1: j
+    龙码韵母-eng2: c
+    龙码韵母-ai4: m
+    龙码韵母-iang1: r
+    龙码韵母-ao4: t
+    龙码韵母-ong2: a
+    龙码韵母-ian3: q
+    龙码韵母-uai2: l
+    龙码韵母-ing1: u
+    龙码韵母-ve3: w
+    龙码韵母-an2: v
+    龙码韵母-a2: l
+    龙码韵母-ui3: 'y'
+    龙码韵母-ve4: m
+    龙码声母-l: l
+    龙码韵母-e2: x
+    龙码声母-m: m
+    龙码声母-k: k
+    龙码韵母-an4: r
+    龙码声母-a: a
+    龙码韵母-er3: e
+    龙码声母-z: z
+    龙码韵母-ie1: p
+    龙码韵母-uai4: v
+    龙码韵母-ui2: h
+    龙码声母-h: h
+    龙码韵母-iu1: i
+    龙码声母-n: 'n'
+    龙码韵母-ian4: b
+    龙码韵母-uo3: d
+    龙码韵母-eng3: 'y'
+    龙码韵母-eng1: g
+    龙码韵母-iong2: 'y'
+    龙码韵母-ie3: 'n'
+    龙码韵母-ian2: e
+    龙码韵母-ua4: 'y'
+    龙码韵母-ve2: t
+    龙码韵母-o1: x
+    龙码韵母-ang1: l
+    龙码韵母-an3: 'y'
+    龙码韵母-ia4: c
+    龙码韵母-ui1: l
+    龙码韵母-ua1: z
+    龙码韵母-uo4: j
+    龙码韵母-en1: t
+    龙码韵母-ai3: u
+    龙码韵母-ei2: p
+    龙码韵母-iao3: v
+    龙码韵母-ia1: 'y'
+    龙码韵母-v4: f
+    龙码韵母-en2: s
+    龙码韵母-ie4: w
+    龙码韵母-en4: u
+    龙码韵母-ou2: i
+    龙码韵母-ou1: z
+    龙码韵母-un3: v
+    龙码韵母-iang4: l
+    龙码韵母-er2: v
+    龙码韵母-iu4: i
+    龙码韵母-iu2: a
+    龙码韵母-un4: u
+    龙码韵母-iong4: p
+    龙码韵母-u4: c
+    龙码声母-f: f
+    龙码韵母-a4: w
+    龙码韵母-ou3: 'n'
+    龙码韵母-eng4: m
+    龙码韵母-uan2: q
+    龙码韵母-a3: 'n'
+    龙码韵母-in4: e
+    龙码声母-b: b
+    龙码声母-g: g
+    龙码韵母-ia2: 'n'
+    龙码韵母-ao2: t
+    龙码韵母-uai1: q
+    龙码声母-p: p
+    龙码声母-w: w
+    龙码韵母-uai3: s
+    龙码声母-zh: v
+    龙码声母-x: x
+    龙码韵母-uan1: 'n'
+    龙码声母-y: 'y'
+    龙码韵母-ua3: a
+    龙码韵母-e1: p
+    龙码韵母-e4: w
+    龙码韵母-ui4: i
+    龙码声母-d: d
+    龙码韵母-o2: d
+    龙码韵母-uan4: g
+    龙码声母-r: r
+    龙码韵母-u2: f
+    龙码韵母-uang3: g
+    龙码韵母-ao1: f
+    龙码韵母-ai2: 'n'
+    龙码韵母-u3: q
+    龙码韵母-ing4: h
+    龙码韵母-uo1: v
+    龙码韵母-v2: z
+    龙码韵母-in2: u
+    龙码韵母-ei1: o
+    龙码韵母-uan3: a
+    龙码韵母-uang4: i
+    龙码韵母-ve1: c
+    龙码韵母-uo2: k
+    龙码声母-e: e
+    龙码韵母-uang1: b
+    龙码韵母-un2: i
+    龙码韵母-uang2: m
+    龙码韵母-o4: a
+    龙码韵母-un1: r
+    龙码声母-s: s
+    龙码韵母-iao2: r
+    龙码韵母-v1: t
+    龙码韵母-ao3: s
+    龙码韵母-ang4: a
+    龙码声母-o: o
+    龙码韵母-i3: z
+    龙码韵母-ong3: s
+    龙码声母-t: t
+    龙码韵母-iu3: g
+    龙码韵母-ou4: e
+    龙码韵母-er4: l
+    龙码韵母-i2: x
+    龙码韵母-in3: l
+    龙码韵母-ai1: o
+    龙码声母-sh: u
+    龙码韵母-e3: f
+    龙码韵母-i1: k
+    龙码韵母-i4: o
+    龙码韵母-ia3: w
+    龙码韵母-u1: d
+    龙码韵母-iao1: q
+    龙码韵母-ei3: i
+    龙码韵母-ua2: w
+    龙码声母-c: c
+    龙码声母-ch: i
+    龙码声母-q: q
+    龙码韵母-iao4: d
+    龙码韵母-a1: e
+    龙码韵母-ing3: p
+    龙码韵母-ong4: e
+    龙码韵母-iong1: p
+    龙码韵母-ie2: a
+    龙码韵母-iong3: w
+    龙码韵母-v3: r
+    龙码韵母-in1: s
+    龙码韵母-o3: 'n'
+    龙码韵母-ong1: h
+    龙码韵母-ei4: h
+    龙码韵母-iang2: d
+    龙码声母-j: j
+    龙码韵母-an1: p
+  grouping: {}
+encoder:
+  max_length: 4
+  auto_select_length: 4
+  sources:
+    s2:
+      object: {type: 字音, subtype: 龙码韵母}
+      next: null
+    s1:
+      object: {type: 字音, subtype: 龙码声母}
+      next: s2
+    s0:
+      object: null
+      next: s1
+  conditions: {}
+  rules:
+    - length_equal: 2
+      formula: AaAbBaBb
+    - length_equal: 3
+      formula: AaBaCaCb
+    - length_in_range: [4, 10]
+      formula: AaBaCaZa
+optimization:
+  objective:
+    characters_full:
+      duplication: 0
+    words_full:
+      duplication: 1
+  constraints:
+    elements:
+      - {element: 龙码声母-a}
+      - {element: 龙码声母-b}
+      - {element: 龙码声母-c}
+      - {element: 龙码声母-ch}
+      - {element: 龙码声母-d}
+      - {element: 龙码声母-e}
+      - {element: 龙码声母-f}
+      - {element: 龙码声母-g}
+      - {element: 龙码声母-h}
+      - {element: 龙码声母-j}
+      - {element: 龙码声母-k}
+      - {element: 龙码声母-l}
+      - {element: 龙码声母-m}
+      - {element: 龙码声母-n}
+      - {element: 龙码声母-o}
+      - {element: 龙码声母-p}
+      - {element: 龙码声母-q}
+      - {element: 龙码声母-r}
+      - {element: 龙码声母-s}
+      - {element: 龙码声母-sh}
+      - {element: 龙码声母-t}
+      - {element: 龙码声母-w}
+      - {element: 龙码声母-x}
+      - {element: 龙码声母-y}
+      - {element: 龙码声母-z}
+      - {element: 龙码声母-zh}
+  metaheuristic:
+    algorithm: SimulatedAnnealing
+    parameters:
+      t_max: 1
+      t_min: 0.00001
+      steps: 1000000
