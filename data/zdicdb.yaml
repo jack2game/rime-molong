@@ -706,7 +706,6 @@
 庍	tīng
 瓸	bǎi
 瓸	wǎ
-兡	bǎikè
 𠯘	bàn
 𢴬	bàn
 𥷁	bàn
@@ -9733,7 +9732,6 @@
 馮	píng
 䒠	fēng
 䒠	xiá
-瓰	fēnwǎ
 𧟰	fiào
 覅	fiào
 𧥚	fó
@@ -11161,8 +11159,6 @@
 䇨	xiáng
 蚣	gōng
 蚣	zhōng
-兝	gōngfēn
-兣	gōnglǐ
 𣫌	gòu
 𤚼	gòu
 𤠼	gòu
@@ -12821,7 +12817,6 @@
 滈	xuè
 乚	háo
 乚	yǐ
-兞	háokè
 𠕛	hé
 𠘢	hé
 𠚔	hé
@@ -15931,7 +15926,6 @@
 𪆲	zhān
 𡩚	jiā
 𡩚	zhuàn
-嗧	jiālún
 𠊒	jiàn
 𢆦	jiàn
 𣴓	jiàn
@@ -22513,8 +22507,6 @@
 䱞	wěi
 斿	liú
 斿	yóu
-甅	líwǎ
-瓼	lǐwǎ
 咯	lo
 咯	kǎ
 咯	luò
@@ -24040,7 +24032,6 @@
 𢘅	róu
 夘	mǎo
 夘	wǎn
-瓱	máowǎ
 唜	mas
 嚰	mè
 濹	mè
@@ -28225,7 +28216,6 @@
 鋪	pù
 铺	pū
 铺	pù
-𦬢	pútí
 𠁭	qí
 𠅚	qí
 𠓪	qí
@@ -29273,8 +29263,6 @@
 薔	sè
 㩖	qiáng
 㩖	tiáo
-兛	qiānkè
-瓩	qiānwǎ
 𡰑	qiáo
 𢘟	qiáo
 𣯹	qiáo
@@ -33043,8 +33031,6 @@
 銴	zhì
 氏	shì
 氏	zhī
-兙	shíkě
-瓧	shíwǎ
 𠱔	shòu
 𣒻	shòu
 𤸃	shòu
@@ -36342,7 +36328,6 @@
 忳	tún
 忳	zhūn
 忳	dùn
-瓲	túnwǎ
 𡩆	tuó
 𡹬	tuó
 𢏜	tuó
@@ -83224,6 +83209,22 @@
 﫽	0
 﫾	0
 﫿	0
+
+兡	bǎikè
+瓰	fēnwǎ
+兝	gōngfēn
+兣	gōnglǐ
+兞	háokè
+嗧	jiālún
+甅	líwǎ
+瓼	lǐwǎ
+瓱	máowǎ
+𦬢	pútí
+兛	qiānkè
+瓩	qiānwǎ
+兙	shíkě
+瓧	shíwǎ
+瓲	túnwǎ
 
 # 呒	ḿ
 # 嘸	ḿ
