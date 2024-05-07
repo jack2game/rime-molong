@@ -10,8 +10,8 @@ rm -rf molong-cht
 
 # 生成繁體
 cp -a ./rime-moran/. ./molong-cht
-cp ./rime-radical-pinyin/radical.schema.yaml ./molong-cht
-cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./molong-cht
+# cp ./rime-radical-pinyin/radical.schema.yaml ./molong-cht
+# cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./molong-cht
 
 rm -rf ./molong-cht/.git
 rm -rf ./molong-cht/.gitignore
