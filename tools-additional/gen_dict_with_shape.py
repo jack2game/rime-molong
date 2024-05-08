@@ -650,7 +650,7 @@ def rewrite_row(row: list, code_fn: callable, traditional: bool, simplified: boo
     # print(row)
     if len(row) < 2 or row[0][0] == "#":
         return row
-    if len(row) == 2 and row[1][0].isnumeric():  # ['三觭龍', '1']
+    if len(row) > 1 and row[1][0].isnumeric():  # ['三觭龍', '1']
         return row
     # row == ['三觭龍', 'san ji long'] or ['三觭龍', 'san ji long', '1']
     zh_chars = row[0]

@@ -155,13 +155,13 @@ def main():
     for i, lib in enumerate(libs):
         if len(lib) > 1:
             lib[1] = lib[1][0:2]
-            # libs[i] = lib[0:3]+[i] # add index to the sublist 有词频时
-            libs[i] = lib[0:2]+[i]
+            libs[i] = lib[0:3]+[i] # add index to the sublist 有词频时
+            # libs[i] = lib[0:2]+[i]
             newlibs.append(libs[i])
-    # libs = [sublist for sublist in newlibs if len(sublist) == 4 and len(sublist[0]) == 1] # 有词频时
-    libs = [sublist for sublist in newlibs if len(sublist) == 3 and len(sublist[0]) == 1]
-    # libs = sorted(libs, key=lambda x: (x[0], -int(x[2]), int(x[3]))) # 有词频时
-    libs = sorted(libs, key=lambda x: (x[0], int(x[2])))
+    libs = [sublist for sublist in newlibs if len(sublist) == 4 and len(sublist[0]) == 1] # 有词频时
+    # libs = [sublist for sublist in newlibs if len(sublist) == 3 and len(sublist[0]) == 1]
+    libs = sorted(libs, key=lambda x: (x[0], -int(x[2]), int(x[3]))) # 有词频时
+    # libs = sorted(libs, key=lambda x: (x[0], int(x[2])))
     for i, lib in enumerate(libs):
         libs[i] = lib[0:2]
 
