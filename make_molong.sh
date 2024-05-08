@@ -38,7 +38,7 @@ cd ./tools-additional
 # 轉換繁体詞庫
 echo 轉換繁体詞庫...
 sed '/\.\.\./q' ../molong-cht/moran.chars.dict.yaml > ../molong-cht/moran.chars.dict.yaml.bak
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtone.yaml -o ../molong-cht/temp.txt
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../molong-cht/temp.txt
 perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../molong-cht/temp.txt
 perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-cht/temp.txt
 perl -CSAD -i -pe "s/.*\t0\n//g" ../molong-cht/temp.txt
@@ -90,7 +90,7 @@ mv ../molong-cht/moran_fixed_simp.dict.yaml{.bak,}
 # 轉換简体詞庫
 echo 轉換简体詞庫...
 sed '/\.\.\./q' ../molong-chs/moran.chars.dict.yaml > ../molong-chs/moran.chars.dict.yaml.bak
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtone.yaml -o ../molong-chs/temp.txt
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../molong-chs/temp.txt
 perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../molong-chs/temp.txt
 perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-chs/temp.txt
 perl -CSAD -i -pe "s/.*\t0\n//g" ../molong-chs/temp.txt
