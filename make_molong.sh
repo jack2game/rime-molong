@@ -36,11 +36,26 @@ bash -x ./make_simp_dist.sh
 cd ..
 
 # 轉換詞庫
-cd ./rime-moran/tools
+cd ./tools-additional
 # 轉換繁体詞庫
 echo 轉換繁体詞庫...
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.chars.dict.yaml > ../../molong-cht/moran.chars.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.base.dict.yaml > ../../molong-cht/moran.base.dict.yaml.bak
+sed '/\.\.\./q' ../molong-cht/moran.chars.dict.yaml > ../molong-cht/moran.chars.dict.yaml.bak
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -t -i ../data/zdicdbtone.yaml -o ../molong-cht/temp.txt
+perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../molong-cht/temp.txt
+perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-cht/temp.txt
+perl -CSAD -i -pe "s/.*\t0\n//g" ../molong-cht/temp.txt
+cat ../molong-cht/temp.txt >> ../molong-cht/moran.chars.dict.yaml.bak
+
+sed '/\.\.\./q' ../molong-cht/moran.base.dict.yaml > ../molong-cht/moran.base.dict.yaml.bak
+cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../molong-cht/snow_pinyin.base.dict.yaml
+sed -i '0,/\.\.\./d' ../molong-cht/snow_pinyin.base.dict.yaml
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -t -i ../molong-cht/snow_pinyin.base.dict.yaml -o ../molong-cht/temp.txt
+perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../molong-cht/temp.txt
+perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-cht/temp.txt
+perl -CSAD -i -pe "s/.*\t0\n//g" ../molong-cht/temp.txt
+cat ../molong-cht/temp.txt >> ../molong-cht/moran.base.dict.yaml.bak
+rm ../molong-cht/snow_pinyin.base.dict.yaml
+
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.tencent.dict.yaml > ../../molong-cht/moran.tencent.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.moe.dict.yaml > ../../molong-cht/moran.moe.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.computer.dict.yaml > ../../molong-cht/moran.computer.dict.yaml.bak
@@ -82,19 +97,31 @@ mv ../../molong-chs/moran_fixed.dict.yaml{.bak,}
 mv ../../molong-chs/moran_fixed_simp.dict.yaml{.bak,}
 mv ../../molong-chs/zrlf.dict.yaml{.bak,}
 cd ..
-cd ..
 
 # 整理文件結構
 rm -rf ./molong-cht/tools
 rm -rf ./molong-cht/make_simp_dist.sh
 mkdir -p ./molong-cht/ice-dicts/
 mkdir -p ./molong-chs/ice-dicts/
-# cp -a ./schema/moran_fixed.dict.yaml ./molong-cht
-# cp -a ./schema/moran_fixed.dict.yaml ./molong-chs
-# cp -a ./schema/moran_fixed_simp.dict.yaml ./molong-cht
-# cp -a ./schema/moran_fixed_simp.dict.yaml ./molong-chs
+cp -a ./molong-cht/moran_fixed.dict.yaml ./schema/
+cp -a ./molong-cht/moran_fixed_simp.dict.yaml ./schema/
 cp -a ./schema/default.custom.yaml ./molong-cht
 cp -a ./schema/default.custom.yaml ./molong-chs
+
+# 刪去詞語簡碼
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\n//g" ./schema/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\t.*\n//g" ./schema/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\n//g" ./schema/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff01}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\t.*\n//g" ./schema/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\n//g" ./schema/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\t.*\n//g" ./schema/moran_fixed.dict.yaml
+
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\n//g" ./schema/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\n//g" ./schema/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\n//g" ./schema/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
 
 cd ./tools-additional
 # 生成繁體霧凇
