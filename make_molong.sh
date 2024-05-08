@@ -71,7 +71,7 @@ rm ../molong-cht/zrlong.dict.yaml
 sed '/\.\.\./q' ../molong-cht/moran_fixed_simp.dict.yaml > ../molong-cht/moran_fixed_simp.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-cht/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-cht/zrlong.dict.yaml
-# opencc -i ../molong-cht/zrlong.dict.yaml -o ../molong-cht/temp.txt -c s2t
+cp ../molong-cht/zrlong.dict.yaml ../molong-cht/temp.txt
 echo "" >> ../molong-cht/moran_fixed_simp.dict.yaml.bak
 cat ../molong-cht/temp.txt >> ../molong-cht/moran_fixed_simp.dict.yaml.bak
 rm ../molong-cht/zrlong.dict.yaml
@@ -90,7 +90,7 @@ mv ../molong-cht/moran_fixed_simp.dict.yaml{.bak,}
 # 轉換简体詞庫
 echo 轉換简体詞庫...
 sed '/\.\.\./q' ../molong-chs/moran.chars.dict.yaml > ../molong-chs/moran.chars.dict.yaml.bak
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -s -i ../data/zdicdbtone.yaml -o ../molong-chs/temp.txt
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtone.yaml -o ../molong-chs/temp.txt
 perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../molong-chs/temp.txt
 perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-chs/temp.txt
 perl -CSAD -i -pe "s/.*\t0\n//g" ../molong-chs/temp.txt
@@ -123,7 +123,7 @@ rm ../molong-chs/zrlong.dict.yaml
 sed '/\.\.\./q' ../molong-chs/moran_fixed_simp.dict.yaml > ../molong-chs/moran_fixed_simp.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-chs/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-chs/zrlong.dict.yaml
-# opencc -i ../molong-chs/zrlong.dict.yaml -o ../molong-chs/temp.txt -c s2t
+cp ../molong-chs/zrlong.dict.yaml ../molong-chs/temp.txt
 echo "" >> ../molong-chs/moran_fixed_simp.dict.yaml.bak
 cat ../molong-chs/temp.txt >> ../molong-chs/moran_fixed_simp.dict.yaml.bak
 rm ../molong-chs/zrlong.dict.yaml
