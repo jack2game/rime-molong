@@ -647,7 +647,7 @@ def get_shape_dict(schema: str):
 
 
 def rewrite_row(row: list, code_fn: callable, traditional: bool, simplified: bool):
-    print(row)
+    # print(row)
     if len(row) < 2 or row[0][0] == "#":
         return row
     if len(row) == 2 and row[1][0].isnumeric():  # ['三觭龍', '1']
