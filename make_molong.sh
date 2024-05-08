@@ -40,69 +40,113 @@ cd ./tools-additional
 # 轉換繁体詞庫
 echo 轉換繁体詞庫...
 sed '/\.\.\./q' ../molong-cht/moran.chars.dict.yaml > ../molong-cht/moran.chars.dict.yaml.bak
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -t -i ../data/zdicdbtone.yaml -o ../molong-cht/temp.txt
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtone.yaml -o ../molong-cht/temp.txt
 perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../molong-cht/temp.txt
 perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-cht/temp.txt
 perl -CSAD -i -pe "s/.*\t0\n//g" ../molong-cht/temp.txt
+echo "" >> ../molong-cht/moran.chars.dict.yaml.bak
 cat ../molong-cht/temp.txt >> ../molong-cht/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../molong-cht/moran.base.dict.yaml > ../molong-cht/moran.base.dict.yaml.bak
 cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../molong-cht/snow_pinyin.base.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-cht/snow_pinyin.base.dict.yaml
 python3 gen_dict_with_shape.py -p zrlong -x zrmdb -t -i ../molong-cht/snow_pinyin.base.dict.yaml -o ../molong-cht/temp.txt
-perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../molong-cht/temp.txt
-perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-cht/temp.txt
-perl -CSAD -i -pe "s/.*\t0\n//g" ../molong-cht/temp.txt
+# echo "" >> ../molong-cht/moran.base.dict.yaml.bak
 cat ../molong-cht/temp.txt >> ../molong-cht/moran.base.dict.yaml.bak
 rm ../molong-cht/snow_pinyin.base.dict.yaml
 
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.tencent.dict.yaml > ../../molong-cht/moran.tencent.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.moe.dict.yaml > ../../molong-cht/moran.moe.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.computer.dict.yaml > ../../molong-cht/moran.computer.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.hanyu.dict.yaml > ../../molong-cht/moran.hanyu.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.words.dict.yaml > ../../molong-cht/moran.words.dict.yaml.bak
-python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../molong-cht/moran_fixed.dict.yaml > ../../molong-cht/moran_fixed.dict.yaml.bak
-python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../molong-cht/moran_fixed_simp.dict.yaml > ../../molong-cht/moran_fixed_simp.dict.yaml.bak
-python3 ../../tools-additional/convert_sp.py -i ../../molong-cht/zrlf.dict.yaml -o ../../molong-cht/zrlf.dict.yaml.bak
-mv ../../molong-cht/moran.chars.dict.yaml{.bak,}
-mv ../../molong-cht/moran.computer.dict.yaml{.bak,}
-mv ../../molong-cht/moran.base.dict.yaml{.bak,}
-mv ../../molong-cht/moran.hanyu.dict.yaml{.bak,}
-mv ../../molong-cht/moran.moe.dict.yaml{.bak,}
-mv ../../molong-cht/moran.tencent.dict.yaml{.bak,}
-mv ../../molong-cht/moran.words.dict.yaml{.bak,}
-mv ../../molong-cht/moran_fixed.dict.yaml{.bak,}
-mv ../../molong-cht/moran_fixed_simp.dict.yaml{.bak,}
-mv ../../molong-cht/zrlf.dict.yaml{.bak,}
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.tencent.dict.yaml > ../../molong-cht/moran.tencent.dict.yaml.bak
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.moe.dict.yaml > ../../molong-cht/moran.moe.dict.yaml.bak
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.computer.dict.yaml > ../../molong-cht/moran.computer.dict.yaml.bak
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.hanyu.dict.yaml > ../../molong-cht/moran.hanyu.dict.yaml.bak
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.words.dict.yaml > ../../molong-cht/moran.words.dict.yaml.bak
+# python3 ../../tools-additional/convert_sp.py -i ../../molong-cht/zrlf.dict.yaml -o ../../molong-cht/zrlf.dict.yaml.bak
+
+sed '/\.\.\./q' ../molong-cht/moran_fixed.dict.yaml > ../molong-cht/moran_fixed.dict.yaml.bak
+cp ../rime-zrlong/zrlong.dict.yaml ../molong-cht/zrlong.dict.yaml
+sed -i '0,/\.\.\./d' ../molong-cht/zrlong.dict.yaml
+opencc -i ../molong-cht/zrlong.dict.yaml -o ../molong-cht/temp.txt -c s2t
+echo "" >> ../molong-cht/moran_fixed.dict.yaml.bak
+cat ../molong-cht/temp.txt >> ../molong-cht/moran_fixed.dict.yaml.bak
+rm ../molong-cht/zrlong.dict.yaml
+
+sed '/\.\.\./q' ../molong-cht/moran_fixed_simp.dict.yaml > ../molong-cht/moran_fixed_simp.dict.yaml.bak
+cp ../rime-zrlong/zrlong.dict.yaml ../molong-cht/zrlong.dict.yaml
+sed -i '0,/\.\.\./d' ../molong-cht/zrlong.dict.yaml
+# opencc -i ../molong-cht/zrlong.dict.yaml -o ../molong-cht/temp.txt -c s2t
+echo "" >> ../molong-cht/moran_fixed_simp.dict.yaml.bak
+cat ../molong-cht/temp.txt >> ../molong-cht/moran_fixed_simp.dict.yaml.bak
+rm ../molong-cht/zrlong.dict.yaml
+
+mv ../molong-cht/moran.chars.dict.yaml{.bak,}
+mv ../molong-cht/moran.base.dict.yaml{.bak,}
+# mv ../molong-cht/moran.tencent.dict.yaml{.bak,}
+# mv ../molong-cht/moran.moe.dict.yaml{.bak,}
+# mv ../molong-cht/moran.computer.dict.yaml{.bak,}
+# mv ../molong-cht/moran.hanyu.dict.yaml{.bak,}
+# mv ../molong-cht/moran.words.dict.yaml{.bak,}
+mv ../molong-cht/moran_fixed.dict.yaml{.bak,}
+mv ../molong-cht/moran_fixed_simp.dict.yaml{.bak,}
+# mv ../molong-cht/zrlf.dict.yaml{.bak,}
+
 # 轉換简体詞庫
 echo 轉換简体詞庫...
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.chars.dict.yaml > ../../molong-chs/moran.chars.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.base.dict.yaml > ../../molong-chs/moran.base.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.tencent.dict.yaml > ../../molong-chs/moran.tencent.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.moe.dict.yaml > ../../molong-chs/moran.moe.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.computer.dict.yaml > ../../molong-chs/moran.computer.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.hanyu.dict.yaml > ../../molong-chs/moran.hanyu.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.words.dict.yaml > ../../molong-chs/moran.words.dict.yaml.bak
-python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../molong-chs/moran_fixed.dict.yaml > ../../molong-chs/moran_fixed.dict.yaml.bak
-python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../molong-chs/moran_fixed_simp.dict.yaml > ../../molong-chs/moran_fixed_simp.dict.yaml.bak
-python3 ../../tools-additional/convert_sp.py -i ../../molong-chs/zrlf.dict.yaml -o ../../molong-chs/zrlf.dict.yaml.bak
-mv ../../molong-chs/moran.chars.dict.yaml{.bak,}
-mv ../../molong-chs/moran.computer.dict.yaml{.bak,}
-mv ../../molong-chs/moran.base.dict.yaml{.bak,}
-mv ../../molong-chs/moran.hanyu.dict.yaml{.bak,}
-mv ../../molong-chs/moran.moe.dict.yaml{.bak,}
-mv ../../molong-chs/moran.tencent.dict.yaml{.bak,}
-mv ../../molong-chs/moran.words.dict.yaml{.bak,}
-mv ../../molong-chs/moran_fixed.dict.yaml{.bak,}
-mv ../../molong-chs/moran_fixed_simp.dict.yaml{.bak,}
-mv ../../molong-chs/zrlf.dict.yaml{.bak,}
+sed '/\.\.\./q' ../molong-chs/moran.chars.dict.yaml > ../molong-chs/moran.chars.dict.yaml.bak
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtone.yaml -o ../molong-chs/temp.txt
+perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../molong-chs/temp.txt
+perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-chs/temp.txt
+perl -CSAD -i -pe "s/.*\t0\n//g" ../molong-chs/temp.txt
+echo "" >> ../molong-chs/moran.chars.dict.yaml.bak
+cat ../molong-chs/temp.txt >> ../molong-chs/moran.chars.dict.yaml.bak
+
+sed '/\.\.\./q' ../molong-chs/moran.base.dict.yaml > ../molong-chs/moran.base.dict.yaml.bak
+cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../molong-chs/snow_pinyin.base.dict.yaml
+sed -i '0,/\.\.\./d' ../molong-chs/snow_pinyin.base.dict.yaml
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -s -i ../molong-chs/snow_pinyin.base.dict.yaml -o ../molong-chs/temp.txt
+# echo "" >> ../molong-chs/moran.base.dict.yaml.bak
+cat ../molong-chs/temp.txt >> ../molong-chs/moran.base.dict.yaml.bak
+rm ../molong-chs/snow_pinyin.base.dict.yaml
+
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.tencent.dict.yaml > ../../molong-chs/moran.tencent.dict.yaml.bak
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.moe.dict.yaml > ../../molong-chs/moran.moe.dict.yaml.bak
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.computer.dict.yaml > ../../molong-chs/moran.computer.dict.yaml.bak
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.hanyu.dict.yaml > ../../molong-chs/moran.hanyu.dict.yaml.bak
+# python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.words.dict.yaml > ../../molong-chs/moran.words.dict.yaml.bak
+# python3 ../../tools-additional/convert_sp.py -i ../../molong-chs/zrlf.dict.yaml -o ../../molong-chs/zrlf.dict.yaml.bak
+
+sed '/\.\.\./q' ../molong-chs/moran_fixed.dict.yaml > ../molong-chs/moran_fixed.dict.yaml.bak
+cp ../rime-zrlong/zrlong.dict.yaml ../molong-chs/zrlong.dict.yaml
+sed -i '0,/\.\.\./d' ../molong-chs/zrlong.dict.yaml
+opencc -i ../molong-chs/zrlong.dict.yaml -o ../molong-chs/temp.txt -c s2t
+echo "" >> ../molong-chs/moran_fixed.dict.yaml.bak
+cat ../molong-chs/temp.txt >> ../molong-chs/moran_fixed.dict.yaml.bak
+rm ../molong-chs/zrlong.dict.yaml
+
+sed '/\.\.\./q' ../molong-chs/moran_fixed_simp.dict.yaml > ../molong-chs/moran_fixed_simp.dict.yaml.bak
+cp ../rime-zrlong/zrlong.dict.yaml ../molong-chs/zrlong.dict.yaml
+sed -i '0,/\.\.\./d' ../molong-chs/zrlong.dict.yaml
+# opencc -i ../molong-chs/zrlong.dict.yaml -o ../molong-chs/temp.txt -c s2t
+echo "" >> ../molong-chs/moran_fixed_simp.dict.yaml.bak
+cat ../molong-chs/temp.txt >> ../molong-chs/moran_fixed_simp.dict.yaml.bak
+rm ../molong-chs/zrlong.dict.yaml
+
+mv ../molong-chs/moran.chars.dict.yaml{.bak,}
+mv ../molong-chs/moran.base.dict.yaml{.bak,}
+# mv ../molong-chs/moran.tencent.dict.yaml{.bak,}
+# mv ../molong-chs/moran.moe.dict.yaml{.bak,}
+# mv ../molong-chs/moran.computer.dict.yaml{.bak,}
+# mv ../molong-chs/moran.hanyu.dict.yaml{.bak,}
+# mv ../molong-chs/moran.words.dict.yaml{.bak,}
+mv ../molong-chs/moran_fixed.dict.yaml{.bak,}
+mv ../molong-chs/moran_fixed_simp.dict.yaml{.bak,}
+# mv ../molong-chs/zrlf.dict.yaml{.bak,}
 cd ..
 
 # 整理文件結構
 rm -rf ./molong-cht/tools
 rm -rf ./molong-cht/make_simp_dist.sh
-mkdir -p ./molong-cht/ice-dicts/
-mkdir -p ./molong-chs/ice-dicts/
+mkdir -p ./molong-cht/snow-dicts/
+mkdir -p ./molong-chs/snow-dicts/
 cp -a ./molong-cht/moran_fixed.dict.yaml ./schema/
 cp -a ./molong-cht/moran_fixed_simp.dict.yaml ./schema/
 cp -a ./schema/default.custom.yaml ./molong-cht
@@ -125,19 +169,21 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,10
 
 cd ./tools-additional
 # 生成繁體霧凇
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/8105.dict.yaml    -x zrmdb -t -o ../molong-cht/ice-dicts/flypy_zrmdb_8105.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/41448.dict.yaml   -x zrmdb -t -o ../molong-cht/ice-dicts/flypy_zrmdb_41448.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/base.dict.yaml    -x zrmdb -t -o ../molong-cht/ice-dicts/flypy_zrmdb_base.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/ext.dict.yaml     -x zrmdb -t -o ../molong-cht/ice-dicts/flypy_zrmdb_ext.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/others.dict.yaml  -x zrmdb -t -o ../molong-cht/ice-dicts/flypy_zrmdb_others.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/tencent.dict.yaml -x zrmdb -t -o ../molong-cht/ice-dicts/flypy_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -t -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../molong-cht/snow-dicts/zrlong_zrmdb_ext.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_8105.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/41448.dict.yaml   -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_41448.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_base.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_ext.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_others.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_tencent.dict.yaml
 # 生成簡體霧凇
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/8105.dict.yaml    -x zrmdb -o ../molong-chs/ice-dicts/flypy_zrmdb_8105.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/41448.dict.yaml   -x zrmdb -o ../molong-chs/ice-dicts/flypy_zrmdb_41448.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/base.dict.yaml    -x zrmdb -o ../molong-chs/ice-dicts/flypy_zrmdb_base.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/ext.dict.yaml     -x zrmdb -o ../molong-chs/ice-dicts/flypy_zrmdb_ext.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/others.dict.yaml  -x zrmdb -o ../molong-chs/ice-dicts/flypy_zrmdb_others.dict.yaml
-python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/tencent.dict.yaml -x zrmdb -o ../molong-chs/ice-dicts/flypy_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb -s -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../molong-chs/snow-dicts/zrlong_zrmdb_ext.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_8105.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/41448.dict.yaml   -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_41448.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_base.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_ext.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_others.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_tencent.dict.yaml
 cd ..
 
 echo molong繁體設定檔...
@@ -146,18 +192,15 @@ cp recipe.yaml recipe.yaml.bak
 sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrlong_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 
 cp moran.schema.yaml molong.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: molong/g" ./molong.schema.yaml
 sed -i "s/^  name: 魔然$/  name: molong/g" ./molong.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./molong.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molong = Moran + Flypy + Ice/g" ./molong.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molong = moran + zrlong + snow/g" ./molong.schema.yaml
 sed -i "s/^    - moran_fixed$/    - molong_fixed/g" ./molong.schema.yaml
 sed -i "s/^    - moran_sentence$/    - molong_sentence/g" ./molong.schema.yaml
 sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./molong.schema.yaml
@@ -178,7 +221,7 @@ cp moran_bj.schema.yaml molong_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: molong_bj/g" ./molong_bj.schema.yaml
 sed -i "s/^  name: 魔然·並擊G$/  name: molong並擊/g" ./molong_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./molong_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molong = Moran + Flypy + Ice/g" ./molong_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molong = moran + zrlong + snow/g" ./molong_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - molong_fixed/g" ./molong_bj.schema.yaml
 sed -i "s/^    - moran_sentence$/    - molong_sentence/g" ./molong_bj.schema.yaml
 
@@ -199,18 +242,15 @@ cp recipe.yaml recipe.yaml.bak
 sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrlong_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 
 cp moran.schema.yaml molong.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: molong/g" ./molong.schema.yaml
 sed -i "s/^  name: 魔然$/  name: molong/g" ./molong.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./molong.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molong = Moran + Flypy + Ice/g" ./molong.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molong = moran + zrlong + snow/g" ./molong.schema.yaml
 sed -i "s/^    - moran_fixed$/    - molong_fixed/g" ./molong.schema.yaml
 sed -i "s/^    - moran_sentence$/    - molong_sentence/g" ./molong.schema.yaml
 sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./molong.schema.yaml
@@ -231,7 +271,7 @@ cp moran_bj.schema.yaml molong_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: molong_bj/g" ./molong_bj.schema.yaml
 sed -i "s/^  name: 魔然·並擊G$/  name: molong並擊/g" ./molong_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./molong_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molong = Moran + Flypy + Ice/g" ./molong_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molong = moran + zrlong + snow/g" ./molong_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - molong_fixed/g" ./molong_bj.schema.yaml
 sed -i "s/^    - moran_sentence$/    - molong_sentence/g" ./molong_bj.schema.yaml
 

@@ -22,6 +22,7 @@ encoder:
     - length_in_range: [4, 32]
       formula: "AaBaCaZa"
 ...
+
 的	d	76168970	dr
 一	y	35278860	yj
 是	u	31422712	ut
