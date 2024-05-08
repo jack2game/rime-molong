@@ -10,8 +10,6 @@ rm -rf molong-cht
 
 # 生成繁體
 cp -a ./rime-moran/. ./molong-cht
-cp ./rime-radical-pinyin/radical.schema.yaml ./molong-cht
-cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./molong-cht
 
 rm -rf ./molong-cht/.git
 rm -rf ./molong-cht/.gitignore
@@ -185,6 +183,21 @@ python3 gen_dict_with_shape.py -p zrlong -x zrmdb -s -i ../rime-snow-pinyin/snow
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_others.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_tencent.dict.yaml
 cd ..
+
+# 生成ocz
+cp ./schema/radical.schema.yaml ./molong-chs
+cp ./schema/radical.schema.yaml ./molong-cht
+cp ./schema/radical_flypy.dict.yaml ./molong-cht
+sed '/\.\.\./q' ./molong-cht/radical_flypy.dict.yaml > ./molong-cht/radical_flypy.dict.yaml.bak
+python3 ./tools-additional/prepare_chaizi.py -i ./chaizi-re/radical.yaml -o temp.txt -c ./molong-chs/moran.chars.dict.yaml
+echo "" >> ./molong-cht/radical_flypy.dict.yaml.bak
+cat temp.txt >> ./molong-cht/radical_flypy.dict.yaml.bak
+mv ./molong-cht/radical_flypy.dict.yaml{.bak,}
+cp ./molong-cht/radical_flypy.dict.yaml ./molong-chs
+
+rm temp.txt
+rm ./molong-cht/temp.txt
+rm ./molong-chs/temp.txt
 
 echo molong繁體設定檔...
 cd molong-cht
