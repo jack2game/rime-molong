@@ -41,7 +41,6 @@ sed '/\.\.\./q' ../xhloop-cht/moran.chars.dict.yaml > ../xhloop-cht/moran.chars.
 python3 gen_dict_with_shape.py -p xhloop -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../xhloop-cht/temp.txt
 perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../xhloop-cht/temp.txt
 perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloop-cht/temp.txt
-perl -CSAD -i -pe "s/.*\t0\n//g" ../xhloop-cht/temp.txt
 echo "" >> ../xhloop-cht/moran.chars.dict.yaml.bak
 cat ../xhloop-cht/temp.txt >> ../xhloop-cht/moran.chars.dict.yaml.bak
 
@@ -93,7 +92,6 @@ sed '/\.\.\./q' ../xhloop-chs/moran.chars.dict.yaml > ../xhloop-chs/moran.chars.
 python3 gen_dict_with_shape.py -p xhloop -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../xhloop-chs/temp.txt
 perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../xhloop-chs/temp.txt
 perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloop-chs/temp.txt
-perl -CSAD -i -pe "s/.*\t0\n//g" ../xhloop-chs/temp.txt
 echo "" >> ../xhloop-chs/moran.chars.dict.yaml.bak
 cat ../xhloop-chs/temp.txt >> ../xhloop-chs/moran.chars.dict.yaml.bak
 
