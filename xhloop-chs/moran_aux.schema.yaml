@@ -1,0 +1,157 @@
+schema:
+  schema_id: moran_aux
+  name: 魔然·輔篩
+  version: "20240115"
+  author:
+    - 自然碼發明人：周志農
+    - 方案製作：ksqsf
+  description: |
+    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。
+  dependencies:
+    - tiger
+    - moran_english
+    #- moran_japanese
+
+switches:
+  - name: ascii_mode
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: traditionalization
+    states: [ 汉字, 漢字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: extended_charset
+    states: [ 通用, 增廣 ]
+  - name: emoji
+    states: [ 🈚, 🈶 ]
+  - name: unicode_comment
+    states: [ U關, U開 ]
+  - name: dzing
+    states: [ 通, 寍 ]
+  - options: [ std_opencc,  std_tw, std_hk, std_dzing ]
+    states: [ 通, 臺, 港, 寍 ]
+
+engine:
+  processors:
+    - key_binder
+    - ascii_composer
+    - recognizer
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator@custom_phrase       # 自定義短語
+    #- table_translator@english             # 英語混輸
+    #- table_translator@japanese            # 日語混輸
+    - lua_translator@*moran_aux_translator
+  filters:
+    #- lua_filter@*moran_aux_hint           # 輔助碼提示需要去掉本行開頭的 # 符號
+    - lua_filter@*moran_charset_filter     # 字集過濾需要去掉本行開頭的 # 符號
+    - simplifier
+    - simplifier@emoji
+    - simplifier@std_tw
+    - simplifier@std_hk
+    - simplifier@std_dzing
+    - uniquifier
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+  aux_algebra:
+    __append:
+      - derive/^(.*);(\w)(\w)$/$1/
+  algebra:
+    __patch:
+      - moran:/user_force_top?
+      - moran:/user_sentence_top?
+      - :/speller/aux_algebra
+      - moran:/user_sentence_bottom?
+      - moran:/user_force_bottom?
+
+translator:
+  dictionary: moran.extended
+  prism: moran_aux
+  initial_quality: 0
+  preedit_format:
+    - xform/([a-z][a-z][a-z][a-z])o/$1°/
+
+custom_phrase: # 自定義短語
+  dictionary: ""
+  user_dict: moran_custom_phrases
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 10
+
+english:
+  dictionary: moran.english
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+japanese:
+  dictionary: moran.japanese
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+simplifier:
+  option_name: traditionalization
+  opencc_config: s2t.json
+
+emoji:
+  opencc_config: moran_emoji.json
+  option_name: emoji
+  tips: all
+
+std_hk:
+  opencc_config: t2hk.json
+  option_name: std_hk
+
+std_tw:
+  opencc_config: t2tw.json
+  option_name: std_tw
+
+std_dzing:
+  opencc_config: moran_dzing.json
+  option_name: std_dzing
+  tips: all
+
+reverse_lookup:
+  dictionary: tiger
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔虎碼〕
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+  bindings:
+    __patch:
+      - moran:/key_bindings/moran_switches
+      - moran:/key_bindings/moran_tab
+      - moran:/key_bindings/moran_capital_for_last_syllable
+      - moran:/key_bindings/moran_semicolon_for_2
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "^`[a-z]*'?$"
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+
+# 默認啓用語言模型
+__include: moran:/octagram/enable_for_sentence
