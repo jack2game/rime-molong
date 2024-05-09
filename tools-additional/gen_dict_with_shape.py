@@ -198,7 +198,7 @@ def snow2xhloop(pinyin: str):
         "ai2": "ao",
         "ai3": "ap",
         "ai4": "aq",
-        "an5": "aj",
+        "an5": "an",
         "an1": "an",
         "an2": "am",
         "an3": "az",
