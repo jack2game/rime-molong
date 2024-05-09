@@ -203,11 +203,13 @@ echo xhloop繁體設定檔...
 cd xhloop-cht
 cp recipe.yaml recipe.yaml.bak
 sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
+recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloop_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
+rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml xhloop.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: xhloop/g" ./xhloop.schema.yaml
@@ -253,11 +255,13 @@ echo xhloop简体設定檔...
 cd xhloop-chs
 cp recipe.yaml recipe.yaml.bak
 sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
+rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloop_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
+rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml xhloop.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: xhloop/g" ./xhloop.schema.yaml

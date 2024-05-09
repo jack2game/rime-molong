@@ -203,6 +203,7 @@ echo molong繁體設定檔...
 cd molong-cht
 cp recipe.yaml recipe.yaml.bak
 sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
+rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrlong_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
@@ -260,6 +261,7 @@ cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrlong_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
+rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml molong.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: molong/g" ./molong.schema.yaml
