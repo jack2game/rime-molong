@@ -39,8 +39,8 @@ cd ./tools-additional
 echo 轉換繁体詞庫...
 sed '/\.\.\./q' ../xhloopkai-cht/moran.chars.dict.yaml > ../xhloopkai-cht/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../xhloopkai-cht/temp.txt
-perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../xhloopkai-cht/temp.txt
-perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloopkai-cht/temp.txt
+perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../xhloopkai-cht/temp.txt
+# perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloopkai-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../xhloopkai-cht/temp.txt
 echo "" >> ../xhloopkai-cht/moran.chars.dict.yaml.bak
 cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran.chars.dict.yaml.bak
@@ -60,21 +60,21 @@ rm ../xhloopkai-cht/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-cht/moran.words.dict.yaml > ../../xhloopkai-cht/moran.words.dict.yaml.bak
 # python3 ../../tools-additional/convert_sp.py -i ../../xhloopkai-cht/zrlf.dict.yaml -o ../../xhloopkai-cht/zrlf.dict.yaml.bak
 
-sed '/\.\.\./q' ../xhloopkai-cht/moran_fixed.dict.yaml > ../xhloopkai-cht/moran_fixed.dict.yaml.bak
-cp ../rime-zrlong/zrlong.dict.yaml ../xhloopkai-cht/zrlong.dict.yaml
-sed -i '0,/\.\.\./d' ../xhloopkai-cht/zrlong.dict.yaml
-opencc -i ../xhloopkai-cht/zrlong.dict.yaml -o ../xhloopkai-cht/temp.txt -c s2t
-echo "" >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
-cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
-rm ../xhloopkai-cht/zrlong.dict.yaml
+# sed '/\.\.\./q' ../xhloopkai-cht/moran_fixed.dict.yaml > ../xhloopkai-cht/moran_fixed.dict.yaml.bak
+cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-cht
+# sed -i '0,/\.\.\./d' ../xhloopkai-cht/zrlong.dict.yaml
+opencc -i ../xhloopkai-cht/xhloopkai_fixed_simp.dict.yaml -o ../xhloopkai-cht/moran_fixed.dict.yaml.bak -c s2t
+# echo "" >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
+# cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
+# rm ../xhloopkai-cht/zrlong.dict.yaml
 
-sed '/\.\.\./q' ../xhloopkai-cht/moran_fixed_simp.dict.yaml > ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
-cp ../rime-zrlong/zrlong.dict.yaml ../xhloopkai-cht/zrlong.dict.yaml
-sed -i '0,/\.\.\./d' ../xhloopkai-cht/zrlong.dict.yaml
-cp ../xhloopkai-cht/zrlong.dict.yaml ../xhloopkai-cht/temp.txt
-echo "" >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
-cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
-rm ../xhloopkai-cht/zrlong.dict.yaml
+# sed '/\.\.\./q' ../xhloopkai-cht/moran_fixed_simp.dict.yaml > ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
+# cp ../rime-zrlong/zrlong.dict.yaml ../xhloopkai-cht/zrlong.dict.yaml
+# sed -i '0,/\.\.\./d' ../xhloopkai-cht/zrlong.dict.yaml
+# cp ../xhloopkai-cht/zrlong.dict.yaml ../xhloopkai-cht/temp.txt
+# echo "" >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
+# cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
+# rm ../xhloopkai-cht/zrlong.dict.yaml
 
 mv ../xhloopkai-cht/moran.chars.dict.yaml{.bak,}
 mv ../xhloopkai-cht/moran.base.dict.yaml{.bak,}
@@ -91,8 +91,8 @@ mv ../xhloopkai-cht/moran_fixed_simp.dict.yaml{.bak,}
 echo 轉換简体詞庫...
 sed '/\.\.\./q' ../xhloopkai-chs/moran.chars.dict.yaml > ../xhloopkai-chs/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../xhloopkai-chs/temp.txt
-perl -CSAD -i -pe "s/.*\t[a-z]{0,1};.*\n//g" ../xhloopkai-chs/temp.txt
-perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloopkai-chs/temp.txt
+perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../xhloopkai-chs/temp.txt
+# perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloopkai-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../xhloopkai-chs/temp.txt
 echo "" >> ../xhloopkai-chs/moran.chars.dict.yaml.bak
 cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran.chars.dict.yaml.bak
@@ -112,21 +112,21 @@ rm ../xhloopkai-chs/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-chs/moran.words.dict.yaml > ../../xhloopkai-chs/moran.words.dict.yaml.bak
 # python3 ../../tools-additional/convert_sp.py -i ../../xhloopkai-chs/zrlf.dict.yaml -o ../../xhloopkai-chs/zrlf.dict.yaml.bak
 
-sed '/\.\.\./q' ../xhloopkai-chs/moran_fixed.dict.yaml > ../xhloopkai-chs/moran_fixed.dict.yaml.bak
-cp ../rime-zrlong/zrlong.dict.yaml ../xhloopkai-chs/zrlong.dict.yaml
-sed -i '0,/\.\.\./d' ../xhloopkai-chs/zrlong.dict.yaml
-opencc -i ../xhloopkai-chs/zrlong.dict.yaml -o ../xhloopkai-chs/temp.txt -c s2t
-echo "" >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
-cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
-rm ../xhloopkai-chs/zrlong.dict.yaml
+# sed '/\.\.\./q' ../xhloopkai-chs/moran_fixed.dict.yaml > ../xhloopkai-chs/moran_fixed.dict.yaml.bak
+cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-chs
+# sed -i '0,/\.\.\./d' ../xhloopkai-chs/zrlong.dict.yaml
+opencc -i ../xhloopkai-chs/xhloopkai_fixed_simp.dict.yaml -o ../xhloopkai-chs/moran_fixed.dict.yaml.bak -c s2t
+# echo "" >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
+# cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
+# rm ../xhloopkai-chs/zrlong.dict.yaml
 
-sed '/\.\.\./q' ../xhloopkai-chs/moran_fixed_simp.dict.yaml > ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
-cp ../rime-zrlong/zrlong.dict.yaml ../xhloopkai-chs/zrlong.dict.yaml
-sed -i '0,/\.\.\./d' ../xhloopkai-chs/zrlong.dict.yaml
-cp ../xhloopkai-chs/zrlong.dict.yaml ../xhloopkai-chs/temp.txt
-echo "" >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
-cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
-rm ../xhloopkai-chs/zrlong.dict.yaml
+# sed '/\.\.\./q' ../xhloopkai-chs/moran_fixed_simp.dict.yaml > ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
+# cp ../rime-zrlong/zrlong.dict.yaml ../xhloopkai-chs/zrlong.dict.yaml
+# sed -i '0,/\.\.\./d' ../xhloopkai-chs/zrlong.dict.yaml
+# cp ../xhloopkai-chs/zrlong.dict.yaml ../xhloopkai-chs/temp.txt
+# echo "" >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
+# cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
+# rm ../xhloopkai-chs/zrlong.dict.yaml
 
 mv ../xhloopkai-chs/moran.chars.dict.yaml{.bak,}
 mv ../xhloopkai-chs/moran.base.dict.yaml{.bak,}
@@ -145,25 +145,25 @@ rm -rf ./xhloopkai-cht/tools
 rm -rf ./xhloopkai-cht/make_simp_dist.sh
 mkdir -p ./xhloopkai-cht/snow-dicts/
 mkdir -p ./xhloopkai-chs/snow-dicts/
-cp -a ./xhloopkai-cht/moran_fixed.dict.yaml ./schema/
-cp -a ./xhloopkai-cht/moran_fixed_simp.dict.yaml ./schema/
+cp -a ./xhloopkai-cht/moran_fixed.dict.yaml ./schema/xhloopkai_fixed.dict.yaml
+# cp -a ./xhloopkai-cht/moran_fixed_simp.dict.yaml ./schema/xhloopkai_fixed_simp.dict.yaml
 cp -a ./schema/default.custom.yaml ./xhloopkai-cht
 cp -a ./schema/default.custom.yaml ./xhloopkai-chs
 
 # 刪去詞語簡碼
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\n//g" ./schema/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\t.*\n//g" ./schema/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\n//g" ./schema/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff01}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\t.*\n//g" ./schema/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\n//g" ./schema/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\t.*\n//g" ./schema/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\n//g" ./schema/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\t.*\n//g" ./schema/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\n//g" ./schema/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff01}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\t.*\n//g" ./schema/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\n//g" ./schema/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\t.*\n//g" ./schema/moran_fixed.dict.yaml
 
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\n//g" ./schema/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\n//g" ./schema/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\n//g" ./schema/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\n//g" ./schema/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\n//g" ./schema/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{3,100}\t[A-Za-z0-9]{4}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\n//g" ./schema/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{1,100}\t[A-Za-z0-9]{5,100}\t.*\n//g" ./schema/moran_fixed_simp.dict.yaml
 
 cd ./tools-additional
 # 生成繁體霧凇
