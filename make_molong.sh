@@ -147,8 +147,8 @@ mkdir -p ./molong-cht/snow-dicts/
 mkdir -p ./molong-chs/snow-dicts/
 cp -a ./molong-cht/moran_fixed.dict.yaml ./schema/molong_fixed.dict.yaml
 cp -a ./molong-cht/moran_fixed_simp.dict.yaml ./schema/molong_fixed_simp.dict.yaml
-cp -a ./schema/default.custom.yaml ./molong-cht
-cp -a ./schema/default.custom.yaml ./molong-chs
+cp -a ./schema/default.custom.molong.yaml ./molong-cht
+cp -a ./schema/default.custom.molong.yaml ./molong-chs
 
 # 刪去詞語簡碼
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}A-Za-z0-9\x{3007}\x{ff0c}-\x{ffee}]{2,100}\t[A-Za-z0-9]{1,3}\n//g" ./schema/moran_fixed.dict.yaml
