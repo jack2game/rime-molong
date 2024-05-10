@@ -1,0 +1,12 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Thu May  9 11:58:31 2024"
+  rime_version: 1.8.5
+patch:
+  style:
+    comment_font_face: "LXGW WenKai Mono GB Screen"
+    font_face: "LXGW WenKai Mono GB Screen"
+    label_font_face: "LXGW WenKai Mono GB Screen"
+  "style/color_scheme": psionics
