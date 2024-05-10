@@ -63,7 +63,7 @@ rm ../xhloopkai-cht/snow_pinyin.base.dict.yaml
 # sed '/\.\.\./q' ../xhloopkai-cht/moran_fixed.dict.yaml > ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-cht
 # sed -i '0,/\.\.\./d' ../xhloopkai-cht/zrlong.dict.yaml
-opencc -i ../xhloopkai-cht/xhloopkai_fixed_simp.dict.yaml -o ../xhloopkai-cht/moran_fixed.dict.yaml.bak -c s2t
+opencc -i ../xhloopkai-cht/xhloopkai_fixed_simp.dict.yaml -o ../xhloopkai-cht/moran_fixed.dict.yaml -c s2t
 # echo "" >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 # cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 # rm ../xhloopkai-cht/zrlong.dict.yaml
@@ -83,8 +83,8 @@ mv ../xhloopkai-cht/moran.base.dict.yaml{.bak,}
 # mv ../xhloopkai-cht/moran.computer.dict.yaml{.bak,}
 # mv ../xhloopkai-cht/moran.hanyu.dict.yaml{.bak,}
 # mv ../xhloopkai-cht/moran.words.dict.yaml{.bak,}
-mv ../xhloopkai-cht/moran_fixed.dict.yaml{.bak,}
-mv ../xhloopkai-cht/moran_fixed_simp.dict.yaml{.bak,}
+# mv ../xhloopkai-cht/moran_fixed.dict.yaml{.bak,}
+# mv ../xhloopkai-cht/moran_fixed_simp.dict.yaml{.bak,}
 # mv ../xhloopkai-cht/zrlf.dict.yaml{.bak,}
 
 # 轉換简体詞庫
@@ -115,7 +115,7 @@ rm ../xhloopkai-chs/snow_pinyin.base.dict.yaml
 # sed '/\.\.\./q' ../xhloopkai-chs/moran_fixed.dict.yaml > ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-chs
 # sed -i '0,/\.\.\./d' ../xhloopkai-chs/zrlong.dict.yaml
-opencc -i ../xhloopkai-chs/xhloopkai_fixed_simp.dict.yaml -o ../xhloopkai-chs/moran_fixed.dict.yaml.bak -c s2t
+opencc -i ../xhloopkai-chs/xhloopkai_fixed_simp.dict.yaml -o ../xhloopkai-chs/moran_fixed.dict.yaml -c s2t
 # echo "" >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 # cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 # rm ../xhloopkai-chs/zrlong.dict.yaml
@@ -135,8 +135,8 @@ mv ../xhloopkai-chs/moran.base.dict.yaml{.bak,}
 # mv ../xhloopkai-chs/moran.computer.dict.yaml{.bak,}
 # mv ../xhloopkai-chs/moran.hanyu.dict.yaml{.bak,}
 # mv ../xhloopkai-chs/moran.words.dict.yaml{.bak,}
-mv ../xhloopkai-chs/moran_fixed.dict.yaml{.bak,}
-mv ../xhloopkai-chs/moran_fixed_simp.dict.yaml{.bak,}
+# mv ../xhloopkai-chs/moran_fixed.dict.yaml{.bak,}
+# mv ../xhloopkai-chs/moran_fixed_simp.dict.yaml{.bak,}
 # mv ../xhloopkai-chs/zrlf.dict.yaml{.bak,}
 cd ..
 
