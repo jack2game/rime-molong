@@ -61,9 +61,9 @@ rm ../xhloopkai-cht/snow_pinyin.base.dict.yaml
 python3 convert_sp.py -i ../xhloopkai-cht/zrlf.dict.yaml -o ../xhloopkai-cht/zrlf.dict.yaml.bak
 
 # sed '/\.\.\./q' ../xhloopkai-cht/moran_fixed.dict.yaml > ../xhloopkai-cht/moran_fixed.dict.yaml.bak
-cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-cht
+cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-cht/moran_fixed_simp.dict.yaml
 # sed -i '0,/\.\.\./d' ../xhloopkai-cht/zrlong.dict.yaml
-opencc -i ../xhloopkai-cht/xhloopkai_fixed_simp.dict.yaml -o ../xhloopkai-cht/moran_fixed.dict.yaml -c s2t
+opencc -i ../xhloopkai-cht/moran_fixed_simp.dict.yaml -o ../xhloopkai-cht/moran_fixed.dict.yaml -c s2t
 # echo "" >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 # cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 # rm ../xhloopkai-cht/zrlong.dict.yaml
@@ -113,9 +113,9 @@ rm ../xhloopkai-chs/snow_pinyin.base.dict.yaml
 python3 convert_sp.py -i ../xhloopkai-chs/zrlf.dict.yaml -o ../xhloopkai-chs/zrlf.dict.yaml.bak
 
 # sed '/\.\.\./q' ../xhloopkai-chs/moran_fixed.dict.yaml > ../xhloopkai-chs/moran_fixed.dict.yaml.bak
-cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-chs
+cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-chs/moran_fixed_simp.dict.yaml
 # sed -i '0,/\.\.\./d' ../xhloopkai-chs/zrlong.dict.yaml
-opencc -i ../xhloopkai-chs/xhloopkai_fixed_simp.dict.yaml -o ../xhloopkai-chs/moran_fixed.dict.yaml -c s2t
+opencc -i ../xhloopkai-chs/moran_fixed_simp.dict.yaml -o ../xhloopkai-chs/moran_fixed.dict.yaml -c s2t
 # echo "" >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 # cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 # rm ../xhloopkai-chs/zrlong.dict.yaml
