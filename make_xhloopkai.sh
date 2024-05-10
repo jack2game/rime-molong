@@ -58,7 +58,7 @@ rm ../xhloopkai-cht/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-cht/moran.computer.dict.yaml > ../../xhloopkai-cht/moran.computer.dict.yaml.bak
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-cht/moran.hanyu.dict.yaml > ../../xhloopkai-cht/moran.hanyu.dict.yaml.bak
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-cht/moran.words.dict.yaml > ../../xhloopkai-cht/moran.words.dict.yaml.bak
-# python3 ../../tools-additional/convert_sp.py -i ../../xhloopkai-cht/zrlf.dict.yaml -o ../../xhloopkai-cht/zrlf.dict.yaml.bak
+python3 convert_sp.py -i ../xhloopkai-cht/zrlf.dict.yaml -o ../xhloopkai-cht/zrlf.dict.yaml.bak
 
 # sed '/\.\.\./q' ../xhloopkai-cht/moran_fixed.dict.yaml > ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-cht
@@ -85,7 +85,7 @@ mv ../xhloopkai-cht/moran.base.dict.yaml{.bak,}
 # mv ../xhloopkai-cht/moran.words.dict.yaml{.bak,}
 # mv ../xhloopkai-cht/moran_fixed.dict.yaml{.bak,}
 # mv ../xhloopkai-cht/moran_fixed_simp.dict.yaml{.bak,}
-# mv ../xhloopkai-cht/zrlf.dict.yaml{.bak,}
+mv ../xhloopkai-cht/zrlf.dict.yaml{.bak,}
 
 # 轉換简体詞庫
 echo 轉換简体詞庫...
@@ -110,7 +110,7 @@ rm ../xhloopkai-chs/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-chs/moran.computer.dict.yaml > ../../xhloopkai-chs/moran.computer.dict.yaml.bak
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-chs/moran.hanyu.dict.yaml > ../../xhloopkai-chs/moran.hanyu.dict.yaml.bak
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-chs/moran.words.dict.yaml > ../../xhloopkai-chs/moran.words.dict.yaml.bak
-# python3 ../../tools-additional/convert_sp.py -i ../../xhloopkai-chs/zrlf.dict.yaml -o ../../xhloopkai-chs/zrlf.dict.yaml.bak
+python3 convert_sp.py -i ../xhloopkai-chs/zrlf.dict.yaml -o ../xhloopkai-chs/zrlf.dict.yaml.bak
 
 # sed '/\.\.\./q' ../xhloopkai-chs/moran_fixed.dict.yaml > ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 cp ../schema/xhloopkai_fixed_simp.dict.yaml ../xhloopkai-chs
@@ -137,7 +137,7 @@ mv ../xhloopkai-chs/moran.base.dict.yaml{.bak,}
 # mv ../xhloopkai-chs/moran.words.dict.yaml{.bak,}
 # mv ../xhloopkai-chs/moran_fixed.dict.yaml{.bak,}
 # mv ../xhloopkai-chs/moran_fixed_simp.dict.yaml{.bak,}
-# mv ../xhloopkai-chs/zrlf.dict.yaml{.bak,}
+mv ../xhloopkai-chs/zrlf.dict.yaml{.bak,}
 cd ..
 
 # 整理文件結構
