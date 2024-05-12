@@ -46,12 +46,12 @@ echo "" >> ../xhloopkai-cht/moran.chars.dict.yaml.bak
 cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhloopkai-cht/moran.base.dict.yaml > ../xhloopkai-cht/moran.base.dict.yaml.bak
-# cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../xhloopkai-cht/snow_pinyin.base.dict.yaml
-# sed -i '0,/\.\.\./d' ../xhloopkai-cht/snow_pinyin.base.dict.yaml
-# python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -t -i ../xhloopkai-cht/snow_pinyin.base.dict.yaml -o ../xhloopkai-cht/temp.txt
+cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../xhloopkai-cht/snow_pinyin.base.dict.yaml
+sed -i '0,/\.\.\./d' ../xhloopkai-cht/snow_pinyin.base.dict.yaml
+python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -t -i ../xhloopkai-cht/snow_pinyin.base.dict.yaml -o ../xhloopkai-cht/temp.txt
 # echo "" >> ../xhloopkai-cht/moran.base.dict.yaml.bak
-# cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran.base.dict.yaml.bak
-# rm ../xhloopkai-cht/snow_pinyin.base.dict.yaml
+cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran.base.dict.yaml.bak
+rm ../xhloopkai-cht/snow_pinyin.base.dict.yaml
 
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-cht/moran.tencent.dict.yaml > ../../xhloopkai-cht/moran.tencent.dict.yaml.bak
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-cht/moran.moe.dict.yaml > ../../xhloopkai-cht/moran.moe.dict.yaml.bak
@@ -98,12 +98,12 @@ echo "" >> ../xhloopkai-chs/moran.chars.dict.yaml.bak
 cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhloopkai-chs/moran.base.dict.yaml > ../xhloopkai-chs/moran.base.dict.yaml.bak
-# cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../xhloopkai-chs/snow_pinyin.base.dict.yaml
-# sed -i '0,/\.\.\./d' ../xhloopkai-chs/snow_pinyin.base.dict.yaml
-# python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../xhloopkai-chs/snow_pinyin.base.dict.yaml -o ../xhloopkai-chs/temp.txt
+cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../xhloopkai-chs/snow_pinyin.base.dict.yaml
+sed -i '0,/\.\.\./d' ../xhloopkai-chs/snow_pinyin.base.dict.yaml
+python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../xhloopkai-chs/snow_pinyin.base.dict.yaml -o ../xhloopkai-chs/temp.txt
 # echo "" >> ../xhloopkai-chs/moran.base.dict.yaml.bak
-# cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran.base.dict.yaml.bak
-# rm ../xhloopkai-chs/snow_pinyin.base.dict.yaml
+cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran.base.dict.yaml.bak
+rm ../xhloopkai-chs/snow_pinyin.base.dict.yaml
 
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-chs/moran.tencent.dict.yaml > ../../xhloopkai-chs/moran.tencent.dict.yaml.bak
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhloopkai-chs/moran.moe.dict.yaml > ../../xhloopkai-chs/moran.moe.dict.yaml.bak
@@ -143,8 +143,8 @@ cd ..
 # 整理文件結構
 rm -rf ./xhloopkai-cht/tools
 rm -rf ./xhloopkai-cht/make_simp_dist.sh
-# mkdir -p ./xhloopkai-cht/snow-dicts/
-# mkdir -p ./xhloopkai-chs/snow-dicts/
+mkdir -p ./xhloopkai-cht/snow-dicts/
+mkdir -p ./xhloopkai-chs/snow-dicts/
 cp -a ./xhloopkai-cht/moran_fixed.dict.yaml ./schema/xhloopkai_fixed.dict.yaml
 # cp -a ./xhloopkai-cht/moran_fixed_simp.dict.yaml ./schema/xhloopkai_fixed_simp.dict.yaml
 cp -a ./schema/default.custom.xhloopkai.yaml ./xhloopkai-cht/default.custom.yaml
@@ -167,7 +167,7 @@ cp -a ./schema/default.custom.xhloopkai.yaml ./xhloopkai-chs/default.custom.yaml
 
 cd ./tools-additional
 # 生成繁體霧凇
-# python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -t -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../xhloopkai-cht/snow-dicts/xhloopkai_zrmdb_ext.dict.yaml
+python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -t -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../xhloopkai-cht/snow-dicts/xhloopkai_zrmdb_ext.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_8105.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/41448.dict.yaml   -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_41448.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_base.dict.yaml
@@ -175,7 +175,7 @@ cd ./tools-additional
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_others.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_tencent.dict.yaml
 # 生成簡體霧凇
-# python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../xhloopkai-chs/snow-dicts/xhloopkai_zrmdb_ext.dict.yaml
+python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../xhloopkai-chs/snow-dicts/xhloopkai_zrmdb_ext.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb -o ../xhloopkai-chs/snow-dicts/flypy_zrmdb_8105.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/41448.dict.yaml   -x zrmdb -o ../xhloopkai-chs/snow-dicts/flypy_zrmdb_41448.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb -o ../xhloopkai-chs/snow-dicts/flypy_zrmdb_base.dict.yaml
@@ -206,7 +206,7 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-# sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 rm moran.extended.dict.yaml.bak
@@ -215,7 +215,7 @@ cp moran.schema.yaml xhloopkai.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: xhloopkai/g" ./xhloopkai.schema.yaml
 sed -i "s/^  name: 魔然$/  name: xhloopkai/g" ./xhloopkai.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopkai.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopkai = moran + xhloopkai/g" ./xhloopkai.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopkai = moran + xhloopkai + snow/g" ./xhloopkai.schema.yaml
 sed -i "s/^    - moran_fixed$/    - xhloopkai_fixed/g" ./xhloopkai.schema.yaml
 sed -i "s/^    - moran_sentence$/    - xhloopkai_sentence/g" ./xhloopkai.schema.yaml
 sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./xhloopkai.schema.yaml
@@ -236,7 +236,7 @@ cp moran_bj.schema.yaml xhloopkai_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: xhloopkai_bj/g" ./xhloopkai_bj.schema.yaml
 sed -i "s/^  name: 魔然·並擊G$/  name: xhloopkai並擊/g" ./xhloopkai_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopkai_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopkai = moran + xhloopkai/g" ./xhloopkai_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopkai = moran + xhloopkai + snow/g" ./xhloopkai_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - xhloopkai_fixed/g" ./xhloopkai_bj.schema.yaml
 sed -i "s/^    - moran_sentence$/    - xhloopkai_sentence/g" ./xhloopkai_bj.schema.yaml
 
@@ -258,7 +258,7 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-# sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 rm moran.extended.dict.yaml.bak
@@ -267,7 +267,7 @@ cp moran.schema.yaml xhloopkai.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: xhloopkai/g" ./xhloopkai.schema.yaml
 sed -i "s/^  name: 魔然$/  name: xhloopkai/g" ./xhloopkai.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopkai.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopkai = moran + xhloopkai/g" ./xhloopkai.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopkai = moran + xhloopkai + snow/g" ./xhloopkai.schema.yaml
 sed -i "s/^    - moran_fixed$/    - xhloopkai_fixed/g" ./xhloopkai.schema.yaml
 sed -i "s/^    - moran_sentence$/    - xhloopkai_sentence/g" ./xhloopkai.schema.yaml
 sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./xhloopkai.schema.yaml
@@ -288,7 +288,7 @@ cp moran_bj.schema.yaml xhloopkai_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: xhloopkai_bj/g" ./xhloopkai_bj.schema.yaml
 sed -i "s/^  name: 魔然·並擊G$/  name: xhloopkai並擊/g" ./xhloopkai_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopkai_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopkai = moran + xhloopkai/g" ./xhloopkai_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopkai = moran + xhloopkai + snow/g" ./xhloopkai_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - xhloopkai_fixed/g" ./xhloopkai_bj.schema.yaml
 sed -i "s/^    - moran_sentence$/    - xhloopkai_sentence/g" ./xhloopkai_bj.schema.yaml
 
