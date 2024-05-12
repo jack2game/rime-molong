@@ -21,8 +21,8 @@ mv ./molong-cht/key_bindings.yaml ./schema
 mv ./molong-cht/punctuation.yaml ./schema
 
 
-cp ./rime-moran/tools/data/zrmdb.txt ./tools-additional
-sed -i 's/ /\t/g' ./tools-additional/zrmdb.txt
+# cp ./rime-moran/tools/data/zrmdb.txt ./tools-additional
+sed -i 's/ /\t/g' ./tools-additional/zrmdb_zrlong.txt
 
 # 生成簡體
 cd ./molong-cht/
@@ -38,7 +38,7 @@ cd ./tools-additional
 # 轉換繁体詞庫
 echo 轉換繁体詞庫...
 sed '/\.\.\./q' ../molong-cht/moran.chars.dict.yaml > ../molong-cht/moran.chars.dict.yaml.bak
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../molong-cht/temp.txt
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -i ../data/zdicdbtonesorted.yaml -o ../molong-cht/temp.txt
 perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../molong-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../molong-cht/temp.txt
@@ -48,7 +48,7 @@ cat ../molong-cht/temp.txt >> ../molong-cht/moran.chars.dict.yaml.bak
 sed '/\.\.\./q' ../molong-cht/moran.base.dict.yaml > ../molong-cht/moran.base.dict.yaml.bak
 cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../molong-cht/snow_pinyin.base.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-cht/snow_pinyin.base.dict.yaml
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -t -i ../molong-cht/snow_pinyin.base.dict.yaml -o ../molong-cht/temp.txt
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -t -i ../molong-cht/snow_pinyin.base.dict.yaml -o ../molong-cht/temp.txt
 # echo "" >> ../molong-cht/moran.base.dict.yaml.bak
 cat ../molong-cht/temp.txt >> ../molong-cht/moran.base.dict.yaml.bak
 rm ../molong-cht/snow_pinyin.base.dict.yaml
@@ -90,7 +90,7 @@ mv ../molong-cht/moran_fixed_simp.dict.yaml{.bak,}
 # 轉換简体詞庫
 echo 轉換简体詞庫...
 sed '/\.\.\./q' ../molong-chs/moran.chars.dict.yaml > ../molong-chs/moran.chars.dict.yaml.bak
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../molong-chs/temp.txt
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -i ../data/zdicdbtonesorted.yaml -o ../molong-chs/temp.txt
 perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../molong-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molong-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../molong-chs/temp.txt
@@ -100,7 +100,7 @@ cat ../molong-chs/temp.txt >> ../molong-chs/moran.chars.dict.yaml.bak
 sed '/\.\.\./q' ../molong-chs/moran.base.dict.yaml > ../molong-chs/moran.base.dict.yaml.bak
 cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../molong-chs/snow_pinyin.base.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-chs/snow_pinyin.base.dict.yaml
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -s -i ../molong-chs/snow_pinyin.base.dict.yaml -o ../molong-chs/temp.txt
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -s -i ../molong-chs/snow_pinyin.base.dict.yaml -o ../molong-chs/temp.txt
 # echo "" >> ../molong-chs/moran.base.dict.yaml.bak
 cat ../molong-chs/temp.txt >> ../molong-chs/moran.base.dict.yaml.bak
 rm ../molong-chs/snow_pinyin.base.dict.yaml
@@ -167,21 +167,21 @@ cp -a ./schema/default.custom.molong.yaml ./molong-chs/default.custom.yaml
 
 cd ./tools-additional
 # 生成繁體霧凇
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -t -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../molong-cht/snow-dicts/zrlong_zrmdb_ext.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_8105.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/41448.dict.yaml   -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_41448.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_base.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_ext.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_others.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb -t -o ../molong-cht/snow-dicts/flypy_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -t -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../molong-cht/snow-dicts/zrlong_zrmdb_zrlong_ext.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb_zrlong -t -o ../molong-cht/snow-dicts/flypy_zrmdb_zrlong_8105.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/41448.dict.yaml   -x zrmdb_zrlong -t -o ../molong-cht/snow-dicts/flypy_zrmdb_zrlong_41448.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb_zrlong -t -o ../molong-cht/snow-dicts/flypy_zrmdb_zrlong_base.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x zrmdb_zrlong -t -o ../molong-cht/snow-dicts/flypy_zrmdb_zrlong_ext.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb_zrlong -t -o ../molong-cht/snow-dicts/flypy_zrmdb_zrlong_others.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb_zrlong -t -o ../molong-cht/snow-dicts/flypy_zrmdb_zrlong_tencent.dict.yaml
 # 生成簡體霧凇
-python3 gen_dict_with_shape.py -p zrlong -x zrmdb -s -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../molong-chs/snow-dicts/zrlong_zrmdb_ext.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_8105.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/41448.dict.yaml   -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_41448.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_base.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_ext.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_others.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb -o ../molong-chs/snow-dicts/flypy_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -s -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../molong-chs/snow-dicts/zrlong_zrmdb_zrlong_ext.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb_zrlong -o ../molong-chs/snow-dicts/flypy_zrmdb_zrlong_8105.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/41448.dict.yaml   -x zrmdb_zrlong -o ../molong-chs/snow-dicts/flypy_zrmdb_zrlong_41448.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb_zrlong -o ../molong-chs/snow-dicts/flypy_zrmdb_zrlong_base.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x zrmdb_zrlong -o ../molong-chs/snow-dicts/flypy_zrmdb_zrlong_ext.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb_zrlong -o ../molong-chs/snow-dicts/flypy_zrmdb_zrlong_others.dict.yaml
+# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb_zrlong -o ../molong-chs/snow-dicts/flypy_zrmdb_zrlong_tencent.dict.yaml
 cd ..
 
 # 生成ocz
@@ -206,7 +206,7 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrlong_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrlong_zrmdb_zrlong_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 rm moran.extended.dict.yaml.bak
@@ -258,7 +258,7 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrlong_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrlong_zrmdb_zrlong_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 rm moran.extended.dict.yaml.bak
