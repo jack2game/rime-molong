@@ -7,7 +7,7 @@ schema:
     - 方案製作：ksqsf
     - Integrator：jack2game
   description: |
-    xhloopkai = moran + xhloopkai
+    xhloopkai = moran + xhloopkai + snow
   dependencies:
     - xhloopkai_fixed
     - xhloopkai_sentence
