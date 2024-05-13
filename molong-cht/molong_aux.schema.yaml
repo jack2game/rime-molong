@@ -11,6 +11,7 @@ schema:
     在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「molong」方案不同。
   dependencies:
     - tiger
+    - moran_charset
     - moran_english
     #- moran_japanese
 

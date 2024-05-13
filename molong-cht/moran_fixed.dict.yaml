@@ -2,8 +2,6 @@
 # encoding: utf-8
 # license: CC-BY-SA 4.0
 
-# 注意：三字詞編碼應該留空，否則 moran_fixed_aabc 詞庫無法生成 AaBC 格式編碼！
-
 ---
 name: moran_fixed
 version: "20240414"
