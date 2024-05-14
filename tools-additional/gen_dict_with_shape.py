@@ -956,9 +956,28 @@ def get_pinyin_fn(schema: str):
         return snow2zrloopkai
 
 def get_shape_dict(schema: str):
-    with open(f"{schema}.txt", newline="", encoding='UTF-8') as f:
-        rows = list(csv.reader(f, delimiter="\t", quotechar="`"))
-    shape_dict = {row[0]: row[1] for row in rows if len(row) >= 2}
+    shape_dict = {}
+    keys_seen = set()  # Set to keep track of keys seen so far
+    try:
+        with open(f"{schema}.txt", newline="", encoding='UTF-8') as f:
+            reader = csv.reader(f, delimiter="\t", quotechar="`")
+            for row in reader:
+                if len(row) >= 2:
+                    key, value = row[0], row[1]
+                    # Only add the key-value pair if the key hasn't been seen before
+                    if key not in keys_seen:
+                        shape_dict[key] = value
+                        keys_seen.add(key)  # Add the key to the set
+                # Optionally handle rows with fewer than 2 elements
+                else:
+                    # Log or raise an error
+                    pass
+    except FileNotFoundError:
+        # Log or handle the case where the file does not exist
+        pass
+    except PermissionError:
+        # Log or handle the case where you don't have permission to access the file
+        pass
     return shape_dict
 
 
