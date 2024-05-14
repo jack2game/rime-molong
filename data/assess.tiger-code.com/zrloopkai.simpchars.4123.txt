@@ -106,7 +106,7 @@
 加	jw
 所	s
 为	wx
-为	wm
+为	wmd
 可	ktd
 出	iu
 该	gl
@@ -120,7 +120,7 @@
 呀	yak
 刚	gh
 事	uu
-好	hj
+好	hjn
 坏	ht
 发	f
 全	qt
@@ -130,7 +130,7 @@
 心	xnd
 帮	bh
 回	hb
-得	dr
+得	drx
 牛	nw
 家	jwb
 长	ij
@@ -198,7 +198,7 @@
 爆	bj
 站	vh
 变	bn
-看	kj
+看	kjo
 哥	ge
 版	bl
 水	un
@@ -270,7 +270,7 @@
 信	xbr
 另	lt
 儿	et
-靠	kjf
+靠	kj
 聊	lv
 远	yy
 懂	df
@@ -302,7 +302,7 @@
 店	dn
 考	ka
 歌	geq
-喂	wmk
+喂	wm
 强	qf
 死	sp
 收	ub
@@ -324,7 +324,7 @@
 饭	fh
 帅	ut
 离	low
-号	hjk
+号	hj
 闹	nj
 办	bhl
 还	htz
@@ -412,7 +412,6 @@
 脚	jbo
 管	gy
 偶	oor
-行	hjx
 黄	hf
 嘴	zn
 戴	dkg
@@ -627,6 +626,7 @@
 血	xvp
 咧	lvk
 忒	tvx
+味	wmk
 交	jcl
 四	su
 投	tnf
@@ -907,7 +907,6 @@
 钻	zrj
 登	dgd
 啪	pak
-咋	zrk
 百	bsa
 终	vss
 哆	dok
@@ -941,7 +940,6 @@
 捂	wof
 伐	fs
 量	lfo
-量	lso
 割	ged
 淘	tl
 埋	mat
@@ -1034,7 +1032,7 @@
 锁	sq
 吸	xik
 敷	fu
-德	drx
+德	dr
 踹	itz
 吊	dxk
 舞	wor
@@ -1114,6 +1112,7 @@
 分	fdb
 初	iuy
 利	luh
+啧	zrk
 针	vfj
 掐	qwf
 啵	bok
@@ -1157,7 +1156,6 @@
 竟	jt
 敲	qcg
 嗲	drk
-干	gja
 漏	lvd
 湖	hid
 沉	igd
@@ -1182,6 +1180,7 @@
 碧	buu
 撤	iwf
 贪	tjb
+扛	kjf
 肺	fmo
 祸	hiu
 果	gqa
@@ -1315,7 +1314,6 @@
 徐	xbx
 乡	xda
 嗒	dak
-弄	lac
 衫	ujy
 尖	jmx
 森	sfm
@@ -1342,6 +1340,7 @@
 旺	wgo
 妙	mxn
 膘	bco
+甘	gja
 啾	jqk
 田	tza
 噜	luk
@@ -1568,6 +1567,7 @@
 彭	php
 册	cwk
 邀	ykz
+晾	lso
 掌	vku
 玉	yca
 楞	lhm
@@ -1701,6 +1701,7 @@
 堡	bat
 购	gvb
 倩	qnr
+憨	hjx
 愈	ycx
 脖	bpo
 嫖	pv
@@ -1861,7 +1862,7 @@
 巫	wug
 崴	wsu
 呛	qdk
-呛	qs
+呛	qsk
 涩	swd
 曾	zgo
 轶	yui
@@ -1951,6 +1952,7 @@
 嚓	cak
 颠	dmy
 窦	dvx
+莱	lac
 旗	qof
 嗡	wgk
 裁	cag
@@ -2005,7 +2007,6 @@
 迁	qmz
 秦	qmh
 姨	yon
-称	idh
 序	xcg
 束	uya
 异	yuc
@@ -2026,7 +2027,6 @@
 嘣	bgk
 传	ver
 叁	sjs
-哗	hwk
 献	xnq
 辨	bnd
 兆	vje
@@ -2183,7 +2183,7 @@
 杆	gjm
 杆	glm
 珂	kew
-炝	qsh
+炝	qs
 栓	urm
 苯	bhc
 裱	bby
@@ -2270,6 +2270,7 @@
 巢	ili
 寝	qzb
 涠	wxd
+吓	hwk
 蕉	jcc
 闰	rom
 粤	yrp
@@ -2386,6 +2387,7 @@
 翠	ccy
 啐	cck
 嘶	sik
+种	idh
 良	lfd
 栖	qim
 柄	bim
@@ -2417,7 +2419,6 @@
 钞	ikj
 赤	iut
 勒	lzl
-似	uur
 禹	ynp
 咂	zak
 宏	hdb
@@ -2432,6 +2433,7 @@
 苍	chc
 蔻	kvc
 禄	lyu
+仕	uur
 夕	xip
 鑫	xnj
 尹	yza
@@ -2552,7 +2554,7 @@
 鲤	lpy
 怜	lzx
 坦	tlt
-攒	ct
+攒	ctf
 齿	ipv
 玖	jew
 肋	lmo
@@ -3036,7 +3038,7 @@
 庥	xqg
 昱	yco
 噪	zjk
-欸	ep
+欸	epq
 酣	hjy
 踝	huz
 琅	ljw
@@ -3585,7 +3587,6 @@
 髓	sn
 琐	sqw
 獭	tdq
-渭	wmd
 鲔	wcy
 芜	wic
 纤	xms
@@ -3728,6 +3729,7 @@
 尜	gsx
 胳	geo
 菰	guc
+吭	hjk
 曷	hro
 珩	hhw
 糇	hnm
@@ -4432,7 +4434,6 @@
 骖	cjm
 螬	cli
 涔	cgd
-𥻗	ismi
 侘	ilr
 潺	ikd
 躔	ikz
@@ -4584,7 +4585,6 @@
 酩	miy
 侔	mnr
 仫	myr
-𧿹	mozm
 蝻	nli
 曩	nko
 怩	nox
