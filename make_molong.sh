@@ -60,20 +60,28 @@ rm ../molong-cht/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.words.dict.yaml > ../../molong-cht/moran.words.dict.yaml.bak
 # python3 ../../tools-additional/convert_sp.py -i ../../molong-cht/zrlf.dict.yaml -o ../../molong-cht/zrlf.dict.yaml.bak
 
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+\n//g" ../molong-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molong-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-cht/moran_fixed.dict.yaml
 sed '/\.\.\./q' ../molong-cht/moran_fixed.dict.yaml > ../molong-cht/moran_fixed.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-cht/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-cht/zrlong.dict.yaml
 opencc -i ../molong-cht/zrlong.dict.yaml -o ../molong-cht/temp.txt -c s2t
 echo "" >> ../molong-cht/moran_fixed.dict.yaml.bak
 cat ../molong-cht/temp.txt >> ../molong-cht/moran_fixed.dict.yaml.bak
+# sed '0,/#----------词库----------#/d' ../molong-cht/moran_fixed.dict.yaml >> ../molong-cht/moran_fixed.dict.yaml.bak
 rm ../molong-cht/zrlong.dict.yaml
 
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
 sed '/\.\.\./q' ../molong-cht/moran_fixed_simp.dict.yaml > ../molong-cht/moran_fixed_simp.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-cht/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-cht/zrlong.dict.yaml
 cp ../molong-cht/zrlong.dict.yaml ../molong-cht/temp.txt
 echo "" >> ../molong-cht/moran_fixed_simp.dict.yaml.bak
 cat ../molong-cht/temp.txt >> ../molong-cht/moran_fixed_simp.dict.yaml.bak
+# sed '0,/#----------词库----------#/d' ../molong-cht/moran_fixed_simp.dict.yaml >> ../molong-cht/moran_fixed_simp.dict.yaml.bak
 rm ../molong-cht/zrlong.dict.yaml
 
 mv ../molong-cht/moran.chars.dict.yaml{.bak,}
@@ -112,20 +120,28 @@ rm ../molong-chs/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.words.dict.yaml > ../../molong-chs/moran.words.dict.yaml.bak
 # python3 ../../tools-additional/convert_sp.py -i ../../molong-chs/zrlf.dict.yaml -o ../../molong-chs/zrlf.dict.yaml.bak
 
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+\n//g" ../molong-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molong-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-chs/moran_fixed.dict.yaml
 sed '/\.\.\./q' ../molong-chs/moran_fixed.dict.yaml > ../molong-chs/moran_fixed.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-chs/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-chs/zrlong.dict.yaml
 opencc -i ../molong-chs/zrlong.dict.yaml -o ../molong-chs/temp.txt -c s2t
 echo "" >> ../molong-chs/moran_fixed.dict.yaml.bak
 cat ../molong-chs/temp.txt >> ../molong-chs/moran_fixed.dict.yaml.bak
+# sed '0,/#----------词库----------#/d' ../molong-chs/moran_fixed.dict.yaml >> ../molong-chs/moran_fixed.dict.yaml.bak
 rm ../molong-chs/zrlong.dict.yaml
 
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
 sed '/\.\.\./q' ../molong-chs/moran_fixed_simp.dict.yaml > ../molong-chs/moran_fixed_simp.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-chs/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-chs/zrlong.dict.yaml
 cp ../molong-chs/zrlong.dict.yaml ../molong-chs/temp.txt
 echo "" >> ../molong-chs/moran_fixed_simp.dict.yaml.bak
 cat ../molong-chs/temp.txt >> ../molong-chs/moran_fixed_simp.dict.yaml.bak
+# sed '0,/#----------词库----------#/d' ../molong-chs/moran_fixed_simp.dict.yaml >> ../molong-chs/moran_fixed_simp.dict.yaml.bak
 rm ../molong-chs/zrlong.dict.yaml
 
 mv ../molong-chs/moran.chars.dict.yaml{.bak,}

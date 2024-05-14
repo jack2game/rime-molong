@@ -60,21 +60,29 @@ rm ../zrloopkai-cht/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../zrloopkai-cht/moran.words.dict.yaml > ../../zrloopkai-cht/moran.words.dict.yaml.bak
 # python3 convert_sp.py -i ../zrloopkai-cht/zrlf.dict.yaml -o ../zrloopkai-cht/zrlf.dict.yaml.bak
 
-# sed '/\.\.\./q' ../zrloopkai-cht/moran_fixed.dict.yaml > ../zrloopkai-cht/moran_fixed.dict.yaml.bak
-cp ../schema/zrloopkai_fixed_simp.dict.yaml ../zrloopkai-cht/moran_fixed_simp.dict.yaml
-# sed -i '0,/\.\.\./d' ../zrloopkai-cht/zrlong.dict.yaml
-opencc -i ../zrloopkai-cht/moran_fixed_simp.dict.yaml -o ../zrloopkai-cht/moran_fixed.dict.yaml -c s2t
-# echo "" >> ../zrloopkai-cht/moran_fixed.dict.yaml.bak
-# cat ../zrloopkai-cht/temp.txt >> ../zrloopkai-cht/moran_fixed.dict.yaml.bak
-# rm ../zrloopkai-cht/zrlong.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../zrloopkai-cht/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopkai-cht/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopkai-cht/moran_fixed.dict.yaml
+sed '/#----------詞庫----------#/q' ../zrloopkai-cht/moran_fixed.dict.yaml > ../zrloopkai-cht/moran_fixed.dict.yaml.bak
+cp ../data/assess.tiger-code.com/zrloopkai.simpchars.4123.txt ../zrloopkai-cht/zrloopkai.simpchars.4123.txt
+# sed -i '0,/\.\.\./d' ../zrloopkai-cht/zrloopkai.simpchars.4123.txt
+opencc -i ../zrloopkai-cht/zrloopkai.simpchars.4123.txt -o ../zrloopkai-cht/temp.txt -c s2t
+echo "" >> ../zrloopkai-cht/moran_fixed.dict.yaml.bak
+cat ../zrloopkai-cht/temp.txt >> ../zrloopkai-cht/moran_fixed.dict.yaml.bak
+sed '0,/#----------詞庫----------#/d' ../zrloopkai-cht/moran_fixed.dict.yaml >> ../zrloopkai-cht/moran_fixed.dict.yaml.bak
+rm ../zrloopkai-cht/zrloopkai.simpchars.4123.txt
 
-# sed '/\.\.\./q' ../zrloopkai-cht/moran_fixed_simp.dict.yaml > ../zrloopkai-cht/moran_fixed_simp.dict.yaml.bak
-# cp ../rime-zrlong/zrlong.dict.yaml ../zrloopkai-cht/zrlong.dict.yaml
-# sed -i '0,/\.\.\./d' ../zrloopkai-cht/zrlong.dict.yaml
-# cp ../zrloopkai-cht/zrlong.dict.yaml ../zrloopkai-cht/temp.txt
-# echo "" >> ../zrloopkai-cht/moran_fixed_simp.dict.yaml.bak
-# cat ../zrloopkai-cht/temp.txt >> ../zrloopkai-cht/moran_fixed_simp.dict.yaml.bak
-# rm ../zrloopkai-cht/zrlong.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../zrloopkai-cht/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopkai-cht/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopkai-cht/moran_fixed_simp.dict.yaml
+sed '/#----------词库----------#/q' ../zrloopkai-cht/moran_fixed_simp.dict.yaml > ../zrloopkai-cht/moran_fixed_simp.dict.yaml.bak
+cp ../data/assess.tiger-code.com/zrloopkai.simpchars.4123.txt ../zrloopkai-cht/zrloopkai.simpchars.4123.txt
+# sed -i '0,/\.\.\./d' ../zrloopkai-cht/zrloopkai.simpchars.4123.txt
+cp ../zrloopkai-cht/zrloopkai.simpchars.4123.txt ../zrloopkai-cht/temp.txt
+echo "" >> ../zrloopkai-cht/moran_fixed_simp.dict.yaml.bak
+cat ../zrloopkai-cht/temp.txt >> ../zrloopkai-cht/moran_fixed_simp.dict.yaml.bak
+sed '0,/#----------词库----------#/d' ../zrloopkai-cht/moran_fixed_simp.dict.yaml >> ../zrloopkai-cht/moran_fixed_simp.dict.yaml.bak
+rm ../zrloopkai-cht/zrloopkai.simpchars.4123.txt
 
 mv ../zrloopkai-cht/moran.chars.dict.yaml{.bak,}
 mv ../zrloopkai-cht/moran.base.dict.yaml{.bak,}
@@ -83,8 +91,8 @@ mv ../zrloopkai-cht/moran.base.dict.yaml{.bak,}
 # mv ../zrloopkai-cht/moran.computer.dict.yaml{.bak,}
 # mv ../zrloopkai-cht/moran.hanyu.dict.yaml{.bak,}
 # mv ../zrloopkai-cht/moran.words.dict.yaml{.bak,}
-# mv ../zrloopkai-cht/moran_fixed.dict.yaml{.bak,}
-# mv ../zrloopkai-cht/moran_fixed_simp.dict.yaml{.bak,}
+mv ../zrloopkai-cht/moran_fixed.dict.yaml{.bak,}
+mv ../zrloopkai-cht/moran_fixed_simp.dict.yaml{.bak,}
 # mv ../zrloopkai-cht/zrlf.dict.yaml{.bak,}
 
 # 轉換简体詞庫
@@ -112,21 +120,29 @@ rm ../zrloopkai-chs/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../zrloopkai-chs/moran.words.dict.yaml > ../../zrloopkai-chs/moran.words.dict.yaml.bak
 # python3 convert_sp.py -i ../zrloopkai-chs/zrlf.dict.yaml -o ../zrloopkai-chs/zrlf.dict.yaml.bak
 
-# sed '/\.\.\./q' ../zrloopkai-chs/moran_fixed.dict.yaml > ../zrloopkai-chs/moran_fixed.dict.yaml.bak
-cp ../schema/zrloopkai_fixed_simp.dict.yaml ../zrloopkai-chs/moran_fixed_simp.dict.yaml
-# sed -i '0,/\.\.\./d' ../zrloopkai-chs/zrlong.dict.yaml
-opencc -i ../zrloopkai-chs/moran_fixed_simp.dict.yaml -o ../zrloopkai-chs/moran_fixed.dict.yaml -c s2t
-# echo "" >> ../zrloopkai-chs/moran_fixed.dict.yaml.bak
-# cat ../zrloopkai-chs/temp.txt >> ../zrloopkai-chs/moran_fixed.dict.yaml.bak
-# rm ../zrloopkai-chs/zrlong.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../zrloopkai-chs/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopkai-chs/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopkai-chs/moran_fixed.dict.yaml
+sed '/#----------詞庫----------#/q' ../zrloopkai-chs/moran_fixed.dict.yaml > ../zrloopkai-chs/moran_fixed.dict.yaml.bak
+cp ../data/assess.tiger-code.com/zrloopkai.simpchars.4123.txt ../zrloopkai-chs/zrloopkai.simpchars.4123.txt
+# sed -i '0,/\.\.\./d' ../zrloopkai-chs/zrloopkai.simpchars.4123.txt
+opencc -i ../zrloopkai-chs/zrloopkai.simpchars.4123.txt -o ../zrloopkai-chs/temp.txt -c s2t
+echo "" >> ../zrloopkai-chs/moran_fixed.dict.yaml.bak
+cat ../zrloopkai-chs/temp.txt >> ../zrloopkai-chs/moran_fixed.dict.yaml.bak
+sed '0,/#----------詞庫----------#/d' ../zrloopkai-chs/moran_fixed.dict.yaml >> ../zrloopkai-chs/moran_fixed.dict.yaml.bak
+rm ../zrloopkai-chs/zrloopkai.simpchars.4123.txt
 
-# sed '/\.\.\./q' ../zrloopkai-chs/moran_fixed_simp.dict.yaml > ../zrloopkai-chs/moran_fixed_simp.dict.yaml.bak
-# cp ../rime-zrlong/zrlong.dict.yaml ../zrloopkai-chs/zrlong.dict.yaml
-# sed -i '0,/\.\.\./d' ../zrloopkai-chs/zrlong.dict.yaml
-# cp ../zrloopkai-chs/zrlong.dict.yaml ../zrloopkai-chs/temp.txt
-# echo "" >> ../zrloopkai-chs/moran_fixed_simp.dict.yaml.bak
-# cat ../zrloopkai-chs/temp.txt >> ../zrloopkai-chs/moran_fixed_simp.dict.yaml.bak
-# rm ../zrloopkai-chs/zrlong.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../zrloopkai-chs/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopkai-chs/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopkai-chs/moran_fixed_simp.dict.yaml
+sed '/#----------词库----------#/q' ../zrloopkai-chs/moran_fixed_simp.dict.yaml > ../zrloopkai-chs/moran_fixed_simp.dict.yaml.bak
+cp ../data/assess.tiger-code.com/zrloopkai.simpchars.4123.txt ../zrloopkai-chs/zrloopkai.simpchars.4123.txt
+# sed -i '0,/\.\.\./d' ../zrloopkai-chs/zrloopkai.simpchars.4123.txt
+cp ../zrloopkai-chs/zrloopkai.simpchars.4123.txt ../zrloopkai-chs/temp.txt
+echo "" >> ../zrloopkai-chs/moran_fixed_simp.dict.yaml.bak
+cat ../zrloopkai-chs/temp.txt >> ../zrloopkai-chs/moran_fixed_simp.dict.yaml.bak
+sed '0,/#----------词库----------#/d' ../zrloopkai-chs/moran_fixed_simp.dict.yaml >> ../zrloopkai-chs/moran_fixed_simp.dict.yaml.bak
+rm ../zrloopkai-chs/zrloopkai.simpchars.4123.txt
 
 mv ../zrloopkai-chs/moran.chars.dict.yaml{.bak,}
 mv ../zrloopkai-chs/moran.base.dict.yaml{.bak,}
@@ -135,8 +151,8 @@ mv ../zrloopkai-chs/moran.base.dict.yaml{.bak,}
 # mv ../zrloopkai-chs/moran.computer.dict.yaml{.bak,}
 # mv ../zrloopkai-chs/moran.hanyu.dict.yaml{.bak,}
 # mv ../zrloopkai-chs/moran.words.dict.yaml{.bak,}
-# mv ../zrloopkai-chs/moran_fixed.dict.yaml{.bak,}
-# mv ../zrloopkai-chs/moran_fixed_simp.dict.yaml{.bak,}
+mv ../zrloopkai-chs/moran_fixed.dict.yaml{.bak,}
+mv ../zrloopkai-chs/moran_fixed_simp.dict.yaml{.bak,}
 # mv ../zrloopkai-chs/zrlf.dict.yaml{.bak,}
 cd ..
 
@@ -146,7 +162,7 @@ rm -rf ./zrloopkai-cht/make_simp_dist.sh
 mkdir -p ./zrloopkai-cht/snow-dicts/
 mkdir -p ./zrloopkai-chs/snow-dicts/
 cp -a ./zrloopkai-cht/moran_fixed.dict.yaml ./schema/zrloopkai_fixed.dict.yaml
-# cp -a ./zrloopkai-cht/moran_fixed_simp.dict.yaml ./schema/zrloopkai_fixed_simp.dict.yaml
+cp -a ./zrloopkai-cht/moran_fixed_simp.dict.yaml ./schema/zrloopkai_fixed_simp.dict.yaml
 cp -a ./schema/default.custom.zrloopkai.yaml ./zrloopkai-cht/default.custom.yaml
 cp -a ./schema/default.custom.zrloopkai.yaml ./zrloopkai-chs/default.custom.yaml
 
