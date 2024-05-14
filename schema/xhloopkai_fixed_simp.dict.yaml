@@ -164,7 +164,7 @@ encoder:
 加	jx
 所	s
 为	we
-为	wq
+为	wqd
 可	kt
 出	iu
 该	gd
@@ -178,7 +178,7 @@ encoder:
 呀	yak
 刚	gh
 事	uu
-好	hx
+好	hxn
 坏	hj
 发	f
 全	qt
@@ -188,7 +188,7 @@ encoder:
 心	xbd
 帮	bh
 回	hbk
-得	dr
+得	drx
 牛	nw
 家	jxb
 长	ij
@@ -248,7 +248,7 @@ encoder:
 讲	js
 梦	mfm
 冷	lj
-花	hxc
+花	hx
 于	yb
 手	ucp
 咋	zd
@@ -301,7 +301,7 @@ encoder:
 第	duv
 教	jn
 生	ugn
-中	va
+中	vaa
 进	jv
 假	jvr
 差	il
@@ -360,7 +360,7 @@ encoder:
 店	dn
 考	kb
 歌	geq
-喂	wqk
+喂	wq
 强	qag
 死	sp
 收	uz
@@ -385,7 +385,7 @@ encoder:
 号	hxk
 闹	nx
 办	bhl
-还	ht
+还	htz
 养	yk
 红	hds
 猪	vu
@@ -393,7 +393,7 @@ encoder:
 呐	nlk
 姐	jw
 洗	xpd
-种	vah
+种	va
 喝	hek
 菜	cs
 如	rin
@@ -472,7 +472,6 @@ encoder:
 脚	jz
 管	gy
 偶	oor
-行	hjx
 黄	ha
 嘴	zn
 戴	dsg
@@ -487,7 +486,7 @@ encoder:
 边	bm
 搜	sz
 短	dyu
-混	htd
+混	ht
 指	vpf
 翻	fj
 词	co
@@ -691,6 +690,7 @@ encoder:
 控	kaf
 血	xwp
 忒	tv
+味	wqk
 交	jnl
 四	su
 投	txf
@@ -972,7 +972,6 @@ encoder:
 钻	zrj
 登	dgd
 啪	pak
-咋	zrk
 百	bga
 终	vss
 哆	dok
@@ -1006,7 +1005,6 @@ encoder:
 捂	wof
 伐	fs
 量	lao
-量	lko
 割	ged
 淘	tvd
 埋	mft
@@ -1097,7 +1095,7 @@ encoder:
 锁	sq
 吸	xik
 敷	fu
-德	drx
+德	dr
 踹	ijz
 吊	dbk
 舞	wor
@@ -1177,6 +1175,7 @@ encoder:
 分	fdb
 初	iuy
 利	luh
+啧	zrk
 针	vfj
 掐	qx
 啵	bok
@@ -1220,7 +1219,6 @@ encoder:
 竟	jj
 敲	qng
 嗲	dv
-干	gja
 漏	lmd
 湖	hid
 沉	igd
@@ -1410,6 +1408,7 @@ encoder:
 旺	wgo
 妙	mb
 膘	bno
+甘	gja
 啾	jqk
 田	tza
 噜	luk
@@ -1636,6 +1635,7 @@ encoder:
 熏	xyh
 彭	php
 册	cwk
+晾	lko
 掌	vku
 玉	yca
 楞	lhm
@@ -1772,6 +1772,7 @@ encoder:
 堡	bbt
 购	gmb
 倩	qnr
+憨	hjx
 愈	ycx
 脖	bpo
 嫖	pmn
@@ -1921,7 +1922,6 @@ encoder:
 谜	moy
 暮	myo
 洲	vzd
-差	idy
 昏	hyo
 谓	wqy
 承	iha
@@ -2085,7 +2085,6 @@ encoder:
 迁	qmz
 秦	qnh
 姨	yon
-称	idh
 序	xcg
 束	uya
 异	yuc
@@ -2295,6 +2294,7 @@ encoder:
 激	jid
 佟	tdr
 韵	yty
+衬	idy
 酿	nky
 歉	qnq
 访	fky
@@ -2475,6 +2475,7 @@ encoder:
 翠	ccy
 啐	cck
 嘶	sik
+种	idh
 栖	qim
 肛	gho
 闵	mmm
@@ -2506,7 +2507,6 @@ encoder:
 羽	ynx
 钞	icj
 赤	iut
-似	uur
 毯	tlm
 禹	ynp
 咂	zak
@@ -2522,6 +2522,7 @@ encoder:
 苍	chc
 蔻	kmc
 禄	lyu
+仕	uur
 夕	xip
 鑫	xbj
 尹	yma
@@ -3122,7 +3123,7 @@ encoder:
 庥	xqg
 昱	yco
 噪	zxk
-欸	ep
+欸	epq
 酣	hjy
 踝	hlz
 琅	ljw
@@ -3168,6 +3169,7 @@ encoder:
 禅	uhu
 橱	iim
 辅	foi
+洹	htd
 恺	kgx
 硫	lwu
 芒	mjc
@@ -3289,7 +3291,7 @@ encoder:
 柬	jxa
 啰	lpk
 雀	qzv
-扫	sx
+扫	sxf
 绅	ufs
 纨	wks
 媳	xon
@@ -3678,7 +3680,6 @@ encoder:
 髓	sn
 琐	sqw
 獭	tdq
-渭	wqd
 鲔	wry
 芜	wic
 纤	xms
@@ -4016,7 +4017,7 @@ encoder:
 罄	qjf
 蝤	qwi
 鹊	qrn
-瘙	sxb
+瘙	sx
 韶	uvy
 潲	uxd
 纾	uus
@@ -4545,7 +4546,6 @@ encoder:
 骖	cjm
 螬	cvi
 涔	cgd
-𥻗	ismi
 侘	ilr
 躔	ikz
 襜	ijy
@@ -4688,7 +4688,6 @@ encoder:
 酩	may
 侔	mxr
 仫	myr
-𧿹	mozm
 蝻	nli
 曩	nko
 铙	nvj
