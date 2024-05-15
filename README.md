@@ -108,10 +108,6 @@
 
 
 ## License
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You can view the full license [here](LICENSE).
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You can view the full license [here](LICENSE). This project is based on [rime-moran](https://github.com/ksqsf/rime-moran) by [ksqsf](https://github.com/ksqsf). Changes were made to the original project.
 
-This project is based on [rime-moran](https://github.com/ksqsf/rime-moran) by [ksqsf](https://github.com/ksqsf), used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes were made to the original project.
-
-本專案根據Creative Commons Attribution-NonCommercial 4.0 International許可證發佈。您可以在[此處](LICENSE)查看完整的許可證。
-
-本專案依據[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)許可證，基於[ksqsf](https://github.com/ksqsf)的[rime-moran](https://github.com/ksqsf/rime-moran)專案修改製作。
+本方案根據Creative Commons Attribution-NonCommercial 4.0 International許可證發佈。您可以在[此處](LICENSE)查看完整的許可證。本專案依據基於[ksqsf](https://github.com/ksqsf)的[rime-moran](https://github.com/ksqsf/rime-moran)方案修改製作。
