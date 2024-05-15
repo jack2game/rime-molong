@@ -21,8 +21,17 @@
 ## 音碼方案
 ### ❶自然龍音碼
 ![Molong_Page1](https://github.com/jack2game/rime-molong/assets/16070158/bc588c94-21cd-4868-99ac-1b459e9509e1)
+
 ### ❷環形鶴音碼
 ![Molong_Page2](https://github.com/jack2game/rime-molong/assets/16070158/747a0c49-e4bf-4a69-92ac-941e97e2c763)
+基於現有的雙拼韻母位置，定位相應韻母的1聲，2聲3聲4聲則根據【4-1-2-3】的規則平移。例如：
+- `ke = ke1` `kr = ke2` `kt = ke3` `kw = ke4`
+
+如果平移的過程中鍵盤左邊或者右邊的按鍵用完了，就做環形移動：
+- `ha = ha1` `hs = ha2` `hk = ha3` `hl = ha4`
+
+與龍碼的亂序帶調方案對應，環形是有規律的帶調韻母方案。
+
 ### ❸環形自然音碼
 ![Molong_Page3](https://github.com/jack2game/rime-molong/assets/16070158/2c131c26-1d33-4d5c-87f3-2215c25b05d7)
 
