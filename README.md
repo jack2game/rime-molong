@@ -110,4 +110,4 @@
 ## License
 This project, [rime-molong](https://github.com/jack2game/rime-molong), is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You can view the full license [here](LICENSE). [rime-molong](https://github.com/jack2game/rime-molong) is based on [rime-moran](https://github.com/ksqsf/rime-moran) by [ksqsf](https://github.com/ksqsf). Changes were made to the original project.
 
-本方案根據Creative Commons Attribution-NonCommercial 4.0 International許可證發佈。您可以在[此處](LICENSE)查看完整的許可證。[rime-molong](https://github.com/jack2game/rime-molong)依據基於[ksqsf](https://github.com/ksqsf)的[rime-moran](https://github.com/ksqsf/rime-moran)方案修改製作。
+[rime-molong](https://github.com/jack2game/rime-molong)方案根據Creative Commons Attribution-NonCommercial 4.0 International許可證發佈。您可以在[此處](LICENSE)查看完整的許可證。[rime-molong](https://github.com/jack2game/rime-molong)依據基於[ksqsf](https://github.com/ksqsf)的[rime-moran](https://github.com/ksqsf/rime-moran)方案修改製作。
