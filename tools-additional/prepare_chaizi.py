@@ -8,6 +8,10 @@ You need to convert input file to UTF-8 before running
 import csv
 import re
 import argparse
+import opencc
+
+opencc_t2s = opencc.OpenCC('t2s.json')
+opencc_s2t = opencc.OpenCC('s2t.json')
 
 def replace_characters(text, replacement_dict):
     # Create a translation table for str.translate()
@@ -18,10 +22,18 @@ def replace_characters(text, replacement_dict):
 def generate_chaizi(list1, list2):
     list3 = []
     mapping_dict = dict(list2)
-    for item1 in list1:
-        key = item1[0]
-        value = ''.join(mapping_dict[char] for char in item1[1].split())
-        list3.append([key, value])
+    missing_chars_seen = set()  # Set to keep track of missing chars seen so far
+    for item in list1:
+        key = item[0]
+        value = ''
+        for char in item[1].split():
+            try:
+                value += mapping_dict[char]
+                list3.append([key, value])
+            except:
+                if char not in missing_chars_seen:
+                    missing_chars_seen.add(char)  # Add the missing char to the set
+                    print('No code for: ' + char)
     return list3
 
 def remove_dupe(input_lists):
@@ -34,7 +46,7 @@ def remove_dupe(input_lists):
             seen.add(sublist_tuple)
     return output_lists
 
-def rewrite_row(rows):
+def rewrite_row(rows, currentlib, simplib):
     replacement_dict = {
         '⺆': '越',
         '行': '形',
@@ -117,12 +129,18 @@ def rewrite_row(rows):
         '𦥯': '学',
         '𡙎': '渺',
         '𦥑': '举',
+        '耎': '软',
+        '亻': '人',
+        '耴': '哲',
+        '灷': '赚',
     }
     newrows = []
     for i, row in enumerate(rows):
         if len(row) > 1:
             original_text = row[1]
             replaced_text = ''.join(replacement_dict.get(char, char) for char in original_text)
+            if currentlib in simplib:
+                replaced_text = opencc_t2s.convert(replaced_text)
             row[1] = replaced_text
             if len(row) > 2:
                 rows[i] = [row[0], row[1]]
@@ -146,13 +164,15 @@ def get_cli_args():
 
 
 def main():
+    simplib = ['./xhloopfly-cht/moran.chars.dict.yaml']
     args = get_cli_args()
+    currentlib = args.current_library
     with open(args.input_file, newline="", encoding='UTF-8') as f:
         rows = list(csv.reader(f, delimiter="\t", quotechar="`"))
     with open(args.current_library, newline="", encoding='UTF-8') as f:
         libs = list(csv.reader(f, delimiter="\t", quotechar="`"))
 
-    rows = rewrite_row(rows)
+    rows = rewrite_row(rows, currentlib, simplib)
     rows = list(filter(None, rows)) # remove empty
     rows = remove_dupe(rows)
 

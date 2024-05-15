@@ -950,9 +950,9 @@ def get_pinyin_fn(schema: str):
         return lunapy2zrm
     if schema == "zrlong":
         return snow2zrlong
-    if schema == "xhloopkai":
+    if schema == "xhloopkai" or schema == "xhloopmoqi" or schema == "xhloopfly":
         return snow2xhloopkai
-    if schema == "zrloopkai":
+    if schema == "zrloopkai" or schema == "zrloopmoqi":
         return snow2zrloopkai
 
 def get_shape_dict(schema: str):
