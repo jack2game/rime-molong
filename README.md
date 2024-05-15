@@ -33,7 +33,7 @@
 **魔龍方案完全兼容純雙拼打字法**，藉助於[℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)和[℞霧凇拼音](https://github.com/iDvel/rime-ice)的大詞庫，以及帶調韻母的優勢，魔龍的純雙拼模式的重碼性能與傳統形碼（例如五筆）基本持平。
 ## 形碼方案
 ### 形码選擇1：自然龙
-- [℞自然龍](https://github.com/Elflare/rime-zrlong)的形碼方案是[Elflare](https://github.com/Elflare)在[℞魔然](https://github.com/ksqsf/rime-moran)形碼的基礎上修改而來，基本保持了自然碼的音托形碼的規則，同時具有重碼少、容錯低、離散高的特點，如有興趣可以前往[℞自然龍](https://github.com/Elflare/rime-zrlong)的項目倉庫做進一步的瞭解。
+[℞自然龍](https://github.com/Elflare/rime-zrlong)的形碼方案是[Elflare](https://github.com/Elflare)在[℞魔然](https://github.com/ksqsf/rime-moran)形碼的基礎上修改而來，基本保持了自然碼的音托形碼的規則，同時具有重碼少、容錯低、離散高的特點，如有興趣可以前往[℞自然龍](https://github.com/Elflare/rime-zrlong)的項目倉庫做進一步的瞭解。
 ### 形码選擇2：魔然
 ![moran](https://github.com/jack2game/rime-molong/assets/16070158/5a870436-d4e6-4b2e-a69a-1d9927294222)
 （Credit：@更漏子 製圖）
@@ -41,7 +41,8 @@
 [℞魔然](https://github.com/ksqsf/rime-moran)形碼同樣保持了自然碼的音托形碼的規則，每個字的輔助碼只有兩個字母，取碼方式極爲簡單：
 - **第一個字母** 取這個字的 **部首** 的雙拼首字母。
 - **第二個字母** 取這個字 **除部首外的最大可識讀部件** 的雙拼首字母。
-- 魔然形碼具有超大字庫、簡繁通用、易上手、容錯好的特點，如有興趣可以前往[℞魔然](https://github.com/ksqsf/rime-moran)的項目倉庫做進一步的瞭解。
+
+魔然形碼具有超大字庫、簡繁通用、易上手、容錯好的特點，如有興趣可以前往[℞魔然](https://github.com/ksqsf/rime-moran)的項目倉庫做進一步的瞭解。
 ### 形码選擇3：小鶴雙形
 - 企劃中
 ### 形码選擇4：墨奇碼
@@ -60,17 +61,21 @@
 | `YYXX`  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/6646ccb6-43ff-49a7-a8ad-724f3c9d3e2b"> | 結合優先級低⬇️，如果該編碼是合法的詞語編碼，則只顯示詞語候選項，不顯示單字 |
 | `YYXX/` | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2dd3ed1d-eb33-4dd3-8762-052e747598ba"> | 結合優先級高⬆️，一般會在詞語的前面                     |
 
-- 其中，帶有「⚡️」圖標的輸出爲固定簡碼。單字簡快碼只在輸入碼長小於等於 3 時起效。
-- 在完全熟悉簡快碼後，可以參考`molong.schema.yaml`中的說明取消或更換「⚡️」圖標。
+其中，帶有「⚡️」圖標的輸出爲固定簡碼。單字簡快碼只在輸入碼長小於等於 3 時起效。
+
+在完全熟悉簡快碼後，可以參考`molong.schema.yaml`中的說明取消或更換「⚡️」圖標。
 
 
 ## 整句輸入、與輔助碼造詞
-- 魔龍方案允許你**將輔助碼與整句雙拼混合**在一起輸入。
+魔龍方案允許你**將輔助碼與整句雙拼混合**在一起輸入。
+
 <img src="https://github.com/jack2game/rime-molong/assets/16070158/91411509-6d80-4b1c-9042-ed268960aacb">
 
-- 如果打完了第二個字回頭發現第一個字需要輔助碼，可**按 tab 鍵**快速在音節間跳轉。
-- 在用輔助碼打出一個詞後，這個詞會被自動記憶，以後可不加輔助碼打出。
-- 要刪除所造詞，可移動高亮條目到待刪除之詞，然後按下 `Ctrl+Delete` （Windows、Linux）或 `Shift+Fn+Delete`（macOS）。
+如果打完了第二個字回頭發現第一個字需要輔助碼，可**按 tab 鍵**快速在音節間跳轉。
+
+在用輔助碼打出一個詞後，這個詞會被自動記憶，以後可不加輔助碼打出。
+
+要刪除所造詞，可移動高亮條目到待刪除之詞，然後按下 `Ctrl+Delete` （Windows、Linux）或 `Shift+Fn+Delete`（macOS）。
 
 
 ## 反查功能
@@ -97,4 +102,4 @@
 ## 相關鏈接
 [℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [℞墨奇音形](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
 
-[💬魔龍以及環形系列討論版](https://github.com/jack2game/rime-molong/discussions)  [💬龍碼音形討論組](https://qm.qq.com/q/HMnh5u93Ik)  [💬魔然討論組](https://qm.qq.com/q/XdQPaf3fSq)
+[💬魔龍以及環形系列討論區](https://github.com/jack2game/rime-molong/discussions)  [💬龍碼音形討論組](https://qm.qq.com/q/HMnh5u93Ik)  [💬魔然討論組](https://qm.qq.com/q/XdQPaf3fSq)
