@@ -1023,7 +1023,7 @@ def get_cli_args():
     parser.add_argument("--pinyin", "-p", type=str, default="flypy",
                         help="Pinyin scheme")
     parser.add_argument("--shape", "-x", type=str, default="zrmdb",
-                        choices=["flypy", "zrmfast", "zrmdb", "zrmdb_zrlong"], help="shape schema")
+                        help="shape schema")
     parser.add_argument("--delimiter", "-d", type=str, default=";",
                         help="Delimiter to seperate pinyin and shape")
     parser.add_argument('--traditional', "-t", action='store_true', help='Generate traditional characters')
