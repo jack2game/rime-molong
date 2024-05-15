@@ -1,6 +1,6 @@
-## 魔龍
+基於[CC BY-NC 4.0許可證](LICENSE)發佈。
 
-根據[CC BY-NC 4.0許可證](LICENSE)發佈。
+## 魔龍
 
 魔龍是基於[℞魔然](https://github.com/ksqsf/rime-moran)框架製作的，使用[℞自然龍](https://github.com/Elflare/rime-zrlong)的帶調韻母和形碼，並根據[℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)和[℞霧凇拼音](https://github.com/iDvel/rime-ice)的大詞庫進行了擴充的[Rime](https://rime.im/)輸入方案。
 
