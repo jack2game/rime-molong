@@ -95,4 +95,4 @@
 
 
 ## 相關鏈接
-[℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [💬魔龍討論版](https://github.com/jack2game/rime-molong/discussions)  [💬龍碼音形討論組](https://qm.qq.com/q/HMnh5u93Ik)  [💬魔然討論組](https://qm.qq.com/q/XdQPaf3fSq)
+[℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [💬魔龍以及環形系列討論版](https://github.com/jack2game/rime-molong/discussions)  [💬龍碼音形討論組](https://qm.qq.com/q/HMnh5u93Ik)  [💬魔然討論組](https://qm.qq.com/q/XdQPaf3fSq)
