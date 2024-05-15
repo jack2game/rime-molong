@@ -35,7 +35,7 @@
 ### ❸環形自然音碼
 ![Molong_Page3](https://github.com/jack2game/rime-molong/assets/16070158/2c131c26-1d33-4d5c-87f3-2215c25b05d7)
 
-**魔龍的所有音碼方案均完全兼容純音碼打字法**，藉助於[℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)和[℞霧凇拼音](https://github.com/iDvel/rime-ice)的大詞庫，以及帶調韻母的優勢，魔龍的純音碼模式的詞組重碼性能與傳統形碼（例如五筆）基本持平。
+**魔龍的所有版本均完全兼容純音碼打字法**，藉助於[℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)和[℞霧凇拼音](https://github.com/iDvel/rime-ice)的大詞庫，以及帶調韻母的優勢，魔龍的純音碼模式的詞組重碼性能與傳統形碼（例如五筆）基本持平。
 ## 形碼方案
 ### ❶自然龍形码
 
