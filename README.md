@@ -30,7 +30,7 @@
 **魔龍方案完全兼容純雙拼打字法**，藉助於[℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)和[℞霧凇拼音](https://github.com/iDvel/rime-ice)的大詞庫，以及帶調韻母的優勢，魔龍的純雙拼模式的重碼性能與傳統形碼（例如五筆）基本持平。
 ## 形碼方案
 ### 形码選擇1：自然龙
-- [℞自然龍](https://github.com/Elflare/rime-zrlong)的形碼方案是[小幽幽](https://github.com/Elflare)在[℞魔然](https://github.com/ksqsf/rime-moran)形碼的基礎上修改而來，基本保持了自然碼的音托形碼的規則，同時具有重碼少、容錯低、離散高的特點，如有興趣可以前往[℞自然龍](https://github.com/Elflare/rime-zrlong)的項目倉庫做進一步的瞭解。
+- [℞自然龍](https://github.com/Elflare/rime-zrlong)的形碼方案是[Elflare](https://github.com/Elflare)在[℞魔然](https://github.com/ksqsf/rime-moran)形碼的基礎上修改而來，基本保持了自然碼的音托形碼的規則，同時具有重碼少、容錯低、離散高的特點，如有興趣可以前往[℞自然龍](https://github.com/Elflare/rime-zrlong)的項目倉庫做進一步的瞭解。
 ### 形码選擇2：魔然
 ![moran](https://github.com/jack2game/rime-molong/assets/16070158/5a870436-d4e6-4b2e-a69a-1d9927294222)
 （Credit：@更漏子 製圖）
