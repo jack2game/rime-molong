@@ -102,7 +102,7 @@
 ## 整句輸入、與輔助碼造詞
 魔龍方案允許你**將輔助碼與整句音碼混合**在一起輸入。
 
-<img src="https://github.com/jack2game/rime-molong/assets/16070158/91411509-6d80-4b1c-9042-ed268960aacb">
+<img src="https://github.com/jack2game/rime-molong/assets/16070158/42465986-7691-48f1-be0e-b6a64aff797e">
 
 如果打完了第二個字回頭發現第一個字需要輔助碼，可**按 tab 鍵**快速在音節間跳轉。
 
