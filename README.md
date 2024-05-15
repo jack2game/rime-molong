@@ -77,9 +77,9 @@
 
 魔龍方案中，每個字的編碼是雙拼碼（記作 `YY`「音音」）疊加輔助碼（記作 `XX`「形形」）。因此，一個字的全碼是 `YYXX`。在魔龍方案中，一個字有下面幾種方式可以打出：
 
-| 編碼      | 演示                                                                                                                           | 備考                                     |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| `Y`     | <img src="https://github.com/jack2game/rime-molong/assets/16070158/c57f482a-261e-4390-ac57-83e1de3f9e21">                   |                                        |
+| 編碼      | 演示                                                                                                        | 備考                                     |
+| ------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| `Y`     | <img src="https://github.com/jack2game/rime-molong/assets/16070158/c57f482a-261e-4390-ac57-83e1de3f9e21"> |                                        |
 | `YY`    | <img src="https://github.com/jack2game/rime-molong/assets/16070158/659635ef-dc0c-408c-b7a6-0786cb2eda9d"> |                                        |
 | `YYX`   | <img src="https://github.com/jack2game/rime-molong/assets/16070158/8460d133-281d-48a0-8155-43908bee9dc6"> |                                        |
 | `YYXX`  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/6646ccb6-43ff-49a7-a8ad-724f3c9d3e2b"> | 結合優先級低⬇️，如果該編碼是合法的詞語編碼，則只顯示詞語候選項，不顯示單字 |
@@ -122,6 +122,16 @@
 | 兩分反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/398a0b1f-ec03-4ec9-8f65-54858a3475b8"> |
 | 拆字反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a6eed195-4b1d-4596-bdd9-7bb96f98cdb1"> |
 
+## 增補功能
+
+| 功能說明      | 演示                                                                                                        | 備考                                                                                                  |
+| --------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 當前日期      | <img src="https://github.com/jack2game/rime-molong/assets/16070158/d46dc050-99d7-4894-ba84-d7ad480f52f3"> |                                                                                                     |
+| 當前節氣      | <img src="https://github.com/jack2game/rime-molong/assets/16070158/e816eea4-ad71-454c-a6cd-10568375584c"> |                                                                                                     |
+| 當前星期      | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a965c249-3e1b-4b75-aada-a7573a6110ea"> |                                                                                                     |
+| 當前時間      | <img src="https://github.com/jack2game/rime-molong/assets/16070158/e6c4a829-84d2-45df-a5b5-7f6bc86a0154"> |                                                                                                     |
+| 數字轉大寫     | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2861499d-1b52-4172-993f-ea48948c8e0d"> |                                                                                                     |
+| `/`引導輸入符號 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aa2548a3-9ec2-4c2d-9288-97428392e846"> | 可前往[symbols.yaml](https://github.com/jack2game/rime-molong/blob/main/molong-chs/symbols.yaml)查看更多符號 |
 
 ## 相關鏈接
 [℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [℞墨奇音形](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
