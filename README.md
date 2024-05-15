@@ -19,30 +19,56 @@
 
 
 ## 音碼方案
-### 音碼選擇1：自然龍
+### ❶自然龍音碼
 ![Molong_Page1](https://github.com/jack2game/rime-molong/assets/16070158/bc588c94-21cd-4868-99ac-1b459e9509e1)
-### 音碼選擇2：環形鶴
+### ❷環形鶴音碼
 ![Molong_Page2](https://github.com/jack2game/rime-molong/assets/16070158/747a0c49-e4bf-4a69-92ac-941e97e2c763)
-### 音碼選擇3：環形自然
+### ❸環形自然音碼
 ![Molong_Page3](https://github.com/jack2game/rime-molong/assets/16070158/2c131c26-1d33-4d5c-87f3-2215c25b05d7)
 
 **魔龍的所有音碼方案均完全兼容純雙拼打字法**，藉助於[℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)和[℞霧凇拼音](https://github.com/iDvel/rime-ice)的大詞庫，以及帶調韻母的優勢，魔龍的純雙拼模式的詞組重碼性能與傳統形碼（例如五筆）基本持平。
 ## 形碼方案
-### 形码選擇1：自然龍
+### ❶自然龍形码
+
 [℞自然龍](https://github.com/Elflare/rime-zrlong)的形碼方案是[Elflare](https://github.com/Elflare)在[℞魔然](https://github.com/ksqsf/rime-moran)形碼的基礎上修改而來，基本保持了自然碼的音托形碼的規則，同時具有重碼少、容錯低、離散高的特點，如有興趣可以前往[℞自然龍](https://github.com/Elflare/rime-zrlong)的項目倉庫做進一步的瞭解。
-### 形码選擇2：魔然
+
+### ❷魔然形码
+<details>
+
+<summary>字根圖</summary>
+
 ![moran](https://github.com/jack2game/rime-molong/assets/16070158/5a870436-d4e6-4b2e-a69a-1d9927294222)
 （Credit：@更漏子 製圖）
+
+</details>
 
 [℞魔然](https://github.com/ksqsf/rime-moran)形碼同樣保持了自然碼的音托形碼的規則，每個字的輔助碼只有兩個字母，取碼方式極爲簡單：
 - **第一個字母** 取這個字的 **部首** 的雙拼首字母。
 - **第二個字母** 取這個字 **除部首外的最大可識讀部件** 的雙拼首字母。
 
 魔然形碼具有超大字庫、簡繁通用、易上手、容錯好的特點，如有興趣可以前往[℞魔然](https://github.com/ksqsf/rime-moran)的項目倉庫做進一步的瞭解。
-### 形码選擇3：小鶴雙形
+
+### ❸小鶴雙形
+
+<details>
+
+<summary>字根圖</summary>
+
+![xhzg](https://github.com/jack2game/rime-molong/assets/16070158/c48aaa4d-fa3d-4ff8-83dd-663d18e8781d)
+
+</details>
+
 基於小鶴雙形的形碼方案，如有興趣可以前往[小鶴官方網站](https://flypy.cc/#/ux)做進一步的瞭解。
-### 形码選擇4：墨奇碼
+
+### ❹墨奇形码
+
+<details>
+
+<summary>字根圖</summary>
+
 ![Molong_Page4](https://github.com/jack2game/rime-molong/assets/16070158/63572000-632b-4511-8159-406776853e3b)
+
+</details>
 
 基於墨奇碼的形碼方案，同樣保持了音托形碼的規律，具有順序拆字、字根易讀、重碼較少的特點，如有興趣可以前往[℞墨奇碼](https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99)的項目倉庫做進一步的瞭解。
 
