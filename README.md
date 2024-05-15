@@ -6,7 +6,7 @@
 
 在魔龍的基礎上，另有兩套衍生方案，分別爲 **環形鶴（环形鹤）** 和 **環形自然（环形自然）** 。環形鶴和環形自然均爲基於雙拼的韻母分佈，通過【4聲-**1聲**-2聲-3聲】的平移規則，實現不同聲調韻母的方案。
 
-各個[Release](https://github.com/jack2game/rime-molong/releases)之間的區別請見下表。含有`-chs`後綴的方案是簡體爲主、可以打出繁體字的方案；含有`-cht`後綴方案則相反，在此不再重複。
+各[發佈版本](https://github.com/jack2game/rime-molong/releases)之間的區別請見下表。含有`-chs`後綴的方案是簡體爲主、可以打出繁體字的方案；含有`-cht`後綴方案則相反，在此不再重複。
 
 | Release      | 音碼方案 | 形碼方案 | 單字數量  | 備考          |
 | ------------ | ---- | ---- | ----- | ----------- |
@@ -21,8 +21,17 @@
 ## 音碼方案
 ### ❶自然龍音碼
 ![Molong_Page1](https://github.com/jack2game/rime-molong/assets/16070158/bc588c94-21cd-4868-99ac-1b459e9509e1)
+
 ### ❷環形鶴音碼
 ![Molong_Page2](https://github.com/jack2game/rime-molong/assets/16070158/747a0c49-e4bf-4a69-92ac-941e97e2c763)
+基於現有的雙拼韻母位置，定位相應韻母的1聲，接下來根據【4-1-2-3】的規則平移，就可以找到2聲3聲4聲。例如：
+- `ke = ke1` `kr = ke2` `kt = ke3` `kw = ke4`
+
+如果平移的過程中超過鍵盤左側或右側按鍵的邊界，則做環形移動：
+- `ha = ha1` `hs = ha2` `hk = ha3` `hl = ha4`
+
+與龍碼的亂序帶調方案對應，環形是有規律的帶調韻母方案。
+
 ### ❸環形自然音碼
 ![Molong_Page3](https://github.com/jack2game/rime-molong/assets/16070158/2c131c26-1d33-4d5c-87f3-2215c25b05d7)
 
