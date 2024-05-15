@@ -6,3 +6,8 @@
 
 # Additional Features
 - `ocz` = reverse lookup with Radical + Components, for example, `犇` = `牛牛牛` = `nmnmnm`. This function is based on [汉字拆字字典](https://github.com/mirtlecn/chaizi-re)
+
+# Key Maps
+![Molong_Page1](https://github.com/jack2game/rime-molong/assets/16070158/4849e930-c3a8-4cff-952a-bc0b9277e876)
+![Molong_Page2](https://github.com/jack2game/rime-molong/assets/16070158/9f80bac5-a2b0-4504-8a7c-e3012a857eab)
+![Molong_Page3](https://github.com/jack2game/rime-molong/assets/16070158/53e0b3ee-e209-491a-9ccd-d88c74b5257a)
