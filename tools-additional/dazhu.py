@@ -184,7 +184,7 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--folder', default='xhloopkai-chs', help='方案文件夹')
+    parser.add_argument('--folder', default='molong-chs', help='方案文件夹')
     parser.add_argument('--extended', default='snow-dicts', help='补充文件夹')
     parser.add_argument('--opencc', '-c',
                         default='moran_t2s.json',
