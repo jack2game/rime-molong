@@ -81,6 +81,7 @@ def main(args):
     cc = make_opencc(args.opencc)
     folder = args.folder
     extended = args.extended
+    output = args.output
     global table
 
     # fixed table
@@ -177,7 +178,7 @@ def main(args):
                 table.add(word, code)
 
 
-    with open('dazhu.txt', 'w') as f:
+    with open(output, 'w') as f:
         table.print_c2w(f)
         # table.print_w2c(f)
 
@@ -186,6 +187,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--folder', default='molong-chs', help='方案文件夹')
     parser.add_argument('--extended', default='snow-dicts', help='补充文件夹')
+    parser.add_argument('--output', default='dazhu.txt', help='补充文件夹')
     parser.add_argument('--opencc', '-c',
                         default='moran_t2s.json',
                         help='轉換詞表（空表示不轉換）')

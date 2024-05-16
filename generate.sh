@@ -1,12 +1,7 @@
 #!/bin/bash
 
-bash make_molong.sh
-bash make_xhloopkai.sh
-bash make_zrloopkai.sh
-bash make_xhloopfly.sh
-
 # Check if any argument is provided
-if [ "$#" -gt 0 ]; then
+if [ "$#" -gt 1 ]; then
 	# echo "Usage: $0 <arg1> [arg2] [arg3] ..."
 	echo "Packing..."
 	rm *.7z
@@ -22,12 +17,28 @@ if [ "$#" -gt 0 ]; then
 	7z a zrloopkai-cht.7z zrloopkai-cht/
 
 	echo "Releasing $1..."
-	gh release create "$1" --generate-notes *.7z
+	gh release create "$1" --generate-notes --title "$1 - $2" *.7z
 	rm *.7z
 	# exit 1
-fi
 
-echo "Updating dazhu..."
-cd tools-additional/
-python3 dazhu.py
-cd ..
+else
+	bash make_molong.sh
+	bash make_xhloopkai.sh
+	bash make_zrloopkai.sh
+	bash make_xhloopfly.sh
+	cd tools-additional/
+
+	echo ""
+	echo "Updating dazhu for molong-chs..."
+	python3 dazhu.py --folder 'molong-chs'     --output 'dazhu-molong-chs.txt'
+
+	echo ""
+	echo "Updating dazhu for xhloopkai-chs..."
+	python3 dazhu.py --folder 'xhloopkai-chs'  --output 'dazhu-xhloopkai-chs.txt'
+
+	echo ""
+	echo "Updating dazhu for zrloopkai-chs..."
+	python3 dazhu.py --folder 'zrloopkai-chs'  --output 'dazhu-zrloopkai-chs.txt'
+
+	cd ..
+fi
