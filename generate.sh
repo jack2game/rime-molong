@@ -20,6 +20,9 @@ if [ "$#" -gt 1 ]; then
 	7z a molongkai-chs.7z molongkai-chs/
 	7z a molongkai-cht.7z molongkai-cht/
 
+	7z a molongkai-chs.7z xhloopmoqi-chs/
+	7z a molongkai-cht.7z xhloopmoqi-cht/
+
 	echo "Releasing $1..."
 	gh release create "$1" --generate-notes --title "$1 - $2" *.7z
 	rm *.7z
@@ -31,6 +34,7 @@ else
 	bash make_zrloopkai.sh
 	bash make_xhloopfly.sh
 	bash make_molongkai.sh
+	bash make_xhloopmoqi.sh
 	cd tools-additional/
 
 	echo ""
