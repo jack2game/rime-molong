@@ -82,30 +82,32 @@ def main(args):
     folder = args.folder
     extended = args.extended
     output = args.output
+    fulllist = args.fulllist
     global table
 
     # fixed table
-    print("Generating fixed table")
-    with open('../' + folder + '/moran_fixed_simp.dict.yaml', 'r') as f:
-        deferred = []
-        for l in f:
-            matches = re.findall(r'^([^\t]+)\t([a-z;]+)\t?([a-z]+)?', l)
-            if matches:
-                word, code, stem = matches[0]
-                if stem:
-                    # stem should be added at the end of the list of codes of this char
-                    deferred.append((word, stem))
-            else:
-                matches = re.findall(r'^\w+$', l)
-                if not matches: continue
-                word = matches[0]
-                code = None
-            word = cc.convert(word)
-            table.add(word, code)
-        for (word, stem) in deferred:
-            table.add(word, stem)
+    if fulllist:
+        print("Generating fixed table")
+        with open('../' + folder + '/moran_fixed_simp.dict.yaml', 'r') as f:
+            deferred = []
+            for l in f:
+                matches = re.findall(r'^([^\t]+)\t([a-z;]+)\t?([a-z]+)?', l)
+                if matches:
+                    word, code, stem = matches[0]
+                    if stem:
+                        # stem should be added at the end of the list of codes of this char
+                        deferred.append((word, stem))
+                else:
+                    matches = re.findall(r'^\w+$', l)
+                    if not matches: continue
+                    word = matches[0]
+                    code = None
+                word = cc.convert(word)
+                table.add(word, code)
+            for (word, stem) in deferred:
+                table.add(word, stem)
 
-    # additional chars
+    # chars
     print("Generating character table")
     with open('../' + folder + '/moran.chars.dict.yaml', 'r') as f:
         for l in f:
@@ -116,54 +118,9 @@ def main(args):
             table.add(char, ''.join(code.split(';')) + '/', w)
 
     # base
-    print("Generating base table")
-    with open('../' + folder + '/moran.base.dict.yaml', 'r') as f:
-        for l in f:
-            matches = re.findall(r'[a-z]{2};[a-z]{2}', l)
-            if not matches: continue
-            parts = l.split('\t')
-            word = parts[0]
-            codes = parts[1]
-
-            pairs = codes.split()
-            parts_before_semicolon = [pair.split(';')[0] for pair in pairs]
-
-            code = ''.join(parts_before_semicolon)
-            table.add(word, code)
-
-    # liangfen
-    print("Generating liangfen table")
-    with open('../' + folder + '/zrlf.dict.yaml', 'r') as f:
-        for l in f:
-            matches = re.findall(r'(\w+)\t([a-z]+)', l)
-            if not matches: continue
-            char, code = matches[0]
-            table.add(char, 'olf' + code)
-
-    # stroke
-    print("Generating stroke table")
-    with open('stroke.dict.yaml') as f:
-        for l in f:
-            matches = re.findall(r'(\w+)\t([a-z]+)', l)
-            if not matches: continue
-            char, code = matches[0]
-            table.add(char, 'obh' + code)
-
-    # 拆分表
-    print("Generating radical table")
-    with open('../' + folder + '/radical_flypy.dict.yaml', 'r') as f:
-        for l in f:
-            matches = re.findall(r'(\w+)\t([a-z]+)', l)
-            if not matches: continue
-            char, code = matches[0]
-            table.add(char, 'ocz' + code)
-
-    # 补充表
-    print("Generating extended table")
-    directory = '../' + folder + '/' + extended + '/'
-    for filename in os.listdir(directory):
-        filepath = os.path.join(directory, filename)
-        with open(filepath, 'r') as f:
+    if fulllist:
+        print("Generating base table")
+        with open('../' + folder + '/moran.base.dict.yaml', 'r') as f:
             for l in f:
                 matches = re.findall(r'[a-z]{2};[a-z]{2}', l)
                 if not matches: continue
@@ -177,6 +134,56 @@ def main(args):
                 code = ''.join(parts_before_semicolon)
                 table.add(word, code)
 
+    # liangfen
+    if fulllist:
+        print("Generating liangfen table")
+        with open('../' + folder + '/zrlf.dict.yaml', 'r') as f:
+            for l in f:
+                matches = re.findall(r'(\w+)\t([a-z]+)', l)
+                if not matches: continue
+                char, code = matches[0]
+                table.add(char, 'olf' + code)
+
+    # stroke
+    if fulllist:
+        print("Generating stroke table")
+        with open('stroke.dict.yaml') as f:
+            for l in f:
+                matches = re.findall(r'(\w+)\t([a-z]+)', l)
+                if not matches: continue
+                char, code = matches[0]
+                table.add(char, 'obh' + code)
+
+    # 拆分表
+    if fulllist:
+        print("Generating radical table")
+        with open('../' + folder + '/radical_flypy.dict.yaml', 'r') as f:
+            for l in f:
+                matches = re.findall(r'(\w+)\t([a-z]+)', l)
+                if not matches: continue
+                char, code = matches[0]
+                table.add(char, 'ocz' + code)
+
+    # 补充表
+    if fulllist:
+        print("Generating extended table")
+        directory = '../' + folder + '/' + extended + '/'
+        for filename in os.listdir(directory):
+            filepath = os.path.join(directory, filename)
+            with open(filepath, 'r') as f:
+                for l in f:
+                    matches = re.findall(r'[a-z]{2};[a-z]{2}', l)
+                    if not matches: continue
+                    parts = l.split('\t')
+                    word = parts[0]
+                    codes = parts[1]
+
+                    pairs = codes.split()
+                    parts_before_semicolon = [pair.split(';')[0] for pair in pairs]
+
+                    code = ''.join(parts_before_semicolon)
+                    table.add(word, code)
+
 
     with open(output, 'w') as f:
         table.print_c2w(f)
@@ -187,7 +194,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--folder', default='molong-chs', help='方案文件夹')
     parser.add_argument('--extended', default='snow-dicts', help='补充文件夹')
-    parser.add_argument('--output', default='dazhu.txt', help='补充文件夹')
+    parser.add_argument('--output', default='dazhu.txt', help='输出文件')
+    parser.add_argument('-f', '--fulllist', action='store_true', help='输出全表')
     parser.add_argument('--opencc', '-c',
                         default='moran_t2s.json',
                         help='轉換詞表（空表示不轉換）')

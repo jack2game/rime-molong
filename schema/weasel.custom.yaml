@@ -5,8 +5,7 @@ customization:
   modified_time: "Thu May  9 11:58:31 2024"
   rime_version: 1.8.5
 patch:
-  style:
-    comment_font_face: "LXGW WenKai Mono GB Screen"
-    font_face: "LXGW WenKai Mono GB Screen"
-    label_font_face: "LXGW WenKai Mono GB Screen"
+  "style/comment_font_face": "LXGW WenKai Mono GB Screen"
+  "style/font_face": "LXGW WenKai Mono GB Screen"
+  "style/label_font_face": "LXGW WenKai Mono GB Screen"
   "style/color_scheme": psionics

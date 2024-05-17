@@ -30,15 +30,18 @@ else
 
 	echo ""
 	echo "Updating dazhu for molong-chs..."
-	python3 dazhu.py --folder 'molong-chs'     --output 'dazhu-molong-chs.txt'
+	python3 dazhu.py --folder 'molong-chs' -f    --output 'dazhu-molong-chs.txt'
+	# python3 dazhu.py --folder 'molong-chs'       --output 'dazhu-molong-chs-single.txt'
 
 	echo ""
 	echo "Updating dazhu for xhloopkai-chs..."
-	python3 dazhu.py --folder 'xhloopkai-chs'  --output 'dazhu-xhloopkai-chs.txt'
+	python3 dazhu.py --folder 'xhloopkai-chs' -f --output 'dazhu-xhloopkai-chs.txt'
+	# python3 dazhu.py --folder 'xhloopkai-chs'    --output 'dazhu-xhloopkai-chs-single.txt'
 
 	echo ""
 	echo "Updating dazhu for zrloopkai-chs..."
-	python3 dazhu.py --folder 'zrloopkai-chs'  --output 'dazhu-zrloopkai-chs.txt'
+	python3 dazhu.py --folder 'zrloopkai-chs' -f --output 'dazhu-zrloopkai-chs.txt'
+	# python3 dazhu.py --folder 'zrloopkai-chs'    --output 'dazhu-zrloopkai-chs-single.txt'
 
 	cd ..
 fi

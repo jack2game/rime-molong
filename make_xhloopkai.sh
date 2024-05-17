@@ -16,9 +16,9 @@ rm -rf ./xhloopkai-cht/.gitignore
 rm -rf ./xhloopkai-cht/README.md
 rm -rf ./xhloopkai-cht/README-en.md
 rm -rf ./xhloopkai-cht/.github/
-mv ./xhloopkai-cht/default.yaml ./schema
-mv ./xhloopkai-cht/key_bindings.yaml ./schema
-mv ./xhloopkai-cht/punctuation.yaml ./schema
+# mv ./xhloopkai-cht/default.yaml ./schema
+# mv ./xhloopkai-cht/key_bindings.yaml ./schema
+# mv ./xhloopkai-cht/punctuation.yaml ./schema
 
 
 cp ./rime-moran/tools/data/zrmdb.txt ./tools-additional

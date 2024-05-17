@@ -16,9 +16,9 @@ rm -rf ./xhloopfly-cht/.gitignore
 rm -rf ./xhloopfly-cht/README.md
 rm -rf ./xhloopfly-cht/README-en.md
 rm -rf ./xhloopfly-cht/.github/
-mv ./xhloopfly-cht/default.yaml ./schema
-mv ./xhloopfly-cht/key_bindings.yaml ./schema
-mv ./xhloopfly-cht/punctuation.yaml ./schema
+# mv ./xhloopfly-cht/default.yaml ./schema
+# mv ./xhloopfly-cht/key_bindings.yaml ./schema
+# mv ./xhloopfly-cht/punctuation.yaml ./schema
 
 
 # cp ./rime-moran/tools/data/flypydb.txt ./tools-additional
