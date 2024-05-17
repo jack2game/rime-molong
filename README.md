@@ -154,7 +154,6 @@
 | 當前節氣  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/e816eea4-ad71-454c-a6cd-10568375584c"> |
 | 當前星期  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a965c249-3e1b-4b75-aada-a7573a6110ea"> |
 | 當前時間  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/e6c4a829-84d2-45df-a5b5-7f6bc86a0154"> |
-| 數字轉大寫 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2861499d-1b52-4172-993f-ea48948c8e0d"> |
 
 </details>
 
@@ -166,6 +165,18 @@
 
 | `/`引導輸入符號 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aa2548a3-9ec2-4c2d-9288-97428392e846"> | [symbols.yaml](https://github.com/jack2game/rime-molong/blob/main/molong-chs/symbols.yaml)查看更多符號 |
 | --------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+
+</details>
+
+### 數字及計算
+
+<details>
+
+<summary>點這裏</summary>
+
+| 功能說明  | 演示                                                                                                        |
+| ----- | --------------------------------------------------------------------------------------------------------- |
+| 數字轉大寫 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2861499d-1b52-4172-993f-ea48948c8e0d"> |
 
 </details>
 
