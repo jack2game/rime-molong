@@ -145,7 +145,7 @@ def rewrite_row(rows, currentlib, simplib):
             if len(row) > 2:
                 rows[i] = [row[0], row[1]]
                 del row[1]
-                rows.insert(i+1, row)
+                rows.insert(i+1, row) # 將不同拆法寫到另外一行
             newrows.append(row)
     return newrows
 
@@ -178,12 +178,16 @@ def main():
 
     # clean up current_library
     newlibs = []
+    keys_seen = set()  # Set to keep track of keys seen so far
     for i, lib in enumerate(libs):
         if len(lib) > 1:
             lib[1] = lib[1][0:2]
             libs[i] = lib[0:3]+[i] # add index to the sublist 有词频时
             # libs[i] = lib[0:2]+[i]
-            newlibs.append(libs[i])
+            key = lib[0]
+            if key not in keys_seen:
+                keys_seen.add(key)  # Add the key to the set
+                newlibs.append(libs[i])
     libs = [sublist for sublist in newlibs if len(sublist) == 4 and len(sublist[0]) == 1] # 有词频时
     # libs = [sublist for sublist in newlibs if len(sublist) == 3 and len(sublist[0]) == 1]
     libs = sorted(libs, key=lambda x: (x[0], -int(x[2]), int(x[3]))) # 有词频时
