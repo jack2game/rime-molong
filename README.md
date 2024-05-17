@@ -127,19 +127,19 @@
 - 虎碼反查：用 `` ` `` 引導
 - 倉頡反查：用 ``ocj`` 引導
 - 筆畫反查：用 ``obh`` 引導
-- 兩分反查：用 ``olf`` 引導（注：鶴系列方案使用小鶴雙拼，其他方案使用自然雙拼）
-- 拆字反查：用 ``ocz`` 引導（注：各方案使用各自對應的音碼）
+- 兩分反查：用 ``olf`` 引導
+- 拆字反查：用 ``ocz`` 引導
 
 （在反查時，上述前綴會被隱藏，避免干擾視線。）
 
-| 反查方式  | 演示                                                                                                        |
-| ----- | --------------------------------------------------------------------------------------------------------- |
-| 通配符反查 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/73c5fc63-7ad8-4fcc-8f18-c6aceb65b530"> |
-| 虎碼反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/fa6ee644-c451-472b-a4cf-4200d9686f49"> |
-| 倉頡反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/1f58295e-37f9-4f27-8ce1-401e5e7cc00f"> |
-| 筆畫反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/b8832cb7-f965-4434-9701-84819f904f87"> |
-| 兩分反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/398a0b1f-ec03-4ec9-8f65-54858a3475b8"> |
-| 拆字反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a6eed195-4b1d-4596-bdd9-7bb96f98cdb1"> |
+| 反查方式  | 演示                                                                                                        | 備考                       |
+| ----- | --------------------------------------------------------------------------------------------------------- | ------------------------ |
+| 通配符反查 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/73c5fc63-7ad8-4fcc-8f18-c6aceb65b530"> |                          |
+| 虎碼反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/fa6ee644-c451-472b-a4cf-4200d9686f49"> |                          |
+| 倉頡反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/1f58295e-37f9-4f27-8ce1-401e5e7cc00f"> |                          |
+| 筆畫反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/b8832cb7-f965-4434-9701-84819f904f87"> |                          |
+| 兩分反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/398a0b1f-ec03-4ec9-8f65-54858a3475b8"> | 鶴系列方案使用小鶴雙拼，自然系列方案使用自然雙拼 |
+| 拆字反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a6eed195-4b1d-4596-bdd9-7bb96f98cdb1"> | 各方案使用各自對應的音碼             |
 
 ## 增強功能
 
@@ -155,7 +155,7 @@
 | `ctrl`+`s`實時簡繁轉換 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/7763db41-59c6-41d3-bf07-a821aee61757"> |                    |
 | `ctrl`+`u`查詢字符Unicode | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2821efb4-160a-467a-8b74-c6ee93ee2aa5"> |                    |
 | `ctrl`+`q`開啓emoji輸入  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/1275a616-047c-4cc2-9cc6-02ea72eec370"> |                    |
-| `ctrl`+`i`查詢拆分  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aaab2afa-b6dc-4a56-9ce3-5e55803b7667"> | 目前支持查詢魔然形碼 |
+| `ctrl`+`i`查詢拆分  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aaab2afa-b6dc-4a56-9ce3-5e55803b7667"> | 目前支持查詢魔然形碼和墨奇形碼 |
 | `U`引導Unicode直接輸入字符 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a8d59825-83be-49e5-91d1-6f181220da7e"> |                    |
 
 </details>
