@@ -950,34 +950,23 @@ def get_pinyin_fn(schema: str):
         return lunapy2zrm
     if schema == "zrlong" or schema == "molongkai":
         return snow2zrlong
-    if schema == "xhloopkai" or schema == "xhloopmoqi" or schema == "xhloopfly":
+    if schema == "xhloopkai" or schema == "xhloopmoqi" or schema == "xhloopfly":
         return snow2xhloopkai
-    if schema == "zrloopkai" or schema == "zrloopmoqi":
+    if schema == "zrloopkai" or schema == "zrloopmoqi":
         return snow2zrloopkai
 
 def get_shape_dict(schema: str):
     shape_dict = {}
     keys_seen = set()  # Set to keep track of keys seen so far
-    try:
-        with open(f"{schema}.txt", newline="", encoding='UTF-8') as f:
-            reader = csv.reader(f, delimiter="\t", quotechar="`")
-            for row in reader:
-                if len(row) >= 2:
-                    key, value = row[0], row[1]
-                    # Only add the key-value pair if the key hasn't been seen before
-                    if key not in keys_seen:
-                        shape_dict[key] = value
-                        keys_seen.add(key)  # Add the key to the set
-                # Optionally handle rows with fewer than 2 elements
-                else:
-                    # Log or raise an error
-                    pass
-    except FileNotFoundError:
-        # Log or handle the case where the file does not exist
-        pass
-    except PermissionError:
-        # Log or handle the case where you don't have permission to access the file
-        pass
+    with open(f"{schema}.txt", newline="", encoding='UTF-8') as f:
+        reader = csv.reader(f, delimiter="\t", quotechar="`")
+        for row in reader:
+            if len(row) >= 2:
+                key, value = row[0], row[1]
+                # Only add the key-value pair if the key hasn't been seen before
+                if key not in keys_seen:
+                    shape_dict[key] = value
+                    keys_seen.add(key)  # Add the key to the set
     return shape_dict
 
 
@@ -1018,12 +1007,9 @@ def get_cli_args():
     parser.add_argument("--input_file", "-i", type=str,
                         default="luna_pinyin.dict.yaml",
                         help="Input file")
-    parser.add_argument("--output_file", "-o", type=str, default="",
-                        help="Output file")
-    parser.add_argument("--pinyin", "-p", type=str, default="flypy",
-                        help="Pinyin scheme")
-    parser.add_argument("--shape", "-x", type=str, default="zrmdb",
-                        help="shape schema")
+    parser.add_argument("--output_file", "-o", type=str, default="output.txt", help="Output file")
+    parser.add_argument("--pinyin", "-p", type=str, help="Pinyin scheme")
+    parser.add_argument("--shape", "-x", type=str, help="shape schema")
     parser.add_argument("--delimiter", "-d", type=str, default=";",
                         help="Delimiter to seperate pinyin and shape")
     parser.add_argument('--traditional', "-t", action='store_true', help='Generate traditional characters')

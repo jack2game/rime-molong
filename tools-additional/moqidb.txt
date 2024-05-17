@@ -6,7 +6,6 @@
 卻	ge
 濛	du
 诶	yu
-牠	ny
 凃	dm
 咲	kt
 螓	ih
@@ -142,7 +141,7 @@
 稗	hu
 捭	fu
 半	bf
-办	ld
+办	lb
 般	vu
 板	my
 班	wl
@@ -6916,7 +6915,7 @@
 阳	eo
 杨	mp
 扬	fp
-养	bl
+养	yl
 洋	dy
 仰	re
 央	kr
