@@ -20,7 +20,7 @@ rm -rf ./xhloopmoqi-cht/.github/
 # mv ./xhloopmoqi-cht/key_bindings.yaml ./schema
 # mv ./xhloopmoqi-cht/punctuation.yaml ./schema
 
-
+cp ./rime-shuangpin-fuzhuma/opencc/moqi_chaifen.txt ./xhloopmoqi-cht/opencc/moran_chaifen.txt
 cp ./rime-shuangpin-fuzhuma/moqima8105.txt ./tools-additional/moqidb.txt
 perl -CSAD -i -pe 's/(.\t[a-z]{2})\t.*/$1/' ./tools-additional/moqidb.txt
 

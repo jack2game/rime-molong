@@ -20,8 +20,8 @@ if [ "$#" -gt 1 ]; then
 	7z a molongkai-chs.7z molongkai-chs/
 	7z a molongkai-cht.7z molongkai-cht/
 
-	7z a molongkai-chs.7z xhloopmoqi-chs/
-	7z a molongkai-cht.7z xhloopmoqi-cht/
+	7z a xhloopmoqi-chs.7z xhloopmoqi-chs/
+	7z a xhloopmoqi-cht.7z xhloopmoqi-cht/
 
 	echo "Releasing $1..."
 	gh release create "$1" --generate-notes --title "$1 - $2" *.7z
