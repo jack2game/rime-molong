@@ -948,7 +948,7 @@ def get_pinyin_fn(schema: str):
         return lunapy2flypy
     if schema == "zrm":
         return lunapy2zrm
-    if schema == "zrlong":
+    if schema == "zrlong" or schema == "molongkai":
         return snow2zrlong
     if schema == "xhloopkai" or schema == "xhloopmoqi" or schema == "xhloopfly":
         return snow2xhloopkai
