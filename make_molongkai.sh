@@ -64,25 +64,25 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molongkai-cht/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molongkai-cht/moran_fixed.dict.yaml
 sed '/#----------詞庫----------#/q' ../molongkai-cht/moran_fixed.dict.yaml > ../molongkai-cht/moran_fixed.dict.yaml.bak
-cp ../data/assess.tiger-code.com/molongkai.simpchars.4123.txt ../molongkai-cht/molongkai.simpchars.4123.txt
-# sed -i '0,/\.\.\./d' ../molongkai-cht/molongkai.simpchars.4123.txt
-opencc -i ../molongkai-cht/molongkai.simpchars.4123.txt -o ../molongkai-cht/temp.txt -c s2t
+cp ../data/assess.tiger-code.com/molongkai.simpchars.txt ../molongkai-cht/molongkai.simpchars.txt
+# sed -i '0,/\.\.\./d' ../molongkai-cht/molongkai.simpchars.txt
+opencc -i ../molongkai-cht/molongkai.simpchars.txt -o ../molongkai-cht/temp.txt -c s2t
 echo "" >> ../molongkai-cht/moran_fixed.dict.yaml.bak
 cat ../molongkai-cht/temp.txt >> ../molongkai-cht/moran_fixed.dict.yaml.bak
 sed '0,/#----------詞庫----------#/d' ../molongkai-cht/moran_fixed.dict.yaml >> ../molongkai-cht/moran_fixed.dict.yaml.bak
-rm ../molongkai-cht/molongkai.simpchars.4123.txt
+rm ../molongkai-cht/molongkai.simpchars.txt
 
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../molongkai-cht/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molongkai-cht/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molongkai-cht/moran_fixed_simp.dict.yaml
 sed '/#----------词库----------#/q' ../molongkai-cht/moran_fixed_simp.dict.yaml > ../molongkai-cht/moran_fixed_simp.dict.yaml.bak
-cp ../data/assess.tiger-code.com/molongkai.simpchars.4123.txt ../molongkai-cht/molongkai.simpchars.4123.txt
-# sed -i '0,/\.\.\./d' ../molongkai-cht/molongkai.simpchars.4123.txt
-cp ../molongkai-cht/molongkai.simpchars.4123.txt ../molongkai-cht/temp.txt
+cp ../data/assess.tiger-code.com/molongkai.simpchars.txt ../molongkai-cht/molongkai.simpchars.txt
+# sed -i '0,/\.\.\./d' ../molongkai-cht/molongkai.simpchars.txt
+cp ../molongkai-cht/molongkai.simpchars.txt ../molongkai-cht/temp.txt
 echo "" >> ../molongkai-cht/moran_fixed_simp.dict.yaml.bak
 cat ../molongkai-cht/temp.txt >> ../molongkai-cht/moran_fixed_simp.dict.yaml.bak
 sed '0,/#----------词库----------#/d' ../molongkai-cht/moran_fixed_simp.dict.yaml >> ../molongkai-cht/moran_fixed_simp.dict.yaml.bak
-rm ../molongkai-cht/molongkai.simpchars.4123.txt
+rm ../molongkai-cht/molongkai.simpchars.txt
 
 mv ../molongkai-cht/moran.chars.dict.yaml{.bak,}
 mv ../molongkai-cht/moran.base.dict.yaml{.bak,}
@@ -124,25 +124,25 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molongkai-chs/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molongkai-chs/moran_fixed.dict.yaml
 sed '/#----------詞庫----------#/q' ../molongkai-chs/moran_fixed.dict.yaml > ../molongkai-chs/moran_fixed.dict.yaml.bak
-cp ../data/assess.tiger-code.com/molongkai.simpchars.4123.txt ../molongkai-chs/molongkai.simpchars.4123.txt
-# sed -i '0,/\.\.\./d' ../molongkai-chs/molongkai.simpchars.4123.txt
-opencc -i ../molongkai-chs/molongkai.simpchars.4123.txt -o ../molongkai-chs/temp.txt -c s2t
+cp ../data/assess.tiger-code.com/molongkai.simpchars.txt ../molongkai-chs/molongkai.simpchars.txt
+# sed -i '0,/\.\.\./d' ../molongkai-chs/molongkai.simpchars.txt
+opencc -i ../molongkai-chs/molongkai.simpchars.txt -o ../molongkai-chs/temp.txt -c s2t
 echo "" >> ../molongkai-chs/moran_fixed.dict.yaml.bak
 cat ../molongkai-chs/temp.txt >> ../molongkai-chs/moran_fixed.dict.yaml.bak
 sed '0,/#----------詞庫----------#/d' ../molongkai-chs/moran_fixed.dict.yaml >> ../molongkai-chs/moran_fixed.dict.yaml.bak
-rm ../molongkai-chs/molongkai.simpchars.4123.txt
+rm ../molongkai-chs/molongkai.simpchars.txt
 
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../molongkai-chs/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molongkai-chs/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molongkai-chs/moran_fixed_simp.dict.yaml
 sed '/#----------词库----------#/q' ../molongkai-chs/moran_fixed_simp.dict.yaml > ../molongkai-chs/moran_fixed_simp.dict.yaml.bak
-cp ../data/assess.tiger-code.com/molongkai.simpchars.4123.txt ../molongkai-chs/molongkai.simpchars.4123.txt
-# sed -i '0,/\.\.\./d' ../molongkai-chs/molongkai.simpchars.4123.txt
-cp ../molongkai-chs/molongkai.simpchars.4123.txt ../molongkai-chs/temp.txt
+cp ../data/assess.tiger-code.com/molongkai.simpchars.txt ../molongkai-chs/molongkai.simpchars.txt
+# sed -i '0,/\.\.\./d' ../molongkai-chs/molongkai.simpchars.txt
+cp ../molongkai-chs/molongkai.simpchars.txt ../molongkai-chs/temp.txt
 echo "" >> ../molongkai-chs/moran_fixed_simp.dict.yaml.bak
 cat ../molongkai-chs/temp.txt >> ../molongkai-chs/moran_fixed_simp.dict.yaml.bak
 sed '0,/#----------词库----------#/d' ../molongkai-chs/moran_fixed_simp.dict.yaml >> ../molongkai-chs/moran_fixed_simp.dict.yaml.bak
-rm ../molongkai-chs/molongkai.simpchars.4123.txt
+rm ../molongkai-chs/molongkai.simpchars.txt
 
 mv ../molongkai-chs/moran.chars.dict.yaml{.bak,}
 mv ../molongkai-chs/moran.base.dict.yaml{.bak,}
