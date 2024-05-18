@@ -5,7 +5,7 @@
 魔龍是基於[℞魔然](https://github.com/ksqsf/rime-moran)框架製作的，使用[℞自然龍](https://github.com/Elflare/rime-zrlong)的帶調韻母和形碼，並根據[℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)和[℞霧凇拼音](https://github.com/iDvel/rime-ice)的大詞庫進行了擴充的[Rime](https://rime.im/)輸入方案。
 
 在魔龍的基礎上，另有兩套衍生音碼方案，分別爲 **環形鶴（环形鹤）** 和 **環形自然（环形自然）** 。環形鶴和環形自然均爲基於雙拼的韻母分佈，通過【4聲-**1聲**-2聲-3聲】的平移規則，實現不同聲調韻母的方案。
-- 龍系列以及環形系列方案，在詞組和單字兩方面均大幅領先其他音形碼。
+- 龍系列以及環形系列方案，在詞組和單字兩方面均大幅領先其他音形碼。詳情可見本頁面底部的[性能對比](#性能對比)。
 - 環形的單字性能與五筆相比具有明顯優勢，而在形碼的傳統強項詞組性能中，環形方案也同樣表現優異，僅次於類似虎碼這樣的亂序形碼。
 
 各[發行版](https://github.com/jack2game/rime-molong/releases)之間的區別請見下表。含有`-chs`後綴的方案是簡體爲主、可以打出繁體字的方案；含有`-cht`後綴方案則相反，在此不再重複。
@@ -193,6 +193,15 @@
 
 </details>
 
+## 性能對比
+- 在日常使用以及連續輸入時，性能指標的重要性依次爲：**詞組重碼率** › **單字重碼率** › **字庫大小**
+- 這是因爲絕大部分人在打字時都是採用整句/詞組的輸入方式，而重碼率降低也可以間接影響平均碼長。
+
+![comparison](https://github.com/jack2game/rime-molong/assets/16070158/ace6affa-30cc-4f15-bb47-ee7e89ca29c0)
+
+![table](https://github.com/jack2game/rime-molong/assets/16070158/7c699db6-5df9-4a6a-9513-cc05bfe8939b)
+
+測試截圖請見[此處](https://github.com/jack2game/rime-molong/tree/main/data/assess.tiger-code.com/screenshots)
 
 ## 相關鏈接
 [℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [℞墨奇音形](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
