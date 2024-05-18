@@ -944,7 +944,7 @@ def get_pinyin_fn(schema: str):
         def do_nothing(pinyin: str):
             return pinyin
         return do_nothing
-    if schema == "flypy":
+    if schema == "flypy" or "xhupmoqi":
         return lunapy2flypy
     if schema == "zrm":
         return lunapy2zrm
