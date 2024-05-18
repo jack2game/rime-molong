@@ -196,13 +196,12 @@
 ## 性能對比
 - 在日常使用以及連續輸入時，性能指標的重要性依次爲：**詞組重碼率** › **單字重碼率** › **字庫大小**
 - 這是因爲絕大部分人在打字時都是採用整句/詞組的輸入方式，而重碼率降低也可以間接影響平均碼長。
-![comparison](https://github.com/jack2game/rime-molong/assets/16070158/75ad5527-1617-4551-8e37-5aa78027fb9e)
 
 <details>
 
 <summary>詳細數據全表</summary>
 
-![table](https://github.com/jack2game/rime-molong/assets/16070158/68d2276a-34e0-4be6-a0d0-3111c6fe603a)
+
 
 </details>
 
