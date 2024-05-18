@@ -940,19 +940,19 @@ def lunapy2zrm(pinyin: str):
 
 def get_pinyin_fn(schema: str):
     schema = schema.lower()
-    if schema == "quanpin":
+    if schema in ["quanpin"]:
         def do_nothing(pinyin: str):
             return pinyin
         return do_nothing
-    if schema == "flypy" or "xhupmoqi":
+    if schema in ["flypy", "xhupmoqi"]:
         return lunapy2flypy
-    if schema == "zrm":
+    if schema in ["zrm"]:
         return lunapy2zrm
-    if schema == "zrlong" or schema == "molongkai":
+    if schema in ["zrlong", "molongkai"]:
         return snow2zrlong
-    if schema == "xhloopkai" or schema == "xhloopmoqi" or schema == "xhloopfly":
+    if schema in ["xhloopkai", "xhloopmoqi", "xhloopfly"]:
         return snow2xhloopkai
-    if schema == "zrloopkai" or schema == "zrloopmoqi":
+    if schema in ["zrloopkai", "zrloopmoqi"]:
         return snow2zrloopkai
 
 def get_shape_dict(schema: str):

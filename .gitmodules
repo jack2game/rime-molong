@@ -16,3 +16,6 @@
 [submodule "rime-shuangpin-fuzhuma"]
 	path = rime-shuangpin-fuzhuma
 	url = https://github.com/jack2game/rime-shuangpin-fuzhuma.git
+[submodule "rime-ice"]
+	path = rime-ice
+	url = https://github.com/jack2game/rime-ice.git
