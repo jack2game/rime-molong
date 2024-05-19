@@ -201,7 +201,7 @@
 
 ![table](https://github.com/jack2game/rime-molong/assets/16070158/28f57de0-77d7-4127-8bd0-661454a81493)
 
-測試截圖請見[此處](https://github.com/jack2game/rime-molong/tree/main/data/assess.tiger-code.com/screenshots)
+圖片來源：網絡
 
 ## 相關鏈接
 [℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [℞墨奇音形](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
