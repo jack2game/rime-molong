@@ -211,9 +211,9 @@ cat temp.txt >> ./molongkai-cht/radical_flypy.dict.yaml.bak
 mv ./molongkai-cht/radical_flypy.dict.yaml{.bak,}
 cp ./molongkai-cht/radical_flypy.dict.yaml ./molongkai-chs
 
-rm temp.txt
-rm ./molongkai-cht/temp.txt
-rm ./molongkai-chs/temp.txt
+rm -f temp.txt
+rm -f ./molongkai-cht/temp.txt
+rm -f ./molongkai-chs/temp.txt
 
 echo molongkai繁體設定檔...
 cd molongkai-cht
@@ -231,7 +231,7 @@ cp moran.schema.yaml molongkai.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: molongkai/g" ./molongkai.schema.yaml
 sed -i "s/^  name: 魔然$/  name: molongkai/g" ./molongkai.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./molongkai.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molongkai = moran + molongkai + snow/g" ./molongkai.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molongkai = moran + zrlong + moranshape + snow/g" ./molongkai.schema.yaml
 sed -i "s/^    - moran_fixed$/    - molongkai_fixed/g" ./molongkai.schema.yaml
 sed -i "s/^    - moran_sentence$/    - molongkai_sentence/g" ./molongkai.schema.yaml
 sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./molongkai.schema.yaml
@@ -252,7 +252,7 @@ cp moran_bj.schema.yaml molongkai_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: molongkai_bj/g" ./molongkai_bj.schema.yaml
 sed -i "s/^  name: 魔然·並擊G$/  name: molongkai並擊/g" ./molongkai_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./molongkai_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molongkai = moran + molongkai + snow/g" ./molongkai_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molongkai = moran + zrlong + moranshape + snow/g" ./molongkai_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - molongkai_fixed/g" ./molongkai_bj.schema.yaml
 sed -i "s/^    - moran_sentence$/    - molongkai_sentence/g" ./molongkai_bj.schema.yaml
 
@@ -283,7 +283,7 @@ cp moran.schema.yaml molongkai.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: molongkai/g" ./molongkai.schema.yaml
 sed -i "s/^  name: 魔然$/  name: molongkai/g" ./molongkai.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./molongkai.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molongkai = moran + molongkai + snow/g" ./molongkai.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molongkai = moran + zrlong + moranshape + snow/g" ./molongkai.schema.yaml
 sed -i "s/^    - moran_fixed$/    - molongkai_fixed/g" ./molongkai.schema.yaml
 sed -i "s/^    - moran_sentence$/    - molongkai_sentence/g" ./molongkai.schema.yaml
 sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./molongkai.schema.yaml
@@ -304,7 +304,7 @@ cp moran_bj.schema.yaml molongkai_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: molongkai_bj/g" ./molongkai_bj.schema.yaml
 sed -i "s/^  name: 魔然·並擊G$/  name: molongkai並擊/g" ./molongkai_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./molongkai_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molongkai = moran + molongkai + snow/g" ./molongkai_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    molongkai = moran + zrlong + moranshape + snow/g" ./molongkai_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - molongkai_fixed/g" ./molongkai_bj.schema.yaml
 sed -i "s/^    - moran_sentence$/    - molongkai_sentence/g" ./molongkai_bj.schema.yaml
 

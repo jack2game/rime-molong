@@ -23,8 +23,8 @@ if [ "$#" -gt 1 ]; then
 	7z a xhloopmoqi-chs.7z xhloopmoqi-chs/
 	7z a xhloopmoqi-cht.7z xhloopmoqi-cht/
 
-	# 7z a xhupmoqi-chs.7z xhupmoqi-chs/
-	# 7z a xhupmoqi-cht.7z xhupmoqi-cht/
+	7z a xhupmoqi-chs.7z xhupmoqi-chs/
+	7z a xhupmoqi-cht.7z xhupmoqi-cht/
 
 	echo "Releasing $1..."
 	gh release create "$1" --generate-notes --title "$1 - $2" *.7z
@@ -38,7 +38,7 @@ else
 	bash make_xhloopfly.sh
 	bash make_molongkai.sh
 	bash make_xhloopmoqi.sh
-	# bash make_xhupmoqi.sh
+	bash make_xhupmoqi.sh
 	cd tools-additional/
 
 	echo ""

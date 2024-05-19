@@ -211,9 +211,9 @@ cat temp.txt >> ./molong-cht/radical_flypy.dict.yaml.bak
 mv ./molong-cht/radical_flypy.dict.yaml{.bak,}
 cp ./molong-cht/radical_flypy.dict.yaml ./molong-chs
 
-rm temp.txt
-rm ./molong-cht/temp.txt
-rm ./molong-chs/temp.txt
+rm -f temp.txt
+rm -f ./molong-cht/temp.txt
+rm -f ./molong-chs/temp.txt
 
 echo molong繁體設定檔...
 cd molong-cht

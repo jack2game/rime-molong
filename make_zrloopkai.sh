@@ -211,9 +211,9 @@ cat temp.txt >> ./zrloopkai-cht/radical_flypy.dict.yaml.bak
 mv ./zrloopkai-cht/radical_flypy.dict.yaml{.bak,}
 cp ./zrloopkai-cht/radical_flypy.dict.yaml ./zrloopkai-chs
 
-rm temp.txt
-rm ./zrloopkai-cht/temp.txt
-rm ./zrloopkai-chs/temp.txt
+rm -f temp.txt
+rm -f ./zrloopkai-cht/temp.txt
+rm -f ./zrloopkai-chs/temp.txt
 
 echo zrloopkai繁體設定檔...
 cd zrloopkai-cht
@@ -231,7 +231,7 @@ cp moran.schema.yaml zrloopkai.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: zrloopkai/g" ./zrloopkai.schema.yaml
 sed -i "s/^  name: 魔然$/  name: zrloopkai/g" ./zrloopkai.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./zrloopkai.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    zrloopkai = moran + zrloopkai + snow/g" ./zrloopkai.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    zrloopkai = moran + zrloop + moranshape + snow/g" ./zrloopkai.schema.yaml
 sed -i "s/^    - moran_fixed$/    - zrloopkai_fixed/g" ./zrloopkai.schema.yaml
 sed -i "s/^    - moran_sentence$/    - zrloopkai_sentence/g" ./zrloopkai.schema.yaml
 sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./zrloopkai.schema.yaml
@@ -252,7 +252,7 @@ cp moran_bj.schema.yaml zrloopkai_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: zrloopkai_bj/g" ./zrloopkai_bj.schema.yaml
 sed -i "s/^  name: 魔然·並擊G$/  name: zrloopkai並擊/g" ./zrloopkai_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./zrloopkai_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    zrloopkai = moran + zrloopkai + snow/g" ./zrloopkai_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    zrloopkai = moran + zrloop + moranshape + snow/g" ./zrloopkai_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - zrloopkai_fixed/g" ./zrloopkai_bj.schema.yaml
 sed -i "s/^    - moran_sentence$/    - zrloopkai_sentence/g" ./zrloopkai_bj.schema.yaml
 
@@ -283,7 +283,7 @@ cp moran.schema.yaml zrloopkai.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: zrloopkai/g" ./zrloopkai.schema.yaml
 sed -i "s/^  name: 魔然$/  name: zrloopkai/g" ./zrloopkai.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./zrloopkai.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    zrloopkai = moran + zrloopkai + snow/g" ./zrloopkai.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    zrloopkai = moran + zrloop + moranshape + snow/g" ./zrloopkai.schema.yaml
 sed -i "s/^    - moran_fixed$/    - zrloopkai_fixed/g" ./zrloopkai.schema.yaml
 sed -i "s/^    - moran_sentence$/    - zrloopkai_sentence/g" ./zrloopkai.schema.yaml
 sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./zrloopkai.schema.yaml
@@ -304,7 +304,7 @@ cp moran_bj.schema.yaml zrloopkai_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: zrloopkai_bj/g" ./zrloopkai_bj.schema.yaml
 sed -i "s/^  name: 魔然·並擊G$/  name: zrloopkai並擊/g" ./zrloopkai_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./zrloopkai_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    zrloopkai = moran + zrloopkai + snow/g" ./zrloopkai_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    zrloopkai = moran + zrloop + moranshape + snow/g" ./zrloopkai_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - zrloopkai_fixed/g" ./zrloopkai_bj.schema.yaml
 sed -i "s/^    - moran_sentence$/    - zrloopkai_sentence/g" ./zrloopkai_bj.schema.yaml
 

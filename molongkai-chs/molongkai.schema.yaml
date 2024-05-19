@@ -7,7 +7,7 @@ schema:
     - 方案製作：ksqsf
     - Integrator：jack2game
   description: |
-    molongkai = moran + molongkai + snow
+    molongkai = moran + zrlong + moranshape + snow
   dependencies:
     - molongkai_fixed
     - molongkai_sentence
