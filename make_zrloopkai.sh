@@ -225,6 +225,9 @@ cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrloopkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
+
+
+
 rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml zrloopkai.schema.yaml
@@ -277,6 +280,9 @@ cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/zrloopkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
+
+
+
 rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml zrloopkai.schema.yaml

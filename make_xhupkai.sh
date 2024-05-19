@@ -45,52 +45,52 @@ python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xh
 # perl -CSAD -i -pe "s/.\t[a-z]{2};;(\t[0-9]+)?\n//g" ../xhupkai-cht/temp.txt && sed -i '0,/\.\.\./d' ../xhupkai-cht/temp.txt
 # echo "" >> ../xhupkai-cht/moran.chars.dict.yaml.bak && cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran.chars.dict.yaml.bak
 
-sed '/\.\.\./q' ../xhupkai-cht/moran.base.dict.yaml > ../xhupkai-cht/moran.base.dict.yaml.bak
-cp ../rime-ice/cn_dicts/base.dict.yaml ../xhupkai-cht/ice.base.dict.yaml
-sed -i '0,/\.\.\./d' ../xhupkai-cht/ice.base.dict.yaml
-python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../xhupkai-cht/ice.base.dict.yaml -o ../xhupkai-cht/temp.txt
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-cht/moran.base.dict.yaml > ../xhupkai-cht/moran.base.dict.yaml.bak
+# cp ../rime-ice/cn_dicts/base.dict.yaml ../xhupkai-cht/ice.base.dict.yaml
+# sed -i '0,/\.\.\./d' ../xhupkai-cht/ice.base.dict.yaml
+# python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../xhupkai-cht/ice.base.dict.yaml -o ../xhupkai-cht/temp.txt
 # echo "" >> ../xhupkai-cht/moran.base.dict.yaml.bak
-cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran.base.dict.yaml.bak
-rm ../xhupkai-cht/ice.base.dict.yaml
+# cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran.base.dict.yaml.bak
+# rm ../xhupkai-cht/ice.base.dict.yaml
 
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-cht/moran.tencent.dict.yaml > ../../xhupkai-cht/moran.tencent.dict.yaml.bak
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-cht/moran.moe.dict.yaml > ../../xhupkai-cht/moran.moe.dict.yaml.bak
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-cht/moran.computer.dict.yaml > ../../xhupkai-cht/moran.computer.dict.yaml.bak
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-cht/moran.hanyu.dict.yaml > ../../xhupkai-cht/moran.hanyu.dict.yaml.bak
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-cht/moran.words.dict.yaml > ../../xhupkai-cht/moran.words.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-cht/moran.tencent.dict.yaml > ../xhupkai-cht/moran.tencent.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-cht/moran.moe.dict.yaml > ../xhupkai-cht/moran.moe.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-cht/moran.computer.dict.yaml > ../xhupkai-cht/moran.computer.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-cht/moran.hanyu.dict.yaml > ../xhupkai-cht/moran.hanyu.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-cht/moran.words.dict.yaml > ../xhupkai-cht/moran.words.dict.yaml.bak
 python3 convert_sp.py -i ../xhupkai-cht/zrlf.dict.yaml -o ../xhupkai-cht/zrlf.dict.yaml.bak
 
 sed '/#----------詞庫----------#/q' ../xhupkai-cht/moran_fixed.dict.yaml > ../xhupkai-cht/moran_fixed.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhupkai.simpchars.txt ../xhupkai-cht/xhupkai.simpchars.txt
-# sed -i '0,/\.\.\./d' ../xhupkai-cht/xhupkai.simpchars.txt
-opencc -i ../xhupkai-cht/xhupkai.simpchars.txt -o ../xhupkai-cht/temp.txt -c s2t
-echo "" >> ../xhupkai-cht/moran_fixed.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../xhupkai-cht/moran_fixed.dict.yaml > ../xhupkai-cht/temp.txt
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2,100}\t[A-Za-z]+.*\n//g" ../xhupkai-cht/temp.txt
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]{4}.*\n//g" ../xhupkai-cht/temp.txt
+sed -i '0,/#----------詞庫----------#/d' ../xhupkai-cht/temp.txt  &&  echo "" >> ../xhupkai-cht/moran_fixed.dict.yaml.bak
 cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran_fixed.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupkai-cht/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupkai-cht/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-cht/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]+.*\n//g" ../xhupkai-cht/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{3}\t[A-Za-z]{4}+\n//g" ../xhupkai-cht/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-cht/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhupkai-cht/moran_fixed.dict.yaml >> ../xhupkai-cht/moran_fixed.dict.yaml.bak
-rm ../xhupkai-cht/xhupkai.simpchars.txt
+# rm ../xhupkai-cht/xhupkai.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhupkai-cht/moran_fixed_simp.dict.yaml > ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhupkai.simpchars.txt ../xhupkai-cht/xhupkai.simpchars.txt
-# sed -i '0,/\.\.\./d' ../xhupkai-cht/xhupkai.simpchars.txt
-cp ../xhupkai-cht/xhupkai.simpchars.txt ../xhupkai-cht/temp.txt
-echo "" >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../xhupkai-cht/moran_fixed_simp.dict.yaml > ../xhupkai-cht/temp.txt
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2,100}\t[A-Za-z]+.*\n//g" ../xhupkai-cht/temp.txt
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]{4}.*\n//g" ../xhupkai-cht/temp.txt
+sed -i '0,/#----------词库----------#/d' ../xhupkai-cht/temp.txt  &&  echo "" >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
 cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupkai-cht/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupkai-cht/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-cht/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]+.*\n//g" ../xhupkai-cht/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{3}\t[A-Za-z]{4}+\n//g" ../xhupkai-cht/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-cht/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhupkai-cht/moran_fixed_simp.dict.yaml >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
-rm ../xhupkai-cht/xhupkai.simpchars.txt
+# rm ../xhupkai-cht/xhupkai.simpchars.txt
 
 mv ../xhupkai-cht/moran.chars.dict.yaml{.bak,}
 mv ../xhupkai-cht/moran.base.dict.yaml{.bak,}
-# mv ../xhupkai-cht/moran.tencent.dict.yaml{.bak,}
-# mv ../xhupkai-cht/moran.moe.dict.yaml{.bak,}
-# mv ../xhupkai-cht/moran.computer.dict.yaml{.bak,}
-# mv ../xhupkai-cht/moran.hanyu.dict.yaml{.bak,}
-# mv ../xhupkai-cht/moran.words.dict.yaml{.bak,}
+mv ../xhupkai-cht/moran.tencent.dict.yaml{.bak,}
+mv ../xhupkai-cht/moran.moe.dict.yaml{.bak,}
+mv ../xhupkai-cht/moran.computer.dict.yaml{.bak,}
+mv ../xhupkai-cht/moran.hanyu.dict.yaml{.bak,}
+mv ../xhupkai-cht/moran.words.dict.yaml{.bak,}
 mv ../xhupkai-cht/moran_fixed.dict.yaml{.bak,}
 mv ../xhupkai-cht/moran_fixed_simp.dict.yaml{.bak,}
 mv ../xhupkai-cht/zrlf.dict.yaml{.bak,}
@@ -105,52 +105,52 @@ python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xh
 # perl -CSAD -i -pe "s/.\t[a-z]{2};;(\t[0-9]+)?\n//g" ../xhupkai-chs/temp.txt && sed -i '0,/\.\.\./d' ../xhupkai-chs/temp.txt
 # echo "" >> ../xhupkai-chs/moran.chars.dict.yaml.bak && cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran.chars.dict.yaml.bak
 
-sed '/\.\.\./q' ../xhupkai-chs/moran.base.dict.yaml > ../xhupkai-chs/moran.base.dict.yaml.bak
-cp ../rime-ice/cn_dicts/base.dict.yaml ../xhupkai-chs/ice.base.dict.yaml
-sed -i '0,/\.\.\./d' ../xhupkai-chs/ice.base.dict.yaml
-python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../xhupkai-chs/ice.base.dict.yaml -o ../xhupkai-chs/temp.txt
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-chs/moran.base.dict.yaml > ../xhupkai-chs/moran.base.dict.yaml.bak
+# cp ../rime-ice/cn_dicts/base.dict.yaml ../xhupkai-chs/ice.base.dict.yaml
+# sed -i '0,/\.\.\./d' ../xhupkai-chs/ice.base.dict.yaml
+# python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../xhupkai-chs/ice.base.dict.yaml -o ../xhupkai-chs/temp.txt
 # echo "" >> ../xhupkai-chs/moran.base.dict.yaml.bak
-cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran.base.dict.yaml.bak
-rm ../xhupkai-chs/ice.base.dict.yaml
+# cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran.base.dict.yaml.bak
+# rm ../xhupkai-chs/ice.base.dict.yaml
 
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-chs/moran.tencent.dict.yaml > ../../xhupkai-chs/moran.tencent.dict.yaml.bak
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-chs/moran.moe.dict.yaml > ../../xhupkai-chs/moran.moe.dict.yaml.bak
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-chs/moran.computer.dict.yaml > ../../xhupkai-chs/moran.computer.dict.yaml.bak
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-chs/moran.hanyu.dict.yaml > ../../xhupkai-chs/moran.hanyu.dict.yaml.bak
-# python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../../xhupkai-chs/moran.words.dict.yaml > ../../xhupkai-chs/moran.words.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-chs/moran.tencent.dict.yaml > ../xhupkai-chs/moran.tencent.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-chs/moran.moe.dict.yaml > ../xhupkai-chs/moran.moe.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-chs/moran.computer.dict.yaml > ../xhupkai-chs/moran.computer.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-chs/moran.hanyu.dict.yaml > ../xhupkai-chs/moran.hanyu.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupkai-chs/moran.words.dict.yaml > ../xhupkai-chs/moran.words.dict.yaml.bak
 python3 convert_sp.py -i ../xhupkai-chs/zrlf.dict.yaml -o ../xhupkai-chs/zrlf.dict.yaml.bak
 
 sed '/#----------詞庫----------#/q' ../xhupkai-chs/moran_fixed.dict.yaml > ../xhupkai-chs/moran_fixed.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhupkai.simpchars.txt ../xhupkai-chs/xhupkai.simpchars.txt
-# sed -i '0,/\.\.\./d' ../xhupkai-chs/xhupkai.simpchars.txt
-opencc -i ../xhupkai-chs/xhupkai.simpchars.txt -o ../xhupkai-chs/temp.txt -c s2t
-echo "" >> ../xhupkai-chs/moran_fixed.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../xhupkai-chs/moran_fixed.dict.yaml > ../xhupkai-chs/temp.txt
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2,100}\t[A-Za-z]+.*\n//g" ../xhupkai-chs/temp.txt
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]{4}.*\n//g" ../xhupkai-chs/temp.txt
+sed -i '0,/#----------詞庫----------#/d' ../xhupkai-chs/temp.txt  &&  echo "" >> ../xhupkai-chs/moran_fixed.dict.yaml.bak
 cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran_fixed.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupkai-chs/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupkai-chs/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-chs/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]+.*\n//g" ../xhupkai-chs/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{3}\t[A-Za-z]{4}+\n//g" ../xhupkai-chs/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-chs/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhupkai-chs/moran_fixed.dict.yaml >> ../xhupkai-chs/moran_fixed.dict.yaml.bak
-rm ../xhupkai-chs/xhupkai.simpchars.txt
+# rm ../xhupkai-chs/xhupkai.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhupkai-chs/moran_fixed_simp.dict.yaml > ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhupkai.simpchars.txt ../xhupkai-chs/xhupkai.simpchars.txt
-# sed -i '0,/\.\.\./d' ../xhupkai-chs/xhupkai.simpchars.txt
-cp ../xhupkai-chs/xhupkai.simpchars.txt ../xhupkai-chs/temp.txt
-echo "" >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
+python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../xhupkai-chs/moran_fixed_simp.dict.yaml > ../xhupkai-chs/temp.txt
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2,100}\t[A-Za-z]+.*\n//g" ../xhupkai-chs/temp.txt
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]{4}.*\n//g" ../xhupkai-chs/temp.txt
+sed -i '0,/#----------词库----------#/d' ../xhupkai-chs/temp.txt  &&  echo "" >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
 cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupkai-chs/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupkai-chs/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-chs/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]+.*\n//g" ../xhupkai-chs/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{3}\t[A-Za-z]{4}+\n//g" ../xhupkai-chs/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-chs/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhupkai-chs/moran_fixed_simp.dict.yaml >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
-rm ../xhupkai-chs/xhupkai.simpchars.txt
+# rm ../xhupkai-chs/xhupkai.simpchars.txt
 
 mv ../xhupkai-chs/moran.chars.dict.yaml{.bak,}
 mv ../xhupkai-chs/moran.base.dict.yaml{.bak,}
-# mv ../xhupkai-chs/moran.tencent.dict.yaml{.bak,}
-# mv ../xhupkai-chs/moran.moe.dict.yaml{.bak,}
-# mv ../xhupkai-chs/moran.computer.dict.yaml{.bak,}
-# mv ../xhupkai-chs/moran.hanyu.dict.yaml{.bak,}
-# mv ../xhupkai-chs/moran.words.dict.yaml{.bak,}
+mv ../xhupkai-chs/moran.tencent.dict.yaml{.bak,}
+mv ../xhupkai-chs/moran.moe.dict.yaml{.bak,}
+mv ../xhupkai-chs/moran.computer.dict.yaml{.bak,}
+mv ../xhupkai-chs/moran.hanyu.dict.yaml{.bak,}
+mv ../xhupkai-chs/moran.words.dict.yaml{.bak,}
 mv ../xhupkai-chs/moran_fixed.dict.yaml{.bak,}
 mv ../xhupkai-chs/moran_fixed_simp.dict.yaml{.bak,}
 mv ../xhupkai-chs/zrlf.dict.yaml{.bak,}
@@ -183,21 +183,21 @@ cp -a ./schema/default.custom.xhupkai.yaml ./xhupkai-chs/default.custom.yaml
 
 cd ./tools-additional
 # 生成繁體霧凇
+# python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../rime-ice/cn_dicts/ext.dict.yaml -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_ext.dict.yaml
+python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../rime-ice/cn_dicts/8105.dict.yaml -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_8105.dict.yaml
+python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../rime-ice/cn_dicts/41448.dict.yaml -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_41448.dict.yaml
+python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../rime-ice/cn_dicts/base.dict.yaml -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_base.dict.yaml
 python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../rime-ice/cn_dicts/ext.dict.yaml -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_ext.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/8105.dict.yaml    -x zrmdb -t -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_8105.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/41448.dict.yaml   -x zrmdb -t -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_41448.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/base.dict.yaml    -x zrmdb -t -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_base.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/ext.dict.yaml     -x zrmdb -t -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_ext.dict.yaml
 python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../rime-ice/cn_dicts/others.dict.yaml  -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_others.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/tencent.dict.yaml -x zrmdb -t -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -t -i ../rime-ice/cn_dicts/tencent.dict.yaml -o ../xhupkai-cht/ice-dicts/xhupkai_zrmdb_tencent.dict.yaml
 # 生成簡體霧凇
+# python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../rime-ice/cn_dicts/ext.dict.yaml -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_ext.dict.yaml
+python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../rime-ice/cn_dicts/8105.dict.yaml -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_8105.dict.yaml
+python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../rime-ice/cn_dicts/41448.dict.yaml -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_41448.dict.yaml
+python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../rime-ice/cn_dicts/base.dict.yaml -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_base.dict.yaml
 python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../rime-ice/cn_dicts/ext.dict.yaml -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_ext.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/8105.dict.yaml    -x zrmdb -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_8105.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/41448.dict.yaml   -x zrmdb -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_41448.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/base.dict.yaml    -x zrmdb -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_base.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/ext.dict.yaml     -x zrmdb -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_ext.dict.yaml
 python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../rime-ice/cn_dicts/others.dict.yaml -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_others.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/tencent.dict.yaml -x zrmdb -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p xhupkai -x zrmdb -s -i ../rime-ice/cn_dicts/tencent.dict.yaml -o ../xhupkai-chs/ice-dicts/xhupkai_zrmdb_tencent.dict.yaml
 cd ..
 
 # 生成ocz
@@ -222,9 +222,12 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.words  \)/  - ice-dicts\/xhupkai_zrmdb_ext      # 扩展词库\n  - ice-dicts\/xhupkai_zrmdb_others      # 其他词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml && 
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
 rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml xhupkai.schema.yaml
@@ -274,9 +277,12 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.words  \)/  - ice-dicts\/xhupkai_zrmdb_ext      # 扩展词库\n  - ice-dicts\/xhupkai_zrmdb_others      # 其他词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
 rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml xhupkai.schema.yaml
