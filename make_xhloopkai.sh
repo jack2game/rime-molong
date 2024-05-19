@@ -161,8 +161,8 @@ rm -rf ./xhloopkai-cht/tools
 rm -rf ./xhloopkai-cht/make_simp_dist.sh
 mkdir -p ./xhloopkai-cht/snow-dicts/
 mkdir -p ./xhloopkai-chs/snow-dicts/
-cp -a ./xhloopkai-cht/moran_fixed.dict.yaml ./schema/xhloopkai_fixed.dict.yaml
-cp -a ./xhloopkai-cht/moran_fixed_simp.dict.yaml ./schema/xhloopkai_fixed_simp.dict.yaml
+# cp -a ./xhloopkai-cht/moran_fixed.dict.yaml ./schema/xhloopkai_fixed.dict.yaml
+# cp -a ./xhloopkai-cht/moran_fixed_simp.dict.yaml ./schema/xhloopkai_fixed_simp.dict.yaml
 cp -a ./schema/default.custom.xhloopkai.yaml ./xhloopkai-cht/default.custom.yaml
 cp -a ./schema/default.custom.xhloopkai.yaml ./xhloopkai-chs/default.custom.yaml
 
@@ -201,9 +201,9 @@ python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../rime-snow-pinyin/s
 cd ..
 
 # 生成ocz
-cp ./schema/radical.schema.yaml ./xhloopkai-chs
-cp ./schema/radical.schema.yaml ./xhloopkai-cht
-cp ./schema/radical_flypy.dict.yaml ./xhloopkai-cht
+cp ./rime-radical-pinyin/radical.schema.yaml ./xhloopkai-chs
+cp ./rime-radical-pinyin/radical.schema.yaml ./xhloopkai-cht
+cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./xhloopkai-cht
 sed '/\.\.\./q' ./xhloopkai-cht/radical_flypy.dict.yaml > ./xhloopkai-cht/radical_flypy.dict.yaml.bak
 python3 ./tools-additional/prepare_chaizi.py -i ./chaizi-re/radical.yaml -o temp.txt -c ./xhloopkai-cht/moran.chars.dict.yaml
 echo "" >> ./xhloopkai-cht/radical_flypy.dict.yaml.bak

@@ -161,8 +161,8 @@ rm -rf ./molong-cht/tools
 rm -rf ./molong-cht/make_simp_dist.sh
 mkdir -p ./molong-cht/snow-dicts/
 mkdir -p ./molong-chs/snow-dicts/
-cp -a ./molong-cht/moran_fixed.dict.yaml ./schema/molong_fixed.dict.yaml
-cp -a ./molong-cht/moran_fixed_simp.dict.yaml ./schema/molong_fixed_simp.dict.yaml
+# cp -a ./molong-cht/moran_fixed.dict.yaml ./schema/molong_fixed.dict.yaml
+# cp -a ./molong-cht/moran_fixed_simp.dict.yaml ./schema/molong_fixed_simp.dict.yaml
 cp -a ./schema/default.custom.molong.yaml ./molong-cht/default.custom.yaml
 cp -a ./schema/default.custom.molong.yaml ./molong-chs/default.custom.yaml
 
@@ -201,9 +201,9 @@ python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -s -i ../rime-snow-piny
 cd ..
 
 # 生成ocz
-cp ./schema/radical.schema.yaml ./molong-chs
-cp ./schema/radical.schema.yaml ./molong-cht
-cp ./schema/radical_flypy.dict.yaml ./molong-cht
+cp ./rime-radical-pinyin/radical.schema.yaml ./molong-chs
+cp ./rime-radical-pinyin/radical.schema.yaml ./molong-cht
+cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./molong-cht
 sed '/\.\.\./q' ./molong-cht/radical_flypy.dict.yaml > ./molong-cht/radical_flypy.dict.yaml.bak
 python3 ./tools-additional/prepare_chaizi.py -i ./chaizi-re/radical.yaml -o temp.txt -c ./molong-cht/moran.chars.dict.yaml
 echo "" >> ./molong-cht/radical_flypy.dict.yaml.bak

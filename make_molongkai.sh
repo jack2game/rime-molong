@@ -161,8 +161,8 @@ rm -rf ./molongkai-cht/tools
 rm -rf ./molongkai-cht/make_simp_dist.sh
 mkdir -p ./molongkai-cht/snow-dicts/
 mkdir -p ./molongkai-chs/snow-dicts/
-cp -a ./molongkai-cht/moran_fixed.dict.yaml ./schema/molongkai_fixed.dict.yaml
-cp -a ./molongkai-cht/moran_fixed_simp.dict.yaml ./schema/molongkai_fixed_simp.dict.yaml
+# cp -a ./molongkai-cht/moran_fixed.dict.yaml ./schema/molongkai_fixed.dict.yaml
+# cp -a ./molongkai-cht/moran_fixed_simp.dict.yaml ./schema/molongkai_fixed_simp.dict.yaml
 cp -a ./schema/default.custom.molongkai.yaml ./molongkai-cht/default.custom.yaml
 cp -a ./schema/default.custom.molongkai.yaml ./molongkai-chs/default.custom.yaml
 
@@ -201,9 +201,9 @@ python3 gen_dict_with_shape.py -p molongkai -x zrmdb -s -i ../rime-snow-pinyin/s
 cd ..
 
 # 生成ocz
-cp ./schema/radical.schema.yaml ./molongkai-chs
-cp ./schema/radical.schema.yaml ./molongkai-cht
-cp ./schema/radical_flypy.dict.yaml ./molongkai-cht
+cp ./rime-radical-pinyin/radical.schema.yaml ./molongkai-chs
+cp ./rime-radical-pinyin/radical.schema.yaml ./molongkai-cht
+cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./molongkai-cht
 sed '/\.\.\./q' ./molongkai-cht/radical_flypy.dict.yaml > ./molongkai-cht/radical_flypy.dict.yaml.bak
 python3 ./tools-additional/prepare_chaizi.py -i ./chaizi-re/radical.yaml -o temp.txt -c ./molongkai-cht/moran.chars.dict.yaml
 echo "" >> ./molongkai-cht/radical_flypy.dict.yaml.bak

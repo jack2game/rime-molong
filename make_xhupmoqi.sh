@@ -161,8 +161,8 @@ rm -rf ./xhupmoqi-cht/tools
 rm -rf ./xhupmoqi-cht/make_simp_dist.sh
 mkdir -p ./xhupmoqi-cht/ice-dicts/
 mkdir -p ./xhupmoqi-chs/ice-dicts/
-cp -a ./xhupmoqi-cht/moran_fixed.dict.yaml ./schema/xhupmoqi_fixed.dict.yaml
-cp -a ./xhupmoqi-cht/moran_fixed_simp.dict.yaml ./schema/xhupmoqi_fixed_simp.dict.yaml
+# cp -a ./xhupmoqi-cht/moran_fixed.dict.yaml ./schema/xhupmoqi_fixed.dict.yaml
+# cp -a ./xhupmoqi-cht/moran_fixed_simp.dict.yaml ./schema/xhupmoqi_fixed_simp.dict.yaml
 cp -a ./schema/default.custom.xhupmoqi.yaml ./xhupmoqi-cht/default.custom.yaml
 cp -a ./schema/default.custom.xhupmoqi.yaml ./xhupmoqi-chs/default.custom.yaml
 
@@ -203,7 +203,7 @@ cd ..
 # 生成ocz
 cp ./rime-radical-pinyin/radical.schema.yaml ./xhupmoqi-cht
 cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./xhupmoqi-cht
-# cp ./schema/radical_flypy.dict.yaml ./xhupmoqi-cht
+# cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./xhupmoqi-cht
 # sed '/\.\.\./q' ./xhupmoqi-cht/radical_flypy.dict.yaml > ./xhupmoqi-cht/radical_flypy.dict.yaml.bak
 # python3 ./tools-additional/prepare_chaizi.py -i ./chaizi-re/radical.yaml -o temp.txt -c ./xhupmoqi-cht/moran.chars.dict.yaml
 # echo "" >> ./xhupmoqi-cht/radical_flypy.dict.yaml.bak

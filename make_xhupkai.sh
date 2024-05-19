@@ -161,8 +161,8 @@ rm -rf ./xhupkai-cht/tools
 rm -rf ./xhupkai-cht/make_simp_dist.sh
 mkdir -p ./xhupkai-cht/ice-dicts/
 mkdir -p ./xhupkai-chs/ice-dicts/
-cp -a ./xhupkai-cht/moran_fixed.dict.yaml ./schema/xhupkai_fixed.dict.yaml
-cp -a ./xhupkai-cht/moran_fixed_simp.dict.yaml ./schema/xhupkai_fixed_simp.dict.yaml
+# cp -a ./xhupkai-cht/moran_fixed.dict.yaml ./schema/xhupkai_fixed.dict.yaml
+# cp -a ./xhupkai-cht/moran_fixed_simp.dict.yaml ./schema/xhupkai_fixed_simp.dict.yaml
 cp -a ./schema/default.custom.xhupkai.yaml ./xhupkai-cht/default.custom.yaml
 cp -a ./schema/default.custom.xhupkai.yaml ./xhupkai-chs/default.custom.yaml
 
@@ -203,7 +203,7 @@ cd ..
 # 生成ocz
 cp ./rime-radical-pinyin/radical.schema.yaml ./xhupkai-cht
 cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./xhupkai-cht
-# cp ./schema/radical_flypy.dict.yaml ./xhupkai-cht
+# cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./xhupkai-cht
 # sed '/\.\.\./q' ./xhupkai-cht/radical_flypy.dict.yaml > ./xhupkai-cht/radical_flypy.dict.yaml.bak
 # python3 ./tools-additional/prepare_chaizi.py -i ./chaizi-re/radical.yaml -o temp.txt -c ./xhupkai-cht/moran.chars.dict.yaml
 # echo "" >> ./xhupkai-cht/radical_flypy.dict.yaml.bak
