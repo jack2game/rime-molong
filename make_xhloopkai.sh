@@ -47,8 +47,8 @@ cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhloopkai-cht/moran.base.dict.yaml > ../xhloopkai-cht/moran.base.dict.yaml.bak
 cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../xhloopkai-cht/snow_pinyin.base.dict.yaml
+sed -i '0,/\.\.\./d' ../xhloopkai-cht/snow_pinyin.base.dict.yaml
 python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -t -i ../xhloopkai-cht/snow_pinyin.base.dict.yaml -o ../xhloopkai-cht/temp.txt
-perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../xhloopkai-cht/temp.txt && sed -i '0,/\.\.\./d' ../xhloopkai-cht/temp.txt
 # echo "" >> ../xhloopkai-cht/moran.base.dict.yaml.bak
 cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran.base.dict.yaml.bak
 rm ../xhloopkai-cht/snow_pinyin.base.dict.yaml
@@ -107,8 +107,8 @@ cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhloopkai-chs/moran.base.dict.yaml > ../xhloopkai-chs/moran.base.dict.yaml.bak
 cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../xhloopkai-chs/snow_pinyin.base.dict.yaml
+sed -i '0,/\.\.\./d' ../xhloopkai-chs/snow_pinyin.base.dict.yaml
 python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../xhloopkai-chs/snow_pinyin.base.dict.yaml -o ../xhloopkai-chs/temp.txt
-perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../xhloopkai-chs/temp.txt && sed -i '0,/\.\.\./d' ../xhloopkai-chs/temp.txt
 # echo "" >> ../xhloopkai-chs/moran.base.dict.yaml.bak
 cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran.base.dict.yaml.bak
 rm ../xhloopkai-chs/snow_pinyin.base.dict.yaml
