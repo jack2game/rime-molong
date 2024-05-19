@@ -47,8 +47,8 @@ cat ../molong-cht/temp.txt >> ../molong-cht/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../molong-cht/moran.base.dict.yaml > ../molong-cht/moran.base.dict.yaml.bak
 cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../molong-cht/snow_pinyin.base.dict.yaml
-sed -i '0,/\.\.\./d' ../molong-cht/snow_pinyin.base.dict.yaml
 python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -t -i ../molong-cht/snow_pinyin.base.dict.yaml -o ../molong-cht/temp.txt
+perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../molong-cht/temp.txt && sed -i '0,/\.\.\./d' ../molong-cht/temp.txt
 # echo "" >> ../molong-cht/moran.base.dict.yaml.bak
 cat ../molong-cht/temp.txt >> ../molong-cht/moran.base.dict.yaml.bak
 rm ../molong-cht/snow_pinyin.base.dict.yaml
@@ -107,8 +107,8 @@ cat ../molong-chs/temp.txt >> ../molong-chs/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../molong-chs/moran.base.dict.yaml > ../molong-chs/moran.base.dict.yaml.bak
 cp ../rime-snow-pinyin/snow_pinyin.base.dict.yaml ../molong-chs/snow_pinyin.base.dict.yaml
-sed -i '0,/\.\.\./d' ../molong-chs/snow_pinyin.base.dict.yaml
 python3 gen_dict_with_shape.py -p zrlong -x zrmdb_zrlong -s -i ../molong-chs/snow_pinyin.base.dict.yaml -o ../molong-chs/temp.txt
+perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../molong-chs/temp.txt && sed -i '0,/\.\.\./d' ../molong-chs/temp.txt
 # echo "" >> ../molong-chs/moran.base.dict.yaml.bak
 cat ../molong-chs/temp.txt >> ../molong-chs/moran.base.dict.yaml.bak
 rm ../molong-chs/snow_pinyin.base.dict.yaml
