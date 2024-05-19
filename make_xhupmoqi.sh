@@ -60,27 +60,27 @@ rm ../xhupmoqi-cht/ice.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhupmoqi-cht/moran.words.dict.yaml > ../../xhupmoqi-cht/moran.words.dict.yaml.bak
 python3 convert_sp.py -i ../xhupmoqi-cht/zrlf.dict.yaml -o ../xhupmoqi-cht/zrlf.dict.yaml.bak
 
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupmoqi-cht/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupmoqi-cht/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-cht/moran_fixed.dict.yaml
 sed '/#----------詞庫----------#/q' ../xhupmoqi-cht/moran_fixed.dict.yaml > ../xhupmoqi-cht/moran_fixed.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhupmoqi.simpchars.txt ../xhupmoqi-cht/xhupmoqi.simpchars.txt
 # sed -i '0,/\.\.\./d' ../xhupmoqi-cht/xhupmoqi.simpchars.txt
 opencc -i ../xhupmoqi-cht/xhupmoqi.simpchars.txt -o ../xhupmoqi-cht/temp.txt -c s2t
 echo "" >> ../xhupmoqi-cht/moran_fixed.dict.yaml.bak
 cat ../xhupmoqi-cht/temp.txt >> ../xhupmoqi-cht/moran_fixed.dict.yaml.bak
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupmoqi-cht/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupmoqi-cht/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-cht/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhupmoqi-cht/moran_fixed.dict.yaml >> ../xhupmoqi-cht/moran_fixed.dict.yaml.bak
 rm ../xhupmoqi-cht/xhupmoqi.simpchars.txt
 
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupmoqi-cht/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupmoqi-cht/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-cht/moran_fixed_simp.dict.yaml
 sed '/#----------词库----------#/q' ../xhupmoqi-cht/moran_fixed_simp.dict.yaml > ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhupmoqi.simpchars.txt ../xhupmoqi-cht/xhupmoqi.simpchars.txt
 # sed -i '0,/\.\.\./d' ../xhupmoqi-cht/xhupmoqi.simpchars.txt
 cp ../xhupmoqi-cht/xhupmoqi.simpchars.txt ../xhupmoqi-cht/temp.txt
 echo "" >> ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak
 cat ../xhupmoqi-cht/temp.txt >> ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupmoqi-cht/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupmoqi-cht/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-cht/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhupmoqi-cht/moran_fixed_simp.dict.yaml >> ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak
 rm ../xhupmoqi-cht/xhupmoqi.simpchars.txt
 
@@ -120,27 +120,27 @@ rm ../xhupmoqi-chs/ice.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../xhupmoqi-chs/moran.words.dict.yaml > ../../xhupmoqi-chs/moran.words.dict.yaml.bak
 python3 convert_sp.py -i ../xhupmoqi-chs/zrlf.dict.yaml -o ../xhupmoqi-chs/zrlf.dict.yaml.bak
 
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupmoqi-chs/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupmoqi-chs/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-chs/moran_fixed.dict.yaml
 sed '/#----------詞庫----------#/q' ../xhupmoqi-chs/moran_fixed.dict.yaml > ../xhupmoqi-chs/moran_fixed.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhupmoqi.simpchars.txt ../xhupmoqi-chs/xhupmoqi.simpchars.txt
 # sed -i '0,/\.\.\./d' ../xhupmoqi-chs/xhupmoqi.simpchars.txt
 opencc -i ../xhupmoqi-chs/xhupmoqi.simpchars.txt -o ../xhupmoqi-chs/temp.txt -c s2t
 echo "" >> ../xhupmoqi-chs/moran_fixed.dict.yaml.bak
 cat ../xhupmoqi-chs/temp.txt >> ../xhupmoqi-chs/moran_fixed.dict.yaml.bak
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupmoqi-chs/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupmoqi-chs/moran_fixed.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-chs/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhupmoqi-chs/moran_fixed.dict.yaml >> ../xhupmoqi-chs/moran_fixed.dict.yaml.bak
 rm ../xhupmoqi-chs/xhupmoqi.simpchars.txt
 
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupmoqi-chs/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupmoqi-chs/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-chs/moran_fixed_simp.dict.yaml
 sed '/#----------词库----------#/q' ../xhupmoqi-chs/moran_fixed_simp.dict.yaml > ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhupmoqi.simpchars.txt ../xhupmoqi-chs/xhupmoqi.simpchars.txt
 # sed -i '0,/\.\.\./d' ../xhupmoqi-chs/xhupmoqi.simpchars.txt
 cp ../xhupmoqi-chs/xhupmoqi.simpchars.txt ../xhupmoqi-chs/temp.txt
 echo "" >> ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak
 cat ../xhupmoqi-chs/temp.txt >> ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhupmoqi-chs/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhupmoqi-chs/moran_fixed_simp.dict.yaml
+perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-chs/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhupmoqi-chs/moran_fixed_simp.dict.yaml >> ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak
 rm ../xhupmoqi-chs/xhupmoqi.simpchars.txt
 
