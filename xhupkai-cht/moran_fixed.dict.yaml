@@ -231,6 +231,7 @@ encoder:
 稖	bhh
 蚌	bhi
 鎊	bhj
+𠳐	bhk
 棒	bhm
 膀	bho
 彭	bhp
@@ -391,7 +392,6 @@ encoder:
 彴	box
 袹	boy
 跛	boz
-兺	by
 兺	byf
 步	bu
 卜	bua
@@ -1125,7 +1125,6 @@ encoder:
 紑	fzs
 衃	fzx
 雬	fzy
-覅	fn
 覅	fnw
 分	ff
 芬	ffc
@@ -3381,8 +3380,8 @@ encoder:
 納	nas
 拿	nau
 衲	nay
-耨	nz
 鎒	nzj
+耨	nzl
 檽	nzm
 獳	nzq
 羺	nzy
@@ -3490,7 +3489,8 @@ encoder:
 儺	nor
 懦	nox
 諾	noy
-嫩	ny
+黁	nym
+嫩	nyn
 牛	nq
 莥	nqc
 扭	nqf
@@ -3637,7 +3637,7 @@ encoder:
 縹	pns
 慓	pnx
 顠	pny
-浌	pe
+浌	ped
 噴	pf
 湓	pfd
 盆	pfm
@@ -4376,6 +4376,7 @@ encoder:
 嵩	ssu
 慫	ssx
 誦	ssy
+⭐️	st
 速	su
 宿	sub
 蘇	suc
@@ -4982,6 +4983,7 @@ encoder:
 僮	vlr
 壯	vlu
 戇	vlx
+裝	vly
 着	ve
 著	vec
 浙	ved
@@ -5230,7 +5232,7 @@ encoder:
 檛	vxm
 爪	vxp
 簻	vxv
-拽	vk
+拽	vkf
 跩	vkz
 這	vw
 我	w	wopd
@@ -6924,7 +6926,7 @@ encoder:
 北迴歸線	bhgx
 不懷好意	bhhy
 不合常理	bhil
-報戶口	bhk
+𠳐	bhk
 不合理	bhl
 悲歡離合	bhlh
 白鶴亮翅	bhli
@@ -7347,6 +7349,7 @@ encoder:
 不怒自威	bnzw
 不能自已	bnzy
 𨨏	bojb
+不怕	bp
 保平安	bpa
 不怕不識貨	bpbh
 不破不立	bpbl
@@ -9728,6 +9731,7 @@ Bilibili	bvj
 非比尋常	fbxi
 封閉系統	fbxt
 法不責衆	fbzv
+諷刺	fc
 方寸不亂	fcbl
 方寸大亂	fcdl
 非此即彼	fcjb
@@ -16779,6 +16783,7 @@ Bilibili	bvj
 民族自治	mzzv
 那時	nauio
 你愛我	naw
+牛逼	nb
 拿不動	nbd
 南北對話	nbdh
 拿不定主意	nbdy
@@ -17017,6 +17022,7 @@ Bilibili	bvj
 年年月月	nnyy
 喃喃自語	nnzy
 の	noa
+哪怕	np
 女怕嫁錯郎	npjl
 年平均增長率	npjl
 年平均增長	npjv
@@ -17306,6 +17312,8 @@ Bilibili	bvj
 平地一聲雷	pdyl
 排毒養顏	pdyy
 碰釘子	pdz
+配額	pe
+普洱	pe
 破而後立	pehl
 剖腹藏珠	pfcv
 捧腹大笑	pfdx
@@ -18745,7 +18753,7 @@ Bilibili	bvj
 繞了一圈	rlyq
 肉爛在鍋裏	rlzl
 人力資源	rlzy
-入門	rm
+人們	rm
 人民幣	rmb
 人們的	rmd
 人民代表大會制度	rmdd
@@ -19482,7 +19490,7 @@ Bilibili	bvj
 搜索引擎	ssyq
 雖死猶生	ssyu
 歲歲有今朝	ssyv
-色圖	st
+⭐️	st
 四通八達	stbd
 四體不勤	stbq
 四通八達上房揭瓦	stbw
@@ -21826,6 +21834,7 @@ Bilibili	bvj
 只此一家	vcyj
 註冊資本	vczb
 註冊資金	vczj
+知道	vd
 這都被	vdb
 諸多不便	vdbb
 債多不愁	vdbi
@@ -21878,7 +21887,6 @@ Bilibili	bvj
 值得信賴	vdxl
 重點項目	vdxm
 直到現在	vdxz
-豬隊友	vdy
 渣打銀行	vdyh
 睜大眼睛	vdyj
 志得意滿	vdym
@@ -22613,6 +22621,7 @@ Bilibili	bvj
 專心一志	vxyv
 只羨鴛鴦不羨仙	vxyx
 直性子	vxz
+這樣	vy
 桌椅板凳	vybd
 直言不諱	vybh
 中央辦公廳	vybt
@@ -25237,6 +25246,7 @@ WiFi	wifi
 一個方面	ygfm
 有關方面	ygfm
 異國風情	ygfq
+一個個	ygg
 一改故轍	yggv
 因果關係	yggx
 雲貴高原	yggy
@@ -27521,7 +27531,6 @@ WiFi	wifi
 孜孜以求	zzyq
 自作自受	zzzu
 自自在在	zzzz
-一個個	ygg
 
 這麼厲害	vmlh
 這麼無聊	vmwl

@@ -392,7 +392,7 @@ use_preset_vocabulary: false
 一眼之间	yi;aa yj;og vi;dd jm;mo
 一瞥春秋	yi;aa px;ob ip;of qq;hh
 一瞬千击	yi;aa up;ou qm;pa ji;aa
-一碗热汤	yi;aa wj;uw re;dv th;dy
+一碗热汤	yi;aa wj;uw re;hv th;dy
 一禅小和尚	yi;aa ij;ud xc;ad he;hk uh;xk
 一秒之序	yi;aa mc;hu vi;dd xu;gy
 一秒的梦	yi;aa mc;hu de;bu mg;mx
@@ -948,7 +948,7 @@ use_preset_vocabulary: false
 三味	sj;aa wz;kw
 三味线	sj;aa wz;kw xm;sj
 三和大志	sj;aa he;hk da;ad vi;ux
-三和狂热综合症	sj;aa he;hk kd;qw re;dv zs;sz he;rk vg;bv
+三和狂热综合症	sj;aa he;hk kd;qw re;hv zs;sz he;rk vg;bv
 三咲里奈	sj;aa xc;kg li;aa nl;du
 三咲麻里	sj;aa xc;kg ma;gl li;aa
 三品建	sj;aa pn;kk jm;zy
@@ -1971,8 +1971,8 @@ use_preset_vocabulary: false
 不弃与拯救之爱	bu;ad qi;cw yu;aa vg;fi jq;wq vi;dd ai;vy
 不止一个	bu;ad vi;aa yi;aa ge;ra
 不正常恋爱物语	bu;ad vg;av ih;jk lm;xy ai;vy wu;nw yu;yw
-不正经的魔术讲师与禁忌教典	bu;ad vg;av jy;sg de;bu mo;gm uu;md jd;yj ui;ab yu;aa jn;ul ji;jx jc;wx dm;ba
-不正经魔术讲师与禁忌教典	bu;ad vg;av jy;sg mo;gm uu;md jd;yj ui;ab yu;aa jn;ul ji;jx jc;wx dm;ba
+不正经的魔术讲师与禁忌教典	bu;ad vg;av jy;sg de;bu mo;gm uu;md jd;yj ui;ab yu;aa jn;ul ji;xj jc;wx dm;ba
+不正经魔术讲师与禁忌教典	bu;ad vg;av jy;sg mo;gm uu;md jd;yj ui;ab yu;aa jn;ul ji;xj jc;wx dm;ba
 不正解恐怖主义	bu;ad vg;av jx;jn ks;xg bu;xb vu;dw yi;di
 不归	bu;ad gv;ax
 不归林	bu;ad gv;ax ln;mm
@@ -2014,10 +2014,10 @@ use_preset_vocabulary: false
 不灭忍	bu;ad mx;ah rf;xr
 不灭忍精灵王	bu;ad mx;ah rf;xr jy;mq ly;hx wh;aa
 不灭星锚	bu;ad mx;ah xy;ou mk;jm
-不灭热情	bu;ad mx;ah re;dv qy;xq
+不灭热情	bu;ad mx;ah re;hv qy;xq
 不灭狂雷	bu;ad mx;ah kd;qw lz;yt
 不灭的激情	bu;ad mx;ah de;bu ji;dj qy;xq
-不灭的热情	bu;ad mx;ah de;bu re;dv qy;xq
+不灭的热情	bu;ad mx;ah de;bu re;hv qy;xq
 不灭钻石	bu;ad mx;ah zr;jv ui;kp
 不熄	bu;ad xi;hx
 不熄之夜	bu;ad xi;hx vi;dd ye;wd
@@ -2285,7 +2285,7 @@ use_preset_vocabulary: false
 世界上最可爱的妹妹	ui;ca jx;tj uh;aa zv;oq ke;dk ai;vy de;bu mz;nw mz;nw
 世界上最幸福的女孩	ui;ca jx;tj uh;aa zv;oq xy;tu fu;uf de;bu nv;aa hl;zh
 世界上最后一首歌	ui;ca jx;tj uh;aa zv;oq hb;pk yi;aa ub;qz ge;qg
-世界上最热的夏天	ui;ca jx;tj uh;aa zv;oq re;dv de;bu xw;wz tm;ad
+世界上最热的夏天	ui;ca jx;tj uh;aa zv;oq re;hv de;bu xw;wz tm;ad
 世界不正解	ui;ca jx;tj bu;ad vg;av jx;jn
 世界不灭	ui;ca jx;tj bu;ad mx;ah
 世界之树	ui;ca jx;tj vi;dd uu;md
@@ -5657,7 +5657,7 @@ use_preset_vocabulary: false
 伊藤止	yi;ry tg;ct vi;aa
 伊藤泰斗	yi;ry tg;ct tl;fu db;du
 伊藤润二	yi;ry tg;ct rp;dr er;aa
-伊藤润二狂热	yi;ry tg;ct rp;dr er;aa kd;qw re;dv
+伊藤润二狂热	yi;ry tg;ct rp;dr er;aa kd;qw re;hv
 伊藤润二惊选集	yi;ry tg;ct rp;dr er;aa jy;xj xr;zx ji;mv
 伊藤真二	yi;ry tg;ct vf;uj er;aa
 伊藤真澄	yi;ry tg;ct vf;uj ig;dd
@@ -6947,7 +6947,7 @@ use_preset_vocabulary: false
 来自已完结的世界	ll;am zi;pa yi;vg wj;by jx;sj de;bu ui;ca jx;tj
 来自幸运逻辑	ll;am zi;pa xy;tu yp;zy lo;zl ji;ie
 来自彼方的镇魂歌	ll;am zi;pa bi;xp fh;dg de;bu vf;jv hp;gy ge;qg
-来自微热的神秘	ll;am zi;pa wz;xw re;dv de;bu uf;uu mi;hb
+来自微热的神秘	ll;am zi;pa wz;xw re;hv de;bu uf;uu mi;hb
 来自意大利的少年	ll;am zi;pa yi;xy da;ad li;hd de;bu uk;xp nm;pa
 来自爱因斯坦之爱	ll;am zi;pa ai;vy yn;kd si;jq tj;td vi;dd ai;vy
 来自忧郁的情书	ll;am zi;pa yb;xy yu;ey de;bu qy;xq uu;ad
@@ -7112,7 +7112,7 @@ use_preset_vocabulary: false
 便利道具	bm;rg li;hd dk;zu ju;ba
 便娘收藏	bm;rg nd;nl ub;wj ch;cg
 便携版	bm;rg xx;fj bj;pf
-便携的瓶装威士忌	bm;rg xx;fj de;bu py;wb vd;yv wz;gn ui;aa ji;jx
+便携的瓶装威士忌	bm;rg xx;fj de;bu py;wb vd;yv wz;gn ui;aa ji;xj
 便机战争	bm;rg ji;mj vj;gv vg;dy
 便当	bm;rg dh;xx
 便当歌	bm;rg dh;xx ge;qg
@@ -8293,7 +8293,7 @@ use_preset_vocabulary: false
 伪装宝箱	wz;rw vd;yv bk;by xd;vx
 伪装枪	wz;rw vd;yv qd;mc
 伪装武器	wz;rw vd;yv wu;vy qi;kk
-伪装禁忌之恋	wz;rw vd;yv jn;ul ji;jx vi;dd lm;xy
+伪装禁忌之恋	wz;rw vd;yv jn;ul ji;xj vi;dd lm;xy
 伪装舞会莱娜	wz;rw vd;yv wu;rf hv;ry ll;cl na;nn
 伪装龙	wz;rw vd;yv ls;ad
 伪西里尔字母	wz;rw xi;aa li;aa er;dx zi;bz mu;ad
@@ -11587,7 +11587,7 @@ use_preset_vocabulary: false
 前院草坪	qm;bd yr;ew ck;cz py;tp
 前面可是地狱啊	qm;bd mm;aa ke;dk ui;op di;ty yu;qq aa;ka
 前鬼	qm;bd gv;pd
-刹帝利	ua;du di;jb li;hd
+刹帝利	ia;du di;jb li;hd
 刹月华	ua;du yt;oy hw;uh
 刹那	ia;du na;el
 刹那之物主义	ia;du na;el vi;dd wu;nw vu;dw yi;di
@@ -12106,7 +12106,7 @@ use_preset_vocabulary: false
 加濑明日香	jw;lk ll;dl my;oo ri;aa xd;ho
 加濑贤治	jw;lk ll;dl xm;by vi;dt
 加濑风靡	jw;lk ll;dl fg;ji mi;fm
-加热器	jw;lk re;dv qi;kk
+加热器	jw;lk re;hv qi;kk
 加尔加里	jw;lk er;dx jw;lk li;aa
 加尔古玛库	jw;lk er;dx gu;uk ma;wm ku;gi
 加尔古玛库大修道院	jw;lk er;dx gu;uk ma;wm ku;gi da;ad xq;rp dk;zu yr;ew
@@ -16651,7 +16651,7 @@ use_preset_vocabulary: false
 和之匣	he;hk vi;dd xw;kj
 和之国篇登场角色	he;hk vi;dd go;ky pm;vb dg;dd ih;ty jt;dy se;db
 和人气声优打情骂俏结婚的爱情喜剧	he;hk rf;pd qi;py ug;um yb;ry da;fd qy;xq ma;km qc;rx jx;sj hp;nh de;bu ai;vy qy;xq xi;uk ju;dj
-和人气声优亲亲热热结婚的恋爱喜剧	he;hk rf;pd qi;py ug;um yb;ry qn;lm qn;lm re;dv re;dv jx;sj hp;nh de;bu lm;xy ai;vy xi;uk ju;dj
+和人气声优亲亲热热结婚的恋爱喜剧	he;hk rf;pd qi;py ug;um yb;ry qn;lm qn;lm re;hv re;hv jx;sj hp;nh de;bu lm;xy ai;vy xi;uk ju;dj
 和你	he;hk ni;re
 和你一起	he;hk ni;re yi;aa qi;zj
 和你一起前行	he;hk ni;re yi;aa qi;zj qm;bd xy;xd
@@ -18221,7 +18221,7 @@ use_preset_vocabulary: false
 严校长	yj;ap xc;mj vh;pd
 严畯	yj;ap jp;tj
 严白虎	yj;ap bl;pa hu;hj
-严禁热灰入桶	yj;ap jn;ul re;dv hv;hu ru;pd ts;my
+严禁热灰入桶	yj;ap jn;ul re;hv hv;hu ru;pd ts;my
 严纲	yj;ap gh;sg
 严莉莉	yj;ap li;cl li;cl
 严艺楠	yj;ap yi;cy nj;mn
@@ -19028,7 +19028,7 @@ use_preset_vocabulary: false
 土门久美	tu;aa mf;dg jq;pd mz;dy
 土门仁	tu;aa mf;dg rf;re
 土门日轮	tu;aa mf;dg ri;aa lp;il
-土门热	tu;aa mf;dg re;dv
+土门热	tu;aa mf;dg re;hv
 土间埋	tu;aa jm;mo ml;tl
 土间大平	tu;aa jm;mo da;ad py;aa
 土间大平的母亲	tu;aa jm;mo da;ad py;aa de;bu mu;ad qn;lm
@@ -21170,8 +21170,8 @@ use_preset_vocabulary: false
 外传	wl;xb vr;rv
 外传剧情登场角色	wl;xb vr;rv ju;dj qy;xq dg;dd ih;ty jt;dy se;db
 外公	wl;xb gs;sb
-外冷内热	wl;xb lg;dl nz;ad re;dv
-外冷内热的青梅对我的暗恋暴露无遗	wl;xb lg;dl nz;ad re;dv de;bu qy;of mz;mm dv;cy wo;pd de;bu an;oy lm;xy bk;ou lu;yl wu;ag yi;zg
+外冷内热	wl;xb lg;dl nz;ad re;hv
+外冷内热的青梅对我的暗恋暴露无遗	wl;xb lg;dl nz;ad re;hv de;bu qy;of mz;mm dv;cy wo;pd de;bu an;oy lm;xy bk;ou lu;yl wu;ag yi;zg
 外功	wl;xb gs;gl
 外国人	wl;xb go;ky rf;pd
 外地人	wl;xb di;ty rf;pd
@@ -21199,7 +21199,7 @@ use_preset_vocabulary: false
 外村秀雄	wl;xb cp;mc xq;hn xs;vh
 外柔内刚	wl;xb rb;mm nz;ad gh;dg
 外法之骑士	wl;xb fa;dq vi;dd qi;mq ui;aa
-外热内冷	wl;xb re;dv nz;ad lg;dl
+外热内冷	wl;xb re;hv nz;ad lg;dl
 外兽祭兽人们的冒险酒馆	wl;xb ub;ka ji;uy ub;ka rf;pd mf;rm de;bu mk;oo xm;ea jq;dy gr;ug
 外甥	wl;xb ug;un
 外甥女	wl;xb ug;un nv;aa
@@ -21247,7 +21247,7 @@ use_preset_vocabulary: false
 多功能步兵车娘	do;xx gs;gl ng;sb bu;vx by;qb ie;aa nd;nl
 多功能钳	do;xx gs;gl ng;sb qm;jg
 多动症	do;xx ds;ly vg;bv
-多喝热水	do;xx he;kh re;dv uv;ad
+多喝热水	do;xx he;kh re;hv uv;ad
 多喵的壮观	do;xx mc;km de;bu vd;ju gr;jy
 多块石人	do;xx ky;td ui;kp rf;pd
 多塞特郡	do;xx sl;tb te;ns jp;ej
@@ -21348,7 +21348,7 @@ use_preset_vocabulary: false
 多维复仇切换	do;xx wz;sv fu;pw ib;rj qx;dq hr;fh
 多维复活	do;xx wz;sv fu;pw ho;du
 多维效果	do;xx wz;sv xc;wj go;ad
-多维热战	do;xx wz;sv re;dv vj;gv
+多维热战	do;xx wz;sv re;hv vj;gv
 多维变奏	do;xx wz;sv bm;wy zb;ft
 多维逆转	do;xx wz;sv ni;zn vr;iv
 多罗温	do;xx lo;sx wf;dm
@@ -22202,7 +22202,7 @@ use_preset_vocabulary: false
 大型斜口钳	da;ad xy;tx xx;dy kb;aa qm;jg
 大型斜嘴钳	da;ad xy;tx xx;dy zv;kj qm;jg
 大型柏油路面切缝机	da;ad xy;tx bl;mb yb;dy lu;zg mm;aa qx;dq fg;sf ji;mj
-大型活动及其预热剧情	da;ad xy;tx ho;du ds;ly ji;nd qi;ba yu;yy re;dv ju;dj qy;xq
+大型活动及其预热剧情	da;ad xy;tx ho;du ds;ly ji;nd qi;ba yu;yy re;hv ju;dj qy;xq
 大型液压挖掘机	da;ad xy;tx ye;dy ya;id wa;fw jt;fq ji;mj
 大型滑模摊铺机	da;ad xy;tx hw;dg mo;mm tj;fn pu;jf ji;mj
 大型潜水泵	da;ad xy;tx qm;dt uv;ad bg;uu
@@ -22592,7 +22592,7 @@ use_preset_vocabulary: false
 大熊和奏	da;ad xs;dn he;hk zb;ft
 大熊实	da;ad xs;dn ui;bt
 大熊猫	da;ad xs;dn mk;qm
-大热波	da;ad re;dv bo;dp
+大热波	da;ad re;hv bo;dp
 大爆冷门	da;ad bk;hb lg;dl mf;dg
 大爆走	da;ad bk;hb zb;tv
 大爷	da;ad ye;fe
@@ -25037,7 +25037,7 @@ use_preset_vocabulary: false
 女武神悠悠球	nv;aa wu;vy uf;uu yb;xw yb;xw qq;wq
 女武神战车	nv;aa wu;vy uf;uu vj;gv ie;aa
 女武神荣光	nv;aa wu;vy uf;uu rs;cm gd;ea
-女武神热砂	nv;aa wu;vy uf;uu re;dv ua;uu
+女武神热砂	nv;aa wu;vy uf;uu re;hv ua;uu
 女武神的契约书	nv;aa wu;vy uf;uu de;bu qi;dd yt;su uu;ad
 女武神的餐桌	nv;aa wu;vy uf;uu de;bu cj;uy vo;mo
 女武神的骑行	nv;aa wu;vy uf;uu de;bu qi;mq xy;xd
@@ -25266,7 +25266,7 @@ use_preset_vocabulary: false
 好比是最终迷宫前的少年到新手村生活一般的故事	hk;nz bi;bb ui;op zv;oq vs;sd mi;zm gs;bl qm;bd de;bu uk;xp nm;pa dk;dv xn;jq ub;pa cp;mc ug;na ho;du yi;aa bj;vu de;bu gu;wg ui;aa
 好汀文化	hk;nz ty;dd wf;wi hw;rb
 好湿	hk;nz ui;dx
-好热好热	hk;nz re;dv hk;nz re;dv
+好热好热	hk;nz re;hv hk;nz re;hv
 好田爱菜	hk;nz tm;aa ai;vy cl;cc
 好困啊	hk;nz kp;km aa;ka
 好童王子和乐浪公主	hk;nz ts;ll wh;aa zi;aa he;hk le;pd lh;dl gs;sb vu;dw
@@ -25473,7 +25473,7 @@ use_preset_vocabulary: false
 妄想进化论	wh;nw xd;xx jn;zj hw;rb lp;yl
 妄语之帜	wh;nw yu;yw vi;dd vi;jv
 妄语人间	wh;nw yu;yw rf;pd jm;mo
-妒忌	du;nh ji;jx
+妒忌	du;nh ji;xj
 妒良	du;nh ld;dg
 妓夫太郎	ji;nv fu;ad tl;dd lh;el
 妓女	ji;nv nv;aa
@@ -25498,7 +25498,7 @@ use_preset_vocabulary: false
 妖妖舞	yk;ny yk;ny wu;rf
 妖师录	yk;ny ui;ab lu;au
 妖幻三重奏	yk;ny hr;yg sj;aa is;pa zb;ft
-妖忌	yk;ny ji;jx
+妖忌	yk;ny ji;xj
 妖忍三重奏	yk;ny rf;xr sj;aa is;pa zb;ft
 妖怪	yk;ny gy;xu
 妖怪之家	yk;ny gy;xu vi;dd jw;bu
@@ -28968,7 +28968,7 @@ use_preset_vocabulary: false
 小幸的性感咖喱	xc;ad xy;tu de;bu xy;xu gj;xx ga;kj li;kl
 小幸的母亲	xc;ad xy;tu de;bu mu;ad qn;lm
 小弑	xc;ad ui;iu
-小弟的我与热恋的番长	xc;ad di;bp de;bu wo;pd yu;aa re;dv lm;xy de;bu fj;tb vh;pd
+小弟的我与热恋的番长	xc;ad di;bp de;bu wo;pd yu;aa re;hv lm;xy de;bu fj;tb vh;pd
 小张凛	xc;ad vh;gi ln;db
 小强	xc;ad qd;gs
 小弥生	xc;ad mi;ge ug;na
@@ -32258,7 +32258,7 @@ use_preset_vocabulary: false
 希望之峰学园	xi;ju wh;wo vi;dd fg;uf xt;dz yr;ky
 希望之峰学院	xi;ju wh;wo vi;dd fg;uf xt;dz yr;ew
 希望之歌	xi;ju wh;wo vi;dd ge;qg
-希望之异热同心	xi;ju wh;wo vi;dd yi;cs re;dv ts;kk xn;dd
+希望之异热同心	xi;ju wh;wo vi;dd yi;cs re;hv ts;kk xn;dd
 希望之篮	xi;ju wh;wo vi;dd lj;vj
 希望之花	xi;ju wh;wo vi;dd hw;ch
 希望之魔术师	xi;ju wh;wo vi;dd mo;gm uu;md ui;ab
@@ -32310,7 +32310,7 @@ use_preset_vocabulary: false
 希洛涅玛	xi;ju lo;dg nx;dn ma;wm
 希尔	xi;ju er;dx
 希尔伯伦德柯伊伯	xi;ju er;dx bo;rb lp;rl de;xx ke;mk yi;ry bo;rb
-希尔伯特让昂热	xi;ju er;dx bo;rb te;ns rh;yu ah;oe re;dv
+希尔伯特让昂热	xi;ju er;dx bo;rb te;ns rh;yu ah;oe re;hv
 希尔基	xi;ju er;dx ji;tq
 希尔妲	xi;ju er;dx da;nd
 希尔妲凡伦汀哥纳利尔	xi;ju er;dx da;nd fj;dj lp;rl ty;dd ge;kd na;sn li;hd er;dx
@@ -32471,7 +32471,7 @@ use_preset_vocabulary: false
 帕比	pa;jb bi;bb
 帕洛斯	pa;jb lo;dg si;jq
 帕海贝尔	pa;jb hl;dm bz;ad er;dx
-帕热妮	pa;jb re;dv ni;nn
+帕热妮	pa;jb re;hv ni;nn
 帕尔普特克斯弗朗达斯	pa;jb er;dx pu;ob te;ns ke;eg si;jq fu;aa lh;ol da;zd si;jq
 帕尔玛火腿	pa;jb er;dx ma;wm ho;dd tv;ot
 帕尔瓦蒂	pa;jb er;dx wa;ad di;cd
@@ -34309,7 +34309,7 @@ use_preset_vocabulary: false
 张泽仁	vh;gi ze;df rf;re
 张泽湘	vh;gi ze;df xd;dx
 张济	vh;gi ji;dq
-张无忌	vh;gi wu;ag ji;jx
+张无忌	vh;gi wu;ag ji;xj
 张琦	vh;gi qi;wq
 张琪瑛	vh;gi qi;wq yy;wy
 张琳	vh;gi ln;wl
@@ -35423,10 +35423,10 @@ use_preset_vocabulary: false
 微曦赋	wz;xw xi;ox fu;bw
 微波炉	wz;xw bo;dp lu;hh
 微混吃等死	wz;xw hp;dk ii;kq dg;vs si;db
-微热狂欢节	wz;xw re;dv kd;qw hr;yq jx;ce
-微热的华尔兹	wz;xw re;dv de;bu hw;uh er;dx zi;by
-微热空间	wz;xw re;dv ks;xg jm;mo
-微热与焦燥	wz;xw re;dv yu;aa jc;hv zk;hz
+微热狂欢节	wz;xw re;hv kd;qw hr;yq jx;ce
+微热的华尔兹	wz;xw re;hv de;bu hw;uh er;dx zi;by
+微热空间	wz;xw re;hv ks;xg jm;mo
+微热与焦燥	wz;xw re;hv yu;aa jc;hv zk;hz
 微眠的乐园	wz;xw mm;om de;bu le;pd yr;ky
 微睡	wz;xw uv;oi
 微笑	wz;xw xc;vy
@@ -35818,7 +35818,7 @@ use_preset_vocabulary: false
 心脏	xn;dd zh;ov
 心脏冰冻	xn;dd zh;ov by;du ds;dd
 心脏民主	xn;dd zh;ov mn;ag vu;dw
-心脏热成像	xn;dd zh;ov re;dv ig;gg xd;rx
+心脏热成像	xn;dd zh;ov re;hv ig;gg xd;rx
 心脏与人偶	xn;dd zh;ov yu;aa rf;pd ou;ry
 心脏与机关	xn;dd zh;ov yu;aa ji;mj gr;bt
 心脏连接	xn;dd zh;ov lm;zi jx;fq
@@ -35942,10 +35942,10 @@ use_preset_vocabulary: false
 必须氨基酸	bi;dd xu;py an;qa ji;tq sr;yj
 必须要吃巧克力薄荷味冰淇淋的琴叶葵酱	bi;dd xu;py yk;xn ii;kq qc;gk ke;eg li;gp bo;cc he;ch wz;kw by;du qi;dq ln;dl de;bu qn;wj ye;ku kv;cg jd;yx
 必高快马	bi;dd gk;wk ky;xd ma;aa
-忌名子	ji;jx my;xk zi;aa
-忌梦	ji;jx mg;mx
-忌布基	ji;jx bu;ju ji;tq
-忌村静子	ji;jx cp;mc jy;qv zi;aa
+忌名子	ji;xj my;xk zi;aa
+忌梦	ji;xj mg;mx
+忌布基	ji;xj bu;ju ji;tq
+忌村静子	ji;xj cp;mc jy;qv zi;aa
 忍一桥	rf;xr yi;aa qc;mq
 忍之一刻	rf;xr vi;dd yi;aa ke;dh
 忍之一时	rf;xr vi;dd yi;aa ui;oc
@@ -36318,7 +36318,7 @@ use_preset_vocabulary: false
 思想逐渐迪化	si;tx xd;xx vu;zu jm;dv di;zy hw;rb
 思想钢印	si;tx xd;xx gh;jg yn;ey
 思想体	si;tx xd;xx ti;rb
-思慕雪的热带鱼	si;tx mu;cx xt;yx de;bu re;dv dl;jb yu;da
+思慕雪的热带鱼	si;tx mu;cx xt;yx de;bu re;hv dl;jb yu;da
 思春期	si;tx ip;of qi;oq
 思春期的钢铁少女	si;tx ip;of qi;oq de;bu gh;jg tx;ju uk;xp nv;aa
 思春遐迩	si;tx ip;of xw;zj er;ze
@@ -36773,8 +36773,8 @@ use_preset_vocabulary: false
 情景选择	qy;xq jy;oj xr;zx ze;ff
 情书	qy;xq uu;ad
 情归故里	qy;xq gv;ax gu;wg li;aa
-情热传说	qy;xq re;dv ir;rv uo;yd
-情热物语	qy;xq re;dv wu;nw yu;yw
+情热传说	qy;xq re;hv ir;rv uo;yd
+情热物语	qy;xq re;hv wu;nw yu;yw
 情禅	qy;xq ij;ud
 情种	qy;xq vs;hv
 情窦初开的舞池	qy;xq db;xm iu;yd kl;ac de;bu wu;rf ii;dy
@@ -37048,7 +37048,7 @@ use_preset_vocabulary: false
 想要传达的是这份心情	xd;xx yk;xn ir;rv da;zd de;bu ui;op ve;zw ff;rf xn;dd qy;xq
 想要传达给你的爱恋	xd;xx yk;xn ir;rv da;zd gz;sh ni;re de;bu ai;vy lm;xy
 想要刺激	xd;xx yk;xn ci;dc ji;dj
-想要加热吗	xd;xx yk;xn jw;lk re;dv ma;km
+想要加热吗	xd;xx yk;xn jw;lk re;hv ma;km
 想要化成风	xd;xx yk;xn hw;rb ig;gg fg;ji
 想要和她见面	xd;xx yk;xn he;hk ta;ny jm;ag mm;aa
 想要吃掉你的胰脏	xd;xx yk;xn ii;kq dc;fv ni;re de;bu yi;oy zh;ov
@@ -37355,7 +37355,7 @@ use_preset_vocabulary: false
 爱泽抚子	ai;vy ze;df fu;fw zi;aa
 爱泽花穗	ai;vy ze;df hw;ch sv;hh
 爱火童子	ai;vy ho;dd ts;ll zi;aa
-爱热力	ai;vy re;dv li;gp
+爱热力	ai;vy re;hv li;gp
 爱为谁而响	ai;vy wz;dd uv;yv er;aa xd;kx
 爱尔哈	ai;vy er;dx ha;kh
 爱尔奎特	ai;vy er;dx kv;dg te;ns
@@ -37739,7 +37739,7 @@ use_preset_vocabulary: false
 庆典	qy;gd dm;ba
 庆典庆祝类魂器	qy;gd dm;ba qy;gd vu;ux lz;md hp;gy qi;kk
 庆典爆破类魂器	qy;gd dm;ba bk;hb po;up lz;md hp;gy qi;kk
-庆忌	qy;gd ji;jx
+庆忌	qy;gd ji;xj
 庆明	qy;gd my;oo
 庆长佑香	qy;gd vh;pd yb;ry xd;ho
 庆余年	qy;gd yu;rb nm;pa
@@ -37851,7 +37851,7 @@ use_preset_vocabulary: false
 懵懂	mg;xm ds;xd
 懵逼	mg;xm bi;zf
 懒人	lj;xl rf;pd
-懒惰的低热	lj;xl do;xo de;bu di;rd re;dv
+懒惰的低热	lj;xl do;xo de;bu di;rd re;hv
 懒懒	lj;xl lj;xl
 懒癌	lj;xl ai;bu
 懒羊羊	lj;xl yh;da yh;da
@@ -38356,7 +38356,7 @@ use_preset_vocabulary: false
 我来当分母	wo;pd ll;am dh;xx ff;bd mu;ad
 我来跟你谈条件	wo;pd ll;am gf;zg ni;re tj;yy tc;wm jm;rn
 我依然心系于你	wo;pd yi;ry rj;hq xn;dd xi;ps yu;aa ni;re
-我系小忌廉	wo;pd xi;ps xc;ad ji;jx lm;gj
+我系小忌廉	wo;pd xi;ps xc;ad ji;xj lm;gj
 我系渣渣辉	wo;pd xi;ps va;di va;di hv;gj
 我信你个鬼	wo;pd xn;ry ni;re ge;ra gv;pd
 我修的可能是假仙	wo;pd xq;rp de;bu ke;dk ng;sb ui;op jw;rj xm;ru
@@ -38559,7 +38559,7 @@ use_preset_vocabulary: false
 我在海岸大街等着你哦	wo;pd zl;ta hl;dm an;ug da;ad jx;ri dg;vs ve;yo ni;re oo;kw
 我在海边等着你哦	wo;pd zl;ta hl;dm bm;zl dg;vs ve;yo ni;re oo;kw
 我在站台等你	wo;pd zl;ta vj;lv tl;sk dg;vs ni;re
-我在华北电力大学热得睡不着怎么破	wo;pd zl;ta hw;uh bz;ap dm;ag li;gp da;ad xt;dz re;dv de;xc uv;oi bu;ad ve;yo zf;xv me;ps po;up
+我在华北电力大学热得睡不着怎么破	wo;pd zl;ta hw;uh bz;ap dm;ag li;gp da;ad xt;dz re;hv de;xc uv;oi bu;ad ve;yo zf;xv me;ps po;up
 我在雨中旋转	wo;pd zl;ta yu;ad vs;aa xr;fp vr;iv
 我在麻理体内	wo;pd zl;ta ma;gl li;wl ti;rb nz;ad
 我执剑主锋芒	wo;pd vi;fw jm;da vu;dw fg;jf mh;cw
@@ -38787,7 +38787,7 @@ use_preset_vocabulary: false
 我是独角兽	wo;pd ui;op du;qi jc;dy ub;ka
 我是白	wo;pd ui;op bl;pa
 我是神仙	wo;pd ui;op uf;uu xm;ru
-我是禁忌	wo;pd ui;op jn;ul ji;jx
+我是禁忌	wo;pd ui;op jn;ul ji;xj
 我是罗大佑	wo;pd ui;op lo;sx da;ad yb;ry
 我是羊咩	wo;pd ui;op yh;da mx;ky
 我是台长	wo;pd ui;op tl;sk vh;pd
@@ -38854,8 +38854,8 @@ use_preset_vocabulary: false
 我无法得到你的爱	wo;pd wu;ag fa;dq de;xc dk;dv ni;re de;bu ai;vy
 我无法成为公主	wo;pd wu;ag fa;dq ig;gg wz;dd gs;sb vu;dw
 我无法离开如此可爱又傲娇的初音	wo;pd wu;ag fa;dq li;wl kl;ac ru;nk ci;vb ke;dk ai;vy yb;vd ao;ra jc;nq de;bu iu;yd yn;lo
-我热爱	wo;pd re;dv ai;vy
-我为什么大热天的还要去厨房烧饭	wo;pd wz;dd uf;ru me;ps da;ad re;dv tm;ad de;bu hl;zb yk;xn qu;ts iu;ic fh;hf uk;hy fj;uf
+我热爱	wo;pd re;hv ai;vy
+我为什么大热天的还要去厨房烧饭	wo;pd wz;dd uf;ru me;ps da;ad re;hv tm;ad de;bu hl;zb yk;xn qu;ts iu;ic fh;hf uk;hy fj;uf
 我为什么要活着呢	wo;pd wz;dd uf;ru me;ps yk;xn ho;du ve;yo ne;kn
 我为歌狂	wo;pd wz;dd ge;qg kd;qw
 我为歌狂之旋律重启	wo;pd wz;dd ge;qg kd;qw vi;dd xr;fp lv;xy is;pa qi;hk
@@ -39882,8 +39882,8 @@ use_preset_vocabulary: false
 托尔兹士官学院	to;fq er;dx zi;by ui;aa gr;bg xt;dz yr;ew
 托尔兹军官学院	to;fq er;dx zi;by jp;bi gr;bg xt;dz yr;ew
 托特	to;fq te;ns
-托特纳姆热刺	to;fq te;ns na;sn mu;nm re;dv ci;dc
-托特纳姆热刺娘	to;fq te;ns na;sn mu;nm re;dv ci;dc nd;nl
+托特纳姆热刺	to;fq te;ns na;sn mu;nm re;hv ci;dc
+托特纳姆热刺娘	to;fq te;ns na;sn mu;nm re;hv ci;dc nd;nl
 托特莉亚赫尔莫德	to;fq te;ns li;cl ya;ay he;ii er;dx mo;cd de;xx
 托腮	to;fq sl;os
 托莱多古城	to;fq ll;cl do;xx gu;uk ig;ti
@@ -40574,7 +40574,7 @@ use_preset_vocabulary: false
 指南针战士	vi;fv nj;ua vf;ju vj;gv ui;aa
 指名	vi;fv my;xk
 指宿帕妮耶	vi;fv su;bb pa;jb ni;nn ye;ee
-指尖传出的真挚热情	vi;fv jm;xd ir;rv iu;ck de;bu vf;uj vi;uv re;dv qy;xq
+指尖传出的真挚热情	vi;fv jm;xd ir;rv iu;ck de;bu vf;uj vi;uv re;hv qy;xq
 指尖光阴	vi;fv jm;xd gd;ea yn;eo
 指尖春光	vi;fv jm;xd ip;of gd;ea
 指尖江湖	vi;fv jm;xd jd;dg hu;dh
@@ -41271,7 +41271,7 @@ use_preset_vocabulary: false
 择捉	ze;ff vo;fz
 击剑	ji;aa jm;da
 击战魔法士	ji;aa vj;gv mo;gm fa;dq ui;aa
-击拳热斗	ji;aa qr;uf re;dv db;du
+击拳热斗	ji;aa qr;uf re;hv db;du
 击灭枪王	ji;aa mx;ah qd;mc wh;aa
 击灭龙	ji;aa mx;ah ls;ad
 击球手	ji;aa qq;wq ub;pa
@@ -42640,7 +42640,7 @@ use_preset_vocabulary: false
 方程式运动员街道大奖赛	fh;dg ig;hi ui;gy yp;zy ds;ly yr;kb jx;ri dk;zu da;ad jd;dx sl;bb
 方程式运动员试跑	fh;dg ig;hi ui;gy yp;zy ds;ly yr;kb ui;yu pk;zb
 方程式运动员赛道大奖赛	fh;dg ig;hi ui;gy yp;zy ds;ly yr;kb sl;bb dk;zu da;ad jd;dx sl;bb
-方程式运动员过热	fh;dg ig;hi ui;gy yp;zy ds;ly yr;kb go;zc re;dv
+方程式运动员过热	fh;dg ig;hi ui;gy yp;zy ds;ly yr;kb go;zc re;hv
 方糖社	fh;dg th;mt ue;ut
 方腊	fh;dg la;ox
 方舟指令	fh;dg vb;pd vi;fv ly;rs
@@ -42747,7 +42747,7 @@ use_preset_vocabulary: false
 旅馆	lv;fp gr;ug
 旅鸽	lv;fp ge;nh
 旅鼠映像	lv;fp uu;ju yy;oy xd;rx
-旅鼠狂热	lv;fp uu;ju kd;qw re;dv
+旅鼠狂热	lv;fp uu;ju kd;qw re;hv
 旋律	xr;fp lv;xy
 旋律教条	xr;fp lv;xy jc;wx tc;wm
 旋曜玉帛	xr;fp yk;od yu;ad bo;bj
@@ -43057,9 +43057,9 @@ use_preset_vocabulary: false
 日本的鬼	ri;aa bf;aa de;bu gv;pd
 日本石竹	ri;aa bf;aa ui;kp vu;gg
 日本笑颜百景	ri;aa bf;aa xc;vy yj;yy bl;ab jy;oj
-日本第一次动画热潮	ri;aa bf;aa di;vp yi;aa ci;dq ds;ly hw;ak re;dv ik;di
-日本第三次动画热潮	ri;aa bf;aa di;vp sj;aa ci;dq ds;ly hw;ak re;dv ik;di
-日本第二次动画热潮	ri;aa bf;aa di;vp er;aa ci;dq ds;ly hw;ak re;dv ik;di
+日本第一次动画热潮	ri;aa bf;aa di;vp yi;aa ci;dq ds;ly hw;ak re;hv ik;di
+日本第三次动画热潮	ri;aa bf;aa di;vp sj;aa ci;dq ds;ly hw;ak re;hv ik;di
+日本第二次动画热潮	ri;aa bf;aa di;vp er;aa ci;dq ds;ly hw;ak re;hv ik;di
 日本紫茎	ri;aa bf;aa zi;sc jy;cg
 日本自卫队	ri;aa bf;aa zi;pa wz;ea dv;er
 日本英语	ri;aa bf;aa yy;cy yu;yw
@@ -43697,7 +43697,7 @@ use_preset_vocabulary: false
 星外来物	xy;ou wl;xb ll;am wu;nw
 星夜	xy;ou ye;wd
 星夜之雪	xy;ou ye;wd vi;dd xt;yx
-星夜热舞	xy;ou ye;wd re;dv wu;rf
+星夜热舞	xy;ou ye;wd re;hv wu;rf
 星夜万华镜	xy;ou ye;wd wj;ag hw;uh jy;jj
 星夜雪	xy;ou ye;wd xt;yx
 星梦天使	xy;ou mg;mx tm;ad ui;rl
@@ -44825,7 +44825,7 @@ use_preset_vocabulary: false
 普罗维登斯级无畏舰娘	pu;ob lo;sx wz;sv dg;dd si;jq ji;sj wu;ag wz;ty jm;vj nd;nl
 普罗托	pu;ob lo;sx to;fq
 普罗透斯效应	pu;ob lo;sx tb;zx si;jq xc;wj yy;ga
-普莉姆菲尔丽热	pu;ob li;cl mu;nm fz;cf er;dx li;ad re;dv
+普莉姆菲尔丽热	pu;ob li;cl mu;nm fz;cf er;dx li;ad re;hv
 普莉姆马隆	pu;ob li;cl mu;nm ma;aa ls;eu
 普莉希娅	pu;ob li;cl xi;ju ya;ny
 普莉希娅芬罗泽贝尔	pu;ob li;cl xi;ju ya;ny ff;cf lo;sx ze;df bz;ad er;dx
@@ -46024,7 +46024,7 @@ use_preset_vocabulary: false
 月夜桥	yt;oy ye;wd qc;mq
 月夜海	yt;oy ye;wd hl;dm
 月夜泪	yt;oy ye;wd lz;do
-月夜热舞	yt;oy ye;wd re;dv wu;rf
+月夜热舞	yt;oy ye;wd re;hv wu;rf
 月夜的你同天空之上	yt;oy ye;wd de;bu ni;re ts;kk tm;ad ks;xg vi;dd uh;aa
 月夜的小鸟	yt;oy ye;wd de;bu xc;ad nc;na
 月夜的童话故事	yt;oy ye;wd de;bu ts;ll hw;yu gu;wg ui;aa
@@ -46140,7 +46140,7 @@ use_preset_vocabulary: false
 月球基地	yt;oy qq;wq ji;tq di;ty
 月球娘	yt;oy qq;wq nd;nl
 月球探险记	yt;oy qq;wq tj;fm xm;ea ji;yj
-月球漫步狂热症	yt;oy qq;wq mj;dm bu;vx kd;qw re;dv vg;bv
+月球漫步狂热症	yt;oy qq;wq mj;dm bu;vx kd;qw re;hv vg;bv
 月球领主	yt;oy qq;wq ly;yl vu;dw
 月界金融末世录	yt;oy jx;tj jn;ra rs;ig mo;ad ui;ca lu;au
 月白琥珀	yt;oy bl;pa hu;wh po;wb
@@ -47114,7 +47114,7 @@ use_preset_vocabulary: false
 末日拾荒者	mo;ad ri;aa ui;fh hd;ci ve;lo
 末日时下起了雨	mo;ad ri;aa ui;oc xw;ab qi;zj le;aa yu;ad
 末日时在做什么	mo;ad ri;aa ui;oc zl;ta zo;rg uf;ru me;ps
-末日派热舞	mo;ad ri;aa pl;dp re;dv wu;rf
+末日派热舞	mo;ad ri;aa pl;dp re;hv wu;rf
 末日狂欢	mo;ad ri;aa kd;qw hr;yq
 末日兽	mo;ad ri;aa ub;ka
 末日录	mo;ad ri;aa lu;au
@@ -47900,7 +47900,7 @@ use_preset_vocabulary: false
 东京	ds;ad jy;wx
 东京七姐妹	ds;ad jy;wx qi;ag jx;nq mz;nw
 东京不夜城	ds;ad jy;wx bu;ad ye;wd ig;ti
-东京不太热	ds;ad jy;wx bu;ad tl;dd re;dv
+东京不太热	ds;ad jy;wx bu;ad tl;dd re;hv
 东京侵域	ds;ad jy;wx qn;ry yu;th
 东京俳优生活协同组合	ds;ad jy;wx pl;rf yb;ry ug;na ho;du xx;ub ts;kk zu;sq he;rk
 东京假人	ds;ad jy;wx jw;rj rf;pd
@@ -48163,7 +48163,7 @@ use_preset_vocabulary: false
 东方漫画	ds;ad fh;dg mj;dm hw;ak
 东方炮弹图	ds;ad fh;dg pk;hb dj;gd tu;kd
 东方焚戈录	ds;ad fh;dg ff;hl ge;ad lu;au
-东方热血汉	ds;ad fh;dg re;dv xt;pa hj;dy
+东方热血汉	ds;ad fh;dg re;hv xt;pa hj;dy
 东方兽王园	ds;ad fh;dg ub;ka wh;aa yr;ky
 东方理那	ds;ad fh;dg li;wl na;el
 东方琴鼓歌	ds;ad fh;dg qn;wj gu;vd ge;qg
@@ -49311,7 +49311,7 @@ use_preset_vocabulary: false
 校园迷糊大王	xc;mj yr;ky mi;zm hu;mh dl;ad wh;aa
 校园霸凌	xc;mj yr;ky ba;yo ly;dl
 校外教学	xc;mj wl;xb jc;wx xt;dz
-校庆上的热情款待	xc;mj qy;gd uh;aa de;bu re;dv qy;xq kr;qu dl;xs
+校庆上的热情款待	xc;mj qy;gd uh;aa de;bu re;hv qy;xq kr;qu dl;xs
 校服	xc;mj fu;oy
 校服敞开	xc;mj fu;oy ih;wu kl;ac
 校条祭	xc;mj tc;wm ji;uy
@@ -49353,7 +49353,7 @@ use_preset_vocabulary: false
 核武	he;mh wu;vy
 核武器	he;mh wu;vy qi;kk
 核杀轮	he;mh ua;mi lp;il
-核热造神非想天则	he;mh re;dv zk;zg uf;uu fz;aa xd;xx tm;ad ze;bd
+核热造神非想天则	he;mh re;hv zk;zg uf;uu fz;aa xd;xx tm;ad ze;bd
 核燃黑猫	he;mh rj;hr hz;ad mk;qm
 核爆末世录	he;mh bk;hb mo;ad ui;ca lu;au
 核爆神曲	he;mh bk;hb uf;uu qu;aa
@@ -50814,7 +50814,7 @@ use_preset_vocabulary: false
 极速快感	ji;mj su;zu ky;xd gj;xx
 极速快感	ji;mj su;zu ky;xd gj;xx
 极速摄杀	ji;mj su;zu ue;fn ua;mi
-极速热力	ji;mj su;zu re;dv li;gp
+极速热力	ji;mj su;zu re;hv li;gp
 极速老师	ji;mj su;zu lk;bl ui;ab
 极速蜗牛	ji;mj su;zu wo;ig nq;pa
 极道	ji;mj dk;zu
@@ -51951,9 +51951,9 @@ use_preset_vocabulary: false
 欠钱不还	qm;dr qm;jj bu;ad hl;zb
 欠雷	qm;dr lz;yt
 次世代动漫社	ci;dq ui;ca dl;ry ds;ly mj;dm ue;ut
-次世代地热能机人	ci;dq ui;ca dl;ry di;ty re;dv ng;sb ji;mj rf;pd
+次世代地热能机人	ci;dq ui;ca dl;ry di;ty re;hv ng;sb ji;mj rf;pd
 次世代水能机人	ci;dq ui;ca dl;ry uv;ad ng;sb ji;mj rf;pd
-次世代热能战士	ci;dq ui;ca dl;ry re;dv ng;sb vj;gv ui;aa
+次世代热能战士	ci;dq ui;ca dl;ry re;hv ng;sb vj;gv ui;aa
 次世代萌	ci;dq ui;ca dl;ry mg;cm
 次世代风能机人	ci;dq ui;ca dl;ry fg;ji ng;sb ji;mj rf;pd
 次中音号	ci;dq vs;aa yn;lo hk;kk
@@ -56763,7 +56763,7 @@ use_preset_vocabulary: false
 深红狱炎弹	uf;dm hs;sg yu;qq yj;hh dj;gd
 深红狱防术	uf;dm hs;sg yu;qq fh;ef uu;md
 深红的激情	uf;dm hs;sg de;bu ji;dj qy;xq
-深红的热情之歌	uf;dm hs;sg de;bu re;dv qy;xq vi;dd ge;qg
+深红的热情之歌	uf;dm hs;sg de;bu re;hv qy;xq vi;dd ge;qg
 深红累之渊	uf;dm hs;sg lz;st vi;dd yr;da
 深罪浸礼者	uf;dm zv;sf jn;dy li;ug ve;lo
 深罪的三重奏	uf;dm zv;sf de;bu sj;aa is;pa zb;ft
@@ -57462,7 +57462,7 @@ use_preset_vocabulary: false
 温泉蛋	wf;dm qr;bu dj;ip
 温泉关战役	wf;dm qr;bu gr;bt vj;gv yi;xu
 温熙	wf;dm xi;hs
-温热的银莲花	wf;dm re;dv de;bu yn;jg lm;cl hw;ch
+温热的银莲花	wf;dm re;hv de;bu yn;jg lm;cl hw;ch
 温特里克斯斯	wf;dm te;ns li;aa ke;eg si;jq si;jq
 温瑟麦凯	wf;dm se;wb ml;fw kl;jj
 温莉洛克贝尔	wf;dm li;cl lo;dg ke;eg bz;ad er;dx
@@ -57857,7 +57857,7 @@ use_preset_vocabulary: false
 漫画派对	mj;dm hw;ak pl;dp dv;cy
 漫画流体力学	mj;dm hw;ak lq;di ti;rb li;gp xt;dz
 漫画测量	mj;dm hw;ak ce;dz ld;ol
-漫画热力学	mj;dm hw;ak re;dv li;gp xt;dz
+漫画热力学	mj;dm hw;ak re;hv li;gp xt;dz
 漫画版	mj;dm hw;ak bj;pf
 漫画版的日之牧师	mj;dm hw;ak bj;pf de;bu ri;aa vi;dd mu;nw ui;ab
 漫画版的水之牧师	mj;dm hw;ak bj;pf de;bu uv;ad vi;dd mu;nw ui;ab
@@ -58755,20 +58755,20 @@ use_preset_vocabulary: false
 灰发	hv;hu fa;ay
 灼之花	vo;hu vi;dd hw;ch
 灼岩	vo;hu yj;uu
-灼热	vo;hu re;dv
-灼热不落的翅膀	vo;hu re;dv bu;ad lo;cl de;bu ii;vy bh;op
-灼热中的纯情	vo;hu re;dv vs;aa de;bu ip;st qy;xq
-灼热之枪	vo;hu re;dv vi;dd qd;mc
-灼热之火灵使	vo;hu re;dv vi;dd ho;dd ly;hx ui;rl
-灼热之试练	vo;hu re;dv vi;dd ui;yu lm;sd
-灼热地狱遗址	vo;hu re;dv di;ty yu;qq yi;zg vi;tv
-灼热的乒乓球妹	vo;hu re;dv de;bu py;jp ph;qd qq;wq mz;nw
-灼热的乒乓球娘	vo;hu re;dv de;bu py;jp ph;qd qq;wq nd;nl
-灼热的小早川同学	vo;hu re;dv de;bu xc;ad zk;ou ir;pa ts;kk xt;dz
-灼热的桌球娘	vo;hu re;dv de;bu vo;mo qq;wq nd;nl
-灼热的狩猎战	vo;hu re;dv de;bu ub;qu lx;qx vj;gv
-灼热的开关	vo;hu re;dv de;bu kl;ac gr;bt
-灼热游行	vo;hu re;dv yb;dz xy;xd
+灼热	vo;hu re;hv
+灼热不落的翅膀	vo;hu re;hv bu;ad lo;cl de;bu ii;vy bh;op
+灼热中的纯情	vo;hu re;hv vs;aa de;bu ip;st qy;xq
+灼热之枪	vo;hu re;hv vi;dd qd;mc
+灼热之火灵使	vo;hu re;hv vi;dd ho;dd ly;hx ui;rl
+灼热之试练	vo;hu re;hv vi;dd ui;yu lm;sd
+灼热地狱遗址	vo;hu re;hv di;ty yu;qq yi;zg vi;tv
+灼热的乒乓球妹	vo;hu re;hv de;bu py;jp ph;qd qq;wq mz;nw
+灼热的乒乓球娘	vo;hu re;hv de;bu py;jp ph;qd qq;wq nd;nl
+灼热的小早川同学	vo;hu re;hv de;bu xc;ad zk;ou ir;pa ts;kk xt;dz
+灼热的桌球娘	vo;hu re;hv de;bu vo;mo qq;wq nd;nl
+灼热的狩猎战	vo;hu re;hv de;bu ub;qu lx;qx vj;gv
+灼热的开关	vo;hu re;hv de;bu kl;ac gr;bt
+灼热游行	vo;hu re;hv yb;dz xy;xd
 灼眼	vo;hu yj;og
 灼眼的夏娜	vo;hu yj;og de;bu xw;wz na;nn
 灼血狐焰	vo;hu xt;pa hu;qg yj;hj
@@ -58832,10 +58832,10 @@ use_preset_vocabulary: false
 炎炎消防队	yj;hh yj;hh xc;dx fh;ef dv;er
 炎无惑	yj;hh wu;ag ho;xh
 炎熔	yj;hh rs;hr
-炎热之坑	yj;hh re;dv vi;dd kg;tk
-炎热传导场	yj;hh re;dv ir;rv dk;cs ih;ty
-炎热庇护所	yj;hh re;dv bi;gb hu;fh so;hj
-炎热旋风壁	yj;hh re;dv xr;fp fg;ji bi;tb
+炎热之坑	yj;hh re;hv vi;dd kg;tk
+炎热传导场	yj;hh re;hv ir;rv dk;cs ih;ty
+炎热庇护所	yj;hh re;hv bi;gb hu;fh so;hj
+炎热旋风壁	yj;hh re;hv xr;fp fg;ji bi;tb
 炎狱反击	yj;hh yu;qq fj;py ji;aa
 炎狱炎熔	yj;hh yu;qq yj;hh rs;hr
 炎狱魔神	yj;hh yu;qq mo;gm uf;uu
@@ -58866,8 +58866,8 @@ use_preset_vocabulary: false
 炒面回	ik;hu mm;aa hv;kk
 炒面面包	ik;hu mm;aa mm;aa bk;gs
 炙心	vi;ho xn;dd
-炙热	vi;ho re;dv
-炙热沙城	vi;ho re;dv ua;du ig;ti
+炙热	vi;ho re;hv
+炙热沙城	vi;ho re;hv ua;du ig;ti
 炙鞭山葵	vi;ho bm;gb uj;aa kv;cg
 炫动卡通	xr;hx ds;ly ka;bx ts;zy
 炫动卡通卫视	xr;hx ds;ly ka;bx ts;zy wz;ea ui;ju
@@ -59460,7 +59460,7 @@ use_preset_vocabulary: false
 无节操	wu;ag jx;ce ck;fz
 无节操摄影部	wu;ag jx;ce ck;fz ue;fn yy;pj bu;ek
 无糖的吻	wu;ag th;mt de;bu wf;kw
-无线电狂热症	wu;ag xm;sj dm;ag kd;qw re;dv vg;bv
+无线电狂热症	wu;ag xm;sj dm;ag kd;qw re;hv vg;bv
 无线电视	wu;ag xm;sj dm;ag ui;ju
 无缝剪辑	wu;ag fg;sf jm;dq ji;ie
 无绳	wu;ag ug;sd
@@ -59895,81 +59895,81 @@ use_preset_vocabulary: false
 熠熠星光魔物娘	yi;hb yi;hb xy;ou gd;ea mo;gm wu;nw nd;nl
 熠熠华光	yi;hb yi;hb hw;uh gd;ea
 熬夜	ao;ha ye;wd
-热乎乎的	re;dv hu;pa hu;pa de;bu
-热伤风	re;dv uh;rl fg;ji
-热刺娘	re;dv ci;dc nd;nl
-热力拳击	re;dv li;gp qr;uf ji;aa
-热力追踪	re;dv li;gp vv;zv zs;zz
-热力追踪重制版	re;dv li;gp vv;zv zs;zz vs;pa vi;dg bj;pf
-热域	re;dv yu;th
-热岩霓凤	re;dv yj;uu ni;ye fg;jy
-热布萝	re;dv bu;ju lo;cl
-热带型大魔女	re;dv dl;jb xy;tx da;ad mo;gm nv;aa
-热带夏季	re;dv dl;jb xw;wz ji;hz
-热带姐妹	re;dv dl;jb jx;nq mz;nw
-热带雨林的爆笑生活	re;dv dl;jb yu;ad ln;mm de;bu bk;hb xc;vy ug;na ho;du
-热度	re;dv du;gy
-热心	re;dv xn;dd
-热心司祭玛莉娜	re;dv xn;dd si;gk ji;uy ma;wm li;cl na;nn
-热心市民金先生	re;dv xn;dd ui;wj mn;ag jn;ra xm;ne ug;na
-热心治愈者玛莉娜	re;dv xn;dd vi;dt yu;xy ve;lo ma;wm li;cl na;nn
-热心的樵夫	re;dv xn;dd de;bu qc;mj fu;ad
-热情	re;dv qy;xq
-热情之花	re;dv qy;xq vi;dd hw;ch
-热情二十四小时	re;dv qy;xq er;aa ui;aa si;aa xc;ad ui;oc
-热情传说	re;dv qy;xq ir;rv uo;yd
-热情的光谱	re;dv qy;xq de;bu gd;ea pu;yp
-热情的巴西	re;dv qy;xq de;bu ba;ag xi;aa
-热情的舞女华尔兹	re;dv qy;xq de;bu wu;rf nv;aa hw;uh er;dx zi;by
-热情的舞姬玛雷卡	re;dv qy;xq de;bu wu;rf ji;ni ma;wm lz;yt ka;bx
-热情组织	re;dv qy;xq zu;sq vi;sv
-热情组织暗杀队	re;dv qy;xq zu;sq vi;sv an;oy ua;mi dv;er
-热情组织亲卫队	re;dv qy;xq zu;sq vi;sv qn;lm wz;ea dv;er
-热情组织护卫队	re;dv qy;xq zu;sq vi;sv hu;fh wz;ea dv;er
-热情觉醒之时	re;dv qy;xq jt;dj xy;yx vi;dd ui;oc
-热情迷唇	re;dv qy;xq mi;zm ip;ik
-热爱一百零五度的你	re;dv ai;vy yi;aa bl;ab ly;yl wu;aa du;gy de;bu ni;re
-热爱我们的生活	re;dv ai;vy wo;pd mf;rm de;bu ug;na ho;du
-热爱的前方	re;dv ai;vy de;bu qm;bd fh;dg
-热爱贩卖军火的你	re;dv ai;vy fj;bf ml;um jp;bi ho;dd de;bu ni;re
-热感觉	re;dv gj;xx jt;dj
-热恋之花	re;dv lm;xy vi;dd hw;ch
-热恋情侣	re;dv lm;xy qy;xq lv;rl
-热恋舞台	re;dv lm;xy wu;rf tl;sk
-热气天国	re;dv qi;py tm;ad go;ky
-热气巴萨拉	re;dv qi;py ba;ag sa;ci la;fl
-热气球	re;dv qi;py qq;wq
-热泉	re;dv qr;bu
-热泵通道	re;dv bg;uu ts;zy dk;zu
-热汤小屋	re;dv th;dy xc;ad wu;uv
-热烈的决斗者	re;dv lx;dl de;bu jt;dd db;du ve;lo
-热焰	re;dv yj;hj
-热熔胶枪	re;dv rs;hr jc;oj qd;mc
-热热闹闹的下午茶	re;dv re;dv nk;mu nk;mu de;bu xw;ab wu;pu ia;cm
-热尔岗终焉	re;dv er;dx gh;ug vs;sd yj;vd
-热异常	re;dv yi;cs ih;jk
-热能操控	re;dv ng;sb ck;fz ks;fk
-热舞革命	re;dv wu;rf ge;aa my;re
-热兰遮城	re;dv lj;bs ve;zd ig;ti
-热血	re;dv xt;pa
-热血指导王	re;dv xt;pa vi;fv dk;cs wh;aa
-热血指导神	re;dv xt;pa vi;fv dk;cs uf;uu
-热血指导神究极教练	re;dv xt;pa vi;fv dk;cs uf;uu jq;xj ji;mj jc;wx lm;sd
-热血沸腾吧	re;dv xt;pa fz;df tg;om ba;kb
-热血无赖	re;dv xt;pa wu;ag ll;uf
-热血精灵派	re;dv xt;pa jy;mq ly;hx pl;dp
-热血编辑	re;dv xt;pa bm;sb ji;ie
-热血追踪	re;dv xt;pa vv;zv zs;zz
-热裤	re;dv ku;yk
-热评	re;dv py;yp
-热诚传说	re;dv ig;yi ir;rv uo;yd
-热辣薄荷	re;dv la;xu bo;cc he;ch
-热那亚共和国	re;dv na;el ya;ay gs;bc he;hk go;ky
-热风	re;dv fg;ji
-热风机	re;dv fg;ji ji;mj
-热风流转	re;dv fg;ji lq;di vr;iv
-热风海陆武士道	re;dv fg;ji hl;dm lu;ej wu;vy ui;aa dk;zu
-热香饼	re;dv xd;ho by;ub
+热乎乎的	re;hv hu;pa hu;pa de;bu
+热伤风	re;hv uh;rl fg;ji
+热刺娘	re;hv ci;dc nd;nl
+热力拳击	re;hv li;gp qr;uf ji;aa
+热力追踪	re;hv li;gp vv;zv zs;zz
+热力追踪重制版	re;hv li;gp vv;zv zs;zz vs;pa vi;dg bj;pf
+热域	re;hv yu;th
+热岩霓凤	re;hv yj;uu ni;ye fg;jy
+热布萝	re;hv bu;ju lo;cl
+热带型大魔女	re;hv dl;jb xy;tx da;ad mo;gm nv;aa
+热带夏季	re;hv dl;jb xw;wz ji;hz
+热带姐妹	re;hv dl;jb jx;nq mz;nw
+热带雨林的爆笑生活	re;hv dl;jb yu;ad ln;mm de;bu bk;hb xc;vy ug;na ho;du
+热度	re;hv du;gy
+热心	re;hv xn;dd
+热心司祭玛莉娜	re;hv xn;dd si;gk ji;uy ma;wm li;cl na;nn
+热心市民金先生	re;hv xn;dd ui;wj mn;ag jn;ra xm;ne ug;na
+热心治愈者玛莉娜	re;hv xn;dd vi;dt yu;xy ve;lo ma;wm li;cl na;nn
+热心的樵夫	re;hv xn;dd de;bu qc;mj fu;ad
+热情	re;hv qy;xq
+热情之花	re;hv qy;xq vi;dd hw;ch
+热情二十四小时	re;hv qy;xq er;aa ui;aa si;aa xc;ad ui;oc
+热情传说	re;hv qy;xq ir;rv uo;yd
+热情的光谱	re;hv qy;xq de;bu gd;ea pu;yp
+热情的巴西	re;hv qy;xq de;bu ba;ag xi;aa
+热情的舞女华尔兹	re;hv qy;xq de;bu wu;rf nv;aa hw;uh er;dx zi;by
+热情的舞姬玛雷卡	re;hv qy;xq de;bu wu;rf ji;ni ma;wm lz;yt ka;bx
+热情组织	re;hv qy;xq zu;sq vi;sv
+热情组织暗杀队	re;hv qy;xq zu;sq vi;sv an;oy ua;mi dv;er
+热情组织亲卫队	re;hv qy;xq zu;sq vi;sv qn;lm wz;ea dv;er
+热情组织护卫队	re;hv qy;xq zu;sq vi;sv hu;fh wz;ea dv;er
+热情觉醒之时	re;hv qy;xq jt;dj xy;yx vi;dd ui;oc
+热情迷唇	re;hv qy;xq mi;zm ip;ik
+热爱一百零五度的你	re;hv ai;vy yi;aa bl;ab ly;yl wu;aa du;gy de;bu ni;re
+热爱我们的生活	re;hv ai;vy wo;pd mf;rm de;bu ug;na ho;du
+热爱的前方	re;hv ai;vy de;bu qm;bd fh;dg
+热爱贩卖军火的你	re;hv ai;vy fj;bf ml;um jp;bi ho;dd de;bu ni;re
+热感觉	re;hv gj;xx jt;dj
+热恋之花	re;hv lm;xy vi;dd hw;ch
+热恋情侣	re;hv lm;xy qy;xq lv;rl
+热恋舞台	re;hv lm;xy wu;rf tl;sk
+热气天国	re;hv qi;py tm;ad go;ky
+热气巴萨拉	re;hv qi;py ba;ag sa;ci la;fl
+热气球	re;hv qi;py qq;wq
+热泉	re;hv qr;bu
+热泵通道	re;hv bg;uu ts;zy dk;zu
+热汤小屋	re;hv th;dy xc;ad wu;uv
+热烈的决斗者	re;hv lx;dl de;bu jt;dd db;du ve;lo
+热焰	re;hv yj;hj
+热熔胶枪	re;hv rs;hr jc;oj qd;mc
+热热闹闹的下午茶	re;hv re;hv nk;mu nk;mu de;bu xw;ab wu;pu ia;cm
+热尔岗终焉	re;hv er;dx gh;ug vs;sd yj;vd
+热异常	re;hv yi;cs ih;jk
+热能操控	re;hv ng;sb ck;fz ks;fk
+热舞革命	re;hv wu;rf ge;aa my;re
+热兰遮城	re;hv lj;bs ve;zd ig;ti
+热血	re;hv xt;pa
+热血指导王	re;hv xt;pa vi;fv dk;cs wh;aa
+热血指导神	re;hv xt;pa vi;fv dk;cs uf;uu
+热血指导神究极教练	re;hv xt;pa vi;fv dk;cs uf;uu jq;xj ji;mj jc;wx lm;sd
+热血沸腾吧	re;hv xt;pa fz;df tg;om ba;kb
+热血无赖	re;hv xt;pa wu;ag ll;uf
+热血精灵派	re;hv xt;pa jy;mq ly;hx pl;dp
+热血编辑	re;hv xt;pa bm;sb ji;ie
+热血追踪	re;hv xt;pa vv;zv zs;zz
+热裤	re;hv ku;yk
+热评	re;hv py;yp
+热诚传说	re;hv ig;yi ir;rv uo;yd
+热辣薄荷	re;hv la;xu bo;cc he;ch
+热那亚共和国	re;hv na;el ya;ay gs;bc he;hk go;ky
+热风	re;hv fg;ji
+热风机	re;hv fg;ji ji;mj
+热风流转	re;hv fg;ji lq;di vr;iv
+热风海陆武士道	re;hv fg;ji hl;dm lu;ej wu;vy ui;aa dk;zu
+热香饼	re;hv xd;ho by;ub
 熹咕哇	xi;dx gu;kg wa;kg
 炽天使	ii;hv tm;ad ui;rl
 炽天使之拥	ii;hv tm;ad ui;rl vi;dd ys;fy
@@ -59983,8 +59983,8 @@ use_preset_vocabulary: false
 炽焰咆哮虎	ii;hv yj;hj pk;kb xc;kx hu;hj
 炽焰巨剑	ii;hv yj;hj ju;kk jm;da
 炽焰融合	ii;hv yj;hj rs;ig he;rk
-炽热多头狮	ii;hv re;dv do;xx tb;dd ui;qu
-炽热的决斗者们	ii;hv re;dv de;bu jt;dd db;du ve;lo mf;rm
+炽热多头狮	ii;hv re;hv do;xx tb;dd ui;qu
+炽热的决斗者们	ii;hv re;hv de;bu jt;dd db;du ve;lo mf;rm
 炽界龙皇与极东的七柱特区	ii;hv jx;tj ls;ad hd;bw yu;aa ji;mj ds;ad de;bu qi;ag vu;mv te;ns qu;ki
 炽翎	ii;hv ly;yl
 炽血蒸腾	ii;hv xt;pa vg;hv tg;om
@@ -60029,7 +60029,7 @@ use_preset_vocabulary: false
 燃尽微光	rj;hr jn;id wz;xw gd;ea
 燃约	rj;hr yt;su
 燃组海选赛	rj;hr zu;sq hl;dm xr;zx sl;bb
-燃起心中的热火	rj;hr qi;zj xn;dd vs;aa de;bu re;dv ho;dd
+燃起心中的热火	rj;hr qi;zj xn;dd vs;aa de;bu re;hv ho;dd
 燃起的大海	rj;hr qi;zj de;bu da;ad hl;dm
 灯中优	dg;hd vs;aa yb;ry
 灯之魔精	dg;hd vi;dd mo;gm jy;mq
@@ -60156,8 +60156,8 @@ use_preset_vocabulary: false
 爆炸烈焰魔杖	bk;hb va;hv lx;dl yj;hj mo;gm vh;mv
 爆炸草莓	bk;hb va;hv ck;cz mz;cm
 爆炸头	bk;hb va;hv tb;dd
-爆热女郎	bk;hb re;dv nv;aa lh;el
-爆热归还	bk;hb re;dv gv;ax hr;zb
+爆热女郎	bk;hb re;hv nv;aa lh;el
+爆热归还	bk;hb re;hv gv;ax hr;zb
 爆爆内火恋	bk;hb bk;hb nz;ad ho;dd lm;xy
 爆发	bk;hb fa;ay
 爆发状态	bk;hb fa;ay vd;jq tl;xt
@@ -60982,13 +60982,13 @@ use_preset_vocabulary: false
 狂气沉淀	kd;qw qi;py if;dj dm;dd
 狂沙破	kd;qw ua;du po;up
 狂焰	kd;qw yj;hj
-狂热	kd;qw re;dv
-狂热之舞	kd;qw re;dv vi;dd wu;rf
-狂热深渊	kd;qw re;dv uf;dm yr;da
-狂热节拍	kd;qw re;dv jx;ce pl;fb
-狂热者	kd;qw re;dv ve;lo
-狂热者迪欧尔贝	kd;qw re;dv ve;lo di;zy ou;qq er;dx bz;ad
-狂热行动	kd;qw re;dv xy;xd ds;ly
+狂热	kd;qw re;hv
+狂热之舞	kd;qw re;hv vi;dd wu;rf
+狂热深渊	kd;qw re;hv uf;dm yr;da
+狂热节拍	kd;qw re;hv jx;ce pl;fb
+狂热者	kd;qw re;hv ve;lo
+狂热者迪欧尔贝	kd;qw re;hv ve;lo di;zy ou;qq er;dx bz;ad
+狂热行动	kd;qw re;hv xy;xd ds;ly
 狂父	kd;qw fu;bi
 狂犬多米诺	kd;qw qr;dd do;xx mi;dd no;yr
 狂猎	kd;qw lx;qx
@@ -62258,7 +62258,7 @@ use_preset_vocabulary: false
 现在就想告诉哥哥我是妹妹	xm;wj zl;ta jq;yj xd;xx gk;kn su;yi ge;kd ge;kd wo;pd ui;op mz;nw mz;nw
 现在心行形	xm;wj zl;ta xn;dd xy;xd xy;pk
 现在我们学校	xm;wj zl;ta wo;pd mf;rm xt;dz xc;mj
-现在拨打热线速订神明	xm;wj zl;ta bo;ff da;fd re;dv xm;sj su;zu dy;yd uf;uu my;oo
+现在拨打热线速订神明	xm;wj zl;ta bo;ff da;fd re;hv xm;sj su;zu dy;yd uf;uu my;oo
 现在是你比较强	xm;wj zl;ta ui;op ni;re bi;bb jc;ij qd;gs
 现在稍微成为了话题的神明	xm;wj zl;ta uk;hx wz;xw ig;gg wz;dd le;aa hw;yu ti;uy de;bu uf;uu my;oo
 现在立刻就想对哥哥说我是妹妹	xm;wj zl;ta li;da ke;dh jq;yj xd;xx dv;cy ge;kd ge;kd uo;yd wo;pd ui;op mz;nw mz;nw
@@ -63169,7 +63169,7 @@ use_preset_vocabulary: false
 甜真	tm;ug vf;uj
 甜竹竹	tm;ug vu;gg vu;gg
 甜糖山之泉	tm;ug th;mt uj;aa vi;dd qr;bu
-甜糖热恋	tm;ug th;mt re;dv lm;xy
+甜糖热恋	tm;ug th;mt re;hv lm;xy
 甜丝丝	tm;ug si;aa si;aa
 甜美	tm;ug mz;dy
 甜美的咬痕	tm;ug mz;dy de;bu yk;kj hf;bg
@@ -64410,7 +64410,7 @@ use_preset_vocabulary: false
 发条制造业	fa;ay tc;wm vi;dg zk;zg ye;aa
 发条巨舰	fa;ay tc;wm ju;kk jm;vj
 发条雷	fa;ay tc;wm lz;yt
-发热	fa;ay re;dv
+发热	fa;ay re;hv
 发烧怪	fa;ay uk;hy gy;xu
 发珠	fa;ay vu;wv
 发现了天花板上的研直子之后睡不着	fa;ay xm;wj le;aa tm;ad hw;ch bj;mf uh;aa de;bu yj;uk vi;aa zi;aa vi;dd hb;pk uv;oi bu;ad ve;yo
@@ -64438,7 +64438,7 @@ use_preset_vocabulary: false
 白三叶草	bl;pa sj;aa ye;ku ck;cz
 白三叶草的愿望	bl;pa sj;aa ye;ku ck;cz de;bu yr;xy wh;wo
 白上吹雪	bl;pa uh;aa iv;kq xt;yx
-白上忌名子	bl;pa uh;aa ji;jx my;xk zi;aa
+白上忌名子	bl;pa uh;aa ji;xj my;xk zi;aa
 白上日向子	bl;pa uh;aa ri;aa xd;pk zi;aa
 白丸结	bl;pa wj;jd jx;sj
 白之咆哮	bl;pa vi;dd pk;kb xc;kx
@@ -64702,7 +64702,7 @@ use_preset_vocabulary: false
 白熊咖啡厅	bl;pa xs;dn ka;kj fz;kf ty;id
 白熊宽嗣	bl;pa xs;dn kr;bj si;ks
 白熊转生	bl;pa xs;dn vr;iv ug;na
-白热灯与歪曲线	bl;pa re;dv dg;hd yu;aa wl;bv qu;aa xm;sj
+白热灯与歪曲线	bl;pa re;hv dg;hd yu;aa wl;bv qu;aa xm;sj
 白炽灯与歪曲线	bl;pa ii;hv dg;hd yu;aa wl;bv qu;aa xm;sj
 白炽薄荷	bl;pa ii;hv bo;cc he;ch
 白灯	bl;pa dg;hd
@@ -65222,7 +65222,7 @@ use_preset_vocabulary: false
 百濑莉绪	bl;ab ll;dl li;cl xu;sv
 百濑辉夜	bl;ab ll;dl hv;gj ye;wd
 百无一用意大利	bl;ab wu;ag yi;aa ys;kf yi;xy da;ad li;hd
-百无禁忌	bl;ab wu;ag jn;ul ji;jx
+百无禁忌	bl;ab wu;ag jn;ul ji;xj
 百物语组	bl;ab wu;nw yu;yw zu;sq
 百兽大行进	bl;ab ub;ka da;ad xy;xd jn;zj
 百兽战队牙吠连者	bl;ab ub;ka vj;gv dv;er ya;ap fz;kq lm;zi ve;lo
@@ -68241,18 +68241,18 @@ use_preset_vocabulary: false
 禁区边缘	jn;ul qu;ki bm;zl yr;st
 禁句	jn;ul ju;gk
 禁句能力	jn;ul ju;gk ng;sb li;gp
-禁忌咒纹	jn;ul ji;jx vb;kj wf;sw
-禁忌招数	jn;ul ji;jx vk;fv uu;wl
-禁忌水晶	jn;ul ji;jx uv;ad jy;oo
-禁忌的一滴	jn;ul ji;jx de;bu yi;aa di;dd
-禁忌的寓言	jn;ul ji;jx de;bu yu;by yj;da
-禁忌的圣典	jn;ul ji;jx de;bu ug;ty dm;ba
-禁忌的圣枪	jn;ul ji;jx de;bu ug;ty qd;mc
-禁忌的圣杯	jn;ul ji;jx de;bu ug;ty bz;mb
-禁忌的圣衣	jn;ul ji;jx de;bu ug;ty yi;dd
-禁忌的游戏	jn;ul ji;jx de;bu yb;dz xi;yg
-禁忌的边界线	jn;ul ji;jx de;bu bm;zl jx;tj xm;sj
-禁忌西部	jn;ul ji;jx xi;aa bu;ek
+禁忌咒纹	jn;ul ji;xj vb;kj wf;sw
+禁忌招数	jn;ul ji;xj vk;fv uu;wl
+禁忌水晶	jn;ul ji;xj uv;ad jy;oo
+禁忌的一滴	jn;ul ji;xj de;bu yi;aa di;dd
+禁忌的寓言	jn;ul ji;xj de;bu yu;by yj;da
+禁忌的圣典	jn;ul ji;xj de;bu ug;ty dm;ba
+禁忌的圣枪	jn;ul ji;xj de;bu ug;ty qd;mc
+禁忌的圣杯	jn;ul ji;xj de;bu ug;ty bz;mb
+禁忌的圣衣	jn;ul ji;xj de;bu ug;ty yi;dd
+禁忌的游戏	jn;ul ji;xj de;bu yb;dz xi;yg
+禁忌的边界线	jn;ul ji;xj de;bu bm;zl jx;tj xm;sj
+禁忌西部	jn;ul ji;xj xi;aa bu;ek
 禁断恋爱	jn;ul dr;ja lm;xy ai;vy
 禁断水晶	jn;ul dr;ja uv;ad jy;oo
 禁断的偏方三八面体	jn;ul dr;ja de;bu pm;rb fh;dg sj;aa ba;pd mm;aa ti;rb
@@ -70972,8 +70972,8 @@ use_preset_vocabulary: false
 红尘	hs;sg if;tx
 红尘客栈	hs;sg if;tx ke;bg vj;mj
 红尘寄雪	hs;sg if;tx ji;bq xt;yx
-红外线加热器	hs;sg wl;xb xm;sj jw;lk re;dv qi;kk
-红外线加热机	hs;sg wl;xb xm;sj jw;lk re;dv ji;mj
+红外线加热器	hs;sg wl;xb xm;sj jw;lk re;hv qi;kk
+红外线加热机	hs;sg wl;xb xm;sj jw;lk re;hv ji;mj
 红大袋鼠	hs;sg da;ad dl;yd uu;ju
 红大鸟	hs;sg da;ad nc;na
 红天蛾	hs;sg tm;ad ee;iw
@@ -73292,7 +73292,7 @@ use_preset_vocabulary: false
 罪恶王权	zv;sf ee;xy wh;aa qr;my
 罪恶装备	zv;sf ee;xy vd;yv bz;wt
 罪恶都市	zv;sf ee;xy du;ev ui;wj
-罪恶双瞳狂热	zv;sf ee;xy ud;yy ts;ot kd;qw re;dv
+罪恶双瞳狂热	zv;sf ee;xy ud;yy ts;ot kd;qw re;hv
 罪恶凤凰	zv;sf ee;xy fg;jy hd;jh
 罪星尘龙	zv;sf xy;ou if;tx ls;ad
 罪星尘龙娘	zv;sf xy;ou if;tx ls;ad nd;nl
@@ -75919,7 +75919,7 @@ use_preset_vocabulary: false
 与共	yu;aa gs;bc
 与冒牌碧池的恋人养成之路	yu;aa mk;oo pl;pb bi;ub ii;dy de;bu lm;xy rf;pd yh;ya ig;gg vi;dd lu;zg
 与前女友令人焦灼不已的伪装结婚	yu;aa qm;bd nv;aa yb;yu ly;rs rf;pd jc;hv vo;hu bu;ad yi;vg de;bu wz;rw vd;yv jx;sj hp;nh
-与前女友的微热假新婚	yu;aa qm;bd nv;aa yb;yu de;bu wz;xw re;dv jw;rj xn;jq hp;nh
+与前女友的微热假新婚	yu;aa qm;bd nv;aa yb;yu de;bu wz;xw re;hv jw;rj xn;jq hp;nh
 与前女友的焦灼伪婚	yu;aa qm;bd nv;aa yb;yu de;bu jc;hv vo;hu wz;rw hp;nh
 与十七年前相同的案发现场	yu;aa ui;aa qi;ag nm;pa qm;bd xd;mo ts;kk de;bu an;bm fa;ay xm;wj ih;ty
 与反派的吻戏	yu;aa fj;py pl;dp de;bu wf;kw xi;yg
@@ -78023,7 +78023,7 @@ use_preset_vocabulary: false
 草莓浪漫	ck;cz mz;cm lh;dl mj;dm
 草莓牛奶	ck;cz mz;cm nq;pa nl;nn
 草莓狂战记	ck;cz mz;cm kd;qw vj;gv ji;yj
-草莓狂热	ck;cz mz;cm kd;qw re;dv
+草莓狂热	ck;cz mz;cm kd;qw re;hv
 草莓狂魔	ck;cz mz;cm kd;qw mo;gm
 草莓猎人	ck;cz mz;cm lx;qx rf;pd
 草莓百分百	ck;cz mz;cm bl;ab ff;bd bl;ab
@@ -79199,7 +79199,7 @@ use_preset_vocabulary: false
 萌派	mg;cm pl;dp
 萌流	mg;cm lq;di
 萌混过关	mg;cm hp;dk go;zc gr;bt
-萌热娘	mg;cm re;dv nd;nl
+萌热娘	mg;cm re;hv nd;nl
 萌物	mg;cm wu;nw
 萌物控	mg;cm wu;nw ks;fk
 萌物新生	mg;cm wu;nw xn;jq ug;na
@@ -81218,7 +81218,7 @@ use_preset_vocabulary: false
 苏格拉宁	su;cb ge;mg la;fl ny;bd
 苏格拉底	su;cb ge;mg la;fl di;gd
 苏格兰	su;cb ge;mg lj;bs
-苏格兰威士忌	su;cb ge;mg lj;bs wz;gn ui;aa ji;jx
+苏格兰威士忌	su;cb ge;mg lj;bs wz;gn ui;aa ji;xj
 苏格兰蛋	su;cb ge;mg lj;bs dj;ip
 苏沐橙	su;cb mu;dm ig;md
 苏沐秋	su;cb mu;dm qq;hh
@@ -81777,7 +81777,7 @@ use_preset_vocabulary: false
 虹色的世界	hs;ig se;db de;bu ui;ca jx;tj
 虹色的北斗七星	hs;ig se;db de;bu bz;ap db;du qi;ag xy;ou
 虹色的感伤	hs;ig se;db de;bu gj;xx uh;rl
-虹色的热情	hs;ig se;db de;bu re;dv qy;xq
+虹色的热情	hs;ig se;db de;bu re;hv qy;xq
 虹色的绝望	hs;ig se;db de;bu jt;ss wh;wo
 虹色的翅膀	hs;ig se;db de;bu ii;vy bh;op
 虹色行板	hs;ig se;db xy;xd bj;mf
@@ -83558,7 +83558,7 @@ use_preset_vocabulary: false
 亲爱的双子星	qn;lm ai;vy de;bu ud;yy zi;aa xy;ou
 亲戚	qn;lm qi;gx
 亲潮	qn;lm ik;di
-亲热天堂	qn;lm re;dv tm;ad th;tk
+亲热天堂	qn;lm re;hv tm;ad th;tk
 亲船素甘	qn;lm ir;vk su;sf gj;aa
 亲卫队	qn;lm wz;ea dv;er
 亲亲猪猪宝贝	qn;lm qn;lm vu;qv vu;qv bk;by bz;ad
@@ -83918,7 +83918,7 @@ use_preset_vocabulary: false
 设定	ue;yu dy;bp
 设定名词	ue;yu dy;bp my;xk ci;ys
 设定图	ue;yu dy;bp tu;kd
-设定狂热者	ue;yu dy;bp kd;qw re;dv ve;lo
+设定狂热者	ue;yu dy;bp kd;qw re;hv ve;lo
 设定用语	ue;yu dy;bp ys;kf yu;yw
 设乐风海	ue;yu le;pd fg;ji hl;dm
 设乐麻美	ue;yu le;pd ma;gl mz;dy
@@ -84095,7 +84095,7 @@ use_preset_vocabulary: false
 该死的异端及巧克力	gl;yh si;db de;bu yi;cs dr;le ji;nd qc;gk ke;eg li;gp
 该死的异端和巧克力	gl;yh si;db de;bu yi;cs dr;le he;hk qc;gk ke;eg li;gp
 该死的异端与巧克力	gl;yh si;db de;bu yi;cs dr;le yu;aa qc;gk ke;eg li;gp
-该热血了	gl;yh re;dv xt;pa le;aa
+该热血了	gl;yh re;hv xt;pa le;aa
 该用的时候不用就没有意义了	gl;yh ys;kf de;bu ui;oc hb;ru bu;ad ys;kf jq;yj mz;du yb;ou yi;xy yi;di le;aa
 该起床了	gl;yh qi;zj id;gm le;aa
 该隐弗拉德	gl;yh yn;ej fu;aa la;fl de;xx
@@ -84844,7 +84844,7 @@ use_preset_vocabulary: false
 变形斗士电线	bm;wy xy;pk db;du ui;aa dm;ag xm;sj
 变形黏土要塞	bm;wy xy;pk nm;hv tu;aa yk;xn sl;tb
 变得害怕蓝色了	bm;wy de;xc hl;bk pa;xb lj;cj se;db le;aa
-变得炙热吧	bm;wy de;xc vi;ho re;dv ba;kb
+变得炙热吧	bm;wy de;xc vi;ho re;hv ba;kb
 变得能看到好感度了	bm;wy de;xc ng;sb kj;ou dk;dv hk;nz gj;xx du;gy le;aa
 变性	bm;wy xy;xu
 变态	bm;wy tl;xt
@@ -85159,8 +85159,8 @@ use_preset_vocabulary: false
 猪突猛进女孩	vu;qv tu;xq mg;qm jn;zj nv;aa hl;zh
 猪突猛进爆进中	vu;qv tu;xq mg;qm jn;zj bk;hb jn;zj vs;aa
 猪笼草娘	vu;qv ls;vl ck;cz nd;nl
-猪肝倒是热热再吃啊	vu;qv gj;og dk;rd ui;op re;dv re;dv zl;aa ii;kq aa;ka
-猪肝热热吃	vu;qv gj;og re;dv re;dv ii;kq
+猪肝倒是热热再吃啊	vu;qv gj;og dk;rd ui;op re;hv re;hv zl;aa ii;kq aa;ka
+猪肝热热吃	vu;qv gj;og re;hv re;hv ii;kq
 猪肝记得煮熟再吃	vu;qv gj;og ji;yj de;xc vu;dv uu;hu zl;aa ii;kq
 猪股慧士	vu;qv gu;ou hv;xh ui;aa
 猪股速十	vu;qv gu;ou su;zu ui;aa
@@ -86093,7 +86093,7 @@ use_preset_vocabulary: false
 赤焰松	ii;tb yj;hj ss;mg
 赤焰锦衣卫	ii;tb yj;hj jn;jb yi;dd wz;ea
 赤焰镇魂琴	ii;tb yj;hj vf;jv hp;gy qn;wj
-赤热的心跳	ii;tb re;dv de;bu xn;dd tc;zv
+赤热的心跳	ii;tb re;hv de;bu xn;dd tc;zv
 赤烛	ii;tb vu;hi
 赤烛游戏	ii;tb vu;hi yb;dz xi;yg
 赤牙	ii;tb ya;ap
@@ -86344,9 +86344,9 @@ use_preset_vocabulary: false
 趁我还在身边之时	if;zp wo;pd hl;zb zl;ta uf;pp bm;zl vi;dd ui;oc
 趁火打劫	if;zp ho;dd da;fd jx;lq
 趁火打劫者	if;zp ho;dd da;fd jx;lq ve;lo
-趁热	if;zp re;dv
-趁热来一发	if;zp re;dv ll;am yi;aa fa;ay
-趁热来了一发	if;zp re;dv ll;am le;aa yi;aa fa;ay
+趁热	if;zp re;hv
+趁热来一发	if;zp re;hv ll;am yi;aa fa;ay
+趁热来了一发	if;zp re;hv ll;am le;aa yi;aa fa;ay
 趁这回忆之枯叶尚未高飞远走	if;zp ve;zw hv;kk yi;xy vi;dd ku;mg ye;ku uh;xk wz;ex gk;wk fz;yd yr;zy zb;tv
 趁风	if;zp fg;ji
 趁鬼不在的时候	if;zp gv;pd bu;ad zl;ta de;bu ui;oc hb;ru
@@ -86489,7 +86489,7 @@ use_preset_vocabulary: false
 超无聊	ik;zv wu;ag lc;em
 超烦	ik;zv fj;hy
 超熊野	ik;zv xs;dn ye;ly
-超热力追踪	ik;zv re;dv li;gp vv;zv zs;zz
+超热力追踪	ik;zv re;hv li;gp vv;zv zs;zz
 超营养太阳	ik;zv yy;cl yh;ya tl;dd yh;eo
 超爆裂异次元卡片大战	ik;zv bk;hb lx;yl yi;cs ci;dq yr;aw ka;bx pm;pa da;ad vj;gv
 超兽攻击队	ik;zv ub;ka gs;gw ji;aa dv;er
@@ -86561,7 +86561,7 @@ use_preset_vocabulary: false
 超级溪流	ik;zv ji;sj xi;dx lq;di
 超级潘兴	ik;zv ji;sj pj;df xy;ba
 超级潘兴娘	ik;zv ji;sj pj;df xy;ba nd;nl
-超级热带雨林	ik;zv ji;sj re;dv dl;jb yu;ad ln;mm
+超级热带雨林	ik;zv ji;sj re;hv dl;jb yu;ad ln;mm
 超级班扬	ik;zv ji;sj bj;dw yh;fy
 超级玛丽	ik;zv ji;sj ma;wm li;ad
 超级留言	ik;zv ji;sj lq;td yj;da
@@ -87015,8 +87015,8 @@ use_preset_vocabulary: false
 路障贵族僵尸	lu;zg vh;ev gv;ba zu;fu jd;rj ui;ap
 路障农夫僵尸	lu;zg vh;ev ns;by fu;ad jd;rj ui;ap
 路霸	lu;zg ba;yo
-路面加热器	lu;zg mm;aa jw;lk re;dv qi;kk
-路面加热车	lu;zg mm;aa jw;lk re;dv ie;aa
+路面加热器	lu;zg mm;aa jw;lk re;hv qi;kk
+路面加热车	lu;zg mm;aa jw;lk re;hv ie;aa
 路飞	lu;zg fz;yd
 路飞娘	lu;zg fz;yd nd;nl
 路鸣泽	lu;zg my;kn ze;df
@@ -87807,7 +87807,7 @@ use_preset_vocabulary: false
 迪阿马特	di;zy aa;ek ma;aa te;ns
 迪雅梅克	di;zy ya;vy mz;mm ke;eg
 迪鲁古兰	di;zy lu;yo gu;uk lj;bs
-迪丽热巴	di;zy li;ad re;dv ba;ag
+迪丽热巴	di;zy li;ad re;hv ba;ag
 迪丽茜司康	di;zy li;ad qm;cx si;gk kh;gl
 迪默	di;zy mo;hq
 迫井政行	po;zb jy;aa vg;wv xy;xd
@@ -88265,7 +88265,7 @@ use_preset_vocabulary: false
 这一次	ve;zw yi;aa ci;dq
 这不是女人的名字吗	ve;zw bu;ad ui;op nv;aa rf;pd de;bu my;xk zi;bz ma;km
 这不是米吉多	ve;zw bu;ad ui;op mi;dd ji;ku do;xx
-这不比博人传热血	ve;zw bu;ad bi;bb bo;uc rf;pd ir;rv re;dv xt;pa
+这不比博人传热血	ve;zw bu;ad bi;bb bo;uc rf;pd ir;rv re;hv xt;pa
 这不比博人传燃	ve;zw bu;ad bi;bb bo;uc rf;pd ir;rv rj;hr
 这不科学	ve;zw bu;ad ke;hd xt;dz
 这世界有兽	ve;zw ui;ca jx;tj yb;ou ub;ka
@@ -88433,7 +88433,7 @@ use_preset_vocabulary: false
 通天	ts;zy tm;ad
 通天塔	ts;zy tm;ad ta;td
 通学路	ts;zy xt;dz lu;zg
-通宵热舞	ts;zy xc;bx re;dv wu;rf
+通宵热舞	ts;zy xc;bx re;hv wu;rf
 通宵的青春物语	ts;zy xc;bx de;bu qy;of ip;of wu;nw yu;yw
 通形未吏生	ts;zy xy;pk wz;ex li;ad ug;na
 通形百万	ts;zy xy;pk bl;ab wj;ag
@@ -88987,7 +88987,7 @@ use_preset_vocabulary: false
 过浅的墓穴	go;zc qm;dj de;bu mu;tm xt;bb
 过滤	go;zc lv;dl
 过火的埋葬	go;zc ho;dd de;bu ml;tl zh;cc
-过热岛屿	go;zc re;dv dk;nu yu;uy
+过热岛屿	go;zc re;hv dk;nu yu;uy
 过目不忘	go;zc mu;aa bu;ad wh;xw
 过竹乡	go;zc vu;gg xd;ap
 过膝袜	go;zc xi;oq wa;ym
@@ -89403,7 +89403,7 @@ use_preset_vocabulary: false
 迈特戴	ml;zw te;ns dl;gg
 迈迈	ml;zw ml;zw
 迈开步伐吧	ml;zw kl;ac bu;vx fa;rg ba;kb
-迈阿密热线	ml;zw aa;ek mi;ub re;dv xm;sj
+迈阿密热线	ml;zw aa;ek mi;ub re;hv xm;sj
 迈阿密银行	ml;zw aa;ek mi;ub yn;jg hh;xd
 邂逅	xx;zj hb;zh
 邂逅少女	xx;zj hb;zh uk;xp nv;aa
@@ -90311,7 +90311,7 @@ use_preset_vocabulary: false
 野心的复活	ye;ly xn;dd de;bu fu;pw ho;du
 野性生还者	ye;ly xy;xu ug;na hr;zb ve;lo
 野性的呼唤	ye;ly xy;xu de;bu hu;kh hr;kh
-野性的热情	ye;ly xy;xu de;bu re;dv qy;xq
+野性的热情	ye;ly xy;xu de;bu re;hv qy;xq
 野性解放	ye;ly xy;xu jx;jn fh;wf
 野怪	ye;ly gy;xu
 野户真昼	ye;ly hu;dp vf;uj vb;id
@@ -91189,7 +91189,7 @@ use_preset_vocabulary: false
 银河霸者	yn;jg he;dk ba;yo ve;lo
 银河风暴	yn;jg he;dk fg;ji bk;ou
 银河骑士传	yn;jg he;dk qi;mq ui;aa ir;rv
-银海豚与热风	yn;jg hl;dm tp;ou yu;aa re;dv fg;ji
+银海豚与热风	yn;jg hl;dm tp;ou yu;aa re;hv fg;ji
 银淑	yn;jg uu;du
 银溪	yn;jg xi;dx
 银灰	yn;jg hv;hu
@@ -94585,7 +94585,7 @@ use_preset_vocabulary: false
 双管猎枪	ud;yy gr;vg lx;qx qd;mc
 双节棍	ud;yy jx;ce gp;mk
 双簧管	ud;yy hd;vh gr;vg
-双翼的炙热羽翼	ud;yy yi;yg de;bu vi;ho re;dv yu;xx yi;yg
+双翼的炙热羽翼	ud;yy yi;yg de;bu vi;ho re;hv yu;xx yi;yg
 双翼的独奏歌	ud;yy yi;yg de;bu du;qi zb;ft ge;qg
 双胞胎	ud;yy bk;ob tl;ot
 双色发	ud;yy se;db fa;ay
@@ -98577,7 +98577,7 @@ use_preset_vocabulary: false
 马汉	ma;aa hj;dy
 马泽的故事	ma;aa ze;df de;bu gu;wg ui;aa
 马炳林	ma;aa by;hb ln;mm
-马热土	ma;aa re;dv tu;aa
+马热土	ma;aa re;hv tu;aa
 马尔三叶形虫	ma;aa er;dx sj;aa ye;ku xy;pk is;ad
 马尔修斯	ma;aa er;dx xq;rp si;jq
 马尔可	ma;aa er;dx ke;dk
@@ -99369,7 +99369,7 @@ use_preset_vocabulary: false
 高濑泰幸	gk;wk ll;dl tl;fu xy;tu
 高濑瑞希	gk;wk ll;dl rv;we xi;ju
 高炀	gk;wk yh;hy
-高热炎武	gk;wk re;dv yj;hh wu;vy
+高热炎武	gk;wk re;hv yj;hh wu;vy
 高爆弹	gk;wk bk;hb dj;gd
 高爆手雷	gk;wk bk;hb ub;pa lz;yt
 高尔夫球手	gk;wk er;dx fu;ad qq;wq ub;pa
@@ -99838,7 +99838,7 @@ use_preset_vocabulary: false
 魂魄傀儡鬼神	hp;gy po;bg kv;rg lz;rl gv;pd uf;uu
 魂魄妖梦	hp;gy po;bg yk;ny mg;mx
 魂魄妖姬	hp;gy po;bg yk;ny ji;ni
-魂魄妖忌	hp;gy po;bg yk;ny ji;jx
+魂魄妖忌	hp;gy po;bg yk;ny ji;xj
 魄罗	po;bg lo;sx
 魄龙乔	po;bg ls;ad qc;pp
 魅上照	mz;gw uh;aa vk;dv
@@ -100646,7 +100646,7 @@ use_preset_vocabulary: false
 鲑鱼	gv;yg yu;da
 鲜参	xm;yy cj;sp
 鲜红哈士奇改	xm;yy hs;sg ha;kh ui;aa qi;dk gl;wj
-鲜红炽热的心跳	xm;yy hs;sg ii;hv re;dv de;bu xn;dd tc;zv
+鲜红炽热的心跳	xm;yy hs;sg ii;hv re;hv de;bu xn;dd tc;zv
 鲜花女男爵	xm;yy hw;ch nv;aa nj;tl jt;vc
 鲜花无须装饰	xm;yy hw;ch wu;ag xu;py vd;yv ui;uj
 鲜花给你	xm;yy hw;ch gz;sh ni;re
@@ -101498,7 +101498,7 @@ use_preset_vocabulary: false
 黄昏的房间	hd;ad hp;ou de;bu fh;hf jm;mo
 黄昏的星光	hd;ad hp;ou de;bu xy;ou gd;ea
 黄昏的星灯	hd;ad hp;ou de;bu xy;ou dg;hd
-黄昏的禁忌之药	hd;ad hp;ou de;bu jn;ul ji;jx vi;dd yk;cy
+黄昏的禁忌之药	hd;ad hp;ou de;bu jn;ul ji;xj vi;dd yk;cy
 黄昏的风平浪静与照相机	hd;ad hp;ou de;bu fg;ji py;aa lh;dl jy;qv yu;aa vk;dv xd;mo ji;mj
 黄昏羽毛	hd;ad hp;ou yu;xx mk;pg
 黄昏色的咏使	hd;ad hp;ou se;db de;bu ys;ky ui;rl
