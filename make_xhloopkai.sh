@@ -39,7 +39,7 @@ cd ./tools-additional
 echo 轉換繁体詞庫...
 sed '/\.\.\./q' ../xhloopkai-cht/moran.chars.dict.yaml > ../xhloopkai-cht/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../xhloopkai-cht/temp.txt
-perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../xhloopkai-cht/temp.txt
+perl -CSAD -i -pe "s/(.*);;.*/\1/g" ../xhloopkai-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloopkai-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../xhloopkai-cht/temp.txt
 echo "" >> ../xhloopkai-cht/moran.chars.dict.yaml.bak
@@ -99,7 +99,7 @@ mv ../xhloopkai-cht/zrlf.dict.yaml{.bak,}
 echo 轉換简体詞庫...
 sed '/\.\.\./q' ../xhloopkai-chs/moran.chars.dict.yaml > ../xhloopkai-chs/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../xhloopkai-chs/temp.txt
-perl -CSAD -i -pe "s/.\t[a-z]{2};;\t0\n//g" ../xhloopkai-chs/temp.txt
+perl -CSAD -i -pe "s/(.*);;.*/\1/g" ../xhloopkai-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloopkai-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../xhloopkai-chs/temp.txt
 echo "" >> ../xhloopkai-chs/moran.chars.dict.yaml.bak

@@ -139,8 +139,8 @@ def rewrite_row(rows, currentlib, simplib):
         if len(row) > 1:
             original_text = row[1]
             replaced_text = ''.join(replacement_dict.get(char, char) for char in original_text)
-            if currentlib in simplib:
-                replaced_text = opencc_t2s.convert(replaced_text)
+            # if currentlib in simplib:
+                # replaced_text = opencc_t2s.convert(replaced_text)
             row[1] = replaced_text
             if len(row) > 2:
                 rows[i] = [row[0], row[1]]
