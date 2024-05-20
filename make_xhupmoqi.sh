@@ -186,7 +186,7 @@ cd ./tools-additional
 # python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/ext.dict.yaml -o ../xhupmoqi-cht/ice-dicts/xhupmoqi_moqidb_ext.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/8105.dict.yaml -o ../xhupmoqi-cht/ice-dicts/xhupmoqi_moqidb_8105.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/41448.dict.yaml -o ../xhupmoqi-cht/ice-dicts/xhupmoqi_moqidb_41448.dict.yaml
-python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/base.dict.yaml -o ../xhupmoqi-cht/ice-dicts/xhupmoqi_moqidb_base.dict.yaml
+# python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/base.dict.yaml -o ../xhupmoqi-cht/ice-dicts/xhupmoqi_moqidb_base.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/ext.dict.yaml -o ../xhupmoqi-cht/ice-dicts/xhupmoqi_moqidb_ext.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/others.dict.yaml  -o ../xhupmoqi-cht/ice-dicts/xhupmoqi_moqidb_others.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/tencent.dict.yaml -o ../xhupmoqi-cht/ice-dicts/xhupmoqi_moqidb_tencent.dict.yaml
@@ -194,7 +194,7 @@ python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -t -i ../rime-ice/cn_dicts/
 # python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -s -i ../rime-ice/cn_dicts/ext.dict.yaml -o ../xhupmoqi-chs/ice-dicts/xhupmoqi_moqidb_ext.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -s -i ../rime-ice/cn_dicts/8105.dict.yaml -o ../xhupmoqi-chs/ice-dicts/xhupmoqi_moqidb_8105.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -s -i ../rime-ice/cn_dicts/41448.dict.yaml -o ../xhupmoqi-chs/ice-dicts/xhupmoqi_moqidb_41448.dict.yaml
-python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -s -i ../rime-ice/cn_dicts/base.dict.yaml -o ../xhupmoqi-chs/ice-dicts/xhupmoqi_moqidb_base.dict.yaml
+# python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -s -i ../rime-ice/cn_dicts/base.dict.yaml -o ../xhupmoqi-chs/ice-dicts/xhupmoqi_moqidb_base.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -s -i ../rime-ice/cn_dicts/ext.dict.yaml -o ../xhupmoqi-chs/ice-dicts/xhupmoqi_moqidb_ext.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -s -i ../rime-ice/cn_dicts/others.dict.yaml -o ../xhupmoqi-chs/ice-dicts/xhupmoqi_moqidb_others.dict.yaml
 python3 gen_dict_with_shape.py -p xhupmoqi -x moqidb -s -i ../rime-ice/cn_dicts/tencent.dict.yaml -o ../xhupmoqi-chs/ice-dicts/xhupmoqi_moqidb_tencent.dict.yaml
@@ -222,12 +222,12 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupmoqi_moqidb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupmoqi_moqidb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - ice-dicts\/xhupmoqi_moqidb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - ice-dicts\/xhupmoqi_moqidb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml && sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupmoqi_moqidb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/xhupmoqi_moqidb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/xhupmoqi_moqidb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - ice-dicts\/xhupmoqi_moqidb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  # - ice-dicts\/xhupmoqi_moqidb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  # - ice-dicts\/xhupmoqi_moqidb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
 rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml xhupmoqi.schema.yaml
@@ -277,12 +277,12 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupmoqi_moqidb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupmoqi_moqidb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - ice-dicts\/xhupmoqi_moqidb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - ice-dicts\/xhupmoqi_moqidb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml && sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupmoqi_moqidb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/xhupmoqi_moqidb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/xhupmoqi_moqidb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - ice-dicts\/xhupmoqi_moqidb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  # - ice-dicts\/xhupmoqi_moqidb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  # - ice-dicts\/xhupmoqi_moqidb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
 rm moran.extended.dict.yaml.bak
 
 cp moran.schema.yaml xhupmoqi.schema.yaml

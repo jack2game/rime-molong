@@ -8,12 +8,12 @@ sort: by_weight
 use_preset_vocabulary: false
 import_tables:
   - moran.chars      # 自然碼單字表
+  - moran.base       # 基礎詞庫
   - ice-dicts/xhupmoqi_moqidb_8105      # 8105字表
   - ice-dicts/xhupmoqi_moqidb_41448     # 41448字表
   - ice-dicts/xhupmoqi_moqidb_ext      # 扩展词库
   # - ice-dicts/xhupmoqi_moqidb_tencent  # 腾讯词向量（大词库，部署时间较长）
   # - ice-dicts/xhupmoqi_moqidb_others   # 一些杂项 容错音和错字 可以不开
-  - moran.base       # 基礎詞庫
   - moran.words      # 本方案補充詞
 #   - moran.tencent    # 騰訊詞庫
   - moran.computer   # 計算機術語
