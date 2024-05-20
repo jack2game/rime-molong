@@ -86,7 +86,7 @@
 
 <summary>字根圖</summary>
 
-![Molong_Page4](https://github.com/jack2game/rime-molong/assets/16070158/63572000-632b-4511-8159-406776853e3b)
+![Molong_Page5](https://github.com/jack2game/rime-molong/assets/16070158/445fd3a7-5dae-431f-aa80-a6fd9291627f)
 
 </details>
 
