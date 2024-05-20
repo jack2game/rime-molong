@@ -39,7 +39,7 @@ cd ./tools-additional
 echo 轉換繁体詞庫...
 python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupmoqi-cht/moran.chars.dict.yaml > ../xhupmoqi-cht/moran.chars.dict.yaml.bak
 mv ../xhupmoqi-cht/moran.chars.dict.yaml{.bak,}
-perl -CSAD -i -pe "s/([a-z]{2});[a-z]{2}/\1/g" ../xhupmoqi-cht/temp.txt
+perl -CSAD -i -pe "s/([a-z]{2});[a-z]{2}/\1/g" ../xhupmoqi-cht/moran.chars.dict.yaml
 sed '/\.\.\./q' ../xhupmoqi-cht/moran.chars.dict.yaml > ../xhupmoqi-cht/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p static -x moqidb -i ../xhupmoqi-cht/moran.chars.dict.yaml -o ../xhupmoqi-cht/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhupmoqi-cht/temp.txt && sed -i '0,/\.\.\./d' ../xhupmoqi-cht/temp.txt
@@ -99,7 +99,7 @@ mv ../xhupmoqi-cht/zrlf.dict.yaml{.bak,}
 echo 轉換简体詞庫...
 python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupmoqi-chs/moran.chars.dict.yaml > ../xhupmoqi-chs/moran.chars.dict.yaml.bak
 mv ../xhupmoqi-chs/moran.chars.dict.yaml{.bak,}
-perl -CSAD -i -pe "s/([a-z]{2});[a-z]{2}/\1/g" ../xhupmoqi-chs/temp.txt
+perl -CSAD -i -pe "s/([a-z]{2});[a-z]{2}/\1/g" ../xhupmoqi-chs/moran.chars.dict.yaml
 sed '/\.\.\./q' ../xhupmoqi-chs/moran.chars.dict.yaml > ../xhupmoqi-chs/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p static -x moqidb -i ../xhupmoqi-chs/moran.chars.dict.yaml -o ../xhupmoqi-chs/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhupmoqi-chs/temp.txt && sed -i '0,/\.\.\./d' ../xhupmoqi-chs/temp.txt
