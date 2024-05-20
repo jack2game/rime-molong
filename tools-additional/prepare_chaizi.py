@@ -180,26 +180,20 @@ def main():
     newlibs = []
     keys_seen = set()  # Set to keep track of keys seen so far
     for i, lib in enumerate(libs):
-        if len(lib) > 2:
+        if len(lib) > 1:
             lib[1] = lib[1][0:2]
-            libs[i] = lib[0:3]+[i] # add index to the sublist 有词频时
-            key = lib[0]
-            if key not in keys_seen:
-                keys_seen.add(key)  # Add the key to the set
-                newlibs.append(libs[i])
-        elif len(lib) > 1:
-            lib[1] = lib[1][0:2]
-            libs[i] = lib[0:2]+[i] # add index to the sublist 无词频时
+            if len(lib) > 2:
+                libs[i] = lib[0:3]+[i] # add index to the sublist 有词频时
+            elif len(lib) == 2:
+                libs[i] = lib[0:2]+[0]+[i]
             key = lib[0]
             if key not in keys_seen:
                 keys_seen.add(key)  # Add the key to the set
                 newlibs.append(libs[i])
     libs = [sublist for sublist in newlibs if len(sublist) == 4 and len(sublist[0]) == 1] # 有词频时
-    libs = [sublist for sublist in newlibs if len(sublist) == 3 and len(sublist[0]) == 1] # 无词频时
-    try:
-        libs = sorted(libs, key=lambda x: (x[0], -int(x[2]), int(x[3]))) # 有词频时
-    except:
-        libs = sorted(libs, key=lambda x: (x[0], int(x[2]))) # 无词频时
+    # libs = [sublist for sublist in newlibs if len(sublist) == 3 and len(sublist[0]) == 1]
+    libs = sorted(libs, key=lambda x: (x[0], -int(x[2]), int(x[3]))) # 有词频时
+    # libs = sorted(libs, key=lambda x: (x[0], int(x[2])))
     for i, lib in enumerate(libs):
         libs[i] = lib[0:2]
 
