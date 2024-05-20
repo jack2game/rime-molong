@@ -222,7 +222,7 @@ sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupkai_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml && 
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupkai_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupkai_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupkai_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/xhupkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
