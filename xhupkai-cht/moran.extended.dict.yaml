@@ -8,8 +8,8 @@ sort: by_weight
 use_preset_vocabulary: false
 import_tables:
   - moran.chars      # 自然碼單字表
-  # - ice-dicts/xhupkai_zrmdb_8105      # 8105字表
-  # - ice-dicts/xhupkai_zrmdb_41448     # 41448字表
+  - ice-dicts/xhupkai_zrmdb_8105      # 8105字表
+  - ice-dicts/xhupkai_zrmdb_41448     # 41448字表
   - ice-dicts/xhupkai_zrmdb_base     # 基础词库
   - ice-dicts/xhupkai_zrmdb_ext      # 扩展词库
   # - ice-dicts/xhupkai_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）
