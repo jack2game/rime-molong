@@ -19,8 +19,8 @@ rm -rf ./xhupmoqi-cht/.github/
 # mv ./xhupmoqi-cht/default.yaml ./schema
 # mv ./xhupmoqi-cht/key_bindings.yaml ./schema
 # mv ./xhupmoqi-cht/punctuation.yaml ./schema
-
 cp ./rime-shuangpin-fuzhuma/opencc/moqi_chaifen.txt ./xhupmoqi-cht/opencc/moran_chaifen.txt
+sed -i -E 's/^(\S+)\t(\S+)\t(.+)$/\1\t〔\3\2〕/' ./xhupmoqi-cht/opencc/moran_chaifen.txt
 cp ./rime-shuangpin-fuzhuma/moqima8105.txt ./tools-additional/moqidb.txt
 perl -CSAD -i -pe 's/(.\t[a-z]{2})\t.*/$1/' ./tools-additional/moqidb.txt
 
