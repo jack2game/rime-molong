@@ -940,7 +940,7 @@ def lunapy2zrm(pinyin: str):
 
 def get_pinyin_fn(schema: str):
     schema = schema.lower()
-    if schema in ["quanpin"]:
+    if schema in ["quanpin", "static"]:
         def do_nothing(pinyin: str):
             return pinyin
         return do_nothing
