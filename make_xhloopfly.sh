@@ -39,7 +39,7 @@ cd ./tools-additional
 echo 轉換繁体詞庫...
 sed '/\.\.\./q' ../xhloopfly-cht/moran.chars.dict.yaml > ../xhloopfly-cht/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p xhloopfly -x flypydb -i ../data/zdicdbtonesorted.yaml -o ../xhloopfly-cht/temp.txt
-perl -CSAD -i -pe "s/(.*);;.*/\1/g" ../xhloopfly-cht/temp.txt
+perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhloopfly-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloopfly-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../xhloopfly-cht/temp.txt
 echo "" >> ../xhloopfly-cht/moran.chars.dict.yaml.bak
@@ -99,7 +99,7 @@ mv ../xhloopfly-cht/zrlf.dict.yaml{.bak,}
 echo 轉換简体詞庫...
 sed '/\.\.\./q' ../xhloopfly-chs/moran.chars.dict.yaml > ../xhloopfly-chs/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p xhloopfly -x flypydb -i ../data/zdicdbtonesorted.yaml -o ../xhloopfly-chs/temp.txt
-perl -CSAD -i -pe "s/(.*);;.*/\1/g" ../xhloopfly-chs/temp.txt
+perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhloopfly-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../xhloopfly-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../xhloopfly-chs/temp.txt
 echo "" >> ../xhloopfly-chs/moran.chars.dict.yaml.bak
