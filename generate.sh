@@ -29,6 +29,9 @@ if [ "$#" -gt 1 ]; then
 	7z a xhupkai-chs.7z xhupkai-chs/
 	7z a xhupkai-cht.7z xhupkai-cht/
 
+	7z a xhupzrmfast-chs.7z xhupzrmfast-chs/
+	7z a xhupzrmfast-cht.7z xhupzrmfast-cht/
+
 	echo "Releasing $1..."
 	gh release create "$1" --generate-notes --title "$1 - $2" *.7z
 	rm *.7z
@@ -36,13 +39,14 @@ if [ "$#" -gt 1 ]; then
 
 else
 	bash make_molong.sh
-	bash make_xhloopfly.sh
+	# bash make_xhloopfly.sh
 	bash make_xhloopkai.sh
 	bash make_zrloopkai.sh
-	bash make_molongkai.sh
-	bash make_xhloopmoqi.sh
+	# bash make_molongkai.sh
+	# bash make_xhloopmoqi.sh
 	bash make_xhupmoqi.sh
 	bash make_xhupkai.sh
+	# bash make_xhupzrmfast.sh
 	cd tools-additional/
 
 	echo ""

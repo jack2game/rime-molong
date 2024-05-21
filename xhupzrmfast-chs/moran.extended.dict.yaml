@@ -1,0 +1,25 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: moran.extended
+version: "20240414"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - moran.chars      # 自然碼單字表
+  - moran.base       # 基礎詞庫
+  - ice-dicts/xhupzrmfast_zrmfastdb_8105      # 8105字表
+  - ice-dicts/xhupzrmfast_zrmfastdb_41448     # 41448字表
+  - ice-dicts/xhupzrmfast_zrmfastdb_ext      # 扩展词库
+  # - ice-dicts/xhupzrmfast_zrmfastdb_tencent  # 腾讯词向量（大词库，部署时间较长）
+  # - ice-dicts/xhupzrmfast_zrmfastdb_others   # 一些杂项 容错音和错字 可以不开
+  - moran.words      # 本方案補充詞
+#   - moran.tencent    # 騰訊詞庫
+  - moran.computer   # 計算機術語
+# - moran.hanyu      # 漢語大詞典（都是些很生僻的詞）
+#   - moran.moe
+...
+
+# 用戶自定義詞庫
+# 此處可無碼加詞
