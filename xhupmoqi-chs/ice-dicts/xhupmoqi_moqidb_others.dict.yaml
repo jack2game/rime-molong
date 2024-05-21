@@ -8,7 +8,7 @@
 #
 ---
 name: others
-version: "2024-05-16"
+version: "2024-05-21"
 sort: by_weight
 ...
 ##### 容错词
@@ -222,6 +222,12 @@ sort: by_weight
 南京六合区	nj;ug jk;wx lq;wb he;rk qu;kx
 南京市六合区	nj;ug jk;wx ui;wj lu;wb he;rk qu;kx
 南京市六合区	nj;ug jk;wx ui;wj lq;wb he;rk qu;kx
+偌大	ro;rk da;ar
+偌大	no;rk da;ar
+饮鸩止渴	yb;uq vf;bn vi;lb ke;dr
+饮鸩止渴	yb;uq jq;bn vi;lb ke;dr
+饮鸩解渴	yb;uq vf;bn jp;dn ke;dr
+饮鸩解渴	yb;uq jq;bn jp;dn ke;dr
 ### 错字
 曾经	cg;bo jk;sj
 曾今	cg;bo jb;rv
@@ -244,10 +250,6 @@ sort: by_weight
 钜惠	ju;jj hv;ix
 摩羯座	mo;gu jp;yr zo;gr
 魔蝎座	mo;gg xp;ir zo;gr
-偌大	ro;rk da;ar
-诺大	no;yk da;ar
-饮鸩止渴	yb;uq vf;bn vi;lb ke;dr
-饮鸩止渴	yb;uq jq;bn vi;lb ke;dr
 
 
 ##### 叠字
@@ -264,14 +266,14 @@ sort: by_weight
 两个人
 两个飞
 两个戈
-两个厶	ll;ar ge;rl si;;
-两个厶	ll;ar ge;rl mz;;
+两个厶	ll;ar ge;rl si;vd
+两个厶	ll;ar ge;rl mz;vd
 两个又
 两个香
 两个面
 两个兀
 两个女
-两个𡥦	ll;ar ge;rl ni;;
+两个𡥦	ll;ar ge;rl ni;zz
 两个臣
 两个巾
 两个左
@@ -279,11 +281,11 @@ sort: by_weight
 两个来
 两个凡
 两个夕
-两个彐	ll;ar ge;rl ji;;
-两个𢎘	ll;ar ge;rl hj;;
+两个彐	ll;ar ge;rl ji;ka
+两个𢎘	ll;ar ge;rl hj;av
 两个鱼	ll;ar ge;rl yu;da
 两个明
-两个朿	ll;ar ge;rl ci;;
+两个朿	ll;ar ge;rl ci;ub
 两个乂
 两个曰
 两个尸
@@ -295,7 +297,7 @@ sort: by_weight
 两个吉
 两个马
 两个卅
-两个巛	ll;ar ge;rl ir;;
+两个巛	ll;ar ge;rl ir;vv
 两个止
 两个比
 两个言
@@ -303,8 +305,8 @@ sort: by_weight
 两个牛
 两个余
 两个束
-两个罒	ll;ar ge;rl mu;;
-两个㐅	ll;ar ge;rl wu;;
+两个罒	ll;ar ge;rl mu;kl
+两个㐅	ll;ar ge;rl wu;pd
 两个金
 两个木
 两个水
@@ -322,7 +324,7 @@ sort: by_weight
 两个屮	ll;ar ge;rl ie;kl
 两个屮	ll;ar ge;rl cc;kl
 两个廿
-两个卄	ll;ar ge;rl nm;;
+两个卄	ll;ar ge;rl nm;al
 两个虫
 两个虎
 两个龙	ll;ar ge;rl ls;yp
@@ -331,8 +333,8 @@ sort: by_weight
 两个人
 两个入
 两个习
-两个卪	ll;ar ge;rl jp;;
-两个㔾	ll;ar ge;rl jp;;
+两个卪	ll;ar ge;rl jp;ed
+两个㔾	ll;ar ge;rl jp;vv
 两个几
 两个乙
 两个大
@@ -362,8 +364,8 @@ sort: by_weight
 两个户
 两个启
 两个来	ll;ar ge;rl ld;am
-两个桼	ll;ar ge;rl qi;;
-两个旡	ll;ar ge;rl ji;;
+两个桼	ll;ar ge;rl qi;mu
+两个旡	ll;ar ge;rl ji;ay
 两个夕
 两个歹
 两个匕
@@ -389,7 +391,7 @@ sort: by_weight
 两个鸟
 两个巢
 两个禺	ll;ar ge;rl yu;td
-两个巿	ll;ar ge;rl fu;;
+两个巿	ll;ar ge;rl fu;uj
 两个句
 两个奇
 两个真
@@ -411,9 +413,9 @@ sort: by_weight
 两个隹	ll;ar ge;rl vv;rv
 两个牟
 两个豕
-两个𠂢	ll;ar ge;rl pd;;
-两个畐	ll;ar ge;rl fu;;
-两个㣇	ll;ar ge;rl yi;;
+两个𠂢	ll;ar ge;rl pd;iy
+两个畐	ll;ar ge;rl fu;at
+两个㣇	ll;ar ge;rl yi;hj
 两个邑
 两个尧	ll;ar ge;rl yc;yw
 两个秉
@@ -433,20 +435,20 @@ sort: by_weight
 两个不
 两个龙
 两个乞
-两个夋	ll;ar ge;rl qy;;
+两个夋	ll;ar ge;rl qy;yw
 两个天
 # 三叠字
 三个生
 三个秦
 三个若
-三个云	sj;ae ge;rl yy;as
+三个云	sj;ae ge;rl yy;ag
 三个人
 三个刀
 三个十
 三个力
 三个原
-三个厶	sj;ae ge;rl si;;
-三个厶	sj;ae ge;rl mz;;
+三个厶	sj;ae ge;rl si;vd
+三个厶	sj;ae ge;rl mz;vd
 三个又
 三个口
 三个七
@@ -492,21 +494,21 @@ sort: by_weight
 三个鹿
 三个龙	sj;ae ge;rl ls;yp
 三个个
-三个丶	sj;ae ge;rl vu;;
-三个丶	sj;ae ge;rl dm;;
+三个丶	sj;ae ge;rl vu;dd
+三个丶	sj;ae ge;rl dm;dd
 三个了
 三个介
 三个企
 三个舍
-三个圥	sj;ae ge;rl lu;;
+三个圥	sj;ae ge;rl lu;te
 三个光
 三个兔
 三个全
 三个𠙽	sj;ae ge;rl kk;;
-三个𠧪	sj;ae ge;rl tn;;
-三个𠧪	sj;ae ge;rl yz;;
-三个㔾	sj;ae ge;rl jp;;
-三个厡	sj;ae ge;rl yr;;
+三个𠧪	sj;ae ge;rl tn;br
+三个𠧪	sj;ae ge;rl yz;br
+三个㔾	sj;ae ge;rl jp;vv
+三个厡	sj;ae ge;rl yr;iu
 三个可
 三个因
 三个夏
@@ -523,7 +525,7 @@ sort: by_weight
 三个市
 三个文
 三个斗
-三个朿	sj;ae ge;rl ci;;
+三个朿	sj;ae ge;rl ci;ub
 三个束
 三个林
 三个果
@@ -535,18 +537,18 @@ sort: by_weight
 三个甲
 三个百
 三个盖
-三个県	sj;ae ge;rl xm;;
+三个県	sj;ae ge;rl xm;ox
 三个空
-三个亇	sj;ae ge;rl ge;;
+三个亇	sj;ae ge;rl ge;dl
 三个竹
-三个罒	sj;ae ge;rl mu;;
-三个羗	sj;ae ge;rl ql;;
+三个罒	sj;ae ge;rl mu;kl
+三个羗	sj;ae ge;rl ql;ys
 三个老
 三个月
 三个至
 三个兴	sj;ae ge;rl xk;xb
 三个足
-三个㖖	sj;ae ge;rl np;;
+三个㖖	sj;ae ge;rl np;xk
 三个门	sj;ae ge;rl mf;dv
 三个面
 三个页	sj;ae ge;rl ye;ab
@@ -562,11 +564,11 @@ sort: by_weight
 三个朔
 三个玉
 三个申
-三个𡿨	sj;ae ge;rl qr;;
+三个𡿨	sj;ae ge;rl qr;vv
 三个去
 三个弓
-三个䖝	sj;ae ge;rl is;;
-三个丿	sj;ae ge;rl pp;;
+三个䖝	sj;ae ge;rl is;pi
+三个丿	sj;ae ge;rl pp;pp
 三个户
 三个瓜
 三个鸟
@@ -574,8 +576,8 @@ sort: by_weight
 # 四叠字
 四个乂	si;ke ge;rl yi;pn
 四个人
-四个厶	si;ke ge;rl si;;
-四个厶	si;ke ge;rl mz;;
+四个厶	si;ke ge;rl si;vd
+四个厶	si;ke ge;rl mz;vd
 四个又
 四个匕
 四个工
@@ -599,7 +601,7 @@ sort: by_weight
 四个困
 四个竹
 四个老
-四个朿	si;ke ge;rl ci;;
+四个朿	si;ke ge;rl ci;ub
 四个先
 四个金
 四个泉
@@ -610,7 +612,7 @@ sort: by_weight
 四个车	si;ke ge;rl ie;au
 四个风	si;ke ge;rl fg;jx
 四个雷
-四个云	si;ke ge;rl yy;as
+四个云	si;ke ge;rl yy;ag
 四个兴	si;ke ge;rl xk;xb
 四个龙	si;ke ge;rl ls;yp
 四个土
