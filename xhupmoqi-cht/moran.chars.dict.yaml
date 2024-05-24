@@ -26614,6 +26614,7 @@ use_preset_vocabulary: false
 輧	pk;ig	317
 輨	gr;il	320
 輩	bw;fi	1168
+輩	bw;fi	1168
 輪	ly;ic	3859
 輫	pd;if	350
 輬	ll;ix	308
@@ -96163,8 +96164,6 @@ use_preset_vocabulary: false
 𩓭	pi	0	# auto
 𩓭	pi	0	# auto
 𩓯	bb	0	# auto
-𩓯	bb	0	# auto
-𩓯	pb	0	# auto
 𩓯	pb	0	# auto
 𩓰	kv	0	# auto
 𩓰	kv	0	# auto
@@ -96201,7 +96200,6 @@ use_preset_vocabulary: false
 𩔜	ss	0	# auto
 𩔞	hj	0	# auto
 𩔞	hj	0	# auto
-𩔤	bb	0	# auto
 𩔤	bb	0	# auto
 𩔧	lw	0	# auto
 𩔧	lw	0	# auto
@@ -96256,8 +96254,6 @@ use_preset_vocabulary: false
 𩕗	vf	0	# auto
 𩕗	vf	0	# auto
 𩕘	bb	0	# auto
-𩕘	bb	0	# auto
-𩕘	pb	0	# auto
 𩕘	pb	0	# auto
 𩕛	xm	0	# auto
 𩕛	xm	0	# auto
@@ -96269,7 +96265,6 @@ use_preset_vocabulary: false
 𩕣	ao	0	# auto
 𩕣	ao	0	# auto
 𩕧	xy	0	# auto
-𩕨	bb	0	# auto
 𩕨	bb	0	# auto
 𩕩	dk	0	# auto
 𩕩	dk	0	# auto

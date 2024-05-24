@@ -199,7 +199,7 @@ local charset = {
    ["[线性文字A]"] = { first = 0x10600, last = 0x1077f },
    ["[拉丁语扩展-F]"] = { first = 0x10780, last = 0x107bf },
    ["[塞浦路斯语音节]"] = { first = 0x10800, last = 0x1083f },
-   ["[帝国阿拉姆語]"] = { first = 0x10840, last = 0x1085f },
+   ["[帝国阿拉姆语]"] = { first = 0x10840, last = 0x1085f },
    ["[巴尔米拉字母]"] = { first = 0x10860, last = 0x1087f },
    ["[纳巴泰字母]"] = { first = 0x10880, last = 0x108af },
    ["[哈特兰字母]"] = { first = 0x108e0, last = 0x108ff },
@@ -215,7 +215,7 @@ local charset = {
    ["[碑刻帕提亚文]"] = { first = 0x10b40, last = 0x10b5f },
    ["[碑刻巴列维文]"] = { first = 0x10b60, last = 0x10b7f },
    ["[诗篇巴列维文]"] = { first = 0x10b80, last = 0x10baf },
-   ["[古代突厥語]"] = { first = 0x10c00, last = 0x10c4f },
+   ["[古代突厥语]"] = { first = 0x10c00, last = 0x10c4f },
    ["[古匈牙利字母]"] = { first = 0x10c80, last = 0x10cff },
    ["[哈乃斐罗兴亚文字]"] = { first = 0x10d00, last = 0x10d3f },
    ["[鲁米数字符号]"] = { first = 0x10e60, last = 0x10e7f },   
@@ -442,7 +442,7 @@ local function is_cjk_ext(c)
       is_charset("帕尔迈拉文字")(c) or is_charset("纳巴泰文")(c) or
       is_charset("哈特拉文")(c) or is_charset("腓尼基文")(c) or
       is_charset("吕底亚文")(c) or is_charset("麦罗埃象形文字")(c) or
-      is_charset("麦罗埃草书文字")(c) or is_charset("佉卢虱吒文")(c) or
+      is_charset("麦罗埃草书文字")(c) or is_charset("佉卢虱咤文")(c) or
       is_charset("古南阿拉伯文")(c) or is_charset("古北阿拉伯文")(c) or
       is_charset("摩尼文")(c) or is_charset("阿维斯陀文")(c) or
       is_charset("帕提亚碑铭体文字")(c) or is_charset("巴列维碑铭体文字")(c) or
