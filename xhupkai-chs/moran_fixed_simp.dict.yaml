@@ -1798,7 +1798,7 @@ encoder:
 狡	jnq
 侥	jnr
 缴	jns
-矫	jnu
+礁	jnu
 焦	jnv
 交	jnw
 窟	jnx
@@ -2180,8 +2180,9 @@ encoder:
 楷	kdm
 垲	kdt
 恺	kdx
+扩	ko
 漷	kod
-扩	kof
+括	kof
 廓	kog
 蛞	koi
 阔	kom
@@ -2572,7 +2573,7 @@ encoder:
 录	luv
 鲁	luy
 逯	luz
-率	lv
+绿	lv
 莒	lvc
 滤	lvd
 旅	lvf
@@ -2587,7 +2588,7 @@ encoder:
 绿	lvs
 屡	lvu
 筥	lvv
-珒	lvw
+率	lvw
 律	lvx
 褛	lvy
 俩	lx
@@ -4174,7 +4175,6 @@ encoder:
 说	uo
 勺	uob
 芍	uoc
-率	uod
 搠	uof
 勺	uog
 烁	uoh
@@ -4237,7 +4237,7 @@ encoder:
 帅	ukj
 榱	ukm
 甩	ukp
-衰	ukw
+率	ukw
 衰	uky
 谁	uw
 这	v	vezw
@@ -5411,6 +5411,7 @@ encoder:
 醉	zvy
 贼	zw
 
+夔	kvq
 # ⚠️ 請注意：機器轉換過程無法處理無理碼，這些編碼仍需手動處理（或刪除）
 啊啊啊	aaa
 傲岸不群	aabq
@@ -10809,6 +10810,7 @@ encoder:
 黄河之水天上来	hhvl
 悔恨终生	hhvu
 慌慌张张	hhvv
+鸿鹄之志	hhvv
 淮海战役	hhvy
 化合物	hhw
 何患无辞	hhwc
@@ -14284,6 +14286,7 @@ encoder:
 立竿见影	lgjy
 了过来	lgl
 利国利民	lglm
+拉格朗日	lglr
 镂骨铭心	lgmx
 了过去	lgq
 卢沟桥事变	lgqb
@@ -14951,7 +14954,6 @@ encoder:
 劳役地租	lydz
 六一儿童节	lyej
 略有耳闻	lyew
-六月份	lyf
 乱云飞渡	lyfd
 劳燕分飞	lyff
 龙吟凤哕	lyfh
@@ -18166,6 +18168,8 @@ encoder:
 人仰马翻	rymf
 人以群分	ryqf
 日月齐光	ryqg
+人与人	ryr
+人与人之间	ryrj
 日月如梭	ryrs
 若要人不知	ryrv
 若有若无	ryrw

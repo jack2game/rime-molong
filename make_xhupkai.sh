@@ -16,7 +16,7 @@ rm -rf ./xhupkai-cht/.gitignore
 rm -rf ./xhupkai-cht/README.md
 rm -rf ./xhupkai-cht/README-en.md
 rm -rf ./xhupkai-cht/.github/
-# mv ./xhupkai-cht/default.yaml ./schema
+perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./xhupmoqi/moran.yaml
 # mv ./xhupkai-cht/key_bindings.yaml ./schema
 # mv ./xhupkai-cht/punctuation.yaml ./schema
 
