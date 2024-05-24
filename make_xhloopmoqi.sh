@@ -16,7 +16,7 @@ rm -rf ./xhloopmoqi-cht/.gitignore
 rm -rf ./xhloopmoqi-cht/README.md
 rm -rf ./xhloopmoqi-cht/README-en.md
 rm -rf ./xhloopmoqi-cht/.github/
-# mv ./xhloopmoqi-cht/default.yaml ./schema
+perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./xhloopmoqi-cht/moran.yaml
 # mv ./xhloopmoqi-cht/key_bindings.yaml ./schema
 # mv ./xhloopmoqi-cht/punctuation.yaml ./schema
 cp ./rime-shuangpin-fuzhuma/opencc/moqi_chaifen.txt ./xhloopmoqi-cht/opencc/moran_chaifen.txt

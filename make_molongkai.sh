@@ -16,7 +16,7 @@ rm -rf ./molongkai-cht/.gitignore
 rm -rf ./molongkai-cht/README.md
 rm -rf ./molongkai-cht/README-en.md
 rm -rf ./molongkai-cht/.github/
-# mv ./molongkai-cht/default.yaml ./schema
+perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./molongkai-cht/moran.yaml
 # mv ./molongkai-cht/key_bindings.yaml ./schema
 # mv ./molongkai-cht/punctuation.yaml ./schema
 

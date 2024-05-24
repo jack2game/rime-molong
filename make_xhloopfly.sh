@@ -16,7 +16,7 @@ rm -rf ./xhloopfly-cht/.gitignore
 rm -rf ./xhloopfly-cht/README.md
 rm -rf ./xhloopfly-cht/README-en.md
 rm -rf ./xhloopfly-cht/.github/
-# mv ./xhloopfly-cht/default.yaml ./schema
+perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./xhloopfly-cht/moran.yaml
 # mv ./xhloopfly-cht/key_bindings.yaml ./schema
 # mv ./xhloopfly-cht/punctuation.yaml ./schema
 

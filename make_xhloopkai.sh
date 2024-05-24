@@ -16,7 +16,7 @@ rm -rf ./xhloopkai-cht/.gitignore
 rm -rf ./xhloopkai-cht/README.md
 rm -rf ./xhloopkai-cht/README-en.md
 rm -rf ./xhloopkai-cht/.github/
-# mv ./xhloopkai-cht/default.yaml ./schema
+perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./xhloopkai-cht/moran.yaml
 # mv ./xhloopkai-cht/key_bindings.yaml ./schema
 # mv ./xhloopkai-cht/punctuation.yaml ./schema
 
