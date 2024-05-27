@@ -1,49 +1,51 @@
-# Rime dictionary
-# encoding: utf-8
+#	 	R	i	m	e	 	d	i	c	t	i	o	n	a	r	y
+#	 	e	n	c	o	d	i	n	g	:	 	u	t	f	-	8
 #
 #
-# https://github.com/iDvel/rime-ice
-# ------- 《通用规范汉字表》8105 字字表 -------
+#	 	h	t	t	p	s	:	/	/	g	i	t	h	u	b	.	c	o	m	/	i	D	v	e	l	/	r	i	m	e	-	i	c	e
+#	 	-	-	-	-	-	-	-	 	《	通	用	规	范	汉	字	表	》	8	1	0	5	 	字	字	表	 	-	-	-	-	-	-	-
 #
 #
-# 使用的数据：https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%B4%A2%E5%BC%95/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
-# 使用的字频：[25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm)
+#	 	使	用	的	数	据	：	h	t	t	p	s	:	/	/	z	h	.	w	i	k	t	i	o	n	a	r	y	.	o	r	g	/	w	i	k	i	/	A	p	p	e	n	d	i	x	:	%	E	6	%	B	1	%	8	9	%	E	8	%	A	F	%	A	D	%	E	6	%	8	B	%	B	C	%	E	9	%	9	F	%	B	3	%	E	7	%	B	4	%	A	2	%	E	5	%	B	C	%	9	5	/	%	E	9	%	8	0	%	9	A	%	E	7	%	9	4	%	A	8	%	E	8	%	A	7	%	8	4	%	E	8	%	8	C	%	8	3	%	E	6	%	B	1	%	8	9	%	E	5	%	A	D	%	9	7	%	E	8	%	A	1	%	A	8
+#	 	使	用	的	字	频	：	[	2	5	亿	字	语	料	汉	字	字	频	表	]	(	h	t	t	p	s	:	/	/	f	a	c	u	l	t	y	.	b	l	c	u	.	e	d	u	.	c	n	/	x	i	n	g	h	b	/	z	h	_	C	N	/	a	r	t	i	c	l	e	/	1	6	7	4	7	3	/	c	o	n	t	e	n	t	/	1	4	3	7	.	h	t	m	)
 #
 #
-# 这个数据、《现代汉语词典》、《现代汉语规范词典》之间的注音并不都相同，使用前请注意，参照《现汉》增加了一些原数据中没有的读音。
+#	 	这	个	数	据	、	《	现	代	汉	语	词	典	》	、	《	现	代	汉	语	规	范	词	典	》	之	间	的	注	音	并	不	都	相	同	，	使	用	前	请	注	意	，	参	照	《	现	汉	》	增	加	了	一	些	原	数	据	中	没	有	的	读	音	。
 #
 #
-# 注音：
-# 「nüe 虐」「lüe 略」使用「nve」「lve」的注音。
-# 「句、去、需、与」使用「ju qu xu yu」的注音。
-# 删除原数据的「桲bo」音，没有这个音。
-# 删除「呷ga」（呷呷），《现汉》推荐「嘎嘎」。
-# 删除「芥gai」，《现汉》未收录。
-# 删除「著zhuo」（执著zhuo），《现汉》推荐「执着zhuo」。
-# 删除「虾ha」（虾蟆ha ma），《现汉》推荐「蛤蟆」，保留地名「虾蟆陵ha ma ling」。
-# 「嬛」xuan → huan
-# 删除「夹ga」，使用「胳肢窝ga zhi wo」。
+#	 	注	音	：
+#	 	「	n	ü	e	 	虐	」	「	l	ü	e	 	略	」	使	用	「	n	v	e	」	「	l	v	e	」	的	注	音	。
+#	 	「	句	、	去	、	需	、	与	」	使	用	「	j	u	 	q	u	 	x	u	 	y	u	」	的	注	音	。
+#	 	删	除	原	数	据	的	「	桲	b	o	」	音	，	没	有	这	个	音	。
+#	 	删	除	「	呷	g	a	」	（	呷	呷	）	，	《	现	汉	》	推	荐	「	嘎	嘎	」	。
+#	 	删	除	「	芥	g	a	i	」	，	《	现	汉	》	未	收	录	。
+#	 	删	除	「	著	z	h	u	o	」	（	执	著	z	h	u	o	）	，	《	现	汉	》	推	荐	「	执	着	z	h	u	o	」	。
+#	 	删	除	「	虾	h	a	」	（	虾	蟆	h	a	 	m	a	）	，	《	现	汉	》	推	荐	「	蛤	蟆	」	，	保	留	地	名	「	虾	蟆	陵	h	a	 	m	a	 	l	i	n	g	」	。
+#	 	「	嬛	」	x	u	a	n	 	→	 	h	u	a	n
+#	 	删	除	「	夹	g	a	」	，	使	用	「	胳	肢	窝	g	a	 	z	h	i	 	w	o	」	。
 #
 #
-# 多音字的注音问题：
-# 对于没有注音的词汇，如 tencent.dict.yaml 词库，
-# Rime 按照方案中字表自动注音，多音字的权重比值大于 5:100 的就会参与注音。
-# 目前的解决方案，例如「的 de di」，手动注音 di，然后确保字表权重 de * 0.05 > di
-#              即手动注音所有发 di 音的词汇，只让 de 参与自动注音。
-#              对于「长 chang zhang」这样不易区分的，全部注音并用勤劳的双手完成校对。
-# 需要注音的字词设定在 others/script/rime/需要注音.txt
----
-name: 8105
-version: "2024-05-21"
-sort: by_weight
-...
-### 按需启用
-# 「这、那」的口语读音
-# 这	zhei	17648808
-# 那	nei	9929703
-
-
-### 扩展，不在《通用规范汉字表》的字:
+#	 	多	音	字	的	注	音	问	题	：
+#	 	对	于	没	有	注	音	的	词	汇	，	如	 	t	e	n	c	e	n	t	.	d	i	c	t	.	y	a	m	l	 	词	库	，
+#	 	R	i	m	e	 	按	照	方	案	中	字	表	自	动	注	音	，	多	音	字	的	权	重	比	值	大	于	 	5	:	1	0	0	 	的	就	会	参	与	注	音	。
+#	 	目	前	的	解	决	方	案	，	例	如	「	的	 	d	e	 	d	i	」	，	手	动	注	音	 	d	i	，	然	后	确	保	字	表	权	重	 	d	e	 	*	 	0	.	0	5	 	>	 	d	i
+#	 	 	 	 	 	 	 	 	 	 	 	 	 	 	即	手	动	注	音	所	有	发	 	d	i	 	音	的	词	汇	，	只	让	 	d	e	 	参	与	自	动	注	音	。
+#	 	 	 	 	 	 	 	 	 	 	 	 	 	 	对	于	「	长	 	c	h	a	n	g	 	z	h	a	n	g	」	这	样	不	易	区	分	的	，	全	部	注	音	并	用	勤	劳	的	双	手	完	成	校	对	。
+#	 	需	要	注	音	的	字	词	设	定	在	 	o	t	h	e	r	s	/	s	c	r	i	p	t	/	r	i	m	e	/	需	要	注	音	.	t	x	t
+-	-	-
+n	a	m	e	:	 	8	1	0	5
+v	e	r	s	i	o	n	:	 	"	2	0	2	4	-	0	5	-	2	1	"
+s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
+.	.	.
+#	#	#	 	按	需	启	用
+#	 	「	这	、	那	」	的	口	语	读	音
+#	 	这
+z	h	e	i
+1	7	6	4	8	8	0	8
+#	 	那
+n	e	i
+9	9	2	9	7	0	3
+#	#	#	 	扩	展	，	不	在	《	通	用	规	范	汉	字	表	》	的	字	:
 𤭢	cw;wz	1000
 𤭢了	cw;wz le;aa	1000
 𰻝	bl;zx	1
@@ -60,42 +62,66 @@ sort: by_weight
 珮	pw;wb	0
 睆	hr;ow	1
 挼	rx;ft	1
-# 注释掉的这几行已经加入到下面并调整到合适的权重了
-# 〇	ling
-# 囧	jiong
-# 屌	diao
-# 艹	cao
-# 肏	cao
-# 屄	bi
-# 冇	mao
-# 丼	jing
-# 卍	wan
-# 炁	qi
-# 車	ju
-# 祂	ta
-# 觍	tian
-# 𪨊	song
-# 磺	huang
-# 屮	cao
-# 芔	cao
-
-
-### 小时候没学过的拼音。。。
-# 嗯	n	没启用
-# 嗯	ng	没启用
-# 唔	ng  没启用
-# 呣	m	没启用
-# 哼	hng	没启用
-# 噷	hm	在 custom_phrase.txt 里置顶了
+#	 	注	释	掉	的	这	几	行	已	经	加	入	到	下	面	并	调	整	到	合	适	的	权	重	了
+#	 	〇
+l	i	n	g
+#	 	囧
+j	i	o	n	g
+#	 	屌
+d	i	a	o
+#	 	艹
+c	a	o
+#	 	肏
+c	a	o
+#	 	屄
+b	i
+#	 	冇
+m	a	o
+#	 	丼
+j	i	n	g
+#	 	卍
+w	a	n
+#	 	炁
+q	i
+#	 	車
+j	u
+#	 	祂
+t	a
+#	 	觍
+t	i	a	n
+#	 	𪨊
+s	o	n	g
+#	 	磺
+h	u	a	n	g
+#	 	屮
+c	a	o
+#	 	芔
+c	a	o
+#	#	#	 	小	时	候	没	学	过	的	拼	音	。	。	。
+#	 	嗯
+n
+没	启	用
+#	 	嗯
+n	g
+没	启	用
+#	 	唔
+n	g	 	 	没	启	用
+#	 	呣
+m
+没	启	用
+#	 	哼
+h	n	g
+没	启	用
+#	 	噷
+h	m
+在	 	c	u	s	t	o	m	_	p	h	r	a	s	e	.	t	x	t	 	里	置	顶	了
 嗯	eg;ke	9179528
 欸	ei;qy	534
 哟	yo;ky	59051
 唷	yo;ky	1
 育	yo;os	0
-
-
-### 字表
-# +_+
+#	#	#	 	字	表
+#	 	+	_	+
 啊	aa;ka	5366043
 阿	aa;ek	867275
 吖	aa;ky	160000
