@@ -9,7 +9,6 @@ import re
 import argparse
 import opencc
 import os
-from collections import defaultdict
 
 opencc_t2s = opencc.OpenCC('t2s.json')
 opencc_s2t = opencc.OpenCC('s2t.json')
@@ -956,37 +955,22 @@ def get_pinyin_fn(schema: str):
     if schema in ["zrloopkai", "zrloopmoqi"]:
         return snow2zrloopkai
 
-def get_shape_dict(schema: str, multishape: bool):
-    if multishape:
-        # Create a defaultdict with list as the default factory
-        shape_dict = defaultdict(list)
-        keypairs_seen = set()  # Set to keep track of keys seen so far
-        rows = []
-        with open(f"{schema}.txt", newline="", encoding='UTF-8') as f:
-            rows = csv.reader(f, delimiter="\t", quotechar="`")
-            for row in rows:
-                if len(row) >= 2:
-                    key, value = row[0], row[1]
-                    if key+value not in keypairs_seen:
-                        shape_dict[key].append(value) # Add values to the dictionary
-                        keypairs_seen.add(key+value)  # Add the keypair to the set
-    else:
-        shape_dict = defaultdict(list)
-        keys_seen = set()  # Set to keep track of keys seen so far
-        rows = []
-        with open(f"{schema}.txt", newline="", encoding='UTF-8') as f:
-            rows = csv.reader(f, delimiter="\t", quotechar="`")
-            for row in rows:
-                if len(row) >= 2:
-                    key, value = row[0], row[1]
-                    # Only add the key-value pair if the key hasn't been seen before
-                    if key not in keys_seen:
-                        shape_dict[key].append(value) # Add values to the dictionary
-                        keys_seen.add(key)  # Add the key to the set
+def get_shape_dict(schema: str):
+    shape_dict = {}
+    keys_seen = set()  # Set to keep track of keys seen so far
+    with open(f"{schema}.txt", newline="", encoding='UTF-8') as f:
+        reader = csv.reader(f, delimiter="\t", quotechar="`")
+        for row in reader:
+            if len(row) >= 2:
+                key, value = row[0], row[1]
+                # Only add the key-value pair if the key hasn't been seen before
+                if key not in keys_seen:
+                    shape_dict[key] = value
+                    keys_seen.add(key)  # Add the key to the set
     return shape_dict
 
 
-def rewrite_row(row, traditional, simplified, delim, pinyin_fn, shape_dict):
+def rewrite_row(row: list, code_fn: callable, traditional: bool, simplified: bool):
     # print(row)
     if len(row) < 2 or row[0][0] == "#":
         return row
@@ -1012,23 +996,10 @@ def rewrite_row(row, traditional, simplified, delim, pinyin_fn, shape_dict):
         else:
             new_zh_chars.append(char)
     new_zh_chars = "".join(new_zh_chars)
-    code_list = []
-    new_rows = []
-    if len(new_zh_chars) == 1:
-        for (pinyin, hanzi) in zip(pinyin_list, new_zh_chars):
-            new_code = pinyin_fn(pinyin) + delim + shape_dict.get(hanzi, delim)[0]
-            code_list.append(new_code)
-        row[0] = new_zh_chars
-        row[1] = " ".join(code_list)
-        new_rows.append(row)
-    else:
-        for (pinyin, hanzi) in zip(pinyin_list, new_zh_chars):
-            new_code = pinyin_fn(pinyin) + delim + shape_dict.get(hanzi, delim)[0]
-            code_list.append(new_code)
-        row[0] = new_zh_chars
-        row[1] = " ".join(code_list)
-        new_rows.append(row)
-    return new_rows
+    code_list = [code_fn(py, zi) for (py, zi) in zip(pinyin_list, new_zh_chars)]
+    row[0] = new_zh_chars
+    row[1] = " ".join(code_list)
+    return row
 
 
 def get_cli_args():
@@ -1043,7 +1014,6 @@ def get_cli_args():
                         help="Delimiter to seperate pinyin and shape")
     parser.add_argument('--traditional', "-t", action='store_true', help='Generate traditional characters')
     parser.add_argument('--simplified', "-s", action='store_true', help='Generate simplified characters')
-    parser.add_argument('--multishape', "-m", action='store_true', help='Generate multiple shape codes for a single character')
     args = parser.parse_args()
     return args
 
@@ -1051,19 +1021,16 @@ def get_cli_args():
 def main():
     args = get_cli_args()
     pinyin_fn = get_pinyin_fn(args.pinyin)
-    shape_dict = get_shape_dict(args.shape, args.multishape)
+    shape_dict = get_shape_dict(args.shape)
     delim = args.delimiter
     traditional = args.traditional
     simplified = args.simplified
-    rows = []
     with open(os.path.realpath(args.input_file), newline="", encoding='UTF-8') as f:
         rows = list(csv.reader(f, delimiter="\t", quotechar="`"))
 
-    out_rows = []
-    for row in rows:
-        new_rows = rewrite_row(row, traditional, simplified, delim, pinyin_fn, shape_dict)
-        for new_row in new_rows:
-            out_rows.append(new_row)
+    def code_fn(pinyin, hanzi):
+        return pinyin_fn(pinyin) + delim + shape_dict.get(hanzi, delim)
+    out_rows = [rewrite_row(row, code_fn, traditional, simplified) for row in rows]
 
     output_file = os.path.realpath(args.output_file)
     if output_file == "":

@@ -1,23 +1,23 @@
-#	 	R	i	m	e	 	d	i	c	t	i	o	n	a	r	y
-#	 	e	n	c	o	d	i	n	g	:	 	u	t	f	-	8
+# Rime dictionary
+# encoding: utf-8
 #
 #
-#	 	h	t	t	p	s	:	/	/	g	i	t	h	u	b	.	c	o	m	/	i	D	v	e	l	/	r	i	m	e	-	i	c	e
-#	 	-	-	-	-	-	-	-	 	一	些	杂	项	，	按	需	选	择	 	-	-	-	-	-	-	-
+# https://github.com/iDvel/rime-ice
+# ------- 一些杂项，按需选择 -------
 #
 #
--	-	-
-n	a	m	e	:	 	o	t	h	e	r	s
-v	e	r	s	i	o	n	:	 	"	2	0	2	4	-	0	5	-	2	1	"
-s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
-.	.	.
-#	#	#	#	#	 	容	错	词
-#	 	一	些	口	语	读	音
+---
+name: others
+version: "2024-05-21"
+sort: by_weight
+...
+##### 容错词
+# 一些口语读音
 空落落	ks;xg lo;cl lo;cl
 空落落	ks;xg lc;cl lc;cl
 空落落的	ks;xg lo;cl lo;cl de;bu
 空落落的	ks;xg lc;cl lc;cl de;bu
-#	 	「	阿	房	宫	」	的	注	音	争	议	比	较	大
+# 「阿房宫」的注音争议比较大
 阿房宫	ee;ek ph;hf gs;bl
 阿房宫	aa;ek ph;hf gs;bl
 阿房宫	ee;ek fh;hf gs;bl
@@ -26,13 +26,13 @@ s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
 阿房宫赋	aa;ek ph;hf gs;bl fu;bw
 阿房宫赋	ee;ek fh;hf gs;bl fu;bw
 阿房宫赋	aa;ek fh;hf gs;bl fu;bw
-#	 	「	伯	伯	」	方	言
+# 「伯伯」方言
 伯伯	bo;rb bo;rb
 伯伯	bd;rb bd;rb
-#	 	「	斜	」	的	古	音
+# 「斜」的古音
 远上寒山石径斜	yr;zy uh;aa hj;bd uj;aa ui;kp jk;xg xp;dy
 远上寒山石径斜	yr;zy uh;aa hj;bd uj;aa ui;kp jk;xg xx;dy
-#	 	「	骑	」	目	前	统	读	 	q	i
+# 「骑」目前统读 qi
 坐骑	zo;tc qi;mq
 坐骑	zo;tc ji;mq
 铁骑	tp;ju qi;mq
@@ -47,7 +47,7 @@ s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
 走单骑	zz;tv dj;ba ji;mq
 千里走单骑	qm;pa li;aa zz;tv dj;ba qi;mq
 千里走单骑	qm;pa li;aa zz;tv dj;ba ji;mq
-#	 	「	街	」	的	粤	语	和	东	北	话	读	音	及	常	见	的	两	种	写	法
+# 「街」的粤语和东北话读音及常见的两种写法
 仆街	pu;rb jp;ri
 仆街	pu;rb gd;ri
 扑街	pu;fb jp;ri
@@ -58,10 +58,10 @@ s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
 仆街仔	pu;rb gd;ri zd;rz
 街溜子	jp;ri lq;dl zi;aa
 街溜子	gd;ri lq;dl zi;aa
-#	 	「	錤	」	这	个	字	念	 	j	i	，	但	是	台	湾	媒	体	都	会	念	成	 	q	i	，	他	的	英	文	名	 	M	i	n	g	-	C	h	i	 	K	u	o	 	也	是	接	近	 	q	i
+# 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
 郭明𫓹	go;ex mk;oo ji;jq
 郭明𫓹	go;ex mk;oo qi;jq
-#	 	「	镐	 	g	a	o	 	h	a	o	」	的	发	音	，	多	为	韩	国	人	名	，	不	知	道	 	🤷	‍	♂	️	，	词	库	里	为	 	g	a	o	，	这	里	额	外	加	上	 	h	a	o	 	音
+# 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
 李昌镐	li;mz ih;oo hc;jg
 曹世镐	cc;oc ui;ca hc;jg
 张镐哲	vh;gi gc;jg ve;kv
@@ -72,8 +72,10 @@ s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
 李陈镐	li;mz if;ed hc;jg
 赵亮镐	vc;zi ll;wj hc;jg
 郑俊镐	vg;eg jy;rj hc;jg
-#	#	#	#	#	 	错	音	错	字	提	示	。	与	 	c	o	r	r	e	c	t	o	r	.	l	u	a	 	配	合	，	上	面	的	是	正	确	的	，	下	面	是	错	误	的
-#	#	#	 	错	音
+
+
+##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
+### 错音
 馄饨	hy;uk ty;ut
 馄饨	hy;uk dy;ut
 主角	vu;dw jt;dy
@@ -226,7 +228,7 @@ s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
 饮鸩止渴	yb;uq jq;na vi;aa ke;dh
 饮鸩解渴	yb;uq vf;na jp;jn ke;dh
 饮鸩解渴	yb;uq jq;na jp;jn ke;dh
-#	#	#	 	错	字
+### 错字
 曾经	cg;ob jk;sg
 曾今	cg;ob jb;ra
 按捺	an;fa na;fn
@@ -248,367 +250,369 @@ s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
 钜惠	ju;jj hv;xh
 摩羯座	mo;mu jp;yh zo;gz
 魔蝎座	mo;gm xp;ih zo;gz
-#	#	#	#	#	 	叠	字
-#	 	数	据	来	源	：	 	h	t	t	p	s	:	/	/	z	h	.	w	i	k	i	p	e	d	i	a	.	o	r	g	/	z	h	-	c	n	/	%	E	4	%	B	A	%	8	C	%	E	5	%	8	F	%	A	0	%	E	5	%	A	D	%	9	7	 	h	t	t	p	s	:	/	/	z	h	.	w	i	k	i	p	e	d	i	a	.	o	r	g	/	w	i	k	i	/	%	E	4	%	B	8	%	8	9	%	E	5	%	8	F	%	A	0	%	E	5	%	A	D	%	9	7	 	h	t	t	p	s	:	/	/	z	h	.	w	i	k	i	p	e	d	i	a	.	o	r	g	/	w	i	k	i	/	%	E	5	%	9	B	%	9	B	%	E	5	%	8	F	%	A	0	%	E	5	%	A	D	%	9	7
-#	 	二	叠	字
-两	个	火
-两	个	土
-两	个	一
-两	个	二
-两	个	山
-两	个	口
-两	个	田
-两	个	九
-两	个	人
-两	个	飞
-两	个	戈
+
+
+##### 叠字
+# 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
+# 二叠字
+两个火
+两个土
+两个一
+两个二
+两个山
+两个口
+两个田
+两个九
+两个人
+两个飞
+两个戈
 两个厶	ll;ad ge;ra si;ad
 两个厶	ll;ad ge;ra mz;ad
-两	个	又
-两	个	香
-两	个	面
-两	个	兀
-两	个	女
+两个又
+两个香
+两个面
+两个兀
+两个女
 两个𡥦	ll;ad ge;ra ni;zz
-两	个	臣
-两	个	巾
-两	个	左
-两	个	母
-两	个	来
-两	个	凡
-两	个	夕
+两个臣
+两个巾
+两个左
+两个母
+两个来
+两个凡
+两个夕
 两个彐	ll;ad ge;ra ji;aa
 两个𢎘	ll;ad ge;ra hj;;
 两个鱼	ll;ad ge;ra yu;da
-两	个	明
+两个明
 两个朿	ll;ad ge;ra ci;ad
-两	个	乂
-两	个	曰
-两	个	尸
-两	个	户
-两	个	大
-两	个	八
-两	个	而
-两	个	羊
-两	个	吉
-两	个	马
-两	个	卅
+两个乂
+两个曰
+两个尸
+两个户
+两个大
+两个八
+两个而
+两个羊
+两个吉
+两个马
+两个卅
 两个巛	ll;ad ge;ra ir;aa
-两	个	止
-两	个	比
-两	个	言
-两	个	申
-两	个	牛
-两	个	余
-两	个	束
+两个止
+两个比
+两个言
+两个申
+两个牛
+两个余
+两个束
 两个罒	ll;ad ge;ra mu;aa
 两个㐅	ll;ad ge;ra wu;pd
-两	个	金
-两	个	木
-两	个	水
-两	个	火
+两个金
+两个木
+两个水
+两个火
 两个风	ll;ad ge;ra fg;ji
-两	个	石
-两	个	口
-两	个	日
-两	个	月
-两	个	目
-两	个	白
-两	个	百
-两	个	耳
-两	个	山
+两个石
+两个口
+两个日
+两个月
+两个目
+两个白
+两个百
+两个耳
+两个山
 两个屮	ll;ad ge;ra ie;aa
 两个屮	ll;ad ge;ra cc;aa
-两	个	廿
+两个廿
 两个卄	ll;ad ge;ra nm;aa
-两	个	虫
-两	个	虎
+两个虫
+两个虎
 两个龙	ll;ad ge;ra ls;ad
 两个马	ll;ad ge;ra ma;aa
-两	个	犬
-两	个	人
-两	个	入
-两	个	习
+两个犬
+两个人
+两个入
+两个习
 两个卪	ll;ad ge;ra jp;ed
 两个㔾	ll;ad ge;ra jp;aa
-两	个	几
-两	个	乙
-两	个	大
-两	个	夫
-两	个	禾
-两	个	干
-两	个	井
-两	个	斤
-两	个	片
-两	个	牙
-两	个	炎
-两	个	弓
-两	个	永
-两	个	亦
-两	个	手
-两	个	毛
-两	个	王
-两	个	男
-两	个	女
-两	个	又
-两	个	支
+两个几
+两个乙
+两个大
+两个夫
+两个禾
+两个干
+两个井
+两个斤
+两个片
+两个牙
+两个炎
+两个弓
+两个永
+两个亦
+两个手
+两个毛
+两个王
+两个男
+两个女
+两个又
+两个支
 两个只	ll;ad ge;ra vi;kb
-两	个	古
-两	个	吉
-两	个	舌
-两	个	言
-两	个	户
-两	个	启
+两个古
+两个吉
+两个舌
+两个言
+两个户
+两个启
 两个来	ll;ad ge;ra ld;am
 两个桼	ll;ad ge;ra qi;mu
 两个旡	ll;ad ge;ra ji;ag
-两	个	夕
-两	个	歹
-两	个	匕
-两	个	幺
-两	个	玄
-两	个	心
-两	个	力
-两	个	欠
-两	个	子
-两	个	予
-两	个	享
-两	个	立
-两	个	音
-两	个	竟
-两	个	竞
-两	个	兄
+两个夕
+两个歹
+两个匕
+两个幺
+两个玄
+两个心
+两个力
+两个欠
+两个子
+两个予
+两个享
+两个立
+两个音
+两个竟
+两个竞
+两个兄
 两个见	ll;ad ge;ra jm;ag
 两个贝	ll;ad ge;ra bw;ad
-两	个	辛
-两	个	瓜
-两	个	呆
-两	个	果
-两	个	鸟
-两	个	巢
+两个辛
+两个瓜
+两个呆
+两个果
+两个鸟
+两个巢
 两个禺	ll;ad ge;ra yu;ad
 两个巿	ll;ad ge;ra fu;aa
-两	个	句
-两	个	奇
-两	个	真
-两	个	尹
-两	个	昔
-两	个	易
-两	个	臣
-两	个	面
-两	个	先
-两	个	老
-两	个	示
-两	个	至
-两	个	生
+两个句
+两个奇
+两个真
+两个尹
+两个昔
+两个易
+两个臣
+两个面
+两个先
+两个老
+两个示
+两个至
+两个生
 两个车	ll;ad ge;ra ie;aa
 两个车	ll;ad ge;ra ju;aa
-两	个	足
+两个足
 两个区	ll;ad ge;ra qu;ki
-两	个	香
+两个香
 两个隹	ll;ad ge;ra vv;pa
-两	个	牟
-两	个	豕
+两个牟
+两个豕
 两个𠂢	ll;ad ge;ra pd;pp
 两个畐	ll;ad ge;ra fu;at
 两个㣇	ll;ad ge;ra yi;jj
-两	个	邑
+两个邑
 两个尧	ll;ad ge;ra yc;gw
-两	个	秉
+两个秉
 两个仓	ll;ad ge;ra ch;re
 两个东	ll;ad ge;ra ds;ad
-两	个	善
+两个善
 两个佥	ll;ad ge;ra qm;ra
 两个齿	ll;ad ge;ra ii;vk
-两	个	喜
-两	个	走
-两	个	止
-两	个	昌
-两	个	串
-两	个	米
-两	个	束
-两	个	隶
-两	个	不
-两	个	龙
-两	个	乞
+两个喜
+两个走
+两个止
+两个昌
+两个串
+两个米
+两个束
+两个隶
+两个不
+两个龙
+两个乞
 两个夋	ll;ad ge;ra qy;sw
-两	个	天
-#	 	三	叠	字
-三	个	生
-三	个	秦
-三	个	若
+两个天
+# 三叠字
+三个生
+三个秦
+三个若
 三个云	sj;aa ge;ra yy;es
-三	个	人
-三	个	刀
-三	个	十
-三	个	力
-三	个	原
+三个人
+三个刀
+三个十
+三个力
+三个原
 三个厶	sj;aa ge;ra si;ad
 三个厶	sj;aa ge;ra mz;ad
-三	个	又
-三	个	口
-三	个	七
-三	个	吉
-三	个	土
-三	个	士
-三	个	女
-三	个	子
-三	个	小
-三	个	心
-三	个	手
-三	个	日
-三	个	木
-三	个	止
-三	个	毛
-三	个	水
-三	个	泉
-三	个	火
-三	个	牛
-三	个	犬
-三	个	田
-三	个	白
-三	个	目
-三	个	直
-三	个	石
-三	个	羊
-三	个	耳
-三	个	舌
+三个又
+三个口
+三个七
+三个吉
+三个土
+三个士
+三个女
+三个子
+三个小
+三个心
+三个手
+三个日
+三个木
+三个止
+三个毛
+三个水
+三个泉
+三个火
+三个牛
+三个犬
+三个田
+三个白
+三个目
+三个直
+三个石
+三个羊
+三个耳
+三个舌
 三个屮	sj;aa ge;ra ie;aa
 三个屮	sj;aa ge;ra cc;aa
-三	个	虫
-三	个	言
-三	个	贝
+三个虫
+三个言
+三个贝
 三个车	sj;aa ge;ra ie;aa
-三	个	金
+三个金
 三个隹	sj;aa ge;ra vv;pa
-三	个	雷
+三个雷
 三个风	sj;aa ge;ra fg;ji
 三个飞	sj;aa ge;ra fw;yd
-三	个	香
-三	个	马
+三个香
+三个马
 三个鱼	sj;aa ge;ra yu;da
-三	个	鹿
+三个鹿
 三个龙	sj;aa ge;ra ls;ad
-三	个	个
+三个个
 三个丶	sj;aa ge;ra vu;dd
 三个丶	sj;aa ge;ra dm;dd
-三	个	了
-三	个	介
-三	个	企
-三	个	舍
+三个了
+三个介
+三个企
+三个舍
 三个圥	sj;aa ge;ra lu;te
-三	个	光
-三	个	兔
-三	个	全
+三个光
+三个兔
+三个全
 三个𠙽	sj;aa ge;ra kk;ku
 三个𠧪	sj;aa ge;ra tn;br
 三个𠧪	sj;aa ge;ra yz;br
 三个㔾	sj;aa ge;ra jp;aa
 三个厡	sj;aa ge;ra yr;iq
-三	个	可
-三	个	因
-三	个	夏
-三	个	大
-三	个	天
-三	个	太
+三个可
+三个因
+三个夏
+三个大
+三个天
+三个太
 三个𦉼	sj;aa ge;ra ku;sd
-三	个	宝
-三	个	宜
-三	个	客
-三	个	寒
-三	个	少
-三	个	山
-三	个	市
-三	个	文
-三	个	斗
+三个宝
+三个宜
+三个客
+三个寒
+三个少
+三个山
+三个市
+三个文
+三个斗
 三个朿	sj;aa ge;ra ci;ad
-三	个	束
-三	个	林
-三	个	果
-三	个	欠
+三个束
+三个林
+三个果
+三个欠
 三个𣥚	sj;aa ge;ra zz;vy
-三	个	爪
-三	个	妥
-三	个	用
-三	个	甲
-三	个	百
-三	个	盖
+三个爪
+三个妥
+三个用
+三个甲
+三个百
+三个盖
 三个県	sj;aa ge;ra xm;ox
-三	个	空
+三个空
 三个亇	sj;aa ge;ra ge;da
-三	个	竹
+三个竹
 三个罒	sj;aa ge;ra mu;aa
 三个羗	sj;aa ge;ra ql;qs
-三	个	老
-三	个	月
-三	个	至
+三个老
+三个月
+三个至
 三个兴	sj;aa ge;ra xk;ba
-三	个	足
+三个足
 三个㖖	sj;aa ge;ra np;kx
 三个门	sj;aa ge;ra mf;dg
-三	个	面
+三个面
 三个页	sj;aa ge;ra ye;ab
 三个鸟	sj;aa ge;ra nn;na
-三	个	男
-三	个	立
-三	个	九
-三	个	也
-三	个	加
+三个男
+三个立
+三个九
+三个也
+三个加
 三个动	sj;aa ge;ra ds;ly
-三	个	千
-三	个	方
-三	个	朔
-三	个	玉
-三	个	申
+三个千
+三个方
+三个朔
+三个玉
+三个申
 三个𡿨	sj;aa ge;ra qr;;
-三	个	去
-三	个	弓
+三个去
+三个弓
 三个䖝	sj;aa ge;ra is;pi
 三个丿	sj;aa ge;ra pp;px
-三	个	户
-三	个	瓜
-三	个	鸟
-三	个	米
-#	 	四	叠	字
+三个户
+三个瓜
+三个鸟
+三个米
+# 四叠字
 四个乂	si;aa ge;ra yi;pd
-四	个	人
+四个人
 四个厶	si;aa ge;ra si;ad
 四个厶	si;aa ge;ra mz;ad
-四	个	又
-四	个	匕
-四	个	工
-四	个	口
-四	个	天
-四	个	小
+四个又
+四个匕
+四个工
+四个口
+四个天
+四个小
 四个屮	si;aa ge;ra ie;aa
 四个屮	si;aa ge;ra cc;aa
-四	个	火
-四	个	牛
+四个火
+四个牛
 四个鱼	si;aa ge;ra yu;da
-四	个	月
-四	个	日
-四	个	林
-四	个	水
-四	个	石
-四	个	田
-四	个	甲
-四	个	且
-四	个	囚
-四	个	困
-四	个	竹
-四	个	老
+四个月
+四个日
+四个林
+四个水
+四个石
+四个田
+四个甲
+四个且
+四个囚
+四个困
+四个竹
+四个老
 四个朿	si;aa ge;ra ci;ad
-四	个	先
-四	个	金
-四	个	泉
-四	个	言
+四个先
+四个金
+四个泉
+四个言
 四个门	si;aa ge;ra mf;dg
-四	个	果
-四	个	春
+四个果
+四个春
 四个车	si;aa ge;ra ie;aa
 四个风	si;aa ge;ra fg;ji
-四	个	雷
+四个雷
 四个云	si;aa ge;ra yy;es
 四个兴	si;aa ge;ra xk;ba
 四个龙	si;aa ge;ra ls;ad
-四	个	土
+四个土

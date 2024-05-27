@@ -1,51 +1,39 @@
-#	 	R	i	m	e	 	d	i	c	t	i	o	n	a	r	y
-#	 	e	n	c	o	d	i	n	g	:	 	u	t	f	-	8
+# Rime dictionary
+# encoding: utf-8
 #
 #
-#	 	h	t	t	p	s	:	/	/	g	i	t	h	u	b	.	c	o	m	/	i	D	v	e	l	/	r	i	m	e	-	i	c	e
-#	 	-	-	-	-	-	-	-	 	大	字	表	 	-	-	-	-	-	-	-
-#	 	（	已	经	不	是	最	初	的	 	4	1	4	4	8	 	个	字	了	，	一	直	没	有	改	名	）
+# https://github.com/iDvel/rime-ice
+# ------- 大字表 -------
+# （已经不是最初的 41448 个字了，一直没有改名）
 #
-#	 	数	据	来	源	：
-#	 	字	来	自	 	U	n	i	h	a	n	 	h	t	t	p	s	:	/	/	w	w	w	.	u	n	i	c	o	d	e	.	o	r	g	/	P	u	b	l	i	c	/	 	>	 	1	6	.	0	.	0	 	>	 	U	n	i	h	a	n	.	z	i	p	 	>	 	U	n	i	h	a	n	_	R	e	a	d	i	n	g	s	.	t	x	t	 	>	 	k	M	a	n	d	a	r	i	n
-#	 	音	来	自	汉	典	 	h	t	t	p	s	:	/	/	g	i	t	h	u	b	.	c	o	m	/	m	o	z	i	l	l	a	z	g	/	p	i	n	y	i	n	-	d	a	t	a	/	 	>	 	z	d	i	c	.	t	x	t
-#	 	因	为	 	U	n	i	h	a	n	 	的	音	存	在	错	误	及	缺	失	的	情	况	，	汉	典	存	在	过	多	生	僻	罕	见	的	字	，	结	合	了	一	下	。
+# 数据来源：
+# 字来自 Unihan https://www.unicode.org/Public/ > 16.0.0 > Unihan.zip > Unihan_Readings.txt > kMandarin
+# 音来自汉典 https://github.com/mozillazg/pinyin-data/ > zdic.txt
+# 因为 Unihan 的音存在错误及缺失的情况，汉典存在过多生僻罕见的字，结合了一下。
 #
-#	 	使	用	建	议	：	 	多	个	词	库	文	件	有	重	复	时	，	靠	前	的	词	库	文	件	中	的	权	重	生	效	。
-#	 	 	 	 	 	 	 	 	 	 	将	 	8	1	0	5	 	 	作	为	第	一	字	表	，	放	到	靠	前	位	置	；
-#	 	 	 	 	 	 	 	 	 	 	将	 	4	1	4	4	8	 	作	为	第	二	字	表	，	放	到	靠	后	位	置	。
-#	 	 	 	 	 	 	 	 	 	 	这	样	小	字	表	里	存	在	的	字	按	权	重	靠	前	排	列	，	大	字	表	殿	后	，	生	僻	字	自	动	就	排	在	末	尾	。
--	-	-
-n	a	m	e	:	 	4	1	4	4	8
-v	e	r	s	i	o	n	:	 	"	2	0	2	4	-	0	5	-	1	6	"
-s	o	r	t	:	 	b	y	_	w	e	i	g	h	t
-.	.	.
-#	 	注	释	掉	了	一	些
-#	 	唔
-n
-#	 	嗯
-n
-#	 	㕶
-n
-#	 	𠮾
-n
-#	 	𧗈
-n
-#	 	呒
-m
-#	 	呣
-m
-#	 	嘸
-m
-#	 	嗯
-n	g
-#	 	唔
-n	g
-#	 	㕶
-n	g
-#	 	哼
-h	n	g
-#	 	+	_	+
+# 使用建议： 多个词库文件有重复时，靠前的词库文件中的权重生效。
+#          将 8105  作为第一字表，放到靠前位置；
+#          将 41448 作为第二字表，放到靠后位置。
+#          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
+---
+name: 41448
+version: "2024-05-16"
+sort: by_weight
+...
+# 注释掉了一些
+# 唔	n
+# 嗯	n
+# 㕶	n
+# 𠮾	n
+# 𧗈	n
+# 呒	m
+# 呣	m
+# 嘸	m
+# 嗯	ng
+# 唔	ng
+# 㕶	ng
+# 哼	hng
+# +_+
 吖	aa;ky
 呵	aa;kk
 啊	aa;ka
