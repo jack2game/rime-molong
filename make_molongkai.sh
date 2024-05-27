@@ -38,7 +38,7 @@ cd ./tools-additional
 # 轉換繁体詞庫
 echo 轉換繁体詞庫...
 sed '/\.\.\./q' ../molongkai-cht/moran.chars.dict.yaml > ../molongkai-cht/moran.chars.dict.yaml.bak
-python3 gen_dict_with_shape.py -p molongkai -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../molongkai-cht/temp.txt
+python3 gen_dict_with_shape.py -p molongkai -x zrmdb -m -i ../data/zdicdbtonesorted.yaml -o ../molongkai-cht/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../molongkai-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molongkai-cht/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../molongkai-cht/temp.txt
@@ -98,7 +98,7 @@ mv ../molongkai-cht/moran_fixed_simp.dict.yaml{.bak,}
 # 轉換简体詞庫
 echo 轉換简体詞庫...
 sed '/\.\.\./q' ../molongkai-chs/moran.chars.dict.yaml > ../molongkai-chs/moran.chars.dict.yaml.bak
-python3 gen_dict_with_shape.py -p molongkai -x zrmdb -i ../data/zdicdbtonesorted.yaml -o ../molongkai-chs/temp.txt
+python3 gen_dict_with_shape.py -p molongkai -x zrmdb -m -i ../data/zdicdbtonesorted.yaml -o ../molongkai-chs/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../molongkai-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t.*;[a-z]{0,1}\n//g" ../molongkai-chs/temp.txt
 # perl -CSAD -i -pe "s/.*\t[a-z]{2};;.*\n//g" ../molongkai-chs/temp.txt
