@@ -189,7 +189,7 @@ python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -t -i ../rime-snow-pinyin/s
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_base.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_ext.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_others.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb -t -o ../xhloopkai-cht/snow-dicts/flypy_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -t -i ../rime-snow-pinyin/snow_pinyin.tencent.dict.yaml -o ../xhloopkai-cht/snow-dicts/xhloopkai_zrmdb_tencent.dict.yaml
 # 生成簡體霧凇
 python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../xhloopkai-chs/snow-dicts/xhloopkai_zrmdb_ext.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x zrmdb -o ../xhloopkai-chs/snow-dicts/flypy_zrmdb_8105.dict.yaml
@@ -197,7 +197,7 @@ python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../rime-snow-pinyin/s
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x zrmdb -o ../xhloopkai-chs/snow-dicts/flypy_zrmdb_base.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x zrmdb -o ../xhloopkai-chs/snow-dicts/flypy_zrmdb_ext.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x zrmdb -o ../xhloopkai-chs/snow-dicts/flypy_zrmdb_others.dict.yaml
-# python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/tencent.dict.yaml -x zrmdb -o ../xhloopkai-chs/snow-dicts/flypy_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p xhloopkai -x zrmdb -s -i ../rime-snow-pinyin/snow_pinyin.tencent.dict.yaml -o ../xhloopkai-chs/snow-dicts/xhloopkai_zrmdb_tencent.dict.yaml
 cd ..
 
 # 生成ocz
@@ -223,9 +223,9 @@ rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/#  - snow-dicts\/xhloopkai_zrmdb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
-
 
 
 rm moran.extended.dict.yaml.bak
@@ -278,9 +278,9 @@ rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopkai_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/#  - snow-dicts\/xhloopkai_zrmdb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
-
 
 
 rm moran.extended.dict.yaml.bak
