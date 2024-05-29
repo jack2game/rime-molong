@@ -189,7 +189,7 @@ python3 gen_dict_with_shape.py -p xhloopfly -x flypydb -t -i ../rime-snow-pinyin
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x flypydb -t -o ../xhloopfly-cht/snow-dicts/flypy_flypydb_base.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x flypydb -t -o ../xhloopfly-cht/snow-dicts/flypy_flypydb_ext.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x flypydb -t -o ../xhloopfly-cht/snow-dicts/flypy_flypydb_others.dict.yaml
-python3 gen_dict_with_shape.py -p xhloopfly -x zrmdb -t -i ../rime-snow-pinyin/snow_pinyin.tencent.dict.yaml -o ../xhloopfly-cht/snow-dicts/xhloopfly_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p xhloopfly -x flypydb -t -i ../rime-snow-pinyin/snow_pinyin.tencent.dict.yaml -o ../xhloopfly-cht/snow-dicts/xhloopfly_flypydb_tencent.dict.yaml
 # 生成簡體霧凇
 python3 gen_dict_with_shape.py -p xhloopfly -x flypydb -s -i ../rime-snow-pinyin/snow_pinyin.ext.dict.yaml -o ../xhloopfly-chs/snow-dicts/xhloopfly_flypydb_ext.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/8105.dict.yaml    -x flypydb -o ../xhloopfly-chs/snow-dicts/flypy_flypydb_8105.dict.yaml
@@ -197,7 +197,7 @@ python3 gen_dict_with_shape.py -p xhloopfly -x flypydb -s -i ../rime-snow-pinyin
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/base.dict.yaml    -x flypydb -o ../xhloopfly-chs/snow-dicts/flypy_flypydb_base.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/ext.dict.yaml     -x flypydb -o ../xhloopfly-chs/snow-dicts/flypy_flypydb_ext.dict.yaml
 # python3 gen_dict_with_shape.py -i ../rime-snow/cn_dicts/others.dict.yaml  -x flypydb -o ../xhloopfly-chs/snow-dicts/flypy_flypydb_others.dict.yaml
-python3 gen_dict_with_shape.py -p xhloopfly -x zrmdb -s -i ../rime-snow-pinyin/snow_pinyin.tencent.dict.yaml -o ../xhloopfly-chs/snow-dicts/xhloopfly_zrmdb_tencent.dict.yaml
+python3 gen_dict_with_shape.py -p xhloopfly -x flypydb -s -i ../rime-snow-pinyin/snow_pinyin.tencent.dict.yaml -o ../xhloopfly-chs/snow-dicts/xhloopfly_flypydb_tencent.dict.yaml
 cd ..
 
 # 生成ocz
@@ -223,7 +223,7 @@ rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopfly_flypydb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.words  \)/#  - snow-dicts\/xhloopfly_zrmdb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/#  - snow-dicts\/xhloopfly_flypydb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 
@@ -278,7 +278,7 @@ rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopfly_flypydb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.words  \)/#  - snow-dicts\/xhloopfly_zrmdb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/#  - snow-dicts\/xhloopfly_flypydb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 

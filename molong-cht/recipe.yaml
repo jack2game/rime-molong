@@ -10,5 +10,4 @@ install_files: >-
   lua/*
   tiger*.yaml
   zrlf*
-  radical*
   opencc/*
