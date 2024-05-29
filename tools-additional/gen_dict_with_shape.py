@@ -1027,7 +1027,9 @@ def rewrite_row(row, traditional, simplified, delim, pinyin_fn, shape_dict, mult
         # Generate all combinations of elements in shape_dict using itertools.product
         combinations = product(*new_shape_list)
         # Create the final list by combining elements from new_pinyin_list with each combination
-        results = [['{};{}'.format(new_pinyin_list[i], comb[i]) for i in range(len(new_pinyin_list))] for comb in combinations]
+        for comb in combinations:
+            for new_pinyin, new_shape in zip(new_pinyin_list, comb):
+                results.append(new_pinyin + delim + new_shape)
         for result in results:
             row[0] = new_zh_chars
             row[1] = " ".join(result)
