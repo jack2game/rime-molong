@@ -1031,10 +1031,12 @@ def rewrite_row(row, traditional, simplified, delim, pinyin_fn, shape_dict, mult
         if len(new_shape_list) > 1:
             cartesian_product = product(*new_shape_list)
             combinations = [list(item) for item in cartesian_product]
+            # Create the final list by combining elements from new_pinyin_list with each combination
+            results = [['{};{}'.format(new_pinyin_list[i], comb[i]) for i in range(len(new_pinyin_list))] for comb in combinations]
         else:
-            combinations = new_shape_list
-        # Create the final list by combining elements from new_pinyin_list with each combination
-        results = [['{};{}'.format(new_pinyin_list[i], comb[i]) for i in range(len(new_pinyin_list))] for comb in combinations]
+            combinations = new_shape_list[0]
+            for comb in combinations:
+                results.append(pinyin_list[0] + delim + comb)
         for result in results:
             row[0] = new_zh_chars
             row[1] = " ".join(result)
