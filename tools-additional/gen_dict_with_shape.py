@@ -1020,6 +1020,7 @@ def rewrite_row(row, traditional, simplified, delim, pinyin_fn, shape_dict, mult
     if multishape:
         new_pinyin_list = []
         new_shape_list = []
+        results = []
         for pinyin in pinyin_list:
             new_pinyin_list.append(pinyin_fn(pinyin))
         for hanzi in new_zh_chars:
