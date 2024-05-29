@@ -968,9 +968,10 @@ def get_shape_dict(schema: str, multishape: bool):
             for row in rows:
                 if len(row) >= 2:
                     key, value = row[0], row[1]
-                    if key+value not in keypairs_seen:
+                    keypair = key+value
+                    if keypair not in keypairs_seen:
                         shape_dict[key].append(value) # Add values to the dictionary
-                        keypairs_seen.add(key+value)  # Add the keypair to the set
+                        keypairs_seen.add(keypair)  # Add the keypair to the set
     else:
         shape_dict = defaultdict(list)
         keys_seen = set()  # Set to keep track of keys seen so far
