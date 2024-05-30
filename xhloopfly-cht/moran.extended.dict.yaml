@@ -10,7 +10,7 @@ import_tables:
   - moran.chars      # 自然碼單字表
   - moran.base       # 基礎詞庫
   - snow-dicts/xhloopfly_flypydb_ext      # 扩展词库
-#  - snow-dicts/xhloopfly_flypydb_tencent      # 腾讯词库
+  - snow-dicts/xhloopfly_flypydb_tencent      # 腾讯词库
   - moran.words      # 本方案補充詞
 #   - moran.tencent    # 騰訊詞庫
   - moran.computer   # 計算機術語

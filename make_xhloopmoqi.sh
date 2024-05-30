@@ -223,7 +223,7 @@ rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopmoqi_moqidb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.words  \)/#  - snow-dicts\/xhloopmoqi_moqidb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopmoqi_moqidb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 
@@ -278,7 +278,7 @@ rm recipe.yaml.bak
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopmoqi_moqidb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.words  \)/#  - snow-dicts\/xhloopmoqi_moqidb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.words  \)/  - snow-dicts\/xhloopmoqi_moqidb_tencent      # 腾讯词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.tencent\)/# \1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.moe\)/# \1/g" ./moran.extended.dict.yaml
 
