@@ -34,7 +34,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-05-16"
+version: "2024-05-21"
 sort: by_weight
 ...
 ### 按需启用
@@ -45,7 +45,6 @@ sort: by_weight
 
 ### 扩展，不在《通用规范汉字表》的字:
 𤭢	cw;;	1000
-𤭢了	cw;; le;vu	1000
 𰻝	bl;;	1
 嬢	nl;;	1
 薙	ti;;	1
@@ -7297,11 +7296,11 @@ sort: by_weight
 𫄧	yj;;	0
 𬙂	yj;;	0
 𬸘	yj;;	0
-样	yh;ay	4769842
+养	yh;yp	1019753
+样	yh;ay	969842
 阳	yh;eo	850226
 杨	yh;av	633480
 扬	yh;fv	383219
-养	yh;yp	319753
 洋	yh;dy	293496
 仰	yh;rp	159568
 央	yh;kd	146296
