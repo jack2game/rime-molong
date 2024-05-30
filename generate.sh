@@ -39,14 +39,14 @@ if [ "$#" -gt 1 ]; then
 
 else
 	bash make_molong.sh
-	# bash make_xhloopfly.sh
+	bash make_xhloopfly.sh
 	bash make_xhloopkai.sh
 	bash make_zrloopkai.sh
-	# bash make_molongkai.sh
-	# bash make_xhloopmoqi.sh
+	bash make_molongkai.sh
+	bash make_xhloopmoqi.sh
 	bash make_xhupmoqi.sh
 	bash make_xhupkai.sh
-	# bash make_xhupzrmfast.sh
+	bash make_xhupzrmfast.sh
 	cd tools-additional/
 
 	echo ""
