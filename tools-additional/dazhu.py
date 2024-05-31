@@ -165,24 +165,24 @@ def main(args):
                 table.add(char, 'ocz' + code)
 
     # 补充表
-    if fulllist:
-        print("Generating extended table")
-        directory = '../' + folder + '/' + extended + '/'
-        for filename in os.listdir(directory):
-            filepath = os.path.join(directory, filename)
-            with open(filepath, 'r') as f:
-                for l in f:
-                    matches = re.findall(r'[a-z]{2};[a-z]{2}', l)
-                    if not matches: continue
-                    parts = l.split('\t')
-                    word = parts[0]
-                    codes = parts[1]
+    # if fulllist:
+        # print("Generating extended table")
+        # directory = '../' + folder + '/' + extended + '/'
+        # for filename in os.listdir(directory):
+            # filepath = os.path.join(directory, filename)
+            # with open(filepath, 'r') as f:
+                # for l in f:
+                    # matches = re.findall(r'[a-z]{2};[a-z]{2}', l)
+                    # if not matches: continue
+                    # parts = l.split('\t')
+                    # word = parts[0]
+                    # codes = parts[1]
 
-                    pairs = codes.split()
-                    parts_before_semicolon = [pair.split(';')[0] for pair in pairs]
+                    # pairs = codes.split()
+                    # parts_before_semicolon = [pair.split(';')[0] for pair in pairs]
 
-                    code = ''.join(parts_before_semicolon)
-                    table.add(word, code)
+                    # code = ''.join(parts_before_semicolon)
+                    # table.add(word, code)
 
 
     with open(output, 'w') as f:
