@@ -3765,7 +3765,11 @@ use_preset_vocabulary: false
 壼	ky	0
 壽	uz	0
 壾	mh	0
+壿	dy	0
+壿	cy	0
 壿	zy	0
+壿	cr	0
+壿	qy	0
 夀	uz	0
 夁	yi	0
 夂	vi	0
@@ -25904,7 +25908,6 @@ use_preset_vocabulary: false
 秊	qm	0
 裏	li	0
 隣	lb	0
-兀	wu	0
 嗀	gu	0
 﨎	ul	0
 﨏	gu	0
@@ -27329,7 +27332,7 @@ use_preset_vocabulary: false
 	pp	0
 	pp	0
 	pp	0
-兀	py	0
+兀	py;he	0
 𡭔	py	0
 䒑	py	0
 龴	py	0

@@ -4816,7 +4816,11 @@ use_preset_vocabulary: false
 壽	uz;uc	0
 壾	mh;jv	0
 壾	mh;uj	0
+壿	dy;uz	0
+壿	cy;uz	0
 壿	zy;uz	0
+壿	cr;uz	0
+壿	qy;uz	0
 夀	uz;ac	0
 夁	yi;ug	0
 夂	vi;pd	0
@@ -6781,10 +6785,10 @@ use_preset_vocabulary: false
 巵	vi;ba	0
 巵	vi;pb	0
 巶	vc;sv	0
-巷	hh;gs	1
-巷	xl;gs	50218
 巷	hh;sg	1
 巷	xl;sg	50218
+巷	hh;gs	1
+巷	xl;gs	50218
 巸	yi;is	0
 巸	yi;si	0
 巹	ig;ji	0
@@ -32819,8 +32823,6 @@ use_preset_vocabulary: false
 裏	li;wy	0
 裏	li;yl	0
 隣	lb;el	0
-兀	wu;ae	0
-兀	wu;ag	0
 嗀	gu;uk	0
 﨎	ul;yv	0
 﨏	gu;tg	0
@@ -34336,7 +34338,7 @@ use_preset_vocabulary: false
 	pp;zu	0
 	pp;ji	0
 	pp;yy	0
-兀	py;wu	0
+兀	py;wu	0
 𡭔	py;xc	0
 䒑	py;qm	0
 龴	py;si	0

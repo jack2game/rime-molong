@@ -2720,8 +2720,8 @@ use_preset_vocabulary: false
 质	vu;pb	385
 镶	xd;jx	385
 镶	xd;jy	385
-巷	xs;gs	385
 巷	xs;sg	385
+巷	xs;gs	385
 背	bm;ob	383
 剂	ju;dq	382
 渴	kt;dh	382
@@ -4410,6 +4410,7 @@ use_preset_vocabulary: false
 糠	kh;mk	48
 兀	wy;ae	48
 兀	wy;ag	48
+兀	wy;wu	48
 彬	bn;mu	48
 彬	bn;pl	48
 瞭	lx;ol	48
@@ -5926,8 +5927,8 @@ use_preset_vocabulary: false
 涓	jr;dy	8
 阕	qr;mg	8
 阕	qr;mt	8
-巷	hg;gs	8
 巷	hg;sg	8
+巷	hg;gs	8
 瓠	hy;gk	8
 蛏	ig;iu	8
 贻	yo;bt	8
@@ -11993,6 +11994,7 @@ use_preset_vocabulary: false
 儿	rg;pg	1
 兀	wu;ae	1
 兀	wu;ag	1
+兀	wu;wu	1
 允	yt;se	1
 兂	zj;ag	1
 兄	ks;ke	1

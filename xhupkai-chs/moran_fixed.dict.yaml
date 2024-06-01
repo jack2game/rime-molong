@@ -1669,6 +1669,7 @@ encoder:
 蚢	hhi
 吭	hhk
 杭	hhm
+巷	hhs
 航	hhv
 頏	hhy
 迒	hhz
@@ -5030,7 +5031,6 @@ encoder:
 錚	vgj
 睜	vgo
 猙	vgq
-偵	vgr
 綪	vgs
 崢	vgu
 爭	vgv
@@ -5423,7 +5423,7 @@ encoder:
 曏	xlo
 向	xlp
 像	xlr
-緗	xls
+巷	xls
 祥	xlu
 箱	xlv
 享	xlw
@@ -118001,6 +118001,8 @@ Bilibili	bvj
 歡呼雀躍	hhqy
 和好如初	hhri
 揮汗如雨	hhry
+火花四濺	hhsj
+後悔死了	hhsl
 揮毫灑墨	hhsm
 還好聽	hht
 花花太歲	hhts
@@ -123058,7 +123060,7 @@ Bilibili	bvj
 拿不動	nbd
 南北對話	nbdh
 拿不定主意	nbdy
-尼泊爾	nbe
+諾貝爾	nbe
 諾貝爾獎	nbej
 那不會	nbh
 牛逼哄哄	nbhh
@@ -128232,6 +128234,7 @@ Bilibili	bvj
 主觀能動性	vgnx
 斬瓜切菜	vgqc
 趾高氣揚	vgqy
+這個人	vgr
 正該如此	vgrc
 中國人民銀行	vgrh
 中國人民解放軍	vgrj
