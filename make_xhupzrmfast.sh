@@ -42,7 +42,7 @@ mv ../xhupzrmfast-cht/moran.chars.dict.yaml{.bak,} && perl -CSAD -i -pe "s/([a-z
 sed '/\.\.\./q' ../xhupzrmfast-cht/moran.chars.dict.yaml > ../xhupzrmfast-cht/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p static -x zrmfastdb -i ../xhupzrmfast-cht/moran.chars.dict.yaml -o ../xhupzrmfast-cht/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhupzrmfast-cht/temp.txt && sed -i '0,/\.\.\./d' ../xhupzrmfast-cht/temp.txt
-awk 'NF >= 2 && !seen[$1 FS $2]++ {print $1 FS $2}' ../xhupzrmfast-cht/temp.txt > temp && mv temp ../xhupzrmfast-cht/temp.txt
+awk 'NF >= 2 && /^[^\s]+\t[^\s]+/ && !seen[$1 FS $2]++ {print $0}' ../xhupzrmfast-cht/temp.txt > temp && mv temp ../xhupzrmfast-cht/temp.txt
 echo "" >> ../xhupzrmfast-cht/moran.chars.dict.yaml.bak && cat ../xhupzrmfast-cht/temp.txt >> ../xhupzrmfast-cht/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhupzrmfast-cht/moran.base.dict.yaml > ../xhupzrmfast-cht/moran.base.dict.yaml.bak
