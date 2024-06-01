@@ -38,11 +38,11 @@ cd ./tools-additional
 # 轉換繁体詞庫
 echo 轉換繁体詞庫...
 python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupzrmfast-cht/moran.chars.dict.yaml > ../xhupzrmfast-cht/moran.chars.dict.yaml.bak
-mv ../xhupzrmfast-cht/moran.chars.dict.yaml{.bak,}
-perl -CSAD -i -pe "s/([a-z]{2});[a-z]{2}/\1/g" ../xhupzrmfast-cht/moran.chars.dict.yaml
+mv ../xhupzrmfast-cht/moran.chars.dict.yaml{.bak,} && perl -CSAD -i -pe "s/([a-z]{2});[a-z]{2}/\1/g" ../xhupzrmfast-cht/moran.chars.dict.yaml
 sed '/\.\.\./q' ../xhupzrmfast-cht/moran.chars.dict.yaml > ../xhupzrmfast-cht/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p static -x zrmfastdb -i ../xhupzrmfast-cht/moran.chars.dict.yaml -o ../xhupzrmfast-cht/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhupzrmfast-cht/temp.txt && sed -i '0,/\.\.\./d' ../xhupzrmfast-cht/temp.txt
+awk 'NF >= 2 && !seen[$1 FS $2]++ {print $1 FS $2}' ../xhupzrmfast-cht/temp.txt > temp && mv temp ../xhupzrmfast-cht/temp.txt
 echo "" >> ../xhupzrmfast-cht/moran.chars.dict.yaml.bak && cat ../xhupzrmfast-cht/temp.txt >> ../xhupzrmfast-cht/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhupzrmfast-cht/moran.base.dict.yaml > ../xhupzrmfast-cht/moran.base.dict.yaml.bak
@@ -98,11 +98,11 @@ mv ../xhupzrmfast-cht/zrlf.dict.yaml{.bak,}
 # 轉換简体詞庫
 echo 轉換简体詞庫...
 python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../xhupzrmfast-chs/moran.chars.dict.yaml > ../xhupzrmfast-chs/moran.chars.dict.yaml.bak
-mv ../xhupzrmfast-chs/moran.chars.dict.yaml{.bak,}
-perl -CSAD -i -pe "s/([a-z]{2});[a-z]{2}/\1/g" ../xhupzrmfast-chs/moran.chars.dict.yaml
+mv ../xhupzrmfast-chs/moran.chars.dict.yaml{.bak,} && perl -CSAD -i -pe "s/([a-z]{2});[a-z]{2}/\1/g" ../xhupzrmfast-chs/moran.chars.dict.yaml
 sed '/\.\.\./q' ../xhupzrmfast-chs/moran.chars.dict.yaml > ../xhupzrmfast-chs/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p static -x zrmfastdb -i ../xhupzrmfast-chs/moran.chars.dict.yaml -o ../xhupzrmfast-chs/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhupzrmfast-chs/temp.txt && sed -i '0,/\.\.\./d' ../xhupzrmfast-chs/temp.txt
+awk 'NF >= 2 && /^[^\s]+\t[^\s]+/ && !seen[$1 FS $2]++ {print $0}' ../xhupzrmfast-chs/temp.txt > temp && mv temp ../xhupzrmfast-chs/temp.txt
 echo "" >> ../xhupzrmfast-chs/moran.chars.dict.yaml.bak && cat ../xhupzrmfast-chs/temp.txt >> ../xhupzrmfast-chs/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhupzrmfast-chs/moran.base.dict.yaml > ../xhupzrmfast-chs/moran.base.dict.yaml.bak
