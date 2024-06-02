@@ -1,3 +1,21 @@
+# source: https://github.com/mozillazg/pinyin-data/ > zdic.txt
+哼	hng5
+呒	m2
+嘸	m2
+嗯	ng4
+嗯	ng2
+嗯	ng3
+嗯	n4
+嗯	n2
+嗯	n3
+𧗈	n5
+𠮾	n4
+㕶	n3
+㕶	ng3
+唔	ng2
+唔	n2
+呣	m2
+呣	m4
 𠼞	a1
 𨉚	a1
 錒	a1
@@ -82975,25 +82993,8 @@
 # 瓧	shi2 wa3
 # 瓲	tun2 wa3
 
-# 呒	ḿ
-# 嘸	ḿ
-# 嗯	ǹg
-# 嗯	ńg
-# 嗯	ňg
-# 嗯	ǹ
-# 嗯	ń
-# 嗯	ň
-# 𧗈	n
-# 𠮾	ǹ
-# 㕶	ň
-# 㕶	ňg
-# 唔	ńg
-# 唔	ń
-# 呣	ḿ
-# 呣	m̀
 # 嚸	dím
 # 𧞪	lliè
-
 # 巼	phas
 # 闏	phdeng
 # 喸	phos
@@ -83005,7 +83006,6 @@
 # 叾	dug
 # 旕	eos
 # 怾	gi
-# 哼	hng
 # 乥	hol
 # 桛	kasei
 # 迲	keop
