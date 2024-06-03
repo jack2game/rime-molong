@@ -10,17 +10,18 @@
 
 各[發行版](https://github.com/jack2game/rime-molong/releases)之間的區別請見下表。含有`-chs`後綴的方案是簡體爲主、可以打出繁體字的方案；含有`-cht`後綴方案則相反，在此不再重複。
 
-| 發行版          | 音碼方案 | 形碼方案 | 備考         |
-| ------------ | ---- | ---- | ---------- |
-| `molong`     | 自然龍  | 自然龍  | 大竹查詢：`魔龙`  |
-| `molongkai`  | 自然龍  | 魔然   |            |
-| `xhloopfly`  | 環形鶴  | 小鶴雙形 |            |
-| `xhloopkai`  | 環形鶴  | 魔然   | 大竹查詢：`环形鹤` |
-| `xhloopmoqi` | 環形鶴  | 墨奇碼  |            |
-| `zrloopkai`  | 環形自然 | 魔然   |            |
-| `xhupkai`    | 小鶴雙拼 | 魔然   |            |
-| `xhupmoqi`   | 小鶴雙拼 | 墨奇碼  |            |
-| `xhupzrmfast`   | 小鶴雙拼 | 自然快手 |            |
+| `molong`      | 自然龍  | 自然龍  | 大竹查詢：`魔龙`  |
+| `molongkai`   | 自然龍  | 魔然   |            |
+| `molongmoqi`  | 自然龍  | 墨奇碼  |            |
+| `xhloopfly`   | 環形鶴  | 小鶴雙形 |            |
+| `xhloopkai`   | 環形鶴  | 魔然   | 大竹查詢：`环形鹤` |
+| `xhloopmoqi`  | 環形鶴  | 墨奇碼  |            |
+| `xhupkai`     | 小鶴雙拼 | 魔然   |            |
+| `xhupmoqi`    | 小鶴雙拼 | 墨奇碼  |            |
+| `xhupzrmfast` | 小鶴雙拼 | 自然快手 |            |
+| `zrloopkai`   | 環形自然 | 魔然   |            |
+| `zrloopmoqi`  | 環形自然 | 墨奇碼  |            |
+
 
 ## 音碼方案
 ### ❶自然龍音碼

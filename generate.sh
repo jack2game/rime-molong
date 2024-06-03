@@ -45,17 +45,17 @@ if [ "$#" -gt 1 ]; then
 	# exit 1
 
 else
-	bash make_molong.sh
-	bash make_molongkai.sh
-	bash make_molongmoqi.sh
-	bash make_xhloopfly.sh
-	bash make_xhloopkai.sh
-	bash make_xhloopmoqi.sh
-	bash make_xhupkai.sh
-	bash make_xhupmoqi.sh
-	bash make_xhupzrmfast.sh
-	bash make_zrloopkai.sh
-	bash make_zrloopmoqi.sh
+	bash make_molong.sh 2>&1 | sed 's/^/make_molong: /'
+	bash make_molongkai.sh 2>&1 | sed 's/^/make_molongkai: /'
+	bash make_molongmoqi.sh 2>&1 | sed 's/^/make_molongmoqi: /'
+	bash make_xhloopfly.sh 2>&1 | sed 's/^/make_xhloopfly: /'
+	bash make_xhloopkai.sh 2>&1 | sed 's/^/make_xhloopkai: /'
+	bash make_xhloopmoqi.sh 2>&1 | sed 's/^/make_xhloopmoqi: /'
+	bash make_xhupkai.sh 2>&1 | sed 's/^/make_xhupkai: /'
+	bash make_xhupmoqi.sh 2>&1 | sed 's/^/make_xhupmoqi: /'
+	bash make_xhupzrmfast.sh 2>&1 | sed 's/^/make_xhupzrmfast: /'
+	bash make_zrloopkai.sh 2>&1 | sed 's/^/make_zrloopkai: /'
+	bash make_zrloopmoqi.sh 2>&1 | sed 's/^/make_zrloopmoqi: /'
 
 	cd tools-additional/
 
