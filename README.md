@@ -10,6 +10,8 @@
 
 各[發行版](https://github.com/jack2game/rime-molong/releases)之間的區別請見下表。含有`-chs`後綴的方案是簡體爲主、可以打出繁體字的方案；含有`-cht`後綴方案則相反，在此不再重複。
 
+| 發行版           | 音碼   | 形碼   | 備考         |
+| ------------- | ---- | ---- | ---------- |
 | `molong`      | 自然龍  | 自然龍  | 大竹查詢：`魔龙`  |
 | `molongkai`   | 自然龍  | 魔然   |            |
 | `molongmoqi`  | 自然龍  | 墨奇碼  |            |
@@ -135,13 +137,13 @@
 
 （在反查時，上述前綴會被隱藏，避免干擾視線。）
 
-| 反查方式  | 演示                                                                                                        | 備考                       |
-| ----- | --------------------------------------------------------------------------------------------------------- | ------------------------ |
-| 通配符反查 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/73c5fc63-7ad8-4fcc-8f18-c6aceb65b530"> |                          |
-| 虎碼反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/fa6ee644-c451-472b-a4cf-4200d9686f49"> |                          |
-| 倉頡反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/1f58295e-37f9-4f27-8ce1-401e5e7cc00f"> |                          |
-| 筆畫反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/b8832cb7-f965-4434-9701-84819f904f87"> |                          |
-| 兩分反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/398a0b1f-ec03-4ec9-8f65-54858a3475b8"> | 鶴系列方案使用小鶴雙拼，自然系列方案使用自然雙拼 |
+| 反查方式  | 演示                                                                                                        | 備考                         |
+| ----- | --------------------------------------------------------------------------------------------------------- | -------------------------- |
+| 通配符反查 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/73c5fc63-7ad8-4fcc-8f18-c6aceb65b530"> |                            |
+| 虎碼反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/fa6ee644-c451-472b-a4cf-4200d9686f49"> |                            |
+| 倉頡反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/1f58295e-37f9-4f27-8ce1-401e5e7cc00f"> |                            |
+| 筆畫反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/b8832cb7-f965-4434-9701-84819f904f87"> |                            |
+| 兩分反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/398a0b1f-ec03-4ec9-8f65-54858a3475b8"> | 鶴系列方案使用小鶴雙拼，自然系列方案使用自然雙拼   |
 | 拆字反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a6eed195-4b1d-4596-bdd9-7bb96f98cdb1"> | 各方案使用各自對應的音碼，多音字則用最常見的讀音輸入 |
 
 ## 增強功能
