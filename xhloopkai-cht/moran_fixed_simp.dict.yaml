@@ -188,7 +188,7 @@ encoder:
 可	kt
 出	iu
 出	iua
-嗯	ng
+嗯	ef
 该	gd
 向	xkp
 却	qr
@@ -600,7 +600,7 @@ encoder:
 则	zr
 爪	vvp
 配	pq
-乃	ngp
+乃	ng
 乃	ngg
 斤	jbp
 秀	xph
@@ -3346,7 +3346,7 @@ encoder:
 蛰	vri
 饥	jiu
 钠	nlj
-呒	m2
+呒	mik
 喋	dqk
 株	vum
 蜂	fgi
@@ -4235,7 +4235,6 @@ encoder:
 蘖	nom
 褙	bqy
 龈	yni
-呣	m2k
 彳	iur
 彳	iux
 芗	xlc
@@ -5223,7 +5222,7 @@ encoder:
 偬	zfr
 卣	ycs
 叚	xca
-呣	m4k
+呣	myk
 噍	jbk
 圌	ibk
 坌	bdt
@@ -5759,13 +5758,13 @@ encoder:
 哦	erk
 哪	nak
 哪	nrk
-哼	hng
+哼	hgk
 啊	ask
 啊	adk
 啊	alk
 喷	pdk
-嗯	ng2
-嗯	ng3
+嗯	ehk
+嗯	ejk
 嘎	gdk
 嘚	dwk
 囊	nha
@@ -112053,7 +112052,8 @@ encoder:
 诛求	vuqw
 抓奸	vxjm
 追远	vvyy
-卓兰	vplk啊啊啊	aaa
+卓兰	vplk
+啊啊啊	aaa
 傲岸不群	aabq
 嗷嗷待哺	aadb
 暗暗称奇	aaiq

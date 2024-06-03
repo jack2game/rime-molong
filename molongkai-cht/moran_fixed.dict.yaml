@@ -190,7 +190,7 @@ encoder:
 可	kl
 出	ia
 出	iaa
-嗯	ng
+嗯	ef
 該	gb
 向	xep
 卻	qd
@@ -2412,7 +2412,7 @@ encoder:
 債	vor
 恆	hfx
 腸	iwo
-擬	ngf
+擬	ng
 拴	udf
 垂	iwp
 伏	flr
@@ -3381,7 +3381,6 @@ encoder:
 蟄	vei
 飢	jju
 鈉	nij
-嘸	m2
 株	vam
 蜂	fci
 夷	yba
@@ -4305,7 +4304,6 @@ encoder:
 瀦	vad
 櫱	nqm
 齦	yci
-呣	m2k
 彳	itr
 彳	itx
 薌	xyc
@@ -4683,6 +4681,7 @@ encoder:
 稗	boh
 酆	fce
 鷸	yfn
+旎	ngf
 洽	qxd
 篁	hbv
 髁	krg
@@ -5332,7 +5331,7 @@ encoder:
 卣	yzb
 卣	yzs
 叚	xca
-呣	m4k
+呣	mhk
 噍	jlk
 圇	lfk
 圌	iwk
@@ -5903,11 +5902,10 @@ encoder:
 哦	eek
 哪	nlk
 哪	nek
-哼	hng
 啊	amk
 喋	vuk
-嗯	ng2
-嗯	ng3
+嗯	efk
+嗯	eyk
 噂	zok
 噇	ibk
 嚆	hqk
@@ -112220,7 +112218,8 @@ encoder:
 誅求	vaqm
 抓姦	vsjr
 追遠	vtys
-卓蘭	vllp啊啊啊	aaa
+卓蘭	vllp
+啊啊啊	aaa
 傲岸不羣	aabq
 嗷嗷待哺	aadb
 暗暗稱奇	aaiq
