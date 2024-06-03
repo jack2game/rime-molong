@@ -130,7 +130,7 @@
 可	kt
 出	iu
 出	iua
-嗯	ng
+嗯	ef
 该	gd
 向	xkp
 却	qr
@@ -542,7 +542,7 @@
 则	zr
 爪	vvp
 配	pq
-乃	ngp
+乃	ng
 乃	ngg
 斤	jbp
 秀	xph
@@ -3288,7 +3288,7 @@
 蛰	vri
 饥	jiu
 钠	nlj
-呒	m2
+呒	mik
 喋	dqk
 株	vum
 蜂	fgi
@@ -4177,7 +4177,6 @@
 蘖	nom
 褙	bqy
 龈	yni
-呣	m2k
 彳	iur
 彳	iux
 芗	xlc
@@ -5165,7 +5164,7 @@
 偬	zfr
 卣	ycs
 叚	xca
-呣	m4k
+呣	myk
 噍	jbk
 圌	ibk
 坌	bdt
@@ -5701,13 +5700,13 @@
 哦	erk
 哪	nak
 哪	nrk
-哼	hng
+哼	hgk
 啊	ask
 啊	adk
 啊	alk
 喷	pdk
-嗯	ng2
-嗯	ng3
+嗯	ehk
+嗯	ejk
 嘎	gdk
 嘚	dwk
 囊	nha

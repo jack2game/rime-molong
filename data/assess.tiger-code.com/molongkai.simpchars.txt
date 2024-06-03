@@ -133,7 +133,7 @@
 可	kl
 出	ia
 出	iaa
-嗯	ng
+嗯	ef
 该	gb
 向	xep
 却	qd
@@ -2355,7 +2355,7 @@
 债	vor
 恒	hfx
 肠	iwo
-拟	ngf
+拟	ng
 拴	udf
 垂	iwp
 伏	flr
@@ -3324,7 +3324,6 @@
 蛰	vei
 饥	jju
 钠	nij
-呒	m2
 株	vam
 蜂	fci
 夷	yba
@@ -4248,7 +4247,6 @@
 潴	vad
 蘖	nqm
 龈	yci
-呣	m2k
 彳	itr
 彳	itx
 芗	xyc
@@ -4626,6 +4624,7 @@
 稗	boh
 酆	fce
 鹬	yfn
+旎	ngf
 洽	qxd
 篁	hbv
 髁	krg
@@ -5275,7 +5274,7 @@
 卣	yzb
 卣	yzs
 叚	xca
-呣	m4k
+呣	mhk
 噍	jlk
 囵	lfk
 圌	iwk
@@ -5846,11 +5845,10 @@
 哦	eek
 哪	nlk
 哪	nek
-哼	hng
 啊	amk
 喋	vuk
-嗯	ng2
-嗯	ng3
+嗯	efk
+嗯	eyk
 噂	zok
 噇	ibk
 嚆	hqk
