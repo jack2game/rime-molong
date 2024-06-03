@@ -61,7 +61,7 @@ rm ../xhloopfly-cht/snow_pinyin.base.dict.yaml
 python3 convert_sp.py -i ../xhloopfly-cht/zrlf.dict.yaml -o ../xhloopfly-cht/zrlf.dict.yaml.bak
 
 sed '/#----------詞庫----------#/q' ../xhloopfly-cht/moran_fixed.dict.yaml > ../xhloopfly-cht/moran_fixed.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhloopfly.simpchars.4123.txt ../xhloopfly-cht/xhloopfly.simpchars.4123.txt && opencc -i ../xhloopfly-cht/xhloopfly.simpchars.4123.txt -o ../xhloopfly-cht/temp.txt -c s2t
+cp ../data/assess.tiger-code.com/xhloopfly.simpchars.txt ../xhloopfly-cht/xhloopfly.simpchars.txt && opencc -i ../xhloopfly-cht/xhloopfly.simpchars.txt -o ../xhloopfly-cht/temp.txt -c s2t
 echo "" >> ../xhloopfly-cht/moran_fixed.dict.yaml.bak
 cat ../xhloopfly-cht/temp.txt >> ../xhloopfly-cht/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/xhloop.simpwords.txt -o ../xhloopfly-cht/temp.txt -c s2t
@@ -70,10 +70,10 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopfly-cht/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopfly-cht/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhloopfly-cht/moran_fixed.dict.yaml >> ../xhloopfly-cht/moran_fixed.dict.yaml.bak
-rm ../xhloopfly-cht/xhloopfly.simpchars.4123.txt
+rm ../xhloopfly-cht/xhloopfly.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhloopfly-cht/moran_fixed_simp.dict.yaml > ../xhloopfly-cht/moran_fixed_simp.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhloopfly.simpchars.4123.txt ../xhloopfly-cht/xhloopfly.simpchars.4123.txt && cp ../xhloopfly-cht/xhloopfly.simpchars.4123.txt ../xhloopfly-cht/temp.txt
+cp ../data/assess.tiger-code.com/xhloopfly.simpchars.txt ../xhloopfly-cht/xhloopfly.simpchars.txt && cp ../xhloopfly-cht/xhloopfly.simpchars.txt ../xhloopfly-cht/temp.txt
 echo "" >> ../xhloopfly-cht/moran_fixed_simp.dict.yaml.bak
 cat ../xhloopfly-cht/temp.txt >> ../xhloopfly-cht/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhloop.simpwords.txt ../xhloopfly-cht/temp.txt
@@ -82,7 +82,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopfly-cht/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopfly-cht/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhloopfly-cht/moran_fixed_simp.dict.yaml >> ../xhloopfly-cht/moran_fixed_simp.dict.yaml.bak
-rm ../xhloopfly-cht/xhloopfly.simpchars.4123.txt
+rm ../xhloopfly-cht/xhloopfly.simpchars.txt
 
 mv ../xhloopfly-cht/moran.chars.dict.yaml{.bak,}
 mv ../xhloopfly-cht/moran.base.dict.yaml{.bak,}
@@ -121,7 +121,7 @@ rm ../xhloopfly-chs/snow_pinyin.base.dict.yaml
 python3 convert_sp.py -i ../xhloopfly-chs/zrlf.dict.yaml -o ../xhloopfly-chs/zrlf.dict.yaml.bak
 
 sed '/#----------詞庫----------#/q' ../xhloopfly-chs/moran_fixed.dict.yaml > ../xhloopfly-chs/moran_fixed.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhloopfly.simpchars.4123.txt ../xhloopfly-chs/xhloopfly.simpchars.4123.txt && opencc -i ../xhloopfly-chs/xhloopfly.simpchars.4123.txt -o ../xhloopfly-chs/temp.txt -c s2t
+cp ../data/assess.tiger-code.com/xhloopfly.simpchars.txt ../xhloopfly-chs/xhloopfly.simpchars.txt && opencc -i ../xhloopfly-chs/xhloopfly.simpchars.txt -o ../xhloopfly-chs/temp.txt -c s2t
 echo "" >> ../xhloopfly-chs/moran_fixed.dict.yaml.bak
 cat ../xhloopfly-chs/temp.txt >> ../xhloopfly-chs/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/xhloop.simpwords.txt -o ../xhloopfly-chs/temp.txt -c s2t
@@ -130,10 +130,10 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopfly-chs/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopfly-chs/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhloopfly-chs/moran_fixed.dict.yaml >> ../xhloopfly-chs/moran_fixed.dict.yaml.bak
-rm ../xhloopfly-chs/xhloopfly.simpchars.4123.txt
+rm ../xhloopfly-chs/xhloopfly.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhloopfly-chs/moran_fixed_simp.dict.yaml > ../xhloopfly-chs/moran_fixed_simp.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhloopfly.simpchars.4123.txt ../xhloopfly-chs/xhloopfly.simpchars.4123.txt && cp ../xhloopfly-chs/xhloopfly.simpchars.4123.txt ../xhloopfly-chs/temp.txt
+cp ../data/assess.tiger-code.com/xhloopfly.simpchars.txt ../xhloopfly-chs/xhloopfly.simpchars.txt && cp ../xhloopfly-chs/xhloopfly.simpchars.txt ../xhloopfly-chs/temp.txt
 echo "" >> ../xhloopfly-chs/moran_fixed_simp.dict.yaml.bak
 cat ../xhloopfly-chs/temp.txt >> ../xhloopfly-chs/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhloop.simpwords.txt ../xhloopfly-chs/temp.txt
@@ -142,7 +142,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopfly-chs/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopfly-chs/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhloopfly-chs/moran_fixed_simp.dict.yaml >> ../xhloopfly-chs/moran_fixed_simp.dict.yaml.bak
-rm ../xhloopfly-chs/xhloopfly.simpchars.4123.txt
+rm ../xhloopfly-chs/xhloopfly.simpchars.txt
 
 mv ../xhloopfly-chs/moran.chars.dict.yaml{.bak,}
 mv ../xhloopfly-chs/moran.base.dict.yaml{.bak,}

@@ -61,7 +61,7 @@ rm ../xhloopkai-cht/snow_pinyin.base.dict.yaml
 python3 convert_sp.py -i ../xhloopkai-cht/zrlf.dict.yaml -o ../xhloopkai-cht/zrlf.dict.yaml.bak
 
 sed '/#----------詞庫----------#/q' ../xhloopkai-cht/moran_fixed.dict.yaml > ../xhloopkai-cht/moran_fixed.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhloopkai.simpchars.4123.txt ../xhloopkai-cht/xhloopkai.simpchars.4123.txt && opencc -i ../xhloopkai-cht/xhloopkai.simpchars.4123.txt -o ../xhloopkai-cht/temp.txt -c s2t
+cp ../data/assess.tiger-code.com/xhloopkai.simpchars.txt ../xhloopkai-cht/xhloopkai.simpchars.txt && opencc -i ../xhloopkai-cht/xhloopkai.simpchars.txt -o ../xhloopkai-cht/temp.txt -c s2t
 echo "" >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/xhloop.simpwords.txt -o ../xhloopkai-cht/temp.txt -c s2t
@@ -70,10 +70,10 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopkai-cht/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopkai-cht/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhloopkai-cht/moran_fixed.dict.yaml >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
-rm ../xhloopkai-cht/xhloopkai.simpchars.4123.txt
+rm ../xhloopkai-cht/xhloopkai.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhloopkai-cht/moran_fixed_simp.dict.yaml > ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhloopkai.simpchars.4123.txt ../xhloopkai-cht/xhloopkai.simpchars.4123.txt && cp ../xhloopkai-cht/xhloopkai.simpchars.4123.txt ../xhloopkai-cht/temp.txt
+cp ../data/assess.tiger-code.com/xhloopkai.simpchars.txt ../xhloopkai-cht/xhloopkai.simpchars.txt && cp ../xhloopkai-cht/xhloopkai.simpchars.txt ../xhloopkai-cht/temp.txt
 echo "" >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
 cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhloop.simpwords.txt ../xhloopkai-cht/temp.txt
@@ -82,7 +82,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopkai-cht/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopkai-cht/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhloopkai-cht/moran_fixed_simp.dict.yaml >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
-rm ../xhloopkai-cht/xhloopkai.simpchars.4123.txt
+rm ../xhloopkai-cht/xhloopkai.simpchars.txt
 
 mv ../xhloopkai-cht/moran.chars.dict.yaml{.bak,}
 mv ../xhloopkai-cht/moran.base.dict.yaml{.bak,}
@@ -121,7 +121,7 @@ rm ../xhloopkai-chs/snow_pinyin.base.dict.yaml
 python3 convert_sp.py -i ../xhloopkai-chs/zrlf.dict.yaml -o ../xhloopkai-chs/zrlf.dict.yaml.bak
 
 sed '/#----------詞庫----------#/q' ../xhloopkai-chs/moran_fixed.dict.yaml > ../xhloopkai-chs/moran_fixed.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhloopkai.simpchars.4123.txt ../xhloopkai-chs/xhloopkai.simpchars.4123.txt && opencc -i ../xhloopkai-chs/xhloopkai.simpchars.4123.txt -o ../xhloopkai-chs/temp.txt -c s2t
+cp ../data/assess.tiger-code.com/xhloopkai.simpchars.txt ../xhloopkai-chs/xhloopkai.simpchars.txt && opencc -i ../xhloopkai-chs/xhloopkai.simpchars.txt -o ../xhloopkai-chs/temp.txt -c s2t
 echo "" >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/xhloop.simpwords.txt -o ../xhloopkai-chs/temp.txt -c s2t
@@ -130,10 +130,10 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopkai-chs/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopkai-chs/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhloopkai-chs/moran_fixed.dict.yaml >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
-rm ../xhloopkai-chs/xhloopkai.simpchars.4123.txt
+rm ../xhloopkai-chs/xhloopkai.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhloopkai-chs/moran_fixed_simp.dict.yaml > ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
-cp ../data/assess.tiger-code.com/xhloopkai.simpchars.4123.txt ../xhloopkai-chs/xhloopkai.simpchars.4123.txt && cp ../xhloopkai-chs/xhloopkai.simpchars.4123.txt ../xhloopkai-chs/temp.txt
+cp ../data/assess.tiger-code.com/xhloopkai.simpchars.txt ../xhloopkai-chs/xhloopkai.simpchars.txt && cp ../xhloopkai-chs/xhloopkai.simpchars.txt ../xhloopkai-chs/temp.txt
 echo "" >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
 cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhloop.simpwords.txt ../xhloopkai-chs/temp.txt
@@ -142,7 +142,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopkai-chs/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopkai-chs/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhloopkai-chs/moran_fixed_simp.dict.yaml >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
-rm ../xhloopkai-chs/xhloopkai.simpchars.4123.txt
+rm ../xhloopkai-chs/xhloopkai.simpchars.txt
 
 mv ../xhloopkai-chs/moran.chars.dict.yaml{.bak,}
 mv ../xhloopkai-chs/moran.base.dict.yaml{.bak,}
