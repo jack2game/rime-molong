@@ -125,7 +125,7 @@ cp ../data/assess.tiger-code.com/xhloopmoqi.simpchars.txt ../xhloopmoqi-chs/xhlo
 echo "" >> ../xhloopmoqi-chs/moran_fixed.dict.yaml.bak
 cat ../xhloopmoqi-chs/temp.txt >> ../xhloopmoqi-chs/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/xhloop.simpwords.txt -o ../xhloopmoqi-chs/temp.txt -c s2t
-echo >> ../xhloopmoqi-chs/moran_fixed.dict.yaml.bak && cat ../xhloopmoqi-chs/temp.txt >> ../xhloopmoqi-chs/moran_fixed.dict.yaml.bak
+echo "" >> ../xhloopmoqi-chs/moran_fixed.dict.yaml.bak && cat ../xhloopmoqi-chs/temp.txt >> ../xhloopmoqi-chs/moran_fixed.dict.yaml.bak
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhloopmoqi-chs/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopmoqi-chs/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopmoqi-chs/moran_fixed.dict.yaml
@@ -137,7 +137,7 @@ cp ../data/assess.tiger-code.com/xhloopmoqi.simpchars.txt ../xhloopmoqi-chs/xhlo
 echo "" >> ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
 cat ../xhloopmoqi-chs/temp.txt >> ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhloop.simpwords.txt ../xhloopmoqi-chs/temp.txt
-echo >> ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhloopmoqi-chs/temp.txt >> ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
+echo "" >> ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhloopmoqi-chs/temp.txt >> ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+.*\n//g" ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopmoqi-chs/moran_fixed_simp.dict.yaml
