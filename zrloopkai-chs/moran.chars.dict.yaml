@@ -781,7 +781,6 @@ use_preset_vocabulary: false
 借	jz;rx	6595
 插	ia;fi	6588
 插	ia;fj	6588
-街	jx;ri	6588
 街	jx;xg	6588
 街	jx;xi	6588
 烦	fk;hy	6585
@@ -4501,7 +4500,6 @@ use_preset_vocabulary: false
 域	yc;th	42
 厉	lu;iw	42
 禽	qm;rl	42
-衔	xz;ri	42
 衔	xz;xi	42
 衔	xz;xj	42
 乏	fs;pv	42
@@ -5574,7 +5572,6 @@ use_preset_vocabulary: false
 曙	uo;ou	12
 缳	ht;sh	12
 缳	ht;sy	12
-衢	qb;ri	12
 衢	qb;xi	12
 衢	qb;xq	12
 峪	yc;ug	12
@@ -6111,9 +6108,8 @@ use_preset_vocabulary: false
 鬃	zs;iz	6
 骤	vv;mj	6
 讶	yl;yy	6
-衍	yl;ri	6
-衍	yl;xd	6
 衍	yl;xi	6
+衍	yl;xd	6
 竭	jc;lh	6
 帛	bp;bj	6
 帛	bp;jb	6
@@ -6303,7 +6299,6 @@ use_preset_vocabulary: false
 徙	xp;xb	5
 徙	xp;xv	5
 衡	hh;xd	5
-衡	hh;ri	5
 衡	hh;xi	5
 錾	zh;jv	5
 邸	dp;ed	5
@@ -6678,7 +6673,6 @@ use_preset_vocabulary: false
 馇	va;ui	4
 龠	yr;rc	4
 尉	wm;cu	3
-衙	ys;ri	3
 衙	ys;xi	3
 衙	ys;xw	3
 槊	ui;mo	3
@@ -36879,9 +36873,8 @@ use_preset_vocabulary: false
 行	xt;xi	1
 行	hg;xd	1
 行	hg;xi	1
-衍	yk;ri	1
-衍	yk;xd	1
 衍	yk;xi	1
+衍	yk;xd	1
 衎	kl;xg	1
 衎	kl;xi	1
 衏	ye;xi	1
@@ -36902,16 +36895,12 @@ use_preset_vocabulary: false
 衖	xs;xi	1
 衖	la;xg	1
 衖	la;xi	1
-衘	xz;ri	1
 衘	xz;xi	1
 衘	xz;xx	1
-衘	yc;ri	1
 衘	yc;xi	1
 衘	yc;xx	1
-衙	yb;ri	1
 衙	yb;xi	1
 衙	yb;xw	1
-衙	yc;ri	1
 衙	yc;xi	1
 衙	yc;xw	1
 衚	hi;xh	1
@@ -64887,7 +64876,7 @@ use_preset_vocabulary: false
 𫵒	tb;bg	0
 𫵘	bi;ub	0
 𫼛	dx;fg	0
-𫼝	ib;ui	0
+𫼝	ib;fi	0
 𫽮	dk;fd	0
 𬀷	uh;ow	0
 𬀷	uh;rw	0
