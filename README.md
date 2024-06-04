@@ -150,52 +150,35 @@
 
 ### 輸入及查詢
 
-<details>
-
-<summary>點這裏</summary>
-
-| 功能說明  | 演示                                                                                                        | 備考                                     |
-| --------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `/`引導輸入符號 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aa2548a3-9ec2-4c2d-9288-97428392e846"> | [symbols.yaml](https://github.com/jack2game/rime-molong/blob/main/molong-chs/symbols.yaml)查看更多符號 |
-| `ctrl`+`s`實時簡繁轉換 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/7763db41-59c6-41d3-bf07-a821aee61757"> |                    |
-| `ctrl`+`u`查詢字符Unicode | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2821efb4-160a-467a-8b74-c6ee93ee2aa5"> |                    |
-| `ctrl`+`q`開啓emoji輸入  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/1275a616-047c-4cc2-9cc6-02ea72eec370"> |                    |
-| `ctrl`+`i`查詢拆分  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aaab2afa-b6dc-4a56-9ce3-5e55803b7667"> | 目前支持查詢魔然形碼和墨奇形碼 |
-| `U`引導Unicode直接輸入字符 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a8d59825-83be-49e5-91d1-6f181220da7e"> |                    |
-
-</details>
+| 功能說明                  | 演示                                                                                                        | 備考                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `/`引導輸入符號             | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aa2548a3-9ec2-4c2d-9288-97428392e846"> | [symbols.yaml](https://github.com/jack2game/rime-molong/blob/main/molong-chs/symbols.yaml)查看更多符號 |
+| `ctrl`+`s`實時簡繁轉換      | <img src="https://github.com/jack2game/rime-molong/assets/16070158/7763db41-59c6-41d3-bf07-a821aee61757"> |                                                                                                  |
+| `ctrl`+`u`查詢字符Unicode | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2821efb4-160a-467a-8b74-c6ee93ee2aa5"> |                                                                                                  |
+| `ctrl`+`q`開啓emoji輸入   | <img src="https://github.com/jack2game/rime-molong/assets/16070158/1275a616-047c-4cc2-9cc6-02ea72eec370"> |                                                                                                  |
+| `ctrl`+`i`查詢拆分        | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aaab2afa-b6dc-4a56-9ce3-5e55803b7667"> | 目前支持查詢魔然形碼和墨奇形碼                                                                                  |
+| `ctrl`+`.`查詢拼音        | <img src="https://github.com/jack2game/rime-molong/assets/16070158/330c4c83-faba-4cc2-998f-f84b175b8e75"> |                                                                                                  |
+| `U`引導Unicode直接輸入字符    | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a8d59825-83be-49e5-91d1-6f181220da7e"> |                                                                                                  |
 
 ### 時間及日期
 
-<details>
-
-<summary>點這裏</summary>
-
-| 功能說明  | 演示                                                                                                        |
-| ----- | --------------------------------------------------------------------------------------------------------- |
-| `orq`輸入當前日期  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/d46dc050-99d7-4894-ba84-d7ad480f52f3"> |
-| `ojq`輸入當前節氣  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/e816eea4-ad71-454c-a6cd-10568375584c"> |
-| `oxq`輸入當前星期  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a965c249-3e1b-4b75-aada-a7573a6110ea"> |
-| `osj`輸入當前時間  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/e6c4a829-84d2-45df-a5b5-7f6bc86a0154"> |
-| `oww`輸入當前週數  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/504d8258-1643-4746-85c4-471931a914a3"> |
-| `onl`輸入當前農曆  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/f24d997e-a01f-4eec-bdcb-44d6f18845f6"> |
+| 功能說明                      | 演示                                                                                                        |
+| ------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `orq`輸入當前日期               | <img src="https://github.com/jack2game/rime-molong/assets/16070158/d46dc050-99d7-4894-ba84-d7ad480f52f3"> |
+| `ojq`輸入當前節氣               | <img src="https://github.com/jack2game/rime-molong/assets/16070158/e816eea4-ad71-454c-a6cd-10568375584c"> |
+| `oxq`輸入當前星期               | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a965c249-3e1b-4b75-aada-a7573a6110ea"> |
+| `osj`輸入當前時間               | <img src="https://github.com/jack2game/rime-molong/assets/16070158/e6c4a829-84d2-45df-a5b5-7f6bc86a0154"> |
+| `oww`輸入當前週數               | <img src="https://github.com/jack2game/rime-molong/assets/16070158/504d8258-1643-4746-85c4-471931a914a3"> |
+| `onl`輸入當前農曆               | <img src="https://github.com/jack2game/rime-molong/assets/16070158/f24d997e-a01f-4eec-bdcb-44d6f18845f6"> |
 | `ors`輸入ISO 8601日期時間（+8時區） | <img src="https://github.com/jack2game/rime-molong/assets/16070158/710ad609-7bfa-488b-ab78-f808e26cdc2e"> |
-| `oepoch`輸入Unix Timestamp | <img src="https://github.com/jack2game/rime-molong/assets/16070158/179a6385-1f8c-408e-9bff-3f5c17147f7f"> |
-| `N`引導數字做農曆轉換  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/25897ac9-5fe2-43d1-a51e-7e90b5d0b8bd"> |
-
-</details>
+| `oepoch`輸入Unix Timestamp  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/179a6385-1f8c-408e-9bff-3f5c17147f7f"> |
+| `N`引導數字做農曆轉換              | <img src="https://github.com/jack2game/rime-molong/assets/16070158/25897ac9-5fe2-43d1-a51e-7e90b5d0b8bd"> |
 
 ### 數字及計算
 
-<details>
-
-<summary>點這裏</summary>
-
-| 功能說明  | 演示                                                                                                        |
-| ----- | --------------------------------------------------------------------------------------------------------- |
+| 功能說明       | 演示                                                                                                        |
+| ---------- | --------------------------------------------------------------------------------------------------------- |
 | `S`引導數字轉大寫 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2861499d-1b52-4172-993f-ea48948c8e0d"> |
-
-</details>
 
 ## 相關鏈接
 [℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [℞墨奇音形](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
