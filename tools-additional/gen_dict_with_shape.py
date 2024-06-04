@@ -15,6 +15,272 @@ from itertools import product
 opencc_t2s = opencc.OpenCC('t2s.json')
 opencc_s2t = opencc.OpenCC('s2t.json')
 
+def tonenum2tonesymbol(pinyin: str):
+    shengmu_dict = {"zh": "zh", "ch": "ch", "sh": "sh"}
+    yunmu_dict = {
+        "a5": "a",
+        "a1": "ā",
+        "a2": "á",
+        "a3": "ǎ",
+        "a4": "à",
+        "ai5": "ai",
+        "ai1": "āi",
+        "ai2": "ái",
+        "ai3": "ǎi",
+        "ai4": "ài",
+        "an5": "an",
+        "an1": "ān",
+        "an2": "án",
+        "an3": "ǎn",
+        "an4": "àn",
+        "ang5": "ang",
+        "ang1": "āng",
+        "ang2": "áng",
+        "ang3": "ǎng",
+        "ang4": "àng",
+        "ao5": "ao",
+        "ao1": "āo",
+        "ao2": "áo",
+        "ao3": "ǎo",
+        "ao4": "ào",
+        "e5": "e",
+        "e1": "ē",
+        "e2": "é",
+        "e3": "ě",
+        "e4": "è",
+        "ei5": "ei",
+        "ei1": "ēi",
+        "ei2": "éi",
+        "ei3": "ěi",
+        "ei4": "èi",
+        "en5": "en",
+        "en1": "ēn",
+        "en2": "én",
+        "en3": "ěn",
+        "en4": "èn",
+        "eng5": "eng",
+        "eng1": "ēng",
+        "eng2": "éng",
+        "eng3": "ěng",
+        "eng4": "èng",
+        "er5": "er",
+        "er1": "ēr",
+        "er2": "ér",
+        "er3": "ěr",
+        "er4": "èr",
+        "i5": "i",
+        "i1": "ī",
+        "i2": "í",
+        "i3": "ǐ",
+        "i4": "ì",
+        "ia5": "ia",
+        "ia1": "iā",
+        "ia2": "iá",
+        "ia3": "iǎ",
+        "ia4": "ià",
+        "ian5": "ian",
+        "ian1": "iān",
+        "ian2": "ián",
+        "ian3": "iǎn",
+        "ian4": "iàn",
+        "iang5": "iang",
+        "iang1": "iāng",
+        "iang2": "iáng",
+        "iang3": "iǎng",
+        "iang4": "iàng",
+        "iao5": "iao",
+        "iao1": "iāo",
+        "iao2": "iáo",
+        "iao3": "iǎo",
+        "iao4": "iào",
+        "ie5": "ie",
+        "ie1": "iē",
+        "ie2": "ié",
+        "ie3": "iě",
+        "ie4": "iè",
+        "in5": "in",
+        "in1": "īn",
+        "in2": "ín",
+        "in3": "ǐn",
+        "in4": "ìn",
+        "ing5": "ing",
+        "ing1": "īng",
+        "ing2": "íng",
+        "ing3": "ǐng",
+        "ing4": "ìng",
+        "iong5": "iong",
+        "iong1": "iōng",
+        "iong2": "ióng",
+        "iong3": "iǒng",
+        "iong4": "iòng",
+        "iu5": "iu",
+        "iu1": "iū",
+        "iu2": "iú",
+        "iu3": "iǔ",
+        "iu4": "iù",
+        "o5": "o",
+        "o1": "ō",
+        "o2": "ó",
+        "o3": "ǒ",
+        "o4": "ò",
+        "ong5": "ong",
+        "ong1": "ōng",
+        "ong2": "óng",
+        "ong3": "ǒng",
+        "ong4": "òng",
+        "ou5": "ou",
+        "ou1": "ōu",
+        "ou2": "óu",
+        "ou3": "ǒu",
+        "ou4": "òu",
+        "u5": "u",
+        "u1": "ū",
+        "u2": "ú",
+        "u3": "ǔ",
+        "u4": "ù",
+        "ua5": "ua",
+        "ua1": "uā",
+        "ua2": "uá",
+        "ua3": "uǎ",
+        "ua4": "uà",
+        "uai5": "uai",
+        "uai1": "uāi",
+        "uai2": "uái",
+        "uai3": "uǎi",
+        "uai4": "uài",
+        "uan5": "uan",
+        "uan1": "uān",
+        "uan2": "uán",
+        "uan3": "uǎn",
+        "uan4": "uàn",
+        "uang5": "uang",
+        "uang1": "uāng",
+        "uang2": "uáng",
+        "uang3": "uǎng",
+        "uang4": "uàng",
+        "ue5": "ue",
+        "ue1": "uē",
+        "ue2": "ué",
+        "ue3": "uě",
+        "ue4": "uè",
+        "ui5": "ui",
+        "ui1": "uī",
+        "ui2": "uí",
+        "ui3": "uǐ",
+        "ui4": "uì",
+        "un5": "un",
+        "un1": "ūn",
+        "un2": "ún",
+        "un3": "ǔn",
+        "un4": "ùn",
+        "uo5": "uo",
+        "uo1": "uō",
+        "uo2": "uó",
+        "uo3": "uǒ",
+        "uo4": "uò",
+        "v5": "ü",
+        "v1": "ǖ",
+        "v2": "ǘ",
+        "v3": "ǚ",
+        "v4": "ǜ",
+        "ve5": "üe",
+        "ve1": "üē",
+        "ve2": "üé",
+        "ve3": "üě",
+        "ve4": "üè",
+    }
+    zero = {
+        "a5": "a",
+        "a1": "ā",
+        "a2": "á",
+        "a3": "ǎ",
+        "a4": "à",
+        "ai5": "ai",
+        "ai1": "āi",
+        "ai2": "ái",
+        "ai3": "ǎi",
+        "ai4": "ài",
+        "an5": "an",
+        "an1": "ān",
+        "an2": "án",
+        "an3": "ǎn",
+        "an4": "àn",
+        "ang5": "ang",
+        "ang1": "āng",
+        "ang2": "áng",
+        "ang3": "ǎng",
+        "ang4": "àng",
+        "ao5": "ao",
+        "ao1": "āo",
+        "ao2": "áo",
+        "ao3": "ǎo",
+        "ao4": "ào",
+        "e5": "e",
+        "e1": "ē",
+        "e2": "é",
+        "e3": "ě",
+        "e4": "è",
+        "ei5": "ei",
+        "ei1": "ēi",
+        "ei2": "éi",
+        "ei3": "ěi",
+        "ei4": "èi",
+        "en5": "en",
+        "en1": "ēn",
+        "en2": "én",
+        "en3": "ěn",
+        "en4": "èn",
+        "eng5": "eng",
+        "eng1": "ēng",
+        "eng2": "éng",
+        "eng3": "ěng",
+        "eng4": "èng",
+        "er5": "er",
+        "er1": "ēr",
+        "er2": "ér",
+        "er3": "ěr",
+        "er4": "èr",
+        "o5": "o",
+        "o1": "ō",
+        "o2": "ó",
+        "o3": "ǒ",
+        "o4": "ò",
+        "ou5": "ou",
+        "ou1": "ōu",
+        "ou2": "óu",
+        "ou3": "ǒu",
+        "ou4": "òu",
+        "ju5": "ju",
+        "ju1": "jū",
+        "ju2": "jú",
+        "ju3": "jǔ",
+        "ju4": "jù",
+        "qu5": "qu",
+        "qu1": "qū",
+        "qu2": "qú",
+        "qu3": "qǔ",
+        "qu4": "qù",
+        "xu5": "xu",
+        "xu1": "xū",
+        "xu2": "xú",
+        "xu3": "xǔ",
+        "xu4": "xù",
+        "yu5": "yu",
+        "yu1": "yū",
+        "yu2": "yú",
+        "yu3": "yǔ",
+        "yu4": "yù",
+    }
+    if pinyin in zero:
+        return zero[pinyin]
+    if pinyin[1] == "h" and len(pinyin) > 2:
+        shengmu, yunmu = pinyin[:2], pinyin[2:]
+        shengmu = shengmu_dict[shengmu]
+    else:
+        shengmu, yunmu = pinyin[:1], pinyin[1:]
+    return shengmu + yunmu_dict.get(yunmu, yunmu)
+
+
 def snow2zrloopkai(pinyin: str):
     shengmu_dict = {"zh": "v", "ch": "i", "sh": "u"}
     yunmu_dict = {
@@ -956,6 +1222,8 @@ def get_pinyin_fn(schema: str):
         return snow2xhloopkai
     if schema in ["zrloopkai", "zrloopmoqi"]:
         return snow2zrloopkai
+    if schema in ["tonenum2tonesymbol"]:
+        return tonenum2tonesymbol
 
 def get_shape_dict(schema: str, multishape: bool):
     if multishape:
@@ -1107,6 +1375,35 @@ def main():
                             quotechar="`", lineterminator="\n")
         my_tsv.writerows(out_rows)
 
+    if args.pinyin == "tonenum2tonesymbol" and args.shape == "emptydb":
+        # Read the input text file
+        input_file = output_file
+        output_file = input_file[:input_file.rfind('.')]+"_combined.txt"
+
+        # Dictionary to store values from column 1 as keys and corresponding values from column 2 as a list
+        data = {}
+
+        # Read input file and populate the dictionary
+        with open(input_file, 'r') as file:
+            for line in file:
+                # Split the line into columns based on tab separation
+                columns = line.strip().split('\t')
+                key = columns[0]
+                value = columns[1].replace(';;', '')
+                
+                # Append the value to the list corresponding to the key
+                if key in data:
+                    data[key].append(value)
+                else:
+                    data[key] = [value]
+
+        # Write to the output file
+        with open(output_file, 'w') as file:
+            for key, values in data.items():
+                # Join the values with commas
+                values_str = '〕〔'.join(values)
+                # Write key-value pairs separated by tab
+                file.write(f"{key}\t〔{values_str}〕\n")
 
 if __name__ == "__main__":
     main()

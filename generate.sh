@@ -71,5 +71,7 @@ else
 	echo "Updating dazhu for molongkai-chs..."
 	python3 dazhu.py --folder 'molongkai-chs' -f --output 'dazhu-molongkai-chs.txt'
 
+	python3 gen_dict_with_shape.py -p tonenum2tonesymbol -x emptydb -i ../data/zdicdbtonesorted.yaml -o ./pinyinwithtone.txt
+
 	cd ..
 fi
