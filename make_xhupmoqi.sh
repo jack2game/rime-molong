@@ -42,7 +42,7 @@ mv ../xhupmoqi-cht/moran.chars.dict.yaml{.bak,} && perl -CSAD -i -pe "s/([a-z]{2
 sed '/\.\.\./q' ../xhupmoqi-cht/moran.chars.dict.yaml > ../xhupmoqi-cht/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p static -x moqidb -i ../xhupmoqi-cht/moran.chars.dict.yaml -o ../xhupmoqi-cht/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhupmoqi-cht/temp.txt && sed -i '0,/\.\.\./d' ../xhupmoqi-cht/temp.txt
-awk 'NF >= 2 && /^[^\s]+\t[^\s]+/ && !seen[$1 FS $2]++ {print $0}' ../xhupmoqi-cht/temp.txt > temp && mv temp ../xhupmoqi-cht/temp.txt
+awk 'NF >= 2 && /^[^\s]+\t[a-z;]+/ && !seen[$1 FS $2]++ {print $0}' ../xhupmoqi-cht/temp.txt > temp && mv temp ../xhupmoqi-cht/temp.txt
 echo "" >> ../xhupmoqi-cht/moran.chars.dict.yaml.bak && cat ../xhupmoqi-cht/temp.txt >> ../xhupmoqi-cht/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhupmoqi-cht/moran.base.dict.yaml > ../xhupmoqi-cht/moran.base.dict.yaml.bak
@@ -102,7 +102,7 @@ mv ../xhupmoqi-chs/moran.chars.dict.yaml{.bak,} && perl -CSAD -i -pe "s/([a-z]{2
 sed '/\.\.\./q' ../xhupmoqi-chs/moran.chars.dict.yaml > ../xhupmoqi-chs/moran.chars.dict.yaml.bak
 python3 gen_dict_with_shape.py -p static -x moqidb -i ../xhupmoqi-chs/moran.chars.dict.yaml -o ../xhupmoqi-chs/temp.txt
 perl -CSAD -i -pe "s/(.*);;/\1/g" ../xhupmoqi-chs/temp.txt && sed -i '0,/\.\.\./d' ../xhupmoqi-chs/temp.txt
-awk 'NF >= 2 && /^[^\s]+\t[^\s]+/ && !seen[$1 FS $2]++ {print $0}' ../xhupmoqi-chs/temp.txt > temp && mv temp ../xhupmoqi-chs/temp.txt
+awk 'NF >= 2 && /^[^\s]+\t[a-z;]+/ && !seen[$1 FS $2]++ {print $0}' ../xhupmoqi-chs/temp.txt > temp && mv temp ../xhupmoqi-chs/temp.txt
 echo "" >> ../xhupmoqi-chs/moran.chars.dict.yaml.bak && cat ../xhupmoqi-chs/temp.txt >> ../xhupmoqi-chs/moran.chars.dict.yaml.bak
 
 sed '/\.\.\./q' ../xhupmoqi-chs/moran.base.dict.yaml > ../xhupmoqi-chs/moran.base.dict.yaml.bak
