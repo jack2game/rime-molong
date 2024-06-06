@@ -542,7 +542,7 @@ sort: by_weight
 鉑	bo;jb	1444
 鈸	bo;jb	1376
 箔	bo;vb	1233
-亳	bo;dq	842
+亳	bo;wq	842
 擘	bo;ub	803
 趵	bo;zu	341
 檗	bo;mb	246
@@ -2193,7 +2193,7 @@ sort: by_weight
 駭	hd;mh	57380
 嗨	hd;kh	21687
 骸	hd;gh	13516
-亥	hd;dd	11845
+亥	hd;wr	11845
 咳	hd;kh	1111
 嗐	hd;kh	449
 氦	hd;qh	325
@@ -3644,7 +3644,7 @@ sort: by_weight
 塄	lg;tf	476
 崚	lg;ul	36
 堎	lg;tl	0
-裏	li;dy	7329328
+裏	li;wy	7329328
 力	li;gp	3298612
 理	li;wl	1903915
 李	li;mz	1462547
@@ -4937,7 +4937,7 @@ sort: by_weight
 器	qi;kk	489638
 騎	qi;mq	402931
 齊	qi;we	376615
-棄	qi;dd	247281
+棄	qi;wd	247281
 妻	qi;na	243636
 企	qi;rv	222834
 啓	qi;kw	143593
@@ -6513,7 +6513,7 @@ sort: by_weight
 廆	ww;gg	80
 霨	ww;yw	78
 潿	ww;dw	57
-亹	ww;dq	30
+亹	ww;wq	30
 碨	ww;uw	22
 煟	ww;hw	5
 琟	ww;wv	2
@@ -6844,7 +6844,7 @@ sort: by_weight
 降	xl;ef	236721
 項	xl;gy	230765
 鄉	xl;el	228067
-享	xl;dz	152710
+享	xl;wz	152710
 翔	xl;yy	143540
 箱	xl;vx	115256
 祥	xl;uy	103572
@@ -6852,7 +6852,7 @@ sort: by_weight
 湘	xl;dx	58673
 巷	xl;sg	50218
 廂	xl;gx	49241
-襄	xl;dy	27380
+襄	xl;wy	27380
 鑲	xl;jx	20858
 橡	xl;mx	10887
 餉	xl;ux	9645
@@ -6929,7 +6929,7 @@ sort: by_weight
 蠍	xp;ix	17947
 蟹	xp;ij	15529
 解	xp;jn	13120
-褻	xp;dy	11009
+褻	xp;wy	11009
 邂	xp;zj	5821
 偕	xp;rj	5650
 榭	xp;mu	5270
@@ -7511,7 +7511,7 @@ sort: by_weight
 洢	yi;dy	18
 酏	yi;yy	14
 繄	yi;su	12
-裛	yi;dy	9
+裛	yi;wy	9
 椸	yi;mu	7
 踦	yi;zq	7
 扅	yi;hd	6

@@ -2088,7 +2088,7 @@ sort: by_weight
 䵄	bo;ml
 䵗	bo;uf
 䶈	bo;uf
-亳	bo;dq
+亳	bo;wq
 仢	bo;ru
 伯	bo;rb
 佛	bo;rf
@@ -10921,7 +10921,7 @@ sort: by_weight
 䠽	hd;uq
 䯐	hd;gr
 䱺	hd;yq
-亥	hd;dd
+亥	hd;wr
 咍	hd;kt
 咳	hd;kh
 嗐	hd;kh
@@ -12481,7 +12481,7 @@ sort: by_weight
 蘹	hk;ch
 蘾	hk;ch
 褢	hk;dy
-褱	hk;dy
+褱	hk;wy
 踝	hk;zg
 𣟉	hk;mw
 𣩹	hk;dh
@@ -18937,7 +18937,7 @@ sort: by_weight
 蠡	li;it
 蠣	li;il
 蠫	li;id
-裏	li;dy
+裏	li;wy
 裡	li;yl
 褵	li;yl
 觻	li;jl
@@ -18960,7 +18960,7 @@ sort: by_weight
 酈	li;el
 醨	li;yl
 醴	li;yd
-裏	li;dy
+裏	li;wy
 釐	li;lw
 鉝	li;jl
 銐	li;jl
@@ -21817,7 +21817,7 @@ sort: by_weight
 䊟	mf;mm
 䝧	mf;by
 䫒	mf;yh
-亹	mf;dq
+亹	mf;wq
 們	mf;rm
 們	mf;rm
 怋	mf;xm
@@ -23715,7 +23715,7 @@ sort: by_weight
 蔦	nn;cn
 嫋	nn;nr
 裊	nn;ny
-褭	nn;dy
+褭	nn;wy
 鳥	nn;ph
 鳥	nn;ph
 𠒰	nn;en
@@ -25798,7 +25798,7 @@ sort: by_weight
 崎	qi;uq
 嵜	qi;uk
 帺	qi;jq
-棄	qi;dd
+棄	qi;wd
 忔	qi;xq
 忯	qi;xu
 恓	qi;xx
@@ -25833,7 +25833,7 @@ sort: by_weight
 榿	qi;md
 桼	qi;mu
 梩	qi;ml
-棄	qi;dd
+棄	qi;wd
 棊	qi;mq
 棋	qi;mq
 棨	qi;mw
@@ -34018,7 +34018,7 @@ sort: by_weight
 䵢	ww;hw
 䵳	ww;hh
 爲	ww;vh
-亹	ww;dq
+亹	ww;wq
 偉	ww;rw
 僞	ww;rw
 位	ww;rl
@@ -36069,7 +36069,7 @@ sort: by_weight
 䦳	xl;mx
 䴂	xl;nx
 鄉	xl;el
-享	xl;dz
+享	xl;wz
 亯	xl;dr
 佭	xl;rj
 像	xl;rx
@@ -36121,7 +36121,7 @@ sort: by_weight
 蟓	xl;ix
 蠁	xl;ix
 衖	xl;xg
-襄	xl;dy
+襄	xl;wy
 襐	xl;yx
 詳	xl;yy
 詳	xl;yy
@@ -36504,7 +36504,7 @@ sort: by_weight
 䲒	xp;yj
 䵦	xp;hw
 些	xp;ec
-褻	xp;dy
+褻	xp;wy
 伳	xp;ru
 偕	xp;rj
 偞	xp;rm
@@ -36619,9 +36619,9 @@ sort: by_weight
 蠍	xp;ix
 蠏	xp;ij
 血	xp;pa
-衺	xp;dy
+衺	xp;wy
 褉	xp;yq
-褻	xp;dy
+褻	xp;wy
 襭	xp;yj
 觟	xp;jg
 解	xp;jn
@@ -39663,7 +39663,7 @@ sort: by_weight
 袘	yi;yy
 袣	yi;yu
 裔	yi;yk
-裛	yi;dy
+裛	yi;wy
 裿	yi;yq
 褹	yi;yv
 襼	yi;yy
@@ -44019,7 +44019,7 @@ sort: by_weight
 衹	vi;yu
 衼	vi;yv
 袟	vi;yu
-袠	vi;dy
+袠	vi;wy
 製	vi;yv
 襧	vi;ye
 覟	vi;jv

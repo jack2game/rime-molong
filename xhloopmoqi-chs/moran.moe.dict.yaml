@@ -4347,8 +4347,8 @@ use_preset_vocabulary: false
 交响乐之雨	jc;li xd;kx yt;pd vi;dd yu;ad
 交响诗篇	jc;li xd;kx ui;ys pm;vb
 交响魔人	jc;li xd;kx mo;gm rf;pd
-亥伯龙	hl;dd bo;rb ls;ad
-亥猪娘	hl;dd vu;qv nd;nl
+亥伯龙	hl;wr bo;rb ls;ad
+亥猪娘	hl;wr vu;qv nd;nl
 亦之紫	yi;wb vi;dd zi;sc
 亦正亦邪	yi;wb vg;av yi;wb xx;ey
 亦菲	yi;wb fz;cf
@@ -4362,10 +4362,10 @@ use_preset_vocabulary: false
 亨利火柴人	hg;wl li;hd ho;dd il;mc rf;pd
 亨利艾米莉	hg;wl li;hd ai;ci mi;dd li;cl
 亨格利	hg;wl ge;mg li;hd
-享受慢生活音乐	xd;dz ub;vy mj;xm ug;na ho;du yn;lo yt;pd
-享受旅行吧	xd;dz ub;vy lv;fp xy;xd ba;kb
-享受这个世界的方法	xd;dz ub;vy ve;zw ge;ra ui;ca jx;tj de;bu fh;dg fa;dq
-享乐主义者的幸福餐桌	xd;dz le;pd vu;dw yi;di ve;lo de;bu xy;tu fu;uf cj;uy vo;mo
+享受慢生活音乐	xd;wz ub;vy mj;xm ug;na ho;du yn;lo yt;pd
+享受旅行吧	xd;wz ub;vy lv;fp xy;xd ba;kb
+享受这个世界的方法	xd;wz ub;vy ve;zw ge;ra ui;ca jx;tj de;bu fh;dg fa;dq
+享乐主义者的幸福餐桌	xd;wz le;pd vu;dw yi;di ve;lo de;bu xy;tu fu;uf cj;uy vo;mo
 京乃圆	jy;wx nl;pg yr;ky
 京九尾	jy;wx jq;py wz;um
 京京来乐道	jy;wx jy;wx ll;am le;pd dk;zu
@@ -4445,7 +4445,7 @@ use_preset_vocabulary: false
 亮血条	ld;wj xt;pa tc;wm
 亮钻电光	ld;wj zr;jv dm;ag gd;ea
 亮闪闪星期一	ld;wj uj;mr uj;mr xy;ou qi;oq yi;aa
-亳州夏侯中学	bo;dq vb;id xw;wz hb;ru vs;aa xt;dz
+亳州夏侯中学	bo;wq vb;id xw;wz hb;ru vs;aa xt;dz
 人世间	rf;pd ui;ca jm;mo
 人中之龙	rf;pd vs;aa vi;dd ls;ad
 人中之龙工作室	rf;pd vs;aa vi;dd ls;ad gs;aa zo;rv ui;bv
@@ -6750,7 +6750,7 @@ use_preset_vocabulary: false
 你行你上啊	ni;re xy;xd ni;re uh;aa aa;ka
 你被骗了	ni;re bz;yp pm;mb le;aa
 你裁我剪	ni;re cl;gy wo;pd jm;dq
-你要享受这个过程	ni;re yk;xn xd;dz ub;vy ve;zw ge;ra go;zc ig;hi
+你要享受这个过程	ni;re yk;xn xd;wz ub;vy ve;zw ge;ra go;zc ig;hi
 你诞生的那一天	ni;re dj;yy ug;na de;bu na;el yi;aa tm;ad
 你说的这个朋友到底是不是你自己	ni;re uo;yd de;bu ve;zw ge;ra pg;oo yb;yu dk;dv di;gd ui;op bu;ad ui;op ni;re zi;pa ji;ag
 你说的那个朋友是不是你自己	ni;re uo;yd de;bu na;el ge;ra pg;oo yb;yu ui;op bu;ad ui;op ni;re zi;pa ji;ag
@@ -6777,7 +6777,7 @@ use_preset_vocabulary: false
 你那里	ni;re na;el li;aa
 你都保护了什么	ni;re db;ev bk;rd hu;fh le;aa uf;ru me;ps
 你都守护了什么	ni;re db;ev ub;bc hu;fh le;aa uf;ru me;ps
-你需要享受这个过程	ni;re xu;ye yk;xn xd;dz ub;vy ve;zw ge;ra go;zc ig;hi
+你需要享受这个过程	ni;re xu;ye yk;xn xd;wz ub;vy ve;zw ge;ra go;zc ig;hi
 佩佩	pz;rb pz;rb
 佩伦	pz;rb lp;rl
 佩克乱数随机脑	pz;rb ke;eg lr;ug uu;wl sv;ey ji;mj nk;ox
@@ -10989,7 +10989,7 @@ use_preset_vocabulary: false
 刃钢	rf;dd gh;jg
 刃隐	rf;dd yn;ej
 分不开的距离	ff;bd bu;ad kl;ac de;bu ju;zj li;ws
-分享同乐	ff;bd xd;dz ts;kk le;pd
+分享同乐	ff;bd xd;wz ts;kk le;pd
 分分合合	ff;bd ff;bd he;rk he;rk
 分分合合的罗刹与骨骸	ff;bd ff;bd he;rk he;rk de;bu lo;sx ia;du yu;aa gu;go hl;gh
 分割商法	ff;bd ge;dh uh;wk fa;dq
@@ -19145,7 +19145,7 @@ use_preset_vocabulary: false
 在无声的房间之中	zl;ta wu;ag ug;um de;bu fh;hf jm;mo vi;dd vs;aa
 在现代社会当乙女游戏的恶役千金可有点麻烦	zl;ta xm;wj dl;ry ue;ut hv;ry dh;xx yi;aa nv;aa yb;dz xi;yg de;bu ee;xy yi;xu qm;pa jn;ra ke;dk yb;ou dm;hv ma;gl fj;hy
 在现场	zl;ta xm;wj ih;ty
-在异世界享受慢活	zl;ta yi;cs ui;ca jx;tj xd;dz ub;vy mj;xm ho;du
+在异世界享受慢活	zl;ta yi;cs ui;ca jx;tj xd;wz ub;vy mj;xm ho;du
 在异世界与黑精灵妻子轻松开拓黑暗大陆	zl;ta yi;cs ui;ca jx;tj yu;aa hz;ad jy;mq ly;hx qi;na zi;aa qy;ig ss;mg kl;ac to;fu hz;ad an;oy da;ad lu;ej
 在异世界买土地开辟农场	zl;ta yi;cs ui;ca jx;tj ml;at tu;aa di;ty kl;ac pi;xk ns;by ih;ty
 在异世界购买土地建造农场	zl;ta yi;cs ui;ca jx;tj gb;bg ml;at tu;aa di;ty jm;zy zk;zg ns;by ih;ty
@@ -30527,8 +30527,8 @@ use_preset_vocabulary: false
 山丘	uj;aa qq;pa
 山中井野	uj;aa vs;aa jy;aa ye;ly
 山中井阵	uj;aa vs;aa jy;aa vf;ei
-山中亥一	uj;aa vs;aa hl;dd yi;aa
-山中亥人	uj;aa vs;aa hl;dd rf;pd
+山中亥一	uj;aa vs;aa hl;wr yi;aa
+山中亥人	uj;aa vs;aa hl;wr rf;pd
 山中佐井	uj;aa vs;aa zo;rz jy;aa
 山中佐和子	uj;aa vs;aa zo;rz he;hk zi;aa
 山中城	uj;aa vs;aa ig;ti
@@ -30566,7 +30566,7 @@ use_preset_vocabulary: false
 山南真琴	uj;aa nj;ua vf;uj qn;wj
 山口	uj;aa kb;aa
 山口丁	uj;aa kb;aa dy;aa
-山口享佑子	uj;aa kb;aa xd;dz yb;ry zi;aa
+山口享佑子	uj;aa kb;aa xd;wz yb;ry zi;aa
 山口令悟	uj;aa kb;aa ly;rs wu;xw
 山口光雄	uj;aa kb;aa gd;ea xs;vh
 山口胜平	uj;aa kb;aa ug;ou py;aa
@@ -38154,8 +38154,8 @@ use_preset_vocabulary: false
 戈逅士	ge;ad hb;zh ui;aa
 戊娘	wu;ap nd;nl
 戊辰战争	wu;ap if;iy vj;gv vg;dy
-戌亥	xu;ga hl;dd
-戌亥床	xu;ga hl;dd id;gm
+戌亥	xu;ga hl;wr
+戌亥床	xu;ga hl;wr id;gm
 戌原咲直	xu;ga yr;ix xc;kg vi;aa
 戌夜初	xu;ga ye;wd iu;yd
 戌狗娘	xu;ga gb;qj nd;nl
@@ -41532,7 +41532,7 @@ use_preset_vocabulary: false
 放卫星	fh;wf wz;ea xy;ou
 放课后桌游俱乐部	fh;wf ke;yg hb;pk vo;mo yb;dz ju;rj le;pd bu;ek
 放课后桌游俱乐部	fh;wf ke;yg hb;pk vo;mo yb;dz ju;rj le;pd bu;ek
-放课后猥亵俱乐部	fh;wf ke;yg hb;pk wz;qw xx;dy ju;rj le;pd bu;ek
+放课后猥亵俱乐部	fh;wf ke;yg hb;pk wz;qw xx;wy ju;rj le;pd bu;ek
 放课后茶会	fh;wf ke;yg hb;pk ia;cm hv;ry
 放送事故	fh;wf ss;zg ui;aa gu;wg
 放送室	fh;wf ss;zg ui;bv
@@ -61395,7 +61395,7 @@ use_preset_vocabulary: false
 獒首亚空精英	ao;qa ub;qz ya;ay ks;xg jy;mq yy;cy
 獠元	lc;ql yr;aw
 独二无一	du;qi er;aa wu;ag yi;aa
-独享权	du;qi xd;dz qr;my
+独享权	du;qi xd;wz qr;my
 独人行	du;qi rf;pd xy;xd
 独占	du;qi vj;bk
 独占我的英雄	du;qi vj;bk wo;pd de;bu yy;cy xs;vh
@@ -63676,7 +63676,7 @@ use_preset_vocabulary: false
 申玉菲	uf;aa yu;ad fz;cf
 申琳	uf;aa ln;wl
 申秋香	uf;aa qq;hh xd;ho
-申酉戌亥类魂器	uf;aa yb;aa xu;ga hl;dd lz;md hp;gy qi;kk
+申酉戌亥类魂器	uf;aa yb;aa xu;ga hl;wr lz;md hp;gy qi;kk
 申雅婷	uf;aa ya;vy ty;nt
 申雅静	uf;aa ya;vy jy;qv
 申鹤	uf;aa he;nv
@@ -70142,7 +70142,7 @@ use_preset_vocabulary: false
 箕国起助	ji;vq go;ky qi;zj vu;lq
 箕轮梢	ji;vq lp;il uk;mx
 管乃雪	gr;vg nl;pg xt;yx
-管亥	gr;vg hl;dd
+管亥	gr;vg hl;wr
 管人	gr;vg rf;pd
 管家	gr;vg jw;bu
 管家后宫学园	gr;vg jw;bu hb;pk gs;bl xt;dz yr;ky
@@ -74432,7 +74432,7 @@ use_preset_vocabulary: false
 而我必须逆风执火	er;aa wo;pd bi;dd xu;py ni;zn fg;ji vi;fw ho;dd
 而我早已哭泣不止	er;aa wo;pd zk;ou yi;vg ku;kq qi;dl bu;ad vi;aa
 而我飞过十一年春天	er;aa wo;pd fz;yd go;zc ui;aa yi;aa nm;ra ip;of tm;ad
-而是你要享受这个过程	er;aa ui;op ni;re yk;xn xd;dz ub;vy ve;zw ge;ra go;zc ig;hi
+而是你要享受这个过程	er;aa ui;op ni;re yk;xn xd;wz ub;vy ve;zw ge;ra go;zc ig;hi
 耍蛇人戈尔娜莎	uw;ne ue;it rf;pd ge;ad er;dx na;nn ua;cu
 耐子的日常	nl;ce zi;aa de;bu ri;aa ih;jk
 耐心	nl;ce xn;dd
@@ -75114,7 +75114,7 @@ use_preset_vocabulary: false
 胡不归去	hu;og bu;ad gv;ax qu;ts
 胡之宫环	hu;og vi;dd gs;bl hr;wb
 胡亚捷	hu;og ya;ay jx;fj
-胡亥	hu;og hl;dd
+胡亥	hu;og hl;wr
 胡侦探	hu;og vf;rv tj;fm
 胡侦探传说	hu;og vf;rv tj;fm ir;rv uo;yd
 胡凯莉	hu;og kl;jj li;cl
@@ -75213,7 +75213,7 @@ use_preset_vocabulary: false
 能代	ng;sb dl;ry
 能做得到吗	ng;sb zo;rg de;xc dk;dv ma;km
 能力	ng;sb li;gp
-能力共享	ng;sb li;gp gs;bc xd;dz
+能力共享	ng;sb li;gp gs;bc xd;wz
 能力剥夺	ng;sb li;gp bo;dl do;dc
 能力反弹	ng;sb li;gp fj;py dj;gd
 能力吞噬	ng;sb li;gp tp;kt ui;ku
@@ -79890,7 +79890,7 @@ use_preset_vocabulary: false
 苍之礼赞	ch;cc vi;dd li;ug zj;bx
 苍之骑士团	ch;cc vi;dd qi;mq ui;aa tr;kc
 苍井	ch;cc jy;aa
-苍井享介	ch;cc jy;aa xd;dz jx;ra
+苍井享介	ch;cc jy;aa xd;wz jx;ra
 苍井优	ch;cc jy;aa yb;ry
 苍井启	ch;cc jy;aa qi;hk
 苍井悠介	ch;cc jy;aa yb;xw jx;ra
@@ -83063,9 +83063,9 @@ use_preset_vocabulary: false
 裤袜脱落大尉	ku;yk wa;ym to;od lo;cl da;ad wz;cu
 裤袜视界	ku;yk wa;ym ui;ju jx;tj
 褶皱	ve;yb vb;ip
-亵渎天神	xx;dy du;dm tm;ad uf;uu
-亵渎与歌颂的轮舞曲	xx;dy du;dm yu;aa ge;qg ss;yg de;bu lp;il wu;rf qu;aa
-襄铃	xd;dy ly;jl
+亵渎天神	xx;wy du;dm tm;ad uf;uu
+亵渎与歌颂的轮舞曲	xx;wy du;dm yu;aa ge;qg ss;yg de;bu lp;il wu;rf qu;aa
+襄铃	xd;wy ly;jl
 襟首	jn;yj ub;qz
 袜圈	wa;ym qr;kj
 袜套	wa;ym tk;di
@@ -83504,7 +83504,7 @@ use_preset_vocabulary: false
 觅得宝物之日	mi;jv de;xc bk;by wu;nw vi;dd ri;aa
 觅星	mi;jv xy;ou
 视力检查	ui;ju li;gp jm;ma ia;md
-视域共享	ui;ju yu;th gs;bc xd;dz
+视域共享	ui;ju yu;th gs;bc xd;wz
 视红	ui;ju hs;sg
 视美	ui;ju mz;dy
 视美动画	ui;ju mz;dy ds;ly hw;ak
@@ -83514,7 +83514,7 @@ use_preset_vocabulary: false
 视觉小说	ui;ju jt;dj xc;ad uo;yd
 视觉模糊	ui;ju jt;dj mo;mm hu;mh
 视野	ui;ju ye;ly
-视野共享	ui;ju ye;ly gs;bc xd;dz
+视野共享	ui;ju ye;ly gs;bc xd;wz
 视频	ui;ju pn;yb
 觋夕摩	xi;jw xi;pd mo;mu
 觋夕莉	xi;jw xi;pd li;cl
@@ -84309,10 +84309,10 @@ use_preset_vocabulary: false
 请不要将情歌抹杀	qy;yq bu;ad yk;xn jd;dc qy;xq ge;qg mo;fm ua;mi
 请不要走	qy;yq bu;ad yk;xn zb;tv
 请予我翅膀	qy;yq yu;sa wo;pd ii;vy bh;op
-请享用特殊甜点	qy;yq xd;dz ys;kf te;ns uu;dv tm;ug dm;hv
-请享用特制甜品	qy;yq xd;dz ys;kf te;ns vi;dg tm;ug pn;kk
-请享用特制甜点	qy;yq xd;dz ys;kf te;ns vi;dg tm;ug dm;hv
-请享用秋季美食	qy;yq xd;dz ys;kf qq;hh ji;hz mz;dy ui;rl
+请享用特殊甜点	qy;yq xd;wz ys;kf te;ns uu;dv tm;ug dm;hv
+请享用特制甜品	qy;yq xd;wz ys;kf te;ns vi;dg tm;ug pn;kk
+请享用特制甜点	qy;yq xd;wz ys;kf te;ns vi;dg tm;ug dm;hv
+请享用秋季美食	qy;yq xd;wz ys;kf qq;hh ji;hz mz;dy ui;rl
 请仙	qy;yq xm;ru
 请你回答	qy;yq ni;re hv;kk da;vh
 请你留下	qy;yq ni;re lq;td xw;ab
@@ -85248,7 +85248,7 @@ use_preset_vocabulary: false
 猫山薛定谔	mk;qm uj;aa xt;cx dy;bp ee;ye
 猫山铃	mk;qm uj;aa ly;jl
 猫崎	mk;qm qi;uq
-猫崎享	mk;qm qi;uq xd;dz
+猫崎享	mk;qm qi;uq xd;wz
 猫川多多道	mk;qm ir;pa do;xx do;xx dk;zu
 猫巫女	mk;qm wu;gc nv;aa
 猫忍之心	mk;qm rf;xr vi;dd xn;dd
@@ -86802,7 +86802,7 @@ use_preset_vocabulary: false
 赵英子	vk;zi yy;cy zi;aa
 赵菡卿	vk;zi hj;ch qy;mg
 赵薇	vk;zi wz;cw
-赵襄	vk;zi xd;dy
+赵襄	vk;zi xd;wy
 赵诗文	vk;zi ui;ys wf;wi
 赵路	vk;zi lu;zg
 赵述仁	vk;zi uu;zu rf;re
@@ -94041,7 +94041,7 @@ use_preset_vocabulary: false
 陆玲珑	lu;ej ly;wl ls;wl
 陆珊瑚台地	lu;ej uj;wc hu;wh tl;sk di;ty
 陆生𩽾𩾌	lu;ej ug;na an;ya kh;yk
-陆田青享	lu;ej tm;aa qy;of xd;dz
+陆田青享	lu;ej tm;aa qy;of xd;wz
 陆皓婕	lu;ej hk;bg jx;nj
 陆睦	lu;ej mu;ot
 陆笑晴	lu;ej xc;vy qy;oq
