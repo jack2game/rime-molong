@@ -244,6 +244,8 @@ sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./xhloopkai.sche
 sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./xhloopkai.schema.yaml
 sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./xhloopkai.schema.yaml
 sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./xhloopkai.schema.yaml
+sed -i "s/  alphabet: abcdefghijklmnopqrstuvwxyz/  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/g" ./xhloopkai.schema.yaml
+sed -i "s/\( - moran:\/key_bindings\/moran_capital_for_last_syllable\)/#\1/g" ./xhloopkai.schema.yaml
 
 cp moran_aux.schema.yaml xhloopkai_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: xhloopkai_aux/g" ./xhloopkai_aux.schema.yaml
@@ -299,6 +301,8 @@ sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./xhloopkai.sche
 sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./xhloopkai.schema.yaml
 sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./xhloopkai.schema.yaml
 sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./xhloopkai.schema.yaml
+sed -i "s/  alphabet: abcdefghijklmnopqrstuvwxyz/  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/g" ./xhloopkai.schema.yaml
+sed -i "s/\( - moran:\/key_bindings\/moran_capital_for_last_syllable\)/#\1/g" ./xhloopkai.schema.yaml
 
 cp moran_aux.schema.yaml xhloopkai_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: xhloopkai_aux/g" ./xhloopkai_aux.schema.yaml

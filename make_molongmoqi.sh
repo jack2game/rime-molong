@@ -244,6 +244,8 @@ sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./molongmoqi.sch
 sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./molongmoqi.schema.yaml
 sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./molongmoqi.schema.yaml
 sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./molongmoqi.schema.yaml
+# sed -i "s/  alphabet: abcdefghijklmnopqrstuvwxyz/  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/g" ./molongmoqi.schema.yaml
+# sed -i "s/\( - moran:\/key_bindings\/moran_capital_for_last_syllable\)/#\1/g" ./molongmoqi.schema.yaml
 
 cp moran_aux.schema.yaml molongmoqi_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: molongmoqi_aux/g" ./molongmoqi_aux.schema.yaml
@@ -299,6 +301,8 @@ sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./molongmoqi.sch
 sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./molongmoqi.schema.yaml
 sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./molongmoqi.schema.yaml
 sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./molongmoqi.schema.yaml
+# sed -i "s/  alphabet: abcdefghijklmnopqrstuvwxyz/  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/g" ./molongmoqi.schema.yaml
+# sed -i "s/\( - moran:\/key_bindings\/moran_capital_for_last_syllable\)/#\1/g" ./molongmoqi.schema.yaml
 
 cp moran_aux.schema.yaml molongmoqi_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: molongmoqi_aux/g" ./molongmoqi_aux.schema.yaml
