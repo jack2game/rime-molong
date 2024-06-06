@@ -19,12 +19,13 @@
 | `molongmoqi`  | 自然龍    | -      | 墨奇碼    |            |
 | `xhloopfly`   | 環形鶴    | -      | 小鶴雙形   |            |
 | `xhloopkai`   | 環形鶴    | 小鶴雙拼   | 魔然     | 大竹查詢：`环形鹤` |
-| `xhloopmoqi`  | 環形鶴    | -      | 墨奇碼    |            |
+| `xhloopmoqi`  | 環形鶴    | 小鶴雙拼   | 墨奇碼    |            |
 | `xhupkai`     | 小鶴雙拼   | 環形鶴    | 魔然     |            |
-| `xhupmoqi`    | 小鶴雙拼   | -      | 墨奇碼    |            |
+| `xhupmoqi`    | 小鶴雙拼   | 環形鶴    | 墨奇碼    |            |
 | `xhupzrmfast` | 小鶴雙拼   | -      | 自然快手   |            |
-| `zrloopkai`   | 環形自然   | -      | 魔然     |            |
+| `zrloopkai`   | 環形自然   | 自然雙拼   | 魔然     |            |
 | `zrloopmoqi`  | 環形自然   | -      | 墨奇碼    |            |
+| `morankai`    | 自然雙拼   | 環形自然   | 魔然     |            |
 
 
 ## 音碼方案

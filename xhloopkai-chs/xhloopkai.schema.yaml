@@ -99,7 +99,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: abcdefghijklmnopqrstuvwxyz/;
+  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/;
   delimiter: " '"
   auto_select: true
   auto_select_pattern: ^;(\w+|;)
@@ -266,7 +266,7 @@ key_binder:
   import_preset: default
   bindings:
     __patch:
-      - moran:/key_bindings/moran_capital_for_last_syllable
+     # - moran:/key_bindings/moran_capital_for_last_syllable
       - moran:/key_bindings/moran_tab
       - moran:/key_bindings/moran_switches
 
