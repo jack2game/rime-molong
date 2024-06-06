@@ -907,7 +907,7 @@
 昂	aw
 紧	jxl
 贼	zrb
-电	day
+电	dao
 声	uct
 具	jfq
 压	yli
@@ -1227,7 +1227,7 @@
 逢	ff
 浅	qp
 环	how
-申	uet
+申	ueo
 遇	yfz
 绑	bps
 乘	ifq
@@ -1403,7 +1403,7 @@
 告	gvn
 寺	stt
 仙	xrr
-甲	jnt
+甲	jno
 赴	fht
 角	jld
 钗	ibj
@@ -2092,7 +2092,7 @@
 晋	jvy
 氧	ypq
 吽	hkk
-武	wmg
+武	wmy
 作	zsr
 瘟	web
 矬	clu
@@ -2892,7 +2892,6 @@
 蜷	qoi
 惑	hpg
 掳	lmf
-旦	dao
 旭	xfj
 跤	jmz
 裘	qmq
@@ -3576,6 +3575,7 @@
 煜	yfh
 鳃	sby
 蹇	jpb
+诞	day
 怠	dos
 戗	qyr
 疝	uab
@@ -3830,7 +3830,6 @@
 螂	lwi
 疚	job
 绥	sws
-胛	jno
 蜘	vji
 亳	bew
 狲	sgq
@@ -4137,6 +4136,7 @@
 蠕	rli
 屉	ttu
 绡	xms
+庑	wmg
 袂	mkp
 铆	mxj
 黥	qnl
@@ -5923,7 +5923,6 @@
 㓤	qxt
 㓦	bbb
 㓧	gnr
-㓭	ueo
 㓱	tar
 㓸	vsy
 㓸	dxy

@@ -496,7 +496,7 @@ encoder:
 頂	did
 馬	md
 喊	hl
-由	ynl
+由	yno
 悲	bzf
 組	zo
 帖	tvj
@@ -956,7 +956,7 @@ encoder:
 昂	aj
 緊	jzl
 賊	zx
-電	dny
+電	dno
 聲	ugt
 具	jcq
 壓	yai
@@ -1280,7 +1280,6 @@ encoder:
 逢	fhz
 淺	qxd
 環	htw
-申	uft
 遇	ycz
 綁	bks
 乘	ihq
@@ -1425,6 +1424,7 @@ encoder:
 芯	xnc
 許	xny
 賴	lku
+音	ynl
 蔥	csc
 丸	wkl
 擱	gef
@@ -1453,7 +1453,7 @@ encoder:
 告	gjn
 寺	sut
 仙	xmr
-甲	jrt
+甲	jro
 赴	fyt
 角	jbd
 釵	ilj
@@ -2121,7 +2121,7 @@ encoder:
 晉	jby
 氧	ykq
 吽	hsk
-武	wog
+武	woy
 作	zor
 瘟	wfb
 矬	cpu
@@ -2945,7 +2945,7 @@ encoder:
 搔	skf
 闕	qrm
 蓋	gty
-瓤	rjx
+瓤	rjy
 讖	idy
 裕	ycp
 庹	tqg
@@ -3822,7 +3822,6 @@ encoder:
 螂	lji
 湍	tr
 綏	sbs
-胛	jro
 蜘	vii
 亳	bpw
 曷	hro
@@ -4110,6 +4109,7 @@ encoder:
 獠	lvq
 蠕	rii
 屜	tuu
+廡	wog
 袂	mmp
 鉚	maj
 黥	qul

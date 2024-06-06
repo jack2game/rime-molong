@@ -1,0 +1,618 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# https://github.com/iDvel/rime-ice
+# ------- 一些杂项，按需选择 -------
+#
+#
+---
+name: others
+version: "2024-05-21"
+sort: by_weight
+...
+##### 容错词
+# 一些口语读音
+空落落	ks;xg lo;cl lo;cl
+空落落	ks;xg lk;cl lk;cl
+空落落的	ks;xg lo;cl lo;cl de;bu
+空落落的	ks;xg lk;cl lk;cl de;bu
+# 「阿房宫」的注音争议比较大
+阿房宮	ee;ek ph;hf gs;bl
+阿房宮	aa;ek ph;hf gs;bl
+阿房宮	ee;ek fh;hf gs;bl
+阿房宮	aa;ek fh;hf gs;bl
+阿房宮賦	ee;ek ph;hf gs;bl fu;bw
+阿房宮賦	aa;ek ph;hf gs;bl fu;bw
+阿房宮賦	ee;ek fh;hf gs;bl fu;bw
+阿房宮賦	aa;ek fh;hf gs;bl fu;bw
+# 「伯伯」方言
+伯伯	bo;rb bo;rb
+伯伯	bl;rb bl;rb
+# 「斜」的古音
+遠上寒山石徑斜	yr;zy uh;aa hj;bd uj;aa ui;kp jy;xj xx;dy
+遠上寒山石徑斜	yr;zy uh;aa hj;bd uj;aa ui;kp jy;xj xw;dy
+# 「骑」目前统读 qi
+坐騎	zo;tc qi;mq
+坐騎	zo;tc ji;mq
+鐵騎	tx;jg qi;mq
+鐵騎	tx;jg ji;mq
+一騎絕塵	yi;aa qi;mq jt;sb if;tl
+一騎絕塵	yi;aa ji;mq jt;sb if;tl
+一騎當千	yi;aa qi;mq dh;dt qm;pa
+一騎當千	yi;aa ji;mq dh;dt qm;pa
+一騎紅塵妃子笑	yi;aa qi;mq hs;sg if;tl fz;nj zi;aa xc;vy
+一騎紅塵妃子笑	yi;aa ji;mq hs;sg if;tl fz;nj zi;aa xc;vy
+走單騎	zb;tv dj;kd qi;mq
+走單騎	zb;tv dj;kd ji;mq
+千里走單騎	qm;pa li;aa zb;tv dj;kd qi;mq
+千里走單騎	qm;pa li;aa zb;tv dj;kd ji;mq
+# 「街」的粤语和东北话读音及常见的两种写法
+仆街	pu;rb jx;xg
+仆街	pu;rb gl;xg
+撲街	pu;fd jx;xg
+撲街	pu;fd gl;xg
+撲街仔	pu;fd jx;xg zl;rz
+撲街仔	pu;fd gl;xg zl;rz
+仆街仔	pu;rb jx;xg zl;rz
+仆街仔	pu;rb gl;xg zl;rz
+街溜子	jx;xg lq;dl zi;aa
+街溜子	gl;xg lq;dl zi;aa
+# 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
+郭明錤	go;ex my;oo ji;jq
+郭明錤	go;ex my;oo qi;jq
+# 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
+李昌鎬	li;mz ih;oo hk;jg
+曹世鎬	ck;oc ui;ca hk;jg
+張鎬哲	vh;gi gk;jg ve;kv
+姜成鎬	jd;ny ig;gg hk;jg
+姜鎬童	jd;ny hk;jg ts;ll
+張鎬濂	vh;gi hk;jg lm;dl
+李敏鎬	li;mz mn;wm hk;jg
+李陳鎬	li;mz if;ed hk;jg
+趙亮鎬	vk;zx ld;wj hk;jg
+鄭俊鎬	vg;ed jp;rj hk;jg
+
+
+##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
+### 错音
+餛飩	hp;uk tp;ut
+餛飩	hp;uk dp;ut
+主角	vu;dw jt;dy
+主角	vu;dw jc;dy
+角色	jt;dy se;db
+角色	jc;dy se;db
+比薩	bi;bb sa;ci
+比薩	pi;bb sa;ci
+比薩餅	bi;bb sa;ci by;ub
+比薩餅	pi;bb sa;ci by;ub
+喫比薩	ii;kq bi;bb sa;ci
+喫比薩	ii;kq pi;bb sa;ci
+說服	uo;yd fu;oy
+說服	uv;yd fu;oy
+道行	dk;zu hg;xd
+道行	dk;zu hh;xd
+模樣	mu;mm yh;my
+模樣	mo;mm yh;my
+有模有樣	yb;ou mu;mm yb;ou yh;my
+有模有樣	yb;ou mo;mm yb;ou yh;my
+一模一樣	yi;aa mu;mm yi;aa yh;my
+一模一樣	yi;aa mo;mm yi;aa yh;my
+裝模作樣	vd;yv mu;mm zo;rv yh;my
+裝模作樣	vd;yv mo;mm zo;rv yh;my
+人模狗樣	rf;pd mu;mm gb;qj yh;my
+人模狗樣	rf;pd mo;mm gb;qj yh;my
+模板	mu;mm bj;mf
+模板	mo;mm bj;mf
+阿彌陀佛	ee;ek mi;ge to;et fo;rf
+阿彌陀佛	aa;ek mi;ge to;et fo;rf
+南無阿彌陀佛	na;ua mo;rh ee;ek mi;ge to;et fo;rf
+南無阿彌陀佛	na;ua mo;rh aa;ek mi;ge to;et fo;rf
+南無阿彌陀佛	nj;ua wu;rh ee;ek mi;ge to;et fo;rf
+南無阿彌陀佛	nj;ua wu;rh aa;ek mi;ge to;et fo;rf
+給予	ji;sh yu;sa
+給予	gz;sh yu;sa
+檳榔	by;mb lh;ml
+檳榔	bn;mb lh;ml
+張柏芝	vh;gi bo;mb vi;cv
+張柏芝	vh;gi bl;mb vi;cv
+藤蔓	tg;ct wj;cm
+藤蔓	tg;ct mj;cm
+弄堂	ls;cw th;tk
+弄堂	ns;cw th;tk
+心寬體胖	xn;dd kr;bd ti;gd pj;ob
+心寬體胖	xn;dd kr;bd ti;gd ph;ob
+埋怨	mj;tl yr;xe
+埋怨	ml;tl yr;xe
+虛與委蛇	xu;hy yu;ba wz;hn yi;it
+虛與委蛇	xu;hy yu;ba wz;hn ue;it
+木訥	mu;ad ne;yn
+木訥	mu;ad na;yn
+獨樂樂	du;qi yt;bm le;bm
+獨樂樂	du;qi le;bm le;bm
+衆樂樂	vs;xd yt;bm le;bm
+衆樂樂	vs;xd le;bm le;bm
+蕁麻	qm;cx ma;gl
+蕁麻	xp;cx ma;gl
+蕁麻疹	xp;cx ma;gl vf;bp
+蕁麻疹	qm;cx ma;gl vf;bp
+模具	mu;mm ju;ba
+模具	mo;mm ju;ba
+草薙	ck;cz ti;cv
+草薙	ck;cz vi;cv
+草薙京	ck;cz ti;cv jy;wx
+草薙京	ck;cz vi;cv jy;wx
+草薙劍	ck;cz ti;cv jm;dq
+草薙劍	ck;cz vi;cv jm;dq
+賈平凹	jw;bx py;aa wa;aa
+賈平凹	jw;bx py;aa ao;aa
+雪佛蘭	xt;yx fu;rf lj;cj
+雪佛蘭	xt;yx fo;rf lj;cj
+強勁	qd;gi jy;lg
+強勁	qd;gi jn;lg
+胴體	ds;ot ti;gd
+胴體	ts;ot ti;gd
+力能扛鼎	li;gp ng;sb gh;fg dy;oa
+力能扛鼎	li;gp ng;sb kh;fg dy;oa
+鴨綠江	ya;nj lu;sl jd;dg
+鴨綠江	ya;nj lv;sl jd;dg
+大腹便便	da;ad fu;of pm;rg pm;rg
+大腹便便	da;ad fu;of bm;rg bm;rg
+卡脖子	qw;bx bo;ob zi;aa
+卡脖子	ka;bx bo;ob zi;aa
+吱聲	zi;kv ug;eq
+吱聲	vi;kv ug;eq
+摻和	ij;fc ho;hk
+摻和	ij;fc he;hk
+摻和	cj;fc ho;hk
+摻和	cj;fc he;hk
+稱職	if;hr vi;eg
+稱職	ig;hr vi;eg
+螺螄粉	lo;il si;iu ff;mf
+螺螄粉	lo;il ui;iu ff;mf
+調換	dc;yv hr;fh
+調換	tc;yv hr;fh
+太行山	tl;dd hh;xd uj;aa
+太行山	tl;dd xy;xd uj;aa
+歇斯底里	xx;qh si;jq di;gd li;aa
+歇斯底里	jx;qh si;jq di;gd li;aa
+暖和	nr;oy ho;hk
+暖和	nr;oy he;hk
+模棱兩可	mo;mm lg;ml ld;ar ke;dk
+模棱兩可	mo;mm ly;ml ld;ar ke;dk
+鄱陽湖	po;ef yh;ey hu;dh
+鄱陽湖	pj;ef yh;ey hu;dh
+脖頸	bo;ob gg;yg
+脖頸	bo;ob jy;yg
+脖頸兒	bo;ob gg;yg er;ej
+脖頸兒	bo;ob jy;yg er;ej
+結紮	jx;sj za;sv
+結紮	jx;sj va;sv
+海參崴	hl;dm uf;sp wl;uw
+海參崴	hl;dm uf;sp wz;uw
+厚朴	hb;iz po;mb
+厚朴	hb;iz pu;mb
+大宛馬	da;ad yr;be ma;ah
+大宛馬	da;ad wj;be ma;ah
+齜牙	zi;ic ya;ap
+齜牙	ci;ic ya;ap
+齜着牙	zi;ic ve;yo ya;ap
+齜着牙	ci;ic ve;yo ya;ap
+齜牙咧嘴	zi;ic ya;ap lx;kl zv;kj
+齜牙咧嘴	ci;ic ya;ap lx;kl zv;kj
+頭皮屑	tb;dy pi;ad xx;ux
+頭皮屑	tb;dy pi;ad xt;ux
+六安	lu;wb an;bn
+六安	lq;wb an;bn
+六安縣	lu;wb an;bn xm;xx
+六安縣	lq;wb an;bn xm;xx
+六安市	lu;wb an;bn ui;wj
+六安市	lq;wb an;bn ui;wj
+六合區	lu;wb he;rk qu;kp
+六合區	lq;wb he;rk qu;kp
+安徽六安	an;bn hv;xw lu;wb an;bn
+安徽六安	an;bn hv;xw lq;wb an;bn
+安徽六安市	an;bn hv;xw lu;wb an;bn ui;wj
+安徽六安市	an;bn hv;xw lq;wb an;bn ui;wj
+安徽省六安市	an;bn hv;xw ug;ou lu;wb an;bn ui;wj
+安徽省六安市	an;bn hv;xw ug;ou lq;wb an;bn ui;wj
+南京六合	nj;ua jy;wx lu;wb he;rk
+南京六合	nj;ua jy;wx lq;wb he;rk
+南京六合區	nj;ua jy;wx lu;wb he;rk qu;kp
+南京六合區	nj;ua jy;wx lq;wb he;rk qu;kp
+南京市六合區	nj;ua jy;wx ui;wj lu;wb he;rk qu;kp
+南京市六合區	nj;ua jy;wx ui;wj lq;wb he;rk qu;kp
+偌大	ro;rr da;ad
+偌大	no;rr da;ad
+飲鴆止渴	yn;uq vf;na vi;aa ke;dh
+飲鴆止渴	yn;uq jq;na vi;aa ke;dh
+飲鴆解渴	yn;uq vf;na jx;jn ke;dh
+飲鴆解渴	yn;uq jq;na jx;jn ke;dh
+### 错字
+曾經	cg;ob jy;sg
+曾今	cg;ob jn;ra
+按捺	an;fa na;fn
+按耐	an;fa nl;ce
+按捺不住	an;fa na;fn bu;ad vu;rv
+按耐不住	an;fa nl;ce bu;ad vu;rv
+別價	bx;dd jx;rj
+別介	bx;dd jx;ra
+甭價	bg;by jx;rj
+甭介	bg;by jx;ra
+血脈賁張	xt;pa ml;op bf;bh vh;gi
+血脈僨張	xt;pa ml;op ff;rb vh;gi
+血脈噴張	xt;pa ml;op pf;kb vh;gi
+契訶夫	qi;dd he;yk fu;ad
+契科夫	qi;dd ke;hd fu;ad
+湊合	cb;dz he;rk
+湊活	cb;dz ho;du
+巨惠	ju;kk hv;xh
+鉅惠	ju;jj hv;xh
+摩羯座	mo;mu jx;yh zo;gz
+魔蠍座	mo;gm xx;ix zo;gz
+
+
+##### 叠字
+# 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
+# 二叠字
+两个火
+两个土
+两个一
+两个二
+两个山
+两个口
+两个田
+两个九
+两个人
+两个飞
+两个戈
+兩個厶	ld;ar ge;rg si;ad
+兩個厶	ld;ar ge;rg mb;ad
+两个又
+两个香
+两个面
+两个兀
+两个女
+兩個𡥦	ld;ar ge;rg ni;zz
+两个臣
+两个巾
+两个左
+两个母
+两个来
+两个凡
+两个夕
+兩個彐	ld;ar ge;rg ji;aa
+兩個𢎘	ld;ar ge;rg hj;;
+兩個魚	ld;ar ge;rg yu;dh
+两个明
+兩個朿	ld;ar ge;rg ci;ad
+两个乂
+两个曰
+两个尸
+两个户
+两个大
+两个八
+两个而
+两个羊
+两个吉
+两个马
+两个卅
+兩個巛	ld;ar ge;rg ir;aa
+两个止
+两个比
+两个言
+两个申
+两个牛
+两个余
+两个束
+兩個罒	ld;ar ge;rg mu;aa
+兩個㐅	ld;ar ge;rg wu;pd
+两个金
+两个木
+两个水
+两个火
+兩個風	ld;ar ge;rg fg;ji
+两个石
+两个口
+两个日
+两个月
+两个目
+两个白
+两个百
+两个耳
+两个山
+兩個屮	ld;ar ge;rg ie;aa
+兩個屮	ld;ar ge;rg ck;aa
+两个廿
+兩個卄	ld;ar ge;rg nm;aa
+两个虫
+两个虎
+兩個龍	ld;ar ge;rg ls;dg
+兩個馬	ld;ar ge;rg ma;ah
+两个犬
+两个人
+两个入
+两个习
+兩個卪	ld;ar ge;rg jx;ed
+兩個㔾	ld;ar ge;rg jx;aa
+两个几
+两个乙
+两个大
+两个夫
+两个禾
+两个干
+两个井
+两个斤
+两个片
+两个牙
+两个炎
+两个弓
+两个永
+两个亦
+两个手
+两个毛
+两个王
+两个男
+两个女
+两个又
+两个支
+兩個隻	ld;ar ge;rg vi;vy
+两个古
+两个吉
+两个舌
+两个言
+两个户
+两个启
+兩個來	ld;ar ge;rg ll;ad
+兩個桼	ld;ar ge;rg qi;mu
+兩個旡	ld;ar ge;rg ji;ag
+两个夕
+两个歹
+两个匕
+两个幺
+两个玄
+两个心
+两个力
+两个欠
+两个子
+两个予
+两个享
+两个立
+两个音
+两个竟
+两个竞
+两个兄
+兩個見	ld;ar ge;rg jm;oe
+兩個貝	ld;ar ge;rg bz;ad
+两个辛
+两个瓜
+两个呆
+两个果
+两个鸟
+两个巢
+兩個禺	ld;ar ge;rg yu;ad
+兩個巿	ld;ar ge;rg fu;aa
+两个句
+两个奇
+两个真
+两个尹
+两个昔
+两个易
+两个臣
+两个面
+两个先
+两个老
+两个示
+两个至
+两个生
+兩個車	ld;ar ge;rg ie;aa
+兩個車	ld;ar ge;rg ju;aa
+两个足
+兩個區	ld;ar ge;rg qu;kp
+两个香
+兩個隹	ld;ar ge;rg vv;pa
+两个牟
+两个豕
+兩個𠂢	ld;ar ge;rg pl;pp
+兩個畐	ld;ar ge;rg fu;at
+兩個㣇	ld;ar ge;rg yi;jj
+两个邑
+兩個堯	ld;ar ge;rg yk;tw
+两个秉
+兩個倉	ld;ar ge;rg ch;rk
+兩個東	ld;ar ge;rg ds;ad
+两个善
+兩個僉	ld;ar ge;rg qm;rc
+兩個齒	ld;ar ge;rg ii;vk
+两个喜
+两个走
+两个止
+两个昌
+两个串
+两个米
+两个束
+两个隶
+两个不
+两个龙
+两个乞
+兩個夋	ld;ar ge;rg qp;sw
+两个天
+# 三叠字
+三个生
+三个秦
+三个若
+三個雲	sj;aa ge;rg yp;yy
+三个人
+三个刀
+三个十
+三个力
+三个原
+三個厶	sj;aa ge;rg si;ad
+三個厶	sj;aa ge;rg mb;ad
+三个又
+三个口
+三个七
+三个吉
+三个土
+三个士
+三个女
+三个子
+三个小
+三个心
+三个手
+三个日
+三个木
+三个止
+三个毛
+三个水
+三个泉
+三个火
+三个牛
+三个犬
+三个田
+三个白
+三个目
+三个直
+三个石
+三个羊
+三个耳
+三个舌
+三個屮	sj;aa ge;rg ie;aa
+三個屮	sj;aa ge;rg ck;aa
+三个虫
+三个言
+三个贝
+三個車	sj;aa ge;rg ie;aa
+三个金
+三個隹	sj;aa ge;rg vv;pa
+三个雷
+三個風	sj;aa ge;rg fg;ji
+三個飛	sj;aa ge;rg fz;ff
+三个香
+三个马
+三個魚	sj;aa ge;rg yu;dh
+三个鹿
+三個龍	sj;aa ge;rg ls;dg
+三个个
+三個丶	sj;aa ge;rg vu;dd
+三個丶	sj;aa ge;rg dm;dd
+三个了
+三个介
+三个企
+三个舍
+三個圥	sj;aa ge;rg lu;te
+三个光
+三个兔
+三个全
+三個𠙽	sj;aa ge;rg ky;ku
+三個𠧪	sj;aa ge;rg tc;br
+三個𠧪	sj;aa ge;rg yb;br
+三個㔾	sj;aa ge;rg jx;aa
+三個厡	sj;aa ge;rg yr;iq
+三个可
+三个因
+三个夏
+三个大
+三个天
+三个太
+三個𦉼	sj;aa ge;rg ku;sd
+三个宝
+三个宜
+三个客
+三个寒
+三个少
+三个山
+三个市
+三个文
+三个斗
+三個朿	sj;aa ge;rg ci;ad
+三个束
+三个林
+三个果
+三个欠
+三個𣥚	sj;aa ge;rg zb;vy
+三个爪
+三个妥
+三个用
+三个甲
+三个百
+三个盖
+三個県	sj;aa ge;rg xm;ox
+三个空
+三個亇	sj;aa ge;rg ge;da
+三个竹
+三個罒	sj;aa ge;rg mu;aa
+三個羗	sj;aa ge;rg qd;qs
+三个老
+三个月
+三个至
+三個興	sj;aa ge;rg xy;ba
+三个足
+三個㖖	sj;aa ge;rg nx;kx
+三個門	sj;aa ge;rg mf;aa
+三个面
+三個頁	sj;aa ge;rg ye;ab
+三個鳥	sj;aa ge;rg nc;ph
+三个男
+三个立
+三个九
+三个也
+三个加
+三個動	sj;aa ge;rg ds;lv
+三个千
+三个方
+三个朔
+三个玉
+三个申
+三個𡿨	sj;aa ge;rg qr;;
+三个去
+三个弓
+三個䖝	sj;aa ge;rg is;pi
+三個丿	sj;aa ge;rg px;px
+三个户
+三个瓜
+三个鸟
+三个米
+# 四叠字
+四個乂	si;aa ge;rg yi;pd
+四个人
+四個厶	si;aa ge;rg si;ad
+四個厶	si;aa ge;rg mb;ad
+四个又
+四个匕
+四个工
+四个口
+四个天
+四个小
+四個屮	si;aa ge;rg ie;aa
+四個屮	si;aa ge;rg ck;aa
+四个火
+四个牛
+四個魚	si;aa ge;rg yu;dh
+四个月
+四个日
+四个林
+四个水
+四个石
+四个田
+四个甲
+四个且
+四个囚
+四个困
+四个竹
+四个老
+四個朿	si;aa ge;rg ci;ad
+四个先
+四个金
+四个泉
+四个言
+四個門	si;aa ge;rg mf;aa
+四个果
+四个春
+四個車	si;aa ge;rg ie;aa
+四個風	si;aa ge;rg fg;ji
+四个雷
+四個雲	si;aa ge;rg yp;yy
+四個興	si;aa ge;rg xy;ba
+四個龍	si;aa ge;rg ls;dg
+四个土
