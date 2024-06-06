@@ -1,4 +1,3 @@
-
 吖	ky
 呵	kk
 啊	kk
@@ -841,7 +840,7 @@
 蕔	cy
 薄	cc
 藵	cm
-虣	gj
+虣	yj
 蚫	ib
 袌	yb
 裦	ym
@@ -6600,7 +6599,7 @@
 戙	kg
 挏	fk
 昸	od
-東	ur
+東	ir
 栋	md
 棟	md
 氡	qd
@@ -7560,7 +7559,7 @@
 尔	dx
 峏	ue
 弍	ye
-弐	ge
+弐	ye
 杒	mr
 栭	me
 栮	me
@@ -7582,7 +7581,7 @@
 衈	pe
 袻	pe
 誀	ye
-貮	gb
+貮	yb
 貳	yb
 贰	yb
 趰	tb
@@ -8336,7 +8335,7 @@
 䘀	pi
 䘄	li
 䘠	px
-䝾	gb
+䝾	yb
 䞜	tb
 䞞	tf
 䞯	tz
@@ -14407,7 +14406,7 @@
 𡸎	ue
 𡽱	uv
 𢈻	gz
-𢎔	gr
+𢎔	yr
 𢎡	gn
 𢢂	xk
 𢨜	gi
@@ -31249,7 +31248,7 @@
 梧	mk
 橆	pm
 歍	wq
-武	gv
+武	yv
 毋	mp
 汙	dy
 汚	dv
@@ -31318,11 +31317,11 @@
 鰞	yh
 鴮	dn
 鵐	gn
-鵡	gn
+鵡	yn
 鶩	mn
 鷡	pn
 鹀	gn
-鹉	gn
+鹉	yn
 鹜	mn
 鼯	jk
 鼿	zw
@@ -37181,7 +37180,7 @@
 𣎱	ou
 𣐋	ml
 𣤰	yq
-𣦏	gc
+𣦏	yc
 𣨡	du
 𣻮	bu
 𤑓	hv

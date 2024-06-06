@@ -2282,7 +2282,7 @@ use_preset_vocabulary: false
 晋	jv;yo	273
 氧	yp;qy	273
 吽	hk;kn	273
-武	wm;gv	272
+武	wm;yv	272
 作	zs;rv	272
 瘟	we;bm	272
 矬	cl;ur	272
@@ -5906,7 +5906,7 @@ use_preset_vocabulary: false
 鲂	fw;yf	2
 鲅	bi;yy	2
 鲥	ub;yc	2
-鹉	wm;gn	2
+鹉	wm;yn	2
 黪	co;lp	2
 鼫	ub;ju	2
 躯	qh;uq	2
@@ -13978,7 +13978,7 @@ use_preset_vocabulary: false
 䝼	jw;bo	0
 䝼	qn;bo	0
 䝽	ao;bt	0
-䝾	fh;gb	0
+䝾	fh;yb	0
 䝿	gf;jb	0
 䞀	hr;bu	0
 䞁	ya;bn	0
@@ -20163,7 +20163,7 @@ use_preset_vocabulary: false
 弍	eh;ye	1
 弎	sn;ys	1
 式	ti;yg	1
-弐	eh;ge	1
+弐	eh;ye	1
 弒	ut;xg	1
 弔	dl;gl	1
 弔	dt;gl	1
@@ -22450,7 +22450,7 @@ use_preset_vocabulary: false
 杭	ku;mj	1
 杮	fk;mu	1
 杮	bk;mu	1
-東	dk;ur	1
+東	dk;ir	1
 杴	xr;mq	1
 杴	qr;mq	1
 杶	ig;mt	1
@@ -30349,7 +30349,7 @@ use_preset_vocabulary: false
 虠	jm;wj	1
 虠	hi;wj	1
 虡	jf;hb	1
-虣	bv;gj	1
+虣	bv;yj	1
 虥	va;hg	1
 虦	va;gj	1
 虧	kt;hk	1
@@ -32022,7 +32022,7 @@ use_preset_vocabulary: false
 責	ze;fb	1
 責	vo;fb	1
 貭	vt;ib	1
-貮	eh;gb	1
+貮	eh;yb	1
 貯	vh;bd	1
 貰	ut;ub	1
 貱	bt;bp	1
@@ -36461,7 +36461,7 @@ use_preset_vocabulary: false
 鵠	hl;nn	1
 鵠	gm;nn	1
 鵠	hi;nn	1
-鵡	wm;gn	1
+鵡	wm;yn	1
 鵢	ue;un	1
 鵣	lo;un	1
 鵣	it;un	1
@@ -39967,7 +39967,7 @@ use_preset_vocabulary: false
 𢎋	zb;my	0
 𢎌	do;gy	0
 𢎎	sh;sg	0
-𢎔	js;gr	0
+𢎔	js;yr	0
 𢎕	io;vy	0
 𢎖	qm;oy	0
 𢎘	ha;av	0
@@ -41745,7 +41745,7 @@ use_preset_vocabulary: false
 𣦇	bt;vw	0
 𣦉	jn;vo	0
 𣦌	yt;vt	0
-𣦏	yd;gc	0
+𣦏	yd;yc	0
 𣦐	gu;vv	0
 𣦖	gn;bu	0
 𣦜	qm;vk	0

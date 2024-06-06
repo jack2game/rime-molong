@@ -880,7 +880,7 @@ sort: by_weight
 蕔	bc;cy
 薄	bc;cc
 藵	bc;cm
-虣	bc;gj
+虣	bc;yj
 蚫	bc;ib
 袌	bc;yb
 裦	bc;ym
@@ -7902,7 +7902,7 @@ sort: by_weight
 尔	er;dx
 峏	er;ue
 弍	er;ye
-弐	er;ge
+弐	er;ye
 杒	er;mr
 栭	er;me
 栮	er;me
@@ -7924,7 +7924,7 @@ sort: by_weight
 衈	er;pe
 袻	er;pe
 誀	er;ye
-貮	er;gb
+貮	er;yb
 贰	er;yb
 贰	er;yb
 趰	er;tb
@@ -8750,7 +8750,7 @@ sort: by_weight
 䘀	fu;pi
 䘄	fu;li
 䘠	fu;px
-䝾	fu;gb
+䝾	fu;yb
 䞜	fu;tb
 䞞	fu;tf
 䞯	fu;tz
@@ -15235,7 +15235,7 @@ sort: by_weight
 𡸎	jp;ue
 𡽱	jp;uv
 𢈻	jp;gz
-𢎔	jp;gr
+𢎔	jp;yr
 𢎡	jp;gn
 𢢂	jp;xk
 𢨜	jp;gi
@@ -34745,7 +34745,7 @@ sort: by_weight
 梧	wu;mk
 橆	wu;pm
 歍	wu;wq
-武	wu;gv
+武	wu;yv
 毋	wu;mp
 污	wu;dk
 汚	wu;dv
@@ -34824,11 +34824,11 @@ sort: by_weight
 鰞	wu;yh
 𫛦	wu;;
 鹀	wu;gn
-鹉	wu;gn
+鹉	wu;yn
 鹜	wu;mn
 鷡	wu;pn
 鹀	wu;gn
-鹉	wu;gn
+鹉	wu;yn
 鹜	wu;mn
 鼯	wu;jk
 鼿	wu;zw
@@ -41927,7 +41927,7 @@ sort: by_weight
 𣎱	yt;ou
 𣐋	yt;ml
 𣤰	yt;yq
-𣦏	yt;gc
+𣦏	yt;yc
 𣨡	yt;du
 𣻮	yt;bu
 𤑓	yt;hv
