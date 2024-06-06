@@ -192,8 +192,8 @@ sort: by_weight
 海參崴	hd;dm uf;sp ww;uw
 厚朴	hz;iz po;mb
 厚朴	hz;iz pu;mb
-大宛馬	da;ad yr;be ma;ad
-大宛馬	da;ad wj;be ma;ad
+大宛馬	da;ad yr;be ma;ah
+大宛馬	da;ad wj;be ma;ah
 齜牙	zi;ic ya;ap
 齜牙	ci;ic ya;ap
 齜着牙	zi;ic ve;yo ya;ap
@@ -283,7 +283,7 @@ sort: by_weight
 两个夕
 兩個彐	ll;ar ge;rg ji;aa
 兩個𢎘	ll;ar ge;rg hj;;
-兩個魚	ll;ar ge;rg yu;dd
+兩個魚	ll;ar ge;rg yu;dh
 两个明
 兩個朿	ll;ar ge;rg ci;ad
 两个乂
@@ -328,7 +328,7 @@ sort: by_weight
 两个虫
 两个虎
 兩個龍	ll;ar ge;rg ls;dg
-兩個馬	ll;ar ge;rg ma;ad
+兩個馬	ll;ar ge;rg ma;ah
 两个犬
 两个人
 两个入
@@ -490,7 +490,7 @@ sort: by_weight
 三個飛	sj;aa ge;rg fw;ff
 三个香
 三个马
-三個魚	sj;aa ge;rg yu;dd
+三個魚	sj;aa ge;rg yu;dh
 三个鹿
 三個龍	sj;aa ge;rg ls;dg
 三个个
@@ -552,7 +552,7 @@ sort: by_weight
 三個門	sj;aa ge;rg mf;aa
 三个面
 三個頁	sj;aa ge;rg ye;ab
-三個鳥	sj;aa ge;rg nn;pd
+三個鳥	sj;aa ge;rg nn;ph
 三个男
 三个立
 三个九
@@ -588,7 +588,7 @@ sort: by_weight
 四個屮	si;aa ge;rg cc;aa
 四个火
 四个牛
-四個魚	si;aa ge;rg yu;dd
+四個魚	si;aa ge;rg yu;dh
 四个月
 四个日
 四个林

@@ -144,25 +144,26 @@ function Module.translate_without_aux(env, seg, sp)
 end
 
 function Module.prioritize_sentence(env, iter)
-   local pred = function(cand)
-      return cand.type == "sentence"
-   end
-   local init, sentence_cand = moran.iter_find_first(iter, pred, Module.PREFETCH_THRESHOLD)
+   return iter
+   -- local pred = function(cand)
+   --    return cand.type == "sentence"
+   -- end
+   -- local init, sentence_cand = moran.iter_find_first(iter, pred, Module.PREFETCH_THRESHOLD)
 
-   if sentence_cand ~= nil then
-      return moran.iter_compose(
-         moran.iter_singleton(sentence_cand),
-         moran.iter_compose(
-            moran.iter_table(init),
-            iter
-         )
-      )
-   else
-      return moran.iter_compose(
-         moran.iter_table(init),
-         iter
-      )
-   end
+   -- if sentence_cand ~= nil then
+   --    return moran.iter_compose(
+   --       moran.iter_singleton(sentence_cand),
+   --       moran.iter_compose(
+   --          moran.iter_table(init),
+   --          iter
+   --       )
+   --    )
+   -- else
+   --    return moran.iter_compose(
+   --       moran.iter_table(init),
+   --       iter
+   --    )
+   -- end
 end
 
 function Module.candidate_match(env, cand, aux)
@@ -199,8 +200,8 @@ function Module.aux_list(env, word)
    end
 
    -- First char & last char
-   f_aux_list = env.aux_table[first]
-   l_aux_list = env.aux_table[last]
+   local f_aux_list = env.aux_table[first]
+   local l_aux_list = env.aux_table[last]
 
    for i, f_aux in pairs(f_aux_list) do
       for j, l_aux in pairs(l_aux_list) do

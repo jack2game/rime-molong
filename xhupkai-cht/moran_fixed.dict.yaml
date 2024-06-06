@@ -63,6 +63,7 @@ encoder:
 呵	aak
 腌	aao
 嗯	ag
+嗯	agk
 昂	ah
 卬	ahe
 骯	ahg
@@ -132,6 +133,7 @@ encoder:
 驁	aom
 媼	aon
 眑	aoo
+奧	aop
 獒	aoq
 鿫	aoqa
 傲	aor
@@ -429,6 +431,7 @@ encoder:
 邴	bke
 摒	bkf
 鞞	bkg
+炳	bkh
 蛃	bki
 鉼	bkj
 竝	bkl
@@ -491,6 +494,7 @@ encoder:
 敇	cew
 惻	cex
 涔	cf
+涔	cfd
 叄	cfs
 岑	cfu
 曾	cg
@@ -609,6 +613,7 @@ encoder:
 竴	cyl
 村	cym
 皴	cyp
+存	cyu
 忖	cyx
 蹲	cyz
 攢	cr
@@ -930,6 +935,7 @@ encoder:
 丟	dq
 颩	dqf
 銩	dqj
+丟	dqp
 短	dr
 葮	drc
 剬	drd
@@ -1053,6 +1059,7 @@ encoder:
 頂	dky
 得	dw
 嘚	dwk
+得	dwx
 二	e	eraa
 兒	e	erej
 餓	ee
@@ -1075,6 +1082,7 @@ encoder:
 額	eey
 遏	eez
 鞥	eg
+鞥	egg
 誒	ei
 誒	eiy
 唔	em
@@ -1086,6 +1094,7 @@ encoder:
 煾	enh
 嗯	enk
 峎	enu
+恩	enx
 而	er
 耳	era
 貳	erb
@@ -1129,6 +1138,7 @@ encoder:
 雬	fzy
 覅	fnw
 分	ff
+分	ffb
 芬	ffc
 奮	ffd
 隫	ffe
@@ -1178,6 +1188,7 @@ encoder:
 芳	fhc
 方	fhd
 防	fhe
+放	fhf
 房	fhh
 髣	fhi
 鈁	fhj
@@ -1271,7 +1282,7 @@ encoder:
 個	g	gerg
 嘎	ga
 夾	gad
-魀	gag
+戛	gag
 軋	gai
 旮	gaj
 噶	gak
@@ -1300,12 +1311,14 @@ encoder:
 彀	gzu
 篝	gzv
 韝	gzw
+夠	gzx
 詬	gzy
 遘	gzz
 光	gl
 卝	gla
 茪	glc
 潢	gld
+光	gle
 撗	glf
 廣	glg
 臦	gli
@@ -1495,6 +1508,7 @@ encoder:
 共	gs
 工	gsa
 宮	gsb
+共	gsc
 澒	gsd
 拱	gsf
 鞏	gsg
@@ -1587,6 +1601,7 @@ encoder:
 哈	ha
 蛤	hai
 鉿	haj
+哈	hak
 後	hz
 齁	hzb
 茩	hzc
@@ -1671,6 +1686,7 @@ encoder:
 杭	hhm
 巷	hhs
 航	hhv
+行	hhx
 頏	hhy
 迒	hhz
 汗	hj
@@ -1867,7 +1883,9 @@ encoder:
 懷	hkx
 踝	hkz
 黑	hw
+黑	hwa
 潶	hwd
+黑	hwh
 𨭆	hwjh
 嘿	hwk
 出	i	iucc
@@ -2029,6 +2047,7 @@ encoder:
 纏	ijs
 禪	iju
 簅	ijv
+產	ijw
 懺	ijx
 顫	ijy
 躔	ijz
@@ -2047,6 +2066,7 @@ encoder:
 罺	ics
 怊	icx
 訬	icy
+超	icz
 拆	id
 瘥	idb
 拆	idf
@@ -2060,6 +2080,7 @@ encoder:
 袃	idy
 戳	io
 擉	iof
+戳	iog
 齪	ioi
 鏃	ioj
 啜	iok
@@ -2094,6 +2115,7 @@ encoder:
 膞	iro
 川	irp
 氚	irq
+傳	irr
 船	irv
 玔	irw
 穿	irx
@@ -2281,6 +2303,7 @@ encoder:
 謹	jby
 近	jbz
 幾	jo
+幾	joy
 均	jy
 軍	jyb
 菌	jyc
@@ -2433,6 +2456,7 @@ encoder:
 截	jpg
 杰	jph
 蚧	jpi
+解	jpj
 嗟	jpk
 劫	jpl
 桀	jpm
@@ -2475,9 +2499,12 @@ encoder:
 逕	jkz
 可	k	kedk
 卡	ka
+卡	kab
 咖	kak
 佧	kar
+卡	kau
 口	kz
+口	kza
 寇	kzb
 蔻	kzc
 滱	kzd
@@ -2499,6 +2526,7 @@ encoder:
 框	klm
 鵟	kln
 曠	klo
+狂	klq
 纊	kls
 壙	klt
 礦	klu
@@ -2534,6 +2562,7 @@ encoder:
 掯	kff
 齦	kfi
 啃	kfk
+肯	kfo
 墾	kft
 豤	kfu
 懇	kfx
@@ -2541,6 +2570,7 @@ encoder:
 鏗	kgj
 吭	kgk
 牼	kgn
+坑	kgt
 硜	kgu
 誙	kgy
 扛	kh
@@ -2573,6 +2603,7 @@ encoder:
 靠	kcf
 烤	kch
 銬	kcj
+考	kcl
 栲	kcm
 犒	kcn
 尻	kcu
@@ -2603,6 +2634,7 @@ encoder:
 焜	kyh
 髡	kyi
 錕	kyj
+困	kyk
 梱	kym
 鶤	kyn
 昆	kyo
@@ -2614,12 +2646,14 @@ encoder:
 悃	kyx
 鯤	kyy
 寬	kr
+寬	krb
 髖	krg
 梡	krm
 臗	kro
 款	krq
 窾	krx
 空	ks
+空	ksb
 涳	ksd
 控	ksf
 鞚	ksg
@@ -2634,6 +2668,7 @@ encoder:
 刳	kud
 捁	kuf
 庫	kug
+哭	kuk
 枯	kum
 朏	kuo
 狜	kuq
@@ -2648,6 +2683,7 @@ encoder:
 隗	kve
 揆	kvf
 魁	kvg
+虧	kvh
 馗	kvj
 匱	kvk
 盔	kvm
@@ -2670,6 +2706,7 @@ encoder:
 侉	kxr
 垮	kxt
 誇	kxy
+跨	kxz
 快	kk
 蕢	kkc
 蒯	kkd
@@ -2684,6 +2721,7 @@ encoder:
 筷	kkv
 鱠	kky
 剋	kw
+剋	kwd
 了	l	leaa
 拉	la
 瘌	lab
@@ -2742,6 +2780,7 @@ encoder:
 憀	lnx
 遼	lnz
 兩	ll
+兩	lla
 莨	llc
 良	lld
 魎	llg
@@ -2756,11 +2795,13 @@ encoder:
 諒	lly
 踉	llz
 樂	le
+樂	leb
 泐	led
 阞	lee
 扐	lef
 叻	lek
 勒	lel
+樂	lem
 肋	leo
 仂	ler
 鰳	ley
@@ -2847,6 +2888,7 @@ encoder:
 恅	lcx
 酪	lcy
 來	ld
+來	lda
 癩	ldb
 萊	ldc
 瀨	ldd
@@ -2964,6 +3006,7 @@ encoder:
 癵	lrb
 薍	lrc
 灤	lrd
+亂	lrg
 鑾	lrj
 圞	lrk
 欒	lrm
@@ -2973,6 +3016,7 @@ encoder:
 臠	lrr
 羉	lrs
 巒	lru
+亂	lrv
 孿	lry
 龍	ls
 尨	lsa
@@ -2983,6 +3027,7 @@ encoder:
 谾	lsg
 蠪	lsi
 嚨	lsk
+龍	lsl
 櫳	lsm
 鸗	lsn
 朧	lso
@@ -3040,6 +3085,7 @@ encoder:
 律	lvx
 褸	lvy
 倆	lx
+倆	lxr
 列	lp
 茢	lpc
 冽	lpd
@@ -3128,6 +3174,7 @@ encoder:
 渺	mnd
 描	mnf
 廟	mng
+秒	mnh
 喵	mnk
 杪	mnm
 妙	mnn
@@ -3140,6 +3187,7 @@ encoder:
 邈	mnz
 麼	me
 嚜	mek
+麼	mem
 么	mep
 們	mf
 門	mfa
@@ -3187,6 +3235,7 @@ encoder:
 盲	mho
 硭	mhu
 氓	mhw
+忙	mhx
 米	mi
 羋	mia
 冪	mib
@@ -3254,6 +3303,7 @@ encoder:
 麥	mdl
 鷶	mdn
 脈	mdo
+買	mds
 埋	mdt
 賣	mdu
 霾	mdy
@@ -3310,6 +3360,7 @@ encoder:
 謨	moy
 謬	mq
 繆	mqs
+謬	mqy
 木	mu
 母	mua
 沐	mud
@@ -3336,6 +3387,7 @@ encoder:
 乜	mpg
 蠛	mpi
 覕	mpj
+咩	mpk
 眛	mpo
 礣	mpu
 篾	mpv
@@ -3368,6 +3420,7 @@ encoder:
 梅	mwm
 妹	mwn
 昧	mwo
+每	mwp
 每	mwr
 眉	mwu
 玫	mww
@@ -3393,18 +3446,22 @@ encoder:
 蔦	nnc
 溺	nnd
 嫋	nnn
+鳥	nnp
 尿	nnu
 娘	nl
 孃	nln
 釀	nly
 呢	ne
+呢	nek
 眲	neo
 訥	ney
 嫩	nf
+嫩	nfn
 恁	nfx
 能	ng
 螚	ngi
 囊	nh
+囊	nha
 齉	nhb
 瀼	nhd
 攮	nhf
@@ -3459,6 +3516,7 @@ encoder:
 乃	nd
 耐	ndc
 奈	ndd
+乃	ndg
 螚	ndi
 錼	ndj
 柰	ndm
@@ -3476,6 +3534,8 @@ encoder:
 輾	nmi
 唸	nmk
 粘	nmm
+年	nmp
+年	nmr
 碾	nmu
 黏	nmv
 念	nmx
@@ -3483,6 +3543,7 @@ encoder:
 蹍	nmz
 您	nb
 拰	nbf
+您	nbx
 挪	no
 の	noa
 耎	nod
@@ -3501,14 +3562,17 @@ encoder:
 鈕	nqj
 杻	nqm
 妞	nqn
+牛	nqp
 狃	nqq
 紐	nqs
 忸	nqx
 暖	nr
 渜	nrd
 煖	nrh
+暖	nro
 餪	nru
 弄	ns
+弄	nsc
 濃	nsd
 穠	nsh
 鬞	nsi
@@ -3517,6 +3581,7 @@ encoder:
 農	nsq
 儂	nsr
 繷	nss
+弄	nsw
 襛	nsy
 虐	nt
 瘧	ntb
@@ -3530,11 +3595,14 @@ encoder:
 奴	nun
 砮	nuu
 笯	nuv
+怒	nux
 孥	nuz
 女	nv
+女	nva
 聏	nve
 釹	nvj
 籹	nvm
+女	nvv
 衄	nvx
 捏	np
 孽	npc
@@ -3617,9 +3685,11 @@ encoder:
 杷	pam
 掱	pau
 爬	pav
+怕	pax
 袙	pay
 趴	paz
 剖	pz
+剖	pzd
 抔	pzf
 棓	pzm
 垺	pzt
@@ -3644,6 +3714,7 @@ encoder:
 浌	ped
 噴	pf
 湓	pfd
+噴	pfk
 盆	pfm
 歕	pfq
 碰	pg
@@ -3730,6 +3801,7 @@ encoder:
 皰	pcp
 砲	pcu
 袍	pcy
+跑	pcz
 拍	pd
 派	pdd
 排	pdf
@@ -3777,6 +3849,7 @@ encoder:
 昢	poo
 猼	poq
 坡	pot
+破	pou
 珀	pow
 頗	poy
 迫	poz
@@ -3800,6 +3873,7 @@ encoder:
 蹼	puz
 撇	pp
 潎	ppd
+撇	ppf
 覕	ppj
 嫳	ppn
 瞥	ppo
@@ -3974,7 +4048,7 @@ encoder:
 糗	qqm
 鶖	qqn
 丘	qqp
-犰	qqq
+酋	qqq
 俅	qqr
 絿	qqs
 坵	qqt
@@ -4023,6 +4097,7 @@ encoder:
 瘸	qtb
 蒛	qtc
 汋	qtd
+卻	qte
 缺	qtf
 炔	qth
 蚗	qti
@@ -4053,7 +4128,7 @@ encoder:
 娶	qun
 朐	quo
 敺	quq
-佉	qur
+佢	qur
 紶	qus
 屈	quu
 瞿	quv
@@ -4061,7 +4136,7 @@ encoder:
 衢	qux
 詘	quy
 趣	quz
-掐	qx
+恰	qx
 洽	qxd
 掐	qxf
 髂	qxg
@@ -4112,6 +4187,7 @@ encoder:
 煣	rzh
 蝚	rzi
 鑐	rzj
+肉	rzk
 柔	rzm
 鶔	rzn
 蹂	rzz
@@ -4119,6 +4195,7 @@ encoder:
 惹	rec
 渃	red
 捼	ref
+熱	reh
 喏	rek
 認	rf
 荏	rfc
@@ -4153,9 +4230,13 @@ encoder:
 纕	rhs
 壤	rht
 禳	rhu
+讓	rhy
 躟	rhz
 日	ri
+日	ria
 馹	rim
+日	rio
+日	rir
 衵	riy
 然	rj
 冉	rja
@@ -4171,6 +4252,7 @@ encoder:
 蕘	rcc
 擾	rcf
 橈	rcm
+繞	rcs
 饒	rcu
 襓	rcy
 遶	rcz
@@ -4186,11 +4268,13 @@ encoder:
 箬	rov
 叒	roy
 潤	ry
+潤	ryd
 閏	rym
 軟	rr
 耎	rrd
 阮	rre
 撋	rrf
+軟	rri
 檽	rrm
 朊	rro
 緛	rrs
@@ -4230,12 +4314,13 @@ encoder:
 挐	ruu
 褥	ruy
 孺	ruz
-睿	rv
+瑞	rv
 蕊	rvc
 汭	rvd
 蚋	rvi
 銳	rvj
 枘	rvm
+睿	rvo
 緌	rvs
 瑞	rvw
 惢	rvx
@@ -4288,6 +4373,7 @@ encoder:
 鬙	sgi
 桑	sh
 嗓	shk
+桑	shm
 喪	sht
 顙	shy
 四	si
@@ -4317,6 +4403,7 @@ encoder:
 糝	sjm
 傘	sjr
 叄	sjs
+散	sjw
 掃	sc
 瘙	scb
 溞	scd
@@ -4340,6 +4427,7 @@ encoder:
 莎	soc
 溹	sod
 摍	sof
+所	soh
 鎖	soj
 嗦	sok
 梭	som
@@ -4381,6 +4469,7 @@ encoder:
 嵩	ssu
 慫	ssx
 誦	ssy
+送	ssz
 ⭐️	st
 速	su
 宿	sub
@@ -4445,6 +4534,7 @@ encoder:
 媮	tzn
 偷	tzr
 緰	tzs
+頭	tzy
 透	tzz
 條	tn
 苕	tnc
@@ -4614,6 +4704,7 @@ encoder:
 團	tr
 湍	trd
 摶	trf
+團	trk
 糰	trm
 鷒	trn
 塼	trt
@@ -4675,6 +4766,7 @@ encoder:
 頹	tvy
 退	tvz
 貼	tp
+貼	tpb
 聑	tpe
 蛈	tpi
 鐵	tpj
@@ -4687,6 +4779,7 @@ encoder:
 聽	tk
 葶	tkc
 汀	tkd
+聽	tke
 挺	tkf
 廳	tkg
 烴	tkh
@@ -4704,6 +4797,7 @@ encoder:
 霆	tky
 廷	tkz
 忒	tw
+忒	twx
 是	u	uiop
 啥	ua
 痧	uab
@@ -4737,6 +4831,7 @@ encoder:
 驦	ulm
 孀	uln
 礵	ulu
+雙	ulv
 霜	uly
 設	ue
 賒	ueb
@@ -4791,6 +4886,7 @@ encoder:
 憴	ugx
 譝	ugy
 上	uh
+上	uha
 賞	uhb
 蔏	uhc
 殤	uhd
@@ -4833,6 +4929,7 @@ encoder:
 試	uiy
 適	uiz
 山	uj
+山	uja
 贍	ujb
 苫	ujc
 刪	ujd
@@ -4865,6 +4962,7 @@ encoder:
 梢	ucm
 紹	ucs
 艄	ucv
+少	ucx
 韶	ucy
 曬	ud
 攦	udf
@@ -4874,6 +4972,7 @@ encoder:
 釃	udy
 說	uo
 蒴	uoc
+溯	uod
 搠	uof
 爍	uoh
 鑠	uoj
@@ -4884,6 +4983,7 @@ encoder:
 碩	uou
 箾	uov
 愬	uox
+說	uoy
 順	uy
 蕣	uyc
 鬊	uyi
@@ -4891,6 +4991,7 @@ encoder:
 楯	uym
 瞬	uyo
 舜	uyv
+順	uyy
 拴	ur
 涮	urd
 栓	urm
@@ -4920,17 +5021,22 @@ encoder:
 舒	uuy
 述	uuz
 水	uv
+水	uva
 涗	uvd
 挩	uvf
 稅	uvh
 帨	uvj
 娷	uvn
 睡	uvo
+水	uvu
 誰	uvy
 刷	ux
+刷	uxd
 唰	uxk
 耍	uxn
 帅	uk
+帅	uka
+帅	ukd
 摔	ukf
 蟀	uki
 帥	ukj
@@ -4939,6 +5045,7 @@ encoder:
 率	ukw
 衰	uky
 誰	uw
+誰	uwy
 這	v	vezy
 之	v	vidd
 渣	va
@@ -5093,6 +5200,7 @@ encoder:
 戰	vjg
 黵	vjh
 斬	vji
+站	vjl
 棧	vjm
 鸇	vjn
 瞻	vjo
@@ -5131,6 +5239,7 @@ encoder:
 齋	vdw
 窄	vdx
 桌	vo
+桌	vob
 著	voc
 濁	vod
 捉	vof
@@ -5154,6 +5263,7 @@ encoder:
 肫	vyo
 綧	vys
 埻	vyt
+準	vyu
 忳	vyx
 諄	vyy
 迍	vyz
@@ -5175,11 +5285,13 @@ encoder:
 瑑	vrw
 顓	vry
 中	vs
+中	vsa
 冢	vsb
 蔠	vsc
 種	vsh
 螽	vsi
 鐘	vsj
+中	vsk
 盅	vsm
 妐	vsn
 腫	vso
@@ -5239,11 +5351,13 @@ encoder:
 拽	vkf
 跩	vkz
 這	vw
+這	vwz
 我	w	wopd
 爲	w	wzvd
 挖	wa
 瓦	waa
 洼	wad
+挖	waf
 蛙	wai
 哇	wak
 娃	wan
@@ -5261,6 +5375,7 @@ encoder:
 穩	wfh
 蚊	wfi
 吻	wfk
+問	wfm
 鳼	wfn
 氳	wfq
 紋	wfs
@@ -5277,6 +5392,7 @@ encoder:
 暡	wgo
 塕	wgt
 瓮	wgw
+翁	wgy
 忘	wh
 王	wha
 莣	whc
@@ -5316,6 +5432,7 @@ encoder:
 外	wd
 歪	wdb
 崴	wdu
+外	wdx
 我	wo
 卧	wob
 萵	woc
@@ -5326,6 +5443,7 @@ encoder:
 喔	wok
 婐	won
 臒	woo
+我	wop
 猧	woq
 倭	wor
 緺	wos
@@ -5554,6 +5672,7 @@ encoder:
 玄	xrw
 懸	xrx
 諼	xry
+選	xrz
 胸	xs
 芎	xsc
 洶	xsd
@@ -5562,6 +5681,7 @@ encoder:
 熊	xsh
 凶	xsi
 兄	xsk
+胸	xso
 雄	xsv
 恟	xsx
 詗	xsy
@@ -5602,6 +5722,7 @@ encoder:
 徐	xux
 許	xuy
 下	xx
+下	xxa
 瘕	xxb
 芐	xxc
 夾	xxd
@@ -5624,6 +5745,7 @@ encoder:
 霞	xxy
 遐	xxz
 寫	xp
+寫	xpb
 薤	xpc
 斜	xpd
 些	xpe
@@ -5703,6 +5825,7 @@ encoder:
 幼	yzl
 柚	yzm
 牰	yzn
+有	yzo
 釉	yzp
 牖	yzp
 猶	yzq
@@ -5720,6 +5843,7 @@ encoder:
 耶	yee
 爺	yef
 揲	yef
+也	yeg
 靨	yei
 噎	yek
 野	yel
@@ -5800,6 +5924,7 @@ encoder:
 堰	yjt
 研	yju
 焉	yjv
+言	yjw
 衍	yjx
 顏	yjy
 延	yjz
@@ -5936,6 +6061,7 @@ encoder:
 岳	ytu
 籥	ytv
 悅	ytx
+月	yty
 越	ytz
 與	yu
 于	yua
@@ -6025,12 +6151,15 @@ encoder:
 襗	zey
 迮	zez
 怎	zf
+怎	zfx
 譖	zfy
 增	zg
 贈	zgb
 鄫	zge
 鬵	zgg
+曾	zgo
 綜	zgs
+增	zgt
 矰	zgu
 甑	zgw
 憎	zgx
@@ -6088,6 +6217,7 @@ encoder:
 鑿	zcj
 噪	zck
 糟	zcm
+早	zco
 傮	zcr
 簉	zcv
 璪	zcw
@@ -6095,6 +6225,7 @@ encoder:
 凿	zcy
 造	zcz
 再	zd
+再	zda
 宰	zdb
 菑	zdc
 渽	zdd
@@ -6119,11 +6250,13 @@ encoder:
 琢	zow
 怍	zox
 尊	zy
+尊	zyc
 撙	zyf
 鐏	zyj
 噂	zyk
 樽	zym
 鷷	zyn
+尊	zyq
 僔	zyr
 繜	zys
 墫	zyt
@@ -6182,6 +6315,7 @@ encoder:
 嶵	zvu
 醉	zvy
 賊	zw
+賊	zwb
 蠈	zwi
 
 
@@ -127334,7 +127468,7 @@ Bilibili	bvj
 神目如電	umrd
 收買人心	umrx
 十目所視	umsu
-說沒說	umu
+說明書	umu
 沙門氏菌	umuj
 熟門熟路	umul
 雙目失明	umum

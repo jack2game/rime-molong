@@ -1898,7 +1898,7 @@ sort: by_weight
 糕	gc;mg	60411
 稿	gc;hg	59162
 膏	gc;og	20747
-羔	gc;dy	8622
+羔	gc;hy	8622
 皋	gc;bu	6131
 鎬	gc;jg	5696
 睾	gc;ps	2807
@@ -2807,7 +2807,7 @@ sort: by_weight
 剪	jm;dq	44250
 濺	jm;dj	44042
 踐	jm;zj	43098
-薦	jm;cd	34960
+薦	jm;ch	34960
 殲	jm;dx	27594
 揀	jm;fj	24189
 煎	jm;hq	22180
@@ -2996,7 +2996,7 @@ sort: by_weight
 金	jb;ra	1291889
 緊	jb;sy	1099517
 近	jb;zj	925463
-盡	jb;md	805564
+盡	jb;mh	805564
 僅	jb;rj	466676
 禁	jb;ul	393943
 勁	jb;lg	327635
@@ -3817,7 +3817,7 @@ sort: by_weight
 裂	lp;yl	174922
 獵	lp;ql	107720
 咧	lp;kl	58774
-烈	lp;dl	52123
+烈	lp;hl	52123
 劣	lp;lu	49371
 冽	lp;dl	11108
 趔	lp;zl	4928
@@ -4106,7 +4106,7 @@ sort: by_weight
 䂮	lt;uq	0
 圙	lt;km	0
 嗎	ma;km	9028487
-馬	ma;ad	1729443
+馬	ma;ah	1729443
 媽	ma;nm	956493
 麻	ma;gl	374419
 嘛	ma;km	334431
@@ -4531,7 +4531,7 @@ sort: by_weight
 𨺙	ni;ee	0
 輗	ni;ie	0
 齯	ni;ie	0
-年	nm;pa	3465446
+年	nm;ra	3465446
 念	nm;xj	559620
 黏	nm;hv	10465
 拈	nm;fv	9106
@@ -4547,7 +4547,7 @@ sort: by_weight
 粘	nm;mv	1
 娘	nl;nl	603856
 釀	nl;yx	22424
-鳥	nn;pd	178842
+鳥	nn;ph	178842
 尿	nn;uu	42861
 嫋	nn;nr	16381
 蔦	nn;cn	395
@@ -5795,7 +5795,7 @@ sort: by_weight
 恕	uu;xr	30848
 倏	uu;rq	28537
 暑	uu;ov	24941
-庶	uu;gd	15986
+庶	uu;gh	15986
 漱	uu;dq	15713
 贖	uu;bm	15491
 姝	uu;nv	15426
@@ -6452,7 +6452,7 @@ sort: by_weight
 尢	wh;ag	171
 輞	wh;iw	73
 尪	wh;yw	25
-爲	ww;pd	7309300
+爲	ww;vh	7309300
 位	ww;rl	1682896
 微	ww;xw	1082510
 未	ww;ex	758953
@@ -6592,7 +6592,7 @@ sort: by_weight
 午	wu;pu	350826
 誤	wu;yw	243473
 霧	wu;yw	169826
-烏	wu;pd	169572
+烏	wu;ph	169572
 悟	wu;xw	158203
 伍	wu;rw	144670
 嗚	wu;kw	98630
@@ -6707,7 +6707,7 @@ sort: by_weight
 樨	xi;mx	388
 傒	xi;rx	364
 醯	xi;ym	319
-隰	xi;ed	297
+隰	xi;eh	297
 螅	xi;ix	281
 爔	xi;hx	280
 屣	xi;uv	270
@@ -6723,7 +6723,7 @@ sort: by_weight
 穸	xi;xx	65
 嶲	xi;ug	63
 裼	xi;yy	61
-舄	xi;jd	51
+舄	xi;jh	51
 舾	xi;vx	51
 谿	xi;gx	47
 恓	xi;xx	39
@@ -6735,7 +6735,7 @@ sort: by_weight
 綌	xi;sg	11
 菥	xi;cx	11
 枲	xi;mt	10
-潟	xi;dd	10
+潟	xi;dh	10
 肸	xi;ou	6
 酅	xi;ej	6
 睎	xi;ox	5
@@ -6910,7 +6910,7 @@ sort: by_weight
 些	xp;ec	3752167
 血	xp;pa	933230
 謝	xp;yu	623220
-寫	xp;bd	605147
+寫	xp;bh	605147
 邪	xp;ey	175398
 協	xp;ul	146638
 鞋	xp;gg	116843
@@ -6924,7 +6924,7 @@ sort: by_weight
 諧	xp;yj	27747
 卸	xp;ea	27285
 挾	xp;fj	25752
-瀉	xp;dd	21251
+瀉	xp;dh	21251
 懈	xp;xj	20521
 蠍	xp;ix	17947
 蟹	xp;ij	15529
@@ -7011,7 +7011,7 @@ sort: by_weight
 胸	xs;ox	313164
 雄	xs;vh	302005
 兇	xs;ex	182557
-熊	xs;dn	139726
+熊	xs;hn	139726
 洶	xs;dx	41021
 匈	xs;gx	25364
 芎	xs;cg	401
@@ -7061,7 +7061,7 @@ sort: by_weight
 栩	xu;my	13693
 墟	xu;tx	13672
 詡	xu;yy	8833
-煦	xu;dx	7265
+煦	xu;hx	7265
 胥	xu;op	5376
 戌	xu;ga	4145
 酗	xu;yx	3709
@@ -7150,7 +7150,7 @@ sort: by_weight
 詢	xy;yx	81882
 遜	xy;zs	51585
 循	xy;xd	46243
-勳	xy;ld	30855
+勳	xy;lh	30855
 燻	xy;hx	23690
 旬	xy;go	17475
 馴	xy;mi	13729
@@ -7239,7 +7239,7 @@ sort: by_weight
 雁	yj;iv	43201
 閻	yj;mj	39776
 鹽	yj;ml	37729
-焉	yj;vd	35627
+焉	yj;vh	35627
 衍	yj;xi	33445
 檐	yj;mv	18211
 奄	yj;dd	13947
@@ -7702,7 +7702,7 @@ sort: by_weight
 麀	yz;lb	25
 耰	yz;ly	17
 浟	yz;dw	10
-槱	yz;md	8
+槱	yz;mh	8
 銪	yz;jy	5
 鮋	yz;yy	3
 輶	yz;iq	0
@@ -7716,7 +7716,7 @@ sort: by_weight
 欲	yu;gq	353022
 羽	yu;xx	322339
 宇	yu;by	311167
-魚	yu;dd	288142
+魚	yu;dh	288142
 預	yu;yy	218757
 育	yu;os	214206
 御	yu;xx	166243
@@ -8049,7 +8049,7 @@ sort: by_weight
 摘	vd;fd	49225
 債	vd;rz	43823
 窄	vd;xv	34397
-齋	vd;wu	25200
+齋	vd;wx	25200
 翟	vd;yv	11050
 擇	vd;fx	100
 瘵	vd;bj	34
@@ -8107,7 +8107,7 @@ sort: by_weight
 暲	vh;ov	94
 仉	vh;rj	46
 找	vc;fg	1476145
-照	vc;dv	692673
+照	vc;hv	692673
 招	vc;fv	593719
 趙	vc;zx	507405
 召	vc;dk	128448
@@ -8133,7 +8133,7 @@ sort: by_weight
 者	ve;lo	1581047
 折	ve;fj	248570
 哲	ve;kv	128653
-遮	ve;zd	76029
+遮	ve;zh	76029
 浙	ve;dv	23244
 轍	ve;iw	13190
 輒	ve;ig	5766
@@ -8276,7 +8276,7 @@ sort: by_weight
 彘	vi;ab	554
 蹠	vi;zu	442
 輊	vi;iv	405
-摭	vi;fd	387
+摭	vi;fh	387
 枳	vi;mv	318
 酯	vi;yv	317
 帙	vi;ju	306
@@ -8372,7 +8372,7 @@ sort: by_weight
 駐	vu;mv	84625
 囑	vu;ku	49354
 燭	vu;hi	44470
-煮	vu;dv	35755
+煮	vu;hv	35755
 蛛	vu;iv	29896
 株	vu;mv	24834
 鑄	vu;ju	24048
