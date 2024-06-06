@@ -8,21 +8,23 @@
 - 龍系列以及環形系列方案，在詞組和單字兩方面均大幅領先其他音形碼。
 - 環形的單字性能與五筆相比具有明顯優勢，而在形碼的傳統強項詞組性能中，環形方案也同樣表現優異，僅次於類似虎碼這樣的亂序形碼。
 
-各[發行版](https://github.com/jack2game/rime-molong/releases)之間的區別請見下表。含有`-chs`後綴的方案是簡體爲主、可以打出繁體字的方案；含有`-cht`後綴方案則相反，在此不再重複。
+魔龍方案中，每個字的編碼是音碼（記作 `yy`「音音」）疊加形碼（記作 `xx`「形形」）。因此，一個字的全碼是 `yyxx`。另外，有些方案同時在音碼的第二碼上支持大寫字母輸入，即音碼記作 `yY`。具體可見下表。
 
-| 發行版           | 音碼   | 形碼   | 備考         |
-| ------------- | ---- | ---- | ---------- |
-| `molong`      | 自然龍  | 自然龍  | 大竹查詢：`魔龙`  |
-| `molongkai`   | 自然龍  | 魔然   |            |
-| `molongmoqi`  | 自然龍  | 墨奇碼  |            |
-| `xhloopfly`   | 環形鶴  | 小鶴雙形 |            |
-| `xhloopkai`   | 環形鶴  | 魔然   | 大竹查詢：`环形鹤` |
-| `xhloopmoqi`  | 環形鶴  | 墨奇碼  |            |
-| `xhupkai`     | 小鶴雙拼 | 魔然   |            |
-| `xhupmoqi`    | 小鶴雙拼 | 墨奇碼  |            |
-| `xhupzrmfast` | 小鶴雙拼 | 自然快手 |            |
-| `zrloopkai`   | 環形自然 | 魔然   |            |
-| `zrloopmoqi`  | 環形自然 | 墨奇碼  |            |
+各[發行版](https://github.com/jack2game/rime-molong/releases)之間的區別同樣請見下表。含有`-chs`後綴的方案是簡體爲主、可以打出繁體字的方案；含有`-cht`後綴方案則相反，在此不再重複。
+
+| 發行版           | 音碼`yy` | 音碼`yY` | 形碼`xx` | 備考                     |
+| ------------- | ------ | ------ | ------ | ---------------------- |
+| `molong`      | 自然龍    | -      | 自然龍    | 大竹查詢：`魔龙`              |
+| `molongkai`   | 自然龍    | -      | 魔然     |                        |
+| `molongmoqi`  | 自然龍    | -      | 墨奇碼    |                        |
+| `xhloopfly`   | 環形鶴    | -      | 小鶴雙形   |                        |
+| `xhloopkai`   | 環形鶴    | 小鶴雙拼   | 魔然     | 大竹查詢：`环形鹤`，如果用大写输入韵母，则 |
+| `xhloopmoqi`  | 環形鶴    | -      | 墨奇碼    |                        |
+| `xhupkai`     | 小鶴雙拼   | 環形鶴    | 魔然     |                        |
+| `xhupmoqi`    | 小鶴雙拼   | -      | 墨奇碼    |                        |
+| `xhupzrmfast` | 小鶴雙拼   | -      | 自然快手   |                        |
+| `zrloopkai`   | 環形自然   | -      | 魔然     |                        |
+| `zrloopmoqi`  | 環形自然   | -      | 墨奇碼    |                        |
 
 
 ## 音碼方案
@@ -99,15 +101,15 @@
 
 ## 單字輸入方式
 
-魔龍方案中，每個字的編碼是音碼（記作 `YY`「音音」）疊加形碼（記作 `XX`「形形」）。因此，一個字的全碼是 `YYXX`。在魔龍方案中，一個字有下面幾種方式可以打出：
+魔龍方案中，每個字的編碼是音碼（記作 `yy`「音音」）疊加形碼（記作 `xx`「形形」）。因此，一個字的全碼是 `yyxx`。在魔龍方案中，一個字有下面幾種方式可以打出：
 
 | 編碼      | 演示                                                                                                        | 備考                                     |
 | ------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| `Y`     | <img src="https://github.com/jack2game/rime-molong/assets/16070158/c57f482a-261e-4390-ac57-83e1de3f9e21"> |                                        |
-| `YY`    | <img src="https://github.com/jack2game/rime-molong/assets/16070158/659635ef-dc0c-408c-b7a6-0786cb2eda9d"> |                                        |
-| `YYX`   | <img src="https://github.com/jack2game/rime-molong/assets/16070158/8460d133-281d-48a0-8155-43908bee9dc6"> |                                        |
-| `YYXX`  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/6646ccb6-43ff-49a7-a8ad-724f3c9d3e2b"> | 結合優先級低⬇️，如果該編碼是合法的詞語編碼，則只顯示詞語候選項，不顯示單字 |
-| `YYXX/` | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2dd3ed1d-eb33-4dd3-8762-052e747598ba"> | 結合優先級高⬆️，一般會在詞語的前面                     |
+| `y`     | <img src="https://github.com/jack2game/rime-molong/assets/16070158/c57f482a-261e-4390-ac57-83e1de3f9e21"> |                                        |
+| `yy`    | <img src="https://github.com/jack2game/rime-molong/assets/16070158/659635ef-dc0c-408c-b7a6-0786cb2eda9d"> |                                        |
+| `yyx`   | <img src="https://github.com/jack2game/rime-molong/assets/16070158/8460d133-281d-48a0-8155-43908bee9dc6"> |                                        |
+| `yyxx`  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/6646ccb6-43ff-49a7-a8ad-724f3c9d3e2b"> | 結合優先級低⬇️，如果該編碼是合法的詞語編碼，則只顯示詞語候選項，不顯示單字 |
+| `yyxx/` | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2dd3ed1d-eb33-4dd3-8762-052e747598ba"> | 結合優先級高⬆️，一般會在詞語的前面                     |
 
 其中，帶有「⚡️」圖標的輸出爲固定簡碼。單字簡快碼只在輸入碼長小於等於 3 時起效。
 
@@ -119,7 +121,9 @@
 
 <img src="https://github.com/jack2game/rime-molong/assets/16070158/42465986-7691-48f1-be0e-b6a64aff797e">
 
-如果打完了第二個字回頭發現第一個字需要輔助碼，可按`tab`鍵或者`shift`+`tab`快速在音節間跳轉，或者直接使用`shift`+`字母`將輔助碼加在倒數第二個字。
+如果打完了第二個字回頭發現第一個字需要輔助碼，可按`tab`鍵或者`shift`+`tab`快速在音節間跳轉。
+
+或者也可以直接使用`shift`+`字母`將輔助碼加在倒數第二個字。（注意：音碼含有 `yY`的方案無法使用此功能）
 
 在用輔助碼打出一個詞後，這個詞會被自動記憶，以後可不加輔助碼打出。
 
