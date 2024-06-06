@@ -244,6 +244,8 @@ sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./molong.schema.
 sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./molong.schema.yaml
 sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./molong.schema.yaml
 sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./molong.schema.yaml
+sed -i "s/  alphabet: abcdefghijklmnopqrstuvwxyz/  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/g" ./molong.schema.yaml
+sed -i "s/\( - moran:\/key_bindings\/moran_capital_for_last_syllable\)/#\1/g" ./molong.schema.yaml
 
 cp moran_aux.schema.yaml molong_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: molong_aux/g" ./molong_aux.schema.yaml
@@ -300,6 +302,8 @@ sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./molong.schema.
 sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./molong.schema.yaml
 sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./molong.schema.yaml
 sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./molong.schema.yaml
+sed -i "s/^  alphabet: abcdefghijklmnopqrstuvwxyz/  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/g" ./molong.schema.yaml
+sed -i "s/\( - moran:\/key_bindings\/moran_capital_for_last_syllable\)/#\1/g" ./molong.schema.yaml
 
 cp moran_aux.schema.yaml molong_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: molong_aux/g" ./molong_aux.schema.yaml
