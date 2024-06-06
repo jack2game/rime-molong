@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -e
 set -x
 
 # Check if any argument is provided
