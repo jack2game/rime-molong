@@ -111,7 +111,7 @@ def main(args):
     print("Generating character table")
     with open('../' + folder + '/moran.chars.dict.yaml', 'r') as f:
         for l in f:
-            matches = re.findall(r'(\w+)\t([a-z]+;[a-z]+)\t(\d+)', l)
+            matches = re.findall(r'(\w+)\t([a-zA-Z]+;[a-zA-Z]+)\t(\d+)', l)
             if not matches: continue
             char, code, w = matches[0]
             w = int(w)
