@@ -50,7 +50,7 @@ local top = {}
 
 function top.init(env)
    env.fixed = Component.Translator(env.engine, "", "table_translator@fixed")
-   env.smart = Component.Translator(env.engine, "", "script_translator@translator")
+   env.smart = Component.Translator(env.engine, "", "script_translator@smart")
    env.rfixed = ReverseLookup(env.engine.schema.config:get_string("fixed/dictionary") or "moran_fixed")
    env.quick_code_indicator = env.engine.schema.config:get_string("moran/quick_code_indicator") or "⚡️"
    if env.name_space == 'with_reorder' then
@@ -66,6 +66,7 @@ function top.init(env)
 
    -- quick_code_hint 開啓時出簡讓全不應該輸出 comment，簡碼會由 quick_code_hint 輸出。
    env.enable_quick_code_hint = env.engine.schema.config:get_bool("moran/enable_quick_code_hint") or false
+   env.quick_code_indicator_skip_chars = env.engine.schema.config:get_bool("moran/quick_code_indicator_skip_chars") or false
 
    -- output 狀態
    env.output_i = 0
@@ -109,7 +110,9 @@ function top.func(input, seg, env)
             end
          else
             for cand in fixed_res:iter() do
-               cand.comment = indicator
+               if utf8.len(cand.text) ~= 1 or not env.quick_code_indicator_skip_chars then
+                  cand.comment = indicator
+               end
                top.output(env, cand)
             end
          end

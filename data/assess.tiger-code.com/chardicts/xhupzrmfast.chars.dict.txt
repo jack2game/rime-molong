@@ -8702,7 +8702,7 @@
 枞	zs;ar	1
 枟	yy	416
 枠	zv	408
-枡	dz	550
+枡	ug	550
 枢	qu;ak	0
 枢	uu;ak	0
 枣	zc;cd	0

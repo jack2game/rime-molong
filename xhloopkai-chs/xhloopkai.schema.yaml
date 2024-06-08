@@ -111,7 +111,7 @@ speller:
       - moran:/algebra/user_sentence_bottom?
       - moran:/algebra/user_force_bottom?
 
-translator:    # 整句輸入模式設置，在 top_translator 中被調用
+smart:         # 整句輸入模式設置，在 top_translator 中被調用
   dictionary: moran.extended
   prism: moran
   initial_quality: 5
@@ -264,8 +264,12 @@ punctuator:
 
 key_binder:
   import_preset: default
+  custom_bindings:
+    __append:
+      # 在這裏添加只在本方案中生效的按鍵綁定
   bindings:
     __patch:
+      - :/key_binder/custom_bindings?
      # - moran:/key_bindings/moran_capital_for_last_syllable
       - moran:/key_bindings/moran_tab
       - moran:/key_bindings/moran_switches
