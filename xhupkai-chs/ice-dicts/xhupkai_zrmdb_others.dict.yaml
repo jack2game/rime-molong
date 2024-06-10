@@ -8,7 +8,7 @@
 #
 ---
 name: others
-version: "2024-05-21"
+version: "2024-06-10"
 sort: by_weight
 ...
 ##### 容错词
@@ -82,8 +82,6 @@ sort: by_weight
 主角	vu;dw jn;dy
 角色	jt;dy se;db
 角色	jn;dy se;db
-比萨	bi;bb sa;ci
-比萨	pi;bb sa;ci
 比萨饼	bi;bb sa;ci bk;ub
 比萨饼	pi;bb sa;ci bk;ub
 吃比萨	ii;kq bi;bb sa;ci
@@ -228,6 +226,8 @@ sort: by_weight
 饮鸩止渴	yb;uq jq;na vi;aa ke;dh
 饮鸩解渴	yb;uq vf;na jp;jn ke;dh
 饮鸩解渴	yb;uq jq;na jp;jn ke;dh
+宫商角徵羽	gs;bl uh;wk jt;dy vi;xw yu;xx
+宫商角徵羽	gs;bl uh;wk jn;dy vi;xw yu;xx
 ### 错字
 曾经	cg;ob jk;sg
 曾今	cg;ob jb;ra
@@ -250,6 +250,8 @@ sort: by_weight
 钜惠	ju;jj hv;xh
 摩羯座	mo;mu jp;yh zo;gz
 魔蝎座	mo;gm xp;ih zo;gz
+比萨	bi;bb sa;ci
+披萨	pi;fp sa;ci
 
 
 ##### 叠字

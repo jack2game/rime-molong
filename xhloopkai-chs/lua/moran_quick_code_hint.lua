@@ -10,7 +10,7 @@ function Module.init(env)
    else
       env.quick_code_hint_reverse = nil
    end
-   env.quick_code_indicator = env.engine.schema.config:get_string("moran/quick_code_indicator")
+   env.quick_code_indicator = env.engine.schema.config:get_string("moran/quick_code_indicator") or "⚡"
 end
 
 function Module.fini(env)
@@ -33,24 +33,28 @@ function Module.func(translation, env)
          yield(cand)
       else
          local all_codes = env.quick_code_hint_reverse:lookup(word)
+         local in_use = false
          if all_codes then
             local codes = {}
             for code in all_codes:gmatch("%S+") do
-               if #code < 4 -- and code ~= cand.preedit
-               then
-                  table.insert(codes, code)
+               if #code < 4 then
+                  if code == cand.preedit then
+                     in_use = true
+                  else
+                     table.insert(codes, code)
+                  end
                end
             end
-            if #codes == 0 then
+            if #codes == 0 and not in_use then
                goto continue
             end
             local codes_hint = table.concat(codes, " ")
             local comment = ""
-            if gcand.comment == env.quick_code_indicator and env.quick_code_indicator ~= "" then
+            if gcand.comment == env.quick_code_indicator then
                -- Avoid double ⚡
                comment = gcand.comment .. codes_hint
             else
-               comment = gcand.comment .. "⚡" .. codes_hint
+               comment = gcand.comment .. env.quick_code_indicator .. codes_hint
             end
             gcand.comment = comment
          end
