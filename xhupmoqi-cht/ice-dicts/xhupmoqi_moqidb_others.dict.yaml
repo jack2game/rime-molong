@@ -76,14 +76,14 @@ sort: by_weight
 
 ##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
 ### 错音
-餛飩	hy;rb ty;rt
-餛飩	hy;rb dy;rt
+餛飩	hy;ub ty;ut
+餛飩	hy;ub dy;ut
 主角	vu;wt jt;dy
 主角	vu;wt jn;dy
 角色	jt;dy se;db
 角色	jn;dy se;db
-比薩餅	bi;bb sa;cu bk;rk
-比薩餅	pi;bb sa;cu bk;rk
+比薩餅	bi;bb sa;cu bk;uk
+比薩餅	pi;bb sa;cu bk;uk
 喫比薩	ii;kd bi;bb sa;cu
 喫比薩	ii;kd pi;bb sa;cu
 說服	uo;yx fu;oy
@@ -222,10 +222,10 @@ sort: by_weight
 南京市六合區	nj;ug jk;wx ui;wj lq;wb he;rk qu;kk
 偌大	ro;rk da;ar
 偌大	no;rk da;ar
-飲鴆止渴	yb;rq vf;bn vi;lb ke;dr
-飲鴆止渴	yb;rq jq;bn vi;lb ke;dr
-飲鴆解渴	yb;rq vf;bn jp;dn ke;dr
-飲鴆解渴	yb;rq jq;bn jp;dn ke;dr
+飲鴆止渴	yb;uq vf;bn vi;lb ke;dr
+飲鴆止渴	yb;uq jq;bn vi;lb ke;dr
+飲鴆解渴	yb;uq vf;bn jp;dn ke;dr
+飲鴆解渴	yb;uq jq;bn jp;dn ke;dr
 宮商角徵羽	gs;bk uh;wk jt;dy vi;rw yu;xx
 宮商角徵羽	gs;bk uh;wk jn;dy vi;rw yu;xx
 ### 错字

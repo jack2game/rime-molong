@@ -5580,6 +5580,35 @@ encoder:
 贼	zwb
 
 夔	kvq
+
+# 化学元素
+氢	och
+硼	ocb
+碳	occ
+氮	ocn
+氧	oco
+氟	ocf
+磷	ocp
+硫	ocs
+钾	ock
+钒	ocv
+钇	ocy
+碘	oci
+钨	ocw
+𬬻	ocrf
+𬭊	ocdb
+𬭳	ocsg
+𬭛	ocbh
+𬭶	ochs
+鿏	ocmt
+𫟼	ocds
+𬬭	ocrg
+鿔	occn
+𫓧	ocfl
+𫟷	oclv
+鿬	octs
+鿫	ocog
+铀	ocu
 # ⚠️ 請注意：機器轉換過程無法處理無理碼，這些編碼仍需手動處理（或刪除）
 
 版权	bjqr
@@ -133100,3 +133129,18 @@ encoder:
 这么厉害	vmlh
 这么无聊	vmwl
 智能手机	vnuj
+
+# 化学元素
+𬬻	ocrf
+𬭊	ocdb
+𬭳	ocsg
+𬭛	ocbh
+𬭶	ochs
+鿏	ocmt
+𫟼	ocds
+𬬭	ocrg
+鿔	occn
+𫓧	ocfl
+𫟷	oclv
+鿬	octs
+鿫	ocog

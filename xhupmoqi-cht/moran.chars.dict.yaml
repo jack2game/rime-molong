@@ -163,9 +163,9 @@ use_preset_vocabulary: false
 䦇	ji;ev	0
 䨺	dv;yy	0
 䨻	bg;yt	0
-䭇	ye;rk	0
-䭇	yi;rk	0
-䭍	hu;rm	0
+䭇	ye;uk	0
+䭇	yi;uk	0
+䭍	hu;um	0
 䯧	qk;wk	0
 䰜	li;gg	0
 䰧	hu;gj	0
@@ -374,7 +374,7 @@ use_preset_vocabulary: false
 互	hu;ah	2008
 亓	qi;aw	719
 五	wu;aw	13802
-井	jk;ca	2864
+井	jk;ac	2864
 亖	si;ee	479
 亗	sv;ue	412
 亘	gf;ad	150
@@ -5212,6 +5212,7 @@ use_preset_vocabulary: false
 崘	ly;uc	412
 崙	ly;uc	611
 崚	lg;uw	553
+崚	lk;uw	553
 崛	jt;ui	630
 崛	qu;ui	630
 崜	do;ut	275
@@ -18859,7 +18860,7 @@ use_preset_vocabulary: false
 蝔	gd;ib	188
 蝔	jp;ib	188
 蝔	kd;ib	188
-蝕	ui;ri	977
+蝕	ui;ui	977
 蝖	xr;id	215
 蝗	hl;iw	710
 蝘	yj;in	325
@@ -24451,161 +24452,161 @@ use_preset_vocabulary: false
 食	yi;rg	0
 飠	ui;rg	629
 飡	cj;dg	327
-飢	ji;rj	756
-飣	dk;rd	350
-飤	si;rr	0
-飥	to;rq	376
-飦	jm;rg	349
+飢	ji;uj	756
+飣	dk;ud	350
+飤	si;ur	0
+飥	to;uq	376
+飦	jm;ug	349
 飧	sy;xg	647
 飨	xl;xg	0
-飩	dy;rt	555
-飩	ty;rt	555
-飪	rf;rw	551
-飫	yu;ry	592
+飩	dy;ut	555
+飩	ty;ut	555
+飪	rf;uw	551
+飫	yu;uy	592
 飬	jr;jl	335
-飭	ii;rl	662
+飭	ii;ul	662
 飮	yb;uq	443
-飯	fj;ry	12079
-飰	fj;rb	322
+飯	fj;uy	12079
+飰	fj;ub	322
 飱	sy;dg	0
-飲	yb;rq	2846
-飳	tz;rv	433
-飳	vu;rv	433
-飴	yi;rk	622
-飵	ze;rv	325
-飵	zo;rv	325
-飶	bi;rb	235
-飷	jp;rq	300
+飲	yb;uq	2846
+飳	tz;uv	433
+飳	vu;uv	433
+飴	yi;uk	622
+飵	ze;uv	325
+飵	zo;uv	325
+飶	bi;ub	235
+飷	jp;uq	300
 飸	hc;kg	248
 飸	tc;kg	248
-飹	lq;re	160
+飹	lq;ue	160
 飺	ci;vg	238
-飻	tp;rp	201
-飻	vf;rp	201
-飼	si;rk	787
-飽	bc;rb	2197
-飾	ui;rj	2356
-飿	do;ri	267
-餀	ai;rx	372
-餀	hd;rx	372
-餁	rf;rw	304
-餂	tm;ru	354
-餃	jn;rf	716
-餄	he;rk	469
-餄	jx;rk	469
-餅	bk;rk	2064
-餆	yc;rv	282
-餇	ts;rk	348
+飻	tp;up	201
+飻	vf;up	201
+飼	si;uk	787
+飽	bc;ub	2197
+飾	ui;uj	2356
+飿	do;ui	267
+餀	ai;ux	372
+餀	hd;ux	372
+餁	rf;uw	304
+餂	tm;uu	354
+餃	jn;uf	716
+餄	he;uk	469
+餄	jx;uk	469
+餅	bk;uk	2064
+餆	yc;uv	282
+餇	ts;uk	348
 餈	ci;dg	25
-餉	xl;rk	711
+餉	xl;uk	711
 養	yh;yg	7927
 餋	jr;jg	280
-餌	er;re	825
+餌	er;ue	825
 餍	yj;ig	0
-餎	le;rk	465
-餏	xi;ry	197
+餎	le;uk	465
+餏	xi;uy	197
 餐	cj;dg	2071
-餑	bo;rz	524
-餒	nw;rn	594
-餓	ee;rw	9088
-餔	bu;rf	3
-餕	jy;rw	354
-餕	zy;rw	354
-餖	dz;rb	397
-餗	su;ru	2
-餘	yu;rm	4149
-餙	ui;rj	383
-餚	xn;ro	567
-餚	yc;ro	567
-餛	hy;rb	556
-餜	bk;rg	450
-餜	go;rg	450
-餝	ui;rf	255
-餞	jm;rg	525
-餟	io;ry	267
-餟	vv;ry	267
-餠	bk;rg	415
-餡	xm;rj	1166
-餢	bu;rk	253
-餣	ye;rd	240
-餤	dj;rh	398
-餤	tj;rh	398
+餑	bo;uz	524
+餒	nw;un	594
+餓	ee;uw	9088
+餔	bu;uf	3
+餕	jy;uw	354
+餕	zy;uw	354
+餖	dz;ub	397
+餗	su;uu	2
+餘	yu;um	4149
+餙	ui;uj	383
+餚	xn;uo	567
+餚	yc;uo	567
+餛	hy;ub	556
+餜	bk;ug	450
+餜	go;ug	450
+餝	ui;uf	255
+餞	jm;ug	525
+餟	io;uy	267
+餟	vv;uy	267
+餠	bk;ug	415
+餡	xm;uj	1166
+餢	bu;uk	253
+餣	ye;ud	240
+餤	dj;uh	398
+餤	tj;uh	398
 餥	fw;fg	399
-餦	vh;ri	0
-餧	ww;rn	318
-館	gr;rl	3248
-餩	ee;rr	305
-餪	nr;rd	224
-餫	hy;ri	296
-餫	yy;ri	296
-餬	hu;ro	66
-餭	hl;rw	0
+餦	vh;ui	0
+餧	ww;un	318
+館	gr;ul	3248
+餩	ee;ur	305
+餪	nr;ud	224
+餫	hy;ui	296
+餫	yy;ui	296
+餬	hu;uo	66
+餭	hl;uw	0
 餮	tp;dg	549
 餮	vf;dg	549
-餯	hv;ru	203
-餯	ir;ru	203
-餰	jm;rd	173
-餰	vj;rd	173
-餰	yj;rd	173
-餱	hz;ru	558
-餲	ai;rr	317
-餲	he;rr	317
-餳	th;rw	589
-餳	xk;rw	589
-餴	ff;rc	213
-餵	ww;ry	3525
-餶	gu;ro	302
-餷	ia;rd	520
-餸	ss;rt	0
-餹	th;rk	544
-餺	bo;rc	323
-餻	gc;rh	367
-餼	qi;rm	592
-餼	xi;rm	592
-餽	kv;rg	43
-餾	lq;rt	557
-餿	sz;ry	701
-饀	tc;rj	245
-饁	ye;rm	291
-饂	yy;rm	331
-饃	mo;rd	827
-饄	th;rt	348
-饅	mj;ry	556
-饆	bi;rf	254
-饇	ou;rk	210
-饇	yu;rk	210
-饈	xq;ri	644
-饉	jb;rw	565
-饊	sj;rw	532
-饋	kv;rb	711
-饌	vr;rg	621
-饍	uj;rk	284
-饎	ii;rk	278
-饎	xi;rk	278
+餯	hv;uu	203
+餯	ir;uu	203
+餰	jm;ud	173
+餰	vj;ud	173
+餰	yj;ud	173
+餱	hz;uu	558
+餲	ai;ur	317
+餲	he;ur	317
+餳	th;uw	589
+餳	xk;uw	589
+餴	ff;uc	213
+餵	ww;uy	3525
+餶	gu;uo	302
+餷	ia;ud	520
+餸	ss;ut	0
+餹	th;uk	544
+餺	bo;uc	323
+餻	gc;uh	367
+餼	qi;um	592
+餼	xi;um	592
+餽	kv;ug	43
+餾	lq;ut	557
+餿	sz;uy	701
+饀	tc;uj	245
+饁	ye;um	291
+饂	yy;um	331
+饃	mo;ud	827
+饄	th;ut	348
+饅	mj;uy	556
+饆	bi;uf	254
+饇	ou;uk	210
+饇	yu;uk	210
+饈	xq;ui	644
+饉	jb;uw	565
+饊	sj;uw	532
+饋	kv;ub	711
+饌	vr;ug	621
+饍	uj;uk	284
+饎	ii;uk	278
+饎	xi;uk	278
 饏	gj;eg	210
-饐	yi;rb	364
-饑	ji;rr	681
-饒	rc;rw	1484
-饓	ig;rm	179
+饐	yi;ub	364
+饑	ji;ur	681
+饒	rc;uw	1484
+饓	ig;um	179
 饔	ys;wg	613
 饕	hc;kg	640
 饕	tc;kg	640
-饖	hv;ru	171
-饖	sv;ru	171
+饖	hv;uu	171
+饖	sv;uu	171
 饗	xl;xg	690
-饘	tj;rd	1
-饘	vj;rd	1
-饙	ff;rb	220
-饚	ai;rm	332
-饚	hd;rm	332
-饛	mg;ru	344
+饘	tj;ud	1
+饘	vj;ud	1
+饙	ff;ub	220
+饚	ai;um	332
+饚	hd;um	332
+饛	mg;uu	344
 饜	yj;ig	586
-饝	mo;ru	244
-饞	ij;rt	1023
-饟	xl;rf	76
-饠	lo;rv	330
-饡	zd;rb	261
-饢	nh;ry	641
+饝	mo;uu	244
+饞	ij;ut	1023
+饟	xl;uf	76
+饠	lo;uv	330
+饡	zd;ub	261
+饢	nh;uy	641
 饣	ui;dl	0
 饤	dk;ud	0
 饥	ji;uj	0
@@ -33983,82 +33984,82 @@ use_preset_vocabulary: false
 䬟	lq;fd	0	# auto
 䬠	fw	0	# auto
 䬡	vu;lf	0	# auto
-䬣	xi;rv	0	# auto
-䬣	qi;rv	0	# auto
-䬣	ge;rv	0	# auto
+䬣	xi;uv	0	# auto
+䬣	qi;uv	0	# auto
+䬣	ge;uv	0	# auto
 䬤	vj;ug	0	# auto
 䬤	zj;ug	0	# auto
 䬥	yi;yg	0	# auto
-䬦	dz;ru	0	# auto
-䬦	ue;ru	0	# auto
-䬧	yr;ry	0	# auto
-䬨	jq;rj	0	# auto
-䬪	bo;rb	0	# auto
-䬫	ti;ru	0	# auto
-䬬	yk;ry	0	# auto
-䬮	yi;rr	0	# auto
-䬯	nm;rv	0	# auto
-䬯	tm;rv	0	# auto
-䬰	uc;rk	0	# auto
-䬱	bf;rb	0	# auto
+䬦	dz;uu	0	# auto
+䬦	ue;uu	0	# auto
+䬧	yr;uy	0	# auto
+䬨	jq;uj	0	# auto
+䬪	bo;ub	0	# auto
+䬫	ti;uu	0	# auto
+䬬	yk;uy	0	# auto
+䬮	yi;ur	0	# auto
+䬯	nm;uv	0	# auto
+䬯	tm;uv	0	# auto
+䬰	uc;uk	0	# auto
+䬱	bf;ub	0	# auto
 䬲	gz	0	# auto
-䬳	bj;rb	0	# auto
-䬴	mo;rw	0	# auto
-䬵	ai;rr	0	# auto
-䬵	gd;rr	0	# auto
-䬶	en;rg	0	# auto
-䬷	ue;rx	0	# auto
-䬹	vi;rt	0	# auto
-䬺	yh;ry	0	# auto
-䬻	jm;rj	0	# auto
-䬼	yr;ro	0	# auto
-䬽	uv;rx	0	# auto
-䬽	dv;rx	0	# auto
-䬾	ti;rd	0	# auto
-䬿	ww;rm	0	# auto
-䭀	xy;ru	0	# auto
+䬳	bj;ub	0	# auto
+䬴	mo;uw	0	# auto
+䬵	ai;ur	0	# auto
+䬵	gd;ur	0	# auto
+䬶	en;ug	0	# auto
+䬷	ue;ux	0	# auto
+䬹	vi;ut	0	# auto
+䬺	yh;uy	0	# auto
+䬻	jm;uj	0	# auto
+䬼	yr;uo	0	# auto
+䬽	uv;ux	0	# auto
+䬽	dv;ux	0	# auto
+䬾	ti;ud	0	# auto
+䬿	ww;um	0	# auto
+䭀	xy;uu	0	# auto
 䭁	vi;fg	0	# auto
-䭂	yi;rb	0	# auto
-䭃	np;rx	0	# auto
-䭃	rf;rx	0	# auto
-䭄	ui;ru	0	# auto
-䭅	hu;rg	0	# auto
+䭂	yi;ub	0	# auto
+䭃	np;ux	0	# auto
+䭃	rf;ux	0	# auto
+䭄	ui;uu	0	# auto
+䭅	hu;ug	0	# auto
 䭆	ne;ig	0	# auto
-䭈	jm;ry	0	# auto
-䭉	sv;ro	0	# auto
-䭊	yk;ry	0	# auto
-䭋	bc;rm	0	# auto
+䭈	jm;uy	0	# auto
+䭉	sv;uo	0	# auto
+䭊	yk;uy	0	# auto
+䭋	bc;um	0	# auto
 䭌	hu;gg	0	# auto
-䭎	ye;rm	0	# auto
-䭐	yh;rx	0	# auto
-䭑	lm;rj	0	# auto
-䭑	qm;rj	0	# auto
-䭑	xm;rj	0	# auto
+䭎	ye;um	0	# auto
+䭐	yh;ux	0	# auto
+䭑	lm;uj	0	# auto
+䭑	qm;uj	0	# auto
+䭑	xm;uj	0	# auto
 䭒	xi	0	# auto
-䭓	en;rb	0	# auto
+䭓	en;ub	0	# auto
 䭔	dv	0	# auto
 䭕	jm;ig	0	# auto
 䭕	zj;ig	0	# auto
-䭖	vu;rh	0	# auto
-䭗	yk;re	0	# auto
-䭘	yk;rx	0	# auto
-䭙	jm;ro	0	# auto
-䭙	jb;ro	0	# auto
-䭚	il;rl	0	# auto
-䭛	dj;rw	0	# auto
-䭝	kk;ro	0	# auto
-䭞	yi;rg	0	# auto
-䭟	ye;rm	0	# auto
-䭠	jm;rj	0	# auto
-䭡	en;rx	0	# auto
-䭢	nk;rd	0	# auto
-䭣	ci;ro	0	# auto
-䭤	qm;rl	0	# auto
-䭥	xt;rg	0	# auto
-䭦	bo;rc	0	# auto
-䭧	mi;rx	0	# auto
-䭨	uv;rk	0	# auto
-䭩	mo;rf	0	# auto
+䭖	vu;uh	0	# auto
+䭗	yk;ue	0	# auto
+䭘	yk;ux	0	# auto
+䭙	jm;uo	0	# auto
+䭙	jb;uo	0	# auto
+䭚	il;ul	0	# auto
+䭛	dj;uw	0	# auto
+䭝	kk;uo	0	# auto
+䭞	yi;ug	0	# auto
+䭟	ye;um	0	# auto
+䭠	jm;uj	0	# auto
+䭡	en;ux	0	# auto
+䭢	nk;ud	0	# auto
+䭣	ci;uo	0	# auto
+䭤	qm;ul	0	# auto
+䭥	xt;ug	0	# auto
+䭦	bo;uc	0	# auto
+䭧	mi;ux	0	# auto
+䭨	uv;uk	0	# auto
+䭩	mo;uf	0	# auto
 䭪	ll;ul	0	# auto
 䭫	qi;bz	0	# auto
 䭬	qi;bb	0	# auto
@@ -36059,7 +36060,7 @@ use_preset_vocabulary: false
 𡓦	vj;tt	0	# auto
 𡓭	mi;gt	0	# auto
 𡓰	kv;tk	0	# auto
-𡓷	do;rt	0	# auto
+𡓷	do;ut	0	# auto
 𡓿	yb;kt	0	# auto
 𡔇	lw;mt	0	# auto
 𡔕	gs;lt	0	# auto
@@ -46204,178 +46205,178 @@ use_preset_vocabulary: false
 𩙽	hr;sf	0	# auto
 𩙽	xr;sf	0	# auto
 𩙾	vi;nf	0	# auto
-𩚂	yi;rv	0	# auto
-𩚄	yu;ry	0	# auto
+𩚂	yi;uv	0	# auto
+𩚄	yu;uy	0	# auto
 𩚇	yi;rc	0	# auto
-𩚈	yt;ru	0	# auto
-𩚉	ii;ry	0	# auto
-𩚕	ql;rv	0	# auto
-𩚕	yb;rv	0	# auto
-𩚖	nq;ri	0	# auto
-𩚗	rs;rj	0	# auto
-𩚛	na;rn	0	# auto
-𩚣	tm;ro	0	# auto
-𩚥	ba;rb	0	# auto
-𩚪	er;ru	0	# auto
-𩚫	vg;rv	0	# auto
-𩚬	ee;rv	0	# auto
-𩚭	pz;rc	0	# auto
-𩚮	ji;rf	0	# auto
-𩚮	ni;rf	0	# auto
-𩚯	ni;rb	0	# auto
-𩚱	js;rk	0	# auto
-𩚲	jx;rj	0	# auto
-𩚵	gj;rg	0	# auto
-𩚹	lk;rs	0	# auto
+𩚈	yt;uu	0	# auto
+𩚉	ii;uy	0	# auto
+𩚕	ql;uv	0	# auto
+𩚕	yb;uv	0	# auto
+𩚖	nq;ui	0	# auto
+𩚗	rs;uj	0	# auto
+𩚛	na;un	0	# auto
+𩚣	tm;uo	0	# auto
+𩚥	ba;ub	0	# auto
+𩚪	er;uu	0	# auto
+𩚫	vg;uv	0	# auto
+𩚬	ee;uv	0	# auto
+𩚭	pz;uc	0	# auto
+𩚮	ji;uf	0	# auto
+𩚮	ni;uf	0	# auto
+𩚯	ni;ub	0	# auto
+𩚱	js;uk	0	# auto
+𩚲	jx;uj	0	# auto
+𩚵	gj;ug	0	# auto
+𩚹	lk;us	0	# auto
 𩚻	zv;vg	0	# auto
 𩚾	bw;bg	0	# auto
-𩛅	uu;rn	0	# auto
-𩛆	yi;ry	0	# auto
-𩛇	pd;rb	0	# auto
-𩛌	ui;rn	0	# auto
-𩛎	mj;rk	0	# auto
-𩛏	ui;rn	0	# auto
-𩛑	ti;rv	0	# auto
-𩛘	gs;rg	0	# auto
-𩛝	lw;rc	0	# auto
-𩛞	bc;rz	0	# auto
-𩛞	nw;rz	0	# auto
-𩛞	pn;rz	0	# auto
-𩛟	mj;re	0	# auto
-𩛟	yr;re	0	# auto
-𩛠	zo;rr	0	# auto
-𩛡	lh;rl	0	# auto
-𩛡	nh;rl	0	# auto
+𩛅	uu;un	0	# auto
+𩛆	yi;uy	0	# auto
+𩛇	pd;ub	0	# auto
+𩛌	ui;un	0	# auto
+𩛎	mj;uk	0	# auto
+𩛏	ui;un	0	# auto
+𩛑	ti;uv	0	# auto
+𩛘	gs;ug	0	# auto
+𩛝	lw;uc	0	# auto
+𩛞	bc;uz	0	# auto
+𩛞	nw;uz	0	# auto
+𩛞	pn;uz	0	# auto
+𩛟	mj;ue	0	# auto
+𩛟	yr;ue	0	# auto
+𩛠	zo;ur	0	# auto
+𩛡	lh;ul	0	# auto
+𩛡	nh;ul	0	# auto
 𩛢	xq;rg	0	# auto
-𩛦	ig;rw	0	# auto
-𩛧	jm;rg	0	# auto
-𩛨	mc;re	0	# auto
-𩛩	jx;rr	0	# auto
-𩛪	yu;rv	0	# auto
-𩛭	yu;ro	0	# auto
-𩛮	yi;rr	0	# auto
-𩛲	mh;rw	0	# auto
+𩛦	ig;uw	0	# auto
+𩛧	jm;ug	0	# auto
+𩛨	mc;ue	0	# auto
+𩛩	jx;ur	0	# auto
+𩛪	yu;uv	0	# auto
+𩛭	yu;uo	0	# auto
+𩛮	yi;ur	0	# auto
+𩛲	mh;uw	0	# auto
 𩛳	cj;mg	0	# auto
 𩛳	zd;mg	0	# auto
-𩛵	vv;rl	0	# auto
-𩛶	ti;rg	0	# auto
-𩛹	xi;rt	0	# auto
-𩛺	ju;rm	0	# auto
+𩛵	vv;ul	0	# auto
+𩛶	ti;ug	0	# auto
+𩛹	xi;ut	0	# auto
+𩛺	ju;um	0	# auto
 𩛻	vj;ug	0	# auto
 𩛻	zj;ug	0	# auto
 𩛻	zr;ug	0	# auto
-𩛼	lu;ru	0	# auto
-𩛽	tc;rf	0	# auto
-𩜀	dv;rt	0	# auto
-𩜀	vv;rt	0	# auto
-𩜁	lk;rw	0	# auto
-𩜃	ju;rb	0	# auto
-𩜆	ji;rj	0	# auto
-𩜇	jr;rv	0	# auto
-𩜊	zi;rt	0	# auto
-𩜌	yt;rv	0	# auto
-𩜍	ds;rd	0	# auto
+𩛼	lu;uu	0	# auto
+𩛽	tc;uf	0	# auto
+𩜀	dv;ut	0	# auto
+𩜀	vv;ut	0	# auto
+𩜁	lk;uw	0	# auto
+𩜃	ju;ub	0	# auto
+𩜆	ji;uj	0	# auto
+𩜇	jr;uv	0	# auto
+𩜊	zi;ut	0	# auto
+𩜌	yt;uv	0	# auto
+𩜍	ds;ud	0	# auto
 𩜒	nh;ng	0	# auto
-𩜖	is;rx	0	# auto
-𩜟	ah;re	0	# auto
+𩜖	is;ux	0	# auto
+𩜟	ah;ue	0	# auto
 𩜥	bo;dg	0	# auto
-𩜦	dk;rz	0	# auto
+𩜦	dk;uz	0	# auto
 𩜬	qr;ig	0	# auto
-𩜭	ke;rd	0	# auto
-𩜰	pi;rt	0	# auto
-𩜱	kj;rb	0	# auto
-𩜱	sj;rb	0	# auto
-𩜲	fu;rw	0	# auto
-𩜳	ys;rl	0	# auto
-𩜷	nq;rm	0	# auto
-𩜷	yz;rm	0	# auto
+𩜭	ke;ud	0	# auto
+𩜰	pi;ut	0	# auto
+𩜱	kj;ub	0	# auto
+𩜱	sj;ub	0	# auto
+𩜲	fu;uw	0	# auto
+𩜳	ys;ul	0	# auto
+𩜷	nq;um	0	# auto
+𩜷	yz;um	0	# auto
 𩜸	yc;pg	0	# auto
-𩜺	ye;rk	0	# auto
-𩜽	yj;rp	0	# auto
-𩝈	xm;rk	0	# auto
-𩝊	ti;rz	0	# auto
-𩝌	sv;ru	0	# auto
-𩝔	xu;ro	0	# auto
+𩜺	ye;uk	0	# auto
+𩜽	yj;up	0	# auto
+𩝈	xm;uk	0	# auto
+𩝊	ti;uz	0	# auto
+𩝌	sv;uu	0	# auto
+𩝔	xu;uo	0	# auto
 𩝕	wu;mg	0	# auto
 𩝖	cj;vg	0	# auto
-𩝗	yu;ry	0	# auto
-𩝚	ij;ri	0	# auto
-𩝛	xx;rk	0	# auto
-𩝝	gc;rk	0	# auto
-𩝝	kc;rk	0	# auto
-𩝞	ch;rk	0	# auto
-𩝟	ia;rj	0	# auto
-𩝣	da;rx	0	# auto
-𩝥	su;rx	0	# auto
-𩝨	hx;rb	0	# auto
-𩝷	wu;rh	0	# auto
-𩝸	yr;rt	0	# auto
-𩝽	jl;ri	0	# auto
-𩝾	xl;rk	0	# auto
-𩝿	vd;rg	0	# auto
-𩞀	cj;rp	0	# auto
-𩞀	if;rp	0	# auto
-𩞀	sj;rp	0	# auto
+𩝗	yu;uy	0	# auto
+𩝚	ij;ui	0	# auto
+𩝛	xx;uk	0	# auto
+𩝝	gc;uk	0	# auto
+𩝝	kc;uk	0	# auto
+𩝞	ch;uk	0	# auto
+𩝟	ia;uj	0	# auto
+𩝣	da;ux	0	# auto
+𩝥	su;ux	0	# auto
+𩝨	hx;ub	0	# auto
+𩝷	wu;uh	0	# auto
+𩝸	yr;ut	0	# auto
+𩝽	jl;ui	0	# auto
+𩝾	xl;uk	0	# auto
+𩝿	vd;ug	0	# auto
+𩞀	cj;up	0	# auto
+𩞀	if;up	0	# auto
+𩞀	sj;up	0	# auto
 𩞁	mi;gg	0	# auto
 𩞁	mo;gg	0	# auto
-𩞃	uh;rw	0	# auto
-𩞃	xl;rw	0	# auto
-𩞄	cc;ro	0	# auto
-𩞅	sv;rv	0	# auto
-𩞆	il;rz	0	# auto
+𩞃	uh;uw	0	# auto
+𩞃	xl;uw	0	# auto
+𩞄	cc;uo	0	# auto
+𩞅	sv;uv	0	# auto
+𩞆	il;uz	0	# auto
 𩞇	mi;lg	0	# auto
-𩞈	vu;ru	0	# auto
-𩞉	is;ru	0	# auto
-𩞊	ji;rw	0	# auto
-𩞋	is;ro	0	# auto
-𩞙	lm;ri	0	# auto
-𩞞	hd;rw	0	# auto
+𩞈	vu;uu	0	# auto
+𩞉	is;uu	0	# auto
+𩞊	ji;uw	0	# auto
+𩞋	is;uo	0	# auto
+𩞙	lm;ui	0	# auto
+𩞞	hd;uw	0	# auto
 𩞤	dy;wg	0	# auto
-𩞥	xl;rw	0	# auto
-𩞦	ig;ru	0	# auto
-𩞧	uh;ru	0	# auto
+𩞥	xl;uw	0	# auto
+𩞦	ig;uu	0	# auto
+𩞧	uh;uu	0	# auto
 𩞨	li;ig	0	# auto
-𩞩	hl;rb	0	# auto
-𩞬	dg;rb	0	# auto
+𩞩	hl;ub	0	# auto
+𩞬	dg;ub	0	# auto
 𩞯	ll	0	# auto
-𩞶	za;rf	0	# auto
+𩞶	za;uf	0	# auto
 𩞺	ho;kg	0	# auto
-𩞻	lb;rf	0	# auto
-𩞾	du;ri	0	# auto
-𩞾	yi;ri	0	# auto
-𩞿	hj;rx	0	# auto
-𩟀	ys;rv	0	# auto
-𩟁	xr;ry	0	# auto
-𩟁	yr;ry	0	# auto
-𩟂	go;rk	0	# auto
-𩟃	lk;rs	0	# auto
-𩟅	lm;rr	0	# auto
-𩟇	ao;rd	0	# auto
-𩟈	dh;rt	0	# auto
-𩟉	yi;rt	0	# auto
-𩟊	ns;ri	0	# auto
-𩟋	uj;rk	0	# auto
-𩟍	xb;rm	0	# auto
-𩟑	yu;rj	0	# auto
-𩟒	cj;rw	0	# auto
-𩟓	wo;ry	0	# auto
-𩟔	ia;ru	0	# auto
-𩟕	bo;rc	0	# auto
+𩞻	lb;uf	0	# auto
+𩞾	du;ui	0	# auto
+𩞾	yi;ui	0	# auto
+𩞿	hj;ux	0	# auto
+𩟀	ys;uv	0	# auto
+𩟁	xr;uy	0	# auto
+𩟁	yr;uy	0	# auto
+𩟂	go;uk	0	# auto
+𩟃	lk;us	0	# auto
+𩟅	lm;ur	0	# auto
+𩟇	ao;ud	0	# auto
+𩟈	dh;ut	0	# auto
+𩟉	yi;ut	0	# auto
+𩟊	ns;ui	0	# auto
+𩟋	uj;uk	0	# auto
+𩟍	xb;um	0	# auto
+𩟑	yu;uj	0	# auto
+𩟒	cj;uw	0	# auto
+𩟓	wo;uy	0	# auto
+𩟔	ia;uu	0	# auto
+𩟕	bo;uc	0	# auto
 𩟗	jm;dg	0	# auto
-𩟞	mg;rx	0	# auto
-𩟠	mo;ry	0	# auto
-𩟥	jr;rk	0	# auto
-𩟥	uv;rk	0	# auto
-𩟧	uo;rm	0	# auto
+𩟞	mg;ux	0	# auto
+𩟠	mo;uy	0	# auto
+𩟥	jr;uk	0	# auto
+𩟥	uv;uk	0	# auto
+𩟧	uo;um	0	# auto
 𩟨	ho;kg	0	# auto
-𩟭	ls;rl	0	# auto
-𩟮	hk;rx	0	# auto
-𩟰	to;rm	0	# auto
-𩟳	yu;rx	0	# auto
-𩟶	ij;rj	0	# auto
-𩟶	jp;rj	0	# auto
+𩟭	ls;ul	0	# auto
+𩟮	hk;ux	0	# auto
+𩟰	to;um	0	# auto
+𩟳	yu;ux	0	# auto
+𩟶	ij;uj	0	# auto
+𩟶	jp;uj	0	# auto
 𩟷	ys;vg	0	# auto
-𩟺	lj;rm	0	# auto
+𩟺	lj;um	0	# auto
 𩟿	na	0	# auto
 𩠀	ba	0	# auto
 𩠁	gj	0	# auto
@@ -47371,7 +47372,7 @@ use_preset_vocabulary: false
 𪂺	ji;dn	0	# auto
 𪂼	xl;mn	0	# auto
 𪂽	pf;fn	0	# auto
-𪂾	fu;rn	0	# auto
+𪂾	fu;un	0	# auto
 𪃂	lq;dn	0	# auto
 𪃄	sd;tn	0	# auto
 𪃅	xt;xn	0	# auto
@@ -48807,7 +48808,7 @@ use_preset_vocabulary: false
 𬔃	du	0	# auto
 𫇻	ii	0	# auto
 𠋌	tj	0	# auto
-𩝨	gx;rb	0	# auto
+𩝨	gx;ub	0	# auto
 𠍏	ii	0	# auto
 𦄫	su	0	# auto
 𡗖	mg	0	# auto
@@ -49483,7 +49484,7 @@ use_preset_vocabulary: false
 𣹒	mb;dt	0	# auto
 𥴁	vu	0	# auto
 𫣘	no	0	# auto
-𩜷	rz;rm	0	# auto
+𩜷	rz;um	0	# auto
 𡞾	yc;nn	0	# auto
 𬰏	yi	0	# auto
 𰔛	ln	0	# auto
@@ -50190,7 +50191,7 @@ use_preset_vocabulary: false
 𬇯	pj	0	# auto
 𧂹	xi	0	# auto
 𪠩	xu	0	# auto
-𩜵	tr;re	0	# auto
+𩜵	tr;ue	0	# auto
 𪹈	ui	0	# auto
 𨐐	yb;lv	0	# auto
 𱢪	ji	0	# auto
@@ -51494,7 +51495,7 @@ use_preset_vocabulary: false
 𬬥	nh	0	# auto
 𠼒	bf	0	# auto
 𫎲	ui	0	# auto
-𩝗	yy;ry	0	# auto
+𩝗	yy;uy	0	# auto
 𢭠	yi	0	# auto
 𦞵	xn	0	# auto
 𡣯	jp;ng	0	# auto
@@ -51821,7 +51822,7 @@ use_preset_vocabulary: false
 𥉠	mc	0	# auto
 𣉝	ss	0	# auto
 𬕛	ku	0	# auto
-𩝽	ql;ri	0	# auto
+𩝽	ql;ui	0	# auto
 𪨤	uj	0	# auto
 𫻕	pi	0	# auto
 𤀩	jm;iu	0	# auto
@@ -52188,7 +52189,7 @@ use_preset_vocabulary: false
 𦺑	bg;cm	0	# auto
 𥝗	qi	0	# auto
 𢶮	ma	0	# auto
-𡓉	do;rt	0	# auto
+𡓉	do;ut	0	# auto
 𡛄	do	0	# auto
 𩉝	gv;gw	0	# auto
 𦨹	ww	0	# auto
@@ -54146,7 +54147,7 @@ use_preset_vocabulary: false
 𢫆	bo	0	# auto
 𢫆	bf	0	# auto
 𢽑	xt	0	# auto
-𩝠	qq;rq	0	# auto
+𩝠	qq;uq	0	# auto
 𠚂	fz	0	# auto
 𠚂	zi	0	# auto
 𡰂	hv	0	# auto
@@ -54790,7 +54791,7 @@ use_preset_vocabulary: false
 𢜟	gh	0	# auto
 𠛘	li;dd	0	# auto
 𱪦	qm	0	# auto
-𩛋	nc;ru	0	# auto
+𩛋	nc;uu	0	# auto
 𪕕	is	0	# auto
 𤒿	an	0	# auto
 𩦖	vu	0	# auto
@@ -55107,7 +55108,7 @@ use_preset_vocabulary: false
 𲅒	wa	0	# auto
 𫇫	fu	0	# auto
 𬳃	bi	0	# auto
-𩛞	yr;rz	0	# auto
+𩛞	yr;uz	0	# auto
 𧎖	jr;iu	0	# auto
 𢰹	yt	0	# auto
 𨬛	vg	0	# auto
@@ -57442,7 +57443,7 @@ use_preset_vocabulary: false
 𢬉	ni	0	# auto
 𬫁	li	0	# auto
 𩡏	yu	0	# auto
-𩟟	ww;rm	0	# auto
+𩟟	ww;um	0	# auto
 𬞖	pk	0	# auto
 𫉭	ma	0	# auto
 𭙴	dj	0	# auto
@@ -79618,15 +79619,15 @@ use_preset_vocabulary: false
 𩜡	di	0	# auto
 𩜡	ti	0	# auto
 𩜢	yu	0	# auto
-𩜣	gg;rw	0	# auto
-𩜣	yh;rw	0	# auto
+𩜣	gg;uw	0	# auto
+𩜣	yh;uw	0	# auto
 𩜤	md	0	# auto
-𩜧	ww;rj	0	# auto
+𩜧	ww;uj	0	# auto
 𩜨	cj	0	# auto
 𩜩	yi	0	# auto
 𩜯	sz	0	# auto
 𩜴	ci	0	# auto
-𩜶	tz;rd	0	# auto
+𩜶	tz;ud	0	# auto
 𩜹	vr	0	# auto
 𩜻	tc	0	# auto
 𩜾	jm	0	# auto
@@ -79641,7 +79642,7 @@ use_preset_vocabulary: false
 𩝍	hz	0	# auto
 𩝎	ij	0	# auto
 𩝏	gc	0	# auto
-𩝐	ci;ry	0	# auto
+𩝐	ci;uy	0	# auto
 𩝒	bc	0	# auto
 𩝓	bc	0	# auto
 𩝘	jy	0	# auto
@@ -79705,17 +79706,17 @@ use_preset_vocabulary: false
 𩟄	xi	0	# auto
 𩟆	sv	0	# auto
 𩟌	zj	0	# auto
-𩟐	da;ry	0	# auto
+𩟐	da;uy	0	# auto
 𩟖	ij	0	# auto
 𩟘	vg	0	# auto
 𩟛	bo	0	# auto
 𩟜	lq	0	# auto
 𩟝	jb	0	# auto
 𩟣	ww	0	# auto
-𩟦	jp;rg	0	# auto
+𩟦	jp;ug	0	# auto
 𩟪	zj	0	# auto
-𩟫	io;ry	0	# auto
-𩟫	ik;ry	0	# auto
+𩟫	io;uy	0	# auto
+𩟫	ik;uy	0	# auto
 𩟯	ho	0	# auto
 𩟱	kv	0	# auto
 𩟲	ff	0	# auto
@@ -97261,6 +97262,3918 @@ use_preset_vocabulary: false
 𲎫	za	0	# auto
 𲎭	ls	0	# auto
 𢎧	nd	0
+吖	ya;ky	0
+呵	ke;kk	0
+㑸	yz;rk	0
+㑸	ai;rk	0
+㝶	de;sc	0
+䀳	ld;ou	0
+䀳	la;ou	0
+䅬	ye;hm	0
+䅬	yj;hm	0
+䑂	xi;ob	0
+堨	ye;tr	0
+娾	ee;nt	0
+嵦	ai;ub	0
+懝	yi;xz	0
+欬	ai;wq	0
+溰	ai;db	0
+溾	ai;dg	0
+焥	ai;hv	0
+硙	ww;uj	0
+硙	gd;uj	0
+絠	ai;so	0
+諰	ud;yx	0
+諰	ai;yx	0
+譺	ai;yz	0
+㱘	yj;iv	0
+㽢	ye;td	0
+䁆	yi;od	0
+䁆	an;od	0
+䎏	an;rx	0
+䨄	an;rv	0
+䬓	ah;fo	0
+䮗	yj;mg	0
+䮗	nq;mg	0
+偣	an;ro	0
+咹	an;kn	0
+屵	an;ui	0
+屽	an;ug	0
+广	an;di	0
+洝	yj;dn	0
+洝	ee;dn	0
+痷	ee;bd	0
+裺	an;pd	0
+㦹	yk;og	0
+㦹	ah;og	0
+㼜	pz;yw	0
+䍩	ah;yw	0
+䒢	yk;ce	0
+仰	ah;re	0
+㕭	bi;ky	0
+㠗	wo;ud	0
+㤇	wu;xy	0
+㤇	fo;xy	0
+䞝	ao;ty	0
+嚣	ao;kk	0
+墽	ao;tw	0
+岰	ao;ul	0
+扷	ba;fy	0
+摮	qn;fu	0
+梎	yz;mb	0
+梎	ao;mb	0
+泑	ao;dl	0
+澚	ao;dk	0
+熝	ao;hl	0
+眑	ao;ol	0
+磝	qn;uw	0
+艹	ao;al	0
+鏕	ao;jl	0
+𢲷	ao;ff	0
+㔜	bo;vl	0
+㖠	ba;ku	0
+㖠	no;ku	0
+㞎	fu;ub	0
+㞎	pa;ub	0
+䃻	pd;uo	0
+䎬	bw;lq	0
+䟦	yr;zy	0
+䟦	bo;zy	0
+䥯	bw;jb	0
+䥯	bd;jb	0
+䱝	ba;yu	0
+䳁	ba;ny	0
+䳁	yr;ny	0
+䳁	bb;ny	0
+叐	ba;py	0
+哱	ba;kz	0
+夿	ba;db	0
+妭	ba;ny	0
+柭	pw;my	0
+柭	fu;my	0
+柭	bp;my	0
+犮	qr;uy	0
+玐	ba;wb	0
+癹	ba;bu	0
+跁	pc;zb	0
+颰	fu;fy	0
+鮊	ba;yb	0
+鲌	bo;yb	0
+㗗	bd;ku	0
+㧳	bd;fu	0
+㧳	bo;fu	0
+㼟	bd;bw	0
+㼣	bd;bw	0
+㿟	jn;bb	0
+䴽	bd;lu	0
+庍	tk;gj	0
+挀	bd;fy	0
+擘	bd;uu	0
+猈	bd;qu	0
+瓸	wa;wb	0
+絔	mo;sb	0
+韛	bd;wy	0
+㩯	bj;fx	0
+㩯	pj;fx	0
+㸞	bj;pp	0
+䕰	bj;ct	0
+坢	bj;tb	0
+岅	bj;uy	0
+搫	bj;vu	0
+搫	po;vu	0
+朌	ff;of	0
+柈	bj;mb	0
+湴	pj;dy	0
+螁	bj;ig	0
+跘	bj;zb	0
+鳻	bj;fn	0
+㔙	bh;bl	0
+㔙	pg;bl	0
+㮄	bi;mf	0
+㮄	pg;mf	0
+㯁	bh;mk	0
+㾦	bh;bk	0
+㾦	pf;bk	0
+䂜	pw;uf	0
+䟺	bh;zb	0
+䰷	bo;yf	0
+彭	bh;tp	0
+挷	pg;fe	0
+棓	bw;mk	0
+硥	bh;up	0
+蛖	bh;ip	0
+㙸	pu;tf	0
+㙸	bo;tf	0
+㲏	bc;pm	0
+㲏	pn;pm	0
+㲏	pb;pm	0
+㲏	pk;pm	0
+㿺	bc;op	0
+䥤	fu;jb	0
+䨌	bo;yy	0
+䪨	qu;lu	0
+嚗	pc;ku	0
+嚗	bo;ku	0
+堡	bu;rt	0
+犳	bc;qu	0
+趵	bo;zu	0
+铇	pc;jb	0
+飹	bc;ue	0
+髱	bc;eb	0
+㓈	bw;du	0
+㓈	ye;du	0
+㓈	fw;du	0
+㛝	bg;nb	0
+㷶	bi;rh	0
+㸬	pw;nu	0
+㸬	fw;nu	0
+㼎	bw;gf	0
+㼎	ke;gf	0
+㾱	fu;be	0
+㾱	fj;be	0
+㾱	fw;be	0
+䁅	bi;om	0
+䁅	bw;om	0
+䋳	mi;so	0
+䠙	bw;zf	0
+䠙	pc;zf	0
+䡶	pi;ix	0
+勃	bw;ul	0
+庳	pi;gu	0
+昁	bw;ou	0
+杮	bw;mu	0
+杮	fw;mu	0
+柸	bw;mp	0
+棑	pw;mf	0
+棑	bw;mf	0
+箄	bw;vu	0
+苝	bw;cb	0
+誖	bo;yz	0
+諀	bw;yu	0
+鐾	bw;uj	0
+鞞	bi;gu	0
+鞞	bw;gu	0
+鞞	pi;gu	0
+骳	bw;gp	0
+骳	mo;gp	0
+㱵	bf;db	0
+喯	bf;kc	0
+坋	bf;tf	0
+栟	bf;mk	0
+桳	fj;mu	0
+漰	bf;do	0
+炃	bf;fh	0
+翉	bf;bx	0
+蟦	bf;ib	0
+㑟	pg;rb	0
+㑟	bo;rb	0
+㱶	qn;dp	0
+㱶	jn;dp	0
+㱶	ru;dp	0
+䋽	pg;sc	0
+嗙	bg;kf	0
+甏	bg;tw	0
+甮	fg;wy	0
+祊	fh;pf	0
+絣	pg;sk	0
+㓖	bp;df	0
+㗉	bi;fk	0
+㗊	bi;kk	0
+㗊	lw;kk	0
+㗊	qi;kk	0
+㘠	mi;kb	0
+㚕	bi;df	0
+㡙	pi;jb	0
+㢰	hr;gp	0
+㮰	bi;mb	0
+㱸	bp;dx	0
+㵥	mi;dm	0
+㵨	bi;uu	0
+㹃	bi;fn	0
+䇷	bi;vd	0
+䉾	mi;bm	0
+䕗	pw;cw	0
+䖩	pi;ib	0
+䟆	bo;tf	0
+䠋	ma;zu	0
+䣥	mi;yb	0
+䦘	bi;mg	0
+䨆	xu;xv	0
+䪐	pi;wb	0
+䬛	yu;ff	0
+䭮	bi;ez	0
+䵄	pg;lb	0
+䵄	fg;lb	0
+䵄	bo;lb	0
+佛	bo;rf	0
+吡	pi;kb	0
+啚	tu;kk	0
+娝	bi;nk	0
+崥	bi;uu	0
+怶	pi;xp	0
+旇	bi;fp	0
+旇	pi;fp	0
+柲	bp;mb	0
+榌	bi;mf	0
+毞	bi;bm	0
+畁	qi;yw	0
+畐	bi;at	0
+睥	pi;ou	0
+禆	bi;pu	0
+禆	pi;pu	0
+稫	pi;ht	0
+笓	bi;vb	0
+紕	bi;sb	0
+紴	bi;sp	0
+纰	bi;sb	0
+翍	bi;xp	0
+肶	bi;ob	0
+螕	pi;ib	0
+閈	bi;mg	0
+闬	bi;mg	0
+鞸	bk;gf	0
+髲	po;ep	0
+鶝	bi;an	0
+㲢	bp;hm	0
+㳎	fj;dc	0
+猵	pm;qc	0
+獱	pm;qb	0
+疺	bm;bf	0
+籓	bm;vt	0
+籓	pj;vt	0
+缏	pm;sg	0
+臱	bm;zf	0
+覵	bm;mj	0
+覵	jm;mj	0
+諚	bm;yz	0
+辺	dc;zd	0
+閞	gr;mc	0
+鞕	bm;gg	0
+鶣	bm;hn	0
+㯱	pn;gf	0
+㯱	bn;gf	0
+淲	bn;dj	0
+灬	bn;dd	0
+穮	pc;hh	0
+篻	bn;vu	0
+藨	pc;ch	0
+颩	dq;fp	0
+骠	bn;mu	0
+䉲	bp;vb	0
+䏟	bp;ob	0
+槟	bb;mb	0
+瑸	pm;yb	0
+璸	pm;wb	0
+砏	pb;uf	0
+頻	bb;vy	0
+频	bb;vy	0
+䈂	bk;vk	0
+䋑	bk;sn	0
+䓑	bk;ck	0
+䴵	vo;lk	0
+庰	pk;gk	0
+枋	bk;mf	0
+琕	bk;wu	0
+眪	fh;on	0
+誁	bk;yk	0
+鉼	pk;jk	0
+㖕	bo;kx	0
+㗘	fu;kc	0
+㝿	fu;yp	0
+㝿	qm;yp	0
+㩭	xn;fz	0
+㩭	jn;fz	0
+㱟	bo;dp	0
+㹀	bo;nz	0
+䊿	ku;sf	0
+䍨	bo;yu	0
+䒄	bo;vt	0
+䞳	fw;tk	0
+䢪	nu;zk	0
+䢪	qm;zk	0
+䢪	jn;zk	0
+䢪	cv;zk	0
+䪬	pu;lz	0
+䫊	bo;by	0
+䬪	fu;ub	0
+䮂	bo;my	0
+䵗	fu;ht	0
+仢	bo;ru	0
+僠	bo;rt	0
+噃	bo;kt	0
+壆	jt;jt	0
+彴	bo;ru	0
+擗	bo;fx	0
+桲	po;mz	0
+榑	bo;mc	0
+檘	pk;mx	0
+殕	bo;dk	0
+淿	bo;dj	0
+溊	bo;dy	0
+猼	po;qc	0
+瓟	bo;gb	0
+皪	lo;bm	0
+皪	bo;bm	0
+磻	bo;ut	0
+秡	bo;hy	0
+穛	bo;hh	0
+肑	di;ou	0
+苩	pa;cb	0
+蚾	pi;ip	0
+袹	bo;pb	0
+魄	bo;bg	0
+㨐	pw;fm	0
+䍌	fu;fk	0
+䒈	bu;vb	0
+䳝	fu;ln	0
+䳝	dn;ln	0
+䴝	bu;vy	0
+䴺	cd;lk	0
+䴺	ij;lk	0
+勏	bu;ll	0
+吥	bu;kb	0
+婄	pw;nk	0
+婄	bu;nk	0
+捗	vi;fu	0
+捗	pu;fu	0
+捬	bu;fc	0
+柨	pu;mj	0
+瓿	bu;lw	0
+箁	bu;vk	0
+誧	bu;yf	0
+踄	bu;zu	0
+錻	bu;jv	0
+鯆	pu;yf	0
+鸔	bu;nu	0
+䟃	zj;tp	0
+囃	za;kv	0
+拆	ca;fi	0
+礸	ca;ub	0
+扐	cd;fl	0
+扐	li;fl	0
+揌	zs;fx	0
+揌	cd;fx	0
+㘔	cj;kb	0
+㜗	iu;np	0
+㜗	xr;np	0
+㨻	uj;iu	0
+㨻	zj;iu	0
+㱚	uj;do	0
+㱚	hd;do	0
+㺑	cj;qp	0
+㽩	cc;tp	0
+䑶	cj;vo	0
+䗞	vj;ti	0
+䗞	zj;ti	0
+䗞	yb;ti	0
+䗞	uj;ti	0
+䗞	if;ti	0
+䫮	cj;ey	0
+䫮	ti;ey	0
+䬫	cj;uu	0
+䳻	ij;in	0
+䳻	dp;in	0
+叄	cj;ss	0
+叄	cf;ss	0
+叄	uf;ss	0
+囋	cj;kb	0
+囋	za;kb	0
+掺	xm;fp	0
+摲	cj;fj	0
+摲	ij;fj	0
+摻	xm;fp	0
+朁	qm;wo	0
+朁	jm;wo	0
+穇	cj;hp	0
+穇	cf;hp	0
+篸	cj;vp	0
+篸	zj;vp	0
+篸	cf;vp	0
+伧	if;rv	0
+傖	if;rk	0
+獊	ch;qk	0
+玱	ch;wv	0
+臧	ch;vi	0
+鶬	ql;rn	0
+傮	cc;ro	0
+屮	cc;kl	0
+慒	cc;xo	0
+懆	sc;xm	0
+鼜	cc;ti	0
+侧	ze;rd	0
+側	ze;rd	0
+夨	ce;vd	0
+拺	se;fu	0
+拺	io;fu	0
+栅	ui;mc	0
+栅	ce;mc	0
+畟	ji;tw	0
+簎	ji;vo	0
+粣	se;mc	0
+荝	ce;cd	0
+萴	ce;cd	0
+㻸	xb;wo	0
+㻸	cf;wo	0
+㻸	jb;wo	0
+䃡	cf;uo	0
+䅾	qb;ho	0
+䤁	ue;yb	0
+䤁	ie;yb	0
+䤁	yb;yb	0
+䨙	ya;yw	0
+䨙	yb;yw	0
+䯔	cf;gq	0
+笒	hj;vv	0
+笒	jb;vv	0
+曽	zg;bo	0
+橧	cg;mo	0
+竲	zg;lo	0
+㛳	ia;wn	0
+㢎	ze;gj	0
+㢎	ia;gj	0
+㢎	vd;gj	0
+㪯	qu;wf	0
+㪯	ju;wf	0
+㫅	ui;fw	0
+㫅	qi;fw	0
+䁟	do;og	0
+䆛	ia;bq	0
+䆛	ve;bq	0
+䊬	ia;hm	0
+䑘	ia;jg	0
+䡨	id;yi	0
+䡨	yb;yi	0
+䰈	ia;eg	0
+䲦	ia;nd	0
+䲦	di;nd	0
+䲦	to;nd	0
+仛	do;rq	0
+仛	to;rq	0
+嵖	ia;ud	0
+扱	ia;fj	0
+扱	qi;fj	0
+捈	uu;fm	0
+捈	ia;fm	0
+摖	ji;fu	0
+梌	ia;mm	0
+秅	na;hq	0
+芆	id;ci	0
+苴	ia;cq	0
+鎈	co;jg	0
+靫	ia;gi	0
+䓱	vd;cm	0
+肞	id;oi	0
+㙴	vj;tk	0
+㙻	zj;tt	0
+㙻	qp;tt	0
+㚲	uj;nv	0
+㵌	qs;do	0
+㵌	ij;do	0
+㹽	uj;qg	0
+㺥	tj;qt	0
+䠨	ma;zk	0
+䡪	ij;ix	0
+䩶	ig;gi	0
+僝	vj;rz	0
+僝	vr;rz	0
+啴	tj;ku	0
+啴	to;ku	0
+崭	ij;uj	0
+嶃	vj;uj	0
+斺	ij;fj	0
+斺	jp;fj	0
+梴	yj;mv	0
+欃	vj;mt	0
+燀	dj;hu	0
+緂	ij;sh	0
+緂	tm;sh	0
+繵	tj;sd	0
+苂	ij;ch	0
+螹	ij;ij	0
+蟐	ij;ij	0
+觇	ij;vj	0
+醦	if;yp	0
+镡	ij;ju	0
+镡	xb;ju	0
+顫	uj;wy	0
+颤	vj;wy	0
+㦂	th;xx	0
+㫤	vc;dy	0
+䕋	ih;ck	0
+仩	ih;ru	0
+倘	ih;rk	0
+淌	ih;dk	0
+玚	yh;wp	0
+闛	ih;mt	0
+𢠵	ih;xw	0
+㷅	mn;eh	0
+䄻	vc;hv	0
+䬤	ic;ug	0
+䬤	zo;ug	0
+劋	ic;kd	0
+槱	ic;mh	0
+樔	jn;mg	0
+焣	ic;eh	0
+牊	ic;pk	0
+窲	ic;bd	0
+窼	ic;bg	0
+鼌	vc;od	0
+㒤	ue;re	0
+㔭	ii;bz	0
+㔭	yi;bz	0
+㥉	ii;xk	0
+㨋	vf;fo	0
+㨋	le;fo	0
+㯙	ie;mw	0
+㱌	yj;eq	0
+䁤	ig;og	0
+䋲	xk;sd	0
+䋲	ve;sd	0
+䋲	ug;sd	0
+䑲	ie;vu	0
+䑲	vd;vu	0
+䛸	uj;yv	0
+䜠	vi;yb	0
+䧪	ve;en	0
+䨁	yu;mv	0
+䨁	ie;mv	0
+䰩	ii;lg	0
+伡	ju;ri	0
+奲	do;du	0
+揊	ie;ft	0
+摰	ie;tu	0
+烢	ie;hq	0
+烲	ie;fh	0
+焎	ie;fh	0
+聅	ie;eu	0
+㧱	na;ru	0
+㧱	tm;ru	0
+㧱	ni;ru	0
+䚘	if;ry	0
+䟢	nm;zx	0
+䟢	jm;zx	0
+䢈	qb;io	0
+䢻	tj;ie	0
+䢻	jb;ie	0
+䫖	ya;cy	0
+䫖	hv;cy	0
+䫖	nz;cy	0
+䫖	vu;cy	0
+䫖	tk;cy	0
+偁	if;rr	0
+愖	dj;xb	0
+愖	xb;xb	0
+爯	if;vr	0
+瘨	if;bb	0
+肜	if;op	0
+谌	uf;yb	0
+跈	if;zp	0
+跈	jm;zp	0
+㐼	vg;rc	0
+㞼	ve;lu	0
+㞼	ug;lu	0
+㨃	ig;fz	0
+䀕	ig;ol	0
+䆸	ig;bb	0
+䇸	zg;vw	0
+䇸	ug;vw	0
+䔲	vo;cb	0
+䗊	ig;ih	0
+䧕	yu;ea	0
+䫆	vg;iy	0
+净	ig;dy	0
+埩	ig;ty	0
+娍	ug;ni	0
+抢	ig;fv	0
+搶	ig;fk	0
+摚	ig;ft	0
+晿	ig;oo	0
+朾	ig;md	0
+橖	ig;mm	0
+檙	ig;mo	0
+淨	ig;dy	0
+瀓	dg;dw	0
+矃	ig;od	0
+碀	ig;uy	0
+罉	ig;fu	0
+鐣	ig;ju	0
+㒆	xn;rx	0
+㒆	xi;rx	0
+㒆	ke;rx	0
+㒆	yj;rx	0
+㓼	is;md	0
+㓾	ii;ud	0
+㔑	dc;cd	0
+㔑	qi;cd	0
+㔑	uv;cd	0
+㘜	iu;rk	0
+㘜	iz;rk	0
+㙜	td;wt	0
+㞿	qi;ux	0
+㟂	ii;um	0
+㱀	ik;bq	0
+㳏	ii;du	0
+㶴	ui;hx	0
+䇼	ii;vb	0
+䈕	ii;vz	0
+䐤	ii;og	0
+䐤	vj;og	0
+䐤	qi;og	0
+䑛	yi;uu	0
+䑛	ui;uu	0
+䔟	ii;cx	0
+䛂	ii;yc	0
+䜵	ui;dp	0
+䜻	ui;dz	0
+䮻	dc;mc	0
+䮻	dw;mc	0
+䶔	mb;vy	0
+䶵	ui;rj	0
+佁	ii;rk	0
+俿	hu;rj	0
+噭	ii;kw	0
+噭	qn;kw	0
+徲	ti;rn	0
+慸	di;cx	0
+拸	hd;fx	0
+攡	ii;fv	0
+柅	ii;mb	0
+柢	ii;mu	0
+歭	vi;vc	0
+殦	ii;dn	0
+沶	ii;du	0
+狋	ii;qu	0
+狋	qr;qu	0
+痓	vi;bt	0
+瘈	ii;bd	0
+箈	td;vk	0
+絺	vi;sj	0
+翨	ii;xz	0
+耛	si;lk	0
+胵	ii;ot	0
+腟	ii;ot	0
+菭	ii;ck	0
+菭	vi;ck	0
+袳	no;px	0
+誃	yi;yx	0
+迡	ii;zb	0
+邌	ii;zu	0
+銐	ii;dj	0
+銐	li;dj	0
+鶗	ii;on	0
+鶙	ii;wn	0
+㹐	vz;rn	0
+䡴	il;il	0
+埫	uh;tk	0
+徸	is;rl	0
+揰	ds;fv	0
+痋	tg;bi	0
+緟	is;sv	0
+褈	is;pv	0
+㛶	iz;nh	0
+㨶	vz;fn	0
+㨶	iz;fn	0
+䇺	iz;vb	0
+偢	qn;rh	0
+嚋	iz;kc	0
+怞	iz;xy	0
+掫	vz;fy	0
+掫	iz;fy	0
+搊	zz;fc	0
+梼	dc;mc	0
+梼	iz;mc	0
+椆	vz;mk	0
+椆	dn;mk	0
+檮	dc;mc	0
+檮	iz;mc	0
+牰	iz;ny	0
+畤	iz;tc	0
+盩	iz;tm	0
+薵	vz;cc	0
+裯	dc;pk	0
+诪	iz;yc	0
+跾	iz;rz	0
+醔	iz;hy	0
+雦	iz;rv	0
+鮘	iz;yy	0
+㗰	iu;kz	0
+㤘	cu;xe	0
+㤘	iu;xe	0
+㯉	iu;mh	0
+㹼	iu;qm	0
+㹼	yu;qm	0
+㼥	iu;lw	0
+䎝	vu;lx	0
+䎤	iu;lk	0
+䙕	iu;pz	0
+䦌	rv;mt	0
+䦌	po;mt	0
+䧁	iu;ej	0
+䮞	iu;mo	0
+助	iu;ql	0
+埱	iu;ty	0
+埱	tz;ty	0
+慉	iu;xt	0
+摴	iu;fk	0
+敊	uz;uy	0
+橻	cu;mi	0
+櫖	iu;mx	0
+欪	qu;iq	0
+欪	iu;iq	0
+泏	ue;di	0
+滀	xu;dt	0
+珿	iu;wz	0
+竐	iu;lu	0
+竐	qi;lu	0
+耝	qu;lq	0
+菆	iu;cy	0
+藸	vu;co	0
+諔	ji;yy	0
+䵵	va;vh	0
+䦟	ik;mr	0
+䦤	wf;my	0
+䦷	wf;mr	0
+啜	ik;ky	0
+揣	tr;fe	0
+揣	vv;fe	0
+膪	ik;ok	0
+剶	ir;hd	0
+膞	ir;oc	0
+膞	iy;oc	0
+舡	ir;vg	0
+鶨	ir;hn	0
+鶨	vi;hn	0
+㵂	il;dh	0
+䎫	zs;lw	0
+䭚	ne;ul	0
+喠	il;kv	0
+朣	il;ol	0
+㓃	iv;bq	0
+㓃	va;bq	0
+㝽	vv;yu	0
+㝽	uv;yu	0
+㥨	iv;nx	0
+㩾	iv;qv	0
+䄲	iv;hn	0
+䞼	mw;tu	0
+䞼	jm;tu	0
+䞼	cr;tu	0
+䳠	iv;qn	0
+䳠	rv;qn	0
+惙	iv;xy	0
+硾	do;ut	0
+㝄	qi;wt	0
+㝄	ry;wt	0
+㵮	wf;dg	0
+䄝	iy;pj	0
+䏝	iy;ov	0
+䏰	iy;ox	0
+䞐	uy;bo	0
+䡅	xm;ii	0
+䡅	vf;ii	0
+䡅	mb;ii	0
+䡅	zr;ii	0
+朐	iy;oj	0
+朐	xu;oj	0
+槆	iy;mo	0
+淳	vy;dz	0
+犉	iy;nz	0
+瑃	iy;wo	0
+肫	iy;ot	0
+芚	iy;ct	0
+賰	iy;bo	0
+㲋	zu;db	0
+㲋	vo;db	0
+䂐	io;ui	0
+䃗	io;ud	0
+䄪	io;hu	0
+䆯	io;bn	0
+䇍	io;lz	0
+䋘	vv;sl	0
+䮕	io;my	0
+哾	io;kx	0
+婥	nc;nu	0
+孎	io;ni	0
+淖	io;du	0
+淖	vo;du	0
+箹	io;vu	0
+箹	yc;vu	0
+趠	vo;tu	0
+踀	io;zz	0
+鋜	vo;jz	0
+鏃	io;ju	0
+㘹	ci;vt	0
+㡹	ci;gq	0
+㢀	zi;gu	0
+㩞	ci;fm	0
+㹂	ci;in	0
+䆅	ci;hb	0
+䆅	ji;hb	0
+䓧	ji;ca	0
+䦻	ci;ez	0
+䨏	ci;yq	0
+䰍	xq;eu	0
+䰍	qi;eu	0
+兹	ci;by	0
+呰	ci;vk	0
+啙	ci;vk	0
+垐	ci;dt	0
+縒	so;sg	0
+縒	ci;sg	0
+茦	ci;cu	0
+鮆	ci;vy	0
+齹	ci;yr	0
+徔	cs;rv	0
+愡	cs;xx	0
+愡	ss;xx	0
+憁	cs;xx	0
+棇	ss;mx	0
+楤	ss;mx	0
+樅	zs;mz	0
+漎	ss;dz	0
+潀	zs;dr	0
+潈	cs;du	0
+潨	zs;du	0
+焧	cs;hx	0
+㫶	cz;oj	0
+傶	cz;rx	0
+㰗	cu;mz	0
+䎌	cu;xz	0
+䙯	vo;pz	0
+䠓	qu;zy	0
+䠓	jq;zy	0
+䠞	qi;zx	0
+䥄	zj;jo	0
+䥘	co;jo	0
+䬨	cu;uj	0
+䬨	zu;uj	0
+噈	he;ky	0
+噈	za;ky	0
+媨	cu;ny	0
+怚	cu;xq	0
+怚	zu;xq	0
+脨	cu;ou	0
+踿	cu;zh	0
+蹴	jq;zy	0
+㭫	vf;mr	0
+㵀	cr;du	0
+䆘	cr;bj	0
+䰖	cr;eb	0
+濽	cr;db	0
+灒	cr;db	0
+窽	cr;bq	0
+鋑	jm;jw	0
+㥞	qm;xu	0
+㥞	cv;xu	0
+㧘	nc;vu	0
+㧘	cv;vu	0
+㷃	cv;hi	0
+㷪	zr;hn	0
+䂱	cv;ux	0
+䃀	xy;un	0
+䊫	mi;mf	0
+倅	zu;ru	0
+啐	qi;ku	0
+嵟	cv;uv	0
+椊	zu;mu	0
+槯	vi;mv	0
+獕	so;qv	0
+琗	se;wu	0
+疩	cv;bu	0
+縗	sv;sv	0
+缞	uk;sv	0
+缞	sv;sv	0
+隹	ww;rv	0
+隹	cv;rv	0
+侟	cy;rz	0
+吋	dz;kc	0
+拵	zy;fz	0
+膥	cy;wr	0
+䐣	co;ob	0
+䱜	qt;yo	0
+䴾	vf;lg	0
+䴾	ye;lg	0
+䴾	zi;lg	0
+夎	co;tw	0
+睉	vk;or	0
+諎	va;yo	0
+諎	co;yo	0
+諎	zo;yo	0
+酂	zj;ne	0
+酇	co;ne	0
+㯚	da;mk	0
+䐊	da;ob	0
+䑽	da;vx	0
+䵣	vj;ld	0
+呾	dj;kd	0
+惮	da;xu	0
+憚	da;xu	0
+汏	da;dd	0
+汏	td;dd	0
+沓	da;uo	0
+畗	da;wt	0
+眔	da;sx	0
+笚	da;vj	0
+笚	na;vj	0
+羍	da;dy	0
+迖	da;zq	0
+迚	da;zv	0
+鎉	da;jx	0
+㐲	fu;rd	0
+㫹	dd;oj	0
+㫹	yu;oj	0
+㶡	zo;jh	0
+曃	dd;ol	0
+棣	dd;ml	0
+毒	dd;fm	0
+箉	dd;vl	0
+蚮	dd;iy	0
+蚮	de;iy	0
+蝳	dd;im	0
+詒	dd;yk	0
+诒	dd;yk	0
+貣	dd;yb	0
+㫜	dj;od	0
+㱽	dj;bu	0
+㵅	dj;db	0
+㺗	dj;qu	0
+㺗	yj;qu	0
+㽎	dj;ce	0
+䄷	dj;hu	0
+䄷	dn;hu	0
+䉷	dj;vw	0
+䉷	jb;vw	0
+䨢	tj;yb	0
+䨢	di;yb	0
+䨢	gc;yb	0
+䱋	dj;yg	0
+䳉	ds;dn	0
+伔	dj;rj	0
+唌	dj;kv	0
+噡	dj;kk	0
+惔	dj;xh	0
+抌	dj;fe	0
+抌	uf;fe	0
+掸	uj;fu	0
+皽	dj;wp	0
+皽	vc;wp	0
+禫	dj;pu	0
+訑	dj;yy	0
+饏	dj;eg	0
+黮	dj;lb	0
+黮	uf;lb	0
+黵	vj;lk	0
+䣣	dc;xe	0
+愓	yh;xw	0
+愓	th;xw	0
+潒	dh;du	0
+灙	th;dh	0
+䧂	tn;ek	0
+䧂	vc;ek	0
+䲽	dc;un	0
+嘄	dc;km	0
+焘	tc;fh	0
+絩	dc;sv	0
+絩	dn;sv	0
+翢	vz;kx	0
+翢	dc;kx	0
+艔	dc;vy	0
+螩	dc;im	0
+㥁	vi;vx	0
+㥁	vz;vx	0
+䙷	ve;jc	0
+嘚	dw;kc	0
+旳	de;ou	0
+棏	de;mc	0
+扥	df;fb	0
+扽	df;ft	0
+㡳	di;gu	0
+㡳	ve;gu	0
+㹍	du;ng	0
+䀸	vi;fo	0
+䀸	di;fo	0
+䂡	vi;uq	0
+䊮	ve;mv	0
+䏑	di;xr	0
+䑭	vi;vg	0
+䞶	di;tw	0
+䩚	dm;gu	0
+䮤	di;mv	0
+䱃	di;yf	0
+䶍	ti;gw	0
+䶍	di;gw	0
+哋	dp;ky	0
+坔	lj;ut	0
+埅	di;et	0
+墆	vi;tj	0
+奃	ti;du	0
+岻	di;uu	0
+弟	tv;bd	0
+扚	yt;fu	0
+扚	li;fu	0
+扚	di;fu	0
+揥	di;fj	0
+摕	vi;fj	0
+杕	do;md	0
+枑	di;mh	0
+枤	di;mq	0
+楴	ui;mj	0
+浟	di;dw	0
+渧	ti;dj	0
+疐	di;uz	0
+眱	di;oy	0
+碮	di;uz	0
+秪	di;hu	0
+篴	vu;vu	0
+聜	vi;eg	0
+苐	ti;cd	0
+蓧	tn;cm	0
+蓧	di;cm	0
+蝭	di;iz	0
+諟	di;yz	0
+遆	di;zj	0
+鉪	di;ju	0
+髢	di;ey	0
+㝪	dk;bw	0
+㥆	dm;xl	0
+㵤	dm;dr	0
+㵤	xx;dr	0
+㼭	nn;tw	0
+䧃	dm;et	0
+佔	dm;rv	0
+槙	vf;mb	0
+橝	dm;mu	0
+甸	tm;bt	0
+甸	ug;bt	0
+痁	uj;bv	0
+窴	dm;bb	0
+窴	yj;bb	0
+蒧	dm;cv	0
+跕	tp;zv	0
+跕	dm;zv	0
+㹿	dn;qu	0
+䂪	tn;uv	0
+䂽	yi;uu	0
+䠼	dn;ud	0
+䠼	vu;ud	0
+䠼	xt;ud	0
+䵲	dn;lm	0
+盄	dn;dm	0
+瞗	dz;on	0
+藋	vo;cv	0
+调	vz;yk	0
+銚	tn;jv	0
+铫	tn;jv	0
+雿	dn;yv	0
+鳭	vc;dn	0
+鸟	dn;na	0
+𨍳	dn;if	0
+㑙	ys;rv	0
+㩹	va;fq	0
+㫼	vi;od	0
+㫼	ve;od	0
+㬪	vi;oh	0
+㭯	na;mv	0
+㲲	yi;tm	0
+㷸	ye;hf	0
+㻡	jt;wm	0
+䘭	dp;pt	0
+䙝	dp;yw	0
+䞇	vi;tb	0
+䞕	xp;ie	0
+䞕	na;ie	0
+䞕	np;ie	0
+䞕	dp;ie	0
+䠟	ue;tz	0
+䮢	dp;mj	0
+䲀	zz;ty	0
+䲀	sv;ty	0
+䲀	dp;ty	0
+佚	dp;rf	0
+啑	ti;kz	0
+啑	dp;kz	0
+喋	va;km	0
+崼	dp;uz	0
+怢	dp;xf	0
+挕	ue;fe	0
+揲	ye;fm	0
+槢	dp;mb	0
+泆	dp;df	0
+牃	dp;pm	0
+眣	ti;of	0
+眰	vi;ot	0
+臷	vi;gt	0
+螲	vi;it	0
+趃	tu;tf	0
+跮	dp;zt	0
+軼	dp;if	0
+鴩	dp;pn	0
+㼗	dk;dw	0
+奵	tm;nd	0
+忊	tk;xd	0
+濎	tk;do	0
+甼	dk;td	0
+艼	dk;cd	0
+㜱	ds;nb	0
+䅍	ds;hw	0
+垌	ds;tk	0
+墥	tr;tl	0
+烔	ds;hk	0
+燑	ds;hl	0
+狪	ds;qk	0
+絧	ds;sk	0
+㷆	dz;hu	0
+䕱	dz;cy	0
+䛠	xl;yb	0
+吺	ru;ku	0
+毭	no;dm	0
+渎	dz;dd	0
+瀆	dz;db	0
+狵	mh;qp	0
+酘	dz;yu	0
+鈄	dz;jd	0
+鋀	tu;jb	0
+鋀	tz;jb	0
+钭	dz;jd	0
+䄍	du;po	0
+䄍	do;po	0
+䅊	du;hq	0
+䙱	uu;pi	0
+䢱	va;zb	0
+䲧	uv;tn	0
+剢	du;ud	0
+姤	du;nk	0
+晵	du;ho	0
+暏	du;oo	0
+芏	du;ct	0
+豄	du;gb	0
+顿	du;ty	0
+剬	vi;ud	0
+㠚	vo;uc	0
+㵽	dv;dt	0
+䇤	dv;vn	0
+䇤	su;vn	0
+䔪	dv;cr	0
+䨴	wg;yc	0
+兊	rv;ge	0
+兌	rv;bx	0
+兑	rv;bx	0
+啍	vy;kz	0
+憞	ty;xw	0
+敓	dv;bw	0
+敚	dv;bw	0
+杸	dv;mu	0
+瀢	dv;db	0
+镦	dv;jw	0
+隊	vv;eu	0
+鴭	dv;pn	0
+𠂤	dv;pl	0
+㬿	dy;ow	0
+墫	dy;tc	0
+忳	dy;xt	0
+忳	vy;xt	0
+㔍	do;vd	0
+㖼	mz;km	0
+㖼	lb;km	0
+㧷	do;fk	0
+㻔	rv;wt	0
+㻧	he;wm	0
+䍴	rv;yn	0
+䍴	do;yn	0
+䙃	pj;po	0
+䙃	ko;po	0
+䙃	rr;po	0
+䙟	do;pf	0
+䩣	tv;gm	0
+䩣	do;gm	0
+喥	va;ky	0
+堕	hv;et	0
+媠	do;no	0
+敠	qt;yy	0
+敪	qt;yw	0
+杝	li;my	0
+杝	do;my	0
+杝	to;my	0
+柂	li;my	0
+柂	do;my	0
+柮	wu;mi	0
+柮	zo;mi	0
+沰	do;du	0
+沲	do;dy	0
+隋	do;eo	0
+隓	do;eg	0
+隳	do;ex	0
+㕎	ky;im	0
+㕎	ee;im	0
+㟧	xy;uk	0
+㟧	np;uk	0
+㡋	ee;jd	0
+㱦	ee;dk	0
+㱦	gv;dk	0
+㱦	ji;dk	0
+㼂	yr;jy	0
+㼂	wf;jy	0
+㼢	ee;iw	0
+㼰	ee;pw	0
+䓊	ee;ck	0
+䔾	ze;cr	0
+䛖	yi;yy	0
+䞩	rv;tk	0
+䳬	yc;gn	0
+䳬	yi;gn	0
+姶	ya;nk	0
+廅	ee;gm	0
+搕	ee;fm	0
+敋	go;ww	0
+敋	ee;ww	0
+砈	ee;uv	0
+硆	ee;uk	0
+礘	ee;uh	0
+遌	ee;zk	0
+阏	yj;md	0
+诶	xi;yu	0
+䊐	hx;mb	0
+䊐	hr;mb	0
+䊐	en;mb	0
+䭓	wf;ub	0
+䭡	wf;ux	0
+奀	en;bd	0
+煾	yy;hx	0
+煾	en;hx	0
+㚷	nd;nx	0
+㜨	er;nn	0
+㮕	er;md	0
+䎟	no;ne	0
+䮘	ni;me	0
+䮘	pd;me	0
+䮘	po;me	0
+佴	nd;re	0
+唲	wa;ke	0
+杒	er;mr	0
+梕	er;mx	0
+耏	nd;ep	0
+髶	er;ee	0
+㳒	fa;ds	0
+䒥	lq;cj	0
+䒥	fa;cj	0
+冹	fa;dy	0
+墢	fa;tu	0
+峜	fa;uv	0
+峜	ji;uv	0
+笩	fa;vy	0
+蕟	fa;cu	0
+酦	fa;yy	0
+醗	fa;ye	0
+醱	fa;yu	0
+㜶	fj;nt	0
+㝃	fj;ze	0
+㼝	wj;xw	0
+㽹	wj;by	0
+䀟	fj;of	0
+䀟	ff;of	0
+䉊	fh;vi	0
+䋣	pj;px	0
+䐪	jr;on	0
+䡊	pw;iy	0
+婏	fj;nt	0
+嬎	fj;nu	0
+払	fj;fs	0
+拚	fj;fc	0
+犿	fj;qb	0
+膰	pj;ot	0
+軓	gv;if	0
+㑂	ph;rn	0
+㧍	fh;ff	0
+㯐	to;em	0
+䢍	ff;zf	0
+䦈	hj;eg	0
+䦈	mz;eg	0
+䦈	za;eg	0
+䦈	fh;eg	0
+䦈	ji;eg	0
+趽	ph;zf	0
+㭭	fw;md	0
+朏	ku;oi	0
+柹	fw;md	0
+橨	fw;mb	0
+犻	pw;qu	0
+犻	fw;qu	0
+笰	fw;vf	0
+胏	fw;od	0
+胐	fw;oi	0
+㖹	ff;km	0
+㮥	ff;mt	0
+䯨	ff;wd	0
+瞓	ff;oi	0
+㡝	fu;jf	0
+㦀	fg;xf	0
+䏎	hj;of	0
+䒠	xx;cf	0
+夆	ph;wf	0
+摓	pg;ff	0
+浲	hs;df	0
+溄	hs;df	0
+炐	fg;hf	0
+熢	pg;hf	0
+莑	pg;cf	0
+仸	fo;ry	0
+㓡	fz;fd	0
+䳕	fz;vn	0
+炰	fz;bh	0
+㕮	tn;kf	0
+㜑	po;dn	0
+㵗	fu;du	0
+㵗	pj;du	0
+䂤	hd;uc	0
+䃽	si;pv	0
+䌿	ji;st	0
+䍖	hd;sb	0
+䍖	xp;sb	0
+䎅	lo;bx	0
+䎅	fu;bx	0
+䒀	fu;vc	0
+䓛	fu;ci	0
+䓛	gu;ci	0
+䗄	pi;ij	0
+䘄	fu;li	0
+䘠	po;px	0
+䭸	fu;mf	0
+䯽	fu;ek	0
+垺	pz;tz	0
+峊	np;pu	0
+抙	fu;fu	0
+捊	fu;fz	0
+棴	su;my	0
+烰	pc;hz	0
+秿	pu;hf	0
+纀	fu;sf	0
+胕	vz;oc	0
+芣	fu;cb	0
+蓲	fu;ck	0
+蓲	xu;ck	0
+襆	fu;pf	0
+襥	fu;pf	0
+豧	fu;uf	0
+阝	fu;vl	0
+鬴	fu;gf	0
+鳺	gv;fn	0
+呷	ga;kj	0
+夹	ga;ar	0
+夾	ga;dr	0
+夾	xx;dr	0
+朒	ga;or	0
+㕢	nz;bb	0
+㕢	ju;bb	0
+㕢	ly;bb	0
+㧉	kv;fq	0
+㮣	ze;gm	0
+䏗	kv;oq	0
+匃	gd;br	0
+郂	hd;we	0
+㺂	jm;qk	0
+䔈	nz;cb	0
+䔈	gj;cb	0
+仠	hj;rg	0
+咁	xm;kg	0
+忓	hj;xg	0
+攼	hj;gw	0
+旰	hj;og	0
+澸	gj;dx	0
+笴	gj;vk	0
+篢	ls;vb	0
+篢	gj;vb	0
+鳱	yj;gn	0
+鳱	hj;gn	0
+𥰟	ls;vy	0
+𥰟	gj;vy	0
+港	jl;ds	0
+焹	gh;hw	0
+牨	gh;nj	0
+犺	gh;qj	0
+矼	ks;ug	0
+碙	nc;uu	0
+䗣	gc;gi	0
+峼	gc;uk	0
+皋	hc;bu	0
+皐	yc;bu	0
+睪	ze;sg	0
+羙	gc;yh	0
+㗆	kd;kg	0
+㝓	ge;bk	0
+㦴	qx;gk	0
+㨰	ho;fg	0
+㨰	ge;fg	0
+㨰	hy;fg	0
+㨰	jp;fg	0
+㭘	he;mk	0
+㷴	ge;ih	0
+䆟	ge;bk	0
+䐙	yi;og	0
+䕻	ge;cl	0
+䗘	ke;im	0
+䘁	ke;gi	0
+䘁	jp;gi	0
+䛋	ge;yw	0
+䢔	jx;zk	0
+䢔	ge;zk	0
+䨣	gg;yg	0
+亇	ma;dl	0
+吤	ge;kj	0
+哿	jx;lk	0
+扢	ge;fv	0
+扢	jp;fv	0
+牫	qq;ng	0
+犵	ge;qv	0
+猲	hd;qr	0
+猲	ge;qr	0
+獦	xp;qr	0
+獦	lp;qr	0
+蛒	lo;ik	0
+裓	jp;pc	0
+鎑	ge;jm	0
+鎑	ta;jm	0
+镉	li;jg	0
+鞈	ta;gk	0
+鞈	sa;gk	0
+鞷	ge;gg	0
+颌	ge;ry	0
+饹	ge;uk	0
+鮥	ge;yk	0
+鲄	ge;yk	0
+揯	gf;fh	0
+搄	gf;fd	0
+掶	jp;fr	0
+暅	gg;od	0
+絙	gg;sd	0
+颈	gg;jy	0
+㤨	qs;xg	0
+䢚	gs;zg	0
+唝	hs;kb	0
+愩	hs;xb	0
+慐	hs;gx	0
+澒	gs;dy	0
+红	gs;sg	0
+蚣	vs;ig	0
+銾	hs;ju	0
+龏	wo;lc	0
+㨌	ru;tu	0
+㳶	gz;dv	0
+䞀	gz;bu	0
+䞀	mb;bu	0
+呴	gz;kj	0
+啂	gz;kv	0
+拘	gz;fj	0
+痀	gz;bj	0
+糓	gz;tu	0
+蚼	xu;ij	0
+㧽	hu;fg	0
+㼋	mz;gg	0
+㼋	jq;gg	0
+䀇	qt;gm	0
+䀜	mw;wo	0
+䀜	xt;wo	0
+䀰	yk;og	0
+䊺	gu;sh	0
+䍍	gl;tf	0
+䍍	gu;tf	0
+䡩	hz;ib	0
+䡩	tz;ib	0
+䡩	gu;ib	0
+䵻	hu;px	0
+䵻	hv;px	0
+啒	gu;ki	0
+夃	yk;ny	0
+巬	gu;gf	0
+巭	gu;gf	0
+怘	hu;gx	0
+櫎	gu;mb	0
+磆	ke;uo	0
+縎	hu;so	0
+鹄	he;nn	0
+鹘	gu;gn	0
+㒷	xk;kb	0
+㒷	xu;kb	0
+䈑	jt;vk	0
+䯏	ho;gu	0
+叧	gx;kd	0
+呙	gx;kn	0
+呙	wa;kn	0
+呙	wo;kn	0
+呙	he;kn	0
+呙	wd;kn	0
+咼	gx;gk	0
+咼	wa;gk	0
+咼	wo;gk	0
+咼	he;gk	0
+咼	wd;gk	0
+栝	tm;mu	0
+栝	ko;mu	0
+緺	wo;sk	0
+罫	gk;sb	0
+趏	ho;tu	0
+銛	ko;ju	0
+銛	gx;ju	0
+銽	ko;jk	0
+铦	tm;ju	0
+铦	ko;ju	0
+铦	gx;ju	0
+㷇	kv;xh	0
+㷇	gk;xh	0
+㽇	se;jw	0
+㽇	gk;jw	0
+㽇	mg;jw	0
+㽇	hv;jw	0
+䂯	gr;ut	0
+摑	gk;fa	0
+䎚	gr;xx	0
+䗆	ww;il	0
+䙛	gr;pk	0
+䪀	rr;gx	0
+䲘	ww;yl	0
+䲘	kh;yl	0
+欟	gr;mj	0
+毌	wj;ml	0
+淉	gr;dg	0
+璭	gr;wi	0
+矔	qr;ov	0
+矜	qb;mv	0
+矝	qb;ms	0
+纶	gr;sl	0
+躀	gr;zb	0
+㤮	kl;qx	0
+㫛	kl;ox	0
+㫛	mu;ox	0
+俇	gl;rw	0
+挄	gl;fg	0
+撗	gl;fb	0
+撗	hg;fb	0
+潢	gl;db	0
+臦	js;ii	0
+臩	js;il	0
+㔳	jt;kj	0
+㔳	gy;kj	0
+㔳	hr;kj	0
+㙺	kv;tb	0
+㲹	qq;dj	0
+㸵	ww;nk	0
+䁛	kv;og	0
+䇈	gv;lt	0
+䍯	ji;yv	0
+䍷	gv;yf	0
+䍷	hv;yf	0
+䙆	gv;pt	0
+䞨	kv;tt	0
+䰎	gv;eb	0
+䰎	hv;eb	0
+嶲	gv;uk	0
+嶲	jr;uk	0
+廆	ww;gg	0
+朹	gv;mj	0
+樻	gv;mb	0
+櫰	gv;mx	0
+氿	jq;dj	0
+溎	yj;dt	0
+猤	gv;qt	0
+癐	ww;bo	0
+眭	gv;ot	0
+瞆	ww;ob	0
+瞆	gv;ob	0
+硊	gv;uv	0
+簂	gv;va	0
+趹	gv;zg	0
+雟	xi;ck	0
+雟	gv;ck	0
+鮭	kv;yt	0
+鮭	wa;yt	0
+鲑	xp;yt	0
+鳜	jt;yq	0
+龟	jy;dd	0
+龟	qq;dd	0
+㫎	kk;fi	0
+㯻	hy;gu	0
+惃	gy;xb	0
+棍	hy;mb	0
+硍	gy;ug	0
+硍	yb;ug	0
+裷	gy;pv	0
+㕵	lo;kw	0
+㕵	hy;kw	0
+㚍	go;xb	0
+㞅	go;yg	0
+㳀	kd;dg	0
+㳀	xi;dg	0
+䂸	xu;ua	0
+䙨	lo;py	0
+划	hk;gd	0
+划	go;gd	0
+喐	go;ke	0
+喐	ho;ke	0
+喐	xu;ke	0
+囗	go;la	0
+彉	go;gb	0
+彍	go;gb	0
+楇	kx;mk	0
+濄	wo;dk	0
+矌	go;ob	0
+腂	go;og	0
+褁	go;gy	0
+紦	ha;sb	0
+虾	ha;ix	0
+鉿	ke;jk	0
+铪	ke;jk	0
+㦟	hd;vx	0
+㺔	ww;qw	0
+䇋	xp;lx	0
+䇋	rj;lx	0
+䠹	hd;ur	0
+嗨	hw;km	0
+嚡	xp;kt	0
+妎	hd;nj	0
+駴	hd;mc	0
+㑵	va;ru	0
+㑵	ji;ru	0
+㑵	jp;ru	0
+㑵	zi;ru	0
+㙈	hj;tj	0
+㙳	he;tx	0
+㜦	xp;nc	0
+㜦	si;nc	0
+㜦	hj;nc	0
+㜦	np;nc	0
+㲦	he;um	0
+㵄	qx;dt	0
+㵎	hj;do	0
+㵎	kj;do	0
+㽉	hj;iw	0
+㽉	jm;iw	0
+㽳	xp;by	0
+㽳	yu;by	0
+㽳	hj;by	0
+䁔	hr;oy	0
+䌍	hj;sw	0
+䐄	lm;oj	0
+䘶	yj;pu	0
+嫨	nj;nt	0
+嵅	hj;uk	0
+撖	hj;fw	0
+椷	hj;mk	0
+歛	hj;rq	0
+熯	rj;ht	0
+筨	hj;vk	0
+輚	hj;ig	0
+䣈	xl;kb	0
+䣈	ln;kb	0
+䦳	hh;mg	0
+䴂	hh;dn	0
+妔	hh;nj	0
+忼	hh;xj	0
+笐	hh;vj	0
+行	hg;rd	0
+裄	hh;pd	0
+邟	hh;we	0
+㕺	hc;kk	0
+㠙	hc;uu	0
+䬉	hc;fi	0
+䯫	ua;ok	0
+乚	yi;vv	0
+乚	hc;vv	0
+悎	jn;xk	0
+滈	xt;dk	0
+滜	ze;du	0
+滜	hc;du	0
+秏	mc;hm	0
+茠	hc;cm	0
+薧	hc;cb	0
+㓭	he;od	0
+㔠	jx;ol	0
+㕡	he;bg	0
+㕰	he;km	0
+㦦	he;xe	0
+㮝	lo;me	0
+㷎	xp;hr	0
+㷎	hs;hr	0
+㷤	he;th	0
+㿣	xx;br	0
+㿥	he;bv	0
+䌾	he;sg	0
+䎋	he;nx	0
+䒩	xx;ch	0
+䕣	ue;cr	0
+䕣	ke;cr	0
+䚂	xi;ij	0
+䞦	jp;tk	0
+䢗	he;zq	0
+䪚	he;wx	0
+䴳	he;lb	0
+䵱	he;lk	0
+喛	yr;ky	0
+喛	he;ky	0
+喛	xr;ky	0
+嗃	xn;kk	0
+嗃	hu;kk	0
+寉	he;bv	0
+抲	qx;fk	0
+朅	he;qr	0
+熇	xn;hk	0
+皬	he;bv	0
+籺	he;mv	0
+螛	xx;ik	0
+袔	ke;pk	0
+謞	he;yk	0
+鑉	he;jm	0
+鶡	jp;on	0
+鶮	hu;wn	0
+麧	he;lv	0
+䄓	hg;pw	0
+䒛	hg;cv	0
+䬝	hs;fb	0
+烆	hg;hd	0
+䍔	hs;ss	0
+䧆	qs;eg	0
+䧆	kz;eg	0
+䫺	hz;uf	0
+呍	hs;ky	0
+嚝	hs;kb	0
+屸	hs;ug	0
+撔	hs;fx	0
+沗	ph;tu	0
+沗	hs;tu	0
+渹	qk;dk	0
+玜	hs;wg	0
+瓨	xl;gw	0
+閧	xl;mg	0
+闀	hs;ms	0
+闂	jr;mv	0
+㕈	hz;iy	0
+㸸	hz;nk	0
+㸸	ou;nk	0
+茩	hz;ck	0
+㦌	tv;mx	0
+㧾	hu;fx	0
+㯛	ho;my	0
+㹱	rj;qz	0
+㹱	hu;qz	0
+䉿	lo;mh	0
+䍓	ya;sy	0
+䔯	hx;cg	0
+䔯	hu;cg	0
+䛎	yu;yb	0
+䛎	hu;yb	0
+䨥	hu;yy	0
+䮸	mu;jm	0
+䮸	hu;jm	0
+䲵	hu;un	0
+唬	xx;kj	0
+嗀	hu;tu	0
+姱	hu;nk	0
+汻	hl;dw	0
+浒	xu;dw	0
+濩	hu;dy	0
+瓡	hu;tg	0
+觷	hu;jy	0
+许	hu;yw	0
+鍙	hu;dj	0
+鳸	hu;hn	0
+鸌	hu;ny	0
+㕷	hx;kb	0
+㚌	ho;xg	0
+㦎	hx;xa	0
+㮯	kr;mu	0
+䋀	kx;hx	0
+䏦	hx;ou	0
+䏦	wj;ou	0
+䠉	hx;zl	0
+䠉	hv;zl	0
+呚	hx;kw	0
+姡	ho;nu	0
+枠	hx;mu	0
+觟	xp;dt	0
+諙	hx;yo	0
+釪	hx;jy	0
+鋘	hx;jt	0
+䴜	hk;vg	0
+咶	ui;ku	0
+瀤	wd;dx	0
+㓉	hr;du	0
+㣪	ko;ry	0
+㦥	hr;xx	0
+䀨	hr;ou	0
+䝠	yr;vx	0
+䥧	xr;jo	0
+䭴	yr;mu	0
+䮝	hr;mi	0
+堚	hr;ti	0
+孉	hr;nv	0
+嵈	hr;uy	0
+獂	hr;qx	0
+瓛	ya;wq	0
+瓛	ye;wq	0
+瞏	hr;sy	0
+綄	hr;sy	0
+萑	hr;cv	0
+蒝	hr;cx	0
+郇	hr;be	0
+㾠	kv;bw	0
+㾠	hl;bw	0
+兤	hl;gb	0
+揘	ys;fw	0
+朚	hl;wo	0
+朚	wh;wo	0
+炾	hl;hx	0
+爌	hl;hb	0
+㤬	kv;xt	0
+㨤	wd;fv	0
+㨤	kk;fv	0
+㱱	wu;dg	0
+㱱	xi;dg	0
+㻅	kk;wy	0
+䅏	ww;hm	0
+䇻	kv;vm	0
+䇻	hv;vm	0
+䙌	hv;pb	0
+䛛	qi;yk	0
+䧦	hv;ew	0
+䩈	ww;mm	0
+䩈	xt;mm	0
+儶	xp;rk	0
+哕	yt;kx	0
+嬒	hv;no	0
+孈	xp;nk	0
+孈	hv;nk	0
+屶	hv;ud	0
+徻	hv;ro	0
+椲	hv;mf	0
+檅	hv;mu	0
+浍	hv;dy	0
+湏	mb;dy	0
+湏	xu;dy	0
+溃	hv;db	0
+煇	yy;hi	0
+煇	xy;hi	0
+睢	hv;ov	0
+蘳	hv;ct	0
+銊	hv;jd	0
+鏸	rv;jx	0
+鏸	sv;jx	0
+頮	hv;uy	0
+㑮	wf;ri	0
+㱪	hy;do	0
+尡	hy;gb	0
+惛	mf;xo	0
+殙	mw;do	0
+湣	hy;do	0
+湷	hy;do	0
+湷	vl;do	0
+焄	hy;yh	0
+眃	hy;oy	0
+睴	hy;oi	0
+繉	ug;sv	0
+蔒	hy;ch	0
+㗲	xi;ka	0
+㨯	ko;fe	0
+䂄	kl;oy	0
+䄆	ko;pu	0
+䄑	ko;po	0
+䋭	ho;so	0
+䦚	ho;mu	0
+䰥	ue;gg	0
+䰥	ji;gg	0
+䱛	ho;ya	0
+掝	xu;fa	0
+漷	ho;de	0
+煷	ho;hj	0
+矆	yt;oy	0
+秮	ko;hk	0
+秳	ho;hu	0
+秳	ko;hu	0
+秴	ho;hk	0
+篧	ho;vv	0
+耠	ho;lk	0
+鍃	ho;jx	0
+閄	uj;mr	0
+韄	ho;gy	0
+㔕	yi;ql	0
+㖢	ji;kb	0
+㘍	qi;kg	0
+㙨	qi;tr	0
+㠍	jp;um	0
+㠍	qi;um	0
+㠖	ji;uw	0
+㡇	ji;jv	0
+㥛	su;xa	0
+㭰	jt;vu	0
+㭰	ji;vu	0
+㮟	pg;mm	0
+㮟	rz;mm	0
+㮟	ji;mm	0
+㱞	ji;dl	0
+㲺	lw;dq	0
+㲺	ke;dq	0
+㸄	jp;ho	0
+㹄	qi;nw	0
+㾒	ji;bk	0
+䒁	xn;vb	0
+䒁	ya;vb	0
+䒁	ji;vb	0
+䓫	ji;ck	0
+䕤	qi;ce	0
+䞘	ji;tv	0
+䟌	jp;tv	0
+䤠	ji;jv	0
+䶓	qi;jo	0
+乁	ji;nn	0
+伎	qi;rv	0
+刏	ji;qd	0
+叝	ji;qy	0
+咭	xi;kk	0
+咭	qx;kk	0
+哜	jp;kq	0
+哜	vd;kq	0
+嚌	jp;ko	0
+嚌	vd;ko	0
+尐	jp;xn	0
+屰	ji;bc	0
+彐	xt;ka	0
+懠	ji;xo	0
+撽	yc;fw	0
+撽	ji;fw	0
+攲	yi;dv	0
+攲	ji;dv	0
+敧	yi;dy	0
+楖	vi;me	0
+櫭	jt;md	0
+汥	ji;dv	0
+濈	ua;dg	0
+璾	zi;wo	0
+瞉	ji;tu	0
+磼	ue;um	0
+磼	ji;um	0
+綨	ji;sb	0
+緁	ji;sz	0
+繋	ji;ix	0
+耤	jp;lo	0
+苙	ji;cl	0
+譤	ji;yw	0
+诘	ji;yk	0
+谻	ji;gf	0
+趞	qi;to	0
+趞	qt;to	0
+踑	ji;zb	0
+鞊	jp;gk	0
+魥	ji;yj	0
+㼪	jx;dw	0
+䀹	jx;or	0
+䀹	ue;or	0
+䀹	jp;or	0
+䁍	jx;ok	0
+䁍	ke;ok	0
+䘥	xx;pj	0
+唊	qm;kr	0
+埉	xx;tr	0
+家	jp;bu	0
+徍	jx;rt	0
+徍	wh;rt	0
+徦	xx;ry	0
+抸	jx;ff	0
+拁	ya;fk	0
+拮	jx;fk	0
+擖	jx;fr	0
+擖	ye;fr	0
+擖	qx;fr	0
+猰	qp;qd	0
+瘕	xx;by	0
+袷	qx;pk	0
+颉	jx;ty	0
+颉	jp;ty	0
+㔓	xm;ql	0
+㦗	jm;xu	0
+㳨	za;dd	0
+㳨	zj;dd	0
+㺝	jm;qm	0
+䄯	xm;hk	0
+䅐	qm;hj	0
+䛳	jm;yd	0
+䤔	xl;dy	0
+䤔	nq;dy	0
+䩆	jm;mv	0
+䬻	kj;uj	0
+䭠	qm;uj	0
+䯛	jm;gv	0
+䯡	qm;gj	0
+䵖	xm;iu	0
+䵖	jm;iu	0
+䵛	xm;ht	0
+䵛	jm;ht	0
+䶠	xm;wr	0
+囝	nj;kz	0
+堑	zj;it	0
+堑	jm;it	0
+塹	zj;it	0
+塹	jm;it	0
+帴	sj;jg	0
+攕	jm;fj	0
+暕	lj;oj	0
+栫	zy;mz	0
+椾	jm;md	0
+橏	jm;mk	0
+瀳	zy;dh	0
+犍	qm;ny	0
+猏	yj;qo	0
+玪	qm;wv	0
+玪	jm;wv	0
+瑊	jm;wk	0
+瞯	xm;oo	0
+稴	jm;hj	0
+籈	jm;vw	0
+聻	jm;de	0
+袸	zy;pz	0
+袸	jm;pz	0
+譛	jm;yo	0
+釰	rf;jr	0
+釰	jm;jr	0
+釼	rf;jr	0
+釼	ri;jr	0
+鋄	jm;jy	0
+鎫	jm;jw	0
+雃	jm;kv	0
+鳽	vj;kn	0
+鳽	qm;kn	0
+鵑	jm;kn	0
+䒂	xl;vc	0
+䙹	jl;kj	0
+䙹	nc;kj	0
+䙹	xl;kj	0
+勥	jl;gl	0
+疆	ql;gj	0
+鱂	jl;yc	0
+𤕭	ql;py	0
+㚣	jn;nn	0
+㩰	qn;fm	0
+㩰	xq;fm	0
+㬭	uj;oc	0
+㬭	yc;oc	0
+㬵	jn;of	0
+㳅	lq;db	0
+䂃	jp;oc	0
+䆗	jn;bj	0
+䜈	jn;yg	0
+䠛	xn;zf	0
+䠛	jn;zf	0
+䣤	jn;oe	0
+䩌	jn;mh	0
+䪒	vi;wv	0
+䪒	jn;wv	0
+䴛	tu;vo	0
+䴛	jn;vo	0
+䴛	xi;vo	0
+䴛	yb;vo	0
+侥	yc;rw	0
+嘐	jn;kp	0
+姣	xn;nf	0
+峤	qn;ul	0
+徺	yc;rw	0
+捁	ku;fk	0
+摎	nc;fp	0
+摎	jq;fp	0
+湫	qq;dh	0
+湬	qq;hu	0
+灂	ze;dc	0
+烄	yc;hf	0
+煍	qn;hh	0
+燋	jt;hh	0
+燋	vo;hh	0
+笅	jn;vx	0
+缴	vo;sw	0
+藠	jn;cb	0
+轇	jn;ip	0
+釥	jn;jx	0
+龣	jn;ru	0
+㓗	qi;dx	0
+㓤	jp;td	0
+㝌	vz;bj	0
+㝌	jp;bj	0
+㦢	qi;xe	0
+㨩	jp;fw	0
+㮞	ya;mk	0
+㮞	ni;mk	0
+䁓	jp;ow	0
+䂒	ya;uk	0
+䂒	jp;uk	0
+䂝	ze;ug	0
+䂝	ve;ug	0
+䇒	xm;gl	0
+䇒	qb;gl	0
+䔿	jp;cc	0
+她	jp;ny	0
+嫅	so;ng	0
+嶰	jp;un	0
+嶱	jp;ur	0
+悈	ke;xc	0
+搩	ve;fm	0
+搩	jp;fm	0
+擳	vi;fe	0
+杢	jp;mg	0
+椄	qp;mn	0
+疌	qp;uz	0
+碣	ya;ur	0
+稭	jp;hb	0
+菨	ua;cn	0
+蛶	jp;ic	0
+袓	jp;pq	0
+謯	jp;yq	0
+跲	jp;zk	0
+镼	jp;ei	0
+鞂	jp;gh	0
+㬐	yk;oo	0
+㬐	xk;oo	0
+㰹	jb;wq	0
+㴆	xk;dj	0
+䋮	qm;sj	0
+䑤	jk;vv	0
+䖐	jb;jj	0
+䥆	ww;wj	0
+䥆	rz;wj	0
+䥆	jb;wj	0
+䶖	qb;vv	0
+仐	jb;ru	0
+伒	yb;rj	0
+劤	jk;jl	0
+唫	yb;kj	0
+埐	qb;ty	0
+嬐	jb;nr	0
+寖	qb;by	0
+廑	qb;gw	0
+歏	qy;cq	0
+煡	jb;hy	0
+竻	jb;vl	0
+臸	jb;gt	0
+釿	jb;jj	0
+鹶	jb;vv	0
+㕋	jk;ij	0
+㢣	qk;cc	0
+㹵	jk;qg	0
+䔔	qq;ce	0
+䔔	qm;ce	0
+䔔	yk;ce	0
+䡖	jk;it	0
+䲔	jk;yj	0
+䵞	qk;ld	0
+巠	xk;ag	0
+殑	jk;dx	0
+竧	vf;lu	0
+粇	jk;mj	0
+綡	jk;sx	0
+㑋	js;rq	0
+㑋	ks;rq	0
+㖥	js;kh	0
+㢠	jy;zk	0
+㢠	js;zk	0
+㤯	jy;xk	0
+䐃	js;oh	0
+侰	js;rk	0
+燛	js;ih	0
+銄	js;jk	0
+㧕	yu;fe	0
+㧕	jq;fe	0
+㶭	jq;hl	0
+㺩	se;wj	0
+㺩	jq;wj	0
+䊆	qq;jm	0
+剹	jq;xd	0
+揂	yz;fy	0
+樛	ln;mp	0
+殧	jq;dy	0
+㞫	zz;uv	0
+㳥	ju;dc	0
+䀠	qu;oo	0
+䅓	qu;hy	0
+䆽	qy;bu	0
+䆽	ju;bu	0
+䈮	wj;vj	0
+䣰	yr;yj	0
+僪	yu;rk	0
+僪	ju;rk	0
+忂	ju;rv	0
+烥	ju;hi	0
+珇	ju;wq	0
+眗	xu;oj	0
+繘	jt;sk	0
+繘	ju;sk	0
+苣	qu;cj	0
+蒩	ju;cq	0
+蓻	ju;cw	0
+蓻	zi;cw	0
+跔	ju;zj	0
+跙	qp;zq	0
+鼰	ju;jb	0
+㯞	yt;mo	0
+䚈	wu;xj	0
+䚈	vr;xj	0
+䳪	tr;un	0
+勌	jr;jl	0
+呟	jr;kx	0
+奍	jr;jl	0
+奍	qr;jl	0
+悁	yr;xo	0
+捲	qr;fv	0
+梋	xp;mo	0
+棬	jr;mv	0
+椦	jr;ml	0
+焆	ye;ho	0
+縳	jr;sc	0
+讂	jr;yw	0
+飬	yh;jl	0
+㓸	jt;yd	0
+㔃	pi;sd	0
+㟲	jt;ux	0
+㤜	yu;xd	0
+㭈	kk;mg	0
+㭾	yt;mi	0
+㰐	kv;mo	0
+㰐	lw;mo	0
+㰐	tv;mo	0
+㰐	to;mo	0
+䁷	wo;jo	0
+䆕	jt;bg	0
+䆢	jt;bg	0
+䋉	jt;sb	0
+䋉	ke;sb	0
+䍊	jt;ff	0
+䏐	vo;og	0
+䏣	qu;oq	0
+䖼	xt;ie	0
+䙠	wo;pq	0
+䝌	jy;uy	0
+匷	jt;kv	0
+叕	jt;yy	0
+叕	yi;yy	0
+叕	li;yy	0
+噊	jt;kk	0
+妜	yt;ng	0
+弡	vh;gj	0
+捔	vo;fy	0
+泬	jt;db	0
+灍	jt;dq	0
+疦	xt;bg	0
+矞	xu;mk	0
+穱	vo;hc	0
+虳	jt;iu	0
+蚗	qt;ig	0
+袦	na;pi	0
+誳	jt;yi	0
+趉	jt;ti	0
+逫	vu;zy	0
+㒞	ke;rk	0
+㓴	jy;ed	0
+㕙	rv;yt	0
+㝦	ya;bn	0
+㽙	jy;ty	0
+姰	jy;no	0
+攈	pw;fh	0
+棞	jy;mh	0
+濬	xy;do	0
+燇	jy;hc	0
+箘	qy;vh	0
+賐	jy;bw	0
+㡁	kd;jk	0
+欯	kd;tq	0
+鎎	kd;jm	0
+䘓	kc;pj	0
+䶫	kj;vw	0
+凵	qm;vl	0
+嵁	vj;ub	0
+扻	vi;fq	0
+扻	sy;fq	0
+扻	kj;fq	0
+欿	qm;dq	0
+歁	ke;cq	0
+㰠	kh;wq	0
+丂	yu;av	0
+㪙	ko;gw	0
+㵣	lo;dq	0
+㾧	ke;bg	0
+䶗	qx;vk	0
+匼	ke;kk	0
+匼	qx;kk	0
+尅	kw;uc	0
+揢	qx;fk	0
+牁	ke;pk	0
+牱	ke;nk	0
+硞	ke;uk	0
+翗	ke;xx	0
+艐	ke;vw	0
+㸧	yb;yg	0
+珢	kf;wg	0
+貇	ky;vg	0
+龂	kf;vj	0
+坈	kg;tj	0
+挳	qm;fg	0
+揁	vg;fb	0
+㤟	tz;qx	0
+椌	ks;mg	0
+涳	nh;dg	0
+㔚	kz;ul	0
+㲄	kz;tu	0
+䳟	kz;on	0
+䳟	mo;on	0
+竘	qu;lj	0
+竘	kz;lj	0
+㒂	ku;ro	0
+㠸	ku;jf	0
+扝	wu;fk	0
+扝	ku;fk	0
+扝	yu;fk	0
+狜	ku;qg	0
+趶	wu;zy	0
+趶	kx;zy	0
+㔞	kl;ql	0
+㔞	wh;ql	0
+㙗	kk;ty	0
+㟴	ww;ug	0
+㟴	kv;ug	0
+㬮	kk;ov	0
+㱮	kv;db	0
+墤	kk;tb	0
+糩	kk;mo	0
+蒉	kk;cb	0
+㝟	kr;bj	0
+䤭	yi;jj	0
+䤭	sv;jj	0
+䤭	kr;jj	0
+㑌	wh;rw	0
+岲	kl;ux	0
+忹	kl;xw	0
+忹	wh;xw	0
+抂	zd;fw	0
+抂	wh;fw	0
+穬	kl;hb	0
+軠	kl;iw	0
+迋	kl;zw	0
+㚝	kv;dt	0
+㛻	kv;nt	0
+㨒	ww;ft	0
+㨒	xp;ft	0
+䈐	kv;vh	0
+䍪	kv;yw	0
+䤆	kv;yt	0
+䦱	kv;mw	0
+䫥	ww;gy	0
+嬇	kv;nb	0
+巙	kv;uw	0
+膭	kv;ob	0
+隗	kv;eg	0
+顝	kv;gy	0
+㩲	qr;fv	0
+䠅	ta;zh	0
+噋	ko;kw	0
+筈	ko;vu	0
+葀	ko;cu	0
+韕	ko;wz	0
+髺	yt;eu	0
+髺	ko;eu	0
+㸊	lp;hb	0
+㻋	lw;wu	0
+䗶	li;ir	0
+䝓	la;uv	0
+䟑	la;tc	0
+䪉	la;gv	0
+䶛	lp;dr	0
+搚	xm;fo	0
+櫴	la;mb	0
+爉	lp;hv	0
+癞	la;bb	0
+㠣	ld;uv	0
+㥎	li;hx	0
+㾢	ld;bl	0
+䧒	lj;el	0
+䲚	lj;yb	0
+猍	ld;ql	0
+疠	ld;bw	0
+癘	ld;bd	0
+㘝	na;ky	0
+㘝	nm;ky	0
+㘝	lj;ky	0
+䃹	lh;uj	0
+䊖	lj;mg	0
+䳿	lj;xn	0
+壏	xm;tm	0
+罱	lj;sg	0
+㾗	lh;bl	0
+䁁	lh;ox	0
+䕞	ln;cl	0
+哴	ll;kl	0
+㞠	ln;ux	0
+㟙	lc;uo	0
+㟙	vd;uo	0
+㨓	ln;fn	0
+乐	lc;px	0
+乐	yc;px	0
+嗠	lc;vk	0
+磱	lo;ul	0
+蟧	ln;il	0
+㖀	lo;ky	0
+鱳	le;ym	0
+㡞	lw;jn	0
+㭩	lw;mc	0
+㭩	lk;mc	0
+㴃	li;du	0
+䉓	lw;vg	0
+䍥	lw;sv	0
+矋	lw;od	0
+祱	lw;px	0
+𩔗	li;my	0
+䚏	li;mj	0
+䚏	lg;mj	0
+唥	lg;ks	0
+堎	lg;tw	0
+棱	lk;mw	0
+睖	lg;ow	0
+㱹	xm;dv	0
+㱹	sr;dv	0
+㹈	mc;wn	0
+㻎	li;dw	0
+㻺	lp;iy	0
+㾖	lo;bl	0
+䚕	lr;lj	0
+䤚	lt;ol	0
+䮋	lp;md	0
+䲞	lo;yl	0
+䴄	li;vn	0
+叓	li;gy	0
+擽	lo;fm	0
+擽	yt;fm	0
+攊	lo;fv	0
+攦	ud;fl	0
+栎	yt;ml	0
+棙	lp;mq	0
+沵	mi;dx	0
+睙	li;oq	0
+竰	li;ll	0
+綟	lp;sq	0
+纚	li;sl	0
+纚	sa;sl	0
+跞	lo;zl	0
+迣	li;zu	0
+郦	vi;le	0
+㜃	mh;nk	0
+㜃	ln;nk	0
+㝺	lb;ju	0
+㦑	lm;xw	0
+㰸	lr;rq	0
+㼑	lr;jg	0
+䃛	qm;ui	0
+䆂	qm;hj	0
+䇜	lm;vq	0
+䙺	qm;hj	0
+噒	lm;kf	0
+槏	lm;mj	0
+槏	xm;mj	0
+檶	lm;mk	0
+溓	xm;dj	0
+瀮	lm;dm	0
+磏	qm;uj	0
+莶	lm;cq	0
+醶	xm;yr	0
+醶	yj;yr	0
+㝋	lq;bl	0
+㵳	lq;dp	0
+㺒	yc;qp	0
+㺒	ln;qp	0
+䍡	ln;sl	0
+䢧	lb;zp	0
+䢧	qt;zp	0
+橑	ln;mx	0
+漻	lq;dp	0
+繆	ln;sp	0
+缪	ln;sp	0
+缪	mu;sp	0
+缪	mq;sp	0
+䓟	lp;ck	0
+䟹	lb;zc	0
+哷	lv;kc	0
+哷	lp;kc	0
+埒	lp;tc	0
+埓	lp;tc	0
+栵	lp;md	0
+燤	lp;hd	0
+厸	mn;ss	0
+痳	ma;bm	0
+菻	ma;cm	0
+阾	lb;es	0
+䉹	lq;vr	0
+羐	lk;cj	0
+㨨	lq;ft	0
+䋷	lq;mx	0
+䭷	lq;mm	0
+䱞	nd;yu	0
+䱞	ww;yu	0
+斿	lq;fz	0
+碌	lq;uu	0
+磟	lq;up	0
+鋶	lq;ji	0
+䙪	mh;my	0
+䙪	pj;my	0
+尨	ls;lp	0
+硦	lo;uc	0
+䣚	lu;ue	0
+䱾	yu;yn	0
+瞜	lv;on	0
+鷜	lv;un	0
+㠠	lu;um	0
+䮉	lu;my	0
+攎	lo;fm	0
+曥	lu;om	0
+穞	lu;ho	0
+绿	lu;su	0
+謢	lu;yy	0
+鏀	lu;jd	0
+馿	lu;mh	0
+𢵮	lu;fk	0
+奱	lr;xd	0
+臡	lr;cr	0
+覶	lr;vj	0
+龻	lr;xx	0
+䈁	lo;vc	0
+寽	lt;vc	0
+捰	lo;fg	0
+泺	po;dl	0
+渃	lo;dk	0
+詻	lo;yk	0
+垏	lv;ty	0
+㔀	qk;od	0
+㐷	mm;rm	0
+㜫	mw;nj	0
+㦄	mi;gx	0
+㾺	mo;bm	0
+䳸	md;gn	0
+么	mo;ps	0
+孖	ma;zz	0
+庅	me;gm	0
+庅	ma;gm	0
+㜥	mo;nb	0
+䈿	md;vl	0
+䘑	mo;py	0
+䨫	mj;yw	0
+薶	wo;cl	0
+霡	md;yy	0
+霢	md;yy	0
+㗄	mj;kf	0
+㙢	mf;tr	0
+䑱	mj;vv	0
+䝢	mg;vy	0
+娨	xm;ng	0
+娨	mj;ng	0
+悗	mf;xe	0
+槾	wj;my	0
+澫	wj;dd	0
+瞒	mf;ol	0
+瞞	mf;or	0
+絻	wj;se	0
+絻	mj;se	0
+鞔	mf;ge	0
+㙁	mh;tm	0
+㙁	na;tm	0
+㝑	ph;bf	0
+㬒	mc;oc	0
+㻊	mh;we	0
+㻊	mg;we	0
+䀮	mh;oi	0
+䖟	mg;wi	0
+䟥	mh;zm	0
+庬	mg;gp	0
+盳	wh;ow	0
+蟒	mg;ic	0
+㚹	mc;ne	0
+㡌	mw;jo	0
+䖥	mc;mi	0
+堥	wu;mt	0
+夘	wj;xe	0
+愗	mc;mx	0
+緢	mn;st	0
+蝐	mc;io	0
+鄚	mc;ce	0
+鉾	mc;jn	0
+髳	mg;em	0
+嚜	mw;kt	0
+嚰	me;ku	0
+㶬	mw;hw	0
+䊊	mw;mm	0
+䒽	mw;cx	0
+䓺	ww;cd	0
+䵢	ww;lw	0
+旀	mw;fx	0
+櫗	mw;md	0
+穈	mw;gh	0
+谜	mw;ym	0
+鋂	mg;jm	0
+韎	wa;ww	0
+㨺	mi;fr	0
+䝧	mf;by	0
+怋	mf;xm	0
+㚞	yk;dm	0
+㚞	yy;dm	0
+㚞	mg;dm	0
+癦	mg;bt	0
+雺	wu;ym	0
+黽	mm;kd	0
+黽	mg;kd	0
+黾	mm;kd	0
+黾	mg;kd	0
+㜷	nd;gn	0
+㣆	pw;gy	0
+㥝	mm;xe	0
+㨠	mi;fl	0
+㫘	mm;bo	0
+㰽	mi;kq	0
+䌏	mm;su	0
+䌕	mo;sm	0
+䌘	mi;xx	0
+䌩	mi;sd	0
+䛉	mi;ym	0
+䤉	mo;ym	0
+䤉	ru;ym	0
+䤉	mk;ym	0
+䪾	mi;yp	0
+䭩	mi;uf	0
+摵	su;fx	0
+摵	mi;fx	0
+攠	mo;ff	0
+枈	pi;bm	0
+枈	mi;bm	0
+沕	mi;dw	0
+濔	ni;db	0
+熐	mi;hl	0
+瓕	xi;gy	0
+瞴	mi;oh	0
+簚	mp;vj	0
+簚	mi;vj	0
+粎	mi;mi	0
+覛	mi;ij	0
+麿	mi;gk	0
+㤁	tm;tx	0
+㬆	mm;oo	0
+㮌	mb;mm	0
+㻰	mm;we	0
+㻰	re;we	0
+㻰	yu;we	0
+㻰	ww;we	0
+䤄	vr;ym	0
+杣	mm;mu	0
+渑	mm;dd	0
+睌	mm;oe	0
+莬	wf;ce	0
+莬	wj;ce	0
+嫹	mn;nb	0
+吀	mp;kq	0
+瀎	mo;dd	0
+眜	mo;ow	0
+覕	pp;bj	0
+㟩	wf;mu	0
+忟	wf;xw	0
+惽	mb;xo	0
+渂	mb;dw	0
+琝	mb;ww	0
+蠠	mb;mi	0
+賯	xs;bz	0
+鰵	mb;py	0
+鴖	mb;mn	0
+䆨	mk;bt	0
+𣷠	mk;do	0
+䁼	mu;ot	0
+䉑	mo;vh	0
+䜆	ue;gk	0
+䜆	sv;gk	0
+䜆	nw;gk	0
+帓	wa;jw	0
+帞	mo;jb	0
+歾	wf;dw	0
+絈	mo;sb	0
+縸	mu;sd	0
+㭌	yu;mn	0
+厶	mz;vd	0
+恈	mz;xn	0
+敄	mz;mw	0
+桙	mz;mn	0
+鞪	mu;mg	0
+㒇	mu;rh	0
+㡔	mu;mj	0
+䧔	mu;ex	0
+娒	wu;nm	0
+暯	mu;od	0
+艒	mu;vo	0
+㴸	na;dr	0
+㴸	ye;dr	0
+䀑	na;oi	0
+䀑	ni;oi	0
+䅞	na;hc	0
+䅞	nd;hc	0
+䇣	na;vx	0
+䇣	yi;vx	0
+䇣	nw;vx	0
+䫱	ru;ey	0
+䱹	na;yg	0
+妠	nj;nn	0
+抐	na;fn	0
+抐	rv;fn	0
+抐	ni;fn	0
+搻	na;ru	0
+蒘	na;cu	0
+訤	na;yx	0
+訤	xn;yx	0
+誽	ni;ye	0
+郍	na;ve	0
+㲡	ni;mm	0
+䍲	ni;ye	0
+䘅	ng;si	0
+摨	vi;fn	0
+能	nd;sb	0
+螚	ng;si	0
+䁪	nj;oj	0
+䔳	nj;ch	0
+䕼	nj;cv	0
+䶲	rj;rg	0
+娚	nj;nl	0
+煵	nj;hg	0
+难	no;yv	0
+㒄	nh;rh	0
+㒄	nf;rh	0
+䂇	ns;mi	0
+䂇	ph;mi	0
+䂇	nh;mi	0
+憹	nh;xi	0
+擃	nh;fi	0
+瀼	nh;df	0
+蠰	nh;if	0
+饟	nh;uf	0
+䄩	nc;hy	0
+䑋	nc;of	0
+䫸	nc;fd	0
+怓	nq;xy	0
+桡	nc;mw	0
+獶	yz;qw	0
+獿	yz;qw	0
+眲	ne;oe	0
+㖏	nw;kt	0
+㘨	nw;tn	0
+䡾	nw;iq	0
+䳖	nw;nv	0
+䳖	ye;nv	0
+氞	nw;qn	0
+浽	nw;dn	0
+脮	nw;on	0
+錗	nw;jn	0
+㜛	rr;nq	0
+媆	nf;nd	0
+㞾	yi;ub	0
+㣇	ni;hj	0
+㵫	yi;do	0
+䕥	yi;cb	0
+䧇	ni;ey	0
+䭲	ni;hk	0
+䰯	rj;gz	0
+䰯	ni;gz	0
+儗	yi;rz	0
+儞	ni;rb	0
+掜	np;fe	0
+晲	ni;oe	0
+疑	ni;bz	0
+眤	ni;ob	0
+蛪	ni;fi	0
+㜣	nm;nh	0
+㜣	rj;nh	0
+㜤	uf;nu	0
+㲽	xm;dr	0
+䄹	tm;hq	0
+䚓	uf;xj	0
+䩞	ww;gv	0
+䩞	nm;gv	0
+䩞	tm;gv	0
+䴴	tp;lv	0
+悥	nm;wx	0
+惗	nm;xx	0
+榐	nm;my	0
+榐	vf;my	0
+艌	nm;vx	0
+辗	nm;iy	0
+䐁	nn;ou	0
+䐁	vo;ou	0
+䮍	xk;my	0
+㩶	nk;fb	0
+䄒	rf;px	0
+䜓	np;ym	0
+摄	np;fy	0
+菍	np;cx	0
+銸	np;jv	0
+鋷	np;jy	0
+㤛	rf;xw	0
+䚾	rf;yw	0
+䔭	vz;cy	0
+倿	nk;rn	0
+苧	nk;cd	0
+䀔	nq;or	0
+䋴	rs;sm	0
+䋴	ru;sm	0
+䋴	rz;sm	0
+孧	nq;yz	0
+汼	yz;dn	0
+譨	ns;yi	0
+䅶	wu;hc	0
+䘫	ru;ny	0
+䰭	ru;eg	0
+檽	nz;me	0
+檽	rr;me	0
+獳	ru;qe	0
+䢞	nu;zm	0
+傉	nu;rc	0
+㬉	ro;od	0
+䎡	nr;eh	0
+奻	nr;nn	0
+湪	nr;du	0
+耎	no;ed	0
+𨙻	no;oe	0
+婩	nt;ng	0
+㛏	ou;nq	0
+䚆	yc;cj	0
+䚆	ou;cj	0
+䯚	ou;go	0
+塸	qq;tk	0
+䶕	pa;vb	0
+派	pa;dy	0
+廹	pd;zb	0
+沠	pd;dv	0
+渒	pd;du	0
+犤	pd;nb	0
+㳪	pj;dk	0
+丬	pj;dl	0
+洀	pj;dv	0
+眫	ph;ob	0
+眫	pj;ob	0
+肨	pj;of	0
+萠	pj;co	0
+㜊	ph;ny	0
+㤶	ph;xp	0
+䮾	ph;ml	0
+篣	pg;vf	0
+㘐	pg;kf	0
+㟝	pz;uk	0
+㫲	pw;oz	0
+䫠	pw;pk	0
+䲹	pw;bn	0
+俖	pw;rk	0
+媐	pw;in	0
+媐	yi;in	0
+㛔	pg;nf	0
+剻	pg;ud	0
+弸	pg;go	0
+捀	pg;ff	0
+淜	pk;do	0
+苹	pg;cp	0
+袶	pg;pf	0
+㨽	qn;fd	0
+伓	pi;rb	0
+嚊	xq;kw	0
+嚊	pi;kw	0
+岯	pi;up	0
+銢	pi;ju	0
+錃	pi;dj	0
+鵧	pi;bn	0
+㺓	pn;qb	0
+暼	pp;xo	0
+䀻	pb;ok	0
+汖	pb;uu	0
+穦	pb;hb	0
+馪	pb;hb	0
+驞	pb;mb	0
+涄	pk;dk	0
+㰴	po;lq	0
+䪖	po;ww	0
+嚩	po;kc	0
+岥	po;up	0
+敀	po;bw	0
+昢	po;oi	0
+圑	pu;kc	0
+攵	pu;px	0
+獛	pu;qf	0
+㓞	yc;fd	0
+㓞	qi;fd	0
+㠎	qi;um	0
+㩩	qi;fy	0
+㼤	ya;fw	0
+㼤	qi;fw	0
+䀈	qi;gm	0
+䉝	qi;vw	0
+䋯	qk;hx	0
+䌌	qu;sb	0
+䌌	qp;sb	0
+䓅	qi;cj	0
+䔇	yi;cb	0
+䚉	xi;fj	0
+䧘	qi;eu	0
+䧵	vf;bv	0
+䧵	uf;bv	0
+䫔	xi;fy	0
+䰴	vi;yv	0
+䱈	yi;yu	0
+呮	vi;kv	0
+圻	yb;tj	0
+墄	qi;tx	0
+嵜	qi;uk	0
+忔	yi;xv	0
+忯	ui;xu	0
+恓	qi;xx	0
+恓	xu;xx	0
+栔	qp;fm	0
+梩	si;ml	0
+梩	qi;ml	0
+槭	se;mx	0
+欹	qi;dq	0
+洓	se;du	0
+洓	zi;du	0
+滊	xp;dm	0
+疧	qi;bu	0
+磩	vu;ux	0
+罊	qi;if	0
+耆	ui;lo	0
+藒	qi;cr	0
+蚔	vi;iu	0
+螇	qi;id	0
+迉	qi;zu	0
+鐑	qi;jk	0
+陭	qi;ek	0
+騹	qi;mw	0
+㡊	qm;jj	0
+㤉	ya;xy	0
+䜑	qx;yx	0
+䨐	xx;yk	0
+䶝	xx;vr	0
+拤	qx;fb	0
+硈	qx;uk	0
+磍	ya;uk	0
+磍	qx;uk	0
+㦮	qm;ga	0
+㧄	qq;fk	0
+㩮	xm;fu	0
+㯠	xm;mn	0
+㯠	xy;mn	0
+䈴	vj;vj	0
+䍉	qm;fv	0
+䥅	qm;uj	0
+䨿	qm;tf	0
+伣	qm;rj	0
+刋	qm;qd	0
+嗛	qp;kj	0
+圱	su;qt	0
+嵰	qb;uj	0
+忴	qb;xv	0
+扲	qb;fv	0
+掅	qm;fo	0
+掔	wj;iu	0
+撍	zf;fo	0
+炶	qm;hv	0
+煔	qm;hv	0
+綪	vg;so	0
+羬	yj;yk	0
+荨	qm;cc	0
+铅	yj;jk	0
+騝	qm;my	0
+㩖	tn;fj	0
+䅚	ql;hv	0
+䅚	ze;hv	0
+廧	se;gk	0
+薔	se;ck	0
+㚁	qu;tw	0
+㡑	qn;hj	0
+䀉	ua;ym	0
+䫞	rc;yy	0
+俏	xn;ro	0
+勪	qn;yl	0
+喿	qn;km	0
+墧	qn;tk	0
+幓	uj;jp	0
+幓	qn;jp	0
+櫵	qn;mh	0
+睄	qn;oo	0
+睄	xn;oo	0
+碻	qn;uk	0
+箾	qn;vd	0
+菬	qn;ck	0
+踍	qn;zz	0
+鞘	uc;go	0
+鞽	qn;gk	0
+骹	xn;gf	0
+㚗	xp;dq	0
+㛙	qb;nx	0
+㛙	uf;nx	0
+㤲	qu;dx	0
+㥦	xm;kx	0
+㥦	xx;kx	0
+㫸	qp;oz	0
+㹤	qt;qq	0
+䦧	qp;me	0
+䦧	yj;me	0
+䬊	qp;fr	0
+厒	qp;if	0
+稧	qp;hd	0
+䖌	ya;hd	0
+䖌	qb;hd	0
+䠴	qb;ul	0
+䠴	yb;ul	0
+䰼	xb;yv	0
+兓	qb;ww	0
+嫀	uf;nh	0
+溱	qb;dh	0
+瘽	qb;bw	0
+藽	qb;cj	0
+鈫	qb;jw	0
+鳹	qb;rn	0
+鵭	qb;jn	0
+䌠	qk;wx	0
+䌠	yj;wx	0
+䌠	yb;wx	0
+䔛	qk;cy	0
+儬	qk;rj	0
+剠	qk;wd	0
+埥	vg;to	0
+棾	qk;mj	0
+鲭	vg;yo	0
+㼇	qs;wk	0
+䆳	sv;bu	0
+䛪	ww;yg	0
+憌	qs;jx	0
+琁	qs;wz	0
+瓗	qs;wk	0
+蛬	qs;gi	0
+㼒	qq;gw	0
+䎿	xs;eh	0
+䞭	qy;tw	0
+橚	qq;mp	0
+渞	wu;dz	0
+玌	qq;wv	0
+芁	qq;cj	0
+蝤	yz;iy	0
+䵶	qu;jd	0
+坥	qu;tq	0
+欔	qu;my	0
+煀	qu;hi	0
+爠	qu;hv	0
+翑	yu;xj	0
+蝺	qu;iy	0
+趍	qu;tx	0
+㟨	qr;ue	0
+券	xr;jd	0
+埢	qr;tv	0
+峑	qr;uw	0
+恮	vr;xw	0
+槫	ur;mc	0
+槫	qr;mc	0
+絟	ur;sw	0
+韏	qr;jf	0
+棤	qt;mo	0
+汋	qt;du	0
+碏	xi;uo	0
+缼	qt;fq	0
+𩍷	qt;wg	0
+囷	qy;kh	0
+夋	qy;yw	0
+㯗	rj;mm	0
+㯗	uy;mm	0
+㾆	uj;br	0
+䑙	rj;uo	0
+橪	yj;mh	0
+㚂	rh;ty	0
+儴	xl;rf	0
+纕	rh;sf	0
+穘	rc;hw	0
+捼	ww;fn	0
+捼	re;fn	0
+捼	ro;fn	0
+䀼	vf;oi	0
+䏕	ry;ow	0
+䴦	rf;lk	0
+棯	uf;mx	0
+䄧	rs;hn	0
+氜	ri;qo	0
+㣑	rs;gp	0
+䢇	rz;bc	0
+嫆	rs;ng	0
+嵤	yk;hu	0
+嵤	rs;hu	0
+搈	rs;fg	0
+槦	rs;mo	0
+爃	yk;hm	0
+䄾	rz;hu	0
+䐓	ru;oy	0
+譳	rz;ye	0
+騥	rz;mm	0
+㨎	rr;fd	0
+㹘	rv;ne	0
+㛱	rv;ny	0
+䅑	sv;hn	0
+䓲	sa;cx	0
+笍	rv;vn	0
+苼	rv;cu	0
+㒎	tj;rf	0
+㪪	xi;ty	0
+㳐	sa;dv	0
+䘮	xi;gy	0
+䘮	sa;gy	0
+摋	ud;fu	0
+泧	sa;dl	0
+潵	sa;dw	0
+訯	sa;yj	0
+鈒	sa;jj	0
+鏾	xm;jw	0
+鏾	sa;jw	0
+钑	xi;jj	0
+钑	sa;jj	0
+鳃	xi;yx	0
+㪔	tj;my	0
+䀐	sj;op	0
+糁	uf;mp	0
+糝	uf;mp	0
+糣	uf;mo	0
+㛐	sc;ng	0
+梢	sc;mo	0
+矂	sc;om	0
+颾	sz;fi	0
+㻭	ze;wu	0
+擌	se;fr	0
+栜	se;mu	0
+歰	ua;rv	0
+瘷	se;bw	0
+鎍	se;jx	0
+閪	xi;mx	0
+闟	se;mx	0
+㚫	va;nj	0
+㚫	ua;nj	0
+䮜	ua;mm	0
+䵘	ua;hw	0
+䶎	ua;zk	0
+榝	xp;mu	0
+樧	xp;mu	0
+簁	ud;vz	0
+簛	ud;vj	0
+籭	ud;vl	0
+酾	ud;yd	0
+䆄	uj;hd	0
+䦅	vj;jk	0
+䱇	tc;yd	0
+彡	uj;pp	0
+椫	uj;mu	0
+潬	uj;du	0
+潬	tj;du	0
+脠	uj;ov	0
+銏	uo;jc	0
+鳣	uj;yd	0
+恦	uh;xk	0
+樉	uh;mx	0
+禓	uh;pw	0
+鋿	uh;jk	0
+鏛	uh;jj	0
+鑜	uh;jb	0
+鞝	uh;gk	0
+㸛	uo;pk	0
+䏴	ue;oo	0
+佋	uc;rk	0
+莦	xn;co	0
+萷	uc;cd	0
+㪿	ue;cj	0
+㭙	ue;mc	0
+㰒	ue;mz	0
+䀅	ve;pm	0
+䁋	ue;om	0
+䁯	xp;ox	0
+䁯	ue;ox	0
+䂠	ue;uu	0
+䄕	tm;pt	0
+䄕	uf;pt	0
+䌰	ue;se	0
+䵥	yk;lb	0
+䵥	ue;lb	0
+䵥	wj;lb	0
+慴	ue;xb	0
+韘	xp;wm	0
+㔤	uf;bl	0
+㥲	yb;ux	0
+㰂	sy;mt	0
+㵊	ve;dy	0
+㵊	uf;dy	0
+姺	uf;ne	0
+搷	uf;fb	0
+祳	uf;pi	0
+穼	uf;bm	0
+糂	uf;mb	0
+罙	uf;bm	0
+罧	uf;sm	0
+薓	uf;cy	0
+蜄	uf;ii	0
+鰺	uf;yp	0
+㮐	xk;mo	0
+䚇	vi;uj	0
+䪿	xb;py	0
+渻	ug;do	0
+㮶	ui;mo	0
+㹷	xb;xq	0
+䂖	si;ud	0
+䦠	ui;mu	0
+䰄	ui;ex	0
+䶡	vi;vd	0
+佦	yz;ru	0
+厔	ui;it	0
+呞	ui;kk	0
+啫	ui;ko	0
+嘘	ui;ky	0
+噓	ui;ky	0
+峙	ui;uc	0
+崻	ui;uc	0
+徥	ti;rz	0
+恀	ui;xx	0
+惿	ui;xz	0
+枾	ui;mb	0
+檡	tu;mg	0
+檡	ui;mg	0
+檡	vd;mg	0
+泽	ui;df	0
+澤	ui;dg	0
+狧	ui;qu	0
+狶	ui;qj	0
+痑	tj;bx	0
+痑	ui;bx	0
+硕	ui;uy	0
+秲	ui;hc	0
+觢	ui;fy	0
+醳	ui;yg	0
+釶	yi;jy	0
+鉃	ui;ju	0
+鉇	ui;jy	0
+銴	vi;fj	0
+馶	ui;mv	0
+䭭	tu;by	0
+䭭	uu;by	0
+涭	tc;dy	0
+鏉	sz;jq	0
+㟬	uu;uy	0
+㳆	uu;dd	0
+䃞	yi;wu	0
+䆝	uu;bm	0
+䎉	uu;xd	0
+䎉	yu;xd	0
+䠱	uu;zi	0
+䩳	uu;gy	0
+䩳	su;gy	0
+咰	uu;ko	0
+尌	vu;tc	0
+忬	yu;xy	0
+怷	uu;ux	0
+怸	uu;ux	0
+澍	vu;dc	0
+琡	uu;wy	0
+瑹	uu;wm	0
+稌	uu;hm	0
+絉	uu;su	0
+緰	uu;sd	0
+緰	xu;sd	0
+鄃	uu;re	0
+隃	uu;ed	0
+霔	uu;yv	0
+腨	ur;oe	0
+䡯	ul;ix	0
+娷	vv;nt	0
+说	yt;yx	0
+眴	xy;oo	0
+眴	uy;oo	0
+愬	uo;nx	0
+洬	uo;dd	0
+㐌	si;py	0
+㐌	yi;py	0
+㹑	yi;nb	0
+䇃	xn;ls	0
+䎣	xb;lr	0
+価	si;rx	0
+傂	vi;rj	0
+傂	si;rj	0
+枱	si;mk	0
+洠	si;dn	0
+燍	si;hj	0
+磃	ti;uj	0
+銉	si;jy	0
+鋖	si;jn	0
+飴	si;uk	0
+騃	si;mu	0
+鯣	si;yw	0
+䜬	xq;gy	0
+揔	ss;fx	0
+鎹	ss;jt	0
+㵻	sz;dy	0
+棷	sz;my	0
+䘻	su;po	0
+埣	su;tu	0
+梀	su;mu	0
+梀	yb;mu	0
+稡	su;hu	0
+稡	zv;hu	0
+缩	su;sb	0
+莤	su;cy	0
+遬	su;zq	0
+㒸	xr;bu	0
+倠	sv;rv	0
+嗺	sv;kv	0
+睟	zv;ou	0
+遺	sv;zb	0
+㡄	sy;jo	0
+孙	xy;zx	0
+簨	vr;vg	0
+鶽	sy;rn	0
+鶽	xy;rn	0
+䌇	so;sx	0
+嗍	so;ko	0
+溹	so;dx	0
+睃	so;ow	0
+䂿	tp;uo	0
+䍝	zj;so	0
+傝	tj;rx	0
+粏	ta;mt	0
+铊	to;jb	0
+阘	ta;mx	0
+䢰	td;zv	0
+䣭	td;yq	0
+旲	yk;od	0
+汱	td;dq	0
+珆	td;wk	0
+僋	tj;rb	0
+暺	tj;ou	0
+譠	tj;yd	0
+顃	tj;hy	0
+䚯	vf;yd	0
+匋	yc;bf	0
+抭	tc;fj	0
+跳	tc;zv	0
+熥	tg;hy	0
+霯	tg;yb	0
+䝰	ti;bc	0
+䣡	ti;ye	0
+䧅	ti;ey	0
+䧅	ya;ey	0
+屟	ti;um	0
+擿	vd;fg	0
+桋	ti;my	0
+瓋	ti;wg	0
+禔	vi;pz	0
+䐌	vz;qo	0
+䩄	tm;mj	0
+呑	tm;yk	0
+唺	tm;kb	0
+填	vf;tb	0
+畠	zd;bt	0
+畠	zi;bt	0
+盷	xm;oy	0
+紾	tm;sp	0
+舚	tm;uk	0
+䒒	yc;cd	0
+䒒	yz;cd	0
+䖺	vc;ri	0
+䩦	zo;rg	0
+啁	tn;kk	0
+啁	vc;kk	0
+恌	yc;xv	0
+窕	yc;bv	0
+鯈	tn;ry	0
+聑	tp;ee	0
+聑	ve;ee	0
+䋼	tk;sm	0
+桯	yk;mw	0
+㪌	yu;sy	0
+䮵	ys;ml	0
+䳋	vs;in	0
+偅	ts;rv	0
+穜	vs;hl	0
+綂	ts;se	0
+㕻	tz;dk	0
+婾	yu;nv	0
+媮	yu;nd	0
+愉	tz;xd	0
+墿	tu;tg	0
+潳	va;do	0
+圕	tr;ko	0
+塼	tr;tc	0
+漙	vr;dc	0
+㾯	ww;by	0
+䍾	tv;kx	0
+侻	tv;rx	0
+讉	tv;yb	0
+㞘	ty;uu	0
+旽	vy;ot	0
+蛌	ty;ig	0
+䓕	ww;cy	0
+咜	to;kb	0
+嶞	to;eu	0
+彵	yi;ry	0
+撱	ww;fo	0
+杔	ve;mq	0
+狏	to;qy	0
+鮵	to;yx	0
+㰪	wa;tq	0
+䎳	yt;eo	0
+䯉	ya;gq	0
+婠	wa;nl	0
+瓾	wa;hw	0
+砙	wa;uw	0
+𩋘	wa;gv	0
+顡	wd;ly	0
+䂺	wj;ug	0
+䖤	yr;xi	0
+䝹	yr;bv	0
+夗	wj;xv	0
+惌	wj;bx	0
+捥	yu;fv	0
+涴	yr;dv	0
+瞣	wj;ox	0
+箢	yr;vv	0
+菀	yy;cv	0
+蚖	wj;iy	0
+贃	vr;bx	0
+䛃	wh;yy	0
+罖	wh;sd	0
+迬	vu;zv	0
+㢻	ww;gn	0
+㧑	ww;fw	0
+㨊	ww;fo	0
+㷉	yy;uc	0
+䬐	ww;fn	0
+叞	yu;uy	0
+唩	ww;kn	0
+嶉	ww;uv	0
+沩	ww;dw	0
+猚	ww;qv	0
+琟	yu;wv	0
+痏	yz;bo	0
+痏	yu;bo	0
+遗	ww;zb	0
+饖	ww;uu	0
+㗃	yb;ko	0
+呅	wf;kw	0
+榅	wf;mm	0
+榅	yy;mm	0
+榲	wf;mm	0
+緼	wf;sm	0
+縕	wf;sm	0
+繧	wf;sy	0
+缊	wf;sm	0
+鞰	wf;gm	0
+韫	wf;wm	0
+饂	wf;um	0
+㜲	wg;nn	0
+㹚	wg;nk	0
+䤰	wg;tj	0
+勜	wg;gl	0
+攚	wg;fk	0
+仴	wo;ro	0
+媉	wo;nt	0
+挝	wo;fc	0
+撾	wo;fk	0
+枂	yt;mo	0
+瓁	wo;wy	0
+瞃	wo;oo	0
+硪	wo;uw	0
+臒	wo;oy	0
+臒	yt;oy	0
+馧	wo;hm	0
+馧	yy;hm	0
+娪	yu;nk	0
+扜	wu;fy	0
+杅	wu;my	0
+譕	wu;yh	0
+鋙	yu;jk	0
+铻	yu;jk	0
+陚	wu;ev	0
+㙾	xt;tz	0
+㤴	xi;xv	0
+㥡	xi;xm	0
+㦻	ve;xg	0
+㳧	xi;dv	0
+㵿	xi;db	0
+㹫	xi;qy	0
+䀘	xi;ok	0
+䏮	xp;od	0
+䙽	xi;dj	0
+䜣	xi;yj	0
+䜣	yb;yj	0
+䩤	xi;gj	0
+扸	xi;fp	0
+渓	xi;df	0
+潝	ya;dx	0
+焬	yi;hw	0
+煕	yi;ih	0
+矖	xi;ol	0
+羛	xi;yf	0
+薂	xn;cw	0
+趇	xi;tl	0
+邜	xi;xe	0
+郗	xi;xe	0
+鐊	xi;jw	0
+㗇	ya;ky	0
+疨	ya;by	0
+疨	xx;by	0
+㔵	xm;kg	0
+㜪	xm;ln	0
+㡉	yj;jx	0
+㧋	xm;fq	0
+㩈	xm;fk	0
+㯀	xm;mz	0
+㿅	xr;bz	0
+䀏	xm;bo	0
+䒸	xm;cm	0
+䒸	yt;cm	0
+䘆	xm;ix	0
+䞁	xm;bn	0
+䞁	yh;bn	0
+县	xr;qs	0
+妶	xu;nx	0
+枮	vf;mv	0
+橺	xm;mo	0
+湺	xm;dm	0
+礥	xb;ub	0
+糮	xm;mm	0
+綖	xm;sv	0
+軐	xb;iu	0
+羏	xl;yp	0
+衖	xl;rg	0
+详	yh;yy	0
+㑾	xn;rk	0
+㤊	yc;xx	0
+崤	xn;uo	0
+殽	xn;xu	0
+獟	xn;qw	0
+皛	xn;bb	0
+誟	xn;yz	0
+颵	xn;fo	0
+鷍	xn;zn	0
+㔎	yi;cd	0
+㖿	xp;ke	0
+㩪	xb;fy	0
+㩪	ye;fy	0
+㴽	yb;dx	0
+䚳	xp;yv	0
+䦑	xp;mg	0
+䭎	xp;um	0
+䵦	xp;ly	0
+偞	xp;rm	0
+僁	xp;rx	0
+娎	xp;fn	0
+枻	xp;mu	0
+栧	xp;my	0
+緤	ye;sm	0
+縀	xp;sy	0
+繲	xp;sn	0
+讗	xp;yk	0
+邪	ya;ye	0
+靾	xp;gu	0
+齂	xp;zl	0
+㚯	xy;nf	0
+㛛	vf;nu	0
+嬜	xb;ln	0
+枔	xb;mv	0
+脪	xb;oj	0
+鐔	xb;ju	0
+馫	xb;ho	0
+箵	xk;vo	0
+荥	yk;cu	0
+葕	xk;cd	0
+匂	xs;bb	0
+焸	yk;oh	0
+焽	yk;oh	0
+峀	xq;uy	0
+脙	xq;oq	0
+苬	xq;cr	0
+㕛	yz;yy	0
+㤢	xu;xo	0
+㦽	xu;uv	0
+㾥	xu;by	0
+䜡	xt;yw	0
+䜡	xu;yw	0
+䣱	yi;yj	0
+䬔	xu;fd	0
+怴	xt;xl	0
+暊	xu;oy	0
+烼	xu;hu	0
+燸	xu;he	0
+疞	xu;bk	0
+禑	xu;pd	0
+蛡	xu;ix	0
+諿	xu;ye	0
+㘣	yr;ko	0
+䴉	xr;sn	0
+弲	yr;go	0
+楥	yr;my	0
+痃	xr;bx	0
+㔧	xt;hl	0
+㧒	yt;fb	0
+㧒	xt;fb	0
+䆷	yu;bk	0
+䎀	yt;xl	0
+䫻	xt;fo	0
+䬂	yt;fl	0
+䭥	yh;ug	0
+䭥	yc;ug	0
+䭥	vz;ug	0
+瀥	xt;dk	0
+疶	xt;bu	0
+瞲	xt;ok	0
+蒆	xt;cn	0
+雤	yu;jv	0
+㝁	xy;bz	0
+㰊	xy;mh	0
+䙉	zj;po	0
+奞	vv;dv	0
+愻	xy;zx	0
+揗	xy;fo	0
+爓	xy;hj	0
+稄	xy;hw	0
+蟫	xy;iu	0
+鄩	xy;ee	0
+䄰	va;hy	0
+䊦	ya;mb	0
+䝟	ye;vd	0
+冴	ya;dy	0
+椻	ya;mn	0
+窫	ye;bd	0
+覀	ya;ak	0
+釾	ya;jy	0
+㓧	yj;rd	0
+㛪	yr;nd	0
+䊻	yj;sq	0
+䭘	yj;ux	0
+䱲	yj;yu	0
+嚈	yj;kq	0
+黬	yj;lk	0
+黭	yj;lc	0
+黰	yj;lb	0
+䇦	yh;vy	0
+䬬	yh;uy	0
+崸	yh;uy	0
+柍	yk;my	0
+楧	yk;my	0
+眏	yk;oy	0
+軮	yh;iy	0
+鴹	yh;yn	0
+㔽	yz;bk	0
+㢓	vh;gu	0
+㮁	yc;mo	0
+㵸	yt;dc	0
+㿢	vv;ob	0
+䂚	yz;ux	0
+䄏	yc;py	0
+䉰	yc;vf	0
+䋤	yc;fu	0
+䌊	yz;sf	0
+䍃	yc;vf	0
+怮	yc;xl	0
+摿	yc;fo	0
+滧	yc;dw	0
+狕	yc;ql	0
+磘	yc;uf	0
+蓔	vo;ch	0
+詏	yc;yl	0
+鱙	yc;yw	0
+鴢	yc;yn	0
+㙪	ye;tb	0
+㝣	ye;bd	0
+㥷	yi;gx	0
+㭨	ye;me	0
+㸣	yi;pw	0
+捓	yu;fe	0
+捙	ye;fi	0
+歋	ye;iq	0
+潱	ye;db	0
+璍	ye;wf	0
+㐆	yi;iv	0
+㕥	yi;kr	0
+㝖	yb;bx	0
+㣂	yi;gg	0
+㩘	yi;fw	0
+㹓	yi;nw	0
+㹭	yi;qy	0
+䐅	yi;ou	0
+䐖	yi;om	0
+䱒	yi;yb	0
+乛	yi;aa	0
+匇	yi;bx	0
+吚	yi;ky	0
+呹	yi;kf	0
+坄	yi;tu	0
+妷	yi;nf	0
+敼	yi;ty	0
+欥	yi;oq	0
+渏	yi;dk	0
+秇	vi;hw	0
+篒	yi;vg	0
+耴	yi;ev	0
+鄓	yi;ze	0
+鮨	yi;yo	0
+㣧	ys;rv	0
+㼉	yb;ge	0
+㾙	yb;bj	0
+乑	yb;pu	0
+堷	yb;to	0
+斦	yb;jj	0
+輑	yb;ik	0
+㴄	yk;dk	0
+䤝	yk;je	0
+鱦	yk;yd	0
+育	yo;wo	0
+蒏	ys;cy	0
+銿	ys;jy	0
+鰫	ys;yg	0
+㮋	yu;me	0
+㺠	yu;qg	0
+㻀	yz;wn	0
+䳑	yu;un	0
+哊	yz;ko	0
+尢	yz;uv	0
+羪	yz;yl	0
+㒁	yy;rg	0
+㳚	yu;dd	0
+䙔	yu;pk	0
+䬄	yu;fa	0
+圫	yu;tq	0
+圫	vy;tq	0
+扵	yu;fd	0
+斔	vs;wr	0
+潏	yu;dk	0
+灹	yu;hq	0
+牏	yu;pd	0
+粖	yu;mw	0
+髃	yu;gd	0
+䡝	yy;iv	0
+员	yy;kb	0
+贠	yy;sb	0
+矱	yt;uy	0
+黦	yt;lv	0
+㾓	yy;bo	0
+䦾	yy;py	0
+齫	yy;vm	0
+齳	yy;vi	0
+桚	za;mx	0
+沯	za;uu	0
+魳	za;yj	0
+㞨	zd;uz	0
+㴓	zd;dx	0
+溨	zd;dm	0
+縡	zg;sx	0
+酨	zd;gy	0
+㤰	zj;rx	0
+橵	zj;mw	0
+蹔	zj;iz	0
+饡	zj;ub	0
+鵤	zj;dn	0
+㲧	zc;mi	0
+䒃	zc;vk	0
+煰	zc;hk	0
+㖽	zw;ky	0
+㣱	zo;rb	0
+䇥	zo;vv	0
+䕪	ze;cg	0
+泎	ze;dv	0
+矠	ze;mo	0
+礋	ze;ug	0
+笮	zo;vv	0
+责	vd;fb	0
+飵	va;uv	0
+齚	ze;vv	0
+蠈	zw;bi	0
+鱡	zw;yu	0
+㽪	va;to	0
+囎	zg;ko	0
+鄫	zg;be	0
+鋥	zg;jw	0
+鬵	zg;wg	0
+䞢	va;tv	0
+厏	vd;iv	0
+怍	va;xv	0
+柞	va;mv	0
+皶	va;mp	0
+鮺	va;yy	0
+厇	vd;iq	0
+抧	vd;fv	0
+岾	vj;uv	0
+枬	vj;md	0
+飦	vj;ug	0
+㕩	vh;kf	0
+㺐	vc;qg	0
+䃍	vv;uu	0
+䮓	vc;mu	0
+㯰	vi;mq	0
+䠦	vi;zo	0
+慹	ve;tx	0
+淛	ve;dd	0
+矺	ve;uq	0
+粍	ve;mm	0
+袩	ve;pv	0
+踷	ve;zo	0
+帧	vf;jb	0
+甽	vf;ti	0
+䦛	vi;my	0
+塣	vg;dt	0
+媜	vg;nb	0
+崝	vg;uo	0
+幁	vg;jy	0
+靕	vg;vo	0
+㘉	vi;ke	0
+㧻	vi;fu	0
+㧻	zu;fu	0
+䇽	vi;vj	0
+䐭	vi;oj	0
+䫕	vi;wy	0
+䱨	vi;yd	0
+夂	vs;pn	0
+淔	vi;dq	0
+瀄	vi;de	0
+茋	vi;cu	0
+鯯	vi;yd	0
+㲴	vz;qv	0
+瘇	vs;bv	0
+蜙	vs;ig	0
+螤	vs;wr	0
+㔌	vz;ed	0
+㥮	vz;xc	0
+䇠	vz;vv	0
+䐍	vz;ob	0
+碡	vz;um	0
+粙	vz;my	0
+䇧	vu;vx	0
+帾	vu;jo	0
+斀	vu;sy	0
+燝	vu;hx	0
+笜	vu;vi	0
+簗	vu;vm	0
+钃	vu;ji	0
+鸀	vu;sn	0
+转	vk;iv	0
+諯	vr;ye	0
+沝	zi;uu	0
+腏	vv;oy	0
+諈	vv;yt	0
+醊	vv;yy	0
+琢	zo;wu	0
+籱	vo;vv	0
+諁	vo;yy	0
+鵫	vo;bn	0
+嗭	zi;ub	0
+緕	zi;so	0
+纃	zi;so	0
+荢	zi;cy	0
+緫	zs;sx	0
+緵	zs;sw	0
+龰	zz;br	0
+䘚	zu;yu	0
+䯿	zo;eu	0
+唨	zu;kq	0
+箤	zu;vu	0
+葅	zu;cq	0
+鉆	zr;jv	0
+冣	zv;by	0
+侳	zo;rr	0
+穝	zo;hy	0
 幾	jo;gr	0
 #𱍒	dd	0	# auto
 
@@ -99118,7 +103031,7 @@ use_preset_vocabulary: false
 咒	vM;kj	539
 棍	gT;mb	536
 袭	xO;ly	536
-井	jA;ca	533
+井	jA;ac	533
 俊	jT;rw	533
 噎	yE;kb	533
 嘭	pG;kp	533
@@ -112278,86 +116191,86 @@ use_preset_vocabulary: false
 䬟	lW;fd	0
 䬟	lE;fd	0
 䬡	vY;lf	0
-䬣	xU;rv	0
-䬣	qU;rv	0
-䬣	gE;rv	0
+䬣	xU;uv	0
+䬣	qU;uv	0
+䬣	gE;uv	0
 䬤	zH;ug	0
 䬤	vJ;ug	0
 䬥	yU;yg	0
-䬦	dM;ru	0
-䬦	uW;ru	0
-䬧	yT;ry	0
-䬨	jP;rj	0
-䬪	bP;rb	0
-䬫	tO;ru	0
-䬬	yA;ry	0
-䬮	yO;rr	0
-䬯	nZ;rv	0
-䬯	tX;rv	0
-䬰	uX;rk	0
-䬱	bD;rb	0
+䬦	dM;uu	0
+䬦	uW;uu	0
+䬧	yT;uy	0
+䬨	jP;uj	0
+䬪	bP;ub	0
+䬫	tO;uu	0
+䬬	yA;uy	0
+䬮	yO;ur	0
+䬯	nZ;uv	0
+䬯	tX;uv	0
+䬰	uX;uk	0
+䬱	bD;ub	0
 䬲	gZ	0
-䬳	bL;rb	0
-䬴	mI;rw	0
-䬵	gD;rr	0
-䬵	aU;rr	0
-䬶	eB;rg	0
-䬷	uT;rx	0
-䬹	vU;rt	0
-䬺	yG;ry	0
-䬻	jN;rj	0
-䬼	yE;ro	0
-䬽	uC;rx	0
-䬽	dC;rx	0
-䬾	tO;rd	0
-䬿	wR;rm	0
-䬿	wQ;rm	0
-䭀	xT;ru	0
+䬳	bL;ub	0
+䬴	mI;uw	0
+䬵	gD;ur	0
+䬵	aU;ur	0
+䬶	eB;ug	0
+䬷	uT;ux	0
+䬹	vU;ut	0
+䬺	yG;uy	0
+䬻	jN;uj	0
+䬼	yE;uo	0
+䬽	uC;ux	0
+䬽	dC;ux	0
+䬾	tO;ud	0
+䬿	wR;um	0
+䬿	wQ;um	0
+䭀	xT;uu	0
 䭁	vU;fg	0
-䭂	yU;rb	0
-䭃	rH;rx	0
-䭃	nO;rx	0
-䭄	uU;ru	0
-䭅	hI;rg	0
+䭂	yU;ub	0
+䭃	rH;ux	0
+䭃	nO;ux	0
+䭄	uU;uu	0
+䭅	hI;ug	0
 䭆	nW;ig	0
-䭇	yE;rk	0
-䭇	yU;rk	0
-䭈	jN;ry	0
-䭉	sN;ro	0
-䭊	yA;ry	0
-䭋	bB;rm	0
+䭇	yE;uk	0
+䭇	yU;uk	0
+䭈	jN;uy	0
+䭉	sN;uo	0
+䭊	yA;uy	0
+䭋	bB;um	0
 䭌	hI;gg	0
-䭍	hI;rm	0
-䭎	yW;rm	0
-䭐	yG;rx	0
-䭑	lZ;rj	0
-䭑	qN;rj	0
-䭑	xN;rj	0
+䭍	hI;um	0
+䭎	yW;um	0
+䭐	yG;ux	0
+䭑	lZ;uj	0
+䭑	qN;uj	0
+䭑	xN;uj	0
 䭒	xI	0
-䭓	eB;rb	0
+䭓	eB;ub	0
 䭔	dV	0
 䭕	zL;ig	0
 䭕	jX;ig	0
-䭖	vY;rh	0
-䭗	yA;re	0
-䭘	yA;rx	0
-䭙	jM;ro	0
-䭙	jN;ro	0
-䭚	iA;rl	0
-䭛	dH;rw	0
-䭝	kJ;ro	0
-䭞	yU;rg	0
-䭟	yW;rm	0
-䭠	jX;rj	0
-䭡	eB;rx	0
-䭢	nL;rd	0
-䭣	cO;ro	0
-䭤	qX;rl	0
-䭥	xR;rg	0
-䭦	bO;rc	0
-䭧	mP;rx	0
-䭨	uC;rk	0
-䭩	mP;rf	0
+䭖	vY;uh	0
+䭗	yA;ue	0
+䭘	yA;ux	0
+䭙	jM;uo	0
+䭙	jN;uo	0
+䭚	iA;ul	0
+䭛	dH;uw	0
+䭝	kJ;uo	0
+䭞	yU;ug	0
+䭟	yW;um	0
+䭠	jX;uj	0
+䭡	eB;ux	0
+䭢	nL;ud	0
+䭣	cO;uo	0
+䭤	qX;ul	0
+䭥	xR;ug	0
+䭦	bO;uc	0
+䭧	mP;ux	0
+䭨	uC;uk	0
+䭩	mP;uf	0
 䭪	lA;ul	0
 䭫	qP;bz	0
 䭬	qP;bb	0
@@ -113148,7 +117061,7 @@ use_preset_vocabulary: false
 于	xV;au	1
 亏	yB;ak	1
 亐	yB;av	1
-井	jJ;ca	1
+井	jJ;ac	1
 亖	sU;ee	1
 亗	sC;ue	1
 亘	xR;ad	1
@@ -127819,9 +131732,9 @@ use_preset_vocabulary: false
 蝑	xO;io	1
 蝒	mZ;im	1
 蝔	jP;ib	1
-蝕	uO;ri	1
-蝕	lU;ri	1
-蝕	lD;ri	1
+蝕	uO;ui	1
+蝕	lU;ui	1
+蝕	lD;ui	1
 蝖	xR;id	1
 蝙	pZ;ic	1
 蝚	rX;im	1
@@ -132548,164 +136461,164 @@ use_preset_vocabulary: false
 食	yU;rg	1
 飠	uO;rg	1
 飡	cJ;dg	1
-飢	jI;rj	1
-飣	dJ;rd	1
-飤	sU;rr	1
-飥	tO;rq	1
-飦	vJ;rg	1
-飦	gJ;rg	1
-飩	tU;rt	1
-飩	vT;rt	1
-飪	rD;rw	1
-飫	yC;ry	1
+飢	jI;uj	1
+飣	dJ;ud	1
+飤	sU;ur	1
+飥	tO;uq	1
+飦	vJ;ug	1
+飦	gJ;ug	1
+飩	tU;ut	1
+飩	vT;ut	1
+飪	rD;uw	1
+飫	yC;uy	1
 飬	jE;jl	1
 飬	yF;jl	1
-飭	iU;rl	1
-飭	uU;rl	1
+飭	iU;ul	1
+飭	uU;ul	1
 飮	yM;uq	1
-飯	fH;ry	1
-飰	fH;rb	1
+飯	fH;uy	1
+飰	fH;ub	1
 飱	sY;dg	1
 飱	cJ;dg	1
-飲	yM;rq	1
-飲	yV;rq	1
-飳	tC;rv	1
-飳	vY;rv	1
-飴	yO;rk	1
-飴	sU;rk	1
-飵	zI;rv	1
-飵	zR;rv	1
-飶	bU;rb	1
-飷	jW;rq	1
+飲	yM;uq	1
+飲	yV;uq	1
+飳	tC;uv	1
+飳	vY;uv	1
+飴	yO;uk	1
+飴	sU;uk	1
+飵	zI;uv	1
+飵	zR;uv	1
+飶	bU;ub	1
+飷	jW;uq	1
 飸	tC;kg	1
-飹	bB;re	1
+飹	bB;ue	1
 飺	cO;vg	1
-飻	tO;rp	1
-飼	sU;rk	1
-飽	bB;rb	1
-飾	uU;rj	1
-飾	iU;rj	1
-飿	dI;ri	1
-餀	hS;rx	1
-餁	rD;rw	1
-餂	tX;ru	1
-餂	tZ;ru	1
-餃	jZ;rf	1
-餃	jB;rf	1
-餄	jC;rk	1
-餄	hR;rk	1
-餅	bA;rk	1
-餆	yV;rv	1
-餇	tD;rk	1
+飻	tO;up	1
+飼	sU;uk	1
+飽	bB;ub	1
+飾	uU;uj	1
+飾	iU;uj	1
+飿	dI;ui	1
+餀	hS;ux	1
+餁	rD;uw	1
+餂	tX;uu	1
+餂	tZ;uu	1
+餃	jZ;uf	1
+餃	jB;uf	1
+餄	jC;uk	1
+餄	hR;uk	1
+餅	bA;uk	1
+餆	yV;uv	1
+餇	tD;uk	1
 餈	cO;dg	1
-餉	xS;rk	1
+餉	xS;uk	1
 養	yK;yg	1
 養	yG;yg	1
 餋	jE;jg	1
-餌	eY;re	1
-餎	lE;rk	1
-餏	xI;ry	1
+餌	eY;ue	1
+餎	lE;uk	1
+餏	xI;uy	1
 餐	sY;dg	1
-餑	bO;rz	1
-餒	nR;rn	1
-餓	eW;rw	1
-餔	bY;rf	1
-餔	bU;rf	1
-餕	jT;rw	1
-餖	dM;rb	1
-餗	sY;ru	1
-餘	yB;rm	1
-餘	yR;rm	1
-餙	uU;rj	1
-餙	xI;rj	1
-餚	yV;ro	1
-餛	hU;rb	1
-餛	kY;rb	1
-餜	gQ;rg	1
-餝	uU;rf	1
-餞	jN;rg	1
-餟	vC;ry	1
-餠	bA;rg	1
-餡	xN;rj	1
-餡	kH;rj	1
-餢	bY;rk	1
-餣	yW;rd	1
-餤	tK;rh	1
-餤	dH;rh	1
+餑	bO;uz	1
+餒	nR;un	1
+餓	eW;uw	1
+餔	bY;uf	1
+餔	bU;uf	1
+餕	jT;uw	1
+餖	dM;ub	1
+餗	sY;uu	1
+餘	yB;um	1
+餘	yR;um	1
+餙	uU;uj	1
+餙	xI;uj	1
+餚	yV;uo	1
+餛	hU;ub	1
+餛	kY;ub	1
+餜	gQ;ug	1
+餝	uU;uf	1
+餞	jN;ug	1
+餟	vC;uy	1
+餠	bA;ug	1
+餡	xN;uj	1
+餡	kH;uj	1
+餢	bY;uk	1
+餣	yW;ud	1
+餤	tK;uh	1
+餤	dH;uh	1
 餥	fW;fg	1
-餦	vH;ri	1
-餧	wQ;rn	1
-餧	nR;rn	1
-館	gY;rl	1
-餩	eW;rr	1
-餪	nY;rd	1
-餪	nE;rd	1
-餫	yT;ri	1
-餫	hU;ri	1
-餬	hI;ro	1
-餭	hA;rw	1
-餯	hC;ru	1
-餰	jM;rd	1
-餰	vJ;rd	1
-餱	hX;ru	1
-餲	aU;rr	1
-餲	hR;rr	1
-餳	tJ;rw	1
-餳	xL;rw	1
-餴	fF;rc	1
-餵	wQ;ry	1
-餶	gO;ro	1
-餷	iA;rd	1
-餸	sA;rt	1
-餹	tJ;rk	1
-餺	bP;rc	1
-餻	gC;rh	1
-餼	xU;rm	1
-餽	kC;rg	1
-餾	lP;rt	1
-餾	lW;rt	1
-餿	sZ;ry	1
-饀	tV;rj	1
-饀	tC;rj	1
-饀	xN;rj	1
-饁	yW;rm	1
-饂	wF;rm	1
-饃	mP;rd	1
-饄	tJ;rt	1
-饅	mK;ry	1
-饆	bU;rf	1
-饇	yC;rk	1
-饈	xQ;ri	1
-饉	jM;rw	1
-饊	sL;rw	1
-饋	kC;rb	1
-饋	tB;rb	1
-饌	vE;rg	1
-饌	xY;rg	1
-饍	uH;rk	1
-饎	iU;rk	1
+餦	vH;ui	1
+餧	wQ;un	1
+餧	nR;un	1
+館	gY;ul	1
+餩	eW;ur	1
+餪	nY;ud	1
+餪	nE;ud	1
+餫	yT;ui	1
+餫	hU;ui	1
+餬	hI;uo	1
+餭	hA;uw	1
+餯	hC;uu	1
+餰	jM;ud	1
+餰	vJ;ud	1
+餱	hX;uu	1
+餲	aU;ur	1
+餲	hR;ur	1
+餳	tJ;uw	1
+餳	xL;uw	1
+餴	fF;uc	1
+餵	wQ;uy	1
+餶	gO;uo	1
+餷	iA;ud	1
+餸	sA;ut	1
+餹	tJ;uk	1
+餺	bP;uc	1
+餻	gC;uh	1
+餼	xU;um	1
+餽	kC;ug	1
+餾	lP;ut	1
+餾	lW;ut	1
+餿	sZ;uy	1
+饀	tV;uj	1
+饀	tC;uj	1
+饀	xN;uj	1
+饁	yW;um	1
+饂	wF;um	1
+饃	mP;ud	1
+饄	tJ;ut	1
+饅	mK;uy	1
+饆	bU;uf	1
+饇	yC;uk	1
+饈	xQ;ui	1
+饉	jM;uw	1
+饊	sL;uw	1
+饋	kC;ub	1
+饋	tB;ub	1
+饌	vE;ug	1
+饌	xY;ug	1
+饍	uH;uk	1
+饎	iU;uk	1
 饏	dH;eg	1
-饐	yU;rb	1
-饐	yE;rb	1
-饐	eB;rb	1
-饑	jI;rr	1
-饑	qO;rr	1
-饒	rV;rw	1
-饓	iG;rm	1
-饖	wQ;ru	1
+饐	yU;ub	1
+饐	yE;ub	1
+饐	eB;ub	1
+饑	jI;ur	1
+饑	qO;ur	1
+饒	rV;uw	1
+饓	iG;um	1
+饖	wQ;uu	1
 饗	xS;xg	1
-饘	vJ;rd	1
-饙	fF;rb	1
-饚	hS;rm	1
-饛	mH;ru	1
+饘	vJ;ud	1
+饙	fF;ub	1
+饚	hS;um	1
+饛	mH;uu	1
 饜	yH;ig	1
-饝	mP;ru	1
-饞	iK;rt	1
-饟	xS;rf	1
-饠	lP;rv	1
-饡	zH;rb	1
-饢	nJ;ry	1
-饢	nK;ry	1
+饝	mP;uu	1
+饞	iK;ut	1
+饟	xS;uf	1
+饠	lP;uv	1
+饡	zH;ub	1
+饢	nJ;uy	1
+饢	nK;uy	1
 饣	uO;dl	1
 饤	dJ;ud	1
 饦	tO;uq	1
@@ -135967,7 +139880,7 @@ use_preset_vocabulary: false
 𡒳	mZ;tf	0
 𡒾	hV;tg	0
 𡒾	kC;tg	0
-𡓉	dI;rt	0
+𡓉	dI;ut	0
 𡓍	lO;tv	0
 𡓒	lS;tb	0
 𡓓	yN;jt	0
@@ -135979,7 +139892,7 @@ use_preset_vocabulary: false
 𡓦	vH;tt	0
 𡓭	mP;gt	0
 𡓰	kV;tk	0
-𡓷	dI;rt	0
+𡓷	dI;ut	0
 𡓿	yN;kt	0
 𡔇	lQ;mt	0
 𡔕	gA;lt	0
@@ -148220,193 +152133,193 @@ use_preset_vocabulary: false
 𩙽	hT;sf	0
 𩙽	xR;sf	0
 𩙾	vI;nf	0
-𩚂	yU;rv	0
-𩚄	yC;ry	0
+𩚂	yU;uv	0
+𩚄	yC;uy	0
 𩚇	yO;rc	0
-𩚈	yT;ru	0
-𩚉	iO;ry	0
-𩚕	yM;rv	0
-𩚕	qL;rv	0
-𩚖	nP;ri	0
-𩚗	rF;rj	0
-𩚛	nL;rn	0
-𩚣	tZ;ro	0
-𩚥	bA;rb	0
-𩚪	eY;ru	0
-𩚫	vG;rv	0
-𩚬	eW;rv	0
-𩚭	pX;rc	0
-𩚮	jI;rf	0
-𩚮	nU;rf	0
-𩚯	nO;rb	0
-𩚱	jF;rk	0
-𩚲	jC;rj	0
-𩚵	gJ;rg	0
-𩚹	lL;rs	0
+𩚈	yT;uu	0
+𩚉	iO;uy	0
+𩚕	yM;uv	0
+𩚕	qL;uv	0
+𩚖	nP;ui	0
+𩚗	rF;uj	0
+𩚛	nL;un	0
+𩚣	tZ;uo	0
+𩚥	bA;ub	0
+𩚪	eY;uu	0
+𩚫	vG;uv	0
+𩚬	eW;uv	0
+𩚭	pX;uc	0
+𩚮	jI;uf	0
+𩚮	nU;uf	0
+𩚯	nO;ub	0
+𩚱	jF;uk	0
+𩚲	jC;uj	0
+𩚵	gJ;ug	0
+𩚹	lL;us	0
 𩚻	zC;vg	0
 𩚾	bQ;bg	0
-𩛅	uU;rn	0
-𩛆	yP;ry	0
-𩛇	pD;rb	0
-𩛋	nB;ru	0
-𩛌	uU;rn	0
-𩛎	mL;rk	0
-𩛏	uU;rn	0
-𩛑	tO;rv	0
-𩛘	gS;rg	0
-𩛝	lQ;rc	0
-𩛞	bB;rz	0
-𩛞	nR;rz	0
-𩛞	pZ;rz	0
-𩛟	yR;re	0
-𩛟	mK;re	0
-𩛠	zO;rr	0
-𩛡	lJ;rl	0
-𩛡	nJ;rl	0
+𩛅	uU;un	0
+𩛆	yP;uy	0
+𩛇	pD;ub	0
+𩛋	nB;uu	0
+𩛌	uU;un	0
+𩛎	mL;uk	0
+𩛏	uU;un	0
+𩛑	tO;uv	0
+𩛘	gS;ug	0
+𩛝	lQ;uc	0
+𩛞	bB;uz	0
+𩛞	nR;uz	0
+𩛞	pZ;uz	0
+𩛟	yR;ue	0
+𩛟	mK;ue	0
+𩛠	zO;ur	0
+𩛡	lJ;ul	0
+𩛡	nJ;ul	0
 𩛢	xQ;rg	0
 𩛥	zS;cf	0
-𩛦	iF;rw	0
-𩛧	jM;rg	0
-𩛨	mX;re	0
-𩛩	jC;rr	0
-𩛪	yC;rv	0
-𩛭	yC;ro	0
-𩛮	yO;rr	0
-𩛲	mH;rw	0
+𩛦	iF;uw	0
+𩛧	jM;ug	0
+𩛨	mX;ue	0
+𩛩	jC;ur	0
+𩛪	yC;uv	0
+𩛭	yC;uo	0
+𩛮	yO;ur	0
+𩛲	mH;uw	0
 𩛳	zS;mg	0
 𩛳	cJ;mg	0
-𩛵	vC;rl	0
-𩛶	tO;rg	0
-𩛹	xU;rt	0
-𩛺	jB;rm	0
+𩛵	vC;ul	0
+𩛶	tO;ug	0
+𩛹	xU;ut	0
+𩛺	jB;um	0
 𩛻	zH;ug	0
 𩛻	zY;ug	0
 𩛻	vJ;ug	0
-𩛼	lY;ru	0
-𩛽	tV;rf	0
-𩜀	vC;rt	0
-𩜀	dV;rt	0
-𩜁	lL;rw	0
-𩜃	jC;rb	0
-𩜆	jI;rj	0
-𩜇	jY;rv	0
-𩜇	jE;rv	0
-𩜊	zI;rt	0
-𩜌	yT;rv	0
-𩜍	dS;rd	0
+𩛼	lY;uu	0
+𩛽	tV;uf	0
+𩜀	vC;ut	0
+𩜀	dV;ut	0
+𩜁	lL;uw	0
+𩜃	jC;ub	0
+𩜆	jI;uj	0
+𩜇	jY;uv	0
+𩜇	jE;uv	0
+𩜊	zI;ut	0
+𩜌	yT;uv	0
+𩜍	dS;ud	0
 𩜒	nK;ng	0
-𩜖	iD;rx	0
-𩜟	aG;re	0
-𩜣	gG;rw	0
+𩜖	iD;ux	0
+𩜟	aG;ue	0
+𩜣	gG;uw	0
 𩜥	bO;dg	0
-𩜦	dJ;rz	0
-𩜧	wR;rj	0
+𩜦	dJ;uz	0
+𩜧	wR;uj	0
 𩜬	qT;ig	0
-𩜭	kE;rd	0
-𩜰	pU;rt	0
-𩜱	kL;rb	0
-𩜱	sL;rb	0
-𩜲	fI;rw	0
-𩜳	yF;rl	0
-𩜵	tT;re	0
-𩜶	tC;rd	0
-𩜷	yM;rm	0
-𩜷	nP;rm	0
+𩜭	kE;ud	0
+𩜰	pU;ut	0
+𩜱	kL;ub	0
+𩜱	sL;ub	0
+𩜲	fI;uw	0
+𩜳	yF;ul	0
+𩜵	tT;ue	0
+𩜶	tC;ud	0
+𩜷	yM;um	0
+𩜷	nP;um	0
 𩜸	yC;pg	0
-𩜺	yE;rk	0
-𩜽	yH;rp	0
-𩝈	xZ;rk	0
-𩝊	tO;rz	0
-𩝌	sC;ru	0
-𩝐	cO;ry	0
-𩝔	xN;ro	0
+𩜺	yE;uk	0
+𩜽	yH;up	0
+𩝈	xZ;uk	0
+𩝊	tO;uz	0
+𩝌	sC;uu	0
+𩝐	cO;uy	0
+𩝔	xN;uo	0
 𩝕	wY;mg	0
 𩝖	cJ;vg	0
-𩝗	yC;ry	0
-𩝚	iL;ri	0
-𩝛	xC;rk	0
-𩝝	kX;rk	0
-𩝝	gC;rk	0
-𩝞	cH;rk	0
-𩝟	iA;rj	0
-𩝠	qE;rq	0
-𩝣	dA;rx	0
-𩝥	sY;rx	0
-𩝨	hX;rb	0
-𩝷	wU;rh	0
-𩝸	yR;rt	0
-𩝽	jK;ri	0
-𩝾	xS;rk	0
-𩝿	vD;rg	0
-𩞀	sL;rp	0
-𩞀	iH;rp	0
-𩞀	cH;rp	0
+𩝗	yC;uy	0
+𩝚	iL;ui	0
+𩝛	xC;uk	0
+𩝝	kX;uk	0
+𩝝	gC;uk	0
+𩝞	cH;uk	0
+𩝟	iA;uj	0
+𩝠	qE;uq	0
+𩝣	dA;ux	0
+𩝥	sY;ux	0
+𩝨	hX;ub	0
+𩝷	wU;uh	0
+𩝸	yR;ut	0
+𩝽	jK;ui	0
+𩝾	xS;uk	0
+𩝿	vD;ug	0
+𩞀	sL;up	0
+𩞀	iH;up	0
+𩞀	cH;up	0
 𩞁	mP;gg	0
 𩞁	mO;gg	0
-𩞃	uK;rw	0
-𩞃	xS;rw	0
-𩞄	cV;ro	0
-𩞅	sV;rv	0
-𩞆	iA;rz	0
+𩞃	uK;uw	0
+𩞃	xS;uw	0
+𩞄	cV;uo	0
+𩞅	sV;uv	0
+𩞆	iA;uz	0
 𩞇	mO;lg	0
-𩞈	vI;ru	0
-𩞉	iD;ru	0
-𩞊	jU;rw	0
-𩞋	iD;ro	0
-𩞙	lZ;ri	0
-𩞞	hS;rw	0
+𩞈	vI;uu	0
+𩞉	iD;uu	0
+𩞊	jU;uw	0
+𩞋	iD;uo	0
+𩞙	lZ;ui	0
+𩞞	hS;uw	0
 𩞤	dY;wg	0
-𩞥	xS;rw	0
-𩞦	iG;ru	0
-𩞧	uK;ru	0
+𩞥	xS;uw	0
+𩞦	iG;uu	0
+𩞧	uK;uu	0
 𩞨	lU;ig	0
-𩞩	hA;rb	0
-𩞬	dF;rb	0
+𩞩	hA;ub	0
+𩞬	dF;ub	0
 𩞯	lA	0
-𩞶	zA;rf	0
+𩞶	zA;uf	0
 𩞺	hI;kg	0
-𩞻	lN;rf	0
-𩞾	dI;ri	0
-𩞾	yU;ri	0
-𩞿	hH;rx	0
-𩟀	yS;rv	0
-𩟀	yF;rv	0
-𩟁	yE;ry	0
-𩟁	xE;ry	0
-𩟂	gI;rk	0
-𩟃	lL;rs	0
-𩟅	lX;rr	0
-𩟇	aI;rd	0
-𩟈	dH;rt	0
-𩟉	yU;rt	0
-𩟊	nD;ri	0
-𩟋	uH;rk	0
-𩟍	xV;rm	0
-𩟐	dS;ry	0
-𩟑	yC;rj	0
-𩟒	cJ;rw	0
-𩟓	wI;ry	0
-𩟔	iS;ru	0
-𩟕	bP;rc	0
+𩞻	lN;uf	0
+𩞾	dI;ui	0
+𩞾	yU;ui	0
+𩞿	hH;ux	0
+𩟀	yS;uv	0
+𩟀	yF;uv	0
+𩟁	yE;uy	0
+𩟁	xE;uy	0
+𩟂	gI;uk	0
+𩟃	lL;us	0
+𩟅	lX;ur	0
+𩟇	aI;ud	0
+𩟈	dH;ut	0
+𩟉	yU;ut	0
+𩟊	nD;ui	0
+𩟋	uH;uk	0
+𩟍	xV;um	0
+𩟐	dS;uy	0
+𩟑	yC;uj	0
+𩟒	cJ;uw	0
+𩟓	wI;uy	0
+𩟔	iS;uu	0
+𩟕	bP;uc	0
 𩟗	jX;dg	0
-𩟞	mH;rx	0
-𩟟	wR;rm	0
-𩟠	mP;ry	0
-𩟥	uC;rk	0
-𩟥	jY;rk	0
-𩟦	jQ;rg	0
-𩟧	uI;rm	0
+𩟞	mH;ux	0
+𩟟	wR;um	0
+𩟠	mP;uy	0
+𩟥	uC;uk	0
+𩟥	jY;uk	0
+𩟦	jQ;ug	0
+𩟧	uI;um	0
 𩟨	hI;kg	0
-𩟫	iI;ry	0
-𩟭	lD;rl	0
-𩟮	hJ;rx	0
-𩟰	tO;rm	0
-𩟳	yB;rx	0
-𩟶	iH;rj	0
-𩟶	jQ;rj	0
+𩟫	iI;uy	0
+𩟭	lD;ul	0
+𩟮	hJ;ux	0
+𩟰	tO;um	0
+𩟳	yB;ux	0
+𩟶	iH;uj	0
+𩟶	jQ;uj	0
 𩟷	yS;vg	0
 𩟸	hI;bg	0
-𩟺	lL;rm	0
+𩟺	lL;um	0
 𩟿	nL	0
 𩠀	bA	0
 𩠁	gJ	0
@@ -149463,7 +153376,7 @@ use_preset_vocabulary: false
 𪂺	jO;dn	0
 𪂼	xL;mn	0
 𪂽	pG;fn	0
-𪂾	fY;rn	0
+𪂾	fY;un	0
 𪃂	lW;dn	0
 𪃄	sD;tn	0
 𪃅	xT;xn	0
@@ -150719,7 +154632,7 @@ use_preset_vocabulary: false
 𪠑	bP	0
 𪽾	bP	0
 𫗈	bP	0
-䭦	bP;rc	0
+䭦	bP;uc	0
 䮂	bP;my	0
 糪	bP;um	0
 萡	bP;cb	0
@@ -150744,7 +154657,7 @@ use_preset_vocabulary: false
 䞳	fQ;tk	0
 㗘	fY;kc	0
 䒄	bP;vt	0
-䬪	fY;rb	0
+䬪	fY;ub	0
 㩭	jZ;fz	0
 㩭	xB;fz	0
 䊿	kY;sf	0
@@ -150807,7 +154720,7 @@ use_preset_vocabulary: false
 叅	uF;sx	0
 叅	cF;sx	0
 叅	sJ;sx	0
-䬫	cL;ru	0
+䬫	cL;uu	0
 𫝉	cH	0
 𧕐	cV	0
 𥽹	cX	0
@@ -151104,7 +155017,7 @@ use_preset_vocabulary: false
 𪭢	iL	0
 䚎	iL	0
 䡴	iA;il	0
-䭚	nW;rl	0
+䭚	nW;ul	0
 㵂	iS;dh	0
 䎫	zF;lw	0
 𠂹	iB	0
@@ -151140,7 +155053,7 @@ use_preset_vocabulary: false
 䇍	iI;lz	0
 䮕	iI;my	0
 踀	iI;zz	0
-餟	iI;ry	0
+餟	iI;uy	0
 繛	iO;fu	0
 䄪	iI;hu	0
 哾	iI;kx	0
@@ -151188,8 +155101,8 @@ use_preset_vocabulary: false
 䥘	cI;jo	0
 䠓	jP;zy	0
 䠓	qC;zy	0
-䬨	cY;rj	0
-䬨	zI;rj	0
+䬨	cY;uj	0
+䬨	zI;uj	0
 䠞	qO;zx	0
 䥄	zL;jo	0
 䥄	zH;jo	0
@@ -151509,8 +155422,8 @@ use_preset_vocabulary: false
 䊐	eB;mb	0
 䊐	hC;mb	0
 䊐	hE;mb	0
-䭓	wD;rb	0
-䭡	wD;rx	0
+䭓	wD;ub	0
+䭡	wD;ux	0
 𠒆	eT	0
 𪭧	eT	0
 𫎎	eE	0
@@ -152328,13 +156241,13 @@ use_preset_vocabulary: false
 䯡	jX;gj	0
 䯡	qN;gj	0
 㦗	jN;xu	0
-䬻	kL;rj	0
+䬻	kL;uj	0
 㔋	jN;id	0
 㔋	lH;id	0
 䤔	nW;dy	0
 䤔	xK;dy	0
 䅐	qZ;hj	0
-䭠	qN;rj	0
+䭠	qN;uj	0
 䵖	jN;iu	0
 䵖	xN;iu	0
 䯛	jX;gv	0
@@ -152774,7 +156687,7 @@ use_preset_vocabulary: false
 㟙	lB;uo	0
 㟙	vF;uo	0
 𪭊	lW	0
-餎	lW;rk	0
+餎	lW;uk	0
 鱳	lW;ym	0
 㖀	lI;ky	0
 楽	yR;dm	0
@@ -153139,7 +157052,7 @@ use_preset_vocabulary: false
 䤉	mI;ym	0
 䤉	rI;ym	0
 䌕	mP;sm	0
-䭩	mU;rf	0
+䭩	mU;uf	0
 㜷	nG;gn	0
 㰽	mP;kq	0
 䪾	mO;yp	0
@@ -154329,7 +158242,7 @@ use_preset_vocabulary: false
 嚱	xI;kg	0
 覡	xI;gj	0
 鐊	xI;jw	0
-饎	xI;rk	0
+饎	xI;uk	0
 戱	hU;hg	0
 怸	uY;ux	0
 㩗	xQ;fn	0
@@ -154401,7 +158314,7 @@ use_preset_vocabulary: false
 𧞻	xL	0
 𨞰	xL	0
 萫	xL;co	0
-饟	nJ;rf	0
+饟	nJ;uf	0
 详	yJ;yy	0
 𠸍	xB	0
 𫗍	xB	0
@@ -154438,7 +158351,7 @@ use_preset_vocabulary: false
 㩪	xV;fy	0
 㩪	yR;fy	0
 邪	yB;ye	0
-䭎	xQ;rm	0
+䭎	xQ;um	0
 㔎	yU;cd	0
 㴽	yV;dx	0
 䚳	xO;yv	0
@@ -154520,9 +158433,9 @@ use_preset_vocabulary: false
 岤	xR;ub	0
 𧀼	xT	0
 𫌃	xT	0
-䭥	yG;rg	0
-䭥	yX;rg	0
-䭥	vM;rg	0
+䭥	yG;ug	0
+䭥	yX;ug	0
+䭥	vM;ug	0
 䫻	xY;fo	0
 㧒	xY;fb	0
 㧒	yR;fb	0
@@ -154590,7 +158503,7 @@ use_preset_vocabulary: false
 䁙	yH;on	0
 渰	yJ;dc	0
 歅	yJ;xq	0
-䭘	yH;rx	0
+䭘	yH;ux	0
 㛪	yT;nd	0
 𩗺	yJ	0
 𪦳	yJ	0
@@ -154601,7 +158514,7 @@ use_preset_vocabulary: false
 𫑩	yK	0
 𫝥	yK	0
 䇦	yK;vy	0
-䬬	yK;ry	0
+䬬	yK;uy	0
 鍈	yH;jy	0
 飬	yK;jl	0
 羊	xA;bf	0
@@ -155165,7 +159078,7 @@ use_preset_vocabulary: false
 𪭥	zQ	0
 穝	zO;hy	0
 㛗	zI;nr	0
-飵	vA;rv	0
+飵	vA;uv	0
 㸲	zI;nv	0
 兡	bG	0
 瓰	fF	0
@@ -155778,8 +159691,8 @@ use_preset_vocabulary: false
 頥	uH;ly	0
 顣	qI;wy	0
 颿	fK;mf	0
-飹	lE;re	0
-饂	yU;rm	0
+飹	lE;ue	0
+饂	yU;um	0
 馣	yL;hd	0
 駉	jF;mk	0
 駗	vF;mp	0
