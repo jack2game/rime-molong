@@ -28,19 +28,20 @@ encoder:
 ？	;w
 （	;e
 ）	;r
-！	;t
-@	;i
-~	;u
+/	;t
+~	;y
+『	;u
+』	;i
 〖	;o
 〗	;p
 # 第二排
-/	;a
+！	;a
 ……	;s
 ·	;d
 “	;f
 ”	;g
-『	;h
-』	;j
+‘	;h
+’	;j
 ——	;k
 %	;l
 ；	;;
@@ -4176,7 +4177,7 @@ encoder:
 擎	qku
 箐	qkv
 情	qkx
-謦	qky
+頃	qky
 人	r	rfpd
 罖	ras
 肉	rz
@@ -131754,7 +131755,7 @@ WiFi	wifi
 愚公移山	ygyu
 鶯歌燕舞	ygyw
 一個原因	ygyy
-洋鬼子	ygz
+一个字	ygz
 一竿子到底	ygzd
 油光鋥亮	ygzl
 一鼓作氣	ygzq
