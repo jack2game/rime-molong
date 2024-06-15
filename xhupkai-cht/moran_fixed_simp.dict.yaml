@@ -5610,6 +5610,43 @@ encoder:
 鿬	octs
 鿫	ocog
 铀	ocu
+
+# 飛鍵 xq -> xo
+修	xo
+宿	xob
+溴	xod
+庥	xog
+秀	xoh
+髹	xoi
+䗛	xoix
+锈	xoj
+嗅	xok
+朽	xom
+鸺	xon
+休	xor
+绣	xos
+馐	xou
+貅	xov
+琇	xow
+袖	xoy
+臭	xoz
+
+# 飛鍵 qx -> qo
+且	qo
+且	qoa
+窃	qob
+茄	qoc
+切	qod
+郄	qoe
+锲	qoj
+唼	qok
+妾	qon
+切	qoq
+伽	qor
+砌	qou
+箧	qov
+窃	qox
+趄	qoz
 # ⚠️ 請注意：機器轉換過程無法處理無理碼，這些編碼仍需手動處理（或刪除）
 
 版权	bjqr
@@ -133145,3 +133182,8 @@ encoder:
 𫟷	oclv
 鿬	octs
 鿫	ocog
+
+# 飛鍵 xq -> xo
+䗛	xoix
+
+# 飛鍵 qx -> qo
