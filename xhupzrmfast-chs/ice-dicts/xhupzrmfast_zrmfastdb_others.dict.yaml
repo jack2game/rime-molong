@@ -1,11 +1,8 @@
 # Rime dictionary
 # encoding: utf-8
 #
-#
 # https://github.com/iDvel/rime-ice
 # ------- 一些杂项，按需选择 -------
-#
-#
 ---
 name: others
 version: "2024-06-10"
@@ -72,7 +69,6 @@ sort: by_weight
 李陈镐	li;az if;eq hc;jw
 赵亮镐	vc;zi ll;wj hc;jw
 郑俊镐	vg;be jy;rs hc;jw
-
 
 ##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
 ### 错音
@@ -252,8 +248,6 @@ sort: by_weight
 魔蝎座	mo;gg xp;io zo;gr
 比萨	bi;bb sa;ce
 披萨	pi;fp sa;ce
-
-
 ##### 叠字
 # 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
 # 二叠字
@@ -312,17 +306,14 @@ sort: by_weight
 两个金
 两个木
 两个水
-两个火
 两个风	ll;hk ge;ru fg;ji
 两个石
-两个口
 两个日
 两个月
 两个目
 两个白
 两个百
 两个耳
-两个山
 两个屮	ll;hk ge;ru ie;;
 两个屮	ll;hk ge;ru cc;;
 两个廿
@@ -332,14 +323,12 @@ sort: by_weight
 两个龙	ll;hk ge;ru ls;yp
 两个马	ll;hk ge;ru ma;vv
 两个犬
-两个人
 两个入
 两个习
 两个卪	ll;hk ge;ru jp;;
 两个㔾	ll;hk ge;ru jp;;
 两个几
 两个乙
-两个大
 两个夫
 两个禾
 两个干
@@ -355,20 +344,14 @@ sort: by_weight
 两个毛
 两个王
 两个男
-两个女
-两个又
 两个支
 两个只	ll;hk ge;ru vi;kb
 两个古
-两个吉
 两个舌
-两个言
-两个户
 两个启
 两个来	ll;hk ge;ru ld;hm
 两个桼	ll;hk ge;ru qi;;
 两个旡	ll;hk ge;ru ji;hv
-两个夕
 两个歹
 两个匕
 两个幺
@@ -400,8 +383,6 @@ sort: by_weight
 两个尹
 两个昔
 两个易
-两个臣
-两个面
 两个先
 两个老
 两个示
@@ -411,7 +392,6 @@ sort: by_weight
 两个车	ll;hk ge;ru ju;qu
 两个足
 两个区	ll;hk ge;ru qu;ki
-两个香
 两个隹	ll;hk ge;ru vv;rw
 两个牟
 两个豕
@@ -428,11 +408,9 @@ sort: by_weight
 两个齿	ll;hk ge;ru ii;vr
 两个喜
 两个走
-两个止
 两个昌
 两个串
 两个米
-两个束
 两个隶
 两个不
 两个龙

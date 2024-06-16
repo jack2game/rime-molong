@@ -1,18 +1,11 @@
 # Rime dictionary
 # encoding: utf-8
 #
-#
 # https://github.com/iDvel/rime-ice
 # ------- 《通用规范汉字表》8105 字字表 -------
-#
-#
 # 使用的数据：https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%B4%A2%E5%BC%95/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
 # 使用的字频：[25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm)
-#
-#
 # 这个数据、《现代汉语词典》、《现代汉语规范词典》之间的注音并不都相同，使用前请注意，参照《现汉》增加了一些原数据中没有的读音。
-#
-#
 # 注音：
 # 「nüe 虐」「lüe 略」使用「nve」「lve」的注音。
 # 「句、去、需、与」使用「ju qu xu yu」的注音。
@@ -23,8 +16,6 @@
 # 删除「虾ha」（虾蟆ha ma），《现汉》推荐「蛤蟆」，保留地名「虾蟆陵ha ma ling」。
 # 「嬛」xuan → huan
 # 删除「夹ga」，使用「胳肢窝ga zhi wo」。
-#
-#
 # 多音字的注音问题：
 # 对于没有注音的词汇，如 tencent.dict.yaml 词库，
 # Rime 按照方案中字表自动注音，多音字的权重比值大于 5:100 的就会参与注音。
@@ -41,7 +32,6 @@ sort: by_weight
 # 「这、那」的口语读音
 # 这	zhei	17648808
 # 那	nei	9929703
-
 
 ### 扩展，不在《通用规范汉字表》的字:
 𤭢	cw;;	1000
@@ -78,8 +68,6 @@ sort: by_weight
 # 磺	huang
 # 屮	cao
 # 芔	cao
-
-
 ### 小时候没学过的拼音。。。
 # 嗯	n	没启用
 # 嗯	ng	没启用
@@ -92,8 +80,6 @@ sort: by_weight
 喲	yo;;	59051
 唷	yo;kw	1
 育	yo;wo	0
-
-
 ### 字表
 # +_+
 啊	aa;ke	5366043
@@ -2598,7 +2584,6 @@ sort: by_weight
 霍	ho;yv	91016
 豁	ho;gb	26107
 和	ho;hk	4126
-夥	ho;ox	3748
 嚯	ho;ky	2371
 藿	ho;cy	435
 鑊	ho;;	308
@@ -3162,7 +3147,6 @@ sort: by_weight
 琚	ju;wu	1045
 疽	ju;bq	992
 莒	ju;ck	817
-車	ju;;	651
 齟	ju;;	624
 苣	ju;ck	620
 櫸	ju;;	581
@@ -4064,7 +4048,6 @@ sort: by_weight
 犖	lo;;	4636
 籮	lo;;	3538
 欏	lo;;	1297
-咯	lo;kw	1111
 烙	lo;hw	700
 玀	lo;;	693
 蠃	lo;wo	675
@@ -4287,7 +4270,6 @@ sort: by_weight
 縻	mi;gy	588
 蘼	mi;cg	337
 醚	mi;ym	288
-祕	mi;;	190
 敉	mi;mw	114
 嘧	mi;kg	73
 蓂	mi;;	72
@@ -5313,7 +5295,6 @@ sort: by_weight
 婘	qr;;	3
 瑔	qr;;	1
 𨟠	qr;;	0
-卻	qt;;	2377929
 確	qt;;	722242
 缺	qt;pv	207517
 雀	qt;xv	64212
@@ -6825,7 +6806,6 @@ sort: by_weight
 氙	xm;qu	30
 撏	xm;;	17
 嶮	xm;;	15
-線	xm;;	14
 孅	xm;;	6
 伭	xm;;	2
 禒	xm;;	1
@@ -7731,7 +7711,6 @@ sort: by_weight
 愉	yu;xr	60639
 愚	yu;ox	60381
 籲	yu;;	47540
-於	yu;fr	45065
 裕	yu;yb	43025
 娛	yu;;	37970
 瑜	yu;wr	37277
@@ -8021,7 +8000,6 @@ sort: by_weight
 榨	va;ax	6994
 吒	va;kp	5743
 軋	va;;	4919
-吒	va;kp	4443
 蚱	va;iv	4020
 鍘	va;;	1281
 楂	va;aa	964
@@ -8321,7 +8299,6 @@ sort: by_weight
 冢	vs;gu	6812
 踵	vs;zp	6451
 盅	vs;vm	6047
-鍾	vs;;	2435
 舯	vs;vv	103
 螽	vs;wi	97
 柊	vs;;	36

@@ -2023,7 +2023,6 @@
 句	gx;gk	400
 霸	bi;yo	399
 缝	ff;sf	399
-缝	ff;sf	399
 鹰	ye;gn	398
 切	qk;dq	397
 嘀	db;kd	397
@@ -2704,7 +2703,6 @@
 毯	to;my	134
 钞	iq;ju	134
 咂	zl;kz	134
-勒	li;lg	134
 仰	yp;re	133
 喧	xd;kx	133
 瀑	ph;db	133
@@ -2879,7 +2877,6 @@
 庭	tn;gt	103
 航	hw;vk	103
 函	hp;ku	103
-啰	ls;kl	103
 鄣	vu;ev	103
 廊	lw;gl	102
 轿	jl;iq	102
@@ -3132,7 +3129,6 @@
 台	tb;sk	75
 泳	yn;dy	75
 骁	xm;my	75
-哩	lj;kl	75
 寞	mg;bm	75
 搋	ig;fh	75
 甯	nw;by	75
@@ -3148,7 +3144,6 @@
 筷	kf;vk	73
 朔	up;on	73
 搂	lz;fl	73
-漂	pl;dp	73
 绗	hw;sx	73
 溢	yt;dy	72
 择	ze;ff	72
@@ -3539,7 +3534,6 @@
 锣	ll;jl	39
 适	ut;zu	39
 艇	tw;vt	39
-横	hf;mh	39
 蜱	pb;ib	39
 氨	an;qa	39
 恳	ko;xg	39
@@ -3642,7 +3636,6 @@
 坂	bo;tf	34
 恺	ku;xj	34
 龊	ip;iz	34
-铊	tl;jt	34
 洹	ho;dg	34
 枳	vg;mv	33
 材	cd;mc	33
@@ -4311,7 +4304,6 @@
 槌	iw;mv	12
 秉	bw;ha	12
 咴	ht;kh	12
-捋	ls;fc	12
 僻	pt;rb	12
 噼	pj;kb	12
 煜	yf;hy	12
@@ -5791,7 +5783,6 @@
 栟	be;mb	2
 桁	hf;mx	2
 梃	tw;mt	2
-梃	tw;mt	2
 棻	fe;cm	2
 橥	va;mv	2
 檠	qn;mj	2
@@ -7099,7 +7090,6 @@
 臂	bi;ob	2
 合	gl;rk	2
 熟	ul;hu	2
-哟	yp;ky	2
 尽	jx;id	2
 曲	qh;aa	2
 占	vn;bk	2
@@ -7126,7 +7116,6 @@
 几	jj;py	2
 汗	hp;dg	2
 约	yq;su	2
-哇	wl;kg	2
 胖	pp;ob	2
 角	ji;dy	2
 绿	lh;sl	2
@@ -7135,9 +7124,7 @@
 们	ms;rm	2
 朝	vq;ou	2
 强	qu;gs	2
-呀	yl;ky	2
 少	uv;xp	2
-啦	ll;kl	2
 冲	iy;dv	2
 难	na;yv	2
 无	me;ag	2
@@ -7156,9 +7143,7 @@
 没	mg;du	2
 哦	og;kw	2
 见	xa;ag	2
-家	jd;bu	2
 打	du;fd	2
-吧	bl;kb	2
 给	jg;sh	2
 把	bi;fb	2
 说	uf;yd	2
@@ -7171,7 +7156,6 @@
 着	vq;ym	2
 着	vl;ym	2
 和	hi;hk	2
-和	hl;hk	2
 着	vi;ym	2
 的	dt;bu	2
 的	dj;bu	2
@@ -7305,7 +7289,6 @@
 仆	pa;rb	2
 仡	gr;rq	2
 令	ln;rs	2
-令	lw;rs	2
 价	jk;rj	2
 任	rs;rr	2
 伋	jb;rj	2
@@ -7405,7 +7388,6 @@
 咪	mg;km	2
 咯	gr;kg	2
 咯	lp;kg	2
-咯	lp;kg	2
 咳	hb;kh	2
 咺	xd;kg	2
 哈	hm;kh	2
@@ -7414,11 +7396,9 @@
 哦	ee;kw	2
 哪	nl;kn	2
 哪	ne;kn	2
-哼	hc;kh	0
 唁	ya;ky	2
 唣	zv;kz	2
 唼	ui;kq	2
-啊	al;ka	2
 啊	au;ka	2
 啊	am;ka	2
 啊	ai;ka	2
@@ -7430,7 +7410,6 @@
 喷	po;kb	2
 嗑	kr;kh	2
 嗪	qc;kq	2
-嗯	ef;ke	0
 嗯	ey;ke	0
 嘎	gm;kg	2
 嘏	gm;gy	2
@@ -7619,7 +7598,6 @@
 抃	ba;fb	2
 抢	qy;fc	2
 抹	mg;fm	2
-拧	nw;fn	2
 拾	ui;fh	2
 挓	vl;fv	2
 挡	dd;fd	2
@@ -8156,7 +8134,6 @@
 艅	ym;vy	2
 艎	hb;vh	2
 艨	mf;vm	2
-艮	go;ad	2
 艴	be;fs	2
 艽	jm;cj	2
 节	js;ce	2
@@ -8395,7 +8372,6 @@
 醑	xs;yx	2
 銎	qk;jg	2
 鐾	bk;jb	2
-钌	ll;jl	2
 钖	yw;jy	2
 钘	xn;jk	2
 钢	gd;jg	2
@@ -9074,7 +9050,6 @@
 㕜	ug;yv	0
 㕞	us;yb	0
 㕟	kf;by	0
-㕟	kf;by	0
 㕠	uw;yv	0
 㕡	he;yj	0
 㕢	go;by	0
@@ -9334,7 +9309,6 @@
 㙫	jb;tj	0
 㙬	yc;ty	0
 㙮	dl;td	0
-㙮	dl;td	0
 㙯	yt;uy	0
 㙰	xq;tj	0
 㙱	hv;th	0
@@ -9528,7 +9502,6 @@
 㜣	rp;nr	0
 㜣	ro;nr	0
 㜤	np;nq	0
-㜤	tp;nq	0
 㜤	tp;nq	0
 㜥	md;nm	0
 㜦	xc;nx	0
@@ -10622,7 +10595,6 @@
 㬹	vc;ov	0
 㬻	hw;oh	0
 㬻	hu;oh	0
-㬻	hu;oh	0
 㬼	fh;yf	0
 㬿	tg;od	0
 㭁	rf;mn	0
@@ -10661,7 +10633,6 @@
 㭫	co;mz	0
 㭬	vl;mu	0
 㭭	bl;mb	0
-㭭	bk;mb	0
 㭭	bk;mb	0
 㭮	zp;my	0
 㭮	zo;my	0
@@ -11226,7 +11197,6 @@
 㶎	ho;dh	0
 㶏	yh;dy	0
 㶑	la;dl	0
-㶒	uo;di	0
 㶒	uo;di	0
 㶒	ta;di	0
 㶓	cw;dc	0
@@ -12179,7 +12149,6 @@
 䄡	dn;uv	0
 䄢	qb;uq	0
 䄤	lo;ul	0
-䄤	lo;ul	0
 䄥	ln;ul	0
 䄦	ll;hl	0
 䄧	rf;hn	0
@@ -12684,7 +12653,6 @@
 䋵	yt;sh	0
 䋵	yi;sh	0
 䋶	xs;sy	0
-䋶	xs;sy	0
 䋷	ma;sw	0
 䋸	xf;sd	0
 䋹	fl;sf	0
@@ -12881,7 +12849,6 @@
 䎯	ho;lh	0
 䎰	zl;lv	0
 䎱	bi;lb	0
-䎱	bi;lb	0
 䎲	ve;ey	0
 䎳	wi;eo	0
 䎴	gc;ej	0
@@ -12920,7 +12887,6 @@
 䏏	xh;oy	0
 䏐	ji;og	0
 䏑	dt;or	0
-䏒	pa;op	0
 䏒	pa;op	0
 䏓	gs;oy	0
 䏔	nz;oi	0
@@ -13156,7 +13122,6 @@
 䒍	pp;sp	0
 䒎	mp;sm	0
 䒏	sc;sc	0
-䒐	mf;sm	0
 䒐	mf;sm	0
 䒑	cx;ba	0
 䒒	tu;cd	0
@@ -13707,7 +13672,6 @@
 䚦	vt;js	0
 䚧	lm;jl	0
 䚨	fk;jf	0
-䚩	jl;jq	0
 䚩	jl;jq	0
 䚩	qu;jq	0
 䚪	gd;jq	0
@@ -14528,7 +14492,6 @@
 䥭	vf;jq	0
 䥮	vl;je	0
 䥯	bi;jb	0
-䥯	bi;jb	0
 䥰	mf;jm	0
 䥱	xc;jx	0
 䥲	ox;jo	0
@@ -15232,7 +15195,6 @@
 䯥	qt;gx	0
 䯦	mi;gm	0
 䯧	qw;wj	0
-䯧	qw;wj	0
 䯨	qm;gd	0
 䯨	hi;gd	0
 䯪	kx;gy	0
@@ -15269,7 +15231,6 @@
 䰀	wi;iw	0
 䰁	fk;il	0
 䰂	co;ic	0
-䰃	pf;ib	0
 䰃	pf;ib	0
 䰃	fp;ib	0
 䰄	sb;is	0
@@ -15780,7 +15741,6 @@
 且	jh;aa	1
 且	cl;aa	1
 丗	ut;aa	1
-丙	bw;an	1
 丞	uf;aa	1
 丞	vc;aa	1
 丞	vy;aa	1
@@ -15838,7 +15798,6 @@
 乙	ji;gg	1
 乚	yx;gb	1
 乛	yl;av	1
-九	jz;py	1
 乞	qt;py	1
 也	yb;gg	1
 乢	go;gu	1
@@ -15873,7 +15832,6 @@
 亃	lv;gl	1
 亄	yt;gy	1
 亅	ji;aa	1
-了	ll;aa	1
 亇	ml;da	1
 予	vh;aa	1
 亊	ut;aa	1
@@ -15883,7 +15841,6 @@
 于	xh;aa	1
 亏	ym;ak	1
 亐	ym;ag	1
-井	jw;aa	1
 亖	st;ee	1
 亗	sf;ue	1
 亘	xd;aa	1
@@ -15935,7 +15892,6 @@
 仐	so;ru	1
 仒	be;rd	1
 仔	zj;rz	1
-他	tl;ry	1
 仙	xp;ru	1
 仚	xr;ru	1
 仛	ts;rq	1
@@ -16263,7 +16219,6 @@
 倪	nq;re	1
 倫	lf;rl	1
 倭	wi;rw	1
-倭	wi;rw	1
 倯	sk;rs	1
 倰	lf;rl	1
 倰	ln;rl	1
@@ -16295,7 +16250,6 @@
 偈	qt;rh	1
 偉	wj;rw	1
 偊	ys;ry	1
-偋	bw;rp	1
 偋	bw;rp	1
 偌	ri;rr	1
 偍	tb;ru	1
@@ -16501,7 +16455,6 @@
 僪	yf;rk	1
 僫	ei;re	1
 僬	jl;rj	1
-僬	jl;rj	1
 僭	zo;ro	1
 僮	ve;rt	1
 僮	iy;rt	1
@@ -16617,14 +16570,12 @@
 儿	eq;pg	1
 儿	rs;pg	1
 兀	wa;ae	1
-允	yo;se	1
 兂	zn;ag	1
 兄	ke;ke	1
 兇	xp;ex	1
 光	ge;ea	1
 兊	df;by	1
 兌	df;bx	1
-免	wo;de	1
 免	wo;de	1
 兎	th;pd	1
 兏	iw;ie	1
@@ -16774,7 +16725,6 @@
 刐	do;dd	1
 划	gp;dg	1
 划	gl;dg	1
-划	hg;dg	1
 刓	wp;dy	1
 刔	ji;dd	1
 刕	lb;dd	1
@@ -16797,7 +16747,6 @@
 刴	dp;dd	1
 刵	eh;de	1
 刺	qt;dc	1
-刻	ki;dh	1
 刼	js;rq	1
 刾	ct;dj	1
 剄	jw;dg	1
@@ -16808,7 +16757,6 @@
 剉	cp;dz	1
 削	ql;dx	1
 削	uv;dx	1
-剋	ki;dk	1
 剌	lu;du	1
 前	jp;bd	1
 剎	ul;du	1
@@ -16873,7 +16821,6 @@
 劁	qu;dj	1
 劃	hg;dh	1
 劃	ht;dh	1
-劃	hg;dh	1
 劄	vl;dd	1
 劅	vl;di	1
 劆	lv;dl	1
@@ -16934,7 +16881,6 @@
 勏	bh;lk	1
 勑	it;ll	1
 勑	lo;ll	1
-勒	li;lg	1
 勓	ko;lj	1
 動	dy;lv	1
 勖	mv;lm	1
@@ -17206,7 +17152,6 @@
 句	qm;gk	1
 叧	gg;kd	1
 叭	pl;kb	1
-叭	bl;kb	1
 可	gr;dk	1
 台	yb;sk	1
 台	st;sk	1
@@ -17238,7 +17183,6 @@
 吋	ye;kc	1
 名	mw;xk	1
 吒	vi;kq	1
-吓	hi;kx	1
 吔	yl;ky	1
 吔	yr;ky	1
 吖	yl;ky	1
@@ -17308,7 +17252,6 @@
 呎	ig;ki	1
 呎	ye;ki	1
 呏	uc;ku	1
-呐	ni;kn	1
 呐	nl;kn	1
 呐	np;kn	1
 呐	nr;kn	1
@@ -17358,7 +17301,6 @@
 呴	ga;kj	1
 呵	hl;kk	1
 呵	al;kk	1
-呵	al;kk	1
 呵	kr;kk	1
 呵	hs;kk	1
 呵	au;kk	1
@@ -17398,7 +17340,6 @@
 咑	dl;kd	1
 咓	wm;kw	1
 咔	ny;kk	1
-咕	ga;kg	1
 咖	jd;kj	1
 咗	zs;kz	1
 咘	bh;kb	1
@@ -17416,8 +17357,6 @@
 咦	xj;ky	1
 咧	lq;kl	1
 咧	ls;kl	1
-咧	lk;kl	1
-咩	mk;ky	1
 咪	mk;km	1
 咪	mu;km	1
 咬	jm;kj	1
@@ -17443,7 +17382,6 @@
 咵	kg;kk	1
 咶	hf;ku	1
 咶	ut;ku	1
-咶	gs;ku	1
 咶	gs;ku	1
 咶	hg;ku	1
 咷	ti;kv	1
@@ -17507,7 +17445,6 @@
 哩	lg;kl	1
 哩	md;kl	1
 哩	ye;kl	1
-哪	nl;kn	1
 哪	nu;kn	1
 哪	ni;kn	1
 哪	nq;kn	1
@@ -17533,7 +17470,6 @@
 哺	ba;kf	1
 哺	fm;kf	1
 哻	hn;kh	1
-哽	yw;kg	1
 哽	yw;kg	1
 哽	ef;kg	0
 哽	es;kg	0
@@ -17686,7 +17622,6 @@
 啳	qo;kj	1
 啳	ji;kj	1
 啴	tn;kd	1
-啵	bp;kb	1
 啹	jm;kj	1
 啺	tw;ky	1
 啻	dt;kd	1
@@ -17698,7 +17633,6 @@
 喃	no;kn	1
 喅	yf;kl	1
 喇	lu;kd	1
-喇	ll;kd	1
 喇	ll;kd	1
 喈	xq;kj	1
 喊	ka;kx	1
@@ -17719,7 +17653,6 @@
 喓	yq;ky	1
 喔	op;kw	1
 喔	wa;kw	1
-喔	op;kw	1
 喔	og;kw	1
 喕	mp;km	1
 喖	hl;kk	1
@@ -17772,8 +17705,6 @@
 喰	sg;ku	1
 喰	qj;ku	1
 喲	yp;ky	1
-喲	yp;ky	1
-喳	vl;ki	1
 喴	wi;kw	1
 営	yn;dl	1
 喸	bm;fb	1
@@ -17811,7 +17742,6 @@
 嗑	he;kh	1
 嗑	xc;kh	1
 嗒	ti;kd	1
-嗒	dl;kd	1
 嗔	tv;kv	1
 嗕	rh;kr	1
 嗖	sh;ks	1
@@ -17834,13 +17764,11 @@
 嗠	lv;fg	1
 嗡	wy;kw	1
 嗢	wi;kw	1
-嗦	ss;ks	1
 嗨	hi;kh	1
 嗩	sl;kb	1
 嗭	vb;kv	1
 嗮	so;ku	1
 嗯	es;ke	0
-嗯	eo;ke	0
 嗯	eo;ke	0
 嗰	gl;kg	1
 嗱	nu;kn	1
@@ -17856,14 +17784,12 @@
 嗻	vr;ku	1
 嗻	vi;ku	1
 嗻	vh;ku	1
-嗻	vr;ku	1
 嗼	mg;km	1
 嗽	up;kq	1
 嗽	uh;kq	1
 嗿	to;kt	1
 嘀	ve;kd	1
 嘀	dj;kd	1
-嘁	zl;kq	1
 嘁	zl;kq	1
 嘂	jl;jl	1
 嘃	ik;ky	1
@@ -17898,7 +17824,6 @@
 嘔	or;kq	1
 嘔	xh;kq	1
 嘔	ia;kq	1
-嘔	ox;kq	1
 嘕	xr;ky	1
 嘖	ze;kz	1
 嘗	iw;dv	1
@@ -17990,7 +17915,6 @@
 噢	yf;ka	1
 噢	av;ka	1
 噣	vr;ki	1
-噣	vl;ki	1
 噣	vl;ki	1
 噣	dl;ki	1
 噥	nj;kn	1
@@ -18122,7 +18046,6 @@
 囈	yt;ky	1
 囉	ls;kl	1
 囉	ll;kl	1
-囉	ls;kl	1
 囋	zu;kz	1
 囋	za;kz	1
 囋	cn;kz	1
@@ -18137,7 +18060,6 @@
 囑	vm;ku	1
 囒	lp;kj	1
 囓	nq;ki	1
-囔	nu;kn	1
 囕	lo;kj	1
 囖	lp;kl	1
 囗	wr;aa	1
@@ -18279,7 +18201,6 @@
 垀	ha;th	1
 垁	vt;tu	1
 垂	vf;pa	1
-垃	ll;tl	1
 垅	ln;tl	1
 垇	av;ta	1
 垉	pi;tb	1
@@ -18310,7 +18231,6 @@
 垷	xa;tj	1
 垸	ho;tw	1
 垹	bu;tb	1
-垺	fa;tf	1
 垺	fa;tf	1
 垺	pi;tf	1
 垺	pa;tf	1
@@ -18476,7 +18396,6 @@
 塒	ub;tu	1
 塓	mt;tl	1
 塔	dl;td	1
-塔	dl;td	1
 塕	wy;tw	1
 塖	if;ti	1
 塗	tl;tt	1
@@ -18630,7 +18549,6 @@
 壜	tp;tt	1
 壝	wj;ty	1
 壞	hf;th	1
-壞	hf;th	1
 壞	hs;th	1
 壟	ln;tl	1
 壠	ln;tl	1
@@ -18692,7 +18610,6 @@
 夠	gr;dj	1
 夡	qt;dj	1
 夢	mf;cx	1
-夢	mf;cx	1
 夣	mf;dx	1
 夦	io;ud	1
 大	to;ad	1
@@ -18713,7 +18630,6 @@
 夵	yo;dx	1
 夵	tq;dx	1
 夶	bg;dd	1
-夸	kg;dk	1
 夸	kg;dk	1
 夻	hg;dk	1
 夽	yo;dy	1
@@ -18818,7 +18734,6 @@
 妕	vy;nv	1
 妖	jl;ny	1
 妗	xr;nj	1
-妙	ml;nu	1
 妚	fz;nb	1
 妚	pi;nb	1
 妚	pj;nb	1
@@ -18967,7 +18882,6 @@
 娦	pc;nb	1
 娧	tf;nd	1
 娨	xa;nh	1
-娩	wo;nm	1
 娩	wo;nm	1
 娪	wl;nw	1
 娪	wh;nw	1
@@ -19192,7 +19106,6 @@
 嫻	xv;nx	1
 嫼	mg;nh	1
 嫽	ll;nl	1
-嫽	ll;nl	1
 嫽	lx;nl	1
 嫾	lv;nl	1
 嫿	hg;nh	1
@@ -19329,7 +19242,6 @@
 宀	mv;bk	1
 宁	vh;bd	1
 宂	rn;bj	1
-它	tl;bb	1
 它	yb;bb	1
 宅	ii;bq	1
 宅	dh;bq	1
@@ -19378,7 +19290,6 @@
 寊	ve;bv	1
 寋	ja;be	1
 寍	nn;bm	1
-寎	bw;bb	1
 寎	bw;bb	1
 寏	ho;bh	1
 寑	qx;bq	1
@@ -19438,7 +19349,6 @@
 尃	pg;cf	1
 射	yi;cu	1
 射	yt;cu	1
-尅	ki;ck	1
 尅	ki;ck	1
 将	qy;dc	1
 將	jy;pc	1
@@ -19503,7 +19413,6 @@
 屍	uj;us	1
 屍	ut;us	1
 屎	xj;um	1
-屏	bw;ub	1
 屏	be;ub	1
 屒	vo;ui	1
 屓	xq;ub	1
@@ -20045,7 +19954,6 @@
 庮	ya;gy	1
 庯	ba;gf	1
 庰	bw;gb	1
-庰	bw;gb	1
 庲	ld;gl	1
 庳	pb;gb	1
 庴	jb;gx	1
@@ -20077,7 +19985,6 @@
 廈	xx;gx	1
 廌	vt;gd	1
 廍	bh;gb	1
-廎	qw;gq	1
 廎	qw;gq	1
 廎	qe;gq	1
 廏	jo;gu	1
@@ -20298,7 +20205,6 @@
 徹	ii;xw	1
 徺	jl;xy	1
 徻	hf;xh	1
-徼	jl;xj	1
 徼	jm;xj	1
 徼	yq;xj	1
 徾	mr;xw	1
@@ -20315,13 +20221,11 @@
 忊	dw;xd	1
 忊	tw;xd	1
 忋	gu;xj	1
-忍	ro;xr	1
 忎	rs;qx	1
 忏	qp;xq	1
 忏	qr;xq	1
 忐	ky;xu	1
 忑	dx;xx	1
-忒	ti;xy	1
 忒	ti;xy	1
 忓	gn;xg	1
 忓	ha;xg	1
@@ -20480,7 +20384,6 @@
 悂	pj;xb	1
 悂	bj;xb	1
 悂	pg;xb	1
-悄	ql;xx	1
 悅	yd;xx	1
 悆	ua;xy	1
 悇	tl;xy	1
@@ -20671,7 +20574,6 @@
 慊	qp;xj	1
 態	to;xn	1
 慌	hu;xh	1
-慌	hw;xh	1
 慍	yr;xm	1
 慎	vo;xv	1
 慏	mw;xl	1
@@ -20799,7 +20701,6 @@
 憹	nx;xn	1
 憻	to;xd	1
 憼	jw;xj	1
-憼	jw;xj	1
 憽	sk;xc	1
 憾	da;xg	1
 憿	jl;xj	1
@@ -20835,7 +20736,6 @@
 懛	db;xt	1
 懜	my;xm	1
 懜	mf;xm	1
-懜	mf;xm	1
 懝	ao;xy	1
 懝	nt;xy	1
 懝	ng;xy	1
@@ -20868,7 +20768,6 @@
 懳	ht;xh	1
 懴	ia;xg	1
 懵	mf;xm	1
-懶	lo;xl	1
 懶	lo;xl	1
 懷	hs;xh	1
 懸	xo;xx	1
@@ -21022,7 +20921,6 @@
 抏	wp;fy	1
 抐	ni;fn	1
 抐	nt;fn	1
-抐	ni;fn	1
 抐	rf;fn	1
 投	dr;fu	1
 抗	gu;fk	1
@@ -21087,7 +20985,6 @@
 拈	dr;fv	1
 拉	lm;fl	1
 拉	li;fl	1
-拉	ll;fl	1
 拊	fa;ff	1
 拊	bm;ff	1
 拋	pq;fl	1
@@ -21171,7 +21068,6 @@
 挑	ti;fv	1
 挑	dl;fv	1
 挑	tu;fv	1
-挑	tm;fv	1
 挒	lq;fl	1
 挔	ls;fy	1
 挕	ds;fe	1
@@ -21191,7 +21087,6 @@
 挮	tg;fd	1
 挮	tt;fd	1
 振	ve;fi	1
-振	vo;fi	1
 挰	if;fi	1
 挱	sl;fu	1
 挱	ul;fu	1
@@ -21483,7 +21378,6 @@
 搊	ix;fc	1
 搊	zz;fc	1
 搊	va;fc	1
-搋	ig;fh	1
 搋	yb;fh	1
 損	so;fy	1
 搎	sg;fs	1
@@ -21575,7 +21469,6 @@
 摐	iw;fc	1
 摑	gg;fg	1
 摑	gl;fg	1
-摒	bw;fp	1
 摓	ff;ff	1
 摓	py;ff	1
 摕	dt;fd	1
@@ -21713,7 +21606,6 @@
 撨	sx;fj	1
 撩	ll;fl	1
 撩	lv;fl	1
-撩	ll;fl	1
 撪	bo;ff	1
 撫	fm;fw	1
 撫	me;fw	1
@@ -21757,7 +21649,6 @@
 擋	dd;fd	1
 擌	si;fj	1
 擏	qn;fj	1
-擏	jw;fj	1
 擏	jw;fj	1
 擐	js;fh	1
 擐	xd;fh	1
@@ -21806,7 +21697,6 @@
 擯	bv;fb	1
 擰	nn;fn	1
 擰	nw;fn	1
-擰	nw;fn	1
 擱	gr;fg	1
 擱	ge;fg	1
 擲	vt;fe	1
@@ -21852,7 +21742,6 @@
 攌	hs;fh	1
 攍	yn;fy	1
 攎	ll;fl	1
-攎	ll;fl	1
 攏	ln;fl	1
 攐	qr;fq	1
 攑	qr;fj	1
@@ -21873,8 +21762,6 @@
 攝	ui;fn	1
 攝	ve;fn	1
 攝	nq;fn	1
-攝	ui;fn	1
-攞	ll;fl	1
 攞	ll;fl	1
 攟	jr;fh	1
 攠	mb;ff	1
@@ -21967,7 +21854,6 @@
 敩	xi;wx	1
 敪	ds;wu	1
 敫	qm;wf	1
-敫	jl;wf	1
 敭	yw;wy	1
 敮	xc;pi	1
 敯	mx;my	1
@@ -21987,7 +21873,6 @@
 敽	jl;pq	1
 敾	ua;wu	1
 敿	jl;wq	1
-斀	vl;pu	1
 斀	vl;pu	1
 斁	yt;sw	1
 斁	dh;sw	1
@@ -22331,7 +22216,6 @@
 朐	io;oj	1
 朑	tt;ou	1
 朒	nf;or	1
-朓	tl;ov	1
 朓	ya;ov	1
 朖	lp;ol	1
 朘	zt;oj	1
@@ -22502,7 +22386,6 @@
 枿	nq;mh	1
 柀	bg;mp	1
 柁	dp;mt	1
-柁	tl;mt	1
 柂	yb;my	1
 柂	dp;my	1
 柂	lb;my	1
@@ -22601,9 +22484,7 @@
 栝	tp;mu	1
 栝	kp;mu	1
 栞	kn;mj	1
-栟	be;mb	1
 栠	ro;mr	1
-校	jl;mj	1
 校	qm;mj	1
 栢	bu;mb	1
 栣	ro;mr	1
@@ -22802,7 +22683,6 @@
 棯	ro;mn	1
 棯	uo;mn	1
 棰	dl;mi	1
-棱	lf;ml	1
 棱	ic;ml	1
 棲	qj;mq	1
 棲	xj;mq	1
@@ -22914,7 +22794,6 @@
 楛	hh;mk	1
 楛	km;mk	1
 楜	hl;mh	1
-楞	lf;mf	1
 楟	tn;mt	1
 楡	ym;md	1
 楢	ya;mq	1
@@ -22964,7 +22843,6 @@
 榐	vo;mv	1
 榐	io;mv	1
 榐	na;mv	1
-榐	vo;mv	1
 榑	fh;mc	1
 榑	be;mc	1
 榒	np;mr	1
@@ -23183,7 +23061,6 @@
 橋	jm;mq	1
 橋	jl;mq	1
 橋	qm;mq	1
-橋	jl;mq	1
 橌	xa;mx	1
 橍	rr;mr	1
 橎	fp;mf	1
@@ -23210,7 +23087,6 @@
 橝	tp;mt	1
 橝	xc;mt	1
 機	jj;mj	1
-橠	nl;mi	1
 橠	nl;mi	1
 橢	tl;mo	1
 橢	dl;mo	1
@@ -23425,7 +23301,6 @@
 欌	cw;mc	1
 欍	jo;mj	1
 欎	yf;mc	1
-欏	ll;ml	1
 欏	ll;ml	1
 欐	lt;ml	1
 欐	lg;ml	1
@@ -23847,7 +23722,6 @@
 沝	zg;uu	1
 沞	zl;db	1
 沠	lm;dv	1
-没	mr;du	1
 沢	ze;di	1
 沤	ox;dq	1
 沬	mk;dw	1
@@ -24027,7 +23901,6 @@
 浧	if;di	1
 浧	yn;di	1
 浧	vf;di	1
-浧	yw;di	1
 浨	lo;ds	1
 浩	gx;dg	1
 浩	ge;dg	1
@@ -24254,7 +24127,6 @@
 湂	ei;de	1
 湃	bu;db	1
 湅	la;dj	1
-湅	la;dj	1
 湆	qt;dy	1
 湇	qt;do	1
 湈	mr;dm	1
@@ -24449,7 +24321,6 @@
 滽	yk;dy	1
 滾	go;dg	1
 滿	mo;dr	1
-滿	mo;dr	1
 漀	qw;uq	1
 漀	qe;uq	1
 漁	ym;dy	1
@@ -24537,7 +24408,6 @@
 潎	pl;db	1
 潏	ji;dk	1
 潏	uh;dk	1
-潐	jl;dj	1
 潐	jl;dj	1
 潐	qu;dj	1
 潑	pp;df	1
@@ -24825,7 +24695,6 @@
 瀳	zr;dd	1
 瀴	yn;dy	1
 瀴	yw;dy	1
-瀴	yw;dy	1
 瀶	lc;dl	1
 瀷	yt;dy	1
 瀸	jr;dg	1
@@ -25015,7 +24884,6 @@
 焅	kv;hg	1
 焆	yi;ho	1
 焆	yd;ho	1
-焆	yd;ho	1
 焇	xm;hx	1
 焈	xj;hs	1
 焉	yb;vd	1
@@ -25085,7 +24953,6 @@
 煇	xg;hj	1
 煇	xc;hj	1
 煈	ff;hf	1
-煉	la;hj	1
 煉	la;hj	1
 煍	jl;hq	1
 煎	ja;hq	1
@@ -25225,7 +25092,6 @@
 燌	bo;hb	1
 燍	sj;hs	1
 燍	xj;hs	1
-燎	ll;hl	1
 燐	lc;hl	1
 燑	tj;ht	1
 燒	uq;hy	1
@@ -25349,7 +25215,6 @@
 牄	qy;pc	1
 牅	yk;py	1
 牆	qi;ph	1
-片	pa;pa	1
 牉	pa;pb	1
 牊	ii;pv	1
 牋	jr;pj	1
@@ -25370,7 +25235,6 @@
 牞	jz;nl	1
 牞	li;nl	1
 牟	mv;sn	1
-牠	tl;ny	1
 牠	tl;ny	1
 牢	lv;bn	1
 牢	la;bn	1
@@ -26036,7 +25900,6 @@
 畵	hg;yh	1
 當	du;dt	1
 當	dd;dt	1
-當	du;dt	1
 畷	vf;tu	1
 畸	qb;tq	1
 畹	ys;tw	1
@@ -26188,7 +26051,6 @@
 瘧	yv;bn	1
 瘨	dr;bv	1
 瘨	ie;bv	1
-瘩	dl;bd	1
 瘬	vd;bv	1
 瘮	uo;bc	1
 瘯	ch;bz	1
@@ -26348,7 +26210,6 @@
 盜	dv;mc	1
 盝	lh;ml	1
 盞	vo;mj	1
-盟	mf;mm	1
 盟	mn;mm	1
 盠	lb;mt	1
 盡	jx;md	1
@@ -26396,7 +26257,6 @@
 眄	mp;og	1
 眅	pn;of	1
 眆	fp;of	1
-眇	ml;ou	1
 眈	io;og	1
 眊	mk;om	1
 県	xa;ox	1
@@ -26513,7 +26373,6 @@
 睱	xx;oj	1
 睱	xc;oj	1
 睲	xw;ox	1
-睲	xw;ox	1
 睳	ht;ok	1
 睴	gr;oj	1
 睵	zb;oz	1
@@ -26563,19 +26422,16 @@
 瞞	mp;or	1
 瞞	ms;or	1
 瞞	mo;or	1
-瞟	pl;op	1
 瞟	pm;op	1
 瞠	vf;ot	1
 瞡	gt;og	1
 瞢	mw;cm	1
-瞢	mf;cm	1
 瞣	wa;oh	1
 瞤	rf;or	1
 瞤	ur;or	1
 瞥	bt;ob	1
 瞦	xj;ox	1
 瞨	pl;od	1
-瞭	ll;ol	1
 瞮	ii;ow	1
 瞯	xv;ox	1
 瞯	ja;ox	1
@@ -26585,7 +26441,6 @@
 瞴	ma;ow	1
 瞴	wm;ow	1
 瞴	mb;ow	1
-瞵	lv;ol	1
 瞵	lv;ol	1
 瞶	gf;og	1
 瞶	wk;og	1
@@ -26911,7 +26766,6 @@
 磩	vl;ug	1
 磪	ct;uc	1
 磫	zk;uc	1
-磬	qw;uq	1
 磭	ip;ui	1
 磮	lf;ul	1
 磯	jj;uj	1
@@ -26933,7 +26787,6 @@
 磼	zu;uj	1
 磼	ue;uj	1
 磽	qm;uy	1
-磽	ql;uy	1
 磽	ql;uy	1
 磽	ai;uy	1
 磾	dj;ud	1
@@ -27077,7 +26930,6 @@
 禗	sj;us	1
 禙	bk;ub	1
 禜	yn;hu	1
-禜	yn;hu	1
 禝	jt;uj	1
 禞	gv;ug	1
 禟	tw;ut	1
@@ -27195,7 +27047,6 @@
 稘	qb;hq	1
 稙	vt;hv	1
 稛	ko;hh	1
-稜	lf;hl	1
 稜	lf;hl	1
 稜	ln;hl	1
 稝	pf;hp	1
@@ -27505,7 +27356,6 @@
 筆	bg;vy	1
 筈	kp;vu	1
 筊	xu;vj	1
-筊	jl;vj	1
 筊	jl;vj	1
 筋	qv;vl	1
 筍	so;vx	1
@@ -27913,7 +27763,6 @@
 糸	sj;ax	1
 糹	sj;si	1
 糺	jz;sg	1
-糺	jz;sg	1
 糼	gk;sl	1
 糽	vy;sd	1
 糽	vc;sd	1
@@ -27939,7 +27788,6 @@
 紇	js;sq	1
 紈	wp;sw	1
 紉	ro;sr	1
-紊	wo;sw	1
 紋	ws;sw	1
 紋	wo;sw	1
 紌	qm;sy	1
@@ -28063,7 +27911,6 @@
 絝	kh;sk	1
 絞	jl;sj	1
 絞	xu;sj	1
-絞	jl;sj	1
 絟	qo;sq	1
 絠	gu;sy	1
 絠	au;sy	1
@@ -28109,7 +27956,6 @@
 絺	vg;sx	1
 絻	mp;sm	1
 絻	wo;sm	1
-絻	mp;sm	1
 絻	wa;sm	1
 絼	vo;sv	1
 絽	ls;sl	1
@@ -28185,7 +28031,6 @@
 維	wr;sv	1
 維	yb;sv	1
 綮	qg;sw	1
-綮	qw;sw	1
 綯	ti;st	1
 綰	wo;sg	1
 綱	gu;sg	1
@@ -28356,7 +28201,6 @@
 縩	co;sj	1
 縪	bt;sb	1
 縫	ff;sf	1
-縫	ff;sf	1
 縬	ch;sq	1
 縭	lb;sl	1
 縮	ss;ss	1
@@ -28407,7 +28251,6 @@
 繆	ml;sl	1
 繆	lu;sl	1
 繆	ll;sl	1
-繆	ll;sl	1
 繆	lh;sl	1
 繇	yi;vx	1
 繇	vr;vx	1
@@ -28457,7 +28300,6 @@
 繩	uf;sm	1
 繩	yw;sm	1
 繩	mx;sm	1
-繩	uf;sm	1
 繪	hf;sh	1
 繪	gf;sh	1
 繫	xt;su	1
@@ -28473,7 +28315,6 @@
 繲	xq;sj	1
 繳	jl;sj	1
 繳	vl;sj	1
-繳	jl;sj	1
 繳	he;sj	1
 繴	bt;sb	1
 繵	da;sd	1
@@ -28615,7 +28456,6 @@
 羃	mt;sm	1
 羄	vv;si	1
 羅	ll;sv	1
-羅	ls;sv	1
 羅	ls;sv	1
 羆	pb;sx	1
 羇	jj;sq	1
@@ -28772,7 +28612,6 @@
 聐	yi;ej	1
 聑	tk;ee	1
 聑	ve;ee	1
-聒	gs;eu	1
 聓	xf;eg	1
 聕	hv;eg	1
 聖	uf;ew	1
@@ -28921,7 +28760,6 @@
 胦	yu;oy	1
 胬	ns;rn	1
 胮	pu;oj	1
-胯	kg;ok	1
 胲	gb;oh	1
 胲	gu;oh	1
 胳	gl;og	1
@@ -29013,7 +28851,6 @@
 脾	bt;ob	1
 脾	pt;ob	1
 脿	bm;ob	1
-脿	bl;ob	1
 腀	lf;ol	1
 腁	pv;ob	1
 腂	lj;og	1
@@ -29115,7 +28952,6 @@
 膥	cg;ri	1
 膦	lp;ol	1
 膧	tj;ot	1
-膨	pf;op	1
 膩	nt;oe	1
 膪	if;ok	1
 膪	vi;ok	1
@@ -29328,7 +29164,6 @@
 艼	dw;cd	1
 艽	qm;cj	1
 艿	rf;cn	1
-艿	rf;cn	1
 芀	tu;cd	1
 芁	jm;cj	1
 芅	yt;cy	1
@@ -29452,7 +29287,6 @@
 茀	fk;cf	1
 茀	bk;cf	1
 茀	bt;cf	1
-茁	vl;ci	1
 茆	mx;cm	1
 茇	bu;cb	1
 茇	pk;cb	1
@@ -29597,7 +29431,6 @@
 莨	lw;cl	1
 莩	pl;cf	1
 莫	mh;cd	1
-莬	wo;cm	1
 莬	wo;cm	1
 莬	mp;cm	1
 莭	js;cj	1
@@ -29894,7 +29727,6 @@
 蓪	tk;ct	1
 蓫	ih;cv	1
 蓫	vl;cv	1
-蓬	pf;cf	1
 蓭	an;ca	1
 蓮	lv;cl	1
 蓮	lp;cl	1
@@ -29932,7 +29764,6 @@
 蔇	jt;cj	1
 蔇	xt;cj	1
 蔈	bm;cp	1
-蔈	pl;cp	1
 蔈	bl;cp	1
 蔉	go;cg	1
 蔋	db;cu	1
@@ -30041,7 +29872,6 @@
 蕠	rl;cr	1
 蕡	fs;cb	1
 蕡	fk;cb	1
-蕢	kf;cg	1
 蕢	kf;cg	1
 蕣	ur;cu	1
 蕥	ym;cy	1
@@ -30741,7 +30571,6 @@
 蠀	jb;iz	1
 蠁	xu;ix	1
 蠂	ui;im	1
-蠃	ll;dd	1
 蠃	gl;dd	1
 蠄	qc;iq	1
 蠅	yn;im	1
@@ -30769,7 +30598,6 @@
 蠟	li;il	1
 蠠	mx;im	1
 蠠	mv;im	1
-蠡	ll;it	1
 蠡	ll;it	1
 蠡	lt;it	1
 蠣	lt;il	1
@@ -30870,7 +30698,6 @@
 袂	yt;yd	1
 袃	io;yq	1
 袇	rp;yd	1
-袉	tl;yt	1
 袉	tl;yt	1
 袊	lw;yl	1
 袊	ln;yl	1
@@ -31298,7 +31125,6 @@
 訑	da;yy	1
 訑	uj;yy	1
 訑	tl;yy	1
-訑	tl;yy	1
 訒	ro;yr	1
 訓	xr;yi	1
 訔	yc;uy	1
@@ -31543,7 +31369,6 @@
 諉	wj;yw	1
 諊	jh;yj	1
 請	qw;yq	1
-請	qw;yq	1
 請	qn;yq	1
 諌	dn;yd	1
 諍	vf;yv	1
@@ -31632,7 +31457,6 @@
 謄	tf;ot	1
 謅	vx;yc	1
 謅	ix;yc	1
-謅	ix;yc	1
 謆	ua;yu	1
 謈	pe;oy	1
 謈	pi;oy	1
@@ -31683,7 +31507,6 @@
 謤	bm;yp	1
 謤	pm;yp	1
 謥	cy;yc	1
-謦	qw;yq	1
 謦	qw;yq	1
 謧	lb;yl	1
 謨	me;ym	1
@@ -32191,7 +32014,6 @@
 趑	ct;zc	1
 趒	tu;zv	1
 趒	tl;zv	1
-趒	tl;zv	1
 趓	dl;zd	1
 趕	go;zh	1
 趖	ss;zz	1
@@ -32327,7 +32149,6 @@
 跧	zg;zq	1
 跨	kh;zk	1
 跨	ks;zk	1
-跨	kg;zk	1
 跩	vp;zy	1
 跩	ut;zy	1
 跫	qk;zg	1
@@ -32398,7 +32219,6 @@
 踙	nq;zq	1
 踚	lf;zl	1
 踛	lh;zt	1
-踜	lf;zl	1
 踜	lf;zl	1
 踜	iy;zl	1
 踠	wo;zw	1
@@ -32498,14 +32318,12 @@
 蹪	tw;zg	1
 蹫	jm;zk	1
 蹬	df;zd	1
-蹭	cf;zc	1
 蹮	xr;zs	1
 蹱	vk;zt	1
 蹱	iy;zt	1
 蹲	zf;zz	1
 蹲	cf;zz	1
 蹲	zg;zz	1
-蹲	co;zz	1
 蹲	co;zz	1
 蹲	qo;zz	1
 蹳	bp;zf	1
@@ -32529,7 +32347,6 @@
 躂	du;zd	1
 躃	bt;zb	1
 躄	bt;zb	1
-躅	vl;zi	1
 躆	jf;zj	1
 躇	ip;zv	1
 躈	ql;zj	1
@@ -32721,7 +32538,6 @@
 輗	yt;ie	1
 輘	lf;il	1
 輘	ln;il	1
-輘	lf;il	1
 輙	ve;iq	1
 輚	va;ij	1
 輛	le;il	1
@@ -32805,7 +32621,6 @@
 轑	li;il	1
 轑	lu;il	1
 轑	ll;il	1
-轑	ll;il	1
 轒	fs;ib	1
 轓	fn;if	1
 轔	lc;il	1
@@ -32845,7 +32660,6 @@
 辦	ba;lx	1
 辧	ba;dx	1
 辨	bp;dx	1
-辨	ba;dx	1
 辨	pa;dx	1
 辪	xu;xv	1
 辬	bn;wx	1
@@ -32854,7 +32668,6 @@
 辯	ba;yx	1
 辯	pv;yx	1
 辯	bp;yx	1
-辯	ba;yx	1
 農	nj;qi	1
 辳	nj;il	1
 辴	io;id	1
@@ -32863,7 +32676,6 @@
 辶	ip;dd	1
 辷	yj;za	1
 辸	rf;zn	1
-边	br;zl	1
 辺	br;zd	1
 辻	ub;zu	1
 込	yh;zr	1
@@ -32955,7 +32767,6 @@
 連	lv;zi	1
 連	lp;zi	1
 連	la;zi	1
-連	la;zi	1
 逤	sp;zu	1
 逥	hw;zh	1
 逧	gm;zg	1
@@ -32997,7 +32808,6 @@
 運	yr;zj	1
 遌	ei;ze	1
 過	gp;zg	1
-過	gs;zg	1
 過	gs;zg	1
 過	hp;zg	1
 遒	qz;zq	1
@@ -33067,7 +32877,6 @@
 邈	mu;ze	1
 邉	br;zk	1
 邊	br;zf	1
-邊	br;zf	1
 邋	lq;zl	1
 邌	lb;zl	1
 邌	ib;zl	1
@@ -33091,14 +32900,12 @@
 邟	ku;ek	1
 邡	fd;ef	1
 邢	gy;ek	1
-那	nl;el	1
 那	np;el	1
 那	nk;el	1
 那	nm;el	1
 那	nj;el	1
 那	ne;el	1
 那	nu;el	1
-那	ni;el	1
 邤	xh;ej	1
 邥	uo;ea	1
 邧	yo;ey	1
@@ -33311,7 +33118,6 @@
 醤	je;yc	1
 醥	pl;yp	1
 醦	io;yc	1
-醦	io;yc	1
 醧	yf;yq	1
 醧	ox;yq	1
 醩	zq;yc	1
@@ -33369,7 +33175,6 @@
 釓	qm;jg	1
 釓	gu;jg	1
 釔	yg;jy	1
-釕	ll;jl	1
 釕	ll;jl	1
 釖	dq;jd	1
 釗	vq;jd	1
@@ -33543,7 +33348,6 @@
 鉈	uj;jt	1
 鉈	ue;jt	1
 鉈	yb;jt	1
-鉈	tl;jt	1
 鉈	tl;jt	1
 鉉	xc;jx	1
 鉊	vq;jv	1
@@ -34558,7 +34362,6 @@
 阬	kd;ek	1
 阬	gu;ek	1
 阭	yo;ey	1
-阭	yo;ey	1
 阮	yo;ey	1
 阯	vg;ev	1
 阰	pb;eb	1
@@ -34574,7 +34377,6 @@
 阿	el;ek	1
 阿	am;ek	1
 阿	ai;ek	1
-阿	al;ek	1
 陀	dp;et	1
 陁	tl;ey	1
 陁	vt;ey	1
@@ -34666,7 +34468,6 @@
 隓	dp;ez	1
 隔	rn;eg	1
 隔	jj;eg	1
-隕	yo;ey	1
 隕	yo;ey	1
 隖	wh;ew	1
 隗	kw;eg	1
@@ -35137,7 +34938,6 @@
 頿	zj;cx	1
 顀	iw;vy	1
 顁	dw;yd	1
-顁	dw;yd	1
 顂	lo;yl	1
 顂	ld;yl	1
 顃	tp;yy	1
@@ -35325,7 +35125,6 @@
 餁	ro;ur	1
 餂	tp;uu	1
 餂	tv;uu	1
-餃	jl;uj	1
 餃	jl;uj	1
 餄	jc;uh	1
 餄	he;uh	1
@@ -36763,7 +36562,6 @@
 黝	yj;hy	1
 點	dp;hv	1
 點	vn;hv	1
-點	dp;hv	1
 黣	mj;hm	1
 黤	yo;hd	1
 黦	yd;hw	1
@@ -36910,7 +36708,6 @@
 齦	ko;ig	1
 齦	qp;ig	1
 齦	yc;ig	1
-齦	ko;ig	1
 齧	nq;id	1
 齨	jo;ij	1
 齩	yx;ij	1
@@ -37019,8 +36816,6 @@
 	xi	0
 	zb	0
 	bi	0
-	bi	0
-	bi	0
 	bi	0
 	vd	0
 	vo	0
@@ -38398,7 +38193,6 @@
 𡂫	pf;kp	0
 𡂭	vr	0
 𡂿	ox;ko	0
-𡂿	ox;ko	0
 𡃂	xq;kx	0
 𡃃	jb;kj	0
 𡃄	lo;kl	0
@@ -38666,7 +38460,6 @@
 𡐤	qq;tj	0
 𡐥	si;tz	0
 𡐿	dl;td	0
-𡐿	dl;td	0
 𡑀	yl;ft	0
 𡑀	uh;ft	0
 𡑄	vp;tv	0
@@ -38748,7 +38541,6 @@
 𡖑	gz;du	0
 𡖒	yf;dy	0
 𡖓	dn;dy	0
-𡖔	nl;dr	0
 𡖔	nl;dr	0
 𡖛	bw;xj	0
 𡖝	rp;dr	0
@@ -41692,7 +41484,6 @@
 𣤴	xj;qx	0
 𣤵	yw;qy	0
 𣤶	zl;qc	0
-𣤶	zl;qc	0
 𣤶	zo;qc	0
 𣤷	zl;qu	0
 𣤺	zl;qu	0
@@ -41934,7 +41725,6 @@
 𣭤	bt;mb	0
 𣭮	mi;hm	0
 𣭲	rn;my	0
-𣭳	qm;mq	0
 𣭳	qm;mq	0
 𣭷	be;mb	0
 𣭹	hq;my	0
@@ -42416,7 +42206,6 @@
 𤊶	li;hl	0
 𤊻	fx;hm	0
 𤊼	uo;yg	0
-𤊽	ll;hu	0
 𤊽	ll;hu	0
 𤊾	mq;hc	0
 𤊿	ii;hi	0
@@ -42906,7 +42695,6 @@
 𤡡	xj;qr	0
 𤡢	ij;qi	0
 𤡣	xh;qx	0
-𤡤	ni;qe	0
 𤡤	ni;qe	0
 𤡤	rl;qe	0
 𤡥	yp;qx	0
@@ -43865,7 +43653,6 @@
 𥉓	mq;om	0
 𥉔	gy;og	0
 𥉕	mf;om	0
-𥉕	mf;om	0
 𥉖	wk;oh	0
 𥉘	tb;os	0
 𥉙	qb;oq	0
@@ -44366,7 +44153,6 @@
 𥞧	hf;hx	0
 𥞩	bc;hb	0
 𥞩	he;hb	0
-𥞪	mg;hm	0
 𥞪	mg;hm	0
 𥞯	zl;hp	0
 𥞲	bk;hb	0
@@ -45164,7 +44950,6 @@
 𥿑	lf;sc	0
 𥿚	qq;qs	0
 𥿜	vo;se	0
-𥿜	vo;se	0
 𥿝	do;ds	0
 𥿞	ur;st	0
 𥿦	vx;sv	0
@@ -45903,7 +45688,6 @@
 𦝴	yv;os	0
 𦝷	bf;op	0
 𦞁	zb;oz	0
-𦞂	dl;od	0
 𦞂	dl;od	0
 𦞆	nq;ot	0
 𦞇	js;oy	0
@@ -46698,7 +46482,6 @@
 𦿌	ll;cx	0
 𦿍	pg;cp	0
 𦿏	mf;cm	0
-𦿏	mf;cm	0
 𦿐	js	0
 𦿓	jj;cj	0
 𦿖	lh;cl	0
@@ -47386,7 +47169,6 @@
 𧚄	ee;yw	0
 𧚅	lp;yl	0
 𧚆	fk;yb	0
-𧚇	wo;ym	0
 𧚇	wo;ym	0
 𧚉	cg;yj	0
 𧚋	pf;yf	0
@@ -48797,7 +48579,6 @@
 𨌢	vc;iv	0
 𨌣	rn;ir	0
 𨌤	if;iw	0
-𨌤	if;iw	0
 𨌥	fl;wk	0
 𨌧	ei;iy	0
 𨌨	tq;it	0
@@ -48931,7 +48712,6 @@
 𨐳	zp;qx	0
 𨐴	pt;bj	0
 𨐶	hp;xh	0
-𨐾	ba	0
 𨐾	ba	0
 𨑊	nj;dn	0
 𨑌	is;il	0
@@ -49275,7 +49055,6 @@
 𨟗	wj;we	0
 𨟙	ye;ye	0
 𨟚	rw;xe	0
-𨟠	qd;eq	0
 𨟠	ji;eq	0
 𨟥	ll;le	0
 𨟲	do;yy	0
@@ -51614,7 +51393,6 @@
 𩮯	ai;ia	0
 𩮱	vw;ii	0
 𩮳	pl;ip	0
-𩮳	pl;ip	0
 𩮳	pk;ip	0
 𩮴	st;ic	0
 𩮴	cv;ic	0
@@ -53212,7 +52990,6 @@
 㼜	pa;wy	0
 䍩	ap;yw	0
 㦹	ad;gy	0
-㦹	yw;gy	0
 䒢	yw;ca	0
 𤎅	ai	0
 𦒢	ai	0
@@ -53250,7 +53027,6 @@
 㞎	pu;ub	0
 㖠	bi;kn	0
 䃻	pd;ub	0
-䱝	bi;yb	0
 跁	pi;zb	0
 㼟	bd;wb	0
 𢳎	bo	0
@@ -53315,7 +53091,6 @@
 𠥧	bi	0
 𥓓	bi	0
 𪂃	bi	0
-䎬	bi;lb	0
 㛝	bf;nb	0
 㷶	bt;bh	0
 䁅	bk;om	0
@@ -53416,7 +53191,6 @@
 𨘢	br	0
 𪢥	br;kb	0
 𫟪	br	0
-炞	br;hb	0
 㲢	bs;mb	0
 㳎	fa;db	0
 獱	pa;qb	0
@@ -53437,7 +53211,6 @@
 䚔	bv;jb	0
 瑸	pv;wb	0
 𠀤	bw	0
-窉	bw;xb	0
 𠰳	bw;kb	0
 𫖓	bw	0
 䋑	bw;sb	0
@@ -53576,7 +53349,6 @@
 䡨	yc;ii	0
 䑘	iu;ji	0
 䰈	im;ii	0
-䰈	cl;ii	0
 䲦	iu;nd	0
 䲦	dt;nd	0
 䲦	tl;nd	0
@@ -53747,7 +53519,6 @@
 㘜	ia;ki	0
 㘜	ih;ki	0
 㱀	if;qi	0
-䐤	ib;oi	0
 䐤	qt;oi	0
 䐤	va;oi	0
 䮻	dx;mu	0
@@ -53808,7 +53579,6 @@
 禇	im;uv	0
 𠫎	ia	0
 𫠚	ia	0
-榋	ia;mx	0
 䠂	im;zl	0
 䮞	ih;mi	0
 㗰	ih;kc	0
@@ -53909,7 +53679,6 @@
 愡	sk;xc	0
 潀	zn;dd	0
 潈	cj;dd	0
-潈	zk;dd	0
 潨	ck;dd	0
 潨	zy;dd	0
 㫶	cz;ov	0
@@ -53959,7 +53728,6 @@
 𥲽	cl	0
 𪉤	cl	0
 鎈	cs;ji	0
-㟇	cl;uz	0
 䴾	cp;mi	0
 䴾	yi;mi	0
 䴾	vo;mi	0
@@ -53970,7 +53738,6 @@
 𪾾	du;od	0
 㯚	du;md	0
 垯	du;td	0
-墶	dl;td	0
 䐊	du;ok	0
 䑽	du;vt	0
 鎉	dl;jy	0
@@ -54267,7 +54034,6 @@
 墢	fu;tf	0
 㳒	fm;dq	0
 𤼵	fl	0
-冹	fl;db	0
 峜	fm;uq	0
 峜	jj;uq	0
 䒥	fi;cz	0
@@ -54299,8 +54065,6 @@
 㽹	wo;bf	0
 𢨲	fw	0
 𠥓	fu	0
-堏	fu;tf	0
-枋	bw;mf	0
 䢍	fo;zf	0
 䦈	fp;iz	0
 䦈	ho;iz	0
@@ -54366,7 +54130,6 @@
 阝	fm;er	0
 𢾭	fa	0
 𨞻	fa	0
-酜	fa;yf	0
 㚕	bt;df	0
 䵗	fl;uf	0
 㓡	fz;df	0
@@ -54473,7 +54236,6 @@
 䕻	ge;cl	0
 䕻	lb;cl	0
 亇	gi;da	0
-亇	ml;da	0
 㦴	qx;gg	0
 䐙	yt;og	0
 𠀕	go	0
@@ -54489,7 +54251,6 @@
 𠃋	gk	0
 侊	gk;rg	0
 糿	gk;sd	0
-慐	gk;xg	0
 慐	gy;xg	0
 慐	hn;xg	0
 䢚	gy;zg	0
@@ -54537,7 +54298,6 @@
 䀜	mk;ow	0
 䀜	xi;ow	0
 巬	ga;fj	0
-巬	pa;fj	0
 䀇	qd;mf	0
 扢	xt;fq	0
 䀰	yn;og	0
@@ -54625,7 +54385,6 @@
 𩰫	gs	0
 懖	gs;xx	0
 猓	gs;qg	0
-过	gs;zc	0
 㕵	hf;kw	0
 㕵	ll;kw	0
 㳀	ku;dg	0
@@ -54750,7 +54509,6 @@
 𠄨	hf	0
 𠅖	hc	0
 撗	hf;fh	0
-橫	hf;mh	0
 䬝	hy;fh	0
 䒛	hf;ch	0
 䄓	hf;uh	0
@@ -54855,7 +54613,6 @@
 㣪	kp;xy	0
 㦥	ho;xx	0
 䥧	xo;jr	0
-瓛	yi;wq	0
 䝠	yo;vy	0
 䭴	yc;mu	0
 䌙	hu;sh	0
@@ -54929,7 +54686,6 @@
 䰥	jt;gh	0
 䰥	ui;gh	0
 䦚	hp;mu	0
-䦚	kg;mu	0
 䂄	ke;oj	0
 䄆	kp;uu	0
 䄑	kp;uh	0
@@ -55112,7 +54868,6 @@
 𫈇	jm	0
 憿	jg;xj	0
 敎	jm;wx	0
-笅	jl;vy	0
 䂃	js;oj	0
 䣤	jl;ej	0
 㳅	lm;db	0
@@ -55330,7 +55085,6 @@
 𫟺	kb	0
 嘅	gl;kj	0
 㡁	ku;jk	0
-㡁	kg;jk	0
 忾	xt;xq	0
 㸔	ka;oh	0
 鬫	ka;dg	0
@@ -55392,10 +55146,8 @@
 𫂜	kf	0
 𫞷	kf	0
 㙗	kf;tw	0
-欳	kf;qc	0
 㔞	ke;lg	0
 㔞	wd;lg	0
-㱮	kf;dg	0
 㟴	kv;ug	0
 㟴	wj;ug	0
 㬮	kf;on	0
@@ -55419,7 +55171,6 @@
 㛻	kv;nk	0
 𡰂	kt;bw	0
 潰	hf;dg	0
-蒉	kf;cg	0
 䍪	kf;ym	0
 䦱	kv;mw	0
 䫥	wj;yg	0
@@ -55622,7 +55373,6 @@
 𢩪	lm	0
 爎	ll;hl	0
 爒	lu;hl	0
-㶫	ll;dh	0
 㝋	lu;bl	0
 㝋	lm;bl	0
 䢧	lx;zl	0
@@ -55699,7 +55449,6 @@
 䝏	lz;ul	0
 䣚	ll;el	0
 鷜	la;nl	0
-瞜	lx;ol	0
 䱾	ym;yl	0
 𢫘	ll	0
 𪈒	ll	0
@@ -55739,7 +55488,6 @@
 㱻	ll;dl	0
 囖	ll;kl	0
 囖	ls;kl	0
-囖	ls;kl	0
 𡑤	ll	0
 𡑤	yn	0
 𫠉	mm	0
@@ -55749,7 +55497,6 @@
 杩	mm;mm	0
 榪	ml;mm	0
 䣕	mi;em	0
-嫲	ml;nm	0
 嫲	mu;nm	0
 㐷	mi;rm	0
 㐷	mv;rm	0
@@ -55829,13 +55576,10 @@
 𩥃	mf	0
 𪭓	mf	0
 㒱	mf;rx	0
-䥰	mf;jm	0
 癦	mf;bm	0
 𤷪	my;nm	0
 冡	my;bu	0
 𫎇	mc;ad	0
-掹	mc;fm	0
-䓝	mf;cm	0
 瞢	my;cm	0
 矒	my;om	0
 㚞	my;dl	0
@@ -55959,9 +55703,7 @@
 郍	ni;ev	0
 𤶸	nl;nn	0
 㗙	il;ki	0
-䅞	ni;hd	0
 䅞	no;hd	0
-吶	ni;kn	0
 䇣	ni;vx	0
 䇣	nk;vx	0
 䇣	yg;vx	0
@@ -56152,7 +55894,6 @@
 𨭌	pf;jp	0
 𪹫	pf;hp	0
 袶	pf;yj	0
-槰	pf;mf	0
 𢴒	pc;fp	0
 剻	pc;db	0
 捀	pf;ff	0
@@ -56284,8 +56025,6 @@
 𨟦	qr	0
 𪠧	qr	0
 𫖶	qr	0
-籖	qr;vg	0
-鏲	qr;jq	0
 亁	qv;qg	0
 檶	lv;mq	0
 䪈	qp;gq	0
@@ -56333,7 +56072,6 @@
 𠀇	qc	0
 朅	he;hz	0
 㛙	qc;nx	0
-㛙	uo;nx	0
 㛙	uo;nx	0
 㤲	qf;xj	0
 㹤	qd;qq	0
@@ -56414,7 +56152,6 @@
 奍	jc;df	0
 圏	jc;kj	0
 圏	jd;kj	0
-椦	qd;ml	0
 椦	jc;ml	0
 椦	qo;ml	0
 絟	ud;sq	0
@@ -56450,12 +56187,10 @@
 䏰	ro;or	0
 䏰	io;or	0
 梕	ek;mr	0
-䏕	ro;or	0
 䏕	rr;or	0
 䴦	rs;ly	0
 䀼	vo;oi	0
 𪥠	rf	0
-芿	rf;cr	0
 䄧	rn;hn	0
 衵	rt;yo	0
 釼	rt;jr	0
@@ -56478,7 +56213,6 @@
 𨾯	rl	0
 𣹤	rh	0
 㐈	rh	0
-嶿	ra;ux	0
 㦺	rm;gi	0
 㹘	rl;nx	0
 㹘	rw;nx	0
@@ -56896,7 +56630,6 @@
 𢓴	tf	0
 𡲾	tt	0
 螁	tf;it	0
-螁	bn;it	0
 㾯	wj;bw	0
 㦌	tf;xc	0
 䍾	tw;yj	0
@@ -56918,7 +56651,6 @@
 鮵	ts;yd	0
 𠇔	ts;rm	0
 𠇔	ii;rm	0
-媠	tl;no	0
 沲	dp;dy	0
 駄	dp;mt	0
 䲊	tl;ys	0
@@ -57180,8 +56912,6 @@
 𫠇	xc	0
 𩕄	xv	0
 炘	xv;hj	0
-忄	xh;xn	0
-噷	ho;kq	0
 噷	ho;kq	0
 䰼	xc;yj	0
 㚯	xf;nf	0
@@ -57290,7 +57020,6 @@
 挜	ym;fy	0
 铔	yi;jy	0
 䊦	yu;my	0
-䝟	yi;vq	0
 䄰	vu;hy	0
 𤆌	yp	0
 𤥻	yp;wy	0
@@ -57474,7 +57203,6 @@
 𫒽	yn	0
 𫞯	yn	0
 𫞰	yn	0
-㴄	yn;dj	0
 㼆	yn;wy	0
 䪯	yn;yy	0
 𤇾	yw;yb	0
@@ -57604,7 +57332,6 @@
 褞	yr;yw	0
 𡴞	yo	0
 𫟵	yo	0
-䦾	yo;dy	0
 韫	we;wm	0
 煴	yo;hw	0
 熅	yg;hm	0
@@ -57690,7 +57417,6 @@
 㕩	vd;kf	0
 𫜂	vu	0
 𫠒	vu	0
-鏱	vu;jv	0
 𠧞	vv	0
 𠮦	vv	0
 𡊥	vv	0
@@ -57842,7 +57568,6 @@
 蠿	vl;iy	0
 龺	vl;uz	0
 梲	vs;md	0
-窧	vs;xv	0
 鐯	vs;jv	0
 犳	bv;qu	0
 嗭	zj;kv	0
@@ -57876,8 +57601,6 @@
 𫟾	zl	0
 䘚	zl;yu	0
 𫃦	zm	0
-椊	zl;mz	0
-䯿	zl;iz	0
 鉆	zd;jv	0
 鑚	zd;jz	0
 𡽕	zf	0
@@ -57956,7 +57679,6 @@
 伝	io;ry	0
 価	jx;rx	0
 侢	zo;rz	0
-俵	bl;rb	0
 個	gr;rg	0
 倶	jh;rb	0
 偂	jr;rq	0
@@ -58010,14 +57732,12 @@
 啘	yo;kw	0
 啪	pd;kp	0
 啱	yn;ky	0
-喔	wp;kw	0
 喥	dh;kd	0
 喺	xg;kx	0
 喼	js;kj	0
 喿	sv;mp	0
 嗀	hp;uk	0
 嗠	lp;fg	0
-嗯	ee;ke	0
 嗯	ee;ke	0
 嗰	gm;kg	0
 嘊	yd;ky	0
@@ -58083,7 +57803,6 @@
 开	qr;ac	0
 弛	ug;gy	0
 弸	bc;gp	0
-彯	pl;pp	0
 彽	ib;xd	0
 微	wr;xw	0
 徻	wk;xh	0
@@ -58109,21 +57828,17 @@
 扑	pr;fb	0
 扻	zt;fq	0
 扽	dr;ft	0
-抆	wo;fw	0
 抌	vo;fg	0
 抩	tn;fr	0
 拈	nv;fv	0
 挵	ly;fn	0
 挾	jc;fj	0
 捙	yt;fi	0
-捭	bg;fb	0
 捼	nl;fw	0
-捽	zl;fz	0
 捿	xj;fq	0
 揗	uo;fd	0
 搄	gc;fh	0
 搕	ki;fh	0
-搵	wo;fm	0
 搷	ie;fv	0
 摲	ua;fv	0
 摴	ua;fk	0
@@ -58143,7 +57858,6 @@
 敯	mc;my	0
 斂	la;wq	0
 斆	xi;wx	0
-旀	mk;fx	0
 旝	gf;fh	0
 昤	le;ol	0
 暍	hi;oh	0
@@ -58166,14 +57880,11 @@
 栵	lt;ml	0
 梜	jc;mj	0
 棁	vr;md	0
-棅	bw;mb	0
 棳	vl;mu	0
-椤	ll;ml	0
 椫	vo;md	0
 椰	ye;my	0
 楅	bt;mf	0
 楎	hf;mj	0
-榜	pf;mp	0
 榥	hu;mh	0
 榲	yf;mm	0
 榼	ki;mh	0
@@ -58216,11 +57927,9 @@
 湩	vy;dv	0
 湺	yp;db	0
 溈	gt;dw	0
-溕	mf;dm	0
 溨	cd;dz	0
 溾	wi;dg	0
 滉	hu;dh	0
-滫	xz;do	0
 漦	lb;ui	0
 潃	xf;do	0
 澣	hs;dg	0
@@ -58320,7 +58029,6 @@
 紪	cg;sc	0
 絛	db;rs	0
 絣	bw;sb	0
-絼	vo;sv	0
 綠	lh;sl	0
 緁	js;sj	0
 縡	zu;sz	0
@@ -58342,7 +58050,6 @@
 肸	xt;ou	0
 胆	da;od	0
 脘	gs;ow	0
-腍	ro;on	0
 膄	sr;os	0
 膒	oa;oq	0
 膥	ig;ri	0
@@ -58350,7 +58057,6 @@
 舡	gu;vg	0
 舤	fn;vf	0
 芎	qk;cg	0
-芣	fa;cb	0
 芨	jb;cj	0
 芸	yt;cy	0
 茦	ci;cc	0
@@ -58460,12 +58166,10 @@
 鄩	xc;ex	0
 酵	xl;yx	0
 醊	ip;yu	0
-醝	cl;yi	0
 釸	xt;jx	0
 鈄	tz;jd	0
 鈆	yp;jg	0
 鈒	jb;jj	0
-鈒	si;jj	0
 鈘	jg;jv	0
 鈟	uj;jd	0
 鈶	yb;jt	0
@@ -58487,12 +58191,10 @@
 鐂	lo;jl	0
 鐄	hf;jh	0
 鐔	tp;jt	0
-鐛	yw;jj	0
 鐽	bt;jd	0
 鑴	xt;jj	0
 钃	um;ju	0
 钑	jb;jj	0
-钑	si;jj	0
 钶	er;jk	0
 钸	bh;jb	0
 閬	lw;ml	0
@@ -58558,7 +58260,6 @@
 鸲	vk;nj	0
 麌	wl;lw	0
 麫	mp;mg	0
-麶	ij;ml	0
 麶	lb;ml	0
 麼	mu;my	0
 麿	mi;ml	0
@@ -58624,3 +58325,113 @@
 𨳒	dl;mx	0
 𩾀	ga	0
 𪎌	ld;ml	0
+丆	pp;ap	0
+丌	pp;aa	0
+丨	pp;aa	0
+丩	pp;aa	0
+丶	pp;dd	0
+丷	pp;ba	0
+丿	pp;px	0
+乀	pp;aa	0
+乁	pp;aa	0
+乂	pp;pd	0
+乊	pp;ho	0
+乚	pp;gb	0
+乛	pp;av	0
+𠂤	pp	0
+亅	pp;aa	0
+亠	pp;da	0
+亻	pp;rf	0
+冂	pp;kd	0
+冖	pp;bk	0
+冫	pp;da	0
+凵	pp;kd	0
+刂	pp;dk	0
+勹	pp;gb	0
+匚	pp;kd	0
+卄	pp;aa	0
+卝	pp;aa	0
+卩	pp;er	0
+厶	pp;ad	0
+夂	pp;pd	0
+夊	pp;pd	0
+宀	pp;bk	0
+尢	pp;ag	0
+屮	pp;aa	0
+巜	pp;aa	0
+廴	pp;zb	0
+廾	pp;aa	0
+廿	pp;aa	0
+弋	pp;ad	0
+彐	pp;aa	0
+彑	pp;aa	0
+彡	pp;pp	0
+彳	pp;pa	0
+忄	pp;xn	0
+手	pp;pa	0
+扌	pp;aa	0
+攵	pp;pd	0
+日	pp;aa	0
+曰	pp;aa	0
+月	pp;oy	0
+水	pp;ad	0
+氵	pp;da	0
+氺	pp;dd	0
+灬	pp;ho	0
+爫	pp;pd	0
+犭	pp;qr	0
+疋	pp;av	0
+疒	pp;by	0
+癶	pp;ad	0
+目	pp;aa	0
+礻	pp;ui	0
+糸	pp;ax	0
+糹	pp;si	0
+纟	pp;si	0
+罒	pp;aa	0
+耂	pp;ap	0
+肀	pp;aa	0
+艮	pp;ad	0
+艹	pp;aa	0
+虍	pp;hu	0
+衤	pp;yi	0
+覀	pp;aa	0
+讠	pp;yj	0
+豕	pp;ad	0
+豸	pp;pp	0
+辶	pp;dd	0
+釒	pp;jn	0
+钅	pp;jn	0
+阝	pp;er	0
+飠	pp;rl	0
+饣	pp;ui	0
+	pp;yi	0
+	pp;dk	0
+	pp;ee	0
+	pp;si	0
+	pp;xc	0
+	pp;xn	0
+	pp;kj	0
+	pp;fg	0
+	pp;ck	0
+	pp;nq	0
+	pp;fg	0
+	pp;yv	0
+	pp;jr	0
+	pp;zu	0
+	pp;ji	0
+	pp;yy	0
+兀	pp;ae	0
+𡭔	pp;ad	0
+䒑	pp;ba	0
+龴	pp;si	0
+龶	pp;qy	0
+龷	pp;nm	0
+龸	pp;ih	0
+龹	pp;jr	0
+龺	pp;uz	0
+龻	pp;lm	0
+㐄	pp;aa	0
+𠂉	pp;ra	0
+𠃓	pp;yp	0
+𥫗	pp;vd	0

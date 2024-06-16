@@ -1,18 +1,11 @@
 # Rime dictionary
 # encoding: utf-8
 #
-#
 # https://github.com/iDvel/rime-ice
 # ------- 《通用规范汉字表》8105 字字表 -------
-#
-#
 # 使用的数据：https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%B4%A2%E5%BC%95/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
 # 使用的字频：[25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm)
-#
-#
 # 这个数据、《现代汉语词典》、《现代汉语规范词典》之间的注音并不都相同，使用前请注意，参照《现汉》增加了一些原数据中没有的读音。
-#
-#
 # 注音：
 # 「nüe 虐」「lüe 略」使用「nve」「lve」的注音。
 # 「句、去、需、与」使用「ju qu xu yu」的注音。
@@ -23,8 +16,6 @@
 # 删除「虾ha」（虾蟆ha ma），《现汉》推荐「蛤蟆」，保留地名「虾蟆陵ha ma ling」。
 # 「嬛」xuan → huan
 # 删除「夹ga」，使用「胳肢窝ga zhi wo」。
-#
-#
 # 多音字的注音问题：
 # 对于没有注音的词汇，如 tencent.dict.yaml 词库，
 # Rime 按照方案中字表自动注音，多音字的权重比值大于 5:100 的就会参与注音。
@@ -41,7 +32,6 @@ sort: by_weight
 # 「这、那」的口语读音
 # 这	zhei	17648808
 # 那	nei	9929703
-
 
 ### 扩展，不在《通用规范汉字表》的字:
 𤭢	cw;wz	1000
@@ -78,8 +68,6 @@ sort: by_weight
 # 磺	huang
 # 屮	cao
 # 芔	cao
-
-
 ### 小时候没学过的拼音。。。
 # 嗯	n	没启用
 # 嗯	ng	没启用
@@ -92,8 +80,6 @@ sort: by_weight
 哟	yo;ky	59051
 唷	yo;ky	1
 育	yo;os	0
-
-
 ### 字表
 # +_+
 啊	aa;ka	5366043
@@ -1613,7 +1599,6 @@ sort: by_weight
 畈	fj;tf	334
 燔	fj;hf	158
 钒	fj;jf	103
-泛	fj;df	71
 蹯	fj;zf	44
 墦	fj;tf	13
 𫔍	fj;jf	0
@@ -2598,7 +2583,6 @@ sort: by_weight
 霍	ho;yv	91016
 豁	ho;gh	26107
 和	ho;hk	4126
-伙	ho;rh	3748
 嚯	ho;kh	2371
 藿	ho;ch	435
 镬	ho;jy	308
@@ -3162,7 +3146,6 @@ sort: by_weight
 琚	ju;wj	1045
 疽	ju;bq	992
 莒	ju;cl	817
-车	ju;aa	651
 龃	ju;iq	624
 苣	ju;cj	620
 榉	ju;mj	581
@@ -4064,7 +4047,6 @@ sort: by_weight
 荦	lo;cn	4636
 箩	lo;vl	3538
 椤	lo;ml	1297
-咯	lo;kg	1111
 烙	lo;hg	700
 猡	lo;ql	693
 蠃	lo;dd	675
@@ -4240,7 +4222,6 @@ sort: by_weight
 𫞩	mf;wl	0
 梦	mg;mx	650909
 猛	mg;qm	403183
-蒙	mg;cm	290989
 孟	mg;mz	162475
 盟	mg;mm	158636
 朦	mg;om	42683
@@ -4287,7 +4268,6 @@ sort: by_weight
 縻	mi;ms	588
 蘼	mi;cf	337
 醚	mi;ym	288
-秘	mi;hb	190
 敉	mi;mw	114
 嘧	mi;km	73
 蓂	mi;cl	72
@@ -4579,7 +4559,6 @@ sort: by_weight
 咛	nk;kn	5821
 泞	nk;dn	5314
 佞	nk;rn	2329
-宁	nk;bd	106
 苎	nk;ca	33
 聍	nk;en	30
 牛	nq;pa	313393
@@ -5313,7 +5292,6 @@ sort: by_weight
 婘	qr;nj	3
 瑔	qr;wq	1
 𨟠	qr;eq	0
-却	qt;eq	2377929
 确	qt;uj	722242
 缺	qt;fd	207517
 雀	qt;vx	64212
@@ -5671,11 +5649,9 @@ sort: by_weight
 笙	ug;vu	18633
 晟	ug;oi	15923
 甥	ug;un	7427
-升	ug;pc	577
 乘	ug;pb	300
 嵊	ug;ui	242
 眚	ug;ou	119
-升	ug;pc	42
 是	ui;op	31422712
 时	ui;oc	8207119
 事	ui;aa	4729336
@@ -5937,7 +5913,6 @@ sort: by_weight
 嗾	sz;kz	129
 锼	sz;js	56
 瞍	sz;os	21
-搜	sz;fs	20
 螋	sz;is	6
 诉	su;yi	667093
 速	su;zu	614540
@@ -5962,7 +5937,6 @@ sort: by_weight
 僳	su;rs	162
 觫	su;ju	158
 骕	su;ms	55
-苏	su;cb	53
 鹔	su;ns	22
 傃	su;rs	4
 蹜	su;zs	3
@@ -6058,7 +6032,6 @@ sort: by_weight
 跆	td;zt	3161
 钛	td;jt	2229
 邰	td;et	792
-苔	td;ct	759
 肽	td;ot	277
 炱	td;ht	100
 骀	td;mt	79
@@ -7033,7 +7006,6 @@ sort: by_weight
 貅	xq;vx	1043
 馐	xq;ux	793
 庥	xq;gx	574
-修	xq;rp	174
 溴	xq;di	157
 琇	xq;wx	157
 髹	xq;ix	95
@@ -7731,7 +7703,6 @@ sort: by_weight
 愉	yu;xy	60639
 愚	yu;xy	60381
 吁	yu;ky	47540
-于	yu;aa	45065
 裕	yu;yg	43025
 娱	yu;nw	37970
 瑜	yu;wy	37277
@@ -8021,7 +7992,6 @@ sort: by_weight
 榨	va;mv	6994
 咤	va;kv	5743
 轧	va;ig	4919
-咤	va;kv	4443
 蚱	va;iv	4020
 铡	va;jz	1281
 楂	va;mi	964
