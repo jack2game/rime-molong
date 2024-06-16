@@ -1348,6 +1348,17 @@ def get_cli_args():
     return args
 
 
+def remove_dupe(input_lists):
+    seen = set()
+    output_lists = []
+    for sublist in input_lists:
+        sublist_tuple = tuple(sublist[0:2])
+        if sublist_tuple not in seen:
+            output_lists.append(sublist)
+            seen.add(sublist_tuple)
+    return output_lists
+
+
 def main():
     args = get_cli_args()
     pinyin_fn = get_pinyin_fn(args.pinyin)
@@ -1366,13 +1377,13 @@ def main():
         for new_row in new_rows:
             out_rows.append(new_row)
 
+    out_rows = remove_dupe(out_rows)
     output_file = os.path.realpath(args.output_file)
     if output_file == "":
         _, input_postfix = args.input_file.split(".", maxsplit=1)
         output_file = f"{args.pinyin}_{args.shape}.{input_postfix}"
     with open(output_file, "w", newline="", encoding='UTF-8') as f:
-        my_tsv = csv.writer(f, delimiter="\t",
-                            quotechar="`", lineterminator="\n")
+        my_tsv = csv.writer(f, delimiter="\t", quotechar="`", lineterminator="\n")
         my_tsv.writerows(out_rows)
 
     if args.pinyin == "tonenum2tonesymbol" and args.shape == "emptydb":
