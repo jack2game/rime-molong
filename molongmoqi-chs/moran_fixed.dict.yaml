@@ -4,7 +4,7 @@
 
 ---
 name: moran_fixed
-version: "20240414"
+version: "20240616"
 sort: by_weight
 columns:
   - text
@@ -28,8 +28,8 @@ encoder:
 ？	;w
 （	;e
 ）	;r
-/	;t
-~	;y
+~	;t
+·	;y
 『	;u
 』	;i
 〖	;o
@@ -37,7 +37,7 @@ encoder:
 # 第二排
 ！	;a
 ……	;s
-·	;d
+#重複上屏	;d
 “	;f
 ”	;g
 ‘	;h
@@ -123732,7 +123732,7 @@ PC端	pcdr
 曲不離口	qblk
 拳不離手	qblu
 豈不美哉	qbmz
-強不強	qbq
+去不去	qbq
 妻不如妾	qbrq
 妾不如偷	qbrt
 千比特	qbt
@@ -129609,6 +129609,7 @@ WiFi	wifi
 婉轉悠揚	wvyy
 聞者足戒	wvzj
 嗚嗚	ww
+微微	ww
 完完本本	wwbb
 唯物辯證法	wwbf
 文武百官	wwbg

@@ -5,7 +5,7 @@
 
 ---
 name: moran_fixed_simp
-version: "20240220"
+version: "20240616"
 sort: original
 columns:
   - text
@@ -29,8 +29,8 @@ encoder:
 ？	;w
 （	;e
 ）	;r
-/	;t
-~	;y
+~	;t
+·	;y
 『	;u
 』	;i
 〖	;o
@@ -38,7 +38,7 @@ encoder:
 # 第二排
 ！	;a
 ……	;s
-·	;d
+#重复上屏	;d
 “	;f
 ”	;g
 ‘	;h
@@ -123509,7 +123509,7 @@ encoder:
 曲不离口	qblk
 拳不离手	qblu
 岂不美哉	qbmz
-强不强	qbq
+去不去	qbq
 妻不如妾	qbrq
 妾不如偷	qbrt
 千比特	qbt
@@ -129406,6 +129406,7 @@ encoder:
 婉转悠扬	wvyy
 闻者足戒	wvzj
 呜呜	ww
+微微	ww
 完完本本	wwbb
 唯物辩证法	wwbf
 文武百官	wwbg
@@ -130559,6 +130560,7 @@ encoder:
 消息灵通	xxlt
 小心没大错	xxmc
 寻寻觅觅	xxmm
+谢谢你	xxn
 小小年纪	xxnj
 学习能力	xxnl
 嬉笑怒骂	xxnm
