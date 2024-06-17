@@ -66,10 +66,12 @@ echo "" >> ../zrloopmoqi-cht/moran_fixed.dict.yaml.bak
 cat ../zrloopmoqi-cht/temp.txt >> ../zrloopmoqi-cht/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/zrloop.simpwords.txt -o ../zrloopmoqi-cht/temp.txt -c s2t
 echo "" >> ../zrloopmoqi-cht/moran_fixed.dict.yaml.bak && cat ../zrloopmoqi-cht/temp.txt >> ../zrloopmoqi-cht/moran_fixed.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../zrloopmoqi-cht/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopmoqi-cht/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopmoqi-cht/moran_fixed.dict.yaml
-sed '0,/#----------詞庫----------#/d' ../zrloopmoqi-cht/moran_fixed.dict.yaml >> ../zrloopmoqi-cht/moran_fixed.dict.yaml.bak
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../zrloopmoqi-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopmoqi-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopmoqi-cht/moran_fixed.dict.yaml
+# sed '0,/#----------詞庫----------#/d' ../zrloopmoqi-cht/moran_fixed.dict.yaml >> ../zrloopmoqi-cht/moran_fixed.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../zrloopmoqi-cht/temp.txt -c s2t
+echo "" >> ../zrloopmoqi-cht/moran_fixed.dict.yaml.bak && cat ../zrloopmoqi-cht/temp.txt >> ../zrloopmoqi-cht/moran_fixed.dict.yaml.bak
 rm ../zrloopmoqi-cht/zrloopmoqi.simpchars.txt
 
 sed '/#----------词库----------#/q' ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml > ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak
@@ -78,10 +80,12 @@ echo "" >> ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak
 cat ../zrloopmoqi-cht/temp.txt >> ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/zrloop.simpwords.txt ../zrloopmoqi-cht/temp.txt
 echo "" >> ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak && cat ../zrloopmoqi-cht/temp.txt >> ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml
-sed '0,/#----------词库----------#/d' ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml >> ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml
+# sed '0,/#----------词库----------#/d' ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml >> ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak
+cp ../data/assess.tiger-code.com/common.simp.words.txt ../zrloopmoqi-cht/temp.txt
+echo "" >> ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak && cat ../zrloopmoqi-cht/temp.txt >> ../zrloopmoqi-cht/moran_fixed_simp.dict.yaml.bak
 rm ../zrloopmoqi-cht/zrloopmoqi.simpchars.txt
 
 mv ../zrloopmoqi-cht/moran.chars.dict.yaml{.bak,}
@@ -126,10 +130,12 @@ echo "" >> ../zrloopmoqi-chs/moran_fixed.dict.yaml.bak
 cat ../zrloopmoqi-chs/temp.txt >> ../zrloopmoqi-chs/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/zrloop.simpwords.txt -o ../zrloopmoqi-chs/temp.txt -c s2t
 echo "" >> ../zrloopmoqi-chs/moran_fixed.dict.yaml.bak && cat ../zrloopmoqi-chs/temp.txt >> ../zrloopmoqi-chs/moran_fixed.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../zrloopmoqi-chs/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopmoqi-chs/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopmoqi-chs/moran_fixed.dict.yaml
-sed '0,/#----------詞庫----------#/d' ../zrloopmoqi-chs/moran_fixed.dict.yaml >> ../zrloopmoqi-chs/moran_fixed.dict.yaml.bak
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../zrloopmoqi-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopmoqi-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopmoqi-chs/moran_fixed.dict.yaml
+# sed '0,/#----------詞庫----------#/d' ../zrloopmoqi-chs/moran_fixed.dict.yaml >> ../zrloopmoqi-chs/moran_fixed.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../zrloopmoqi-chs/temp.txt -c s2t
+echo "" >> ../zrloopmoqi-chs/moran_fixed.dict.yaml.bak && cat ../zrloopmoqi-chs/temp.txt >> ../zrloopmoqi-chs/moran_fixed.dict.yaml.bak
 rm ../zrloopmoqi-chs/zrloopmoqi.simpchars.txt
 
 sed '/#----------词库----------#/q' ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml > ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
@@ -138,10 +144,12 @@ echo "" >> ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
 cat ../zrloopmoqi-chs/temp.txt >> ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/zrloop.simpwords.txt ../zrloopmoqi-chs/temp.txt
 echo "" >> ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak && cat ../zrloopmoqi-chs/temp.txt >> ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml
-sed '0,/#----------词库----------#/d' ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml >> ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml
+# sed '0,/#----------词库----------#/d' ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml >> ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
+cp ../data/assess.tiger-code.com/common.simp.words.txt ../zrloopmoqi-chs/temp.txt
+echo "" >> ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak && cat ../zrloopmoqi-chs/temp.txt >> ../zrloopmoqi-chs/moran_fixed_simp.dict.yaml.bak
 rm ../zrloopmoqi-chs/zrloopmoqi.simpchars.txt
 
 mv ../zrloopmoqi-chs/moran.chars.dict.yaml{.bak,}

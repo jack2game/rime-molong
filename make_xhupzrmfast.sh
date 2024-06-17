@@ -66,10 +66,12 @@ echo "" >> ../xhupzrmfast-cht/moran_fixed.dict.yaml.bak
 cat ../xhupzrmfast-cht/temp.txt >> ../xhupzrmfast-cht/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/xhup.simpwords.txt -o ../xhupzrmfast-cht/temp.txt -c s2t
 echo ""  >> ../xhupzrmfast-cht/moran_fixed.dict.yaml.bak && cat ../xhupzrmfast-cht/temp.txt >> ../xhupzrmfast-cht/moran_fixed.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../xhupzrmfast-cht/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhupzrmfast-cht/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupzrmfast-cht/moran_fixed.dict.yaml
-sed '0,/#----------詞庫----------#/d' ../xhupzrmfast-cht/moran_fixed.dict.yaml >> ../xhupzrmfast-cht/moran_fixed.dict.yaml.bak
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../xhupzrmfast-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhupzrmfast-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupzrmfast-cht/moran_fixed.dict.yaml
+# sed '0,/#----------詞庫----------#/d' ../xhupzrmfast-cht/moran_fixed.dict.yaml >> ../xhupzrmfast-cht/moran_fixed.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhupzrmfast-cht/temp.txt -c s2t
+echo ""  >> ../xhupzrmfast-cht/moran_fixed.dict.yaml.bak && cat ../xhupzrmfast-cht/temp.txt >> ../xhupzrmfast-cht/moran_fixed.dict.yaml.bak
 rm ../xhupzrmfast-cht/xhupzrmfast.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml > ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak
@@ -78,10 +80,12 @@ echo "" >> ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak
 cat ../xhupzrmfast-cht/temp.txt >> ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhup.simpwords.txt ../xhupzrmfast-cht/temp.txt
 echo "" >> ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak && cat ../xhupzrmfast-cht/temp.txt >> ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml
-sed '0,/#----------词库----------#/d' ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml >> ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml
+# sed '0,/#----------词库----------#/d' ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml >> ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak
+cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhupzrmfast-cht/temp.txt
+echo "" >> ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak && cat ../xhupzrmfast-cht/temp.txt >> ../xhupzrmfast-cht/moran_fixed_simp.dict.yaml.bak
 rm ../xhupzrmfast-cht/xhupzrmfast.simpchars.txt
 
 mv ../xhupzrmfast-cht/moran.chars.dict.yaml{.bak,}
@@ -125,11 +129,13 @@ cp ../data/assess.tiger-code.com/xhupzrmfast.simpchars.txt ../xhupzrmfast-chs/xh
 echo "" >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak
 cat ../xhupzrmfast-chs/temp.txt >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/xhup.simpwords.txt -o ../xhupzrmfast-chs/temp.txt -c s2t
-echo "" >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak && cat ../xhupzrmfast-chs/temp.txt >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../xhupzrmfast-chs/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhupzrmfast-chs/moran_fixed.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupzrmfast-chs/moran_fixed.dict.yaml
-sed '0,/#----------詞庫----------#/d' ../xhupzrmfast-chs/moran_fixed.dict.yaml >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak
+echo ""  >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak && cat ../xhupzrmfast-chs/temp.txt >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../xhupzrmfast-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhupzrmfast-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupzrmfast-chs/moran_fixed.dict.yaml
+# sed '0,/#----------詞庫----------#/d' ../xhupzrmfast-chs/moran_fixed.dict.yaml >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhupzrmfast-chs/temp.txt -c s2t
+echo ""  >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak && cat ../xhupzrmfast-chs/temp.txt >> ../xhupzrmfast-chs/moran_fixed.dict.yaml.bak
 rm ../xhupzrmfast-chs/xhupzrmfast.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml > ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak
@@ -138,10 +144,12 @@ echo "" >> ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak
 cat ../xhupzrmfast-chs/temp.txt >> ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/xhup.simpwords.txt ../xhupzrmfast-chs/temp.txt
 echo "" >> ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhupzrmfast-chs/temp.txt >> ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml
-perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml
-sed '0,/#----------词库----------#/d' ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml >> ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml
+# sed '0,/#----------词库----------#/d' ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml >> ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak
+cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhupzrmfast-chs/temp.txt
+echo "" >> ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhupzrmfast-chs/temp.txt >> ../xhupzrmfast-chs/moran_fixed_simp.dict.yaml.bak
 rm ../xhupzrmfast-chs/xhupzrmfast.simpchars.txt
 
 mv ../xhupzrmfast-chs/moran.chars.dict.yaml{.bak,}
