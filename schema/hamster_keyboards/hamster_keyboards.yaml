@@ -1597,7 +1597,7 @@ keyboards:
         rowHeight:
           portrait: 50
           landscape: 40
-  - name: Moflice
+  - name: 魔龙
     isPrimary: true
     rows:
       - keys:
