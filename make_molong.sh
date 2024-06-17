@@ -60,9 +60,9 @@ rm ../molong-cht/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-cht/moran.words.dict.yaml > ../../molong-cht/moran.words.dict.yaml.bak
 # python3 ../../tools-additional/convert_sp.py -i ../../molong-cht/zrlf.dict.yaml -o ../../molong-cht/zrlf.dict.yaml.bak
 
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+\n//g" ../molong-cht/moran_fixed.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molong-cht/moran_fixed.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+\n//g" ../molong-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../molong-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-cht/moran_fixed.dict.yaml
 sed '/\.\.\./q' ../molong-cht/moran_fixed.dict.yaml > ../molong-cht/moran_fixed.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-cht/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-cht/zrlong.dict.yaml
@@ -72,9 +72,9 @@ cat ../molong-cht/temp.txt >> ../molong-cht/moran_fixed.dict.yaml.bak
 # sed '0,/#----------词库----------#/d' ../molong-cht/moran_fixed.dict.yaml >> ../molong-cht/moran_fixed.dict.yaml.bak
 rm ../molong-cht/zrlong.dict.yaml
 
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-cht/moran_fixed_simp.dict.yaml
 sed '/\.\.\./q' ../molong-cht/moran_fixed_simp.dict.yaml > ../molong-cht/moran_fixed_simp.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-cht/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-cht/zrlong.dict.yaml
@@ -120,9 +120,9 @@ rm ../molong-chs/snow_pinyin.base.dict.yaml
 # python3 schemagen.py convert-sp --to=flypy --rime-dict=../../molong-chs/moran.words.dict.yaml > ../../molong-chs/moran.words.dict.yaml.bak
 # python3 ../../tools-additional/convert_sp.py -i ../../molong-chs/zrlf.dict.yaml -o ../../molong-chs/zrlf.dict.yaml.bak
 
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+\n//g" ../molong-chs/moran_fixed.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molong-chs/moran_fixed.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+\n//g" ../molong-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../molong-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-chs/moran_fixed.dict.yaml
 sed '/\.\.\./q' ../molong-chs/moran_fixed.dict.yaml > ../molong-chs/moran_fixed.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-chs/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-chs/zrlong.dict.yaml
@@ -132,9 +132,9 @@ cat ../molong-chs/temp.txt >> ../molong-chs/moran_fixed.dict.yaml.bak
 # sed '0,/#----------词库----------#/d' ../molong-chs/moran_fixed.dict.yaml >> ../molong-chs/moran_fixed.dict.yaml.bak
 rm ../molong-chs/zrlong.dict.yaml
 
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{1}\t[A-Za-z]+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{3}\t[A-Za-z]{4}+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../molong-chs/moran_fixed_simp.dict.yaml
 sed '/\.\.\./q' ../molong-chs/moran_fixed_simp.dict.yaml > ../molong-chs/moran_fixed_simp.dict.yaml.bak
 cp ../rime-zrlong/zrlong.dict.yaml ../molong-chs/zrlong.dict.yaml
 sed -i '0,/\.\.\./d' ../molong-chs/zrlong.dict.yaml

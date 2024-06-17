@@ -62,26 +62,26 @@ cd ..
 
 # sed '/#----------詞庫----------#/q' ../morankai-cht/moran_fixed.dict.yaml > ../morankai-cht/moran_fixed.dict.yaml.bak
 # python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../morankai-cht/moran_fixed.dict.yaml > ../morankai-cht/temp.txt
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2,100}\t[A-Za-z]+.*\n//g" ../morankai-cht/temp.txt
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]{4}.*\n//g" ../morankai-cht/temp.txt
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2,100}\t[A-Za-z]+.*\n//g" ../morankai-cht/temp.txt
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]{4}.*\n//g" ../morankai-cht/temp.txt
 # sed -i '0,/#----------詞庫----------#/d' ../morankai-cht/temp.txt  &&  echo "" >> ../morankai-cht/moran_fixed.dict.yaml.bak && cat ../morankai-cht/temp.txt >> ../morankai-cht/moran_fixed.dict.yaml.bak
 # opencc -i ../data/assess.tiger-code.com/moran.simpwords.txt -o ../morankai-cht/temp.txt -c s2t
 # echo "" >> ../morankai-cht/moran_fixed.dict.yaml.bak && cat ../morankai-cht/temp.txt >> ../morankai-cht/moran_fixed.dict.yaml.bak
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]+.*\n//g" ../morankai-cht/moran_fixed.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{3}\t[A-Za-z]{4}+\n//g" ../morankai-cht/moran_fixed.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../morankai-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../morankai-cht/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-cht/moran_fixed.dict.yaml
 # sed '0,/#----------詞庫----------#/d' ../morankai-cht/moran_fixed.dict.yaml >> ../morankai-cht/moran_fixed.dict.yaml.bak
 
 # sed '/#----------词库----------#/q' ../morankai-cht/moran_fixed_simp.dict.yaml > ../morankai-cht/moran_fixed_simp.dict.yaml.bak
 # python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../morankai-cht/moran_fixed_simp.dict.yaml > ../morankai-cht/temp.txt
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2,100}\t[A-Za-z]+.*\n//g" ../morankai-cht/temp.txt
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]{4}.*\n//g" ../morankai-cht/temp.txt
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2,100}\t[A-Za-z]+.*\n//g" ../morankai-cht/temp.txt
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]{4}.*\n//g" ../morankai-cht/temp.txt
 # sed -i '0,/#----------词库----------#/d' ../morankai-cht/temp.txt  &&  echo "" >> ../morankai-cht/moran_fixed_simp.dict.yaml.bak && cat ../morankai-cht/temp.txt >> ../morankai-cht/moran_fixed_simp.dict.yaml.bak
 # cp ../data/assess.tiger-code.com/moran.simpwords.txt ../morankai-cht/temp.txt
 # echo "" >> ../morankai-cht/moran_fixed_simp.dict.yaml.bak && cat ../morankai-cht/temp.txt >> ../morankai-cht/moran_fixed_simp.dict.yaml.bak
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]+.*\n//g" ../morankai-cht/moran_fixed_simp.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{3}\t[A-Za-z]{4}+\n//g" ../morankai-cht/moran_fixed_simp.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../morankai-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../morankai-cht/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-cht/moran_fixed_simp.dict.yaml
 # sed '0,/#----------词库----------#/d' ../morankai-cht/moran_fixed_simp.dict.yaml >> ../morankai-cht/moran_fixed_simp.dict.yaml.bak
 
 # mv ../morankai-cht/moran.chars.dict.yaml{.bak,}
@@ -122,26 +122,26 @@ cd ..
 
 # sed '/#----------詞庫----------#/q' ../morankai-chs/moran_fixed.dict.yaml > ../morankai-chs/moran_fixed.dict.yaml.bak
 # python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../morankai-chs/moran_fixed.dict.yaml > ../morankai-chs/temp.txt
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2,100}\t[A-Za-z]+.*\n//g" ../morankai-chs/temp.txt
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]{4}.*\n//g" ../morankai-chs/temp.txt
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2,100}\t[A-Za-z]+.*\n//g" ../morankai-chs/temp.txt
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]{4}.*\n//g" ../morankai-chs/temp.txt
 # sed -i '0,/#----------詞庫----------#/d' ../morankai-chs/temp.txt  &&  echo "" >> ../morankai-chs/moran_fixed.dict.yaml.bak && cat ../morankai-chs/temp.txt >> ../morankai-chs/moran_fixed.dict.yaml.bak
 # opencc -i ../data/assess.tiger-code.com/moran.simpwords.txt -o ../morankai-chs/temp.txt -c s2t
 # echo "" >> ../morankai-chs/moran_fixed.dict.yaml.bak && cat ../morankai-chs/temp.txt >> ../morankai-chs/moran_fixed.dict.yaml.bak
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]+.*\n//g" ../morankai-chs/moran_fixed.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{3}\t[A-Za-z]{4}+\n//g" ../morankai-chs/moran_fixed.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../morankai-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../morankai-chs/moran_fixed.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-chs/moran_fixed.dict.yaml
 # sed '0,/#----------詞庫----------#/d' ../morankai-chs/moran_fixed.dict.yaml >> ../morankai-chs/moran_fixed.dict.yaml.bak
 
 # sed '/#----------词库----------#/q' ../morankai-chs/moran_fixed_simp.dict.yaml > ../morankai-chs/moran_fixed_simp.dict.yaml.bak
 # python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../morankai-chs/moran_fixed_simp.dict.yaml > ../morankai-chs/temp.txt
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2,100}\t[A-Za-z]+.*\n//g" ../morankai-chs/temp.txt
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]{4}.*\n//g" ../morankai-chs/temp.txt
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2,100}\t[A-Za-z]+.*\n//g" ../morankai-chs/temp.txt
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]{4}.*\n//g" ../morankai-chs/temp.txt
 # sed -i '0,/#----------词库----------#/d' ../morankai-chs/temp.txt  &&  echo "" >> ../morankai-chs/moran_fixed_simp.dict.yaml.bak && cat ../morankai-chs/temp.txt >> ../morankai-chs/moran_fixed_simp.dict.yaml.bak
 # cp ../data/assess.tiger-code.com/moran.simpwords.txt ../morankai-chs/temp.txt
 # echo "" >> ../morankai-chs/moran_fixed_simp.dict.yaml.bak && cat ../morankai-chs/temp.txt >> ../morankai-chs/moran_fixed_simp.dict.yaml.bak
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{1}\t[A-Za-z]+.*\n//g" ../morankai-chs/moran_fixed_simp.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{3}\t[A-Za-z]{4}+\n//g" ../morankai-chs/moran_fixed_simp.dict.yaml
-# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fa5}\x{3007}\x{ff0c}-\x{ffee}a-zA-Z0-9]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{1}\t[A-Za-z]+.*\n//g" ../morankai-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../morankai-chs/moran_fixed_simp.dict.yaml
+# perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-chs/moran_fixed_simp.dict.yaml
 # sed '0,/#----------词库----------#/d' ../morankai-chs/moran_fixed_simp.dict.yaml >> ../morankai-chs/moran_fixed_simp.dict.yaml.bak
 
 # mv ../morankai-chs/moran.chars.dict.yaml{.bak,}
