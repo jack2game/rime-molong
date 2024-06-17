@@ -17,7 +17,7 @@ rm -rf ./xhupkai-cht/README.md
 rm -rf ./xhupkai-cht/README-en.md
 rm -rf ./xhupkai-cht/.github/
 perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./xhupkai-cht/moran.yaml
-# mv ./xhupkai-cht/key_bindings.yaml ./schema
+perl -0777 -i -pe 's/(  user_sentence_top:)\n(    __append:)\n(      __patch:)/$1\n# $2\n# $3/' ./xhupkai-cht/moran.yaml
 # mv ./xhupkai-cht/punctuation.yaml ./schema
 
 

@@ -17,7 +17,7 @@ rm -rf ./xhupzrmfast-cht/README.md
 rm -rf ./xhupzrmfast-cht/README-en.md
 rm -rf ./xhupzrmfast-cht/.github/
 perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./xhupzrmfast-cht/moran.yaml
-# mv ./xhupzrmfast-cht/key_bindings.yaml ./schema
+perl -0777 -i -pe 's/(  user_sentence_top:)\n(    __append:)\n(      __patch:)/$1\n# $2\n# $3/' ./xhupzrmfast-cht/moran.yaml
 # mv ./xhupzrmfast-cht/punctuation.yaml ./schema
 # cp ./rime-shuangpin-fuzhuma/opencc/moqi_chaifen.txt ./xhupzrmfast-cht/opencc/moran_chaifen.txt
 # sed -i -E 's/^(\S+)\t(\S+)\t(.+)$/\1\t〔\3\2〕/' ./xhupzrmfast-cht/opencc/moran_chaifen.txt

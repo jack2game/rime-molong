@@ -17,7 +17,7 @@ rm -rf ./xhloopmoqi-cht/README.md
 rm -rf ./xhloopmoqi-cht/README-en.md
 rm -rf ./xhloopmoqi-cht/.github/
 perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./xhloopmoqi-cht/moran.yaml
-# mv ./xhloopmoqi-cht/key_bindings.yaml ./schema
+perl -0777 -i -pe 's/(  user_sentence_top:)\n(    __append:)\n(      __patch:)/$1\n# $2\n# $3/' ./xhloopmoqi-cht/moran.yaml
 # mv ./xhloopmoqi-cht/punctuation.yaml ./schema
 cp ./rime-shuangpin-fuzhuma/opencc/moqi_chaifen.txt ./xhloopmoqi-cht/opencc/moran_chaifen.txt
 sed -i -E 's/^(\S+)\t(\S+)\t(.+)$/\1\t〔\3\2〕/' ./xhloopmoqi-cht/opencc/moran_chaifen.txt

@@ -17,7 +17,7 @@ rm -rf ./molong-cht/README.md
 rm -rf ./molong-cht/README-en.md
 rm -rf ./molong-cht/.github/
 perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./molong-cht/moran.yaml
-# mv ./molong-cht/key_bindings.yaml ./schema
+perl -0777 -i -pe 's/(  user_sentence_top:)\n(    __append:)\n(      __patch:)/$1\n# $2\n# $3/' ./molong-cht/moran.yaml
 # mv ./molong-cht/punctuation.yaml ./schema
 
 

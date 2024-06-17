@@ -19,8 +19,8 @@ algebra:
   # 用戶自定義演算式，這部分演算式會注入到類整句方案的開頭和結尾，不包括字詞模式
   # 用例：實現模糊音、將自然碼雙拼映射爲別的雙拼方案等
   user_sentence_top:
-    __append:
-      __patch:
+#     __append:
+#       __patch:
 #         - moran_defs:/fly/qx_qo  # ZRM-SPECIFIC
 #         - moran_defs:/fly/xq_xo  # ZRM-SPECIFIC
         # 模糊音設置
