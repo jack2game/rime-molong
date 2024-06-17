@@ -8223,8 +8223,8 @@
 劚	du
 力	gp
 劜	lg
-劝	ly
 劝	yl
+劝	ly
 办	lb
 功	gl
 功	lg
@@ -11859,9 +11859,7 @@
 巵	pb
 巵	pz
 巶	sv
-巷	gs
 巷	sg
-巸	is
 巸	si
 巹	ji
 巺	sb
@@ -12251,15 +12249,13 @@
 弒	uu
 弓	ag
 弓	vg
-弔	aa
 弔	ga
+弔	aa
 弔	vu
 弔	zs
 引	ga
 弖	ga
-弗	aa
-弗	gp
-弗	vu
+弗	ga
 弘	gs
 弙	gy
 弚	bd
@@ -12504,7 +12500,6 @@
 忉	xd
 忊	xd
 忋	xj
-忌	jx
 忌	xj
 忍	xr
 忎	qx
@@ -13195,9 +13190,7 @@
 懽	xg
 懽	xv
 懾	xn
-懿	hd
-懿	yx
-懿	yz
+懿	xh
 戀	xs
 戀	yx
 戁	xn
@@ -15261,7 +15254,6 @@
 杀	mi
 杀	im
 杁	mr
-杂	jm
 杂	mj
 权	my
 杄	mq
@@ -18598,7 +18590,6 @@
 熖	hy
 熗	hc
 熘	hl
-熙	ds
 熙	hs
 熚	hb
 熛	hp
@@ -20442,7 +20433,6 @@
 眾	sd
 眾	sy
 眿	oy
-着	ym
 着	yo
 睁	ov
 睂	oi
@@ -22186,7 +22176,7 @@
 粡	mt
 粢	mc
 粣	mc
-粤	my
+粤	mk
 粤	pa
 粥	gg
 粥	mg
@@ -22206,8 +22196,8 @@
 粲	my
 粳	mg
 粴	ml
+粵	mk
 粵	pa
-粵	my
 粶	ml
 粷	mj
 粷	mm
@@ -23779,8 +23769,7 @@
 膸	oo
 膸	os
 膹	ob
-膺	go
-膺	gy
+膺	og
 膻	od
 膼	og
 膽	ov
@@ -25915,8 +25904,6 @@
 衡	xd
 衡	ri
 衡	xi
-衢	ri
-衢	xi
 衢	xq
 衣	dd
 衤	yi
@@ -26147,7 +26134,6 @@
 褏	yy
 褐	yh
 褑	yy
-褒	wy
 褒	yb
 褓	yb
 褔	yf
@@ -27411,7 +27397,7 @@
 贘	bu
 贙	bh
 贚	bl
-贛	vg
+贛	bv
 贜	bc
 贝	ad
 贝	kr
@@ -29060,7 +29046,7 @@
 鉱	js
 鉲	jk
 鉳	jb
-鉴	jv
+鉴	jd
 鉵	ji
 鉶	jx
 鉷	jg
@@ -32761,8 +32747,7 @@
 鹮	nh
 鹮	ny
 鹯	nd
-鹰	gn
-鹰	nv
+鹰	ng
 鹱	ny
 鹲	nm
 鹳	nv
