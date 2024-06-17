@@ -17,7 +17,7 @@ rm -rf ./xhloopkai-cht/README.md
 rm -rf ./xhloopkai-cht/README-en.md
 rm -rf ./xhloopkai-cht/.github/
 perl -CSAD -i -pe 's/(^.*ZRM-SPECIFIC)/# $1/' ./xhloopkai-cht/moran.yaml
-perl -CSAD -i -pe 's/(\s*user_sentence_top:\s*)\n(\s*__append:\s*)\n(\s*__patch:)/$1\n# $2\n# $3/' ./xhloopkai-cht/moran.yaml
+perl -0777 -i -pe 's/(  user_sentence_top:)\n(    __append:)\n(      __patch:)/$1\n# $2\n# $3/' ./xhloopkai-cht/moran.yaml
 # mv ./xhloopkai-cht/punctuation.yaml ./schema
 
 
