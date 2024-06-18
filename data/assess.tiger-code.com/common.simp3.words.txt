@@ -1442,6 +1442,7 @@
 才能看	cnk
 从哪里	cnl
 草泥马	cnm
+操你娘	cnn
 苍南派	cnp
 采暖期	cnq
 才能让	cnr
@@ -1534,6 +1535,7 @@
 崔斯特	cst
 才算是	csu
 参赛者	csv
+操死我	csw
 彩色系	csx
 测速仪	csy
 采桑子	csz
@@ -8289,6 +8291,7 @@
 欧共体	ogt
 欧会杯	ohb
 耦合度	ohd
+欧·亨利	ohl
 耦合器	ohq
 藕荷色	ohs
 偶函数	ohu

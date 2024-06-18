@@ -64,6 +64,7 @@
 材料	cl
 村民	cm
 才能	cn
+猜哦	co
 裁判	cp
 采取	cq
 残忍	cr
@@ -115,6 +116,7 @@
 恶劣	el
 恶魔	em
 二年	en
+饿哦	eo
 二批	ep
 二区	eq
 二人	er
@@ -140,6 +142,7 @@
 法律	fl
 方面	fm
 烦恼	fn
+发哦	fo
 分配	fp
 父亲	fq
 否认	fr
@@ -217,6 +220,7 @@
 出来	il
 充满	im
 成年	in
+吃藕	io
 产品	ip
 拆迁	iq
 承认	ir
@@ -358,6 +362,7 @@
 那些	nx
 农业	ny
 女子	nz
+哦啊	oa
 欧宝	ob
 欧厝	oc
 殴打	od
