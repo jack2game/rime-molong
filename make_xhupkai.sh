@@ -72,7 +72,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-cht/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhupkai-cht/moran_fixed.dict.yaml >> ../xhupkai-cht/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhupkai-cht/temp.txt -c s2t
-echo "" >> ../xhupkai-cht/moran_fixed.dict.yaml.bak && cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran_fixed.dict.yaml.bak
+echo "" >> ../xhupkai-cht/moran_fixed.dict.yaml.bak && cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran_fixed.dict.yaml.bak && perl -i -ne 'print if !$seen{$_}++' ../xhupkai-cht/moran_fixed.dict.yaml.bak
 
 sed '/#----------词库----------#/q' ../xhupkai-cht/moran_fixed_simp.dict.yaml > ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
 python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../xhupkai-cht/moran_fixed_simp.dict.yaml > ../xhupkai-cht/temp.txt
@@ -86,7 +86,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-cht/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhupkai-cht/moran_fixed_simp.dict.yaml >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhupkai-cht/temp.txt
-echo "" >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak && cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
+echo "" >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak && cat ../xhupkai-cht/temp.txt >> ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak && perl -i -ne 'print if !$seen{$_}++' ../xhupkai-cht/moran_fixed_simp.dict.yaml.bak
 
 mv ../xhupkai-cht/moran.chars.dict.yaml{.bak,}
 mv ../xhupkai-cht/moran.base.dict.yaml{.bak,}
@@ -136,7 +136,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-chs/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhupkai-chs/moran_fixed.dict.yaml >> ../xhupkai-chs/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhupkai-chs/temp.txt -c s2t
-echo "" >> ../xhupkai-chs/moran_fixed.dict.yaml.bak && cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran_fixed.dict.yaml.bak
+echo "" >> ../xhupkai-chs/moran_fixed.dict.yaml.bak && cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran_fixed.dict.yaml.bak && perl -i -ne 'print if !$seen{$_}++' ../xhupkai-chs/moran_fixed.dict.yaml.bak
 
 sed '/#----------词库----------#/q' ../xhupkai-chs/moran_fixed_simp.dict.yaml > ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
 python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../xhupkai-chs/moran_fixed_simp.dict.yaml > ../xhupkai-chs/temp.txt
@@ -150,7 +150,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupkai-chs/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhupkai-chs/moran_fixed_simp.dict.yaml >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhupkai-chs/temp.txt
-echo "" >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
+echo "" >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhupkai-chs/temp.txt >> ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak && perl -i -ne 'print if !$seen{$_}++' ../xhupkai-chs/moran_fixed_simp.dict.yaml.bak
 
 mv ../xhupkai-chs/moran.chars.dict.yaml{.bak,}
 mv ../xhupkai-chs/moran.base.dict.yaml{.bak,}

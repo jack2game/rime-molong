@@ -71,7 +71,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-cht/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhupmoqi-cht/moran_fixed.dict.yaml >> ../xhupmoqi-cht/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhupmoqi-cht/temp.txt -c s2t
-echo "" >> ../xhupmoqi-cht/moran_fixed.dict.yaml.bak && cat ../xhupmoqi-cht/temp.txt >> ../xhupmoqi-cht/moran_fixed.dict.yaml.bak
+echo "" >> ../xhupmoqi-cht/moran_fixed.dict.yaml.bak && cat ../xhupmoqi-cht/temp.txt >> ../xhupmoqi-cht/moran_fixed.dict.yaml.bak && perl -i -ne 'print if !$seen{$_}++' ../xhupmoqi-cht/moran_fixed.dict.yaml.bak
 rm ../xhupmoqi-cht/xhupmoqi.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhupmoqi-cht/moran_fixed_simp.dict.yaml > ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak
@@ -85,7 +85,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-cht/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhupmoqi-cht/moran_fixed_simp.dict.yaml >> ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhupmoqi-cht/temp.txt
-echo "" >> ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak && cat ../xhupmoqi-cht/temp.txt >> ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak
+echo "" >> ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak && cat ../xhupmoqi-cht/temp.txt >> ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak && perl -i -ne 'print if !$seen{$_}++' ../xhupmoqi-cht/moran_fixed_simp.dict.yaml.bak
 rm ../xhupmoqi-cht/xhupmoqi.simpchars.txt
 
 mv ../xhupmoqi-cht/moran.chars.dict.yaml{.bak,}
@@ -135,7 +135,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-chs/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhupmoqi-chs/moran_fixed.dict.yaml >> ../xhupmoqi-chs/moran_fixed.dict.yaml.bak
 opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhupmoqi-chs/temp.txt -c s2t
-echo "" >> ../xhupmoqi-chs/moran_fixed.dict.yaml.bak && cat ../xhupmoqi-chs/temp.txt >> ../xhupmoqi-chs/moran_fixed.dict.yaml.bak
+echo "" >> ../xhupmoqi-chs/moran_fixed.dict.yaml.bak && cat ../xhupmoqi-chs/temp.txt >> ../xhupmoqi-chs/moran_fixed.dict.yaml.bak && perl -i -ne 'print if !$seen{$_}++' ../xhupmoqi-chs/moran_fixed.dict.yaml.bak
 rm ../xhupmoqi-chs/xhupmoqi.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhupmoqi-chs/moran_fixed_simp.dict.yaml > ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak
@@ -149,7 +149,7 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhupmoqi-chs/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhupmoqi-chs/moran_fixed_simp.dict.yaml >> ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak
 cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhupmoqi-chs/temp.txt
-echo "" >> ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhupmoqi-chs/temp.txt >> ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak
+echo "" >> ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhupmoqi-chs/temp.txt >> ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak && perl -i -ne 'print if !$seen{$_}++' ../xhupmoqi-chs/moran_fixed_simp.dict.yaml.bak
 rm ../xhupmoqi-chs/xhupmoqi.simpchars.txt
 
 mv ../xhupmoqi-chs/moran.chars.dict.yaml{.bak,}
