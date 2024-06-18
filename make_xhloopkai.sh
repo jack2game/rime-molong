@@ -70,8 +70,8 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopkai-cht/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopkai-cht/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhloopkai-cht/moran_fixed.dict.yaml >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
-# opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhloopkai-cht/temp.txt -c s2t
-# echo "" >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak && cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhloopkai-cht/temp.txt -c s2t
+echo "" >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak && cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed.dict.yaml.bak
 rm ../xhloopkai-cht/xhloopkai.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhloopkai-cht/moran_fixed_simp.dict.yaml > ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
@@ -84,8 +84,8 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopkai-cht/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopkai-cht/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhloopkai-cht/moran_fixed_simp.dict.yaml >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
-# cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhloopkai-cht/temp.txt
-# echo "" >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak && cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
+cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhloopkai-cht/temp.txt
+echo "" >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak && cat ../xhloopkai-cht/temp.txt >> ../xhloopkai-cht/moran_fixed_simp.dict.yaml.bak
 rm ../xhloopkai-cht/xhloopkai.simpchars.txt
 
 mv ../xhloopkai-cht/moran.chars.dict.yaml{.bak,}
@@ -134,8 +134,8 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopkai-chs/moran_fixed.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopkai-chs/moran_fixed.dict.yaml
 sed '0,/#----------詞庫----------#/d' ../xhloopkai-chs/moran_fixed.dict.yaml >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
-# opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhloopkai-chs/temp.txt -c s2t
-# echo "" >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak && cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../xhloopkai-chs/temp.txt -c s2t
+echo "" >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak && cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed.dict.yaml.bak
 rm ../xhloopkai-chs/xhloopkai.simpchars.txt
 
 sed '/#----------词库----------#/q' ../xhloopkai-chs/moran_fixed_simp.dict.yaml > ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
@@ -148,8 +148,8 @@ perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../xhloopkai-chs/moran_fixed_simp.dict.yaml
 perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../xhloopkai-chs/moran_fixed_simp.dict.yaml
 sed '0,/#----------词库----------#/d' ../xhloopkai-chs/moran_fixed_simp.dict.yaml >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
-# cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhloopkai-chs/temp.txt
-# echo "" >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
+cp ../data/assess.tiger-code.com/common.simp.words.txt ../xhloopkai-chs/temp.txt
+echo "" >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak && cat ../xhloopkai-chs/temp.txt >> ../xhloopkai-chs/moran_fixed_simp.dict.yaml.bak
 rm ../xhloopkai-chs/xhloopkai.simpchars.txt
 
 mv ../xhloopkai-chs/moran.chars.dict.yaml{.bak,}
