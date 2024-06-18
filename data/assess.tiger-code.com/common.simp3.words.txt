@@ -8291,7 +8291,7 @@
 欧共体	ogt
 欧会杯	ohb
 耦合度	ohd
-欧·亨利	ohl
+欧亨利	ohl
 耦合器	ohq
 藕荷色	ohs
 偶函数	ohu
