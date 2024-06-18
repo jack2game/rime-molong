@@ -50,9 +50,9 @@ if [ "$#" -gt 1 ]; then
 	# exit 1
 
 else
-	sed 's/\/$//' ./data/assess.tiger-code.com/common.simp2.ice.words.txt >  ./data/assess.tiger-code.com/common.simp.words.txt
-	sed 's/\/$//' ./data/assess.tiger-code.com/common.simp3.ice.words.txt >> ./data/assess.tiger-code.com/common.simp.words.txt
-	sed 's/\/$//' ./data/assess.tiger-code.com/common.simp4.ice.words.txt >> ./data/assess.tiger-code.com/common.simp.words.txt
+	sed 's/\/$//' ./data/assess.tiger-code.com/common.simp2.words.txt >  ./data/assess.tiger-code.com/common.simp.words.txt
+	sed 's/\/$//' ./data/assess.tiger-code.com/common.simp3.words.txt >> ./data/assess.tiger-code.com/common.simp.words.txt
+	sed 's/\/$//' ./data/assess.tiger-code.com/common.simp4.words.txt >> ./data/assess.tiger-code.com/common.simp.words.txt
 
 	bash make_molong.sh 2>&1 | sed 's/^/make_molong: /'
 	bash make_molongkai.sh 2>&1 | sed 's/^/make_molongkai: /'
