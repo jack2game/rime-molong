@@ -106,9 +106,9 @@ else
 
 	cd tools-additional/
 
-	echo ""
-	echo "Updating dazhu for molong-chs..."
-	python3 dazhu.py --folder 'molong-chs' -f    --output 'dazhu-molong-chs.txt'
+	# echo ""
+	# echo "Updating dazhu for molong-chs..."
+	# python3 dazhu.py --folder 'molong-chs' -f    --output 'dazhu-molong-chs.txt'
 
 	echo ""
 	echo "Updating dazhu for xhloopkai-chs..."

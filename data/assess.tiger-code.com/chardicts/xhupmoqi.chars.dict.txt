@@ -28818,7 +28818,7 @@
 㝱	mG;bx	0	# auto
 㝲	qB;bj	0	# auto
 㝴	wJ;yc	0	# auto
-㝵	dE;dc	0	# auto
+㝵	dE;oc	0	# auto
 㝶	aI;sc	0	# auto
 㝸	bM;xe	0	# auto
 㝹	nZ;ut	0	# auto
@@ -29712,7 +29712,7 @@
 㫟	yJ;ok	0	# auto
 㫠	bJ	0	# auto
 㫢	qU;oq	0	# auto
-㫤	iH;dy	0	# auto
+㫤	iH;oy	0	# auto
 㫥	mK;ok	0	# auto
 㫧	bC;om	0	# auto
 㫨	aN	0	# auto
@@ -35330,7 +35330,7 @@
 𠭿	tY;ay	0	# auto
 𠮃	bI;uy	0	# auto
 𠮆	fW;yw	0	# auto
-𠮊	dE;dy	0	# auto
+𠮊	dE;oy	0	# auto
 𠮌	vU;yj	0	# auto
 𠮑	jU;gy	0	# auto
 𠮙	yI;kv	0	# auto
@@ -37310,8 +37310,8 @@
 𢘄	qQ;xr	0	# auto
 𢘅	mC;mx	0	# auto
 𢘅	rZ;mx	0	# auto
-𢘇	dA;dx	0	# auto
-𢘇	dJ;dx	0	# auto
+𢘇	dA;ox	0	# auto
+𢘇	dJ;ox	0	# auto
 𢘉	xX;xj	0	# auto
 𢘊	uF;xu	0	# auto
 𢘋	tE;rx	0	# auto
@@ -38133,7 +38133,7 @@
 𣆳	gG;og	0	# auto
 𣆴	uJ;ov	0	# auto
 𣆵	fU;oj	0	# auto
-𣆽	zE;dd	0	# auto
+𣆽	zE;od	0	# auto
 𣇇	dJ	0	# auto
 𣇖	dM;og	0	# auto
 𣇙	zU;bo	0	# auto
@@ -38845,7 +38845,7 @@
 𣮆	tO;bm	0	# auto
 𣮈	qU;um	0	# auto
 𣮉	lI;lm	0	# auto
-𣮊	dE;dm	0	# auto
+𣮊	dE;om	0	# auto
 𣮌	jP;um	0	# auto
 𣮍	jP;mn	0	# auto
 𣮎	gY;mb	0	# auto
@@ -49165,7 +49165,7 @@
 𬞬	rS	0	# auto
 𪝡	mO	0	# auto
 𪦻	hE	0	# auto
-𣌏	dE;dy	0	# auto
+𣌏	dE;oy	0	# auto
 𠳇	yU;kk	0	# auto
 𬺃	aI	0	# auto
 𦹽	pI;cu	0	# auto
@@ -53320,7 +53320,7 @@
 𣑩	hV	0	# auto
 𢭝	rF	0	# auto
 𪫍	vI	0	# auto
-𣌚	iY;dx	0	# auto
+𣌚	iY;ox	0	# auto
 𫑢	bH	0	# auto
 𪪰	nD	0	# auto
 𪪰	qQ	0	# auto
@@ -97775,7 +97775,7 @@
 顫	uJ;wy	0
 颤	vJ;wy	0
 㦂	tH;xx	0
-㫤	vC;dy	0
+㫤	vC;oy	0
 䕋	iH;ck	0
 仩	iH;ru	0
 倘	iH;rk	0

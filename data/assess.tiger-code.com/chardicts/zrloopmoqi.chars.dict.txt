@@ -9593,8 +9593,8 @@
 㝱	mf;bx	0
 㝲	qz;bj	0
 㝴	wk;yc	0
-㝵	dr;dc	0
-㝵	au;dc	0
+㝵	dr;oc	0
+㝵	au;oc	0
 㝶	au;sc	0
 㝸	bn;xe	0
 㝹	nn;ut	0
@@ -10530,7 +10530,7 @@
 㫝	di	0
 㫟	yk;ok	0
 㫢	qc;oq	0
-㫤	ik;dy	0
+㫤	ik;oy	0
 㫥	mi;ok	0
 㫦	tk	0
 㫧	bj;om	0
@@ -37818,7 +37818,7 @@
 𠭿	tq;ay	0
 𠮃	bu;uy	0
 𠮆	fm;yw	0
-𠮊	dr;dy	0
+𠮊	dr;oy	0
 𠮌	vi;yj	0
 𠮑	jv;gy	0
 𠮙	yp;kv	0
@@ -40076,8 +40076,8 @@
 𢘄	qw;xr	0
 𢘅	mj;mx	0
 𢘅	rn;mx	0
-𢘇	ds;dx	0
-𢘇	dh;dx	0
+𢘇	ds;ox	0
+𢘇	dh;ox	0
 𢘉	xe;xj	0
 𢘊	uf;xu	0
 𢘋	tw;rx	0
@@ -41012,7 +41012,7 @@
 𣆳	gj;og	0
 𣆴	uj;ov	0
 𣆵	fi;oj	0
-𣆽	zw;dd	0
+𣆽	zw;od	0
 𣇇	dh	0
 𣇖	dx;og	0
 𣇗	uf;oy	0
@@ -41085,10 +41085,10 @@
 𣋿	ys;wo	0
 𣌅	lu;ov	0
 𣌍	nz;oe	0
-𣌏	dr;dy	0
+𣌏	dr;oy	0
 𣌓	hr;ov	0
 𣌗	yr;oy	0
-𣌚	ip;dx	0
+𣌚	ip;ox	0
 𣌜	lu;ov	0
 𣌞	vh;bg	0
 𣌟	lu;or	0
@@ -41841,7 +41841,7 @@
 𣮆	ti;bm	0
 𣮈	qv;um	0
 𣮉	lo;lm	0
-𣮊	dr;dm	0
+𣮊	dr;om	0
 𣮌	jc;um	0
 𣮍	jc;mn	0
 𣮎	gw;mb	0
@@ -53527,7 +53527,7 @@
 𠔊	vk	0
 仧	vk;ur	0
 兏	vk;ie	0
-㫤	vj;dy	0
+㫤	vj;oy	0
 𣶃	il	0
 𥊌	il	0
 窼	ik;bg	0

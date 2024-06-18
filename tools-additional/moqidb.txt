@@ -3060,7 +3060,7 @@
 𪚃	vt
 㙊	ti
 㦂	xx
-㫤	dy
+㫤	oy
 䕋	ck
 䗅	ii
 䠀	zk
@@ -4588,7 +4588,7 @@
 𡉐	gt
 𡗥	dt
 𢾎	iy
-𣌚	dx
+𣌚	ox
 𣌠	io
 𣘣	mo
 𣚆	mt
@@ -5327,7 +5327,7 @@
 𡍲	te
 𡐿	tg
 𡚻	nd
-𢘇	dx
+𢘇	ox
 𢝉	xe
 𢽇	kw
 𣌭	ro
@@ -5806,7 +5806,7 @@
 𩬱	ev
 𩭟	eu
 𩵕	yr
-㝵	dc
+㝵	oc
 㤫	ux
 㥀	xq
 㥁	vx
@@ -5828,12 +5828,12 @@
 的	bu
 鍀	jc
 锝	jc
-𠮊	dy
+𠮊	oy
 𠵨	kc
 𡋩	rt
 𡭂	uc
-𣌏	dy
-𣮊	dm
+𣌏	oy
+𣮊	om
 𣮰	om
 𤷙	bc
 𨁽	zc
@@ -37662,7 +37662,7 @@
 𢧠	go
 𢮚	ft
 𢯩	fd
-𣆽	dd
+𣆽	od
 𣛸	mu
 𣤈	fq
 𣬿	mv
