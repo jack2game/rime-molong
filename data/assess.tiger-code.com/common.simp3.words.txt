@@ -1875,7 +1875,7 @@
 掉档次	ddc
 得得得	ddd
 打盹儿	dde
-的地方	ddf
+到地方	ddf
 打到过	ddg
 堵得慌	ddh
 多大仇	ddi
@@ -1994,7 +1994,7 @@
 当回事	dhu
 打寒战	dhv
 电话网	dhw
-导火线	dhx
+但好像	dhx
 导航仪	dhy
 都还在	dhz
 打车啊	dia
@@ -3496,7 +3496,7 @@
 服务商	fwu
 访问者	fwv
 服务网	fww
-发我下	fwx
+发微信	fwx
 服务业	fwy
 放我走	fwz
 芳香胺	fxa
@@ -4133,7 +4133,7 @@
 感兴趣	gxq
 关系人	gxr
 更心酸	gxs
-过些天	gxt
+搞心态	gxt
 个小时	gxu
 贡献值	gxv
 更希望	gxw
@@ -4558,7 +4558,7 @@
 害怕你	hpn
 红扑扑	hpp
 和平区	hpq
-海普瑞	hpr
+会派人	hpr
 很怕死	hps
 很普通	hpt
 黄皮书	hpu
@@ -5471,7 +5471,7 @@
 就不要	jby
 就不再	jbz
 假慈悲	jcb
-急匆匆	jcc
+金灿灿	jcc
 精彩的	jcd
 缴存额	jce
 教材费	jcf
@@ -5575,7 +5575,7 @@
 加工厂	jgi
 就感觉	jgj
 警告框	jgk
-寄过来	jgl
+叫过来	jgl
 就干嘛	jgm
 交给你	jgn
 截个屏	jgp
@@ -5646,7 +5646,7 @@
 就觉得	jjd
 酒劲儿	jje
 加减法	jjf
-荆棘谷	jjg
+叫几个	jjg
 交际花	jjh
 交界处	jji
 叫叫叫	jjj
@@ -5940,7 +5940,7 @@
 稽征所	jvs
 记住他	jvt
 就直说	jvu
-金钟罩	jvv
+见真章	jvv
 急转弯	jvw
 就只想	jvx
 就只有	jvy
@@ -6175,7 +6175,7 @@
 可改变	kgb
 苦甘草	kgc
 客观的	kgd
-苦工夫	kgf
+苦功夫	kgf
 开过光	kgg
 可更换	kgh
 开关厂	kgi
@@ -7525,7 +7525,7 @@
 每轮儿	mle
 梅兰芳	mlf
 买了个	mlg
-命令行	mlh
+冒冷汗	mlh
 名利场	mli
 没理解	mlj
 玫琳凯	mlk
@@ -8341,7 +8341,7 @@
 你说呢	nun
 那是哦	nuo
 暖水瓶	nup
-南山区	nuq
+弄上去	nuq
 纳税人	nur
 难受死	nus
 逆渗透	nut
@@ -9716,7 +9716,7 @@
 清王朝	qwi
 千万家	qwj
 蔷薇科	qwk
-全完了	qwl
+全忘了	qwl
 前五名	qwm
 请问你	qwn
 青蛙趴	qwp
@@ -11321,7 +11321,7 @@
 听人说	tru
 太认真	trv
 他认为	trw
-突然性	trx
+讨人嫌	trx
 太容易	try
 投融资	trz
 碳酸铵	tsa
@@ -11564,7 +11564,7 @@
 殊不知	ubv
 说不完	ubw
 是不想	ubx
-是不用	uby
+上半夜	uby
 上辈子	ubz
 收藏啊	uca
 水彩笔	ucb
@@ -11841,7 +11841,7 @@
 市面上	umu
 生命值	umv
 商贸网	umw
-石墨烯	umx
+生命线	umx
 是没有	umy
 什么最	umz
 施耐庵	una
@@ -12072,7 +12072,7 @@
 谁信啊	uxa
 上下班	uxb
 属性词	uxc
-伤心的	uxd
+剩下的	uxd
 手心儿	uxe
 失心疯	uxf
 石像鬼	uxg
@@ -12115,7 +12115,7 @@
 属于是	uys
 示意图	uyt
 实验室	uyu
-诗言志	uyv
+是一种	uyv
 是因为	uyw
 实用性	uyx
 是一样	uyy
@@ -13046,7 +13046,7 @@
 未连接	wlj
 我离开	wlk
 我来了	wll
-完了吗	wlm
+往里面	wlm
 为了能	wln
 无聊哦	wlo
 玩两盘	wlp
@@ -13621,7 +13621,7 @@
 小酒馆	xjg
 相结合	xjh
 小轿车	xji
-小姐姐	xjj
+想静静	xjj
 新街口	xjk
 下结论	xjl
 新局面	xjm
@@ -13671,7 +13671,7 @@
 下了个	xlg
 序列号	xlh
 修理厂	xli
-寻龙诀	xlj
+先了解	xlj
 希拉克	xlk
 心冷了	xll
 心里面	xlm
@@ -13873,7 +13873,7 @@
 销售额	xue
 修饰符	xuf
 小时工	xug
-性生活	xuh
+学生会	xuh
 显示出	xui
 新世纪	xuj
 显示卡	xuk
@@ -14055,7 +14055,7 @@
 以避免	ybm
 也不能	ybn
 仪表盘	ybp
-一笔钱	ybq
+又不去	ybq
 要不然	ybr
 也不算	ybs
 也不太	ybt
@@ -14529,7 +14529,7 @@
 也知道	yvd
 一阵儿	yve
 一阵风	yvf
-用这个	yvg
+也真够	yvg
 也只会	yvh
 养殖场	yvi
 邮政局	yvj
@@ -14645,7 +14645,7 @@
 要作死	yzs
 又增添	yzt
 原则上	yzu
-原作者	yzv
+又在这	yzv
 有作为	yzw
 又在想	yzx
 又怎样	yzy
@@ -14743,7 +14743,7 @@
 在逗我	zdw
 总担心	zdx
 自定义	zdy
-在电子	zdz
+嘴对嘴	zdz
 在耳边	zeb
 总额度	zed
 罪恶感	zeg

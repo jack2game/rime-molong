@@ -71,6 +71,8 @@ cd ..
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../morankai-cht/moran_fixed.dict.yaml
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-cht/moran_fixed.dict.yaml
 # sed '0,/#----------詞庫----------#/d' ../morankai-cht/moran_fixed.dict.yaml >> ../morankai-cht/moran_fixed.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../morankai-cht/temp.txt -c s2t
+echo "" >> ../morankai-cht/moran_fixed.dict.yaml && cat ../morankai-cht/temp.txt >> ../morankai-cht/moran_fixed.dict.yaml && perl -i -ne 'print if !$seen{$_}++' ../morankai-cht/moran_fixed.dict.yaml
 
 # sed '/#----------词库----------#/q' ../morankai-cht/moran_fixed_simp.dict.yaml > ../morankai-cht/moran_fixed_simp.dict.yaml.bak
 # python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../morankai-cht/moran_fixed_simp.dict.yaml > ../morankai-cht/temp.txt
@@ -83,6 +85,8 @@ cd ..
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../morankai-cht/moran_fixed_simp.dict.yaml
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-cht/moran_fixed_simp.dict.yaml
 # sed '0,/#----------词库----------#/d' ../morankai-cht/moran_fixed_simp.dict.yaml >> ../morankai-cht/moran_fixed_simp.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../morankai-cht/temp.txt -c s2t
+echo "" >> ../morankai-cht/moran_fixed_simp.dict.yaml && cat ../morankai-cht/temp.txt >> ../morankai-cht/moran_fixed_simp.dict.yaml && perl -i -ne 'print if !$seen{$_}++' ../morankai-cht/moran_fixed_simp.dict.yaml
 
 # mv ../morankai-cht/moran.chars.dict.yaml{.bak,}
 # mv ../morankai-cht/moran.base.dict.yaml{.bak,}
@@ -131,6 +135,8 @@ cd ..
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../morankai-chs/moran_fixed.dict.yaml
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-chs/moran_fixed.dict.yaml
 # sed '0,/#----------詞庫----------#/d' ../morankai-chs/moran_fixed.dict.yaml >> ../morankai-chs/moran_fixed.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../morankai-chs/temp.txt -c s2t
+echo "" >> ../morankai-chs/moran_fixed.dict.yaml && cat ../morankai-chs/temp.txt >> ../morankai-chs/moran_fixed.dict.yaml && perl -i -ne 'print if !$seen{$_}++' ../morankai-chs/moran_fixed.dict.yaml
 
 # sed '/#----------词库----------#/q' ../morankai-chs/moran_fixed_simp.dict.yaml > ../morankai-chs/moran_fixed_simp.dict.yaml.bak
 # python3 ../rime-moran/tools/schemagen.py convert-fixed-sp --to=flypy --rime-dict=../morankai-chs/moran_fixed_simp.dict.yaml > ../morankai-chs/temp.txt
@@ -143,6 +149,8 @@ cd ..
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{3}\t[A-Za-z]{4}+\n//g" ../morankai-chs/moran_fixed_simp.dict.yaml
 # perl -CSAD -i -pe "s/^[\x{4e00}-\x{9fff}\x{3007}\x{3400}-\x{4dbf}\x{20000}-\x{2a6df}\x{2a700}-\x{2b73f}\x{2b740}-\x{2b81f}\x{2b820}-\x{2ceaf}\x{2ceb0}-\x{2ebe0}\x{30000}-\x{3134a}\x{31350}-\x{323af}\x{2ebf0}-\x{2ee5f}]{2}\t[A-Za-z]{3,4}+\n//g" ../morankai-chs/moran_fixed_simp.dict.yaml
 # sed '0,/#----------词库----------#/d' ../morankai-chs/moran_fixed_simp.dict.yaml >> ../morankai-chs/moran_fixed_simp.dict.yaml.bak
+opencc -i ../data/assess.tiger-code.com/common.simp.words.txt -o ../morankai-chs/temp.txt -c s2t
+echo "" >> ../morankai-chs/moran_fixed_simp.dict.yaml && cat ../morankai-chs/temp.txt >> ../morankai-chs/moran_fixed_simp.dict.yaml && perl -i -ne 'print if !$seen{$_}++' ../morankai-chs/moran_fixed_simp.dict.yaml
 
 # mv ../morankai-chs/moran.chars.dict.yaml{.bak,}
 # mv ../morankai-chs/moran.base.dict.yaml{.bak,}
