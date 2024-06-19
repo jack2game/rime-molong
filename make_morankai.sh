@@ -34,7 +34,7 @@ bash -x ./make_simp_dist.sh
 cd ..
 
 # 轉換詞庫
-# cd ./tools-additional
+cd ./tools-additional
 # 轉換繁体詞庫
 # echo 轉換繁体詞庫...
 # python3 ../rime-moran/tools/schemagen.py convert-sp --to=flypy --rime-dict=../morankai-cht/moran.chars.dict.yaml > ../morankai-cht/moran.chars.dict.yaml.bak
@@ -162,7 +162,7 @@ echo "" >> ../morankai-chs/moran_fixed_simp.dict.yaml && cat ../morankai-chs/tem
 # mv ../morankai-chs/moran_fixed.dict.yaml{.bak,}
 # mv ../morankai-chs/moran_fixed_simp.dict.yaml{.bak,}
 # mv ../morankai-chs/zrlf.dict.yaml{.bak,}
-# cd ..
+cd ..
 
 # 整理文件結構
 rm -rf ./morankai-cht/tools
