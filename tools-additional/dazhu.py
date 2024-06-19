@@ -39,8 +39,12 @@ class Table:
         if self.has_quick_code(word, code):
             # print('讓全', word, code)
             w = -1
-        self.w2c[word].append(code)
-        self.c2w[code].append((word, w))
+
+        if code not in self.w2c[word]:
+            self.w2c[word].append(code)
+        if (word, w) not in self.c2w[code]:
+            self.c2w[code].append((word, w))
+
         self.c2w[code].sort(key=lambda pair: pair[1], reverse=True)
         # if len(word)== 3:
         #     print('added %s %s' % (word, code))
