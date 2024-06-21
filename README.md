@@ -5,8 +5,6 @@
 魔龍是基於[℞魔然](https://github.com/ksqsf/rime-moran)框架製作的，使用[℞自然龍](https://github.com/Elflare/rime-zrlong)的帶調韻母和形碼，並根據[℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)和[℞霧凇拼音](https://github.com/iDvel/rime-ice)的大詞庫進行了擴充的[Rime](https://rime.im/)輸入方案。
 
 在魔龍的基礎上，另有兩套衍生音碼方案，分別爲 **環形鶴（环形鹤）** 和 **環形自然（环形自然）** 。環形鶴和環形自然均爲基於雙拼的韻母分佈，通過【4聲-**1聲**-2聲-3聲】的平移規則，實現不同聲調韻母的方案。
-- 龍系列以及環形系列方案，在詞組和單字兩方面均大幅領先其他音形碼。
-- 環形的單字性能與五筆相比具有明顯優勢，而在形碼的傳統強項詞組性能中，環形方案也同樣表現優異，僅次於類似虎碼這樣的亂序形碼。
 
 魔龍方案中，每個字的編碼是音碼（記作 `yy`「音音」）疊加形碼（記作 `xx`「形形」）。因此，一個字的全碼是 `yyxx`。
 
@@ -28,7 +26,12 @@
 | `xhupzrmfast` | 小鶴雙拼    | 自然快手    | -         |            |
 | `zrloopkai`   | 環形自然    | 魔然      | 自然雙拼      |            |
 | `zrloopmoqi`  | 環形自然    | 墨奇碼     | -         |            |
+### 性能對比
+- 與其他音形碼相比，龍系列以及環形系列方案在詞組和單字兩方面均大幅領先
+- 與其他形碼相比，龍系列以及環形方案也同樣表現優異，僅稍落後於虎碼這樣的亂序形碼
+- 性能測試的原始數據請參考[這裏](https://github.com/jack2game/rime-molong/tree/main/data/assess.tiger-code.com/chardicts)和[這裏](https://github.com/jack2game/rime-molong/tree/main/data/assess.tiger-code.com/screenshots)
 
+![Sidebyside_Page1](https://github.com/jack2game/rime-molong/assets/16070158/cd107978-841f-4758-a40a-3a7ee592aa93)
 
 ## 音碼方案
 ### ❶自然龍音碼
@@ -191,11 +194,13 @@
 | ---------- | --------------------------------------------------------------------------------------------------------- |
 | `S`引導數字轉大寫 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2861499d-1b52-4172-993f-ea48948c8e0d"> |
 
+## 性能對比汇总
+![Sidebyside_Page2](https://github.com/jack2game/rime-molong/assets/16070158/1a1a8266-9758-42a0-866f-0fd24ef6d767)
+
 ## 相關鏈接
 [℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [℞墨奇音形](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
 
 [💬魔龍以及環形系列討論區](https://github.com/jack2game/rime-molong/discussions)  [💬龍碼音形討論組](https://qm.qq.com/q/HMnh5u93Ik)  [💬魔然討論組](https://qm.qq.com/q/XdQPaf3fSq)
-
 
 ## License
 This project, [rime-molong](https://github.com/jack2game/rime-molong), is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You can view the full license [here](LICENSE). [rime-molong](https://github.com/jack2game/rime-molong) is based on [rime-moran](https://github.com/ksqsf/rime-moran) by [ksqsf](https://github.com/ksqsf). Changes were made to the original project.
