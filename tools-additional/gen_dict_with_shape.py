@@ -1401,12 +1401,13 @@ def main():
                 columns = line.strip().split('\t')
                 key = columns[0]
                 value = columns[1].replace(';;', '')
-                
+
                 # Append the value to the list corresponding to the key
-                if key in data:
-                    data[key].append(value)
-                else:
-                    data[key] = [value]
+                if value != 'pp':
+                    if key in data:
+                        data[key].append(value)
+                    else:
+                        data[key] = [value]
 
         # Write to the output file
         with open(output_file, 'w') as file:

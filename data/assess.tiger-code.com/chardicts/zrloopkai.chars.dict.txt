@@ -20785,12 +20785,10 @@
 噴	fD;kb	1
 噵	dJ;kd	1
 噶	gR;kg	1
-噷	hM5;kq	1
-噷	hM5;kx	1
-噷	xN;kq	1
-噷	xN;kx	1
 噷	hF;kq	1
 噷	hF;kx	1
+噷	xN;kq	1
+噷	xN;kx	1
 噸	dP;kd	1
 噹	dH;kd	1
 噺	xN;kx	1

@@ -1,4 +1,3 @@
-一	hg
 丁	hgyi
 丂	hgyi
 七	hgyi
@@ -38,7 +37,6 @@
 严	yapx
 並	baya
 丧	tuyi
-丨	uu
 丩	yiuu
 个	rfuu
 丫	bauu
@@ -52,8 +50,6 @@
 丳	irpx
 临	uukb
 丵	yegj
-丶	dm
-丷	ba
 丸	jqdm
 丹	kder
 为	lidm
@@ -62,8 +58,6 @@
 丽	hgdm
 举	xyui
 丿	piee
-乀	yi
-乁	yi
 乂	pxdm
 乃	yipx
 乄	yidm
@@ -87,9 +81,6 @@
 乖	qmbz
 乗	heck
 乘	hebz
-乙	yi
-乚	yi
-乛	yi
 乜	yiyi
 九	yipx
 乞	rfyi
@@ -131,7 +122,6 @@
 亂	vkyi
 亃	lnyi
 亄	yiyi
-亅	yi
 了	yiyi
 亇	dkyi
 予	yiyi
@@ -158,7 +148,6 @@
 亝	sier
 亞	eruu
 亟	lchg
-亠	er
 亡	eryi
 亢	erji
 亣	dmqi
@@ -2331,7 +2320,6 @@
 圚	kbgv
 圛	kbxy
 圜	kbhr
-圝	kb
 圞	kblr
 土	uihg
 圠	tuyi
@@ -3485,7 +3473,6 @@
 宜	glqx
 宝	glyu
 实	gltb
-実	gl
 宠	glls
 审	gluf
 客	glge
@@ -5232,7 +5219,6 @@
 扉	hufz
 扊	huyj
 手	pxyi
-扌	ub
 才	hgpx
 扎	ubyi
 扏	ubjq
@@ -6981,7 +6967,6 @@
 椙	muih
 椚	mumf
 椛	muhw
-検	mu
 椝	gvmu
 椞	ximu
 椟	muml
@@ -7779,7 +7764,6 @@
 氲	qiwf
 氳	qiwf
 水	yiuv
-氵	uv
 氶	yiuv
 氷	dmuv
 永	dmuv
@@ -8938,7 +8922,6 @@
 点	vjho
 為	dmho
 炻	houi
-炼	ho
 炽	hovi
 炾	hoxs
 炿	hovb
@@ -9354,7 +9337,6 @@
 牙	hgpx
 牚	uhya
 牛	pxui
-牜	nq
 牝	nqbi
 牞	nqli
 牟	sinq
@@ -12511,7 +12493,6 @@
 纜	silj
 纝	silz
 纞	silm
-纟	si
 纠	sijq
 纡	siyu
 红	sigs
@@ -12548,7 +12529,6 @@
 绀	sigj
 绁	siui
 绂	siba
-练	si
 组	siqx
 绅	siuf
 细	sitm
@@ -12748,7 +12728,6 @@
 羆	sixs
 羇	siqi
 羈	sima
-羉	si
 羊	bagj
 羋	hgui
 羌	yher
@@ -19628,7 +19607,6 @@
 騐	manm
 騑	mafz
 騒	mais
-験	ma
 騔	mahe
 騕	mayk
 騖	mkma
@@ -20755,7 +20733,6 @@
 鹵	vjmi
 鹶	lujn
 鹷	luly
-鹸	lu
 鹹	luxm
 鹺	luia
 鹻	lujm
@@ -27992,15 +27969,9 @@
 𠃆	vvcl
 𠃇	qmbl
 𠃈	ihwu
-𠃉	yi
-𠃊	yi
-𠃋	yi
-𠃌	yi
-𠃍	yi
 𠃎	uuhg
 𠃏	yiyi
 𠃐	yiyi
-𠃑	yi
 𠃒	uiyi
 𠃓	yipx
 𠃔	yier
@@ -28059,9 +28030,7 @@
 𠄉	ruvs
 𠄊	uiqi
 𠄋	gsqi
-𠄌	yi
 𠄍	yiyi
-𠄎	yi
 𠄏	yiyi
 𠄐	yiyi
 𠄑	yiyi
@@ -34260,7 +34229,6 @@
 𡤠	nvli
 𡤡	nvgr
 𡤢	nvlo
-𡤣	nv
 𡤤	nvyk
 𡤥	nvhz
 𡤦	nvyi
@@ -39804,7 +39772,6 @@
 𢺅	ubqm
 𢺆	ubfj
 𢺇	ubyk
-𢺈	ub
 𢺉	ubil
 𢺊	ubwh
 𢺋	njub
@@ -43901,7 +43868,6 @@
 𣹵	uver
 𣹶	uvwf
 𣹷	uvjn
-𣹸	uv
 𣹹	wusj
 𣹺	uvuv
 𣹻	blqr
@@ -44620,7 +44586,6 @@
 𤅄	uvlm
 𤅅	uvln
 𤅆	uvye
-𤅇	uv
 𤅈	uvjq
 𤅉	uvlh
 𤅊	uvxm
@@ -48187,7 +48152,6 @@
 𤼖	byis
 𤼗	byzu
 𤼘	bylz
-𤼙	by
 𤼚	byil
 𤼛	byui
 𤼜	byis
@@ -51208,7 +51172,6 @@
 𥫔	vhbz
 𥫕	vhvo
 𥫖	vhyk
-𥫗	vu
 𥫘	vuyi
 𥫙	vudy
 𥫚	vukd
@@ -51281,7 +51244,6 @@
 𥬜	vuer
 𥬝	vubl
 𥬞	vuer
-𥬟	vu
 𥬠	vuiu
 𥬡	vuyb
 𥬢	vuzo
@@ -56962,7 +56924,6 @@
 𧄳	ckqc
 𧄴	wjye
 𧄵	cklx
-𧄶	ck
 𧄷	cknc
 𧄸	ckqx
 𧄹	ckui
@@ -58545,7 +58506,6 @@
 𧝟	ihyi
 𧝠	yisj
 𧝡	yida
-𧝢	yi
 𧝣	gsyi
 𧝤	yisi
 𧝥	yima
@@ -60599,7 +60559,6 @@
 𧽋	zbwu
 𧽌	zbgu
 𧽍	zbvf
-𧽎	zb
 𧽏	zbsb
 𧽐	zbqm
 𧽑	zbji
@@ -60704,7 +60663,6 @@
 𧾴	zbmx
 𧾵	zbjt
 𧾶	zbis
-𧾷	zu
 𧾸	hgzu
 𧾹	zuyi
 𧾺	ruzu
@@ -61292,7 +61250,6 @@
 𨇹	zuwg
 𨇺	zujt
 𨇻	zumi
-𨇼	zu
 𨇽	zulo
 𨇾	zuho
 𨇿	zujm
@@ -61803,7 +61760,6 @@
 𨏴	ienx
 𨏵	iewf
 𨏶	lrie
-𨏷	ie
 𨏸	ieby
 𨏹	iejt
 𨏺	ievb
@@ -66584,7 +66540,6 @@
 𩙼	djfz
 𩙽	hrfz
 𩙾	ncfz
-𩙿	ui
 𩚀	rfsi
 𩚁	rfbi
 𩚂	uiyi
@@ -70794,7 +70749,6 @@
 𪛖	ytho
 𪛗	rfyi
 𪛘	uuyi
-𪛙	yi
 𪛚	buyi
 𪛛	uiyi
 𪛜	dyyi
@@ -75015,7 +74969,6 @@
 𫝑	vili
 𫝒	uuui
 𫝓	uiba
-𫝔	tu
 𫝕	ihdm
 𫝖	dkba
 𫝗	ihzi
@@ -75023,7 +74976,6 @@
 𫝙	xduh
 𫝚	kbyp
 𫝛	xdts
-𫝜	kb
 𫝝	kbgj
 𫝞	kbwu
 𫝟	tuli
@@ -80339,7 +80291,6 @@
 𬯥	ertm
 𬯦	erlq
 𬯧	eryi
-𬯨	er
 𬯩	aall
 𬯩	alai
 𬯪	vvvi
@@ -93997,7 +93948,6 @@
 𱔇	kbfu
 𱔈	kbck
 𱔉	kbvo
-𱔊	kb
 𱔋	heyj
 𱔌	kbls
 𱔍	kbdb
@@ -94055,7 +94005,6 @@
 𱕁	kbxi
 𱕂	tkii
 𱕃	kbxw
-𱕄	kb
 𱕅	kbli
 𱕆	kbku
 𱕇	kbuv
@@ -94101,7 +94050,6 @@
 𱕯	kban
 𱕰	kblz
 𱕱	kbty
-𱕲	kb
 𱕳	kbjy
 𱕴	wulv
 𱕵	djjt
@@ -96826,7 +96774,6 @@
 𱿾	qmis
 𱿿	isdx
 𲀀	isvl
-𲀁	is
 𲀂	isse
 𲀃	isbg
 𲀄	isxu
@@ -97489,7 +97436,6 @@
 𲊌	yuvv
 𲊍	yumo
 𲊎	lyrf
-𲊏	yu
 𲊐	yuri
 𲊑	ypdv
 𲊒	yumj
