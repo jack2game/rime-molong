@@ -8510,7 +8510,6 @@
 月	rz;ke	0
 月	yt;ke	66349
 有	yz;uo	613999
-朊	gr;oe	572
 朊	rr;oe	572
 朋	pg;oo	1459
 朌	bj	321
