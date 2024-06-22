@@ -31,7 +31,8 @@
 - 與其他形碼相比，龍系列以及環形方案也同樣表現優異，僅稍落後於虎碼這樣的亂序形碼
 - 性能測試的原始數據請參考[這裏](https://github.com/jack2game/rime-molong/tree/main/data/assess.tiger-code.com/chardicts)和[這裏](https://github.com/jack2game/rime-molong/tree/main/data/assess.tiger-code.com/screenshots)
 
-![Sidebyside_Page1](https://github.com/jack2game/rime-molong/assets/16070158/cd107978-841f-4758-a40a-3a7ee592aa93)
+![Sidebyside_Page1](https://github.com/jack2game/rime-molong/assets/16070158/121f63e5-c8e9-4a77-acf2-93b8b49f56ea)
+
 
 ## 音碼方案
 ### ❶自然龍音碼
