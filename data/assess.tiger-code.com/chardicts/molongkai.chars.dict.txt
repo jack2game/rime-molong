@@ -20742,10 +20742,10 @@
 噴	fo;kb	1
 噵	dv;kd	1
 噶	ge;kg	1
-噷	he;kq	1
-噷	he;kx	1
 噷	xh;kq	1
 噷	xh;kx	1
+噷	he;kq	1
+噷	he;kx	1
 噸	dg;kd	1
 噹	du;kd	1
 噺	xh;kx	1

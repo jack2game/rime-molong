@@ -17977,8 +17977,8 @@
 噴	fd;kb	1
 噵	dj;zk	1
 噶	gr;kr	1
-噷	hf;kq	1
 噷	xn;kq	1
+噷	hf;kq	1
 噸	dp;ky	1
 噹	dh;kt	1
 噺	xn;kj	1

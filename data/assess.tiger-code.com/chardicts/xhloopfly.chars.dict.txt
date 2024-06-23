@@ -17969,8 +17969,8 @@
 噴	fd	1
 噵	dx	1
 噶	gr;kv	1
-噷	hf	1
 噷	xb	1
+噷	hf	1
 噸	dy	1
 噹	dh	1
 噺	xb	1
