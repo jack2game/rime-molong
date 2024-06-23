@@ -1218,7 +1218,7 @@ def get_pinyin_fn(schema: str):
         return lunapy2zrm
     if schema in ["zrlong", "molongkai", "molongmoqi"]:
         return snow2zrlong
-    if schema in ["xhloopkai", "xhloopmoqi", "xhloopfly"]:
+    if schema in ["xhloopkai", "xhloopmoqi", "xhloopfly", "xhloopzzd"]:
         return snow2xhloopkai
     if schema in ["zrloopkai", "zrloopmoqi"]:
         return snow2zrloopkai

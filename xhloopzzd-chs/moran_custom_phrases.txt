@@ -1,0 +1,21 @@
+# Rime table
+# coding: utf-8
+#@db/db_name	moran_custom_phrases
+#@db/db_type	tabledb
+#
+# 魔然方案自定义短语
+# 修改后重新部署方可生效
+#
+# ⚠ 自定义短语总是出现在主词库词条之前。
+#   如果你希望添加的词语可以参与动态调频，请将词添加到 moran.extended.dict.yaml 中。
+#
+# 每行格式：文字 <tab> 编码 <tab> 权重（权重越高，顺序越靠前）
+#
+# 示例：
+秩	rank	0
+中国科学技术大学	ustc	0
+中国科学院大学	ucas	0
+西安交通大学	xjtu	0
+上海交通大学	sjtu	0
+哈尔滨工业大学	hit	0
+复旦大学	fdu	0
