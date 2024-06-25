@@ -2008,7 +2008,7 @@
 到长城	dii
 大肠菌	dij
 多窗口	dik
-打出来	dil
+当成了	dil
 大场面	dim
 丁丑年	din
 到处跑	dip
@@ -2960,6 +2960,7 @@
 而在这	ezv
 而作为	ezw
 而在于	ezy
+儿子在	ezz
 伏安表	fab
 凤安村	fac
 氟安定	fad
@@ -3954,7 +3955,7 @@
 国庆节	gqj
 钢琴课	gqk
 搞起来	gql
-歌曲名	gqm
+鬼敲门	gqm
 跟去年	gqn
 感情牌	gqp
 钢琴曲	gqq
@@ -4170,7 +4171,7 @@
 工作啊	gza
 工作表	gzb
 甘紫菜	gzc
-该做的	gzd
+各自的	gzd
 瓜子儿	gze
 工作服	gzf
 各做各	gzg
@@ -7408,7 +7409,7 @@
 没感觉	mgj
 莫高窟	mgk
 每公里	mgl
-米高梅	mgm
+卖个萌	mgm
 梅甘娜	mgn
 冒个泡	mgp
 敏感区	mgq
@@ -11205,7 +11206,7 @@
 贴膜啊	tma
 听明白	tmb
 田面村	tmc
-他们的	tmd
+他妈的	tmd
 泰米尔	tme
 添麻烦	tmf
 同美国	tmg
@@ -12628,7 +12629,7 @@
 这是个	vug
 这时候	vuh
 折射出	vui
-直升机	vuj
+植树节	vuj
 知识库	vuk
 展示了	vul
 这说明	vum
@@ -14113,7 +14114,7 @@
 有点痛	ydt
 一定是	ydu
 源地址	ydv
-一大碗	ydw
+应当为	ydw
 有点像	ydx
 运动员	ydy
 一袋子	ydz
@@ -14171,7 +14172,7 @@
 应该被	ygb
 一个词	ygc
 应该都	ygd
-压根儿	yge
+雅戈尔	yge
 一公分	ygf
 应该够	ygg
 应该会	ygh
