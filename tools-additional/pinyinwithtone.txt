@@ -58614,115 +58614,115 @@
 𨳒	diǎo;;	0
 𩾀	gū;;	0
 𪎌	lái;;	0
-丆	pp;;	0
-丌	pp;;	0
-丨	pp;;	0
-丩	pp;;	0
-丬	pp;;	0
-丶	pp;;	0
-丷	pp;;	0
-丿	pp;;	0
-乀	pp;;	0
-乁	pp;;	0
-乂	pp;;	0
-乊	pp;;	0
-乚	pp;;	0
-乛	pp;;	0
-𠂤	pp;;	0
-亅	pp;;	0
-亠	pp;;	0
-亻	pp;;	0
-冂	pp;;	0
-冖	pp;;	0
-冫	pp;;	0
-凵	pp;;	0
-刂	pp;;	0
-勹	pp;;	0
-匚	pp;;	0
-卄	pp;;	0
-卝	pp;;	0
-卩	pp;;	0
-厶	pp;;	0
-夂	pp;;	0
-夊	pp;;	0
-宀	pp;;	0
-尢	pp;;	0
-屮	pp;;	0
-巜	pp;;	0
-廴	pp;;	0
-廾	pp;;	0
-廿	pp;;	0
-弋	pp;;	0
-彐	pp;;	0
-彑	pp;;	0
-彡	pp;;	0
-彳	pp;;	0
-忄	pp;;	0
-手	pp;;	0
-扌	pp;;	0
-攵	pp;;	0
-日	pp;;	0
-曰	pp;;	0
-月	pp;;	0
-水	pp;;	0
-氵	pp;;	0
-氺	pp;;	0
-灬	pp;;	0
-爫	pp;;	0
-爿	pp;;	0
-犭	pp;;	0
-疋	pp;;	0
-疒	pp;;	0
-癶	pp;;	0
-目	pp;;	0
-礻	pp;;	0
-糸	pp;;	0
-糹	pp;;	0
-纟	pp;;	0
-罒	pp;;	0
-耂	pp;;	0
-肀	pp;;	0
-艮	pp;;	0
-艹	pp;;	0
-虍	pp;;	0
-衤	pp;;	0
-覀	pp;;	0
-讠	pp;;	0
-豕	pp;;	0
-豸	pp;;	0
-辶	pp;;	0
-釒	pp;;	0
-钅	pp;;	0
-阝	pp;;	0
-飠	pp;;	0
-饣	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-	pp;;	0
-兀	pp;;	0
-𡭔	pp;;	0
-䒑	pp;;	0
-龴	pp;;	0
-龶	pp;;	0
-龷	pp;;	0
-龸	pp;;	0
-龹	pp;;	0
-龺	pp;;	0
-龻	pp;;	0
-㐄	pp;;	0
-𠂉	pp;;	0
-𠃓	pp;;	0
-𥫗	pp;;	0
+丆	op;;
+丌	op;;
+丨	op;;
+丩	op;;
+丬	op;;
+丶	op;;
+丷	op;;
+丿	op;;
+乀	op;;
+乁	op;;
+乂	op;;
+乊	op;;
+乚	op;;
+乛	op;;
+𠂤	op;;
+亅	op;;
+亠	op;;
+亻	op;;
+冂	op;;
+冖	op;;
+冫	op;;
+凵	op;;
+刂	op;;
+勹	op;;
+匚	op;;
+卄	op;;
+卝	op;;
+卩	op;;
+厶	op;;
+夂	op;;
+夊	op;;
+宀	op;;
+尢	op;;
+屮	op;;
+巜	op;;
+廴	op;;
+廾	op;;
+廿	op;;
+弋	op;;
+彐	op;;
+彑	op;;
+彡	op;;
+彳	op;;
+忄	op;;
+手	op;;
+扌	op;;
+攵	op;;
+日	op;;
+曰	op;;
+月	op;;
+水	op;;
+氵	op;;
+氺	op;;
+灬	op;;
+爫	op;;
+爿	op;;
+犭	op;;
+疋	op;;
+疒	op;;
+癶	op;;
+目	op;;
+礻	op;;
+糸	op;;
+糹	op;;
+纟	op;;
+罒	op;;
+耂	op;;
+肀	op;;
+艮	op;;
+艹	op;;
+虍	op;;
+衤	op;;
+覀	op;;
+讠	op;;
+豕	op;;
+豸	op;;
+辶	op;;
+釒	op;;
+钅	op;;
+阝	op;;
+飠	op;;
+饣	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+	op;;
+兀	op;;
+𡭔	op;;
+䒑	op;;
+龴	op;;
+龶	op;;
+龷	op;;
+龸	op;;
+龹	op;;
+龺	op;;
+龻	op;;
+㐄	op;;
+𠂉	op;;
+𠃓	op;;
+𥫗	op;;

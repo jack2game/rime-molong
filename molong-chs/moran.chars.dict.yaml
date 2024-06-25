@@ -58339,113 +58339,115 @@ use_preset_vocabulary: false
 𨳒	dl;mx	0
 𩾀	ga	0
 𪎌	ld;ml	0
-丆	pp;ap	0
-丌	pp;aa	0
-丨	pp;aa	0
-丩	pp;aa	0
-丶	pp;dd	0
-丷	pp;ba	0
-丿	pp;px	0
-乀	pp;aa	0
-乁	pp;aa	0
-乂	pp;pd	0
-乊	pp;ho	0
-乚	pp;gb	0
-乛	pp;av	0
-𠂤	pp	0
-亅	pp;aa	0
-亠	pp;da	0
-亻	pp;rf	0
-冂	pp;kd	0
-冖	pp;bk	0
-冫	pp;da	0
-凵	pp;kd	0
-刂	pp;dk	0
-勹	pp;gb	0
-匚	pp;kd	0
-卄	pp;aa	0
-卝	pp;aa	0
-卩	pp;er	0
-厶	pp;ad	0
-夂	pp;pd	0
-夊	pp;pd	0
-宀	pp;bk	0
-尢	pp;ag	0
-屮	pp;aa	0
-巜	pp;aa	0
-廴	pp;zb	0
-廾	pp;aa	0
-廿	pp;aa	0
-弋	pp;ad	0
-彐	pp;aa	0
-彑	pp;aa	0
-彡	pp;pp	0
-彳	pp;pa	0
-忄	pp;xn	0
-手	pp;pa	0
-扌	pp;aa	0
-攵	pp;pd	0
-日	pp;aa	0
-曰	pp;aa	0
-月	pp;oy	0
-水	pp;ad	0
-氵	pp;da	0
-氺	pp;dd	0
-灬	pp;ho	0
-爫	pp;pd	0
-犭	pp;qr	0
-疋	pp;av	0
-疒	pp;by	0
-癶	pp;ad	0
-目	pp;aa	0
-礻	pp;ui	0
-糸	pp;ax	0
-糹	pp;si	0
-纟	pp;si	0
-罒	pp;aa	0
-耂	pp;ap	0
-肀	pp;aa	0
-艮	pp;ad	0
-艹	pp;aa	0
-虍	pp;hu	0
-衤	pp;yi	0
-覀	pp;aa	0
-讠	pp;yj	0
-豕	pp;ad	0
-豸	pp;pp	0
-辶	pp;dd	0
-釒	pp;jn	0
-钅	pp;jn	0
-阝	pp;er	0
-飠	pp;rl	0
-饣	pp;ui	0
-	pp;yi	0
-	pp;dk	0
-	pp;ee	0
-	pp;si	0
-	pp;xc	0
-	pp;xn	0
-	pp;kj	0
-	pp;fg	0
-	pp;ck	0
-	pp;nq	0
-	pp;fg	0
-	pp;yv	0
-	pp;jr	0
-	pp;zu	0
-	pp;ji	0
-	pp;yy	0
-兀	pp;ae	0
-𡭔	pp;ad	0
-䒑	pp;ba	0
-龴	pp;si	0
-龶	pp;qy	0
-龷	pp;nm	0
-龸	pp;ih	0
-龹	pp;jr	0
-龺	pp;uz	0
-龻	pp;lm	0
-㐄	pp;aa	0
-𠂉	pp;ra	0
-𠃓	pp;yp	0
-𥫗	pp;vd	0
+丆	op;ap
+丌	op;aa
+丨	op;aa
+丩	op;aa
+丬	op;jd
+丶	op;dd
+丷	op;ba
+丿	op;px
+乀	op;aa
+乁	op;aa
+乂	op;pd
+乊	op;ho
+乚	op;gb
+乛	op;av
+𠂤	op
+亅	op;aa
+亠	op;da
+亻	op;rf
+冂	op;kd
+冖	op;bk
+冫	op;da
+凵	op;kd
+刂	op;dk
+勹	op;gb
+匚	op;kd
+卄	op;aa
+卝	op;aa
+卩	op;er
+厶	op;ad
+夂	op;pd
+夊	op;pd
+宀	op;bk
+尢	op;ag
+屮	op;aa
+巜	op;aa
+廴	op;zb
+廾	op;aa
+廿	op;aa
+弋	op;ad
+彐	op;aa
+彑	op;aa
+彡	op;pp
+彳	op;pa
+忄	op;xn
+手	op;pa
+扌	op;aa
+攵	op;pd
+日	op;aa
+曰	op;aa
+月	op;oy
+水	op;ad
+氵	op;da
+氺	op;dd
+灬	op;ho
+爫	op;pd
+爿	op;aa
+犭	op;qr
+疋	op;av
+疒	op;by
+癶	op;ad
+目	op;aa
+礻	op;ui
+糸	op;ax
+糹	op;si
+纟	op;si
+罒	op;aa
+耂	op;ap
+肀	op;aa
+艮	op;ad
+艹	op;aa
+虍	op;hu
+衤	op;yi
+覀	op;aa
+讠	op;yj
+豕	op;ad
+豸	op;pp
+辶	op;dd
+釒	op;jn
+钅	op;jn
+阝	op;er
+飠	op;rl
+饣	op;ui
+	op;yi
+	op;dk
+	op;ee
+	op;si
+	op;xc
+	op;xn
+	op;kj
+	op;fg
+	op;ck
+	op;nq
+	op;fg
+	op;yv
+	op;jr
+	op;zu
+	op;ji
+	op;yy
+兀	op;ae
+𡭔	op;ad
+䒑	op;ba
+龴	op;si
+龶	op;qy
+龷	op;nm
+龸	op;ih
+龹	op;jr
+龺	op;uz
+龻	op;lm
+㐄	op;aa
+𠂉	op;ra
+𠃓	op;yp
+𥫗	op;vd

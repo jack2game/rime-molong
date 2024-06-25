@@ -58316,113 +58316,115 @@
 𨳒	dl	0
 𩾀	ga	0
 𪎌	ld	0
-丆	pp;ap	0
-丌	pp;al	0
-丨	pp;ll	0
-丩	pp;ll	0
-丶	pp;dd	0
-丷	pp;dp	0
-丿	pp;pp	0
-乀	pp;nn	0
-乁	pp;nn	0
-乂	pp;pn	0
-乊	pp;pb	0
-乚	pp;vv	0
-乛	pp;aa	0
-𠂤	pp;pl	0
-亅	pp;ll	0
-亠	pp;da	0
-亻	pp;pl	0
-冂	pp;lv	0
-冖	pp;da	0
-冫	pp;da	0
-凵	pp;vl	0
-刂	pp;ll	0
-勹	pp;pv	0
-匚	pp;av	0
-卄	pp;al	0
-卝	pp;lb	0
-卩	pp;vl	0
-厶	pp;vd	0
-夂	pp;pn	0
-夊	pp;pn	0
-宀	pp;db	0
-尢	pp;uv	0
-屮	pp;kl	0
-巜	pp;vv	0
-廴	pp;vn	0
-廾	pp;al	0
-廿	pp;ca	0
-弋	pp;yd	0
-彐	pp;ka	0
-彑	pp;va	0
-彡	pp;pp	0
-彳	pp;pr	0
-忄	pp;dl	0
-手	pp;py	0
-扌	pp;aa	0
-攵	pp;px	0
-日	pp;ka	0
-曰	pp;ka	0
-月	pp;ke	0
-水	pp;ln	0
-氵	pp;dd	0
-氺	pp;ld	0
-灬	pp;dd	0
-爫	pp;pd	0
-犭	pp;pp	0
-疋	pp;az	0
-疒	pp;gd	0
-癶	pp;vn	0
-目	pp;ke	0
-礻	pp;dd	0
-糸	pp;yx	0
-糹	pp;yx	0
-纟	pp;sa	0
-罒	pp;kl	0
-耂	pp;tp	0
-肀	pp;el	0
-艮	pp;oy	0
-艹	pp;al	0
-虍	pp;hq	0
-衤	pp;dd	0
-覀	pp;ak	0
-讠	pp;dv	0
-豕	pp;au	0
-豸	pp;pp	0
-辶	pp;dn	0
-釒	pp;rb	0
-钅	pp;pl	0
-阝	pp;vl	0
-飠	pp;rg	0
-饣	pp;dl	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-	pp	0
-兀	pp;ae	0
-𡭔	pp	0
-䒑	pp;ba	0
-龴	pp	0
-龶	pp	0
-龷	pp	0
-龸	pp	0
-龹	pp	0
-龺	pp	0
-龻	pp;xx	0
-㐄	pp;uv	0
-𠂉	pp	0
-𠃓	pp	0
-𥫗	pp	0
+丆	op;ap
+丌	op;al
+丨	op;ll
+丩	op;ll
+丬	op;dl
+丶	op;dd
+丷	op;dp
+丿	op;pp
+乀	op;nn
+乁	op;nn
+乂	op;pn
+乊	op;pb
+乚	op;vv
+乛	op;aa
+𠂤	op;pl
+亅	op;ll
+亠	op;da
+亻	op;pl
+冂	op;lv
+冖	op;da
+冫	op;da
+凵	op;vl
+刂	op;ll
+勹	op;pv
+匚	op;av
+卄	op;al
+卝	op;lb
+卩	op;vl
+厶	op;vd
+夂	op;pn
+夊	op;pn
+宀	op;db
+尢	op;uv
+屮	op;kl
+巜	op;vv
+廴	op;vn
+廾	op;al
+廿	op;ca
+弋	op;yd
+彐	op;ka
+彑	op;va
+彡	op;pp
+彳	op;pr
+忄	op;dl
+手	op;py
+扌	op;aa
+攵	op;px
+日	op;ka
+曰	op;ka
+月	op;ke
+水	op;ln
+氵	op;dd
+氺	op;ld
+灬	op;dd
+爫	op;pd
+爿	op;vl
+犭	op;pp
+疋	op;az
+疒	op;gd
+癶	op;vn
+目	op;ke
+礻	op;dd
+糸	op;yx
+糹	op;yx
+纟	op;sa
+罒	op;kl
+耂	op;tp
+肀	op;el
+艮	op;oy
+艹	op;al
+虍	op;hq
+衤	op;dd
+覀	op;ak
+讠	op;dv
+豕	op;au
+豸	op;pp
+辶	op;dn
+釒	op;rb
+钅	op;pl
+阝	op;vl
+飠	op;rg
+饣	op;dl
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+	op
+兀	op;ae
+𡭔	op
+䒑	op;ba
+龴	op
+龶	op
+龷	op
+龸	op
+龹	op
+龺	op
+龻	op;xx
+㐄	op;uv
+𠂉	op
+𠃓	op
+𥫗	op

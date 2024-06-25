@@ -159619,114 +159619,115 @@ use_preset_vocabulary: false
 𨳒	dZ	0
 𩾀	gU	0
 𪎌	lF	0
-丆	pP;ap	0
-丌	pP;al	0
-丨	pP;ll	0
-丩	pP;ll	0
-丬	pP;dl	0
-丶	pP;dd	0
-丷	pP;dp	0
-丿	pP;pp	0
-乀	pP;nn	0
-乁	pP;nn	0
-乂	pP;pn	0
-乊	pP;pb	0
-乚	pP;vv	0
-乛	pP;aa	0
-𠂤	pP;pl	0
-亅	pP;ll	0
-亠	pP;da	0
-亻	pP;pl	0
-冂	pP;lv	0
-冖	pP;da	0
-冫	pP;da	0
-凵	pP;vl	0
-刂	pP;ll	0
-勹	pP;pv	0
-匚	pP;av	0
-卄	pP;al	0
-卝	pP;lb	0
-卩	pP;vl	0
-厶	pP;vd	0
-夂	pP;pn	0
-夊	pP;pn	0
-宀	pP;db	0
-尢	pP;uv	0
-屮	pP;kl	0
-巜	pP;vv	0
-廴	pP;vn	0
-廾	pP;al	0
-廿	pP;ca	0
-弋	pP;yd	0
-彐	pP;ka	0
-彑	pP;va	0
-彡	pP;pp	0
-彳	pP;pr	0
-忄	pP;dl	0
-手	pP;py	0
-扌	pP;aa	0
-攵	pP;px	0
-日	pP;ka	0
-曰	pP;ka	0
-月	pP;ke	0
-水	pP;ln	0
-氵	pP;dd	0
-氺	pP;ld	0
-灬	pP;dd	0
-爫	pP;pd	0
-爿	pP;vl	0
-犭	pP;pp	0
-疒	pP;gd	0
-癶	pP;vn	0
-目	pP;ke	0
-礻	pP;dd	0
-糸	pP;yx	0
-糹	pP;yx	0
-纟	pP;sa	0
-罒	pP;kl	0
-耂	pP;tp	0
-肀	pP;el	0
-艮	pP;oy	0
-艹	pP;al	0
-虍	pP;hq	0
-衤	pP;dd	0
-覀	pP;ak	0
-讠	pP;dv	0
-豕	pP;au	0
-豸	pP;pp	0
-辶	pP;dn	0
-釒	pP;rb	0
-钅	pP;pl	0
-阝	pP;vl	0
-飠	pP;rg	0
-饣	pP;dl	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-	pP	0
-兀	pP;ae	0
-𡭔	pP	0
-䒑	pP;ba	0
-龴	pP	0
-龶	pP	0
-龷	pP	0
-龸	pP	0
-龹	pP	0
-龺	pP	0
-龻	pP;xx	0
-㐄	pP;uv	0
-𠂉	pP	0
-𠃓	pP	0
-𥫗	pP	0
+丆	oP;ap
+丌	oP;al
+丨	oP;ll
+丩	oP;ll
+丬	oP;dl
+丶	oP;dd
+丷	oP;dp
+丿	oP;pp
+乀	oP;nn
+乁	oP;nn
+乂	oP;pn
+乊	oP;pb
+乚	oP;vv
+乛	oP;aa
+𠂤	oP;pl
+亅	oP;ll
+亠	oP;da
+亻	oP;pl
+冂	oP;lv
+冖	oP;da
+冫	oP;da
+凵	oP;vl
+刂	oP;ll
+勹	oP;pv
+匚	oP;av
+卄	oP;al
+卝	oP;lb
+卩	oP;vl
+厶	oP;vd
+夂	oP;pn
+夊	oP;pn
+宀	oP;db
+尢	oP;uv
+屮	oP;kl
+巜	oP;vv
+廴	oP;vn
+廾	oP;al
+廿	oP;ca
+弋	oP;yd
+彐	oP;ka
+彑	oP;va
+彡	oP;pp
+彳	oP;pr
+忄	oP;dl
+手	oP;py
+扌	oP;aa
+攵	oP;px
+日	oP;ka
+曰	oP;ka
+月	oP;ke
+水	oP;ln
+氵	oP;dd
+氺	oP;ld
+灬	oP;dd
+爫	oP;pd
+爿	oP;vl
+犭	oP;pp
+疋	oP;az
+疒	oP;gd
+癶	oP;vn
+目	oP;ke
+礻	oP;dd
+糸	oP;yx
+糹	oP;yx
+纟	oP;sa
+罒	oP;kl
+耂	oP;tp
+肀	oP;el
+艮	oP;oy
+艹	oP;al
+虍	oP;hq
+衤	oP;dd
+覀	oP;ak
+讠	oP;dv
+豕	oP;au
+豸	oP;pp
+辶	oP;dn
+釒	oP;rb
+钅	oP;pl
+阝	oP;vl
+飠	oP;rg
+饣	oP;dl
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+	oP
+兀	oP;ae
+𡭔	oP
+䒑	oP;ba
+龴	oP
+龶	oP
+龷	oP
+龸	oP
+龹	oP
+龺	oP
+龻	oP;xx
+㐄	oP;uv
+𠂉	oP
+𠃓	oP
+𥫗	oP
