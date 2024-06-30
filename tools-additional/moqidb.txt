@@ -429,7 +429,7 @@
 㔜	vl
 㖠	ku
 㞎	ub
-㧊	fu
+㧊	fj
 㶚	do
 䃻	uo
 䆉	hb
@@ -534,7 +534,7 @@
 𦳺	cy
 𧎱	bi
 𧲧	vb
-𧺡	tu
+𧺡	tj
 𧺺	ty
 𧿏	zd
 𨊹	ib
@@ -915,7 +915,7 @@
 㶔	dd
 㷶	rh
 㸢	py
-㸬	nu
+㸬	nj
 㸽	nb
 㻗	fy
 㼎	gf
@@ -927,7 +927,7 @@
 䠙	zf
 䡶	ix
 䩀	fb
-䰽	yu
+䰽	yj
 俻	rt
 倍	rk
 偝	ro
@@ -946,8 +946,8 @@
 愂	ux
 憊	rx
 揹	fo
-昁	ou
-杮	mu
+昁	oj
+杮	mj
 杯	mb
 柸	mp
 桮	mk
@@ -1002,7 +1002,7 @@
 𡋭	bt
 𡥞	vz
 𡰯	uj
-𢂏	uu
+𢂏	uj
 𢃍	ju
 𢴾	fx
 𢻵	uy
@@ -1971,15 +1971,15 @@
 㹀	nz
 䂍	mu
 䊿	sf
-䍨	yu
+䍨	yj
 䍸	yc
 䑈	om
 䒄	vt
 䗚	ic
 䙏	pc
 䞳	tk
-䟛	zu
-䢌	zu
+䟛	zj
+䢌	zj
 䢪	zk
 䥬	jc
 䪇	gc
@@ -2154,7 +2154,7 @@
 𦼭	cc
 𦽮	cn
 𧇚	hb
-𧘟	pu
+𧘟	pj
 𧙄	pb
 𧟱	xy
 𧲯	vy
@@ -7483,7 +7483,7 @@
 𨤕	cd
 𨵌	mk
 𨶯	mh
-𨸷	lv
+𨸷	pv
 𨺨	ek
 𩇠	fm
 𩉴	gv
@@ -7898,7 +7898,7 @@
 䆏	hg
 䈈	vb
 䉬	vu
-䑔	ju
+䑔	jj
 䕁	cm
 䕠	cu
 䚨	du
@@ -7939,7 +7939,7 @@
 淝	db
 渄	df
 濷	ur
-犻	qu
+犻	qj
 狒	qf
 猆	fq
 疿	bf
@@ -7952,11 +7952,11 @@
 绯	sf
 翡	fx
 肥	ob
-肺	ou
+肺	oj
 胏	od
 胐	oi
 腓	of
-芾	cu
+芾	cj
 菲	cf
 萉	cb
 蕜	cx
@@ -8652,7 +8652,7 @@
 𥳇	vw
 𥷱	vw
 𥼼	mw
-𥾧	su
+𥾧	sj
 𦂊	sw
 𦇁	sw
 𦊦	ks
@@ -8696,7 +8696,7 @@
 𨑑	zw
 𨦛	jq
 𨵟	my
-𨺅	ll
+𨺅	pl
 𨾚	fv
 𩂎	yf
 𩂔	yy
@@ -11965,7 +11965,7 @@
 鵍	bn
 鹮	sn
 𠂄	dr
-𠟼	wd
+𠟼	yd
 𠺐	kj
 𠻍	ky
 𡄤	ky
@@ -12792,7 +12792,7 @@
 嵆	hu
 嵇	hu
 嵴	uo
-嶯	ug
+嶯	ue
 己	kv
 帺	jb
 幾	gr
@@ -12811,7 +12811,7 @@
 懠	xo
 懻	xg
 戟	ug
-戢	kg
+戢	ge
 技	fv
 挤	fq
 掎	fk
@@ -12844,7 +12844,7 @@
 機	mr
 橶	mg
 檕	im
-檝	mg
+檝	me
 檵	my
 櫅	mo
 櫭	md
@@ -12862,7 +12862,7 @@
 漈	du
 潗	dm
 激	dw
-濈	dg
+濈	de
 濟	do
 瀱	dd
 焏	kh
@@ -12930,7 +12930,7 @@
 脊	ro
 膌	oo
 臮	zr
-艥	vg
+艥	ve
 芨	cj
 芰	cv
 苙	cl
@@ -12942,7 +12942,7 @@
 蓟	cd
 蔇	cw
 蕀	cu
-蕺	cg
+蕺	ce
 薊	cd
 薺	co
 藉	co
@@ -13009,7 +13009,7 @@
 雞	vv
 雧	rm
 霁	yq
-霵	yg
+霵	ye
 霽	yo
 鞊	gk
 鞿	gr
@@ -13074,11 +13074,11 @@
 𠹋	ku
 𠼻	kt
 𠿉	ik
-𠿠	kg
+𠿠	ke
 𡁪	kd
 𡁰	ko
 𡃃	ke
-𡅺	kg
+𡅺	ke
 𡇟	ky
 𡋚	rt
 𡜱	nx
@@ -13146,11 +13146,11 @@
 𤺷	ba
 𤿠	tp
 𥈂	oa
-𥊬	og
+𥊬	oe
 𥋥	ot
 𥒡	ui
 𥕂	uo
-𥖙	ug
+𥖙	ue
 𥘌	uj
 𥠈	he
 𥠋	he
@@ -13183,7 +13183,7 @@
 𦝖	oo
 𦞽	oo
 𦠄	or
-𦠾	og
+𦠾	oe
 𦩧	zv
 𦪱	iv
 𦮯	cd
@@ -13213,7 +13213,7 @@
 𧡯	oj
 𧢾	dw
 𧤏	de
-𧥄	dg
+𧥄	de
 𧧃	ik
 𧧟	yu
 𧧩	yb
@@ -13263,7 +13263,7 @@
 𩠨	hz
 𩢴	mk
 𩥉	mb
-𩦤	mg
+𩦤	me
 𩨒	gj
 𩩛	gk
 𩯋	eg
@@ -14290,7 +14290,7 @@
 掲	fb
 揭	fr
 搩	fm
-擑	fg
+擑	fe
 擮	fv
 擳	fe
 昅	oj
@@ -14521,7 +14521,7 @@
 凚	du
 劤	jl
 劲	jl
-勁	gl
+勁	jl
 卺	lv
 厪	iw
 唫	kj
@@ -14684,7 +14684,7 @@
 儆	rw
 兢	ux
 刭	jd
-剄	gd
+剄	jd
 坓	jt
 坕	vt
 坙	at
@@ -14775,11 +14775,11 @@
 靚	fj
 靜	fy
 頚	yy
-頸	gy
+頸	jy
 驚	cm
 鯨	yx
 鲸	yx
-鵛	gn
+鵛	jn
 鶁	wn
 鶄	fn
 麖	lx
@@ -15672,7 +15672,7 @@
 𨬐	ij
 𨰜	jc
 𨼎	eb
-𨼱	lg
+𨼱	pg
 𩊺	gy
 𩏺	wy
 𩓻	uy
@@ -21495,7 +21495,7 @@
 䍲	ye
 䘅	si
 䯮	en
-乃	vp
+乃	pv
 倷	ru
 奈	du
 奶	nn
@@ -22771,7 +22771,7 @@
 𩗥	fb
 𪊳	lb
 㟝	uk
-㤄	xu
+㤄	xj
 㧩	fj
 㫲	oz
 㳈	dm
@@ -22780,7 +22780,7 @@
 䪹	by
 䫠	pk
 䲹	bn
-伂	ru
+伂	rj
 佩	rj
 俖	rk
 呸	kp
@@ -22792,9 +22792,9 @@
 怌	xp
 抷	fp
 斾	fj
-旆	fu
+旆	fj
 毰	mk
-沛	du
+沛	dj
 浿	db
 淠	dw
 珮	wj
@@ -22814,8 +22814,8 @@
 锫	jk
 阫	eb
 陪	ek
-霈	yu
-馷	mu
+霈	yj
+馷	mj
 𢁖	jd
 𢘀	xy
 𢥐	xm
@@ -22824,7 +22824,7 @@
 𣯱	em
 𤗏	pk
 𤬃	lg
-𥄔	ou
+𥄔	oj
 𥹂	mp
 𦙂	br
 𦸪	cf
@@ -22834,7 +22834,7 @@
 𨙶	ue
 𨛬	fb
 𩎜	wp
-𩖭	fu
+𩖭	fj
 𩵣	yb
 呠	kb
 喷	kb
@@ -23385,7 +23385,7 @@
 䄸	hb
 䎊	wx
 䞟	tb
-䣪	yu
+䣪	yj
 䣮	yy
 䨰	yg
 䪖	ww
@@ -23442,7 +23442,7 @@
 𤀪	dy
 𤖼	py
 𤝯	qq
-𤽌	bu
+𤽌	bj
 𥗟	uk
 𥬒	vy
 𥵜	vf
@@ -24945,7 +24945,7 @@
 媝	hn
 崷	uy
 巯	ji
-巰	gi
+巰	ji
 恘	xm
 恷	rx
 扏	fj
@@ -27399,7 +27399,7 @@
 𥛨	uz
 𥜰	ul
 𥥥	bl
-𥫴	vu
+𥫴	vj
 𥫽	vu
 𥼶	mg
 𥿅	ux
@@ -27431,7 +27431,7 @@
 𨱡	eu
 𨴯	mu
 𨸝	eu
-𨽄	ll
+𨽄	pl
 𩋡	gt
 𩒂	by
 𩗎	fg
@@ -27461,7 +27461,7 @@
 夀	fc
 守	bc
 寿	fc
-手	py
+手	pf
 扌	aa
 授	fy
 收	jw
@@ -27832,7 +27832,7 @@
 𥌘	ou
 𥫸	vu
 𦙙	ou
-𦣢	iu
+𦣢	ij
 𧀣	cv
 𨓚	zx
 𨿠	qv
@@ -31394,7 +31394,7 @@
 𨂣	mz
 𨑥	zw
 𨖴	zh
-𨡡	ba
+𨡡	br
 𨧗	jp
 𨨡	jd
 𨲬	el
@@ -33026,7 +33026,7 @@
 䂔	ug
 䓷	cd
 䛭	yg
-䣆	ge
+䣆	je
 䤯	jp
 䰢	gd
 䳙	yn
@@ -35569,7 +35569,7 @@
 𨦯	ju
 𨳷	mb
 𨻊	et
-𨻏	lt
+𨻏	pt
 𩂹	yu
 𩈭	mq
 𩋌	gw
@@ -38935,7 +38935,7 @@
 𤃲	dx
 𤆒	ph
 𤓕	jh
-𤖞	pg
+𤖞	pe
 𤛱	jn
 𤞂	qt
 𤞌	qq
@@ -39650,7 +39650,7 @@
 𥟒	hy
 𦥻	jt
 𨪗	jn
-𨺵	lu
+𨺵	pu
 𨾻	rl
 𩛵	ul
 𩪀	gl

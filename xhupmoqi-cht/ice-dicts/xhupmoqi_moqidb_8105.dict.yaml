@@ -1633,7 +1633,7 @@ sort: by_weight
 啡	fw;kf	74499
 匪	fw;kf	72837
 沸	fw;df	42184
-肺	fw;ou	38759
+肺	fw;oj	38759
 緋	fw;sf	23150
 斐	fw;fw	15019
 霏	fw;yf	11940
@@ -1646,7 +1646,7 @@ sort: by_weight
 腓	fw;of	1737
 悱	fw;xf	1249
 淝	fw;db	843
-芾	fw;cu	624
+芾	fw;cj	624
 痱	fw;bf	434
 榧	fw;mf	224
 鯡	fw;yf	213
@@ -1770,7 +1770,7 @@ sort: by_weight
 蝮	fu;iw	744
 訃	fu;yb	689
 黼	fu;yf	684
-芾	fu;cu	624
+芾	fu;cj	624
 趺	fu;zf	546
 怫	fu;xf	489
 氟	fu;qf	461
@@ -1953,7 +1953,7 @@ sort: by_weight
 綆	gg;sg	45
 浭	gg;dg	8
 𣈶	gg;;	2
-頸	gg;gy	1
+頸	gg;jy	1
 鶊	gg;gn	1
 𬒔	gg;uo	0
 公	gs;bs	2055138
@@ -2694,7 +2694,7 @@ sort: by_weight
 墼	ji;it	289
 鶺	ji;rn	266
 剞	ji;dd	210
-戢	ji;kg	204
+戢	ji;ge	204
 蟣	ji;ir	147
 伋	ji;rj	137
 垍	ji;tz	128
@@ -2703,7 +2703,7 @@ sort: by_weight
 跽	ji;zx	90
 嵴	ji;uo	58
 鱭	ji;yo	49
-蕺	ji;cg	46
+蕺	ji;ce	46
 罽	ji;sd	38
 蹐	ji;zo	27
 姞	ji;nk	26
@@ -2984,7 +2984,7 @@ sort: by_weight
 盡	jb;ym	805564
 僅	jb;rw	466676
 禁	jb;mu	393943
-勁	jb;gl	327635
+勁	jb;jl	327635
 錦	jb;jj	88660
 巾	jb;kl	87648
 筋	jb;vl	71688
@@ -3036,7 +3036,7 @@ sort: by_weight
 徑	jk;rg	106709
 競	jk;lx	100299
 井	jk;ac	98246
-頸	jk;gy	49665
+頸	jk;jy	49665
 靖	jk;lo	46359
 荊	jk;cd	45203
 菁	jk;co	36920
@@ -3045,7 +3045,7 @@ sort: by_weight
 憬	jk;xx	13093
 婧	jk;no	11970
 鯨	jk;yx	10246
-勁	jk;gl	10000
+勁	jk;jl	10000
 莖	jk;cg	9007
 丼	jk;jd	9000
 旌	jk;fu	6251
@@ -3058,7 +3058,7 @@ sort: by_weight
 靚	jk;fj	500
 粳	jk;mg	344
 獍	jk;qe	215
-剄	jk;gd	81
+剄	jk;jd	81
 腈	jk;oo	47
 肼	jk;oj	42
 倞	jk;rx	33
@@ -4438,7 +4438,7 @@ sort: by_weight
 奶	nd;nn	265359
 奈	nd;du	235258
 耐	nd;ec	165628
-乃	nd;vp	155797
+乃	nd;pv	155797
 鼐	nd;no	981
 氖	nd;qn	717
 萘	nd;cu	385
@@ -4699,13 +4699,13 @@ sort: by_weight
 培	pw;tk	98414
 賠	pw;bk	61380
 裴	pw;fy	29595
-沛	pw;du	24758
+沛	pw;dj	24758
 呸	pw;kp	20447
 胚	pw;op	4101
 帔	pw;jp	2772
 轡	pw;xk	1509
-霈	pw;yu	378
-旆	pw;fu	169
+霈	pw;yj	378
+旆	pw;fj	169
 醅	pw;yk	96
 錇	pw;jk	42
 衃	pw;pb	0
@@ -5213,7 +5213,7 @@ sort: by_weight
 萩	qq;ch	137
 蝤	qq;iy	124
 璆	qq;wp	40
-巰	qq;gi	38
+巰	qq;ji	38
 賕	qq;bq	30
 鶖	qq;hn	30
 鞧	qq;gy	11
@@ -5739,7 +5739,7 @@ sort: by_weight
 鳾	ui;bn	0
 鰤	ui;yj	0
 諟	ui;yz	0
-手	uz;py	5076179
+手	uz;pf	5076179
 受	uz;vy	1388441
 收	uz;jw	807363
 首	uz;bz	588887
