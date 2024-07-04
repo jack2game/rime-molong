@@ -168,6 +168,7 @@
 ![Keyboard_layout_Zhuyin svg](https://github.com/jack2game/rime-molong/assets/16070158/5b0218b4-d974-4d6c-9a4d-0dcbee4d9806)
 
 </details>
+
 ## 增強功能
 
 ### 快符及重複輸入
