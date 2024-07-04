@@ -148,6 +148,7 @@
 - 筆畫反查：用 ``obh`` 引導
 - 兩分反查：用 ``olf`` 引導
 - 拆字反查：用 ``ocz`` 引導
+- 注音反查：用 ``ovy`` 引導
 
 （在反查時，上述前綴會被隱藏，避免干擾視線。）
 
@@ -159,8 +160,29 @@
 | 筆畫反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/b8832cb7-f965-4434-9701-84819f904f87"> |                            |
 | 兩分反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/398a0b1f-ec03-4ec9-8f65-54858a3475b8"> | 鶴系列方案使用小鶴雙拼，自然系列方案使用自然雙拼   |
 | 拆字反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a6eed195-4b1d-4596-bdd9-7bb96f98cdb1"> | 各方案使用各自對應的音碼，多音字則用最常見的讀音輸入 |
+| 注音反查  | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2ed09f4e-384c-414d-ba37-bfff460dbdfb"> |                            
+<details>
 
+<summary>注音符號圖</summary>
+
+![Keyboard_layout_Zhuyin svg](https://github.com/jack2game/rime-molong/assets/16070158/5b0218b4-d974-4d6c-9a4d-0dcbee4d9806)
+
+</details>
 ## 增強功能
+
+### 快符及重複輸入
+
+快符在 moran_fixed.dict.yaml 和 moran_fixed_simp.dict.yaml 中定義。
+
+由于每個人所用的符號習慣不同，你可以修改上述文件中的定義以滿足自己的需求。
+
+快符是一種快速輸入標點符號的方法，打法是 ; + 一個字母，直接上屏對應的符號。這種打法避開了一些較難按的組合，也避開了諸如雙引號和單引號的匹配問題。
+
+其中 ;d 是特殊的，用於重複上次上屏內容。
+
+;d 可以理解爲 duplicate。;t 是 tilde。
+
+![kf](https://github.com/jack2game/rime-molong/assets/16070158/a8604ea5-a259-4cbd-9057-1b939f4aaa64)
 
 ### 輸入及查詢
 
