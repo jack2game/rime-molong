@@ -173,15 +173,15 @@
 
 ### 快符及重複輸入
 
-快符在 moran_fixed.dict.yaml 和 moran_fixed_simp.dict.yaml 中定義。
+快符在`moran_fixed.dict.yaml`和`moran_fixed_simp.dict.yaml`中定義。
 
 由于每個人所用的符號習慣不同，你可以修改上述文件中的定義以滿足自己的需求。
 
-快符是一種快速輸入標點符號的方法，打法是 ; + 一個字母，直接上屏對應的符號。這種打法避開了一些較難按的組合，也避開了諸如雙引號和單引號的匹配問題。
+快符是一種快速輸入標點符號的方法，打法是`;`+`字母`，直接上屏對應的符號。這種打法避開了一些較難按的組合，也避開了諸如雙引號和單引號的匹配問題。
 
-其中 ;d 是特殊的，用於重複上次上屏內容。
+其中`;d`是特殊的，用於重複上次上屏內容。
 
-;d 可以理解爲 duplicate。;t 是 tilde。
+`;d`可以理解爲duplicate。
 
 ![kf](https://github.com/jack2game/rime-molong/assets/16070158/a8604ea5-a259-4cbd-9057-1b939f4aaa64)
 
