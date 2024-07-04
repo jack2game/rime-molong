@@ -1,5 +1,3 @@
-环形鹤	hxhw
-环形自然	hxzr
 爱好	a
 不是	b
 才能	c
@@ -22,7 +20,7 @@
 同时	t
 什么	u
 只是	v
-往往	w
+问题	w
 现在	x
 已经	y
 自己	z
@@ -63,7 +61,7 @@
 补充	bi
 比较	bj
 包括	bk
-办理	bl
+遍历	bl
 部门	bm
 不能	bn
 北欧	bo
@@ -99,7 +97,7 @@
 厕所	cs
 餐厅	ct
 才是	cu
-辞职	cv
+从中	cv
 错误	cw
 从小	cx
 参与	cy
@@ -127,7 +125,7 @@
 都是	du
 地址	dv
 单位	dw
-东西	dx
+对象	dx
 对于	dy
 电子	dz
 恩爱	ea
@@ -161,7 +159,7 @@
 风采	fc
 反对	fd
 反而	fe
-方法	ff
+纷纷	ff
 风格	fg
 符合	fh
 非常	fi
@@ -283,7 +281,7 @@
 就是	ju
 记者	jv
 较为	jw
-进行	jx
+继续	jx
 基于	jy
 就在	jz
 可爱	ka
@@ -370,7 +368,7 @@
 你的	nd
 女儿	ne
 能否	nf
-那个	ng
+哪个	ng
 女孩	nh
 拿出	ni
 你就	nj
@@ -464,7 +462,7 @@
 其他	qt
 确实	qu
 欺诈	qv
-请问	qw
+千万	qw
 情绪	qx
 企业	qy
 妻子	qz
@@ -546,7 +544,7 @@
 体系	tx
 同样	ty
 帖子	tz
-涉案	ua
+是啊	ua
 设备	ub
 收藏	uc
 收到	ud
@@ -580,7 +578,7 @@
 政府	vf
 这个	vg
 之后	vh
-章程	vi
+正常	vi
 直接	vj
 状况	vk
 质量	vl
@@ -588,7 +586,7 @@
 智能	vn
 中欧	vo
 照片	vp
-之前	vq
+追求	vq
 主任	vr
 住宿	vs
 状态	vt
@@ -620,7 +618,7 @@
 问题	wt
 完善	wu
 文章	wv
-威望	ww
+往往	ww
 我想	wx
 位于	wy
 文字	wz
@@ -649,7 +647,7 @@
 希望	xw
 信息	xx
 需要	xy
-选择	xz
+下载	xz
 阴暗	ya
 一遍	yb
 一次	yc
@@ -702,3 +700,6 @@
 咨询	zx
 作用	zy
 坐在	zz
+环形鹤	hxhw
+环形自然	hxzr
+魔龙	ml
