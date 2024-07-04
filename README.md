@@ -26,6 +26,7 @@
 | `xhupzrmfast` | 小鶴雙拼    | 自然快手    | -         |            |
 | `zrloopkai`   | 環形自然    | 魔然      | 自然雙拼      |            |
 | `zrloopmoqi`  | 環形自然    | 墨奇碼     | -         |            |
+
 ### 性能對比
 - 與其他音形碼相比，龍系列以及環形系列方案在詞組和單字兩方面均大幅領先
 - 與其他形碼相比，龍系列以及環形方案也同樣表現優異，僅稍落後於虎碼這樣的亂序形碼
@@ -171,7 +172,7 @@
 
 ## 增強功能
 
-### 快符及重複輸入
+### 快符及重複上屏
 
 快符在`moran_fixed.dict.yaml`和`moran_fixed_simp.dict.yaml`中定義。
 
@@ -195,7 +196,8 @@
 | `ctrl`+`q`開啓emoji輸入   | <img src="https://github.com/jack2game/rime-molong/assets/16070158/1275a616-047c-4cc2-9cc6-02ea72eec370"> |                                                                                                  |
 | `ctrl`+`i`查詢拆分        | <img src="https://github.com/jack2game/rime-molong/assets/16070158/aaab2afa-b6dc-4a56-9ce3-5e55803b7667"> | 目前支持查詢魔然形碼和墨奇形碼                                                                                  |
 | `ctrl`+`.`查詢拼音        | <img src="https://github.com/jack2game/rime-molong/assets/16070158/330c4c83-faba-4cc2-998f-f84b175b8e75"> |                                                                                                  |
-| `U`引導Unicode直接輸入字符    | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a8d59825-83be-49e5-91d1-6f181220da7e"> |                                                                                                  |
+| `U`引導`Unicode`輸入字符    | <img src="https://github.com/jack2game/rime-molong/assets/16070158/a8d59825-83be-49e5-91d1-6f181220da7e"> |                                                                                                  |
+| `op`引導`字根編碼`輸入字根/偏旁部首 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/10a8352c-67d5-457a-9cbc-1d6363066fdc"> |                                                                                                  |
 
 ### 時間及日期
 
