@@ -61,7 +61,7 @@
 补充	bi
 比较	bj
 包括	bk
-遍历	bl
+办理	bl
 部门	bm
 不能	bn
 北欧	bo
@@ -97,7 +97,7 @@
 厕所	cs
 餐厅	ct
 才是	cu
-从中	cv
+辞职	cv
 错误	cw
 从小	cx
 参与	cy
@@ -125,7 +125,7 @@
 都是	du
 地址	dv
 单位	dw
-对象	dx
+东西	dx
 对于	dy
 电子	dz
 恩爱	ea
@@ -159,7 +159,7 @@
 风采	fc
 反对	fd
 反而	fe
-纷纷	ff
+方法	ff
 风格	fg
 符合	fh
 非常	fi
@@ -586,7 +586,7 @@
 智能	vn
 中欧	vo
 照片	vp
-追求	vq
+之前	vq
 主任	vr
 住宿	vs
 状态	vt

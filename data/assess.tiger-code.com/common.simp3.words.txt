@@ -58,7 +58,7 @@
 爱丁堡	adb
 哀悼词	adc
 啊对对	add
-爱迪尔	ade
+奥杜尔	ade
 阿道夫	adf
 矮冬瓜	adg
 爱德华	adh
@@ -663,7 +663,7 @@
 不对哦	bdo
 不搭配	bdp
 不定期	bdq
-不打扰	bdr
+不丢人	bdr
 不打死	bds
 半导体	bdt
 不定时	bdu
@@ -873,7 +873,7 @@
 避雷针	blv
 芭蕾舞	blw
 本来想	blx
-不利于	bly
+本来有	bly
 伯利兹	blz
 不忙啊	bma
 不明白	bmb
@@ -1198,7 +1198,7 @@
 煲仔饭	bzf
 别再给	bzg
 不在乎	bzh
-不赞成	bzi
+不在场	bzi
 不在家	bzj
 别走开	bzk
 不在了	bzl
@@ -1830,7 +1830,7 @@
 都不会	dbh
 打不出	dbi
 等不及	dbj
-都不快	dbk
+都不看	dbk
 大不了	dbl
 道不明	dbm
 都不能	dbn
@@ -1842,7 +1842,7 @@
 都不是	dbu
 蛋白质	dbv
 大不韪	dbw
-代表性	dbx
+都不行	dbx
 都不用	dby
 代表作	dbz
 对此案	dca
@@ -3463,7 +3463,7 @@
 法制化	fvh
 发展成	fvi
 反正就	fvj
-法制科	fvk
+反着看	fvk
 非主流	fvl
 非著名	fvm
 反正能	fvn
@@ -3528,7 +3528,7 @@
 飞行员	fxy
 发现在	fxz
 妃悠爱	fya
-非一般	fyb
+放一边	fyb
 负一层	fyc
 放远点	fyd
 法约尔	fye
@@ -3571,7 +3571,7 @@
 非阻塞	fzs
 副总统	fzt
 分子式	fzu
-副组长	fzv
+放在这	fzv
 分组网	fzw
 复杂性	fzx
 副作用	fzy
@@ -3809,7 +3809,7 @@
 工具人	gjr
 冠军赛	gjs
 过几天	gjt
-关键是	gju
+估计是	gju
 攻击者	gjv
 归结为	gjw
 工具箱	gjx
@@ -4701,7 +4701,7 @@
 花招儿	hve
 好丈夫	hvf
 获中国	hvg
-核准后	hvh
+画中画	hvh
 很正常	hvi
 灰指甲	hvj
 黄竹坑	hvk
@@ -4753,7 +4753,7 @@
 好习惯	hxg
 还喜欢	hxh
 滑雪场	hxi
-喝喜酒	hxj
+好像就	hxj
 很辛苦	hxk
 活下来	hxl
 很明显	hxm
@@ -4791,7 +4791,7 @@
 还有谁	hyu
 还一直	hyv
 还以为	hyw
-会影响	hyx
+换一下	hyx
 黑压压	hyy
 合音字	hyz
 孩子啊	hza
@@ -4900,7 +4900,7 @@
 差得很	idh
 沉淀池	idi
 抄底价	idj
-吃大亏	idk
+吃得开	idk
 差多了	idl
 陈道明	idm
 肠道内	idn
@@ -5517,7 +5517,7 @@
 几代人	jdr
 鉴定所	jds
 进度条	jdt
-绝对是	jdu
+觉得是	jdu
 就等着	jdv
 觉得我	jdw
 决定性	jdx
@@ -5665,7 +5665,7 @@
 近几天	jjt
 仅仅是	jju
 佼佼者	jjv
-拒绝我	jjw
+教教我	jjw
 积极性	jjx
 接近于	jjy
 聚集在	jjz
@@ -5874,7 +5874,7 @@
 集团案	jta
 剪贴板	jtb
 今天才	jtc
-就听到	jtd
+具体点	jtd
 鸡腿儿	jte
 交通费	jtf
 镜头盖	jtg
@@ -6709,7 +6709,7 @@
 柳残阳	lcy
 流操作	lcz
 老弟啊	lda
-吕洞宾	ldb
+拉倒吧	ldb
 领导层	ldc
 量大的	ldd
 蓝底儿	lde
@@ -7190,7 +7190,7 @@
 露馅儿	lxe
 陆小凤	lxf
 联系过	lxg
-理想化	lxh
+柳下惠	lxh
 两厢车	lxi
 连续剧	lxj
 联系卡	lxk
@@ -7422,6 +7422,7 @@
 没关系	mgx
 每个月	mgy
 命根子	mgz
+没回啊	mha
 梦幻般	mhb
 抹灰层	mhc
 模糊的	mhd
@@ -7500,7 +7501,7 @@
 命苦啊	mka
 妙控板	mkb
 没看错	mkc
-没看到	mkd
+没看懂	mkd
 迈克尔	mke
 麦克风	mkf
 没看够	mkg
@@ -7659,7 +7660,7 @@
 美人儿	mre
 毛人风	mrf
 没人管	mrg
-猛如虎	mrh
+没任何	mrh
 没认出	mri
 没人接	mrj
 没人看	mrk
@@ -7834,7 +7835,7 @@
 每一份	myf
 每一个	myg
 没一会	myh
-梦一场	myi
+母夜叉	myi
 没意见	myj
 每一刻	myk
 沐浴露	myl
@@ -7901,7 +7902,7 @@
 拿不出	nbi
 内部价	nbj
 南北宽	nbk
-内部类	nbl
+弄不了	nbl
 能避免	nbm
 能不能	nbn
 牛逼哦	nbo
@@ -8005,7 +8006,7 @@
 你发我	nfw
 你放心	nfx
 农副业	nfy
-能否在	nfz
+你负责	nfz
 你滚啊	nga
 南瓜饼	ngb
 你刚才	ngc
@@ -8105,7 +8106,7 @@
 哪几种	njv
 你加我	njw
 那就行	njx
-诺基亚	njy
+那就用	njy
 那就在	njz
 内裤啊	nka
 那可不	nkb
@@ -8427,7 +8428,7 @@
 女性为	nxw
 你想想	nxx
 你需要	nxy
-你现在	nxz
+那小子	nxz
 哪有啊	nya
 农业部	nyb
 那一次	nyc
@@ -9650,7 +9651,7 @@
 全透明	qtm
 七天内	qtn
 乾闼婆	qtp
-青铜器	qtq
+其他区	qtq
 其他人	qtr
 确实是	qts
 枪通条	qtt
@@ -9667,7 +9668,7 @@
 七十二	que
 其身份	quf
 却是个	qug
-全社会	quh
+秦始皇	quh
 请说出	qui
 全世界	quj
 去上课	quk
@@ -10889,7 +10890,7 @@
 所有事	syu
 所有值	syv
 色诱我	syw
-随意性	syx
+搜一下	syx
 所以有	syy
 四眼仔	syz
 孙子辈	szb
@@ -11131,7 +11132,7 @@
 田家庵	tja
 统计表	tjb
 特价菜	tjc
-推荐的	tjd
+台积电	tjd
 替角儿	tje
 通缉犯	tjf
 推荐给	tjg
@@ -11951,7 +11952,7 @@
 上诉案	usa
 诗三百	usb
 十三层	usc
-世俗的	usd
+谁送的	usd
 食宿费	usf
 是送给	usg
 说实话	ush
@@ -12031,7 +12032,7 @@
 是这个	uvg
 甚至会	uvh
 上战场	uvi
-时装界	uvj
+手指甲	uvj
 双周刊	uvk
 睡着了	uvl
 受折磨	uvm
@@ -12193,7 +12194,7 @@
 找不着	vbv
 转变为	vbw
 真不想	vbx
-直播员	vby
+止步于	vby
 这辈子	vbz
 仲裁案	vca
 注册版	vcb
@@ -12696,7 +12697,7 @@
 真无语	vwy
 中文字	vwz
 展信安	vxa
-中西部	vxb
+遮羞布	vxb
 中性词	vxc
 只晓得	vxd
 招笑儿	vxe
@@ -12911,7 +12912,7 @@
 网服务	wfw
 我发现	wfx
 往返于	wfy
-微分子	wfz
+我负责	wfz
 王国安	wga
 我根本	wgb
 我刚才	wgc
@@ -13005,7 +13006,7 @@
 玩具枪	wjq
 我竟然	wjr
 文件锁	wjs
-为家庭	wjt
+玩几天	wjt
 我就是	wju
 文件中	wjv
 王家卫	wjw
@@ -13167,7 +13168,7 @@
 为企业	wqy
 往前走	wqz
 温瑞安	wra
-吴仁宝	wrb
+五人本	wrb
 我认错	wrc
 微软的	wrd
 乌瑞恩	wre
@@ -13366,7 +13367,7 @@
 我以为	wyw
 问一下	wyx
 无意义	wyy
-问一嘴	wyz
+乌鸦嘴	wyz
 我最爱	wza
 文字版	wzb
 湾子村	wzc
@@ -13438,7 +13439,7 @@
 降不住	xbv
 小霸王	xbw
 行不行	xbx
-西班牙	xby
+先不要	xby
 小辫子	xbz
 下次吧	xcb
 下曹村	xcc
@@ -13475,7 +13476,7 @@
 想当初	xdi
 洗涤剂	xdj
 想得开	xdk
-想多了	xdl
+想到了	xdl
 兄弟们	xdm
 想当年	xdn
 现代派	xdp
@@ -13546,7 +13547,7 @@
 相关的	xgd
 香干儿	xge
 闲工夫	xgf
-小哥哥	xgg
+先给个	xgg
 修改好	xgh
 性高潮	xgi
 膝关节	xgj
@@ -13623,10 +13624,10 @@
 先交费	xjf
 小酒馆	xjg
 相结合	xjh
-小轿车	xji
+先检查	xji
 想静静	xjj
 新街口	xjk
-下结论	xjl
+像极了	xjl
 新局面	xjm
 想见你	xjn
 习近平	xjp
@@ -13692,7 +13693,7 @@
 叙利亚	xly
 新路子	xlz
 羡慕啊	xma
-项目部	xmb
+想明白	xmb
 新名词	xmc
 鲜明的	xmd
 邪门儿	xme
@@ -13913,7 +13914,7 @@
 下周日	xvr
 小诊所	xvs
 瞎折腾	xvt
-线装书	xvu
+新知识	xvu
 象征着	xvv
 下周五	xvw
 想这些	xvx
@@ -14091,7 +14092,7 @@
 隐藏着	ycv
 依次为	ycw
 一次性	ycx
-有此意	ycy
+异次元	ycy
 因此在	ycz
 也对啊	yda
 一大半	ydb
@@ -14261,7 +14262,7 @@
 演技派	yjp
 要加强	yjq
 一家人	yjr
-也就是	yjs
+研究所	yjs
 与家庭	yjt
 研究生	yju
 研究者	yjv
@@ -14443,7 +14444,7 @@
 也让人	yrr
 鱼肉松	yrs
 羊肉汤	yrt
-依然是	yru
+原来是	yru
 要认真	yrv
 也认为	yrw
 有韧性	yrx
@@ -14621,7 +14622,7 @@
 有一起	yyq
 也有人	yyr
 有意思	yys
-一言堂	yyt
+营业厅	yyt
 原因是	yyu
 抑郁症	yyv
 引以为	yyw
@@ -14735,7 +14736,7 @@
 在贷款	zdk
 走到了	zdl
 做的吗	zdm
-做的孽	zdn
+最多能	zdn
 自动炮	zdp
 左对齐	zdq
 在担任	zdr
@@ -14794,7 +14795,7 @@
 总共才	zgc
 做过的	zgd
 自个儿	zge
-最高峰	zgf
+最高分	zgf
 在各个	zgg
 总工会	zgh
 走过场	zgi
@@ -15149,7 +15150,7 @@
 在这块	zvk
 在这里	zvl
 兹证明	zvm
-在这呢	zvn
+在找呢	zvn
 在招聘	zvp
 走着瞧	zvq
 在众人	zvr
