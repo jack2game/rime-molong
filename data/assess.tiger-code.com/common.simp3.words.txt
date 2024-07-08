@@ -655,7 +655,7 @@
 不搭嘎	bdg
 不大会	bdh
 不对称	bdi
-不多见	bdj
+不对劲	bdj
 不对口	bdk
 不懂了	bdl
 帮倒忙	bdm
@@ -899,7 +899,7 @@
 北美洲	bmv
 弼马温	bmw
 不明显	bmx
-兵马俑	bmy
+并没有	bmy
 不满足	bmz
 不难啊	bna
 不能不	bnb
@@ -1090,7 +1090,7 @@
 保重啊	bva
 不准备	bvb
 把这次	bvc
-便知道	bvd
+不值得	bvd
 本主儿	bve
 辩证法	bvf
 把这个	bvg
@@ -2122,7 +2122,7 @@
 定名为	dmw
 大明星	dmx
 都没有	dmy
-多民族	dmz
+都没在	dmz
 胆囊癌	dna
 多牛逼	dnb
 东南侧	dnc
@@ -2269,7 +2269,7 @@
 都退出	dti
 等太久	dtj
 地铁口	dtk
-蛋疼了	dtl
+到头来	dtl
 的太慢	dtm
 都挺难	dtn
 代替品	dtp
@@ -2284,7 +2284,7 @@
 等同于	dty
 低头族	dtz
 多少啊	dua
-大手笔	dub
+多少遍	dub
 多少次	duc
 但是当	dud
 第十二	due
@@ -2294,7 +2294,7 @@
 大市场	dui
 电视剧	duj
 电视卡	duk
-都说了	dul
+都是来	dul
 大师们	dum
 多少年	dun
 低水平	dup
@@ -3791,7 +3791,7 @@
 更充足	giz
 宫颈癌	gja
 工具包	gjb
-关键词	gjc
+割韭菜	gjc
 感觉到	gjd
 过劲儿	gje
 国际法	gjf
@@ -4050,7 +4050,7 @@
 管事儿	gue
 国税发	guf
 归属感	gug
-格式化	guh
+古时候	guh
 过山车	gui
 工商局	guj
 更深刻	guk
@@ -6522,7 +6522,7 @@
 柯镇恶	kve
 控制阀	kvf
 看这个	kvg
-可转换	kvh
+客制化	kvh
 可支持	kvi
 可直接	kvj
 扩展卡	kvk
@@ -7279,8 +7279,8 @@
 没爱心	max
 没熬夜	may
 马鞍子	maz
-没白熬	mba
-米吧币	mbb
+忙不啊	mba
+明白不	mbb
 木板材	mbc
 买不到	mbd
 买本儿	mbe
@@ -7487,7 +7487,7 @@
 门静脉	mjm
 孟姜女	mjn
 妙静鸥	mjo
-马家堡	mjp
+买机票	mjp
 密集区	mjq
 没进入	mjr
 没结算	mjs
@@ -7768,7 +7768,7 @@
 没这命	mvm
 瞒着你	mvn
 木制品	mvp
-瞄准器	mvq
+没志气	mvq
 每周日	mvr
 满招损	mvs
 埋着头	mvt
@@ -7780,7 +7780,7 @@
 煤砟子	mvz
 马尾辫	mwb
 马王村	mwc
-美味的	mwd
+没味道	mwd
 木卫二	mwe
 拇外翻	mwf
 没问过	mwg
@@ -7873,7 +7873,7 @@
 牟宗三	mzs
 髦字头	mzt
 面子上	mzu
-满载着	mzv
+没在这	mzv
 民族舞	mzw
 没仔细	mzx
 满足于	mzy
@@ -8064,7 +8064,7 @@
 黏稠度	nid
 弄潮儿	nie
 内插法	nif
-虐成狗	nig
+能成功	nig
 你撤回	nih
 你瞅瞅	nii
 耐冲击	nij
@@ -8462,7 +8462,7 @@
 牛仔服	nzf
 娘子关	nzg
 男子汉	nzh
-酿造厂	nzi
+能做出	nzi
 你自己	nzj
 牛仔裤	nzk
 脑子里	nzl
@@ -10235,7 +10235,7 @@
 人渣滓	rvz
 人武部	rwb
 任务层	rwc
-人为的	rwd
+认为的	rwd
 入味儿	rwe
 仍无法	rwf
 任务怪	rwg
@@ -10829,7 +10829,7 @@
 色王朝	swi
 散文集	swj
 孙悟空	swk
-是为了	swl
+死完了	swl
 送我们	swm
 四五年	swn
 三五炮	swp
@@ -11288,7 +11288,7 @@
 提起过	tqg
 投洽会	tqh
 听清楚	tqi
-探亲假	tqj
+听墙角	tqj
 通气孔	tqk
 提起来	tql
 脱氢酶	tqm
@@ -11476,7 +11476,7 @@
 通行证	txv
 碳纤维	txw
 提醒下	txx
-同心圆	txy
+特效药	txy
 唐玄宗	txz
 同意案	tya
 退一步	tyb
@@ -11595,7 +11595,7 @@
 沈从文	ucw
 上蔡县	ucx
 使参与	ucy
-啥操作	ucz
+是存在	ucz
 谁的啊	uda
 十点半	udb
 上档次	udc
@@ -11645,7 +11645,7 @@
 十二万	uew
 沙耳乡	uex
 十二月	uey
-烧鹅仔	uez
+少儿组	uez
 十分爱	ufa
 上腹部	ufb
 示范村	ufc
@@ -11689,7 +11689,7 @@
 伤感情	ugq
 少个人	ugr
 使公司	ugs
-睡过头	ugt
+摔跟头	ugt
 韶关市	ugu
 上岗证	ugv
 少工委	ugw
@@ -11703,7 +11703,7 @@
 瘦猴儿	uhe
 生活费	uhf
 山海关	uhg
-社会化	uhh
+傻乎乎	uhh
 珊瑚虫	uhi
 书画家	uhj
 说好看	uhk
@@ -12059,7 +12059,7 @@
 商务车	uwi
 睡午觉	uwj
 上网卡	uwk
-耍无赖	uwl
+是为了	uwl
 是我们	uwm
 十五年	uwn
 十五篇	uwp
@@ -12215,13 +12215,13 @@
 注册人	vcr
 真彩色	vcs
 仲裁庭	vct
-这才是	vcu
+这次是	vcu
 注册证	vcv
 仲裁委	vcw
 政策性	vcx
 中草药	vcy
 只存在	vcz
-知道啊	vda
+真的啊	vda
 这都被	vdb
 助动词	vdc
 知道的	vdd
@@ -12485,7 +12485,7 @@
 中南欧	vno
 纸尿片	vnp
 撞南墙	vnq
-中年人	vnr
+真男人	vnr
 只能算	vns
 真难听	vnt
 这哪是	vnu
@@ -13599,7 +13599,7 @@
 先吃饭	xif
 新成果	xig
 现场会	xih
-线程池	xii
+兴冲冲	xii
 县处级	xij
 新窗口	xik
 形成了	xil
@@ -15026,7 +15026,7 @@
 最清楚	zqi
 作曲家	zqj
 曾秋坤	zqk
-坐起来	zql
+做起来	zql
 在前面	zqm
 在去年	zqn
 最奇葩	zqp
@@ -15226,7 +15226,7 @@
 座右铭	zym
 在一年	zyn
 在一旁	zyp
-走一起	zyq
+在一起	zyq
 总有人	zyr
 做预算	zys
 做一套	zyt
