@@ -38,7 +38,7 @@ class Table:
                 return
         if self.has_quick_code(word, code):
             # print('讓全', word, code)
-            w = -1
+            # w = -1
 
         if code not in self.w2c[word]:
             self.w2c[word].append(code)
