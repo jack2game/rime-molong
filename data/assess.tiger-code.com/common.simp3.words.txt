@@ -744,7 +744,7 @@
 不管他	bgt
 不管是	bgu
 不跟着	bgv
-别怪我	bgw
+八股文	bgw
 不关心	bgx
 不管用	bgy
 不管在	bgz
@@ -899,7 +899,7 @@
 北美洲	bmv
 弼马温	bmw
 不明显	bmx
-并没有	bmy
+兵马俑	bmy
 不满足	bmz
 不难啊	bna
 不能不	bnb
@@ -969,8 +969,8 @@
 并且会	bqh
 不清楚	bqi
 白切鸡	bqj
-标签库	bqk
-比起来	bql
+不请客	bqk
+不去了	bql
 百千米	bqm
 比去年	bqn
 被欺骗	bqp
@@ -1090,7 +1090,7 @@
 保重啊	bva
 不准备	bvb
 把这次	bvc
-不值得	bvd
+不知道	bvd
 本主儿	bve
 辩证法	bvf
 把这个	bvg
@@ -1130,7 +1130,7 @@
 被围殴	bwo
 保温瓶	bwp
 别委屈	bwq
-不温柔	bwr
+别侮辱	bwr
 被玩死	bws
 报文头	bwt
 不完善	bwu
@@ -1284,7 +1284,7 @@
 蹭顿饭	cdf
 曾当过	cdg
 才到货	cdh
-猜得出	cdi
+从当初	cdi
 才多久	cdj
 草豆蔻	cdk
 猜到了	cdl
@@ -1869,7 +1869,7 @@
 但从未	dcw
 搭错线	dcx
 大草原	dcy
-都存在	dcz
+的存在	dcz
 等等啊	dda
 等等吧	ddb
 掉档次	ddc
@@ -2098,7 +2098,7 @@
 德鲁伊	dly
 掉链子	dlz
 大棉袄	dma
-代码表	dmb
+都没被	dmb
 代名词	dmc
 对面的	dmd
 大面儿	dme
@@ -2367,7 +2367,7 @@
 大小额	dxe
 东西方	dxf
 胆小鬼	dxg
-丁香花	dxh
+灯下黑	dxh
 多线程	dxi
 大小姐	dxj
 多学科	dxk
@@ -2380,7 +2380,7 @@
 带新人	dxr
 单相思	dxs
 低下头	dxt
-大学生	dxu
+地下室	dxu
 打雪仗	dxv
 的行为	dxw
 多想想	dxx
@@ -3532,7 +3532,7 @@
 负一层	fyc
 放远点	fyd
 法约尔	fye
-翻一翻	fyf
+发一份	fyf
 发一个	fyg
 放烟花	fyh
 反映出	fyi
@@ -3598,7 +3598,7 @@
 购并案	gba
 根本不	gbb
 广播操	gbc
-个别的	gbd
+搞不懂	gbd
 嘎巴儿	gbe
 工本费	gbf
 该不该	gbg
@@ -4201,7 +4201,7 @@
 很昂贵	hag
 晃啊晃	hah
 很爱吃	hai
-很安静	haj
+好安静	haj
 很爱看	hak
 磺胺类	hal
 皇阿玛	ham
@@ -4316,7 +4316,7 @@
 糊粉层	hfc
 恢复到	hfd
 会费额	hfe
-好方法	hff
+很丰富	hff
 很反感	hfg
 黄飞鸿	hfh
 混饭吃	hfi
@@ -4334,7 +4334,7 @@
 会发生	hfu
 恢复中	hfv
 划分为	hfw
-合法性	hfx
+会发现	hfx
 核反应	hfy
 很复杂	hfz
 黑鬼啊	hga
@@ -4501,14 +4501,14 @@
 哈密瓜	hmg
 还没好	hmh
 还没吃	hmi
-护目镜	hmj
+还没进	hmj
 还没看	hmk
 花木兰	hml
 很迷茫	hmm
 还没能	hmn
 号码牌	hmp
 很明确	hmq
-很迷人	hmr
+还没人	hmr
 还没算	hms
 海绵体	hmt
 还没试	hmu
@@ -4580,7 +4580,7 @@
 回去后	hqh
 好去处	hqi
 很清静	hqj
-还欠款	hqk
+很勤快	hqk
 合起来	hql
 花钱买	hqm
 胡青牛	hqn
@@ -5088,7 +5088,7 @@
 差了点	ild
 茶卤儿	ile
 炒冷饭	ilf
-陈列馆	ilg
+出了个	ilg
 出来后	ilh
 处理厂	ili
 超链接	ilj
@@ -5203,7 +5203,7 @@
 常青藤	iqt
 重庆市	iqu
 持枪证	iqv
-出去玩	iqw
+称其为	iqw
 出去下	iqx
 吃枪药	iqy
 吃枪子	iqz
@@ -5265,7 +5265,7 @@
 衬托出	iti
 朝天椒	itj
 赤铁矿	itk
-出台了	itl
+穿透力	itl
 朝天门	itm
 出头鸟	itn
 冲天炮	itp
@@ -5397,7 +5397,7 @@
 承运人	iyr
 超音速	iys
 成一团	iyt
-倡议书	iyu
+车钥匙	iyu
 创业者	iyv
 城域网	iyw
 差一下	iyx
@@ -5562,7 +5562,7 @@
 积分赛	jfs
 简繁体	jft
 就发生	jfu
-几分钟	jfv
+肩负着	jfv
 金饭碗	jfw
 就发现	jfx
 减肥药	jfy
@@ -5640,7 +5640,7 @@
 基础上	jiu
 进程中	jiv
 将成为	jiw
-基础性	jix
+检查下	jix
 检察院	jiy
 检查组	jiz
 姐姐啊	jja
@@ -5650,7 +5650,7 @@
 酒劲儿	jje
 激将法	jjf
 叫几个	jjg
-交际花	jjh
+几句话	jjh
 交界处	jji
 叫叫叫	jjj
 仅仅靠	jjk
@@ -5696,7 +5696,7 @@
 加里奥	jla
 俱乐部	jlb
 经理层	jlc
-记录的	jld
+家里的	jld
 捡漏儿	jle
 家乐福	jlf
 捡了个	jlg
@@ -5861,7 +5861,7 @@
 加什么	jsm
 就算能	jsn
 金算盘	jsp
-计时器	jsq
+加速器	jsq
 急死人	jsr
 计算所	jss
 计算题	jst
@@ -5912,7 +5912,7 @@
 几十年	jun
 就是哦	juo
 警示牌	jup
-计数器	juq
+计时器	juq
 驾驶人	jur
 九十三	jus
 精神头	jut
@@ -6491,7 +6491,7 @@
 开拓性	ktx
 口头语	kty
 课题组	ktz
-快说啊	kua
+开始啊	kua
 开始吧	kub
 可谁曾	kuc
 跨时代	kud
@@ -7093,7 +7093,7 @@
 两天后	lth
 轮胎厂	lti
 楼梯间	ltj
-灵通卡	ltk
+聊天框	ltk
 两条路	ltl
 令他们	ltm
 聊天呢	ltn
@@ -7219,7 +7219,7 @@
 炼油厂	lyi
 辣眼睛	lyj
 另一块	lyk
-利用率	lyl
+利用了	lyl
 另一面	lym
 领域内	lyn
 老妖婆	lyp
@@ -7290,7 +7290,7 @@
 末班车	mbi
 面包机	mbj
 抹不开	mbk
-明白了	mbl
+买不了	mbl
 明白吗	mbm
 每半年	mbn
 面包片	mbp
@@ -7773,7 +7773,7 @@
 满招损	mvs
 埋着头	mvt
 没追上	mvu
-没找着	mvv
+没这种	mvv
 没指望	mvw
 买这些	mvx
 没这样	mvy
@@ -8090,7 +8090,7 @@
 拈阄儿	nje
 能激发	njf
 哪几个	njg
-那句话	njh
+那就好	njh
 能坚持	nji
 能解决	njj
 能尽快	njk
@@ -9350,11 +9350,11 @@
 去广告	qgg
 庆功会	qgh
 全过程	qgi
-切割机	qgj
+请个假	qgj
 请观看	qgk
 去过了	qgl
 请购买	qgm
-全功能	qgn
+去过哪	qgn
 齐广璞	qgp
 曲棍球	qgq
 七个人	qgr
@@ -9434,9 +9434,9 @@
 敲键盘	qjp
 取景器	qjq
 全家人	qjr
-前景色	qjs
+拳击赛	qjs
 去几天	qjt
-情景时	qju
+求介绍	qju
 全剧终	qjv
 区纪委	qjw
 请继续	qjx
@@ -9700,7 +9700,7 @@
 请注明	qvm
 却只能	qvn
 亲中派	qvp
-前中期	qvq
+去追求	qvq
 去找人	qvr
 掐指算	qvs
 翘着腿	qvt
@@ -9761,7 +9761,7 @@
 请选择	qxz
 青玉案	qya
 企业版	qyb
-前一次	qyc
+去一次	qyc
 前一段	qyd
 起眼儿	qye
 七月份	qyf
@@ -9863,7 +9863,7 @@
 肉嘟嘟	rdd
 入洞房	rdf
 热导管	rdg
-惹的祸	rdh
+人都会	rdh
 热电厂	rdi
 让大家	rdj
 肉豆蔻	rdk
@@ -10146,7 +10146,7 @@
 嚷嚷着	rrv
 软任务	rrw
 柔韧性	rrx
-惹人厌	rry
+仍然有	rry
 仍然在	rrz
 瑞思拜	rsb
 染色法	rsf
@@ -10602,7 +10602,7 @@
 三毛儿	sme
 三面翻	smf
 什么鬼	smg
-赛马会	smh
+素描画	smh
 私密处	smi
 什么叫	smj
 司门口	smk
@@ -10771,9 +10771,9 @@
 所特有	sty
 宋太祖	stz
 算啥啊	sua
-三十八	sub
+算是吧	sub
 三十层	suc
-三十多	sud
+算谁的	sud
 三十二	sue
 损失费	suf
 三十个	sug
@@ -10989,7 +10989,7 @@
 听到啊	tda
 铁道部	tdb
 头等舱	tdc
-挺逗的	tdd
+太多的	tdd
 铜斗儿	tde
 天都峰	tdf
 听的歌	tdg
@@ -10998,7 +10998,7 @@
 特等奖	tdj
 通道口	tdk
 太低了	tdl
-他的美	tdm
+听到没	tdm
 土豆泥	tdn
 替代品	tdp
 他的钱	tdq
@@ -11052,7 +11052,7 @@
 太乏味	tfw
 突发性	tfx
 谭富英	tfy
-太复杂	tfz
+挺复杂	tfz
 台港澳	tga
 填个表	tgb
 他干脆	tgc
@@ -11565,7 +11565,7 @@
 十八岁	ubs
 说不通	ubt
 时不时	ubu
-殊不知	ubv
+睡不着	ubv
 说不完	ubw
 是不行	ubx
 是不用	uby
@@ -11627,7 +11627,7 @@
 舒尔茨	uec
 十二点	ued
 十二分	uef
-十二个	ueg
+扇耳光	ueg
 十二号	ueh
 十二处	uei
 少而精	uej
@@ -11715,8 +11715,8 @@
 耍花腔	uhq
 收货人	uhr
 深红色	uhs
-山核桃	uht
-上海市	uhu
+耍滑头	uht
+水很深	uhu
 受害者	uhv
 生活网	uhw
 社会学	uhx
@@ -11827,7 +11827,7 @@
 是没错	umc
 上面的	umd
 升米恩	ume
-什么法	umf
+省麻烦	umf
 审美观	umg
 什么话	umh
 寿命长	umi
@@ -11844,7 +11844,7 @@
 什么图	umt
 市面上	umu
 生命值	umv
-商贸网	umw
+双马尾	umw
 生命线	umx
 是没有	umy
 什么最	umz
@@ -12170,7 +12170,7 @@
 致癌性	vax
 治安员	vay
 专案组	vaz
-真笨啊	vba
+真棒啊	vba
 皱巴巴	vbb
 真不错	vbc
 找不到	vbd
@@ -12591,7 +12591,7 @@
 赵瑟瑟	vss
 这三条	vst
 这算是	vsu
-这三种	vsv
+追随者	vsv
 正所谓	vsw
 这三项	vsx
 之所以	vsy
@@ -12716,7 +12716,7 @@
 珠心算	vxs
 主席台	vxt
 直辖市	vxu
-正想着	vxv
+只想着	vxv
 只希望	vxw
 只相信	vxx
 中下游	vxy
@@ -12757,7 +12757,7 @@
 只在乎	vzh
 制造出	vzi
 宅在家	vzj
-赈灾款	vzk
+正在看	vzk
 周总理	vzl
 这怎么	vzm
 站在那	vzn
@@ -12811,7 +12811,7 @@
 我不欠	wbq
 我被人	wbr
 我不死	wbs
-我不太	wbt
+乌班图	wbt
 未必是	wbu
 我保证	wbv
 玩不玩	wbw
@@ -13275,7 +13275,7 @@
 未支付	wvf
 我这个	wvg
 完之后	wvh
-伪装成	wvi
+我支持	wvi
 无止境	wvj
 无折扣	wvk
 我这里	wvl
@@ -13558,7 +13558,7 @@
 西瓜皮	xgp
 先过去	xgq
 香港人	xgr
-新公司	xgs
+先告诉	xgs
 洗个头	xgt
 性格上	xgu
 小公主	xgv
@@ -13586,7 +13586,7 @@
 巡回赛	xhs
 小滑头	xht
 西红柿	xhu
-熊孩纸	xhv
+绣花针	xhv
 喜欢我	xhw
 喜欢些	xhx
 歇后语	xhy
@@ -13704,7 +13704,7 @@
 畜牧局	xmj
 小煤矿	xmk
 西米露	xml
-小妹妹	xmm
+香馍馍	xmm
 洗面奶	xmn
 虾米皮	xmp
 西门庆	xmq
@@ -13908,7 +13908,7 @@
 新周刊	xvk
 限制了	xvl
 先这么	xvm
-下中农	xvn
+吓着你	xvn
 写这篇	xvp
 行政区	xvq
 下周日	xvr
@@ -14227,7 +14227,7 @@
 要充分	yif
 已成功	yig
 演唱会	yih
-一串串	yii
+阴沉沉	yii
 有差距	yij
 一场空	yik
 预处理	yil
@@ -14602,7 +14602,7 @@
 一下午	yxw
 影响下	yxx
 有需要	yxy
-羊蝎子	yxz
+用心做	yxz
 一样啊	yya
 营业部	yyb
 又一次	yyc
@@ -14738,7 +14738,7 @@
 做的吗	zdm
 最多能	zdn
 自动炮	zdp
-左对齐	zdq
+早点去	zdq
 在担任	zdr
 真的是	zds
 走到头	zdt
@@ -15119,7 +15119,7 @@
 走神儿	zue
 在双方	zuf
 只是个	zug
-在社会	zuh
+早上好	zuh
 最擅长	zui
 在实际	zuj
 最深刻	zuk
