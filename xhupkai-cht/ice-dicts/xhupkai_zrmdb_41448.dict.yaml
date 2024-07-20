@@ -2626,7 +2626,7 @@ sort: by_weight
 㪯	ia;we
 㫅	ia;fq
 䁟	ia;oi
-䆛	ia;ri
+䆛	ia;xi
 䊬	ia;mk
 䑘	ia;ji
 䒲	ia;ci
@@ -3262,7 +3262,7 @@ sort: by_weight
 㲀	if;ui
 㴴	if;dh
 㽸	if;by
-䆣	if;ri
+䆣	if;xi
 䐜	if;ov
 䑣	if;vp
 䒞	if;cd
@@ -3393,9 +3393,9 @@ sort: by_weight
 䁎	ig;ot
 䁤	ig;od
 䄇	ig;ui
-䆑	ig;rd
-䆵	ig;rc
-䆸	ig;rd
+䆑	ig;xd
+䆵	ig;xc
+䆸	ig;xd
 䇸	ig;vi
 䔲	ig;cd
 䗊	ig;iy
@@ -4898,7 +4898,7 @@ sort: by_weight
 㭫	cr;mz
 㵀	cr;dz
 㸑	cr;xf
-䆘	cr;rj
+䆘	cr;xj
 䞼	cr;zh
 䰖	cr;iz
 巑	cr;uz
@@ -7156,7 +7156,7 @@ sort: by_weight
 㼢	ee;wi
 㼰	ee;wb
 䄉	ee;uw
-䆓	ee;ry
+䆓	ee;xy
 䑥	ee;vj
 䑪	ee;vh
 䓊	ee;cw
@@ -8968,7 +8968,7 @@ sort: by_weight
 㭘	ge;mh
 㵧	ge;dg
 㷴	ge;hl
-䆟	ge;rh
+䆟	ge;xh
 䈓	ge;vh
 䐙	ge;og
 䕻	ge;cl
@@ -11006,7 +11006,7 @@ sort: by_weight
 䀧	hs;og
 䂫	hs;uj
 䃔	hs;ug
-䆖	hs;rg
+䆖	hs;xg
 䉺	hs;mg
 䍔	hs;sg
 䜫	hs;gg
@@ -11753,7 +11753,7 @@ sort: by_weight
 䀓	hr;ow
 䀨	hr;ou
 䁔	hr;oy
-䆠	hr;ri
+䆠	hr;xi
 䈠	hr;vy
 䊐	hr;mk
 䍺	hr;yh
@@ -13810,7 +13810,7 @@ sort: by_weight
 䀊	jn;ml
 䁶	jn;oj
 䂃	jn;oj
-䆗	jn;rj
+䆗	jn;xj
 䘨	jn;yj
 䚩	jn;jq
 䜈	jn;yi
@@ -14369,7 +14369,7 @@ sort: by_weight
 㹏	jb;nj
 㻸	jb;wc
 䀆	jb;ym
-䆮	jb;rj
+䆮	jb;xj
 䉷	jb;vy
 䋮	jb;sj
 䌍	jb;sj
@@ -14912,7 +14912,7 @@ sort: by_weight
 䃊	ju;uj
 䄔	ju;uy
 䅓	ju;hy
-䆽	ju;rj
+䆽	ju;xj
 䈮	ju;vq
 䋰	ju;sj
 䎤	ju;lj
@@ -15364,8 +15364,8 @@ sort: by_weight
 㻡	jt;wy
 䀗	jt;og
 䁷	jt;ox
-䆕	jt;rg
-䆢	jt;rj
+䆕	jt;xg
+䆢	jt;xj
 䇶	jt;vj
 䈑	jt;vg
 䋉	jt;sx
@@ -16951,7 +16951,7 @@ sort: by_weight
 灡	lj;dj
 䃹	lj;ul
 䄤	lj;ul
-䆾	lj;rj
+䆾	lj;xj
 䊖	lj;mn
 䌫	lj;sl
 繿	lj;sj
@@ -17076,7 +17076,7 @@ sort: by_weight
 䀶	lh;ol
 䁁	lh;oj
 䃹	lh;ul
-䆡	lh;rl
+䆡	lh;xl
 䍚	lh;sl
 䕞	lh;cg
 䡙	lh;il
@@ -21035,7 +21035,7 @@ sort: by_weight
 㟰	mk;um
 㫥	mk;om
 䄙	mk;um
-䆨	mk;rh
+䆨	mk;xh
 䆩	mk;xd
 䊅	mk;mm
 䒌	mk;sm
@@ -24905,7 +24905,7 @@ sort: by_weight
 䀉	qn;mq
 䂭	qn;uj
 䃝	qn;uj
-䆻	qn;rg
+䆻	qn;xg
 䇌	qn;lx
 䎗	qn;yq
 䩌	qn;mj
@@ -25406,7 +25406,7 @@ sort: by_weight
 㷀	qs;hu
 㼇	qs;ws
 䅃	qs;hg
-䆳	qs;rv
+䆳	qs;xv
 䊄	qs;mg
 藭	qs;cg
 䛪	qs;yq
@@ -25663,7 +25663,7 @@ sort: by_weight
 䁦	qu;oc
 䂂	qu;oq
 䅓	qu;hy
-䆽	qu;rj
+䆽	qu;xj
 䋧	qu;sj
 䌌	qu;sx
 䏣	qu;oq
@@ -26098,7 +26098,7 @@ sort: by_weight
 𪖀	qt;uq
 㪊	qy;wj
 㿏	qy;bq
-䆽	qy;rj
+䆽	qy;xj
 䞭	qy;zj
 䭽	qy;mn
 囷	qy;kh
@@ -26649,7 +26649,7 @@ sort: by_weight
 㮕	rr;mr
 㼱	rr;wb
 㽭	rr;tx
-䆓	rr;ry
+䆓	rr;xy
 䎡	rr;eh
 䓴	rr;cr
 䙃	rr;yo
@@ -27682,7 +27682,7 @@ sort: by_weight
 㶒	uf;di
 㾕	uf;bx
 䄕	uf;ud
-䆦	uf;ry
+䆦	uf;xy
 䚓	uf;jq
 䧵	uf;vy
 䫖	uf;yu
@@ -28359,7 +28359,7 @@ sort: by_weight
 㽰	uu;pp
 㾁	uu;bv
 䃞	uu;uu
-䆝	uu;rx
+䆝	uu;xx
 䉀	uu;vu
 䎉	uu;yu
 䑕	uu;jy
@@ -28777,7 +28777,7 @@ sort: by_weight
 㺨	si;ws
 䂖	si;ud
 䃽	si;uv
-䇁	si;rx
+䇁	si;xx
 䇃	si;ls
 䎣	si;ly
 䏤	si;os
@@ -29278,7 +29278,7 @@ sort: by_weight
 㻽	sv;wj
 䅑	sv;ht
 䅗	sv;hw
-䆳	sv;rv
+䆳	sv;xv
 䉌	sv;vd
 繸	sv;ss
 䔹	sv;cd
@@ -29801,7 +29801,7 @@ sort: by_weight
 㽑	tj;gq
 䀡	tj;ov
 䃪	tj;ud
-䆱	tj;rd
+䆱	tj;xd
 䉡	tj;vd
 䊤	tj;mq
 䏙	tj;oy
@@ -30766,8 +30766,8 @@ sort: by_weight
 㼧	ts;wy
 㼿	ts;wt
 䂈	ts;mi
-䆚	ts;rt
-䆹	ts;rt
+䆚	ts;xt
+䆹	ts;xt
 䮵	ts;mt
 䳋	ts;ni
 䴀	ts;nt
@@ -35270,7 +35270,7 @@ sort: by_weight
 㷤	xt;uh
 㿱	xt;pv
 䀜	xt;ow
-䆷	xt;rj
+䆷	xt;xj
 䋉	xt;sx
 䎀	xt;yy
 䒸	xt;cx
@@ -35531,7 +35531,7 @@ sort: by_weight
 䃁	ya;uy
 䄰	ya;hy
 稏	ya;hy
-䆘	ya;rj
+䆘	ya;xj
 䊦	ya;my
 䍓	ya;sy
 䒁	ya;vx
@@ -36307,8 +36307,8 @@ sort: by_weight
 䁘	yc;oy
 䂚	yc;ux
 䄏	yc;ua
-䆙	yc;rv
-䆞	yc;ry
+䆙	yc;xv
+䆞	yc;xy
 䉰	yc;vj
 䋂	yc;sx
 䋤	yc;su
@@ -38149,7 +38149,7 @@ sort: by_weight
 䀁	yz;my
 䂚	yz;ux
 䅎	yz;hx
-䆜	yz;ry
+䆜	yz;xy
 䌊	yz;sy
 䍃	yz;vf
 䑻	yz;vy
@@ -38436,7 +38436,7 @@ sort: by_weight
 䃋	yu;uy
 䄏	yu;ua
 䄨	yu;hy
-䆷	yu;rj
+䆷	yu;xj
 䈅	yu;vh
 䉛	yu;va
 䋖	yu;sy
@@ -39160,8 +39160,8 @@ sort: by_weight
 㰛	yt;my
 㵸	yt;dc
 㹊	yt;nh
-䆕	yt;rg
-䆢	yt;rj
+䆕	yt;xg
+䆢	yt;xj
 䋐	yt;sy
 䋤	yt;su
 䎀	yt;yy
@@ -39310,7 +39310,7 @@ sort: by_weight
 㩈	yy;fj
 㷉	yy;ch
 㾓	yy;by
-䆬	yy;ry
+䆬	yy;xy
 䇖	yy;vp
 䉙	yy;vy
 䚋	yy;jy
@@ -39903,7 +39903,7 @@ sort: by_weight
 䃎	va;ui
 䄍	va;ux
 䄰	va;hy
-䆛	va;ri
+䆛	va;xi
 䋾	va;si
 䕢	va;cc
 䖳	va;iv
@@ -40481,7 +40481,7 @@ sort: by_weight
 䀅	ve;mu
 䂝	ve;ug
 䂞	ve;um
-䆛	ve;ri
+䆛	ve;xi
 䊞	ve;md
 䊮	ve;mv
 䋲	ve;sm
