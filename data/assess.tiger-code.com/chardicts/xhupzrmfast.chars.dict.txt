@@ -58235,7 +58235,8 @@
 𤪼	li	0	# auto
 𬒶	io	0	# auto
 𢁲	yy	0	# auto
-𡪫	gv	0	# auto
+𡪫	gv	0
+𡪫	zc	0
 𫊎	bi	0	# auto
 𥔥	nc	0	# auto
 𫬨	yk	0	# auto

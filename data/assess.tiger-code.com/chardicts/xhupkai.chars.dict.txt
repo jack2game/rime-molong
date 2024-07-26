@@ -69692,7 +69692,10 @@
 𤪼	lI;wl	0	# auto
 𬒶	iO;uu	0	# auto
 𢁲	yY;jy	0	# auto
-𡪫	gV;bo	0	# auto
+𡪫	gV;bg	0
+𡪫	zC;bd	0
+𡪫	zC;bg	0
+𡪫	gV;bd	0
 𠰕	iU;ik	0	# auto
 𫊎	bI;xt	0	# auto
 𥔥	nC;uw	0	# auto
@@ -89356,8 +89359,8 @@
 𦰢	nO;ce	0	# auto
 𦰨	iU;cy	0	# auto
 𦰨	zZ;cy	0	# auto
-𦰩	jB;ce	0	# auto
-𦰩	qB;ce	0	# auto
+𦰩	jB;cd	0	# auto
+𦰩	qB;cd	0	# auto
 𦰮	fU;cb	0	# auto
 𦰴	mI;cm	0	# auto
 𦰵	kK;cd	0	# auto

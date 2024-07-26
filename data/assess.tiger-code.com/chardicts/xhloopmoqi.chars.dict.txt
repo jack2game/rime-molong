@@ -154,7 +154,7 @@
 黑	hW;lh	35826
 额	eR;by	35463
 妈	mA;nm	35251
-换	hE;fd	34886
+换	hE;fr	34886
 们	mF;rm	34407
 难	nK;yv	34282
 同	tD;kk	33890
@@ -2383,7 +2383,7 @@
 滩	tJ;dv	228
 潭	tK;du	228
 辽	lM;zl	227
-唤	hE;kd	226
+唤	hE;kr	226
 例	lU;rd	226
 貂	dN;vk	226
 玄	xT;wy	225
@@ -2549,7 +2549,7 @@
 妓	jU;nv	175
 彦	yH;wp	175
 岩	yK;uu	174
-焕	hE;hd	174
+焕	hE;hr	174
 警	jA;ck	173
 啄	vP;ku	173
 琳	lN;wm	173
@@ -3947,7 +3947,7 @@
 谏	jN;yj	21
 奋	fD;dt	21
 诳	kA;yw	21
-曳	yW;yp	21
+曳	yW;op	21
 麝	uW;lc	21
 蕨	jY;cq	21
 煌	hA;hw	21
@@ -4225,7 +4225,7 @@
 阜	fY;pu	14
 旻	mN;ow	14
 朦	mH;ou	14
-涣	hE;dd	14
+涣	hE;dr	14
 炯	jF;hk	14
 奘	zG;pd	14
 歆	xB;lq	14
@@ -4861,7 +4861,7 @@
 骋	iJ;mk	6
 貉	hR;vk	6
 囟	xV;px	6
-奂	hE;dd	6
+奂	hE;dr	6
 椭	tQ;mo	6
 纫	rD;sr	6
 绌	iY;si	6
@@ -5346,7 +5346,7 @@
 滂	pH;df	3
 滟	yH;db	3
 珥	eY;we	3
-痪	hE;bd	3
+痪	hE;br	3
 隘	aU;em	3
 鲠	gJ;yg	3
 鹗	eW;kn	3
@@ -10487,7 +10487,7 @@
 㪭	lI;hy	0
 㪮	lL;yy	0
 㪯	iS;wf	0
-㪱	hE;wd	0
+㪱	hE;wr	0
 㪴	jC;yd	0
 㪵	bH;bd	0
 㪶	hI;bd	0
@@ -10553,7 +10553,7 @@
 㬄	iH;oi	0
 㬅	mH;ow	0
 㬆	mM;oo	0
-㬇	hE;od	0
+㬇	hE;or	0
 㬈	wF	0
 㬉	nY;od	0
 㬊	hE;oy	0
@@ -23994,7 +23994,7 @@
 涙	lQ;dd	1
 涚	uC;dx	1
 涜	dI;de	1
-涣	hC;dd	1
+涣	hC;dr	1
 涥	hG;dl	1
 涪	pX;dk	1
 涬	xJ;dg	1
@@ -26039,7 +26039,7 @@
 痥	dP;bx	1
 痦	pI;bk	1
 痩	uM;by	1
-痪	tY;bd	1
+痪	tY;br	1
 痬	yU;bw	1
 痭	bG;bo	1
 痭	pH;bo	1
