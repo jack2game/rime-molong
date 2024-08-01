@@ -1,0 +1,28 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.1
+
+patch:
+  schema/dependencies:
+    - zrloopmoqi
+  reverse_lookup:
+    dictionary: moran.extended
+    prism: moran
+    overwrite_comment: true
+    enable_completion: true
+    prefix: "!"
+    suffix: "'"
+    tips: "〔环墨>虎〕"
+    preedit_format:
+    - xform/([a-z][a-z][a-z][a-z])o/$1°/
+
+    comment_format:
+#    - affix_segmentor@reverse_huma
+#    - xform/^qh/:/
+#    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+    overwrite_comment: true
+
+  recognizer:
+    import_preset: default
+    patterns:
+      reverse_lookup: "^![a-z]*'?$"
