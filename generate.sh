@@ -78,17 +78,17 @@ else
 	cp ./zrloopkai-cht/moran.chars.dict.yaml ./data/assess.tiger-code.com/chardicts/zrloopkai.chars.dict.txt  && sed -i '0,/\.\.\./d' ./data/assess.tiger-code.com/chardicts/zrloopkai.chars.dict.txt
 	cp ./zrloopmoqi-cht/moran.chars.dict.yaml ./data/assess.tiger-code.com/chardicts/zrloopmoqi.chars.dict.txt  && sed -i '0,/\.\.\./d' ./data/assess.tiger-code.com/chardicts/zrloopmoqi.chars.dict.txt
 
-	sed -i -E 's/([^\t]*\t)(.)(.)/\1\2\u\3/' ./data/assess.tiger-code.com/chardicts/xhloopkai.chars.dict.txt
-	cat ./data/assess.tiger-code.com/chardicts/xhloopkai.chars.dict.txt >> ./xhupkai-cht/moran.chars.dict.yaml
-	cat ./data/assess.tiger-code.com/chardicts/xhloopkai.chars.dict.txt >> ./xhupkai-chs/moran.chars.dict.yaml
+	# sed -i -E 's/([^\t]*\t)(.)(.)/\1\2\u\3/' ./data/assess.tiger-code.com/chardicts/xhloopkai.chars.dict.txt
+	# cat ./data/assess.tiger-code.com/chardicts/xhloopkai.chars.dict.txt >> ./xhupkai-cht/moran.chars.dict.yaml
+	# cat ./data/assess.tiger-code.com/chardicts/xhloopkai.chars.dict.txt >> ./xhupkai-chs/moran.chars.dict.yaml
 
 	sed -i -E 's/([^\t]*\t)(.)(.)/\1\2\u\3/' ./data/assess.tiger-code.com/chardicts/xhupkai.chars.dict.txt
 	cat ./data/assess.tiger-code.com/chardicts/xhupkai.chars.dict.txt   >> ./xhloopkai-cht/moran.chars.dict.yaml
 	cat ./data/assess.tiger-code.com/chardicts/xhupkai.chars.dict.txt   >> ./xhloopkai-chs/moran.chars.dict.yaml
 
-	sed -i -E 's/([^\t]*\t)(.)(.)/\1\2\u\3/' ./data/assess.tiger-code.com/chardicts/xhloopmoqi.chars.dict.txt
-	cat ./data/assess.tiger-code.com/chardicts/xhloopmoqi.chars.dict.txt >> ./xhupmoqi-cht/moran.chars.dict.yaml
-	cat ./data/assess.tiger-code.com/chardicts/xhloopmoqi.chars.dict.txt >> ./xhupmoqi-chs/moran.chars.dict.yaml
+	# sed -i -E 's/([^\t]*\t)(.)(.)/\1\2\u\3/' ./data/assess.tiger-code.com/chardicts/xhloopmoqi.chars.dict.txt
+	# cat ./data/assess.tiger-code.com/chardicts/xhloopmoqi.chars.dict.txt >> ./xhupmoqi-cht/moran.chars.dict.yaml
+	# cat ./data/assess.tiger-code.com/chardicts/xhloopmoqi.chars.dict.txt >> ./xhupmoqi-chs/moran.chars.dict.yaml
 
 	sed -i -E 's/([^\t]*\t)(.)(.)/\1\2\u\3/' ./data/assess.tiger-code.com/chardicts/xhupmoqi.chars.dict.txt
 	cat ./data/assess.tiger-code.com/chardicts/xhupmoqi.chars.dict.txt >> ./xhloopmoqi-cht/moran.chars.dict.yaml
@@ -98,9 +98,9 @@ else
 	cat ./data/assess.tiger-code.com/chardicts/morankai.chars.dict.txt >> ./zrloopkai-cht/moran.chars.dict.yaml
 	cat ./data/assess.tiger-code.com/chardicts/morankai.chars.dict.txt >> ./zrloopkai-chs/moran.chars.dict.yaml
 
-	sed -i -E 's/([^\t]*\t)(.)(.)/\1\2\u\3/' ./data/assess.tiger-code.com/chardicts/zrloopkai.chars.dict.txt
-	cat ./data/assess.tiger-code.com/chardicts/zrloopkai.chars.dict.txt >> ./morankai-cht/moran.chars.dict.yaml
-	cat ./data/assess.tiger-code.com/chardicts/zrloopkai.chars.dict.txt >> ./morankai-chs/moran.chars.dict.yaml
+	# sed -i -E 's/([^\t]*\t)(.)(.)/\1\2\u\3/' ./data/assess.tiger-code.com/chardicts/zrloopkai.chars.dict.txt
+	# cat ./data/assess.tiger-code.com/chardicts/zrloopkai.chars.dict.txt >> ./morankai-cht/moran.chars.dict.yaml
+	# cat ./data/assess.tiger-code.com/chardicts/zrloopkai.chars.dict.txt >> ./morankai-chs/moran.chars.dict.yaml
 
 	cd tools-additional/
 

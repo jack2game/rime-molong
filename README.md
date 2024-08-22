@@ -17,12 +17,12 @@
 | `molong`      | 自然龍     | 自然龍     | -         |            |
 | `molongkai`   | 自然龍     | 魔然      | -         | 大竹查詢：`魔龙`  |
 | `molongmoqi`  | 自然龍     | 墨奇碼     | -         |            |
-| `morankai`    | 自然雙拼    | 魔然      | 環形自然      |            |
+| `morankai`    | 自然雙拼    | 魔然      | -         |            |
 | `xhloopfly`   | 環形鶴     | 小鶴雙形    | -         |            |
 | `xhloopkai`   | 環形鶴     | 魔然      | 小鶴雙拼      | 大竹查詢：`环形鹤` |
 | `xhloopmoqi`  | 環形鶴     | 墨奇碼     | 小鶴雙拼      |            |
-| `xhupkai`     | 小鶴雙拼    | 魔然      | 環形鶴       |            |
-| `xhupmoqi`    | 小鶴雙拼    | 墨奇碼     | 環形鶴       |            |
+| `xhupkai`     | 小鶴雙拼    | 魔然      | -         |            |
+| `xhupmoqi`    | 小鶴雙拼    | 墨奇碼     | -         |            |
 | `xhupzrmfast` | 小鶴雙拼    | 自然快手    | -         |            |
 | `zrloopkai`   | 環形自然    | 魔然      | 自然雙拼      |            |
 | `zrloopmoqi`  | 環形自然    | 墨奇碼     | -         |            |
