@@ -261,13 +261,13 @@ sed -i "s/^  name: 魔然·輔篩$/  name: xhloopzzd輔篩/g" ./xhloopzzd_aux.sc
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopzzd_aux.schema.yaml
 sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「xhloopzzd」方案不同。/g" ./xhloopzzd_aux.schema.yaml
 
-cp moran_bj.schema.yaml xhloopzzd_bj.schema.yaml
-sed -i "s/^  schema_id: moran_bj$/  schema_id: xhloopzzd_bj/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^  name: 魔然·並擊G$/  name: xhloopzzd並擊/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopzzd = moran + xhloop + zzd + snow/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^    - moran_fixed$/    - xhloopzzd_fixed/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^    - moran_sentence$/    - xhloopzzd_sentence/g" ./xhloopzzd_bj.schema.yaml
+# cp moran_bj.schema.yaml xhloopzzd_bj.schema.yaml
+# sed -i "s/^  schema_id: moran_bj$/  schema_id: xhloopzzd_bj/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^  name: 魔然·並擊G$/  name: xhloopzzd並擊/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopzzd = moran + xhloop + zzd + snow/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^    - moran_fixed$/    - xhloopzzd_fixed/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^    - moran_sentence$/    - xhloopzzd_sentence/g" ./xhloopzzd_bj.schema.yaml
 
 cp moran_fixed.schema.yaml xhloopzzd_fixed.schema.yaml
 sed -i "s/^  schema_id: moran_fixed$/  schema_id: xhloopzzd_fixed/g" ./xhloopzzd_fixed.schema.yaml
@@ -318,13 +318,13 @@ sed -i "s/^  name: 魔然·輔篩$/  name: xhloopzzd輔篩/g" ./xhloopzzd_aux.sc
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopzzd_aux.schema.yaml
 sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「xhloopzzd」方案不同。/g" ./xhloopzzd_aux.schema.yaml
 
-cp moran_bj.schema.yaml xhloopzzd_bj.schema.yaml
-sed -i "s/^  schema_id: moran_bj$/  schema_id: xhloopzzd_bj/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^  name: 魔然·並擊G$/  name: xhloopzzd並擊/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopzzd = moran + xhloop + zzd + snow/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^    - moran_fixed$/    - xhloopzzd_fixed/g" ./xhloopzzd_bj.schema.yaml
-sed -i "s/^    - moran_sentence$/    - xhloopzzd_sentence/g" ./xhloopzzd_bj.schema.yaml
+# cp moran_bj.schema.yaml xhloopzzd_bj.schema.yaml
+# sed -i "s/^  schema_id: moran_bj$/  schema_id: xhloopzzd_bj/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^  name: 魔然·並擊G$/  name: xhloopzzd並擊/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhloopzzd = moran + xhloop + zzd + snow/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^    - moran_fixed$/    - xhloopzzd_fixed/g" ./xhloopzzd_bj.schema.yaml
+# sed -i "s/^    - moran_sentence$/    - xhloopzzd_sentence/g" ./xhloopzzd_bj.schema.yaml
 
 cp moran_fixed.schema.yaml xhloopzzd_fixed.schema.yaml
 sed -i "s/^  schema_id: moran_fixed$/  schema_id: xhloopzzd_fixed/g" ./xhloopzzd_fixed.schema.yaml

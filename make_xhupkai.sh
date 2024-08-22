@@ -261,13 +261,13 @@ sed -i "s/^  name: 魔然·輔篩$/  name: xhupkai輔篩/g" ./xhupkai_aux.schema
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhupkai_aux.schema.yaml
 sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「xhupkai」方案不同。/g" ./xhupkai_aux.schema.yaml
 
-cp moran_bj.schema.yaml xhupkai_bj.schema.yaml
-sed -i "s/^  schema_id: moran_bj$/  schema_id: xhupkai_bj/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^  name: 魔然·並擊G$/  name: xhupkai並擊/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhupkai = moran + xhup + moranshape + ice/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^    - moran_fixed$/    - xhupkai_fixed/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^    - moran_sentence$/    - xhupkai_sentence/g" ./xhupkai_bj.schema.yaml
+# cp moran_bj.schema.yaml xhupkai_bj.schema.yaml
+# sed -i "s/^  schema_id: moran_bj$/  schema_id: xhupkai_bj/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^  name: 魔然·並擊G$/  name: xhupkai並擊/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhupkai = moran + xhup + moranshape + ice/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^    - moran_fixed$/    - xhupkai_fixed/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^    - moran_sentence$/    - xhupkai_sentence/g" ./xhupkai_bj.schema.yaml
 
 cp moran_fixed.schema.yaml xhupkai_fixed.schema.yaml
 sed -i "s/^  schema_id: moran_fixed$/  schema_id: xhupkai_fixed/g" ./xhupkai_fixed.schema.yaml
@@ -318,13 +318,13 @@ sed -i "s/^  name: 魔然·輔篩$/  name: xhupkai輔篩/g" ./xhupkai_aux.schema
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhupkai_aux.schema.yaml
 sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「xhupkai」方案不同。/g" ./xhupkai_aux.schema.yaml
 
-cp moran_bj.schema.yaml xhupkai_bj.schema.yaml
-sed -i "s/^  schema_id: moran_bj$/  schema_id: xhupkai_bj/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^  name: 魔然·並擊G$/  name: xhupkai並擊/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhupkai = moran + xhup + moranshape + ice/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^    - moran_fixed$/    - xhupkai_fixed/g" ./xhupkai_bj.schema.yaml
-sed -i "s/^    - moran_sentence$/    - xhupkai_sentence/g" ./xhupkai_bj.schema.yaml
+# cp moran_bj.schema.yaml xhupkai_bj.schema.yaml
+# sed -i "s/^  schema_id: moran_bj$/  schema_id: xhupkai_bj/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^  name: 魔然·並擊G$/  name: xhupkai並擊/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    xhupkai = moran + xhup + moranshape + ice/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^    - moran_fixed$/    - xhupkai_fixed/g" ./xhupkai_bj.schema.yaml
+# sed -i "s/^    - moran_sentence$/    - xhupkai_sentence/g" ./xhupkai_bj.schema.yaml
 
 cp moran_fixed.schema.yaml xhupkai_fixed.schema.yaml
 sed -i "s/^  schema_id: moran_fixed$/  schema_id: xhupkai_fixed/g" ./xhupkai_fixed.schema.yaml

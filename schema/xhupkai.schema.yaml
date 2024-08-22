@@ -78,7 +78,7 @@ engine:
     - reverse_lookup_translator@reverse_radical
     - reverse_lookup_translator@reverse_bopomofo
     - table_translator@custom_phrase       # 自定義短語
-    - table_translator@english             # 英語混輸
+    # - table_translator@english             # 英語混輸
     #- table_translator@japanese            # 日語混輸
     - lua_translator@*moran_express_translator@with_reorder # 翻譯器
     - lua_translator@*moran_shijian        # 日期orq 節氣ojq 星期oxq 時間osj
@@ -191,6 +191,7 @@ emoji:
   opencc_config: moran_emoji.json
   option_name: emoji
   tips: none
+  tags: [has_emoji]
 
 std_hk:
   opencc_config: t2hk.json
@@ -309,6 +310,7 @@ recognizer:
     reverse_bopomofo: '^ovy[A-Za-z0-9,.;/\-]*$'
     unicode: "^U[a-fA-F0-9]+"
     punct: '^/([0-9]0?|[A-Za-z]+)$'
+    has_emoji: '^[a-z][a-z/]*$'
 
 moran:
   # 簡快碼提示符
