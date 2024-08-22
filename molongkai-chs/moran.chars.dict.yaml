@@ -853,7 +853,6 @@ use_preset_vocabulary: false
 味	wk;kw	5833
 交	jm;li	5820
 交	jm;wf	5820
-交	jm;df	5820
 四	st;aa	5806
 四	st;ke	5806
 投	ta;fu	5795
@@ -2671,7 +2670,6 @@ use_preset_vocabulary: false
 黎	lb;ur	391
 亭	tn;wd	391
 亭	tn;db	391
-亭	tn;dd	391
 阉	yn;md	391
 阉	yn;my	391
 荼	tl;cy	391
@@ -4730,7 +4728,6 @@ use_preset_vocabulary: false
 衮	go;ly	30
 衮	go;yg	30
 衮	go;wy	30
-衮	go;dy	30
 豺	id;vc	30
 厥	ji;ij	30
 厥	ji;iq	30
@@ -8228,7 +8225,6 @@ use_preset_vocabulary: false
 亸	dl;xd	2
 倏	ua;rq	2
 兖	yo;ly	2
-兖	yo;de	2
 兖	yo;we	2
 隗	wj;eg	2
 鲵	nb;ye	2

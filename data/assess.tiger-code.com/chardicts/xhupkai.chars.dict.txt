@@ -542,7 +542,6 @@
 亣	tD;wd	469
 交	jN;li	15564
 交	jN;wf	15564
-交	jN;df	15564
 亥	hD;wr	825
 亥	hD;dd	825
 亦	yI;wb	6363
@@ -563,7 +562,6 @@
 京	yR;wx	0
 亭	tK;wd	2147
 亭	tK;db	2147
-亭	tK;dd	2147
 亮	lL;wj	5238
 亮	lL;jb	5238
 亯	xL;dr	322
@@ -1559,7 +1557,6 @@
 兔	tU;dd	2208
 兕	sI;ea	536
 兖	yJ;ly	0
-兖	yJ;de	0
 兖	yJ;we	0
 兗	yJ;lx	573
 兗	yJ;wx	573
@@ -7499,10 +7496,10 @@
 徱	pN;xp	207
 徲	iI;xx	270
 徳	dE;xx	661
-徴	vG;xw	491
-徴	vI;xw	491
+徴	vG;xw	0
+徴	vI;xw	0
 徵	vG;xw	2215
-徵	vI;xw	117
+徵	vI;xw	491
 徶	bP;xb	277
 德	dE;xx	8041
 徸	vS;xt	248
@@ -23776,7 +23773,6 @@
 衮	gY;ly	0
 衮	gY;yg	0
 衮	gY;wy	0
-衮	gY;dy	0
 衯	fF;yf	486
 衰	cV;yv	12
 衰	uK;yv	1934
@@ -34029,6 +34025,7 @@
 𨽕	tK;et	0
 𤕈	lM;vl	0
 𩠐	uZ;iz	0
+丼	dS;jd	39
 
 # 偏旁部首
 丆	pP;ap	0
@@ -34157,6 +34154,7 @@
 𠂉	pP;ra	0
 𠃓	pP;yp	0
 𥫗	pP;vd	0
+⻗	pP;yu	0
 
 # 其他增補
 〇	lK;aa	981
@@ -34190,6 +34188,7 @@
 兣	lI;kl	0
 𠒐	wJ;kw	0
 圕	tU;ku	0
+𱕸	tU;ku	0
 
 #---------- 增補1
 㐜	iZ;qj	0	# auto

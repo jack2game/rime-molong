@@ -565,7 +565,6 @@ use_preset_vocabulary: false
 亣	td;wd	0
 交	jn;li	898418
 交	jn;wf	898418
-交	jn;df	898418
 亥	hd;wr	11845
 亥	hd;dd	11845
 亦	yi;wb	205335
@@ -586,7 +585,6 @@ use_preset_vocabulary: false
 京	yr;wx	0
 亭	tk;wd	72135
 亭	tk;db	72135
-亭	tk;dd	72135
 亮	ll;wj	693524
 亮	ll;jb	693524
 亯	xl;dr	0
@@ -1582,7 +1580,6 @@ use_preset_vocabulary: false
 兔	tu;dd	65122
 兕	si;ea	791
 兖	yj;ly	3094
-兖	yj;de	3094
 兖	yj;we	3094
 兗	yj;lx	0
 兗	yj;wx	0
@@ -23799,7 +23796,6 @@ use_preset_vocabulary: false
 衮	gy;ly	12074
 衮	gy;yg	12074
 衮	gy;wy	12074
-衮	gy;dy	12074
 衯	ff;yf	0
 衰	cv;yv	0
 衰	uk;yv	46360
@@ -34052,6 +34048,7 @@ use_preset_vocabulary: false
 𨽕	tk;et	0
 𤕈	lm;vl	0
 𩠐	uz;iz	0
+丼	ds;jd	0
 
 # 偏旁部首
 丆	pp;ap	0
@@ -34180,6 +34177,7 @@ use_preset_vocabulary: false
 𠂉	pp;ra	0
 𠃓	pp;yp	0
 𥫗	pp;vd	0
+⻗	pp;yu	0
 
 # 其他增補
 〇	lk;aa	0
@@ -34213,6 +34211,7 @@ use_preset_vocabulary: false
 兣	li;kl	0
 𠒐	wj;kw	0
 圕	tu;ku	0
+𱕸	tu;ku	0
 
 #---------- 增補1
 㐜	iz;qj	0	# auto

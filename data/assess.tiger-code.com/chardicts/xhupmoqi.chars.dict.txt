@@ -6028,10 +6028,10 @@
 徱	pN;ru	207
 徲	iI;rn	270
 徳	dE;rx	661
-徴	vG;rw	491
-徴	vI;rw	491
+徴	vG;rw	0
+徴	vI;rw	0
 徵	vG;rw	2215
-徵	vI;rw	117
+徵	vI;rw	491
 徶	bP;rx	277
 德	dE;rx	8041
 徸	vS;rl	248
@@ -27889,6 +27889,7 @@
 𨽕	tK	0
 𤕈	lM	0
 𩠐	uZ	0
+丼	dS;jd	39
 丆	pP;ap	0
 丌	pP;al	0
 丨	pP;ll	0
@@ -27999,6 +28000,7 @@
 𠂉	pP	0
 𠃓	pP	0
 𥫗	pP	0
+⻗	pP	0
 〇	lK;vv	981
 の	nO	0
 𠷡	bD	0
@@ -28016,6 +28018,7 @@
 瓱	hC	0
 兞	hC	0
 𠒐	wJ	0
+𱕸	tU	0
 㐜	iZ;qj	0	# auto
 㐡	nO;jd	0	# auto
 㐡	rU;jd	0	# auto
