@@ -34026,6 +34026,8 @@
 𤕈	lM;vl	0
 𩠐	uZ;iz	0
 丼	dS;jd	39
+𮱜	gV;dl	0
+𮱜	gV;zm	0
 
 # 偏旁部首
 丆	pP;ap	0
@@ -35263,61 +35265,61 @@
 㡪	nP;jw	0	# auto
 㡫	yI;yh	0	# auto
 㡮	jI;jq	0	# auto
-㡯	dO;yv	0	# auto
-㡯	dU;yv	0	# auto
-㡯	vD;yv	0	# auto
-㡰	yU;yy	0	# auto
-㡱	jQ;yj	0	# auto
-㡲	hR;yg	0	# auto
-㡳	vI;yu	0	# auto
-㡴	lA;yl	0	# auto
-㡵	lK;yl	0	# auto
-㡶	vI;yv	0	# auto
-㡷	bF;yb	0	# auto
-㡸	iA;yv	0	# auto
-㡸	vA;yv	0	# auto
-㡹	jU;yq	0	# auto
-㡺	dJ;yd	0	# auto
-㡻	lN;ym	0	# auto
-㡼	yI;yy	0	# auto
-㡽	vC;yy	0	# auto
-㡾	xM;yg	0	# auto
-㡿	iI;yn	0	# auto
-㢀	cI;yc	0	# auto
-㢁	iI;yd	0	# auto
-㢁	uI;yd	0	# auto
-㢂	dV;yd	0	# auto
-㢂	tV;yd	0	# auto
-㢂	yJ;yd	0	# auto
-㢃	lH;yl	0	# auto
-㢄	dZ;yd	0	# auto
-㢅	lS;yn	0	# auto
-㢆	iJ;yl	0	# auto
-㢈	dV;yv	0	# auto
-㢈	tV;yv	0	# auto
-㢉	iA;yi	0	# auto
-㢊	aI;yq	0	# auto
-㢊	yI;yq	0	# auto
-㢋	iI;yi	0	# auto
-㢍	yK;yy	0	# auto
-㢎	vE;yi	0	# auto
-㢏	tZ;yy	0	# auto
-㢏	yU;yy	0	# auto
-㢑	tV;ys	0	# auto
-㢒	iA;yc	0	# auto
-㢓	yC;yv	0	# auto
-㢔	zS;yc	0	# auto
-㢖	bJ;yf	0	# auto
-㢖	pJ;yf	0	# auto
-㢗	qN;yq	0	# auto
+㡯	dO;gv	0	# auto
+㡯	dU;gv	0	# auto
+㡯	vD;gv	0	# auto
+㡰	yU;gy	0	# auto
+㡱	jQ;gj	0	# auto
+㡲	hR;gg	0	# auto
+㡳	vI;gu	0	# auto
+㡴	lA;gl	0	# auto
+㡵	lK;gl	0	# auto
+㡶	vI;gv	0	# auto
+㡷	bF;gb	0	# auto
+㡸	iA;gv	0	# auto
+㡸	vA;gv	0	# auto
+㡹	jU;gq	0	# auto
+㡺	dJ;gd	0	# auto
+㡻	lN;gm	0	# auto
+㡼	yI;gy	0	# auto
+㡽	vC;gy	0	# auto
+㡾	xM;gg	0	# auto
+㡿	iI;gn	0	# auto
+㢀	cI;gc	0	# auto
+㢁	iI;gd	0	# auto
+㢁	uI;gd	0	# auto
+㢂	dV;gd	0	# auto
+㢂	tV;gd	0	# auto
+㢂	yJ;gd	0	# auto
+㢃	lH;gl	0	# auto
+㢄	dZ;gd	0	# auto
+㢅	lS;gn	0	# auto
+㢆	iJ;gl	0	# auto
+㢈	dV;gv	0	# auto
+㢈	tV;gv	0	# auto
+㢉	iA;gi	0	# auto
+㢊	aI;gq	0	# auto
+㢊	yI;gq	0	# auto
+㢋	iI;gi	0	# auto
+㢍	yK;gy	0	# auto
+㢎	vE;gi	0	# auto
+㢏	tZ;gy	0	# auto
+㢏	yU;gy	0	# auto
+㢑	tV;gs	0	# auto
+㢒	iA;gc	0	# auto
+㢓	yC;gv	0	# auto
+㢔	zS;gc	0	# auto
+㢖	bJ;gf	0	# auto
+㢖	pJ;gf	0	# auto
+㢗	qN;gq	0	# auto
 㢘	lM;gh	0	# auto
-㢙	qB;yq	0	# auto
-㢚	lU;yl	0	# auto
-㢛	qM;yj	0	# auto
-㢛	yJ;yj	0	# auto
-㢜	kH;ys	0	# auto
-㢝	sU;ys	0	# auto
-㢞	yI;yy	0	# auto
+㢙	qB;gq	0	# auto
+㢚	lU;gl	0	# auto
+㢛	qM;gj	0	# auto
+㢛	yJ;gj	0	# auto
+㢜	kH;gs	0	# auto
+㢝	sU;gs	0	# auto
+㢞	yI;gy	0	# auto
 㢠	hV;zh	0	# auto
 㢡	jL;cj	0	# auto
 㢣	jK;cj	0	# auto
@@ -117764,9 +117766,9 @@
 橧	cG;mc	0
 竲	zG;lc	0
 㛳	iA;nd	0
-㢎	zE;yi	0
-㢎	iA;yi	0
-㢎	vD;yi	0
+㢎	zE;gi	0
+㢎	iA;gi	0
+㢎	vD;gi	0
 㪯	qU;we	0
 㪯	jU;we	0
 㫅	uI;fq	0
@@ -118171,8 +118173,8 @@
 鋜	vO;jz	0
 鏃	iO;jz	0
 㘹	cI;tc	0
-㡹	cI;yq	0
-㢀	zI;yc	0
+㡹	cI;gq	0
+㢀	zI;gc	0
 㩞	cI;fr	0
 㹂	cI;nq	0
 䆅	cI;hz	0
@@ -118377,8 +118379,8 @@
 棏	dE;mc	0
 扥	dF;fg	0
 扽	dF;ft	0
-㡳	dI;yu	0
-㡳	vE;yu	0
+㡳	dI;gu	0
+㡳	vE;gu	0
 㹍	dU;nd	0
 䀸	vI;ov	0
 䀸	dI;ov	0
@@ -121367,7 +121369,7 @@
 軮	yH;iy	0
 鴹	yH;ny	0
 㔽	yZ;bh	0
-㢓	vH;yv	0
+㢓	vH;gv	0
 㮁	yC;my	0
 㵸	yT;dc	0
 㿢	vV;bm	0
