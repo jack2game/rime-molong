@@ -213,8 +213,6 @@
 | ---------- | --------------------------------------------------------------------------------------------------------- |
 | `S`引導數字轉大寫 | <img src="https://github.com/jack2game/rime-molong/assets/16070158/2861499d-1b52-4172-993f-ea48948c8e0d"> |
 
-## 性能對比汇总
-![Sidebyside_Page2](https://github.com/jack2game/rime-molong/assets/16070158/1a1a8266-9758-42a0-866f-0fd24ef6d767)
 
 ## 相關鏈接
 [℞魔然](https://github.com/ksqsf/rime-moran)  [℞自然龍](https://github.com/Elflare/rime-zrlong)  [℞冰雪拼音](https://github.com/hanzi-chai/rime-snow-pinyin)  [℞霧凇拼音](https://github.com/iDvel/rime-ice)  [℞墨奇音形](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
