@@ -27,12 +27,6 @@
 | `zrloopkai`   | 環形自然    | 魔然      | 自然雙拼      |            |
 | `zrloopmoqi`  | 環形自然    | 墨奇碼     | -         |            |
 
-### 性能對比
-- 與其他音形碼相比，龍系列以及環形系列方案在詞組和單字兩方面均大幅領先
-- 與其他形碼相比，龍系列以及環形方案也同樣表現優異，僅稍落後於虎碼這樣的亂序形碼
-- 性能測試的原始數據請參考[這裏](https://github.com/jack2game/rime-molong/tree/main/data/assess.tiger-code.com/chardicts)和[這裏](https://github.com/jack2game/rime-molong/tree/main/data/assess.tiger-code.com/screenshots)
-
-![Sidebyside_Page1](https://github.com/jack2game/rime-molong/assets/16070158/bfd1e1ce-2546-44a0-bd20-baa58487f87f)
 
 ## 音碼方案
 ### ❶自然龍音碼
