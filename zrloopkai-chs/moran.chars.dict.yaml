@@ -5292,6 +5292,7 @@ use_preset_vocabulary: false
 颦	pm;bp	15
 颦	pm;vb	15
 艰	jm;yg	15
+艰	jm;gy	15
 琉	lw;wi	15
 谒	yw;yh	15
 娱	yb;nw	15
@@ -14821,7 +14822,7 @@ use_preset_vocabulary: false
 䋙	ey;se	0
 䋚	yu;sy	0
 䋛	mp;sm	0
-䋜	qt;sh	0
+䋜	qt;sy	0
 䋞	wk;sw	0
 䋟	ju;sj	0
 䋠	bo;sf	0
@@ -14899,7 +14900,7 @@ use_preset_vocabulary: false
 䌞	lx;sj	0
 䌟	bp;sb	0
 䌟	bu;sb	0
-䌠	jm;sh	0
+䌠	jm;sq	0
 䌡	tp;sl	0
 䌢	lu;sl	0
 䌣	zy;sg	0
@@ -34736,8 +34737,8 @@ use_preset_vocabulary: false
 艮	hg;vd	1
 艮	hg;xy	1
 良	lg;dg	1
-艱	jm;cg	1
 艱	jm;gh	1
+艱	jm;cg	1
 艴	fi;fs	1
 艴	fi;sf	1
 艴	pm;fs	1
@@ -68167,9 +68168,9 @@ use_preset_vocabulary: false
 掅	qn;fq	0
 䲔	qt;yj	0
 䲔	jy;yj	0
-䌠	qt;sh	0
-䌠	yl;sh	0
-䌠	yb;sh	0
+䌠	qt;sq	0
+䌠	yl;sq	0
+䌠	yb;sq	0
 𤪞	qd;ww	0
 䆳	sc;xv	0
 䛪	wc;yq	0
@@ -81568,6 +81569,8 @@ use_preset_vocabulary: false
 曱	yA;oa	456
 曱	yT;aa	456
 曱	yT;oa	456
+曱	gA;aa	456
+曱	gA;oa	456
 曲	qU;aa	4049
 曲	qU;oa	4049
 曳	yE;ap	736
@@ -85722,6 +85725,7 @@ use_preset_vocabulary: false
 煥	hR;hd	1213
 煥	hR;hh	1213
 煦	xU;hx	711
+煦	xU;hj	711
 照	vK;hv	10565
 煨	wZ;hw	755
 煩	fJ;hy	7711
@@ -87235,6 +87239,7 @@ use_preset_vocabulary: false
 申	uF;oa	2956
 甴	vA;aa	578
 甴	yB;aa	578
+甴	zA;aa	578
 电	dM;ag	0
 电	dM;og	0
 甶	fU;pt	352
@@ -90812,7 +90817,7 @@ use_preset_vocabulary: false
 繉	hP;sv	256
 繉	vK;sv	256
 繊	xM;sg	379
-繋	xI;su	528
+繋	xI;su	0
 繌	uA;sw	525
 繌	zS;sw	525
 繍	xQ;ss	434
@@ -92431,8 +92436,9 @@ use_preset_vocabulary: false
 艮	gF;xy	811
 良	lD;dg	3628
 艰	jM;yg	0
-艱	jM;cg	772
+艰	jM;gy	0
 艱	jM;gh	772
+艱	jM;cg	772
 色	sE;db	8484
 色	uE;db	1
 色	uL;db	8
@@ -109024,7 +109030,7 @@ use_preset_vocabulary: false
 䋙	eR;se	0	# auto
 䋚	yI;sy	0	# auto
 䋛	mI;sm	0	# auto
-䋜	qY;sh	0	# auto
+䋜	qY;sy	0	# auto
 䋞	wH;sw	0	# auto
 䋟	jI;sj	0	# auto
 䋠	bU;sf	0	# auto
@@ -109099,7 +109105,7 @@ use_preset_vocabulary: false
 䌞	lM;sj	0	# auto
 䌟	bI;sb	0	# auto
 䌟	bO;sb	0	# auto
-䌠	jM;sh	0	# auto
+䌠	jM;sq	0	# auto
 䌡	tI;sl	0	# auto
 䌢	lY;sl	0	# auto
 䌣	zR;sg	0	# auto
@@ -157106,7 +157112,7 @@ use_preset_vocabulary: false
 𥞣	qS;gh	0	# auto
 𥞣	qS;hk	0	# auto
 𥞤	gU;ha	0	# auto
-𥞤	gU;th	0	# auto
+𥞤	gU;uh	0	# auto
 𥞥	lX;hl	0	# auto
 𥞥	lX;lh	0	# auto
 𥞦	jW;hj	0	# auto
@@ -191691,9 +191697,9 @@ use_preset_vocabulary: false
 鳹	qN;nj	0
 鵭	qN;jn	0
 鵭	qN;nj	0
-䌠	qY;sh	0
-䌠	yJ;sh	0
-䌠	yN;sh	0
+䌠	qY;sq	0
+䌠	yJ;sq	0
+䌠	yN;sq	0
 䔛	qY;cq	0
 儬	qY;rj	0
 儬	qY;rl	0
@@ -192645,9 +192651,6 @@ use_preset_vocabulary: false
 冣	zV;bq	0
 侳	zO;rz	0
 穝	zO;hz	0
-
-# 整句可用的無理碼
-幾	jO;yd	0
 
 # 一些會對正常輸入造成干擾的字
 # 直接禁用掉

@@ -8497,6 +8497,7 @@ use_preset_vocabulary: false
 曰	yt;wh	3017
 曱	ya	456
 曱	yt	456
+曱	ga	456
 曲	qu;ou	4049
 曳	ye;ov	736
 曳	yi;ov	736
@@ -13069,6 +13070,7 @@ use_preset_vocabulary: false
 申	uf;ou	2956
 甴	va	578
 甴	yz	578
+甴	za	578
 电	dm;ov	0
 甶	fu	352
 男	nj;tl	17698
@@ -15951,7 +15953,7 @@ use_preset_vocabulary: false
 繉	hy	256
 繉	vc	256
 繊	xm	379
-繋	xi	528
+繋	xi	0
 繌	ua	525
 繌	zs	525
 繍	xq	434
@@ -101176,5 +101178,4 @@ use_preset_vocabulary: false
 冣	zv	0
 侳	zo	0
 穝	zo	0
-幾	jo	0
 #𱍒	dd	0	# auto

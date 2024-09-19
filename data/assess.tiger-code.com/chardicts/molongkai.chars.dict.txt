@@ -5264,6 +5264,7 @@
 颦	pc;bp	15
 颦	pc;vb	15
 艰	jr;yg	15
+艰	jr;gy	15
 琉	lm;wi	15
 谒	yi;yh	15
 娱	ym;nw	15
@@ -14778,7 +14779,7 @@
 䋙	eu;se	0
 䋚	yt;sy	0
 䋛	mg;sm	0
-䋜	qw;sh	0
+䋜	qw;sy	0
 䋞	wp;sw	0
 䋟	jt;sj	0
 䋠	bm;sf	0
@@ -14855,7 +14856,7 @@
 䌞	lp;sj	0
 䌟	be;sb	0
 䌟	bt;sb	0
-䌠	jr;sh	0
+䌠	jr;sq	0
 䌡	tg;sl	0
 䌢	ln;sl	0
 䌣	zs;sg	0
@@ -34600,8 +34601,8 @@
 艮	hs;vd	1
 艮	hs;xy	1
 良	lu;dg	1
-艱	jr;cg	1
 艱	jr;gh	1
+艱	jr;cg	1
 艴	fl;fs	1
 艴	fl;sf	1
 艴	pk;fs	1
@@ -67987,9 +67988,9 @@
 掅	qa;fq	0
 䲔	qw;yj	0
 䲔	je;yj	0
-䌠	qw;sh	0
-䌠	yo;sh	0
-䌠	yv;sh	0
+䌠	qw;sq	0
+䌠	yo;sq	0
+䌠	yv;sq	0
 𤪞	qk;ww	0
 䆳	sf;xv	0
 䛪	wj;yq	0

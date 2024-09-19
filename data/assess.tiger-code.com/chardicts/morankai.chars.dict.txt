@@ -10545,6 +10545,8 @@
 曱	yA;oa	456
 曱	yT;aa	456
 曱	yT;oa	456
+曱	gA;aa	456
+曱	gA;oa	456
 曲	qU;aa	4049
 曲	qU;oa	4049
 曳	yE;ap	736
@@ -14699,6 +14701,7 @@
 煥	hR;hd	1213
 煥	hR;hh	1213
 煦	xU;hx	711
+煦	xU;hj	711
 照	vK;hv	10565
 煨	wZ;hw	755
 煩	fJ;hy	7711
@@ -16212,6 +16215,7 @@
 申	uF;oa	2956
 甴	vA;aa	578
 甴	yB;aa	578
+甴	zA;aa	578
 电	dM;ag	0
 电	dM;og	0
 甶	fU;pt	352
@@ -19789,7 +19793,7 @@
 繉	hP;sv	256
 繉	vK;sv	256
 繊	xM;sg	379
-繋	xI;su	528
+繋	xI;su	0
 繌	uA;sw	525
 繌	zS;sw	525
 繍	xQ;ss	434
@@ -21408,8 +21412,9 @@
 艮	gF;xy	811
 良	lD;dg	3628
 艰	jM;yg	0
-艱	jM;cg	772
+艰	jM;gy	0
 艱	jM;gh	772
+艱	jM;cg	772
 色	sE;db	8484
 色	uE;db	1
 色	uL;db	8
@@ -38001,7 +38006,7 @@
 䋙	eR;se	0	# auto
 䋚	yI;sy	0	# auto
 䋛	mI;sm	0	# auto
-䋜	qY;sh	0	# auto
+䋜	qY;sy	0	# auto
 䋞	wH;sw	0	# auto
 䋟	jI;sj	0	# auto
 䋠	bU;sf	0	# auto
@@ -38076,7 +38081,7 @@
 䌞	lM;sj	0	# auto
 䌟	bI;sb	0	# auto
 䌟	bO;sb	0	# auto
-䌠	jM;sh	0	# auto
+䌠	jM;sq	0	# auto
 䌡	tI;sl	0	# auto
 䌢	lY;sl	0	# auto
 䌣	zR;sg	0	# auto
@@ -86083,7 +86088,7 @@
 𥞣	qS;gh	0	# auto
 𥞣	qS;hk	0	# auto
 𥞤	gU;ha	0	# auto
-𥞤	gU;th	0	# auto
+𥞤	gU;uh	0	# auto
 𥞥	lX;hl	0	# auto
 𥞥	lX;lh	0	# auto
 𥞦	jW;hj	0	# auto
@@ -120668,9 +120673,9 @@
 鳹	qN;nj	0
 鵭	qN;jn	0
 鵭	qN;nj	0
-䌠	qY;sh	0
-䌠	yJ;sh	0
-䌠	yN;sh	0
+䌠	qY;sq	0
+䌠	yJ;sq	0
+䌠	yN;sq	0
 䔛	qY;cq	0
 儬	qY;rj	0
 儬	qY;rl	0
@@ -121622,9 +121627,6 @@
 冣	zV;bq	0
 侳	zO;rz	0
 穝	zO;hz	0
-
-# 整句可用的無理碼
-幾	jO;yd	0
 
 # 一些會對正常輸入造成干擾的字
 # 直接禁用掉

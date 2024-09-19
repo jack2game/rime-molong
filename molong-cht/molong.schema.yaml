@@ -311,7 +311,9 @@ recognizer:
     reverse_bopomofo: '^ovy[A-Za-z0-9,.;/\-]*$'
     unicode: "^U[a-fA-F0-9]+"
     punct: '^/([0-9]0?|[A-Za-z]+)$'
-    has_emoji: '^[a-z][a-z/]*$'  # CAVEAT: exclude ^;
+    # CAVEAT: 排除 ^; 避免 ;d 無法自動上屏
+    # CAVEAT: ^o 只保留 ^ou 和 ^o$，避免反查被干擾
+    has_emoji: '^([a-np-z]|ou)*$|^o$'
 
 moran:
   # 簡快碼提示符
@@ -346,7 +348,8 @@ moran:
     enable_word: false
 
   # 單字輔助碼提示
-  # 注：會顯示出所有可能的輔助碼
+  # 注：會顯示出所有可能的輔助碼，且不顯示拆分
+  # 建議使用 Ctrl+i 切換輔助碼拆分提示功能
   enable_aux_hint: false
 
   # 簡快碼提示（包括字和詞）
