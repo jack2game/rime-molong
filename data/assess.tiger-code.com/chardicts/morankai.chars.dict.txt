@@ -20712,8 +20712,10 @@
 育	yU;os	1670
 育	yU;wo	1670
 肳	wF;ow	267
-肴	xC;ou	614
+肴	xC;ou	0
 肴	yK;ou	614
+肴	xC;oy	0
+肴	yK;oy	614
 肵	jN;oj	302
 肵	jY;oj	302
 肵	qI;oj	302

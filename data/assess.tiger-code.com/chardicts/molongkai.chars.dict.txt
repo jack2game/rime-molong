@@ -5377,6 +5377,7 @@
 潇	xm;dx	13
 宪	xa;bx	13
 肴	yi;ou	13
+肴	yi;oy	13
 巩	gn;gf	13
 辜	ga;ux	13
 辜	ga;xg	13
@@ -5556,6 +5557,7 @@
 戢	jb;gq	11
 戢	jb;kg	11
 煦	xf;hx	11
+煦	xf;hj	11
 尴	gn;yj	11
 獭	tm;qf	11
 琐	sl;wb	11
@@ -29411,6 +29413,7 @@
 煥	hc;hd	1
 煥	hc;hh	1
 煦	xz;hx	1
+煦	xz;hj	1
 煨	yf;hw	1
 煩	fp;hy	1
 煪	qm;hq	1

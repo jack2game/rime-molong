@@ -5405,6 +5405,7 @@ use_preset_vocabulary: false
 潇	xc;dx	13
 宪	xn;bx	13
 肴	yl;ou	13
+肴	yl;oy	13
 巩	gf;gf	13
 辜	gu;ux	13
 辜	gu;xg	13
@@ -5586,6 +5587,7 @@ use_preset_vocabulary: false
 戢	jo;gq	11
 戢	jo;kg	11
 煦	xc;hx	11
+煦	xc;hj	11
 尴	gj;yj	11
 獭	td;qf	11
 琐	sq;wb	11
@@ -29519,6 +29521,7 @@ use_preset_vocabulary: false
 煥	he;hd	1
 煥	he;hh	1
 煦	xq;hx	1
+煦	xq;hj	1
 煨	yc;hw	1
 煩	fk;hy	1
 煪	qw;hq	1
@@ -91736,8 +91739,10 @@ use_preset_vocabulary: false
 育	yU;os	1670
 育	yU;wo	1670
 肳	wF;ow	267
-肴	xC;ou	614
+肴	xC;ou	0
 肴	yK;ou	614
+肴	xC;oy	0
+肴	yK;oy	614
 肵	jN;oj	302
 肵	jY;oj	302
 肵	qI;oj	302
