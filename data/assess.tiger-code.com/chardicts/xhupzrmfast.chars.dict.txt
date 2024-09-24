@@ -13745,6 +13745,7 @@
 睢	sv;mv	637
 督	du;um	967
 睤	bi	238
+睥	pi;mb	474
 睥	bi;mb	474
 睦	mu;mt	820
 睧	hy	333
@@ -27893,6 +27894,9 @@
 𩠐	uz	0
 丼	ds	39
 𮱜	gv	0
+𡆡	qi	0
+𡆡	qu	0
+𡆢	qq	0
 丆	pp	0
 丌	pp;hp	0
 丨	pp	0
@@ -97499,7 +97503,6 @@
 毞	bi	0
 畁	qi	0
 畐	bi	0
-睥	pi;mb	0
 禆	bi	0
 禆	pi	0
 稫	pi	0

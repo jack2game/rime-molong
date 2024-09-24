@@ -13768,6 +13768,7 @@ use_preset_vocabulary: false
 睢	sv;mv	1785
 督	du;um	103779
 睤	bi	0
+睥	pi;mb	2153
 睥	bi;mb	0
 睦	mu;mt	8412
 睧	hy	0
@@ -27916,6 +27917,9 @@ use_preset_vocabulary: false
 𩠐	uz	0
 丼	ds	0
 𮱜	gv	0
+𡆡	qi	0
+𡆡	qu	0
+𡆢	qq	0
 丆	pp	0
 丌	pp;hp	0
 丨	pp	0
@@ -97522,7 +97526,6 @@ use_preset_vocabulary: false
 毞	bi	0
 畁	qi	0
 畐	bi	0
-睥	pi;mb	2153
 禆	bi	0
 禆	pi	0
 稫	pi	0

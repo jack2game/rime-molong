@@ -17087,6 +17087,7 @@
 督	dU;ou	967
 睤	bI;ob	238
 睤	bI;oq	238
+睥	pI;ob	474
 睥	bI;ob	474
 睦	mU;ot	820
 睧	hP;oh	333
@@ -34035,6 +34036,10 @@
 丼	dS;jd	39
 𮱜	gV;dl	0
 𮱜	gV;zm	0
+𡆡	qI;kd	0
+𡆡	qU;kd	0
+𡆢	qQ;ka	0
+
 
 # 偏旁部首
 丆	pP;ap	0
