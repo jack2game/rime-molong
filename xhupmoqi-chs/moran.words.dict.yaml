@@ -8840,10 +8840,12 @@ columns:
 憋笑	100
 死全家	10
 活全家	10
-诶哟喂	ei;yy yb;ky wz;kw	80
-诶哟喂	ei;yy yo;ky wz;kw	80
+诶哟喂	80	ei;yy yb;ky wz;kw
+诶哟喂	80	ei;yy yo;ky wz;kw
 京爷
 沪爷
+工匠精神	100
+哀梨蒸食
 
 # 中西混合词
 哆啦A梦	100	do;kd la;kl aa mg;cx
@@ -8858,4 +8860,4 @@ QQ群	100	qq qp;yj
 打call	10	da;fd kk
 
 # 整句可用的无理码
-几	jo;yd	0
+几	0	jo;yd

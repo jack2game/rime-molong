@@ -8840,10 +8840,12 @@ columns:
 憋笑	100
 死全家	10
 活全家	10
-誒喲喂	ei;yy yz;ky ww;kw	80
-誒喲喂	ei;yy yo;ky ww;kw	80
+誒喲喂	80	ei;yy yb;ky wz;kw
+誒喲喂	80	ei;yy yo;ky wz;kw
 京爺
 滬爺
+工匠精神	100
+哀梨蒸食
 
 # 中西混合詞
 哆啦A夢	100	do;kd la;kl aa mg;cx
@@ -8858,4 +8860,4 @@ QQ羣	100	qq qp;yj
 打call	10	da;fd kk
 
 # 整句可用的無理碼
-幾	jo;yd	0
+幾	0	jo;yd
