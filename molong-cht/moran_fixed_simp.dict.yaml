@@ -1,11 +1,11 @@
 # Rime dictionary
 # encoding: utf-8
 # license: CC-BY-SA 4.0+
-# authors: 吕奉先 SunShine 小幽幽 ksqsf
+# authors: 吕奉先 SunShine 小幽幽 ksqsf sky Kuroame
 
 ---
 name: moran_fixed_simp
-version: "20240616"
+version: "20241007"
 sort: original
 columns:
   - text
