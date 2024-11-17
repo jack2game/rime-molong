@@ -5,7 +5,7 @@
 # ------- 一些杂项，按需选择 -------
 ---
 name: others
-version: "2024-06-10"
+version: "2024-11-15"
 sort: by_weight
 ...
 ##### 容错词
@@ -224,6 +224,18 @@ sort: by_weight
 饮鸩解渴	yb;ud jq;gn jp;dd ke;do
 宫商角徵羽	gs;gk uh;lk jt;do vi;ru yu;xx
 宫商角徵羽	gs;gk uh;lk jn;do vi;ru yu;xx
+氙气灯	xm;qu qi;rh dg;hd
+氙气灯	uj;qu qi;rh dg;hd
+氙气大灯	xm;qu qi;rh da;hr dg;hd
+氙气大灯	uj;qu qi;rh da;hr dg;hd
+氙气手电筒	xm;qu qi;rh uz;su dm;ov ts;vk
+氙气手电筒	uj;qu qi;rh uz;su dm;ov ts;vk
+应该	yk;gx gd;yw
+应该	yb;gx gd;yw
+粘贴	vj;mb tp;bb
+粘贴	nm;mb tp;bb
+高句丽	gc;wk gz;bk li;hk
+高句丽	gc;wk ju;bk li;hk
 ### 错字
 曾经	cg;bo jk;ss
 曾今	cg;bo jb;rd

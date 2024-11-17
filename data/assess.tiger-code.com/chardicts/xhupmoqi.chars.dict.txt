@@ -22666,6 +22666,7 @@
 錪	dM;jb	364
 錪	tM;jb	364
 錫	xI;jw	1875
+錫	cI;jw	187
 錬	lM;jd	470
 錭	dN;jk	318
 錭	tC;jk	318
@@ -23255,6 +23256,7 @@
 锟	kY;jb	0
 锠	iH;jo	0
 锡	xI;jw	0
+锡	cI;jw	0
 锢	gU;jg	0
 锣	lO;jx	0
 锤	iV;jt	0

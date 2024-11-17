@@ -1,7 +1,7 @@
 schema:
   schema_id: molongmoqi_aux
   name: molongmoqi輔篩
-  version: "20241019"
+  version: "20241105"
   author:
     - 自然碼發明人：周志農
     - 方案製作：ksqsf
@@ -47,6 +47,7 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - matcher@recognizer_secondary
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -114,6 +115,7 @@ fixed:
   encode_commit_history: true
 
 english:
+  # tag: english  # librime>=0.12 方可取消註釋
   dictionary: moran_english
   enable_user_dict: true
   enable_completion: true
@@ -236,6 +238,11 @@ recognizer:
     reverse_stroke: "^obh[a-z]*$"
     reverse_cangjie5: "^ocj[a-z]*$"
     reverse_zrlf: "^olf[a-z]*$"
+
+recognizer_secondary:
+  patterns:
+    # {4} 表示輸入長度達到 4 後開始輸出英語
+    english: '^[A-Za-z]{4}[A-Za-z]*'
 
 moran:
   # 預取個數

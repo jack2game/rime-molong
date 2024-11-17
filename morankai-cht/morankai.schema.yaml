@@ -1,7 +1,7 @@
 schema:
   schema_id: morankai
   name: morankai
-  version: "20241019"
+  version: "20241105"
   author:
     - 自然碼發明人：周志農
     - 方案製作：ksqsf
@@ -53,6 +53,7 @@ switches:
 engine:
   processors:
     - key_binder
+    - lua_processor@*moran_pin*pin_processor
     - lua_processor@*moran_semicolon_processor
     - ascii_composer
     - recognizer
@@ -65,6 +66,7 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - matcher@recognizer_secondary
     - affix_segmentor@japanese_o
     - abc_segmentor
     - punct_segmentor
@@ -87,9 +89,11 @@ engine:
     - lua_translator@*moran_shijian        # 日期orq 節氣ojq 星期oxq 時間osj
     - lua_translator@*moran_number         # 數字轉大寫, 大寫S引導, 如 S123
     - lua_translator@*moran_unicode        # Unicode輸入, 大寫U引導, 如 U9b54
+    - lua_translator@*moran_pin*panacea_translator
     - history_translator@quick_repeat
   filters:
     - lua_filter@*moran_charset_filter
+    - lua_filter@*moran_pin*pin_filter
     - lua_filter@*moran_reorder_filter
     - lua_filter@*moran_quick_code_hint
     - lua_filter@*moran_aux_hint
@@ -100,7 +104,7 @@ engine:
     - simplifier@std_hk
     - simplifier@std_tw
     - simplifier@std_dzing
-    - simplifier
+    - simplifier@simplifier
     - lua_filter@*moran_charset_comment_filter  # Unicode 區位提示
     - lua_filter@*moran_unicode_display_filter  # Unicode 編碼提示
     - uniquifier
@@ -146,6 +150,7 @@ custom_phrase: # 自定義短語
   initial_quality: 1000
 
 english:
+  # tag: english  # librime>=0.12 方可取消註釋
   dictionary: moran_english
   prism: moran_english
   enable_completion: true
@@ -184,6 +189,7 @@ quick_repeat:  # 快速重複上屏
 simplifier:
   option_name: simplification
   opencc_config: moran_t2s.json
+  tags: [abc]
 
 chaifen:
   option_name: chaifen
@@ -209,16 +215,19 @@ std_hk:
   opencc_config: t2hk.json
   option_name: std_hk
   #tips: all
+  tags: [abc]
 
 std_tw:
   opencc_config: t2tw.json
   option_name: std_tw
   #tips: all
+  tags: [abc]
 
 std_dzing:
   opencc_config: moran_dzing.json
   option_name: std_dzing
   tips: all
+  tags: [abc]
 
 reverse_format:
   comment_format:
@@ -335,9 +344,14 @@ recognizer:
     reverse_bopomofo: '^ovy[A-Za-z0-9,.;/\-]*$'
     # CAVEAT: 排除 ^; 避免 ;d 無法自動上屏
     # CAVEAT: ^o 只保留 ^ou 和 ^o$，避免反查被干擾
-    has_emoji: '(^[a-np-z][a-z]*/?$)|(^o$)|(^ou[a-z/]*$)'
-    # 引導外語
-    japanese_o: '^ojp[a-z]*$'
+    has_emoji: '(^[a-np-z][a-z/]*$)|(^[a-z]$)|(^ou[a-z/]*$)'
+    # ojp 引導日語輸入
+    japanese_o: '(^ojp[a-z]*$)'
+
+recognizer_secondary:
+  patterns:
+    # {4} 表示輸入長度達到 4 後開始輸出英語
+    english: '^[A-Za-z]{4}[A-Za-z]*'
 
 moran:
   # 簡快碼提示符
@@ -383,6 +397,25 @@ moran:
   # 輸入四碼時，如果簡碼碼表中含有對應條目，則放置在第二選項。
   show_chars_anyway: false   # 是否輸出簡碼碼表單字，例：輸入 jwrg 時，次選爲「佳」
   show_words_anyway: true   # 是否輸出簡碼碼表詞語，例：輸入 lmsd 時，次選爲「兩面三刀」
+
+  # 「置頂」功能相關設置
+  # 輸入時通過快捷鍵 Ctrl+t 可以將高亮顯示的候選置頂，被置頂的候選位置固定，不再參與調頻
+  # 對同一輸入碼最高支持8個置頂詞，當嘗試置頂第9個詞時，最早被置頂的詞將會失效
+  pin:
+    # 置頂詞提示符
+    indicator: "📌"
+    # 「萬靈藥」加詞功能
+    # 通過輸入 「編碼A」//「編碼B」 實現造詞功能，編碼A是這個新詞的新編碼 編碼B是目前可以打出該詞的編碼
+    # 例如 輸入 tnfb 不能得到「頭腦風暴」這一候選， 此時我們可以輸入 tnfb//tbnkfgbk 按下空格 讓「頭腦風暴」候選上屏，上屏的詞會被加入用戶詞庫中，之後我們可以用 tnfb 來得到「頭腦風暴」這一候選了
+    # 造出的詞與置頂詞是等同的
+    panacea:
+      # 加詞狀態提示
+      prompt: "〔加詞〕"
+      # 加詞中綴引導符
+      infix: "//"
+      # 自由加詞模式開關，開啓此模式後，輸入「編碼A」//並空格上屏後會進入加詞狀態，此時可以連續地、不受束縛地輸入，再次按下//空格退出加詞狀態，期間輸入的內容將會被記錄爲「編碼A」的新置頂詞
+      # 此模式適合造一些混合詞，如「A4紙」、「KOS-MOS」等
+      freestyle: false
 
 # 默認啓用語言模型
 __include: moran:/octagram/enable_for_sentence

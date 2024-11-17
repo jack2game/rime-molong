@@ -9,13 +9,6 @@
 # 注音：
 # 「nüe 虐」「lüe 略」使用「nve」「lve」的注音。
 # 「句、去、需、与」使用「ju qu xu yu」的注音。
-# 删除原数据的「桲bo」音，没有这个音。
-# 删除「呷ga」（呷呷），《现汉》推荐「嘎嘎」。
-# 删除「芥gai」，《现汉》未收录。
-# 删除「著zhuo」（执著zhuo），《现汉》推荐「执着zhuo」。
-# 删除「虾ha」（虾蟆ha ma），《现汉》推荐「蛤蟆」，保留地名「虾蟆陵ha ma ling」。
-# 「嬛」xuan → huan
-# 删除「夹ga」，使用「胳肢窝ga zhi wo」。
 # 多音字的注音问题：
 # 对于没有注音的词汇，如 tencent.dict.yaml 词库，
 # Rime 按照方案中字表自动注音，多音字的权重比值大于 5:100 的就会参与注音。
@@ -25,12 +18,12 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-06-10"
+version: "2024-11-15"
 sort: by_weight
 ...
 ### 按需启用
 # 「这、那」的口语读音
-# 这	zhei	17648808
+這	vz;zy	17648808
 # 那	nei	9929703
 
 ### 扩展，不在《通用规范汉字表》的字:
@@ -50,8 +43,6 @@ sort: by_weight
 睆	hr;ow	1
 挼	rw;ft	1
 㨃	dv;fx	1
-燿	yk;hd	1
-侗	ts;rt	1
 # 注释掉的这几行已经加入到下面并调整到合适的权重了
 # 〇	ling
 # 囧	jiong
@@ -6279,6 +6270,7 @@ sort: by_weight
 哃	ts;kt	11
 穜	ts;ht	6
 鮦	ts;yt	3
+侗	ts;rt	1
 峒	ts;ut	1
 洞	ts;dt	1
 㛚	ts;ny	0
@@ -6725,6 +6717,7 @@ sort: by_weight
 觿	xi;jj	3
 嶍	xi;ub	2
 暿	xi;ox	1
+棲	xi;mq	1
 俙	xi;rx	0
 熻	xi;hx	0
 餏	xi;uy	0

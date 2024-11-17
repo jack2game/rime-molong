@@ -1,7 +1,7 @@
 schema:
   schema_id: xhloopkai_sentence
   name: xhloopkai整句
-  version: "20241019"
+  version: "20241027"
   author:
     - 自然碼發明人：周志農
     - 方案製作：ksqsf
@@ -52,6 +52,7 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - matcher@recognizer_secondary
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -106,6 +107,7 @@ custom_phrase: # 自定義短語
   initial_quality: 10
 
 english:
+  # tag: english  # librime>=0.12 方可取消註釋
   dictionary: moran_english
   enable_completion: true
   enable_sentence: false
@@ -251,13 +253,18 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
     reverse_universal: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`)))"
     reverse_tiger: "(^`$)|(^`[a-zA-Z]+$)"
     reverse_stroke: "^obh[A-Za-z]*$"
     reverse_cangjie5: "^ocj[A-Za-z]*$"
     reverse_zrlf: "^olf[A-Za-z]*$"
     reverse_bopomofo: '^ovy[A-Za-z0-9,.;/\-]*$'
-    punct: '^/([0-9]0?|[A-Za-z]+)$'
+
+recognizer_secondary:
+  patterns:
+    # {4} 表示輸入長度達到 4 後開始輸出英語
+    english: '^[A-Za-z]{4}[A-Za-z]*'
 
 # 默認啓用語言模型
 __include: moran:/octagram/enable_for_sentence
