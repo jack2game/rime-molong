@@ -5481,8 +5481,8 @@ use_preset_vocabulary: false
 辄	vr;ig	12
 辄	vr;iy	12
 诞	dh;yy	12
-怠	dk;sx	12
 怠	dk;xt	12
+怠	dk;sx	12
 戗	qd;gc	12
 疝	uh;bu	12
 罔	wk;kw	12
@@ -23705,8 +23705,8 @@ use_preset_vocabulary: false
 怞	in;xy	1
 怞	yn;xy	1
 怟	du;xd	1
-怠	yo;sx	1
 怠	yo;xt	1
+怠	yo;sx	1
 怢	tu;xu	1
 怢	dc;xu	1
 怢	tc;xu	1
@@ -68177,7 +68177,7 @@ use_preset_vocabulary: false
 𤪞	qd;ww	0
 䆳	sc;xv	0
 䛪	wc;yq	0
-𡆢	qw	0
+𡆢	qw;ka	0
 𧒔	qw;ii	0
 𧒔	qw;qi	0
 𫟲	qw;jj	0
@@ -78685,8 +78685,8 @@ use_preset_vocabulary: false
 怞	vB;xy	413
 怞	yB;xy	413
 怟	dI;xd	261
-怠	dL;sx	723
 怠	dL;xt	723
+怠	dL;sx	723
 怡	yI;xt	1926
 怢	tU;xu	283
 怣	yB;xu	358
@@ -105068,6 +105068,8 @@ use_preset_vocabulary: false
 𡆡	qI;kd	0
 𡆡	qU;kd	0
 𡆢	qQ;ka	0
+𲀁	gA;ij	0
+𲀁	gA;ig	0
 
 
 # 偏旁部首

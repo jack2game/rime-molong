@@ -14,7 +14,7 @@
 #          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
 ---
 name: 41448
-version: "2024-07-28"
+version: "2024-11-28"
 sort: by_weight
 ...
 # 注释掉了一些
@@ -690,7 +690,7 @@ sort: by_weight
 𧌿	bj;pi
 𧿨	bj;zy
 𨐦	bj;xf
-𨐱	bj;xx
+𨐱	bj;xo
 𨐾	bj;vk
 𨭉	bj;wj
 𩔮	bj;wy
@@ -1501,12 +1501,12 @@ sort: by_weight
 𪐄	bi;hu
 㝸	bm;xe
 㣐	bm;bp
-㦚	bm;xx
+㦚	bm;xy
 㭓	bm;mc
 㲢	bm;hm
 㳎	bm;dc
 㴜	bm;dc
-㵷	bm;xx
+㵷	bm;xd
 㺹	bm;wc
 䁵	bm;oy
 䉸	bm;vk
@@ -5053,7 +5053,7 @@ sort: by_weight
 拵	cy;fz
 村	cy;mc
 澊	cy;dc
-皴	cy;yp
+皴	cy;sp
 竴	cy;lc
 籿	cy;mc
 膥	cy;wr
@@ -15581,7 +15581,7 @@ sort: by_weight
 㑺	jy;rn
 㒞	jy;rk
 㓴	jy;ed
-㕙	jy;yt
+㕙	jy;st
 㚬	jy;ny
 㝦	jy;bn
 㢠	jy;zk
@@ -15645,7 +15645,7 @@ sort: by_weight
 駿	jy;mw
 鮶	jy;yk
 鵔	jy;nw
-鵕	jy;yn
+鵕	jy;sn
 鵘	jy;yn
 麇	jy;lh
 麏	jy;lk
@@ -17607,6 +17607,7 @@ sort: by_weight
 柂	li;my
 栃	li;mw
 櫟	li;mm
+栗	li;xm
 栛	li;ml
 梨	li;hm
 梸	li;md
@@ -26103,7 +26104,7 @@ sort: by_weight
 䞭	qy;tw
 䭽	qy;mn
 囷	qy;kh
-夋	qy;yw
+夋	qy;sw
 宭	qy;bk
 峮	qy;uk
 帬	qy;yj
@@ -26702,7 +26703,7 @@ sort: by_weight
 𨬔	rr;jw
 𩏈	rr;wx
 㓹	rv;id
-㕙	rv;yt
+㕙	rv;st
 㛱	rv;ny
 㨅	rv;fn
 㪫	rv;by

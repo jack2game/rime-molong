@@ -7681,8 +7681,8 @@ use_preset_vocabulary: false
 怞	vb;xy	0
 怞	yb;xy	0
 怟	di;xd	0
-怠	dl;sx	21247
 怠	dl;xt	21247
+怠	dl;sx	21247
 怡	yi;xt	96402
 怢	tu;xu	0
 怣	yb;xu	0
@@ -34064,6 +34064,8 @@ use_preset_vocabulary: false
 𡆡	qi;kd	0
 𡆡	qu;kd	0
 𡆢	qq;ka	0
+𲀁	ga;ij	0
+𲀁	ga;ig	0
 
 
 # 偏旁部首

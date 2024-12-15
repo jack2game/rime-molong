@@ -27899,6 +27899,7 @@
 𡆡	qi	0
 𡆡	qu	0
 𡆢	qq	0
+𲀁	ga	0
 丆	pp	0
 丌	pp;hp	0
 丨	pp	0

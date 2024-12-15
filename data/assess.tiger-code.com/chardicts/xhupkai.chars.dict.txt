@@ -7658,8 +7658,8 @@
 怞	vZ;xy	413
 怞	yZ;xy	413
 怟	dI;xd	261
-怠	dD;sx	723
 怠	dD;xt	723
+怠	dD;sx	723
 怡	yI;xt	1926
 怢	tU;xu	283
 怣	yZ;xu	358
@@ -34041,6 +34041,8 @@
 𡆡	qI;kd	0
 𡆡	qU;kd	0
 𡆢	qQ;ka	0
+𲀁	gA;ij	0
+𲀁	gA;ig	0
 
 
 # 偏旁部首

@@ -42,13 +42,13 @@ classic_zrm_jqx:
 # 19鍵鍵盤映射
 keyboard19:
   __append:
-    - 'derive/[we]/1/'
-    - 'derive/[rt]/2/'
-    - 'derive/[op]/3/'
-    - 'derive/[fg]/4/'
-    - 'derive/[jk]/5/'
-    - 'derive/[xc]/6/'
-    - 'derive/[bn]/7/'
+    - 'derive/[we]/W/'
+    - 'derive/[rt]/R/'
+    - 'derive/[op]/O/'
+    - 'derive/[fg]/F/'
+    - 'derive/[jk]/J/'
+    - 'derive/[xc]/X/'
+    - 'derive/[bn]/B/'
 
 # 飛鍵
 fly:
@@ -59,31 +59,7 @@ fly:
     __append:
       - derive/xq;/xo;/
 
+# 小寫可匹配大寫編碼（用於英語混輸）
 casefold:
   __append:
-    - derive/A/a/
-    - derive/B/b/
-    - derive/C/c/
-    - derive/D/d/
-    - derive/E/e/
-    - derive/F/f/
-    - derive/G/g/
-    - derive/H/h/
-    - derive/I/i/
-    - derive/J/j/
-    - derive/K/k/
-    - derive/L/l/
-    - derive/M/m/
-    - derive/N/n/
-    - derive/O/o/
-    - derive/P/p/
-    - derive/Q/q/
-    - derive/R/r/
-    - derive/S/s/
-    - derive/T/t/
-    - derive/U/u/
-    - derive/V/v/
-    - derive/W/w/
-    - derive/X/x/
-    - derive/Y/y/
-    - derive/Z/z/
+    - derive/[A-Z]/\L$1\E/

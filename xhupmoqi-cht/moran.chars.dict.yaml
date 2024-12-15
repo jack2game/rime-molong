@@ -37,7 +37,7 @@ use_preset_vocabulary: false
 㒼	mj;cr	0
 㓘	su;jy	0
 㔾	jp;vv	0
-㕙	jy;yt	0
+㕙	jy;st	0
 㖏	np;kt	0
 㘊	xi;kk	0
 㘊	yi;kk	0
@@ -58,7 +58,7 @@ use_preset_vocabulary: false
 㢲	xy;gb	0
 㤙	en	0
 㤭	jn	0
-㦚	bm;xx	0
+㦚	bm;xy	0
 㫦	tc	0
 㬎	xm;oh	0
 㬚	ie;ow	0
@@ -73,7 +73,7 @@ use_preset_vocabulary: false
 㲯	lj;im	0
 㲯	rj;im	0
 㵘	mj;uu	0
-㵷	bm;xx	0
+㵷	bm;xd	0
 㷀	qs;hu	0
 㷉	ww;uc	0
 㷉	yu;uc	0
@@ -3882,7 +3882,7 @@ use_preset_vocabulary: false
 夈	vd;wm	385
 変	bm;ww	643
 夊	sv;pn	606
-夋	jy;yw	511
+夋	jy;sw	511
 夌	lk;tw	483
 复	fz;pw	0
 复	fu;pw	100
@@ -13551,7 +13551,7 @@ use_preset_vocabulary: false
 皱	vz;dp	0
 皲	jy;bp	0
 皳	qq;qp	271
-皴	cy;yp	572
+皴	cy;sp	572
 皵	qt;cp	457
 皶	lu;mp	291
 皷	gu;tp	306
@@ -25791,8 +25791,8 @@ use_preset_vocabulary: false
 鵒	yu;gn	635
 鵓	bo;un	516
 鵔	jy;nw	288
-鵕	jy;yn	304
-鵕	zy;yn	304
+鵕	jy;sn	304
+鵕	zy;sn	304
 鵖	bi;gn	284
 鵖	jp;gn	284
 鵗	xi;xn	238
@@ -27922,6 +27922,7 @@ use_preset_vocabulary: false
 𡆡	qi	0
 𡆡	qu	0
 𡆢	qq	0
+𲀁	ga	0
 丆	pp;ap	0
 丌	pp;al	0
 丨	pp;ll	0
@@ -44404,7 +44405,7 @@ use_preset_vocabulary: false
 𨐨	bi;uj	0	# auto
 𨐩	qm;xj	0	# auto
 𨐰	bb;xx	0	# auto
-𨐱	bj;xx	0	# auto
+𨐱	bj;xo	0	# auto
 𨐴	pi;uj	0	# auto
 𨐶	ho;xa	0	# auto
 𨑊	ns;xi	0	# auto
@@ -99574,7 +99575,7 @@ use_preset_vocabulary: false
 逫	vu;zy	0
 㒞	ke;rk	0
 㓴	jy;ed	0
-㕙	rv;yt	0
+㕙	rv;st	0
 㝦	ya;bn	0
 㽙	jy;ty	0
 姰	jy;no	0
@@ -100383,7 +100384,7 @@ use_preset_vocabulary: false
 缼	qt;fq	0
 𩍷	qt;wg	0
 囷	qy;kh	0
-夋	qy;yw	0
+夋	qy;sw	0
 㯗	rj;mm	0
 㯗	uy;mm	0
 㾆	uj;br	0

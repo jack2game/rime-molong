@@ -5,7 +5,7 @@
 # ------- 一些杂项，按需选择 -------
 ---
 name: others
-version: "2024-11-15"
+version: "2024-11-30"
 sort: by_weight
 ...
 ##### 容错词
@@ -236,6 +236,12 @@ sort: by_weight
 粘貼	nm;mb tp;;
 高句麗	gc;wk gz;bk li;;
 高句麗	gc;wk ju;bk li;;
+角鬥士	jt;do dz;; ui;uh
+角鬥士	jn;do dz;; ui;uh
+縮砂密	su;; ua;ex mi;gu
+縮砂密	so;; ua;ex mi;gu
+迫擊炮	pd;bz ji;; pc;hb
+迫擊炮	po;bz ji;; pc;hb
 ### 错字
 曾經	cg;bo jk;;
 曾今	cg;bo jb;rd

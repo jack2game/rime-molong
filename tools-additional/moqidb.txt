@@ -691,7 +691,7 @@
 𧌿	pi
 𧿨	zy
 𨐦	xf
-𨐱	xx
+𨐱	xo
 𨐾	vk
 𨭉	wj
 𩔮	wy
@@ -1522,12 +1522,12 @@
 𪐄	hu
 㝸	xe
 㣐	bp
-㦚	xx
+㦚	xy
 㭓	mc
 㲢	hm
 㳎	dc
 㴜	dc
-㵷	xx
+㵷	xd
 㺹	wc
 䁵	oy
 䉸	vk
@@ -5170,7 +5170,7 @@
 拵	fz
 村	mc
 澊	dc
-皴	yp
+皴	sp
 竴	lc
 籿	mc
 膥	wr
@@ -15687,7 +15687,7 @@
 㑺	rn
 㒞	rk
 㓴	ed
-㕙	yt
+㕙	st
 㚬	ny
 㝦	bn
 㴫	de
@@ -15753,7 +15753,7 @@
 鮶	yk
 鲪	yk
 鵔	nw
-鵕	yn
+鵕	sn
 鵘	yn
 麇	lh
 麏	lk
@@ -25456,7 +25456,7 @@
 㿏	by
 䭽	mn
 囷	kh
-夋	yw
+夋	sw
 宭	bk
 峮	uk
 帬	yj

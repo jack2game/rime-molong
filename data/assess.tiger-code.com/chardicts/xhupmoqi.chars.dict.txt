@@ -14,7 +14,7 @@
 㒼	mJ;cr	0
 㓘	sU;jy	0
 㔾	jP;vv	0
-㕙	jY;yt	0
+㕙	jY;st	0
 㖏	nP;kt	0
 㘊	xI;kk	0
 㘊	yI;kk	0
@@ -35,7 +35,7 @@
 㢲	xY;gb	0
 㤙	eN	0
 㤭	jN	0
-㦚	bM;xx	0
+㦚	bM;xy	0
 㫦	tC	0
 㬎	xM;oh	0
 㬚	iE;ow	0
@@ -50,7 +50,7 @@
 㲯	lJ;im	0
 㲯	rJ;im	0
 㵘	mJ;uu	0
-㵷	bM;xx	0
+㵷	bM;xd	0
 㷀	qS;hu	0
 㷉	wW;uc	0
 㷉	yU;uc	0
@@ -3859,7 +3859,7 @@
 夈	vD;wm	385
 変	bM;ww	643
 夊	sV;pn	606
-夋	jY;yw	511
+夋	jY;sw	511
 夌	lK;tw	483
 复	fZ;pw	0
 复	fU;pw	100
@@ -13528,7 +13528,7 @@
 皱	vZ;dp	0
 皲	jY;bp	0
 皳	qQ;qp	271
-皴	cY;yp	572
+皴	cY;sp	572
 皵	qT;cp	457
 皶	lU;mp	291
 皷	gU;tp	306
@@ -25768,8 +25768,8 @@
 鵒	yU;gn	635
 鵓	bO;un	516
 鵔	jY;nw	288
-鵕	jY;yn	304
-鵕	zY;yn	304
+鵕	jY;sn	304
+鵕	zY;sn	304
 鵖	bI;gn	284
 鵖	jP;gn	284
 鵗	xI;xn	238
@@ -27899,6 +27899,7 @@
 𡆡	qI	0
 𡆡	qU	0
 𡆢	qQ	0
+𲀁	gA	0
 丆	pP;ap	0
 丌	pP;al	0
 丨	pP;ll	0
@@ -44381,7 +44382,7 @@
 𨐨	bI;uj	0	# auto
 𨐩	qM;xj	0	# auto
 𨐰	bB;xx	0	# auto
-𨐱	bJ;xx	0	# auto
+𨐱	bJ;xo	0	# auto
 𨐴	pI;uj	0	# auto
 𨐶	hO;xa	0	# auto
 𨑊	nS;xi	0	# auto
@@ -99551,7 +99552,7 @@
 逫	vU;zy	0
 㒞	kE;rk	0
 㓴	jY;ed	0
-㕙	rV;yt	0
+㕙	rV;st	0
 㝦	yA;bn	0
 㽙	jY;ty	0
 姰	jY;no	0
@@ -100360,7 +100361,7 @@
 缼	qT;fq	0
 𩍷	qT;wg	0
 囷	qY;kh	0
-夋	qY;yw	0
+夋	qY;sw	0
 㯗	rJ;mm	0
 㯗	uY;mm	0
 㾆	uJ;br	0

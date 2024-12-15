@@ -5456,8 +5456,8 @@
 辄	vr;ig	12
 辄	vr;iy	12
 诞	dh;yy	12
-怠	ds;sx	12
 怠	ds;xt	12
+怠	ds;sx	12
 戗	ql;gc	12
 疝	uh;bu	12
 罔	wk;kw	12
@@ -23669,8 +23669,8 @@
 怞	ix;xy	1
 怞	yx;xy	1
 怟	du;xd	1
-怠	yo;sx	1
 怠	yo;xt	1
+怠	yo;sx	1
 怢	tu;xu	1
 怢	dq;xu	1
 怢	tc;xu	1
@@ -68149,7 +68149,7 @@
 𤪞	qd;ww	0
 䆳	sc;xv	0
 䛪	wr;yq	0
-𡆢	qw	0
+𡆢	qw;ka	0
 𧒔	qw;ii	0
 𧒔	qw;qi	0
 𫟲	qw;jj	0

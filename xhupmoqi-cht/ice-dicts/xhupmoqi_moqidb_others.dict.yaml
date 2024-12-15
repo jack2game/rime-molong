@@ -5,7 +5,7 @@
 # ------- 一些杂项，按需选择 -------
 ---
 name: others
-version: "2024-11-15"
+version: "2024-11-30"
 sort: by_weight
 ...
 ##### 容错词
@@ -236,6 +236,12 @@ sort: by_weight
 粘貼	nm;mv tp;bv
 高句麗	gc;wk gz;bk li;ll
 高句麗	gc;wk ju;bk li;ll
+角鬥士	jt;dy dz;ll ui;ua
+角鬥士	jn;dy dz;ll ui;ua
+縮砂密	su;sb ua;uu mi;bu
+縮砂密	so;sb ua;uu mi;bu
+迫擊炮	pd;zb ji;iu pc;hb
+迫擊炮	po;zb ji;iu pc;hb
 ### 错字
 曾經	cg;bo jk;sg
 曾今	cg;bo jb;rv
@@ -427,7 +433,7 @@ sort: by_weight
 两个不
 两个龙
 两个乞
-兩個夋	ll;ar ge;rg qy;yw
+兩個夋	ll;ar ge;rg qy;sw
 两个天
 # 三叠字
 三个生
