@@ -5,7 +5,7 @@
 # ------- 一些杂项，按需选择 -------
 ---
 name: others
-version: "2024-11-30"
+version: "2024-12-19"
 sort: by_weight
 ...
 ##### 容错词
@@ -26,7 +26,7 @@ sort: by_weight
 # 「伯伯」方言
 伯伯	bo;rb bo;rb
 伯伯	bd;rb bd;rb
-# 「斜」的古音
+# 「斜」的协音读法
 遠上寒山石徑斜	yr;zy uh;aa hj;bd uj;aa ui;kp jk;xj xp;dy
 遠上寒山石徑斜	yr;zy uh;aa hj;bd uj;aa ui;kp jk;xj xx;dy
 # 「骑」目前统读 qi
@@ -242,6 +242,8 @@ sort: by_weight
 縮砂密	so;ss ua;uu mi;ub
 迫擊炮	pd;zb ji;fu pc;hb
 迫擊炮	po;zb ji;fu pc;hb
+關卡	gr;ma qx;bx
+關卡	gr;ma ka;bx	1000
 ### 错字
 曾經	cg;ob jk;sg
 曾今	cg;ob jb;ra

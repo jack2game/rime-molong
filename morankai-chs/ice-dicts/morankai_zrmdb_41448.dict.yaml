@@ -829,11 +829,11 @@ sort: by_weight
 藵	bk;cy
 虣	bk;hw
 蚫	bk;ib
-袌	bk;dy
-裦	bk;dy
+袌	bk;wy
+裦	bk;wy
 褒	bk;wy
 褓	bk;yb
-襃	bk;dy
+襃	bk;wy
 豹	bk;vu
 賲	bk;bb
 趵	bk;zu
@@ -1788,7 +1788,7 @@ sort: by_weight
 虨	bn;pl
 豩	bn;uu
 豳	bn;uu
-賔	bn;bm
+賔	bn;bb
 邠	bn;ef
 镔	bn;jb
 霦	bn;yb
@@ -3669,7 +3669,7 @@ sort: by_weight
 蚩	ii;iu
 蚳	ii;id
 螭	ii;il
-袲	ii;dy
+袲	ii;wy
 袳	ii;yd
 裭	ii;yh
 褫	ii;yh
@@ -8721,7 +8721,7 @@ sort: by_weight
 粓	gj;mg
 绀	gj;sg
 肝	gj;og
-芉	gj;cq
+芉	gj;cg
 苷	gj;cg
 衦	gj;yg
 詌	gj;yg
@@ -11661,7 +11661,7 @@ sort: by_weight
 耲	hy;lh
 蘹	hy;ch
 蘾	hy;ch
-褢	hy;dy
+褢	hy;wy
 褱	hy;wy
 踝	hy;zg
 𣟉	hy;mw
@@ -12295,7 +12295,7 @@ sort: by_weight
 睴	hp;oj
 繉	hp;sv
 荤	hp;cj
-蔒	hp;cd
+蔒	hp;ch
 觨	hp;jg
 诨	hp;yj
 轋	hp;il
@@ -14378,7 +14378,7 @@ sort: by_weight
 觐	jn;jj
 觔	jn;jl
 谨	jn;yj
-賮	jn;bd
+賮	jn;bh
 赆	jn;bj
 近	jn;zj
 进	jn;zj
@@ -22402,7 +22402,7 @@ sort: by_weight
 糥	no;me
 糯	no;mx
 耎	no;de
-袲	no;dy
+袲	no;wy
 袳	no;yd
 诺	no;yr
 蹃	no;zr
@@ -22800,7 +22800,7 @@ sort: by_weight
 脬	pk;of
 萢	pk;cp
 藨	pk;cb
-袌	pk;dy
+袌	pk;wy
 袍	pk;yb
 褜	pk;yb
 跁	pk;zb
@@ -26453,7 +26453,7 @@ sort: by_weight
 茹	ru;cr
 蒘	ru;cu
 蓐	ru;cr
-蕠	ru;cr
+蕠	ru;cs
 薷	ru;cx
 蠕	ru;ix
 袽	ru;yr
@@ -27471,7 +27471,7 @@ sort: by_weight
 畲	ue;rt
 磼	ue;uj
 社	ue;ut
-舌	ue;qk
+舌	ue;kq
 舎	ue;rk
 蔎	ue;cu
 虵	ue;iy
@@ -27758,7 +27758,7 @@ sort: by_weight
 绳	ug;sd
 苼	ug;cu
 蕂	ug;cu
-譝	ug;dh
+譝	ug;ym
 貹	ug;bu
 賸	ug;ob
 鉎	ug;ju
@@ -34544,8 +34544,8 @@ sort: by_weight
 苬	xq;cq
 螑	xq;ii
 袖	xq;yy
-褎	xq;dy
-褏	xq;dy
+褎	xq;wy
+褏	xq;wy
 貅	xq;vx
 銝	xq;jx
 锈	xq;jx
@@ -36946,7 +36946,7 @@ sort: by_weight
 议	yi;yy
 讉	yi;yy
 讛	yi;yy
-豙	yi;du
+豙	yi;lu
 豛	yi;uu
 豷	yi;uy
 貖	yi;vy
@@ -38036,7 +38036,7 @@ sort: by_weight
 蜏	yb;ix
 蝣	yb;iz
 蝤	yb;iq
-褎	yb;dy
+褎	yb;wy
 訧	yb;yy
 诱	yb;yx
 貁	yb;vx
@@ -38466,7 +38466,7 @@ sort: by_weight
 蝓	yu;iy
 螸	yu;iy
 衧	yu;yy
-袬	yu;dy
+袬	yu;wy
 裕	yu;yg
 褕	yu;yy
 觎	yu;jy

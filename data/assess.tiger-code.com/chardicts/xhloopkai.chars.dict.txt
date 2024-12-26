@@ -2075,6 +2075,7 @@
 影	ya;pj	850
 煲	bc;hb	849
 当	dg;xx	845
+舌	ur;kq	840
 舌	ur;qk	840
 衰	uk;yv	839
 衰	uk;wy	839
@@ -26037,12 +26038,18 @@
 朁	cl;jo	1
 朁	cl;og	1
 朁	cl;oj	1
+朁	cl;wo	1
+朁	cl;ow	1
 朁	qz;jo	1
 朁	qz;og	1
 朁	qz;oj	1
+朁	qz;wo	1
+朁	qz;ow	1
 朁	jn;jo	1
 朁	jn;og	1
 朁	jn;oj	1
+朁	jn;wo	1
+朁	jn;ow	1
 朂	xc;ol	1
 會	hc;ro	1
 會	kj;ro	1
@@ -34602,6 +34609,7 @@
 舊	jp;cj	1
 舋	xv;jq	1
 舋	xv;qb	1
+舌	gx;kq	1
 舌	gx;qk	1
 舍	uu;ru	1
 舎	uw;rk	1
@@ -34622,7 +34630,7 @@
 舚	tn;uv	1
 舚	tn;uy	1
 舝	xc;wf	1
-舝	xc;zs	1
+舝	xc;aa	1
 舡	it;vg	1
 舡	xl;vg	1
 舤	fk;vf	1
@@ -34727,8 +34735,8 @@
 芆	id;ci	1
 芆	ia;ci	1
 芇	mz;cj	1
-芉	gj;cq	1
-芉	gl;cq	1
+芉	gj;cg	1
+芉	gl;cg	1
 芊	qn;cq	1
 芋	yb;cy	1
 芋	xv;cy	1
@@ -35420,8 +35428,8 @@
 蔎	uw;cu	1
 蔏	uh;cu	1
 蔐	do;cd	1
-蔒	xy;cd	1
 蔒	xy;ch	1
+蔒	xy;cd	1
 蔔	bp;cf	1
 蔔	bp;ct	1
 蔔	bo;cf	1
@@ -35492,6 +35500,7 @@
 蔾	lo;cm	1
 蔿	wr;cw	1
 蕀	jo;cc	1
+蕀	jo;cj	1
 蕁	qz;cx	1
 蕁	tk;cx	1
 蕁	xu;cx	1
@@ -35534,8 +35543,8 @@
 蕞	vp;cz	1
 蕟	fl;cf	1
 蕟	fq;cf	1
-蕠	ri;cr	1
 蕠	ri;cs	1
+蕠	ri;cr	1
 蕠	ri;sr	1
 蕡	fg;cb	1
 蕡	fq;cb	1
@@ -36288,7 +36297,6 @@
 螦	sc;is	1
 螧	qo;io	1
 螧	qo;iq	1
-螧	qo;ir	1
 螩	tn;it	1
 螪	uh;iu	1
 螫	ve;iu	1
@@ -36602,13 +36610,10 @@
 袉	tq;yt	1
 袊	la;yl	1
 袊	ll;yl	1
-袌	bx;dy	1
 袌	bx;wy	1
 袌	bx;yb	1
-袌	pv;dy	1
 袌	pv;wy	1
 袌	pv;yb	1
-袌	px;dy	1
 袌	px;wy	1
 袌	px;yb	1
 袍	bx;yb	1
@@ -36652,17 +36657,14 @@
 被	bu;yp	1
 被	pi;yp	1
 被	pu;yp	1
-袬	yc;dy	1
 袬	yc;wy	1
 袬	yc;yk	1
 袬	yc;yt	1
 袮	mo;yx	1
 袰	bo;my	1
 袰	bo;ym	1
-袲	ip;dy	1
 袲	ip;wy	1
 袲	ip;yd	1
-袲	nq;dy	1
 袲	nq;wy	1
 袲	nq;yd	1
 袳	ip;yd	1
@@ -36716,7 +36718,6 @@
 裠	qu;yj	1
 裡	lp;yl	1
 裢	uc;yl	1
-裦	fx;dy	1
 裦	fx;wy	1
 裦	fx;ym	1
 裧	ij;yy	1
@@ -36772,13 +36773,10 @@
 褌	ky;yj	1
 褍	dr;ye	1
 褍	tr;ye	1
-褎	xp;dy	1
 褎	xp;wy	1
 褎	xp;yh	1
-褎	ym;dy	1
 褎	ym;wy	1
 褎	ym;yh	1
-褏	xp;dy	1
 褏	xp;wy	1
 褏	xp;yy	1
 褑	ye;yy	1
@@ -36799,7 +36797,6 @@
 褞	yi;yw	1
 褞	wf;yw	1
 褠	gz;yg	1
-褢	hl;dy	1
 褢	hl;wy	1
 褢	hl;yg	1
 褣	rd;yr	1
@@ -36844,10 +36841,8 @@
 襀	ju;yz	1
 襂	sf;yc	1
 襂	uj;yc	1
-襃	bc;dy	1
 襃	bc;wy	1
 襃	bc;yd	1
-襃	px;dy	1
 襃	px;wy	1
 襃	px;yd	1
 襅	bu;yb	1
@@ -37652,7 +37647,6 @@
 譚	tk;yt	1
 譛	zd;yt	1
 譜	po;yp	1
-譝	uh;dh	1
 譝	uh;ym	1
 譞	xr;yh	1
 譞	xr;yy	1
@@ -37831,7 +37825,6 @@
 豖	iy;ad	1
 豗	hv;wu	1
 豘	tu;ut	1
-豙	yu;du	1
 豙	yu;lu	1
 豙	yu;wu	1
 豚	dy;ou	1
@@ -38003,7 +37996,7 @@
 賒	ue;bu	1
 賒	ua;bu	1
 賓	bb;bb	1
-賔	bb;bm	1
+賔	bb;bb	1
 賕	qw;bq	1
 賖	ue;by	1
 賗	ie;bi	1
@@ -38038,9 +38031,9 @@
 賫	ji;ub	1
 賬	vg;bi	1
 賭	do;bv	1
-賮	jv;bd	1
 賮	jv;bh	1
 賮	jv;yb	1
+賮	jv;bd	1
 賯	xs;bz	1
 賰	ii;bi	1
 賱	yi;bj	1
@@ -64723,7 +64716,6 @@
 𠍙	bb;rd	0
 𠍙	bb;ru	0
 𪧕	bb;bf	0
-裦	bc;dy	0
 裦	bc;wy	0
 裦	bc;ym	0
 䨌	bp;yy	0
@@ -66499,8 +66491,8 @@
 𫖲	ht;yy	0
 尡	ht;gk	0
 睴	ht;oj	0
-蔒	hy;cd	0
 蔒	hy;ch	0
+蔒	hy;cd	0
 轋	hy;il	0
 䛰	hu;yk	0
 殙	mq;dh	0
@@ -70510,7 +70502,6 @@
 血	xu;pm	0
 衂	np;xr	0
 衵	nu;yo	0
-袬	gi;dy	0
 袬	gi;wy	0
 袬	gi;yk	0
 袬	gi;yt	0
