@@ -18,7 +18,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-12-06"
+version: "2024-12-29"
 sort: by_weight
 ...
 ### 按需启用
@@ -49,6 +49,7 @@ sort: by_weight
 鉝	li;jl	1
 鿬	tm;;	1
 鿫	ao;;	1
+朊	rr;oy	1
 # 注释掉的这几行已经加入到下面并调整到合适的权重了
 # 〇	ling
 # 囧	jiong
@@ -1056,6 +1057,7 @@ sort: by_weight
 蹴	cu;zy	1919
 卒	cu;wu	600
 徂	cu;rq	560
+酢	cu;yv	371
 殂	cu;dq	248
 蔟	cu;cu	192
 竄	cr;bv	65974
@@ -1478,6 +1480,7 @@ sort: by_weight
 躉	dy;cz	623
 礅	dy;uw	270
 蹾	dy;zw	224
+楯	dy;mo	136
 砘	dy;ut	53
 鐓	dy;jw	25
 囤	dy;kt	1
@@ -2137,6 +2140,7 @@ sort: by_weight
 匭	gv;kj	123
 邽	gv;te	102
 鬹	gv;fg	2
+匱	gv;kb	1
 炅	gv;oh	1
 筀	gv;vt	0
 滾	gy;dk	203922
@@ -4417,6 +4421,7 @@ sort: by_weight
 鉬	mu;jo	180
 毪	mu;mn	94
 仫	mu;rm	27
+姥	mu;nl	1
 牟	mu;sn	1
 𧿹	mu;zm	0
 鉧	mu;jm	0

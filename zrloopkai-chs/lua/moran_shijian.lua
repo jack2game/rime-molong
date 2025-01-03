@@ -1245,7 +1245,7 @@ local GetLunarSichen = function(time, t)
   local time = tonumber(time)
   local LunarSichen = {"子时(夜半｜三更)", "丑时(鸡鸣｜四更)", "寅时(平旦｜五更)",
                        "卯时(日出)", "辰时(食时)", "巳时(隅中)", "午时(日中)", "未时(日昳)",
-                       "申时(哺时)", "酉时(日入)", "戌时(黄昏｜一更)", "亥时(人定｜二更)"}
+                       "申时(晡时)", "酉时(日入)", "戌时(黄昏｜一更)", "亥时(人定｜二更)"}
   if tonumber(t) == 1 then
     sj = math.floor((time + 1) / 2) + 1
   elseif tonumber(t) == 0 then

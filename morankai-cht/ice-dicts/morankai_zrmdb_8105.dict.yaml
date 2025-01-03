@@ -18,7 +18,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-12-06"
+version: "2024-12-29"
 sort: by_weight
 ...
 ### 按需启用
@@ -49,6 +49,7 @@ sort: by_weight
 鉝	li;jl	1
 鿬	tm;ut	1
 鿫	ao;qa	1
+朊	rr;oy	1
 # 注释掉的这几行已经加入到下面并调整到合适的权重了
 # 〇	ling
 # 囧	jiong
@@ -434,7 +435,7 @@ sort: by_weight
 抃	bm;fb	26
 碥	bm;ub	16
 萹	bm;cb	5
-𨚕	bm;be	0
+𨚕	bm;eb	0
 表	bc;fy	1303318
 標	bc;mp	352517
 鏢	bc;jp	64000
@@ -1056,6 +1057,7 @@ sort: by_weight
 蹴	cu;zj	1919
 卒	cu;wu	600
 徂	cu;xq	560
+酢	cu;yv	371
 殂	cu;dq	248
 蔟	cu;cz	192
 竄	cr;xu	65974
@@ -1478,6 +1480,7 @@ sort: by_weight
 躉	dp;zw	623
 礅	dp;ud	270
 蹾	dp;zd	224
+楯	dp;md	136
 砘	dp;ut	53
 鐓	dp;jd	25
 囤	dp;kt	1
@@ -2137,6 +2140,7 @@ sort: by_weight
 匭	gv;kg	123
 邽	gv;eg	102
 鬹	gv;gg	2
+匱	gv;kg	1
 炅	gv;oh	1
 筀	gv;vg	0
 滾	gp;dg	203922
@@ -4103,7 +4107,7 @@ sort: by_weight
 禡	ma;um	4
 摩	ma;mu	1
 買	ml;bs	477539
-賣	ml;bs	303880
+賣	ml;um	303880
 埋	ml;tl	139624
 脈	ml;op	134301
 麥	ml;lx	121753
@@ -4253,7 +4257,7 @@ sort: by_weight
 眯	mi;om	73287
 咪	mi;km	32218
 謎	mi;ym	26947
-覓	mi;vj	21336
+覓	mi;jv	21336
 靡	mi;fm	16931
 泌	mi;db	8695
 糜	mi;mm	8423
@@ -4266,7 +4270,7 @@ sort: by_weight
 汨	mi;do	1454
 獼	mi;qm	1070
 冪	mi;bm	671
-縻	mi;ms	588
+縻	mi;sm	588
 蘼	mi;cf	337
 醚	mi;ym	288
 敉	mi;mw	114
@@ -4417,6 +4421,7 @@ sort: by_weight
 鉬	mu;jo	180
 毪	mu;mm	94
 仫	mu;rm	27
+姥	mu;nl	1
 牟	mu;sn	1
 𧿹	mu;zm	0
 鉧	mu;jm	0
@@ -4535,7 +4540,7 @@ sort: by_weight
 脲	nc;on	14
 捏	nx;fn	81503
 聶	nx;ee	36076
-孽	nx;cz	25919
+孽	nx;zx	25919
 涅	nx;dn	16639
 躡	nx;zn	12942
 囁	nx;kn	6049
@@ -4997,7 +5002,7 @@ sort: by_weight
 緝	qi;se	1
 薺	qi;cq	1
 䓫	qi;cq	0
-𨙸	qi;ve	0
+𨙸	qi;ev	0
 軝	qi;iu	0
 卡	qw;bx	5555
 恰	qw;xh	3333
@@ -5926,7 +5931,7 @@ sort: by_weight
 素	su;sf	320732
 宿	su;bb	181931
 俗	su;rg	134099
-肅	su;ya	126387
+肅	su;aa	126387
 塑	su;to	49903
 酥	su;yh	18511
 簌	su;vq	12731
@@ -7919,7 +7924,7 @@ sort: by_weight
 哉	zl;kg	22334
 仔	zl;rz	20916
 崽	zl;us	16768
-甾	zl;it	110
+甾	zl;ti	110
 咱	zj;kz	321520
 贊	zj;bx	177018
 暫	zj;ov	161191

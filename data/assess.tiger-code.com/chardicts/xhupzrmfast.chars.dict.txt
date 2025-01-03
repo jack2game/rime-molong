@@ -15913,7 +15913,7 @@
 縿	cj	334
 縿	uj	334
 繀	sv	358
-繁	bo;ry	3
+繁	pj;ry	3
 繁	fj;ry	1452
 繁	po;ry	3
 繂	lv	322
@@ -23817,6 +23817,7 @@
 雩	yu;yh	535
 雪	xt;yx	8021
 雫	na	511
+雫	xx	0
 雬	fz	199
 雬	fu	199
 雭	se	301
@@ -28211,8 +28212,8 @@
 㓵	ee	0	# auto
 㓶	qp	0	# auto
 㓷	yi	0	# auto
-㓸	dz	0	# auto
-㓸	vo	0	# auto
+㓸	dz	0
+㓸	vo	0
 㓹	cv	0	# auto
 㓹	ji	0	# auto
 㓹	rv	0	# auto
@@ -36955,7 +36956,8 @@
 𢆻	ji	0	# auto
 𢆽	yc	0	# auto
 𢇇	gr	0	# auto
-𢇕	ii	0	# auto
+𢇕	ii	0
+𢇕	yz	0
 𢇗	ua	0	# auto
 𢇘	yj	0	# auto
 𢇙	yi	0	# auto
@@ -44542,6 +44544,7 @@
 𨙳	ia	0	# auto
 𨙴	cd	0	# auto
 𨙴	zd	0	# auto
+𨙵	hh	0	# auto
 𨙵	xl	0	# auto
 𨙶	pw	0	# auto
 𨙷	jk	0	# auto
@@ -44550,6 +44553,8 @@
 𨙹	uc	0	# auto
 𨙺	nq	0	# auto
 𨙻	na	0	# auto
+𨙻	ne	0	# auto
+𨙻	nw	0	# auto
 𨙽	qb	0	# auto
 𨚍	bi	0	# auto
 𨚍	bw	0	# auto
@@ -44560,6 +44565,8 @@
 𨚕	bm	0	# auto
 𨚖	zi	0	# auto
 𨚗	na	0	# auto
+𨚗	ne	0	# auto
+𨚗	nw	0	# auto
 𨚘	ww	0	# auto
 𨚙	hc	0	# auto
 𨚡	jb	0	# auto
@@ -44583,14 +44590,22 @@
 𨛑	ji	0	# auto
 𨛒	bu	0	# auto
 𨛓	ls	0	# auto
+𨛓	ns	0	# auto
 𨛔	fz	0	# auto
 𨛕	yz	0	# auto
 𨛡	yy	0	# auto
 𨛣	qb	0	# auto
 𨛤	hv	0	# auto
+𨛤	xu	0	# auto
+𨛤	xp	0	# auto
+𨛤	ya	0	# auto
+𨛤	ye	0	# auto
+𨛤	yu	0	# auto
+𨛥	kk	0	# auto
 𨛥	pu	0	# auto
-𨛫	li	0	# auto
-𨛬	pw	0	# auto
+𨛫	li	0
+𨛬	pw	0
+𨛬	xi	0
 𨛭	ue	0	# auto
 𨛭	uu	0	# auto
 𨛮	ju	0	# auto
@@ -44611,7 +44626,9 @@
 𨜔	hl	0	# auto
 𨜖	yu	0	# auto
 𨜘	mw	0	# auto
+𨜘	yj	0	# auto
 𨜜	ug	0	# auto
+𨜜	xk	0	# auto
 𨜰	jl	0	# auto
 𨜳	ts	0	# auto
 𨜴	he	0	# auto
@@ -44623,9 +44640,11 @@
 𨜼	li	0	# auto
 𨜽	yi	0	# auto
 𨜾	il	0	# auto
+𨜿	qr	0	# auto
 𨜿	xu	0	# auto
 𨝀	ww	0	# auto
 𨝆	ge	0	# auto
+𨝋	va	0	# auto
 𨝋	vd	0	# auto
 𨝌	gj	0	# auto
 𨝎	kh	0	# auto
@@ -44636,9 +44655,13 @@
 𨝖	li	0	# auto
 𨝘	hu	0	# auto
 𨝛	tu	0	# auto
-𨝟	li	0	# auto
+𨝛	uu	0	# auto
+𨝟	li	0
 𨝢	lz	0	# auto
-𨝦	dh	0	# auto
+𨝦	dh	0
+𨝦	th	0
+𨝨	ji	0	# auto
+𨝨	xi	0	# auto
 𨝨	zo	0	# auto
 𨝫	ue	0	# auto
 𨝫	xi	0	# auto
@@ -44653,6 +44676,7 @@
 𨝸	tj	0	# auto
 𨞐	ig	0	# auto
 𨞑	wg	0	# auto
+𨞒	xi	0	# auto
 𨞒	zo	0	# auto
 𨞓	yu	0	# auto
 𨞕	iu	0	# auto
@@ -44663,12 +44687,16 @@
 𨞛	ge	0	# auto
 𨞣	xu	0	# auto
 𨞨	gd	0	# auto
+𨞩	di	0	# auto
 𨞩	qt	0	# auto
+𨞩	vd	0	# auto
 𨞪	iz	0	# auto
 𨞪	uz	0	# auto
 𨞫	mg	0	# auto
 𨞳	qu	0	# auto
+𨞳	yi	0	# auto
 𨞺	li	0	# auto
+𨞼	mj	0	# auto
 𨞼	wj	0	# auto
 𨞽	lw	0	# auto
 𨞾	xk	0	# auto
@@ -50348,7 +50376,6 @@
 𫂟	ma	0	# auto
 𬭡	vc	0	# auto
 𬰀	bc	0	# auto
-𨛓	ns	0	# auto
 𢷇	ql	0	# auto
 𨇙	gv	0	# auto
 𫰽	cs	0	# auto
@@ -52857,7 +52884,6 @@
 𫘚	ff	0	# auto
 𤞈	di	0	# auto
 𨃃	ee	0	# auto
-𨛬	xi	0	# auto
 𢠗	yb	0	# auto
 𧨕	mi	0	# auto
 𬭋	jp	0	# auto
@@ -55295,7 +55321,6 @@
 𠦠	dj	0	# auto
 𥽳	qi	0	# auto
 𥽳	ji	0	# auto
-𨞒	xi	0	# auto
 𦰑	li	0	# auto
 𣲦	uc	0	# auto
 𥵶	tm	0	# auto
@@ -57141,7 +57166,6 @@
 𣹐	yj	0	# auto
 𤨒	en	0	# auto
 𰈸	ju	0	# auto
-𨝋	va	0	# auto
 𬟊	ma	0	# auto
 𪱒	nh	0	# auto
 𡢣	yk	0	# auto
@@ -58145,7 +58169,6 @@
 𧩅	yj	0	# auto
 𣏱	tu	0	# auto
 𢨭	nv	0	# auto
-𨞩	di	0	# auto
 𣘿	ss	0	# auto
 𤒉	fu	0	# auto
 𤢵	ld	0	# auto

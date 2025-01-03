@@ -5,7 +5,7 @@
 # ------- 一些杂项，按需选择 -------
 ---
 name: others
-version: "2024-12-19"
+version: "2024-12-29"
 sort: by_weight
 ...
 ##### 容错词
@@ -242,8 +242,24 @@ sort: by_weight
 缩砂密	so;ss ua;uu mi;ub
 迫击炮	pd;zb ji;aa pc;hb
 迫击炮	po;zb ji;aa pc;hb
+柔荑	rz;mm ti;cy
+柔荑	rz;mm yi;cy
+柔荑花序	rz;mm ti;cy hx;ch xu;gy
+柔荑花序	rz;mm yi;cy hx;ch xu;gy
+手如柔荑	uz;pa ru;nk rz;mm ti;cy
+手如柔荑	uz;pa ru;nk rz;mm yi;cy
+温庭筠	wf;dm tk;gt yy;vj
+温庭筠	wf;dm tk;gt jy;vj
 关卡	gr;bt qx;bx
 关卡	gr;bt ka;bx	1000
+三昧真火	sj;aa mw;ow vf;uj ho;dd
+三昧真火	sj;aa ww;ow vf;uj ho;dd
+青𬞟之末	qk;of pb;cp vi;dd mo;ad
+青𬞟之末	qk;of pk;cp vi;dd mo;ad
+起于青𬞟之末	qi;zj yu;aa qk;of pb;cp vi;dd mo;ad
+起于青𬞟之末	qi;zj yu;aa qk;of pk;cp vi;dd mo;ad
+风起于青𬞟之末	fg;ji qi;zj yu;aa qk;of pb;cp vi;dd mo;ad
+风起于青𬞟之末	fg;ji qi;zj yu;aa qk;of pk;cp vi;dd mo;ad
 ### 错字
 曾经	cg;ob jk;sg
 曾今	cg;ob jb;ra
@@ -268,6 +284,8 @@ sort: by_weight
 魔蝎座	mo;gm xp;ih zo;gz
 比萨	bi;bb sa;ci
 披萨	pi;fp sa;ci
+㹴犬	gg;qg qr;dd
+梗犬	gg;mg qr;dd
 ##### 叠字
 # 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
 # 二叠字
