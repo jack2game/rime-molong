@@ -575,7 +575,7 @@ sort: by_weight
 才	cd;ap	2774963
 菜	cd;cc	288767
 彩	cd;pc	274800
-采	cd;mv	264104
+采	cd;vm	264104
 财	cd;bc	235676
 材	cd;mc	212793
 猜	cd;qq	185595
@@ -714,7 +714,7 @@ sort: by_weight
 场	ih;ty	1443226
 唱	ih;ki	214664
 厂	ih;ap	140040
-尝	ih;dy	127841
+尝	ih;xy	127841
 昌	ih;oo	87938
 畅	ih;uy	66298
 肠	ih;oy	64217
@@ -917,7 +917,7 @@ sort: by_weight
 楚	iu;mp	728204
 除	iu;ey	599918
 初	iu;yd	455646
-触	iu;ij	213212
+触	iu;ji	213212
 厨	iu;ic	89003
 础	iu;ui	74017
 储	iu;rv	41834
@@ -985,7 +985,7 @@ sort: by_weight
 圌	iv;ke	1
 春	iy;of	414544
 纯	iy;st	212265
-唇	iy;ik	161329
+唇	iy;ki	161329
 蠢	iy;ii	63523
 淳	iy;dx	18919
 醇	iy;yx	12444
@@ -1365,7 +1365,7 @@ sort: by_weight
 楪	dp;mm	1
 𫶇	dp;ud	0
 定	dk;bp	2738825
-顶	dk;dy	372322
+顶	dk;yd	372322
 丁	dk;aa	278627
 盯	dk;od	215010
 订	dk;yd	65104
@@ -1714,7 +1714,7 @@ sort: by_weight
 服	fu;oy	1011511
 夫	fu;ad	890506
 父	fu;bi	875667
-复	fu;pw	656644
+复	fu;wo	656644
 福	fu;uf	455530
 府	fu;gf	442709
 副	fu;df	396897
@@ -1959,10 +1959,10 @@ sort: by_weight
 𬒔	gg;uk	0
 公	gs;sb	2055138
 工	gs;aa	1242237
-功	gs;gl	945623
+功	gs;lg	945623
 攻	gs;gw	665395
 宫	gs;bl	431590
-共	gs;bc	393083
+共	gs;cb	393083
 供	gs;rg	188899
 恭	gs;gx	127784
 弓	gs;ag	120521
@@ -2070,7 +2070,7 @@ sort: by_weight
 拐	gk;fl	69575
 掴	gk;fg	1944
 夬	gk;ad	59
-关	gr;bt	1675433
+关	gr;qd	1675433
 管	gr;vg	979206
 官	gr;bg	760400
 观	gr;jy	588781
@@ -2193,7 +2193,7 @@ sort: by_weight
 喊	hj;kx	390618
 韩	hj;uw	272550
 汗	hj;dg	235293
-含	hj;kj	222331
+含	hj;rk	222331
 涵	hj;dh	61454
 翰	hj;yu	60202
 憾	hj;xg	58412
@@ -2213,7 +2213,7 @@ sort: by_weight
 菡	hj;ch	5512
 焊	hj;hh	3324
 犴	hj;qg	802
-顸	hj;gy	276
+顸	hj;yg	276
 邗	hj;eg	218
 焓	hj;hh	169
 蚶	hj;ig	143
@@ -2233,7 +2233,7 @@ sort: by_weight
 杭	hh;mk	34033
 夯	hh;dl	1961
 沆	hh;dk	744
-颃	hh;ky	118
+颃	hh;yk	118
 绗	hh;sx	38
 吭	hh;kk	1
 巷	hh;sg	1
@@ -2447,7 +2447,7 @@ sort: by_weight
 环	hr;wb	300871
 幻	hr;yg	248831
 唤	hr;kh	138357
-欢	hr;yq	90885
+欢	hr;qy	90885
 患	hr;xi	76682
 焕	hr;hh	31989
 桓	hr;mg	28953
@@ -2608,7 +2608,7 @@ sort: by_weight
 机	ji;mj	1672100
 记	ji;yj	1094800
 季	ji;hz	1028550
-击	ji;aa	1010628
+击	ji;eu	1010628
 急	ji;xi	1009907
 鸡	ji;ny	1004249
 挤	ji;fq	1003500
@@ -2777,7 +2777,7 @@ sort: by_weight
 渐	jm;dv	503123
 简	jm;vj	501969
 坚	jm;ty	385150
-肩	jm;ho	292627
+肩	jm;oh	292627
 箭	jm;vq	254320
 舰	jm;vj	235654
 尖	jm;xd	232729
@@ -2787,7 +2787,7 @@ sort: by_weight
 减	jm;dx	131292
 奸	jm;ng	97555
 艰	jm;yg	82206
-兼	jm;bd	68324
+兼	jm;qd	68324
 鉴	jm;jv	58039
 贱	jm;bj	51519
 捡	jm;fq	50151
@@ -2849,7 +2849,7 @@ sort: by_weight
 僵	jl;rj	94955
 姜	jl;ny	79591
 疆	jl;gj	51900
-匠	jl;jk	41638
+匠	jl;kj	41638
 浆	jl;ux	28279
 酱	jl;yx	19063
 缰	jl;sj	12118
@@ -4186,7 +4186,7 @@ sort: by_weight
 么	me;ps	9727
 没	mw;du	7560391
 美	mw;dy	1692264
-每	mw;pm	1015025
+每	mw;rm	1015025
 妹	mw;nw	542424
 眉	mw;om	363007
 梅	mw;mm	333631
@@ -4365,7 +4365,7 @@ sort: by_weight
 么	mo;ps	98350
 陌	mo;eb	97194
 寞	mo;bm	67695
-蓦	mo;cm	36965
+蓦	mo;mm	36965
 沫	mo;dm	36929
 膜	mo;om	26833
 茉	mo;cm	16199
@@ -4953,7 +4953,7 @@ sort: by_weight
 杞	qi;mj	5807
 岐	qi;uv	5207
 脐	qi;oq	5200
-颀	qi;jy	4370
+颀	qi;yj	4370
 沏	qi;dq	4304
 跂	qi;zv	4067
 憩	qi;xz	3905
@@ -5164,7 +5164,7 @@ sort: by_weight
 倾	qk;rq	141937
 卿	qk;mg	66819
 擎	qk;uj	20931
-顷	qk;by	20103
+顷	qk;yb	20103
 蜻	qk;iq	7088
 箐	qk;vq	6828
 氢	qk;qg	2589
@@ -5274,7 +5274,7 @@ sort: by_weight
 拳	qr;uf	264501
 圈	qr;kj	232242
 劝	qr;ly	142540
-泉	qr;bu	121061
+泉	qr;ub	121061
 犬	qr;dd	40178
 券	qr;df	21437
 蜷	qr;ij	15341
@@ -6138,7 +6138,7 @@ sort: by_weight
 腾	tg;om	95410
 藤	tg;ct	61231
 滕	tg;ou	9254
-誊	tg;jy	1318
+誊	tg;yf	1318
 螣	tg;oi	57
 縢	tg;os	19
 熥	tg;ht	9
@@ -6218,7 +6218,7 @@ sort: by_weight
 铁	tp;ju	520031
 贴	tp;bv	169181
 帖	tp;jv	30180
-餮	tp;du	2648
+餮	tp;ut	2648
 萜	tp;ct	21
 听	tk;kj	2449553
 停	tk;rt	715545
@@ -6669,7 +6669,7 @@ sort: by_weight
 羲	xi;yg	7847
 淅	xi;dx	6023
 徙	xi;xb	5331
-熹	xi;dx	5242
+熹	xi;hx	5242
 蟋	xi;ix	4573
 翕	xi;yh	2511
 檄	xi;mj	2484
@@ -6822,7 +6822,7 @@ sort: by_weight
 响	xl;kx	724098
 香	xl;ho	563262
 降	xl;ef	236721
-项	xl;gy	230765
+项	xl;yg	230765
 乡	xl;ap	228067
 享	xl;wz	152710
 翔	xl;yy	143540
@@ -7693,7 +7693,7 @@ sort: by_weight
 玉	yu;ad	721753
 余	yu;rb	441792
 遇	yu;zy	409411
-欲	yu;gq	353022
+欲	yu;qg	353022
 羽	yu;xx	322339
 宇	yu;by	311167
 鱼	yu;da	288142
@@ -8192,14 +8192,14 @@ sort: by_weight
 烝	vg;hi	85
 只	vi;kb	5050153
 知	vi;uk	4397165
-直	vi;aa	1902380
+直	vi;uq	1902380
 至	vi;tv	1199059
 之	vi;dd	1173763
 指	vi;fv	1099010
 值	vi;rv	920306
 制	vi;dg	870792
 支	vi;uy	532396
-志	vi;ux	485065
+志	vi;xu	485065
 止	vi;aa	472691
 治	vi;dt	450800
 质	vi;bu	398905
@@ -8503,7 +8503,7 @@ sort: by_weight
 鼒	zi;cd	4
 虸	zi;iz	0
 鄑	zi;ej	0
-总	zs;bx	1273655
+总	zs;xk	1273655
 宗	zs;bu	329551
 纵	zs;sc	170090
 踪	zs;zz	160848

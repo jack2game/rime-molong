@@ -1925,8 +1925,8 @@ local function translator(input, seg)
     weekday = os.date("%A")
     candidate = Candidate("xq", seg.start, seg._end, weekday, num_weekday)
     yield(candidate)
-  elseif (input == "oww") then
-     weekno = string.gsub(os.date("%W"), "^0+", "")
+  elseif (input == "oww" or input == "ovu") then
+     weekno = tostring(tonumber(os.date("%W")) + 1)
      candidate = Candidate("oww", seg.start, seg._end, "W" .. weekno, "周")
      yield(candidate)
      candidate = Candidate("oww", seg.start, seg._end, "第" .. weekno .. "周", "周")

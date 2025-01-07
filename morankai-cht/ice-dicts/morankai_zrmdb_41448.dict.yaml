@@ -1568,7 +1568,7 @@ sort: by_weight
 辺	bm;zd
 遍	bm;zb
 邉	bm;zk
-釆	bm;pd
+釆	bm;pm
 鍽	bm;jb
 閞	bm;mb
 鞕	bm;gg
@@ -9238,8 +9238,8 @@ sort: by_weight
 侊	gs;rg
 供	gs;rg
 公	gs;sb
-共	gs;bc
-功	gs;gl
+共	gs;cb
+功	gs;lg
 匑	gs;gg
 匔	gs;gg
 厷	gs;us
@@ -10355,7 +10355,7 @@ sort: by_weight
 凾	hj;ky
 廠	hj;gi
 厈	hj;ig
-含	hj;kj
+含	hj;rk
 哻	hj;kh
 唅	hj;kh
 喊	hj;kx
@@ -13377,7 +13377,7 @@ sort: by_weight
 傔	jm;rj
 僣	jm;rt
 僭	jm;ro
-兼	jm;bd
+兼	jm;qd
 冿	jm;dy
 減	jm;dx
 劍	jm;dq
@@ -13482,7 +13482,7 @@ sort: by_weight
 繭	jm;ci
 翦	jm;yq
 聻	jm;ej
-肩	jm;ho
+肩	jm;oh
 腱	jm;oj
 臶	jm;vc
 艦	jm;vj
@@ -13708,7 +13708,7 @@ sort: by_weight
 僵	jd;rj
 勥	jd;lq
 匞	jd;kg
-匠	jd;jk
+匠	jd;kj
 塂	jd;tx
 壃	jd;tj
 夅	jd;wf
@@ -20244,7 +20244,7 @@ sort: by_weight
 櫗	mz;mm
 殙	mz;dh
 毎	mz;rm
-每	mz;pm
+每	mz;rm
 沒	mz;du
 沬	mz;dw
 浼	mz;dm
@@ -25919,7 +25919,7 @@ sort: by_weight
 楾	qr;mq
 槫	qr;mv
 権	qr;mv
-泉	qr;bu
+泉	qr;ub
 洤	qr;dq
 湶	qr;dq
 灥	qr;qq
@@ -30648,7 +30648,7 @@ sort: by_weight
 鐡	tx;jg
 鐵	tx;jg
 飻	tx;up
-餮	tx;du
+餮	tx;ut
 驖	tx;mg
 𢶋	tx;fi
 𤝓	tx;qv
@@ -32866,7 +32866,7 @@ sort: by_weight
 熄	xi;hx
 熈	xi;hs
 熙	xi;hs
-熹	xi;dx
+熹	xi;hx
 熺	xi;hx
 熻	xi;hx
 燨	xi;hy
@@ -38580,7 +38580,7 @@ sort: by_weight
 欝	yu;mc
 歟	yu;qy
 欥	yu;oq
-欲	yu;gq
+欲	yu;qg
 歈	yu;qy
 歶	yu;vy
 毓	yu;mi
@@ -41056,7 +41056,7 @@ sort: by_weight
 徝	vi;xv
 徴	vi;xw
 徵	vi;xw
-志	vi;ux
+志	vi;xu
 忮	vi;xv
 恉	vi;xv
 慹	vi;xv
@@ -41138,7 +41138,7 @@ sort: by_weight
 痔	vi;bs
 痣	vi;bv
 瘈	vi;bq
-直	vi;aa
+直	vi;uq
 眰	vi;ov
 知	vi;uk
 砋	vi;uv

@@ -22,10 +22,10 @@ local function launch(key, env)
    local kNoop = 2
    local input = context.input
    if (input == "ogrwh" or input == 'omorj') then
-      generic_open("https://github.com/ksqsf/rime-moran")
+      generic_open("https://github.com/rimeinn/rime-moran")
       context:clear()
    elseif (input == "ouomy" or input == "osms") then
-      generic_open("https://rime-moran.gitbook.io/")
+      generic_open("https://zrmfans.cn/")
       context:clear()
    end
    return kNoop

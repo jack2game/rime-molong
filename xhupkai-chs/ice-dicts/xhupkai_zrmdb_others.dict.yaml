@@ -240,8 +240,8 @@ sort: by_weight
 角斗士	jn;dy dz;du ui;aa
 缩砂密	su;ss ua;uu mi;ub
 缩砂密	so;ss ua;uu mi;ub
-迫击炮	pd;zb ji;aa pc;hb
-迫击炮	po;zb ji;aa pc;hb
+迫击炮	pd;zb ji;eu pc;hb
+迫击炮	po;zb ji;eu pc;hb
 柔荑	rz;mm ti;cy
 柔荑	rz;mm yi;cy
 柔荑花序	rz;mm ti;cy hx;ch xu;gy
@@ -250,8 +250,8 @@ sort: by_weight
 手如柔荑	uz;pa ru;nk rz;mm yi;cy
 温庭筠	wf;dm tk;gt yy;vj
 温庭筠	wf;dm tk;gt jy;vj
-关卡	gr;bt qx;bx
-关卡	gr;bt ka;bx	1000
+关卡	gr;qd qx;bx
+关卡	gr;qd ka;bx	1000
 三昧真火	sj;aa mw;ow vf;uj ho;dd
 三昧真火	sj;aa ww;ow vf;uj ho;dd
 青𬞟之末	qk;of pb;cp vi;dd mo;ad
