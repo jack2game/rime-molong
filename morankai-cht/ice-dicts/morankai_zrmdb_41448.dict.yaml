@@ -14,7 +14,7 @@
 #          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
 ---
 name: 41448
-version: "2024-11-28"
+version: "2025-01-17"
 sort: by_weight
 ...
 # 注释掉了一些
@@ -1736,7 +1736,7 @@ sort: by_weight
 襒	bx;yb
 蹩	bx;zb
 鱉	bx;yb
-鼈	bx;dh
+鼈	bx;mb
 龞	bx;gb
 𠍯	bx;rb
 𡐞	bx;tb
@@ -8629,6 +8629,7 @@ sort: by_weight
 𪆠	fu;nf
 𪊐	fu;lf
 𪍏	fu;mf
+𮔅	fu;if
 伽	ga;rj
 呷	ga;kj
 咖	ga;kj
@@ -15578,6 +15579,7 @@ sort: by_weight
 𪈴	jt;nj
 𪖜	jt;bt
 𪚅	jt;ij
+𱉔	jt;gn
 㑺	jp;rj
 㒞	jp;rs
 㓴	jp;dr
@@ -19554,13 +19556,13 @@ sort: by_weight
 纙	lo;sl
 羅	lo;sv
 腡	lo;og
-臝	lo;dd
+臝	lo;wf
 蘿	lo;cl
 落	lo;cl
 蓏	lo;cg
 蛒	lo;ig
 螺	lo;il
-蠃	lo;dd
+蠃	lo;ik
 裸	lo;yg
 覶	lo;jy
 覼	lo;je
@@ -21373,7 +21375,7 @@ sort: by_weight
 楘	mu;mw
 模	mu;mm
 樢	mu;mn
-母	mu;ad
+母	mu;vd
 毣	mu;my
 毪	mu;mm
 氁	mu;mm
@@ -27501,7 +27503,7 @@ sort: by_weight
 劭	uk;lv
 勺	uk;gd
 卲	uk;ev
-召	uk;dk
+召	uk;kd
 哨	uk;kx
 娋	uk;nx
 少	uk;xp
@@ -29446,7 +29448,7 @@ sort: by_weight
 蕵	sp;cu
 薞	sp;cc
 鎨	sp;js
-隼	sp;uv
+隼	sp;vu
 飧	sp;ux
 飱	sp;du
 鶽	sp;ns
@@ -31344,7 +31346,7 @@ sort: by_weight
 鰖	to;yy
 鴕	to;nt
 鵎	to;nt
-鼉	to;km
+鼉	to;ma
 鼧	to;ut
 𠰹	to;kt
 𠴻	to;kt
@@ -32160,6 +32162,7 @@ sort: by_weight
 𪂄	wz;ni
 𪑐	wz;hw
 𪑭	wz;hk
+𮧵	wz;wh
 㑮	wf;rj
 㒚	wf;ry
 㖧	wf;kh
@@ -35877,7 +35880,7 @@ sort: by_weight
 琂	yj;wy
 琰	yj;wy
 甗	yj;wg
-鹽	yj;ml
+鹽	yj;lm
 眼	yj;og
 研	yj;uk
 硯	yj;uj
@@ -38002,6 +38005,8 @@ sort: by_weight
 𩹅	yy;yy
 𩻷	yy;uy
 𪊵	yy;lj
+𬎆	yy;wy
+𮐨	yy;cy
 喲	yo;ky
 唷	yo;ky
 育	yo;os
@@ -38647,7 +38652,7 @@ sort: by_weight
 籅	yu;vy
 籞	yu;vu
 粖	yu;mm
-粥	yu;gg
+粥	yu;mg
 紆	yu;sy
 緎	yu;sh
 罭	yu;sh
@@ -40391,7 +40396,7 @@ sort: by_weight
 䮓	vk;mv
 佋	vk;rv
 兆	vk;ed
-召	vk;dk
+召	vk;kd
 啁	vk;kv
 啅	vk;kv
 嘲	vk;ki
@@ -41237,7 +41242,7 @@ sort: by_weight
 陟	vi;eb
 隲	vi;em
 隻	vi;vy
-雉	vi;uv
+雉	vi;vu
 馶	vi;mv
 馽	vi;mv
 駤	vi;mv
@@ -41628,7 +41633,7 @@ sort: by_weight
 籒	vb;vl
 籕	vb;vl
 粙	vb;my
-粥	vb;gg
+粥	vb;mg
 紂	vb;sc
 縐	vb;sc
 繇	vb;vx
@@ -42637,6 +42642,8 @@ sort: by_weight
 𩮀	zs;ic
 𩰽	zs;cw
 𪖁	zs;uc
+㙡	zs;tc
+𭎂	zs;tc
 㔿	zb;aj
 㞫	zb;uv
 㵵	zb;dj

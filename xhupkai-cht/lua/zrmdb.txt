@@ -8614,8 +8614,8 @@
 叩 ke
 只 kb
 叫 kj
-召 dk
 召 kd
+召 dk
 叭 kb
 叮 kd
 可 dk
@@ -14524,6 +14524,7 @@
 暋 om
 暋 ow
 暌 ot
+暌 og
 暍 oh
 暎 oy
 暏 ov
@@ -16203,8 +16204,8 @@
 毋 vp
 毌 aa
 毌 vh
-母 ad
 母 vd
+母 ad
 毎 rm
 每 rm
 每 pm
@@ -21567,8 +21568,8 @@
 粣 mc
 粤 pk
 粤 mk
-粥 gg
 粥 mg
+粥 gg
 粦 mf
 粦 mi
 粧 mv
@@ -23180,7 +23181,6 @@
 臚 ol
 臛 oh
 臜 oz
-臝 dd
 臝 wf
 臞 oq
 臞 ov
@@ -25097,7 +25097,6 @@
 蠁 ix
 蠂 iy
 蠂 im
-蠃 dd
 蠃 ik
 蠃 wf
 蠄 iq
@@ -29620,8 +29619,8 @@
 隺 nv
 隻 vy
 隻 yv
-隼 uv
 隼 vu
+隼 uv
 隽 nv
 隽 vn
 难 yv
@@ -29641,6 +29640,7 @@
 雈 cv
 雈 sh
 雈 va
+雉 vu
 雉 uv
 雊 vj
 雋 vg
@@ -32019,6 +32019,7 @@
 鹺 li
 鹻 lj
 鹼 lq
+鹽 lm
 鹽 ml
 鹾 li
 鹿 gb
@@ -32211,12 +32212,10 @@
 鼆 mm
 鼇 ma
 鼇 mw
-鼈 dh
 鼈 mb
 鼈 mw
-鼉 km
 鼉 ma
-鼉 sh
+鼉 km
 鼊 mb
 鼊 mx
 鼊 zh
@@ -32225,9 +32224,9 @@
 鼋 ym
 鼌 md
 鼌 om
+鼍 ma
 鼍 kd
 鼍 km
-鼍 ma
 鼎 oa
 鼎 od
 鼏 bd
@@ -43192,7 +43191,6 @@
 𢘲 yx
 𢘳 hx
 𢘳 xh
-𢘴 px
 𢘴 xd
 𢘵 lx
 𢘵 xl
@@ -60547,8 +60545,8 @@
 𦝝 oh
 𦝞 ot
 𦝟 ol
-𦝠 ou
-𦝠 wf
+𦝠 wx
+𦝠 wu
 𦝡 oy
 𦝢 og
 𦝣 ok
@@ -86223,8 +86221,8 @@
 𬻬 ak
 𬻬 uk
 𬻰 xt
-𬻱 ky
-𬻱 yj
+𬻱 aj
+𬻱 ka
 𬻲 ar
 𬻲 jr
 𬻵 ab

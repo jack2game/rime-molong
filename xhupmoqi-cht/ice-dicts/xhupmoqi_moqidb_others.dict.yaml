@@ -5,7 +5,7 @@
 # ------- 一些杂项，按需选择 -------
 ---
 name: others
-version: "2024-12-29"
+version: "2025-01-08"
 sort: by_weight
 ...
 ##### 容错词
@@ -170,6 +170,12 @@ sort: by_weight
 太行山	td;dd xk;rd uj;kl
 歇斯底里	xp;oq si;cj di;gu li;tt
 歇斯底里	jp;oq si;cj di;gu li;tt
+發酵	fa;bu jn;yz
+發酵	fa;bu xn;yz
+酵母菌	jn;yz mu;md jy;ch
+酵母菌	xn;yz mu;md jy;ch
+殷紅	yj;pu hs;sg
+殷紅	yb;pu hs;sg
 暖和	nr;oy ho;hk
 暖和	nr;oy he;hk
 模棱兩可	mo;md lg;mw ll;ar ke;dk
@@ -180,6 +186,18 @@ sort: by_weight
 脖頸	bo;oz jk;jy
 脖頸兒	bo;oz gg;jy er;je
 脖頸兒	bo;oz jk;jy er;je
+牛皮癬	nq;pu pi;py xr;by
+牛皮癬	nq;pu pi;py xm;by
+花斑癬	hx;cb bj;ww xr;by
+花斑癬	hx;cb bj;ww xm;by
+體癬	ti;gb xr;by
+體癬	ti;gb xm;by
+股癬	gu;ou xr;by
+股癬	gu;ou xm;by
+腳癬	jn;oe xr;by
+腳癬	jn;oe xm;by
+足癬	zu;kz xr;by
+足癬	zu;kz xm;by
 結紮	jp;sk za;mx
 結紮	jp;sk va;mx
 海參崴	hd;dm uf;sp wd;un
@@ -242,6 +260,10 @@ sort: by_weight
 縮砂密	so;sb ua;uu mi;bu
 迫擊炮	pd;zb ji;iu pc;hb
 迫擊炮	po;zb ji;iu pc;hb
+榲桲	wf;mm po;mz
+榲桲	wf;mm bo;mz
+荸薺	bi;cz qi;co
+荸薺	bi;cz ji;co
 柔荑	rz;mm ti;cy
 柔荑	rz;mm yi;cy
 柔荑花序	rz;mm ti;cy hx;cb xu;gy
@@ -260,6 +282,22 @@ sort: by_weight
 起於青蘋之末	qi;tj yu;fd qk;fo pk;cy vi;dn mo;am
 風起於青蘋之末	fg;ji qi;tj yu;fd qk;fo pb;cy vi;dn mo;am
 風起於青蘋之末	fg;ji qi;tj yu;fd qk;fo pk;cy vi;dn mo;am
+優惠券	yz;rw hv;ix qr;jd
+優惠券	yz;rw hv;ix jr;jd
+拱券	gs;fg xr;jd
+拱券	gs;fg qr;jd
+哺乳	bu;kf ru;vv
+哺乳	pu;kf ru;vv
+腦卒中	nc;ox cu;wu vs;kl
+腦卒中	nc;ox zu;wu vs;kl
+潟湖	xi;dh hu;do
+潟湖	xp;dh hu;do
+果脯	go;tm fu;of
+果脯	go;tm pu;of
+肉脯	rz;nr fu;of
+肉脯	rz;nr pu;of
+白鱀豚	bd;po ji;gy ty;ou
+白鱀豚	bd;po qi;gy ty;ou
 ### 错字
 曾經	cg;bo jk;sg
 曾今	cg;bo jb;rv

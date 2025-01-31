@@ -18,7 +18,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-12-29"
+version: "2025-01-17"
 sort: by_weight
 ...
 ### 按需启用
@@ -40,7 +40,7 @@ sort: by_weight
 凃	tu;;	1
 咲	xn;;	1
 螓	qb;is	1
-珮	pw;wj	0
+珮	pw;wj	1
 睆	hr;;	1
 挼	rx;;	1
 㨃	dv;;	1
@@ -4104,6 +4104,7 @@ sort: by_weight
 蟆	ma;ic	9205
 獁	ma;;	1633
 榪	ma;;	70
+孖	ma;zz	58
 禡	ma;;	4
 摩	ma;gf	1
 買	md;;	477539
@@ -8502,7 +8503,6 @@ sort: by_weight
 嵫	zi;ub	150
 趑	zi;zd	99
 茈	zi;cv	92
-孖	zi;zz	58
 粢	zi;dm	57
 鯔	zi;;	39
 鎡	zi;;	22

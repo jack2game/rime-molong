@@ -2696,10 +2696,10 @@
 叩	kZ;ke	871
 只	vI;kb	33360
 叫	jN;kj	56532
-召	uC;dk	28
 召	uC;kd	28
-召	vC;dk	1354
+召	uC;dk	28
 召	vC;kd	1354
+召	vC;dk	1354
 叭	bA;kb	771
 叮	dK;kd	988
 可	kE;dk	69815
@@ -10366,6 +10366,7 @@
 暋	mB;om	385
 暋	mB;ow	385
 暌	kV;ot	529
+暌	kV;og	529
 暍	hE;oh	428
 暍	yE;oh	428
 暎	yK;oy	399
@@ -12458,8 +12459,8 @@
 毋	wU;vp	870
 毌	gR;aa	2
 毌	gR;vh	2
-母	mU;ad	3443
 母	mU;vd	3443
+母	mU;ad	3443
 毎	mW;rm	575
 每	mW;rm	20025
 每	mW;pm	20025
@@ -19158,12 +19159,12 @@
 粣	cE;mc	272
 粤	yT;pk	0
 粤	yT;mk	0
-粥	vZ;gg	2281
 粥	vZ;mg	2281
-粥	vU;gg	0
+粥	vZ;gg	2281
 粥	vU;mg	0
-粥	yU;gg	0
+粥	vU;gg	0
 粥	yU;mg	0
+粥	yU;gg	0
 粦	lB;mf	375
 粦	lB;mi	375
 粧	vL;mv	87
@@ -21175,7 +21176,6 @@
 臚	lU;ol	586
 臛	hO;oh	346
 臜	zA;oz	0
-臝	lO;dd	316
 臝	lO;wf	316
 臞	qU;oq	357
 臞	qU;ov	357
@@ -23589,7 +23589,6 @@
 蠂	uE;iy	340
 蠂	uE;im	340
 蠂	yE;im	340
-蠃	lO;dd	510
 蠃	lO;ik	510
 蠃	lO;wf	510
 蠄	qB;iq	360
@@ -29229,10 +29228,10 @@
 隺	qT;nv	280
 隻	vI;vy	4994
 隻	vI;yv	4994
-隼	sY;uv	728
 隼	sY;vu	728
-隼	vY;uv	0
+隼	sY;uv	728
 隼	vY;vu	0
+隼	vY;uv	0
 隽	jY;nv	67
 隽	jY;vn	67
 隽	jR;nv	34
@@ -29259,6 +29258,7 @@
 雈	hR;cv	213
 雈	hR;sh	213
 雈	hR;va	213
+雉	vI;vu	673
 雉	vI;uv	673
 雊	gZ;vj	351
 雋	jY;vg	551
@@ -32082,6 +32082,7 @@
 鹺	cO;li	565
 鹻	jM;lj	227
 鹼	jM;lq	1303
+鹽	yJ;lm	3011
 鹽	yJ;ml	3011
 鹾	cO;li	0
 鹿	lU;gb	1708
@@ -32322,12 +32323,10 @@
 鼆	mG;mm	331
 鼇	aO;ma	43
 鼇	aO;mw	43
-鼈	bP;dh	326
 鼈	bP;mb	326
 鼈	bP;mw	326
-鼉	tO;km	565
 鼉	tO;ma	565
-鼉	tO;sh	565
+鼉	tO;km	565
 鼊	bI;mb	228
 鼊	bI;mx	228
 鼊	bI;zh	228
@@ -32336,9 +32335,9 @@
 鼋	yR;ym	0
 鼌	iC;md	0
 鼌	iC;om	0
+鼍	tO;ma	0
 鼍	tO;kd	0
 鼍	tO;km	0
-鼍	tO;ma	0
 鼎	dK;oa	1616
 鼎	dK;od	1616
 鼏	dK;bd	291
@@ -33457,6 +33456,7 @@
 㤀	wH;xa	0
 㤗	tD;xf	0
 㤣	pG;xb	0
+㤻	lY;xl	0
 㤻	lR;xl	0
 㤼	xP;xj	0
 㤼	jP;xj	0
@@ -67771,8 +67771,8 @@
 𧙧	jM;yk	0	# auto
 𫕛	gX;vu	0	# auto
 𫕛	gX;uv	0	# auto
-𬻱	vF;ky	0	# auto
-𬻱	vF;yj	0	# auto
+𬻱	vF;aj	0	# auto
+𬻱	vF;ka	0	# auto
 𡐺	tC;tt	0	# auto
 𫕠	bA;yb	0	# auto
 𢴢	fF;fb	0	# auto
@@ -78155,8 +78155,10 @@
 𢘬	xI;xy	0	# auto
 𢘰	qP;qx	0	# auto
 𢘰	qP;xq	0	# auto
-𢘴	lR;px	0	# auto
+𢘴	lY;xd	0	# auto
 𢘴	lR;xd	0	# auto
+𢘵	lY;lx	0	# auto
+𢘵	lY;xl	0	# auto
 𢘵	lR;lx	0	# auto
 𢘵	lR;xl	0	# auto
 𢘶	tV;xy	0	# auto
@@ -78258,6 +78260,8 @@
 𢚽	mF;xm	0	# auto
 𢚽	mJ;xm	0	# auto
 𢚾	hR;xh	0	# auto
+𢚿	lY;px	0	# auto
+𢚿	lY;xd	0	# auto
 𢚿	lR;px	0	# auto
 𢚿	lR;xd	0	# auto
 𢛀	mF;ix	0	# auto
@@ -88850,8 +88854,8 @@
 𦝗	nC;of	0	# auto
 𦝘	jR;rj	0	# auto
 𦝜	xI;oq	0	# auto
-𦝠	lO;ou	0	# auto
-𦝠	lO;wf	0	# auto
+𦝠	lO;wx	0	# auto
+𦝠	lO;wu	0	# auto
 𦝡	aN;oy	0	# auto
 𦝩	wW;ow	0	# auto
 𦝫	yC;oy	0	# auto

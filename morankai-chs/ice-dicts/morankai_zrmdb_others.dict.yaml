@@ -5,7 +5,7 @@
 # ------- 一些杂项，按需选择 -------
 ---
 name: others
-version: "2024-12-29"
+version: "2025-01-08"
 sort: by_weight
 ...
 ##### 容错词
@@ -170,6 +170,12 @@ sort: by_weight
 太行山	tl;dd xy;xd uj;aa
 歇斯底里	xx;qh si;jq di;gd li;aa
 歇斯底里	jx;qh si;jq di;gd li;aa
+发酵	fa;ay jc;yx
+发酵	fa;ay xc;yx
+酵母菌	jc;yx mu;vd jp;ch
+酵母菌	xc;yx mu;vd jp;ch
+殷红	yj;pu hs;sg
+殷红	yn;pu hs;sg
 暖和	nr;oy ho;hk
 暖和	nr;oy he;hk
 模棱两可	mo;mm lg;ml ld;ad ke;dk
@@ -180,6 +186,18 @@ sort: by_weight
 脖颈	bo;ob jy;yg
 脖颈儿	bo;ob gg;yg er;pg
 脖颈儿	bo;ob jy;yg er;pg
+牛皮癣	nq;pa pi;ad xr;bx
+牛皮癣	nq;pa pi;ad xm;bx
+花斑癣	hw;ch bj;ww xr;bx
+花斑癣	hw;ch bj;ww xm;bx
+体癣	ti;rb xr;bx
+体癣	ti;rb xm;bx
+股癣	gu;ou xr;bx
+股癣	gu;ou xm;bx
+脚癣	jc;oq xr;bx
+脚癣	jc;oq xm;bx
+足癣	zu;kv xr;bx
+足癣	zu;kv xm;bx
 结扎	jx;sj za;fg
 结扎	jx;sj va;fg
 海参崴	hl;dm uf;sp wl;uw
@@ -242,6 +260,10 @@ sort: by_weight
 缩砂密	so;ss ua;uu mi;ub
 迫击炮	pl;zb ji;eu pk;hb
 迫击炮	po;zb ji;eu pk;hb
+榅桲	wf;mw po;mb
+榅桲	wf;mw bo;mb
+荸荠	bi;cb qi;cq
+荸荠	bi;cb ji;cq
 柔荑	rb;mm ti;cy
 柔荑	rb;mm yi;cy
 柔荑花序	rb;mm ti;cy hw;ch xu;gy
@@ -260,6 +282,22 @@ sort: by_weight
 起于青𬞟之末	qi;zj yu;aa qy;of py;cp vi;dd mo;ad
 风起于青𬞟之末	fg;ji qi;zj yu;aa qy;of pn;cp vi;dd mo;ad
 风起于青𬞟之末	fg;ji qi;zj yu;aa qy;of py;cp vi;dd mo;ad
+优惠券	yb;ry hv;xh qr;df
+优惠券	yb;ry hv;xh jr;df
+拱券	gs;fg xr;df
+拱券	gs;fg qr;df
+哺乳	bu;kf ru;gf
+哺乳	pu;kf ru;gf
+脑卒中	nk;ox cu;wu vs;aa
+脑卒中	nk;ox zu;wu vs;aa
+潟湖	xi;dh hu;dh
+潟湖	xx;dh hu;dh
+果脯	go;ad fu;of
+果脯	go;ad pu;of
+肉脯	rb;ad fu;of
+肉脯	rb;ad pu;of
+白𬶨豚	bl;pa ji;yj tp;ou
+白𬶨豚	bl;pa qi;yj tp;ou
 ### 错字
 曾经	cg;ob jy;sg
 曾今	cg;ob jn;ra

@@ -27333,6 +27333,7 @@
 㤀	wh	0
 㤗	td	0
 㤣	pg	0
+㤻	ly	0
 㤻	lr	0
 㤼	xp	0
 㤼	jp	0
@@ -64609,7 +64610,9 @@
 𢘬	lp	0	# auto
 𢘬	xi	0	# auto
 𢘰	qp	0	# auto
+𢘴	ly	0	# auto
 𢘴	lr	0	# auto
+𢘵	ly	0	# auto
 𢘵	lr	0	# auto
 𢘶	tv	0	# auto
 𢘷	is	0	# auto
@@ -64683,6 +64686,7 @@
 𢚽	mf	0	# auto
 𢚽	mj	0	# auto
 𢚾	hr	0	# auto
+𢚿	ly	0	# auto
 𢚿	lr	0	# auto
 𢛀	mf	0	# auto
 𢛂	dc	0	# auto

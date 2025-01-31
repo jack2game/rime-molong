@@ -1279,8 +1279,8 @@
 残	ck;dj	2637
 封	fg;cg	2628
 属	uo;uy	2627
-粥	vb;gg	2625
 粥	vb;mg	2625
+粥	vb;gg	2625
 脑	na;ox	2625
 福	fi;uf	2624
 福	fi;ut	2624
@@ -1301,8 +1301,8 @@
 叠	dc;qu	2553
 叠	dc;yy	2553
 饼	bi;ub	2549
-母	mo;ad	2548
 母	mo;vd	2548
+母	mo;ad	2548
 勒	lw;lg	2548
 勒	lw;gl	2548
 存	cq;uz	2539
@@ -3896,7 +3896,6 @@
 蕊	rn;cx	82
 挞	tl;fd	82
 垚	yl;tt	82
-蠃	lq;dd	82
 蠃	lq;ik	82
 蠃	lq;wf	82
 炼	ln;hd	81
@@ -4288,8 +4287,8 @@
 裕	yc;yg	51
 庹	tq;gi	51
 妲	ds;nd	51
-召	vj;dk	50
 召	vj;kd	50
+召	vj;dk	50
 睛	jy;oq	50
 廉	lz;gj	50
 畏	wm;ty	50
@@ -4459,8 +4458,8 @@
 萍	pu;cp	41
 核	hi;mh	41
 甪	ly;py	41
-隼	sw;uv	40
 隼	sw;vu	40
+隼	sw;uv	40
 髻	ju;ij	40
 窟	ku;xq	40
 窟	ku;bq	40
@@ -6046,6 +6045,7 @@
 嗣	su;sc	6
 漠	mi;dm	6
 担	dh;fd	6
+雉	vu;vu	6
 雉	vu;uv	6
 瞿	qb;vo	6
 瞿	qb;ov	6
@@ -7463,9 +7463,9 @@
 窨	yb;xy	2
 窨	yb;by	2
 绶	uv;su	2
+鼍	tp;ma	2
 鼍	tp;kd	2
 鼍	tp;km	2
-鼍	tp;ma	2
 侗	da;rt	2
 抨	pg;fp	2
 晌	uk;ox	2
@@ -7490,8 +7490,8 @@
 饧	xu;uy	2
 鬻	yc;gv	2
 鬻	yc;mg	2
-召	uj;dk	2
 召	uj;kd	2
+召	uj;dk	2
 纤	qn;sq	2
 琢	zp;wd	2
 琢	zp;wi	2
@@ -8640,6 +8640,7 @@
 旐	vj;fv	2
 昫	xc;oj	2
 暌	kb;ot	2
+暌	kb;og	2
 杪	mb;mu	2
 杼	vy;my	2
 枲	xp;mt	2
@@ -27687,12 +27688,12 @@
 毊	xc;qu	1
 毋	mn;ap	1
 毋	mn;vp	1
-母	mi;ad	1
 母	mi;vd	1
-母	wo;ad	1
+母	mi;ad	1
 母	wo;vd	1
-母	wi;ad	1
+母	wo;ad	1
 母	wi;vd	1
+母	wi;ad	1
 毎	mc;rm	1
 毑	jv;my	1
 毒	dk;fm	1
@@ -32941,8 +32942,8 @@
 粢	ju;mc	1
 粣	cw;mc	1
 粣	sw;mc	1
-粥	yc;gg	1
 粥	yc;mg	1
+粥	yc;gg	1
 粦	lm;mf	1
 粦	lm;mi	1
 粧	vd;mv	1
@@ -34532,7 +34533,6 @@
 臚	li;ol	1
 臚	ln;ol	1
 臛	hi;oh	1
-臝	lq;dd	1
 臝	lq;wf	1
 臞	qb;oq	1
 臞	qb;ov	1
@@ -36433,10 +36433,8 @@
 蠁	xg;ix	1
 蠂	uw;iy	1
 蠂	uw;im	1
-蠃	lp;dd	1
 蠃	lp;ik	1
 蠃	lp;wf	1
-蠃	gq;dd	1
 蠃	gq;ik	1
 蠃	gq;wf	1
 蠄	qm;iq	1
@@ -41167,8 +41165,11 @@
 雈	ht;cv	1
 雈	ht;sh	1
 雈	ht;va	1
+雉	ks;vu	1
 雉	ks;uv	1
+雉	yp;vu	1
 雉	yp;uv	1
+雉	su;vu	1
 雉	su;uv	1
 雋	je;vg	1
 雋	jo;vg	1
@@ -43486,7 +43487,9 @@
 鹺	cp;li	1
 鹻	jx;lj	1
 鹼	jx;lq	1
+鹽	yk;lm	1
 鹽	yk;ml	1
+鹽	yh;lm	1
 鹽	yh;ml	1
 鹿	lb;gb	1
 鹿	lb;lb	1
@@ -43683,12 +43686,10 @@
 鼆	mj;mm	1
 鼇	ap;ma	1
 鼇	ap;mw	1
-鼈	bx;dh	1
 鼈	bx;mb	1
 鼈	bx;mw	1
-鼉	tp;km	1
 鼉	tp;ma	1
-鼉	tp;sh	1
+鼉	tp;km	1
 鼊	bu;mb	1
 鼊	bu;mx	1
 鼊	bu;zh	1

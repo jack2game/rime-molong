@@ -18,7 +18,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-12-29"
+version: "2025-01-17"
 sort: by_weight
 ...
 ### 按需启用
@@ -40,7 +40,7 @@ sort: by_weight
 凃	tu;dy	1
 咲	xn;kg	1
 螓	qb;iq	1
-珮	pw;wb	0
+珮	pw;wb	1
 睆	hr;ow	1
 挼	rx;ft	1
 㨃	dv;fx	1
@@ -4053,7 +4053,7 @@ sort: by_weight
 欏	lo;ml	1297
 烙	lo;hg	700
 玀	lo;ql	693
-蠃	lo;dd	675
+蠃	lo;ik	675
 腡	lo;og	642
 漯	lo;dl	416
 倮	lo;rg	275
@@ -4104,6 +4104,7 @@ sort: by_weight
 蟆	ma;im	9205
 獁	ma;qm	1633
 榪	ma;mm	70
+孖	ma;zz	58
 禡	ma;um	4
 摩	ma;mu	1
 買	md;bs	477539
@@ -4400,7 +4401,7 @@ sort: by_weight
 侔	mz;rm	143
 蛑	mz;im	61
 目	mu;aa	1365310
-母	mu;ad	701521
+母	mu;vd	701521
 木	mu;ad	547209
 模	mu;mm	378985
 慕	mu;cx	186450
@@ -5575,7 +5576,7 @@ sort: by_weight
 潲	uc;du	214
 蛸	uc;ix	37
 睄	uc;ox	16
-召	uc;dk	1
+召	uc;kd	1
 杓	uc;mu	1
 鞘	uc;gx	1
 柖	uc;mv	0
@@ -5986,7 +5987,7 @@ sort: by_weight
 孫	sy;zx	421364
 損	sy;fy	160063
 筍	sy;vx	7472
-隼	sy;uv	5018
+隼	sy;vu	5018
 蓀	sy;cs	1922
 猻	sy;qs	1343
 榫	sy;ms	395
@@ -6366,7 +6367,7 @@ sort: by_weight
 橐	to;am	1045
 柝	to;mi	567
 侂	to;rq	536
-鼉	to;km	262
+鼉	to;ma	262
 庹	to;gi	95
 籜	to;vz	34
 蘀	to;cz	1
@@ -7226,7 +7227,7 @@ sort: by_weight
 彥	yj;pi	44325
 雁	yj;iv	43201
 閻	yj;mj	39776
-鹽	yj;ml	37729
+鹽	yj;lm	37729
 焉	yj;vh	35627
 衍	yj;xi	33445
 檐	yj;mv	18211
@@ -8096,7 +8097,7 @@ sort: by_weight
 照	vc;hv	692673
 招	vc;fv	593719
 趙	vc;zx	507405
-召	vc;dk	128448
+召	vc;kd	128448
 罩	vc;sv	120318
 着	vc;yo	96993
 爪	vc;pd	74674
@@ -8244,7 +8245,7 @@ sort: by_weight
 咫	vi;iv	8825
 痣	vi;bv	4604
 徵	vi;xw	4233
-雉	vi;uv	3195
+雉	vi;vu	3195
 祗	vi;ud	2852
 梔	vi;mb	2564
 痔	vi;bs	1598
@@ -8319,7 +8320,7 @@ sort: by_weight
 宙	vz;by	62098
 舟	vz;pd	55739
 驟	vz;mj	44774
-粥	vz;gg	23792
+粥	vz;mg	23792
 肘	vz;oc	19724
 軸	vz;iy	18321
 晝	vz;yd	17728
@@ -8502,7 +8503,6 @@ sort: by_weight
 嵫	zi;uz	150
 趑	zi;zc	99
 茈	zi;cc	92
-孖	zi;zz	58
 粢	zi;mc	57
 鯔	zi;yt	39
 鎡	zi;jz	22

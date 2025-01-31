@@ -1279,8 +1279,8 @@
 残	cp;dj	2637
 封	fc;cg	2628
 属	um;uy	2627
-粥	vx;gg	2625
 粥	vx;mg	2625
+粥	vx;gg	2625
 脑	nx;ox	2625
 福	fl;uf	2624
 福	fl;ut	2624
@@ -1301,8 +1301,8 @@
 叠	ds;qu	2553
 叠	ds;yy	2553
 饼	bw;ub	2549
-母	mm;ad	2548
 母	mm;vd	2548
+母	mm;ad	2548
 勒	li;lg	2548
 勒	li;gl	2548
 存	cf;uz	2539
@@ -3894,7 +3894,6 @@
 蕊	rv;cx	82
 挞	ti;fd	82
 垚	yi;tt	82
-蠃	ll;dd	82
 蠃	ll;ik	82
 蠃	ll;wf	82
 炼	la;hd	81
@@ -4285,8 +4284,8 @@
 裕	yf;yg	51
 庹	tl;gi	51
 妲	du;nd	51
-召	vv;dk	50
 召	vv;kd	50
+召	vv;dk	50
 睛	je;oq	50
 廉	lv;gj	50
 畏	wk;ty	50
@@ -4456,8 +4455,8 @@
 萍	pn;cp	41
 核	hl;mh	41
 甪	lh;py	41
-隼	so;uv	40
 隼	so;vu	40
+隼	so;uv	40
 髻	jt;ij	40
 窟	ka;xq	40
 窟	ka;bq	40
@@ -6040,6 +6039,7 @@
 嗣	st;sc	6
 漠	mg;dm	6
 担	da;fd	6
+雉	vt;vu	6
 雉	vt;uv	6
 瞿	qm;vo	6
 瞿	qm;ov	6
@@ -7456,9 +7456,9 @@
 窨	yv;xy	2
 窨	yv;by	2
 绶	ur;su	2
+鼍	tl;ma	2
 鼍	tl;kd	2
 鼍	tl;km	2
-鼍	tl;ma	2
 侗	dy;rt	2
 抨	pc;fp	2
 晌	up;ox	2
@@ -7483,8 +7483,8 @@
 饧	xn;uy	2
 鬻	yf;gv	2
 鬻	yf;mg	2
-召	uv;dk	2
 召	uv;kd	2
+召	uv;dk	2
 纤	qa;sq	2
 琢	zl;wd	2
 琢	zl;wi	2
@@ -8633,6 +8633,7 @@
 旐	vv;fv	2
 昫	xf;oj	2
 暌	kw;ot	2
+暌	kw;og	2
 杪	ml;mu	2
 杼	vh;my	2
 枲	xg;mt	2
@@ -27603,12 +27604,12 @@
 毊	xm;qu	1
 毋	ma;ap	1
 毋	ma;vp	1
-母	ml;ad	1
 母	ml;vd	1
-母	wm;ad	1
+母	ml;ad	1
 母	wm;vd	1
-母	wl;ad	1
+母	wm;ad	1
 母	wl;vd	1
+母	wl;ad	1
 毎	mj;rm	1
 毑	jc;my	1
 毒	do;fm	1
@@ -32839,8 +32840,8 @@
 粢	jt;mc	1
 粣	ci;mc	1
 粣	si;mc	1
-粥	yf;gg	1
 粥	yf;mg	1
+粥	yf;gg	1
 粦	lc;mf	1
 粦	lc;mi	1
 粧	vw;mv	1
@@ -34419,7 +34420,6 @@
 臚	ll;ol	1
 臚	ls;ol	1
 臛	hp;oh	1
-臝	ll;dd	1
 臝	ll;wf	1
 臞	qm;oq	1
 臞	qm;ov	1
@@ -36317,7 +36317,6 @@
 蠁	xu;ix	1
 蠂	ui;iy	1
 蠂	ui;im	1
-蠃	gl;dd	1
 蠃	gl;ik	1
 蠃	gl;wf	1
 蠄	qc;iq	1
@@ -41033,8 +41032,11 @@
 雈	ho;cv	1
 雈	ho;sh	1
 雈	ho;va	1
+雉	ku;vu	1
 雉	ku;uv	1
+雉	yg;vu	1
 雉	yg;uv	1
+雉	st;vu	1
 雉	st;uv	1
 雋	jc;vg	1
 雋	jr;vg	1
@@ -43351,7 +43353,9 @@
 鹺	cl;li	1
 鹻	jp;lj	1
 鹼	jp;lq	1
+鹽	yp;lm	1
 鹽	yp;ml	1
+鹽	ya;lm	1
 鹽	ya;ml	1
 鹿	lm;gb	1
 鹿	lm;lb	1
@@ -43547,12 +43551,10 @@
 鼆	my;mm	1
 鼇	ai;ma	1
 鼇	ai;mw	1
-鼈	bk;dh	1
 鼈	bk;mb	1
 鼈	bk;mw	1
-鼉	tl;km	1
 鼉	tl;ma	1
-鼉	tl;sh	1
+鼉	tl;km	1
 鼊	bt;mb	1
 鼊	bt;mx	1
 鼊	bt;zh	1
