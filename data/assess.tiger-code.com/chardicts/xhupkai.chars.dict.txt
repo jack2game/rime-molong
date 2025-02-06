@@ -2113,14 +2113,14 @@
 励	lI;ll	0
 劲	jB;lg	0
 劲	jK;lg	0
-劳	lC;cl	0
 劳	lC;lb	0
-労	lC;dl	477
+劳	lC;cl	0
 労	lC;lb	477
-劵	jR;jl	636
+労	lC;dl	477
 劵	jR;lf	636
-劵	qR;jl	636
+劵	jR;jl	636
 劵	qR;lf	636
+劵	qR;jl	636
 劶	kZ;lh	196
 劷	yH;ly	227
 劷	yH;yl	227
@@ -2707,8 +2707,8 @@
 台	tD;sk	2243
 台	yI;sk	1458
 叱	iI;kb	697
-史	uI;ad	4520
 史	uI;ki	4520
+史	uI;ad	4520
 右	yZ;ku	4465
 右	yZ;uk	4465
 叴	qQ;jk	346
@@ -10407,8 +10407,8 @@
 暤	hC;ou	324
 暥	yJ;oa	299
 暥	yJ;oy	299
-暦	lI;io	417
 暦	lI;ol	417
+暦	lI;io	417
 暧	aI;oa	0
 暨	jI;dj	2326
 暨	jI;gd	2326
@@ -10456,8 +10456,8 @@
 曃	tD;ol	262
 曄	yE;oh	828
 曅	yE;oh	268
-曆	lI;io	837
 曆	lI;oh	837
+曆	lI;io	837
 曇	tJ;oy	683
 曈	tS;ot	559
 曉	xN;oy	3639
@@ -10712,8 +10712,8 @@
 杌	wU;mw	503
 杍	zI;mz	414
 李	lI;mz	15468
-杏	xK;km	1195
 杏	xK;mk	1195
+杏	xK;km	1195
 材	cD;mc	1770
 村	cY;mc	12010
 杒	rF;mr	233
@@ -10723,6 +10723,7 @@
 杔	tO;mt	240
 杕	dI;md	367
 杖	vH;mv	1315
+杗	mH;mw	257
 杗	mH;wm	257
 杘	iI;mu	336
 杘	iI;um	336
@@ -12302,8 +12303,8 @@
 歱	vS;vv	228
 歲	sV;vx	11046
 歳	sV;vx	543
-歴	lI;iv	510
 歴	lI;vl	510
+歴	lI;iv	510
 歵	zE;vz	199
 歶	yU;vy	205
 歶	yU;yc	205
@@ -21476,6 +21477,7 @@
 芔	uI;cc	375
 芕	sV;cx	293
 芖	vI;cd	316
+芖	xN;cd	0
 芗	xL;cx	0
 芘	bI;cb	575
 芘	pI;cb	575
@@ -121881,6 +121883,10 @@
 冣	zV;bq	0
 侳	zO;rz	0
 穝	zO;hz	0
+
+# 手工增補
+𩚨	kQ;uq	1
+𱹀	kQ;uj	0
 
 # 一些會對正常輸入造成干擾的字
 # 直接禁用掉

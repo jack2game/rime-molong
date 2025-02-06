@@ -17325,6 +17325,7 @@ use_preset_vocabulary: false
 芔	ui	375
 芕	sv	293
 芖	vi	316
+芖	xn	0
 芗	xl;cs	0
 芘	bi;cb	575
 芘	pi;cb	575
@@ -101212,4 +101213,6 @@ use_preset_vocabulary: false
 冣	zv	0
 侳	zo	0
 穝	zo	0
+𩚨	kq	1
+𱹀	kq	0
 #𱍒	dd	0	# auto

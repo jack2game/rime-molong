@@ -14,7 +14,7 @@
 #          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
 ---
 name: 41448
-version: "2025-01-17"
+version: "2025-02-02"
 sort: by_weight
 ...
 # 注释掉了一些
@@ -15150,7 +15150,7 @@ sort: by_weight
 䣺	jr;yy
 䳪	jr;nd
 倦	jr;rj
-劵	jr;jl
+劵	jr;lf
 勌	jr;lj
 勬	jr;ls
 卷	jr;ef
@@ -17066,8 +17066,8 @@ sort: by_weight
 乐	lc;pd
 佬	lc;rl
 僗	lc;rl
-劳	lc;cl
-労	lc;dl
+劳	lc;lb
+労	lc;lb
 咾	lc;kl
 哰	lc;kl
 唠	lc;kl
@@ -17499,7 +17499,7 @@ sort: by_weight
 攦	li;fl
 攭	li;fi
 斄	li;li
-暦	li;io
+暦	li;ol
 曞	li;ol
 朸	li;ml
 李	li;mz
@@ -17518,7 +17518,7 @@ sort: by_weight
 櫔	li;ml
 𪲔	li;ml
 欚	li;mi
-歴	li;iv
+歴	li;vl
 沥	li;dl
 沴	li;dp
 沵	li;de
@@ -19882,7 +19882,7 @@ sort: by_weight
 忙	mh;xw
 恾	mh;xm
 朚	mh;wm
-杗	mh;wm
+杗	mh;mw
 杧	mh;mw
 氓	mh;wm
 汒	mh;dw
@@ -27865,7 +27865,7 @@ sort: by_weight
 十	ui;aa
 卋	ui;uc
 厔	ui;iv
-史	ui;ad
+史	ui;ki
 呞	ui;ks
 呩	ui;ku
 咶	ui;ku
@@ -34391,7 +34391,7 @@ sort: by_weight
 擤	xk;fb
 星	xk;ou
 曐	xk;ju
-杏	xk;km
+杏	xk;mk
 洐	xk;dx
 涬	xk;dx
 荥	xk;cu
@@ -42288,6 +42288,7 @@ sort: by_weight
 𪗉	zi;qh
 𪗋	zi;yq
 𪗐	zi;wc
+㙡	zs;tc
 㚇	zs;vx
 㢔	zs;gc
 㯶	zs;mz
@@ -42392,7 +42393,6 @@ sort: by_weight
 𩮀	zs;ic
 𩰽	zs;cw
 𪖁	zs;uc
-㙡	zs;tc
 𭎂	zs;tc
 㔿	zz;aj
 㞫	zz;uv

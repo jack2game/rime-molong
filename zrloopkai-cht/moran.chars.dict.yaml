@@ -1192,8 +1192,8 @@ use_preset_vocabulary: false
 薄	bl;cc	3254
 薄	bl;cp	3254
 隔	gr;eg	3251
-史	up;ad	3248
 史	up;ki	3248
+史	up;ad	3248
 伞	sl;ru	3245
 搓	co;fi	3236
 跌	dx;zu	3230
@@ -3199,8 +3199,8 @@ use_preset_vocabulary: false
 尿	sv;uu	199
 辟	bu;xk	197
 妇	fy;nx	197
-杏	xt;km	197
 杏	xt;mk	197
+杏	xt;km	197
 耸	sf;ec	196
 棱	lh;ml	196
 棱	lh;mw	196
@@ -3249,8 +3249,8 @@ use_preset_vocabulary: false
 傲	ai;rw	187
 尺	ip;ad	187
 尺	ip;vd	187
-劳	ll;cl	187
 劳	ll;lb	187
+劳	ll;cl	187
 磡	kh;uk	187
 茨	co;cc	187
 穆	my;hp	186
@@ -19443,10 +19443,10 @@ use_preset_vocabulary: false
 劯	vu;ul	1
 劰	mi;bl	1
 劰	mi;lb	1
-労	ll;dl	1
 労	ll;lb	1
-劵	je;jl	1
+労	ll;dl	1
 劵	je;lf	1
+劵	je;jl	1
 劶	km;lh	1
 劷	yj;ly	1
 劷	yj;yl	1
@@ -25976,8 +25976,8 @@ use_preset_vocabulary: false
 暤	hj;ou	1
 暥	yh;oa	1
 暥	yh;oy	1
-暦	lu;io	1
 暦	lu;ol	1
+暦	lu;io	1
 暧	ny;oa	1
 暨	jz;dj	1
 暨	jz;gd	1
@@ -26013,8 +26013,8 @@ use_preset_vocabulary: false
 曃	dk;ol	1
 曄	yw;oh	1
 曅	yw;oh	1
-曆	lu;io	1
 曆	lu;oh	1
+曆	lu;io	1
 曇	tk;oy	1
 曉	xb;oy	1
 曊	fm;of	1
@@ -26201,6 +26201,7 @@ use_preset_vocabulary: false
 杔	vr;mq	1
 杔	vr;mt	1
 杕	di;md	1
+杗	mj;mw	1
 杗	mj;wm	1
 杘	iu;mu	1
 杘	iu;um	1
@@ -27590,8 +27591,8 @@ use_preset_vocabulary: false
 歲	sc;vx	1
 歲	si;vx	1
 歳	sc;vx	1
-歴	lu;iv	1
 歴	lu;vl	1
+歴	lu;iv	1
 歵	zr;vz	1
 歶	yb;vy	1
 歶	yb;yc	1
@@ -70164,8 +70165,8 @@ use_preset_vocabulary: false
 劅	vi;du	0
 劚	vo;di	0
 劚	vo;du	0
-劵	qe;jl	0
 劵	qe;lf	0
+劵	qe;jl	0
 匇	cs;gx	0
 匊	jb;gm	0
 匔	qs;gg	0
@@ -73265,14 +73266,14 @@ use_preset_vocabulary: false
 励	lI;ll	0
 劲	jN;lg	0
 劲	jY;lg	0
-劳	lK;cl	0
 劳	lK;lb	0
-労	lK;dl	477
+劳	lK;cl	0
 労	lK;lb	477
-劵	jR;jl	636
+労	lK;dl	477
 劵	jR;lf	636
-劵	qR;jl	636
+劵	jR;jl	636
 劵	qR;lf	636
+劵	qR;jl	636
 劶	kB;lh	196
 劷	yH;ly	227
 劷	yH;yl	227
@@ -73859,8 +73860,8 @@ use_preset_vocabulary: false
 台	tL;sk	2243
 台	yI;sk	1458
 叱	iI;kb	697
-史	uI;ad	4520
 史	uI;ki	4520
+史	uI;ad	4520
 右	yB;ku	4465
 右	yB;uk	4465
 叴	qQ;jk	346
@@ -81559,8 +81560,8 @@ use_preset_vocabulary: false
 暤	hK;ou	324
 暥	yJ;oa	299
 暥	yJ;oy	299
-暦	lI;io	417
 暦	lI;ol	417
+暦	lI;io	417
 暧	aI;oa	0
 暨	jI;dj	2326
 暨	jI;gd	2326
@@ -81608,8 +81609,8 @@ use_preset_vocabulary: false
 曃	tL;ol	262
 曄	yE;oh	828
 曅	yE;oh	268
-曆	lI;io	837
 曆	lI;oh	837
+曆	lI;io	837
 曇	tJ;oy	683
 曈	tS;ot	559
 曉	xC;oy	3639
@@ -81864,8 +81865,8 @@ use_preset_vocabulary: false
 杌	wU;mw	503
 杍	zI;mz	414
 李	lI;mz	15468
-杏	xY;km	1195
 杏	xY;mk	1195
+杏	xY;km	1195
 材	cL;mc	1770
 村	cP;mc	12010
 杒	rF;mr	233
@@ -81875,6 +81876,7 @@ use_preset_vocabulary: false
 杔	tO;mt	240
 杕	dI;md	367
 杖	vH;mv	1315
+杗	mH;mw	257
 杗	mH;wm	257
 杘	iI;mu	336
 杘	iI;um	336
@@ -83454,8 +83456,8 @@ use_preset_vocabulary: false
 歱	vS;vv	228
 歲	sV;vx	11046
 歳	sV;vx	543
-歴	lI;iv	510
 歴	lI;vl	510
+歴	lI;iv	510
 歵	zE;vz	199
 歶	yU;vy	205
 歶	yU;yc	205
@@ -92628,6 +92630,7 @@ use_preset_vocabulary: false
 芔	uI;cc	375
 芕	sV;cx	293
 芖	vI;cd	316
+芖	xC;cd	0
 芗	xD;cx	0
 芘	bI;cb	575
 芘	pI;cb	575
@@ -193033,6 +193036,10 @@ use_preset_vocabulary: false
 冣	zV;bq	0
 侳	zO;rz	0
 穝	zO;hz	0
+
+# 手工增補
+𩚨	kQ;uq	1
+𱹀	kQ;uj	0
 
 # 一些會對正常輸入造成干擾的字
 # 直接禁用掉

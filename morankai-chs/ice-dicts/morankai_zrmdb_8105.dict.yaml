@@ -18,7 +18,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2025-01-17"
+version: "2025-02-03"
 sort: by_weight
 ...
 ### 按需启用
@@ -983,6 +983,7 @@ sort: by_weight
 棰	iv;mi	405
 倕	iv;ri	17
 圌	iv;ke	1
+椎	iv;mv	1
 春	ip;of	414544
 纯	ip;st	212265
 唇	ip;ki	161329
@@ -3568,7 +3569,7 @@ sort: by_weight
 筤	lh;vl	0
 蓢	lh;cl	0
 老	lk;bl	3762961
-劳	lk;cl	236325
+劳	lk;lb	236325
 牢	lk;bn	122871
 姥	lk;nl	45943
 捞	lk;fl	29577
@@ -4296,7 +4297,7 @@ sort: by_weight
 勔	mm;lm	58
 愐	mm;xm	5
 偭	mm;rm	1
-𩾃	mm;ym	0
+𩾃	mm;ym	1
 妙	mc;nu	280421
 秒	mc;hu	90580
 描	mc;fm	87436
@@ -5680,7 +5681,7 @@ sort: by_weight
 式	ui;gy	600521
 示	ui;ex	492951
 试	ui;yu	489076
-史	ui;ad	409099
+史	ui;ki	409099
 食	ui;rl	353226
 施	ui;fy	301591
 适	ui;zu	295023
@@ -6969,7 +6970,7 @@ sort: by_weight
 姓	xy;nu	248203
 刑	xy;dk	107683
 腥	xy;ox	51054
-杏	xy;km	28315
+杏	xy;mk	28315
 猩	xy;qx	26668
 惺	xy;xx	18833
 邢	xy;ek	16955

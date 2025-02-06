@@ -17302,6 +17302,7 @@
 芔	uI;cc	375
 芕	sV;cx	293
 芖	vI;cd	316
+芖	xN;cd	0
 芗	xL;cx	0
 芘	bI;cb	575
 芘	pI;cb	575
@@ -101189,4 +101190,6 @@
 冣	zV;by	0
 侳	zO;rr	0
 穝	zO;hy	0
+𩚨	kQ	1
+𱹀	kQ	0
 #𱍒	dD	0	# auto

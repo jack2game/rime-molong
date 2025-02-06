@@ -382,7 +382,11 @@ function panacea_translator.init(env)
         local commit_text = ctx:get_commit_text()
         local selected_cand = ctx:get_selected_candidate()
         if selected_cand ~= nil then
-            if env.freestyle and selected_cand:get_genuine().type == "pin_tip" then
+            local gen_cand = selected_cand:get_genuine()
+            if moran.str_is_chinese(selected_cand.text) then
+                commit_text = gen_cand.text
+            end
+            if env.freestyle and gen_cand.type == "pin_tip" then
                 if env.freestyle_state then
                     if env.freestyle_code and env.freestyle_code ~= "" and env.freestyle_text and env.freestyle_text ~= "" then
                         user_db.toggle_pin_status(env.freestyle_code, env.freestyle_text)

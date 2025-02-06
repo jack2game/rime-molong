@@ -26,6 +26,25 @@ sort: by_weight
 # 「伯伯」方言
 伯伯	bo;rb bo;rb
 伯伯	bd;rb bd;rb
+# 「还」的旧读
+欲就還推	yu;qg jq;yj hd;zh tv;fv
+欲就還推	yu;qg jq;yj hr;zh tv;fv
+欲拒還迎	yu;qg ju;fj hd;zh yk;ze
+欲拒還迎	yu;qg ju;fj hr;zh yk;ze
+欲說還休	yu;qg uo;yd hd;zh xq;rm
+欲說還休	yu;qg uo;yd hr;zh xq;rm
+欲說還休夢已闌	yu;qg uo;yd hd;zh xq;rm mg;cx yi;vg lj;mj
+欲說還休夢已闌	yu;qg uo;yd hr;zh xq;rm mg;cx yi;vg lj;mj
+欲言還止	yu;qg yj;da hd;zh vi;aa
+欲言還止	yu;qg yj;da hr;zh vi;aa
+欲迎還拒	yu;qg yk;ze hd;zh ju;fj
+欲迎還拒	yu;qg yk;ze hr;zh ju;fj
+欲語還休	yu;qg yu;yw hd;zh xq;rm
+欲語還休	yu;qg yu;yw hr;zh xq;rm
+欲語還羞	yu;qg yu;yw hd;zh xq;yi
+欲語還羞	yu;qg yu;yw hr;zh xq;yi
+欲走還留	yu;qg zz;tv hd;zh lq;td
+欲走還留	yu;qg zz;tv hr;zh lq;td
 # 「斜」的协音读法
 遠上寒山石徑斜	yr;zy uh;aa hj;bd uj;aa ui;kp jk;xj xp;dy
 遠上寒山石徑斜	yr;zy uh;aa hj;bd uj;aa ui;kp jk;xj xx;dy
@@ -298,6 +317,14 @@ sort: by_weight
 肉脯	rz;ad pu;of
 白鱀豚	bd;pa ji;yj ty;ou
 白鱀豚	bd;pa qi;yj ty;ou
+橈骨	rc;my gu;go
+橈骨	nc;my gu;go
+百折不撓	bd;ab ve;fj bu;ad nc;fy
+百折不撓	bd;ab ve;fj bu;ad rc;fy
+椎心泣血	iv;mv xb;dd qi;dl xp;pa
+椎心泣血	vv;mv xb;dd qi;dl xp;pa
+椎心泣血	iv;mv xb;dd qi;dl xt;pa
+椎心泣血	vv;mv xb;dd qi;dl xt;pa
 ### 错字
 曾經	cg;ob jk;sg
 曾今	cg;ob jb;ra

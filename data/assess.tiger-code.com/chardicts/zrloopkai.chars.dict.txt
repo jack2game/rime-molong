@@ -1169,8 +1169,8 @@
 薄	bl;cc	3254
 薄	bl;cp	3254
 隔	gr;eg	3251
-史	up;ad	3248
 史	up;ki	3248
+史	up;ad	3248
 伞	sl;ru	3245
 搓	co;fi	3236
 跌	dx;zu	3230
@@ -3176,8 +3176,8 @@
 尿	sv;uu	199
 辟	bu;xk	197
 妇	fy;nx	197
-杏	xt;km	197
 杏	xt;mk	197
+杏	xt;km	197
 耸	sf;ec	196
 棱	lh;ml	196
 棱	lh;mw	196
@@ -3226,8 +3226,8 @@
 傲	ai;rw	187
 尺	ip;ad	187
 尺	ip;vd	187
-劳	ll;cl	187
 劳	ll;lb	187
+劳	ll;cl	187
 磡	kh;uk	187
 茨	co;cc	187
 穆	my;hp	186
@@ -19420,10 +19420,10 @@
 劯	vu;ul	1
 劰	mi;bl	1
 劰	mi;lb	1
-労	ll;dl	1
 労	ll;lb	1
-劵	je;jl	1
+労	ll;dl	1
 劵	je;lf	1
+劵	je;jl	1
 劶	km;lh	1
 劷	yj;ly	1
 劷	yj;yl	1
@@ -25953,8 +25953,8 @@
 暤	hj;ou	1
 暥	yh;oa	1
 暥	yh;oy	1
-暦	lu;io	1
 暦	lu;ol	1
+暦	lu;io	1
 暧	ny;oa	1
 暨	jz;dj	1
 暨	jz;gd	1
@@ -25990,8 +25990,8 @@
 曃	dk;ol	1
 曄	yw;oh	1
 曅	yw;oh	1
-曆	lu;io	1
 曆	lu;oh	1
+曆	lu;io	1
 曇	tk;oy	1
 曉	xb;oy	1
 曊	fm;of	1
@@ -26178,6 +26178,7 @@
 杔	vr;mq	1
 杔	vr;mt	1
 杕	di;md	1
+杗	mj;mw	1
 杗	mj;wm	1
 杘	iu;mu	1
 杘	iu;um	1
@@ -27567,8 +27568,8 @@
 歲	sc;vx	1
 歲	si;vx	1
 歳	sc;vx	1
-歴	lu;iv	1
 歴	lu;vl	1
+歴	lu;iv	1
 歵	zr;vz	1
 歶	yb;vy	1
 歶	yb;yc	1
@@ -70141,8 +70142,8 @@
 劅	vi;du	0
 劚	vo;di	0
 劚	vo;du	0
-劵	qe;jl	0
 劵	qe;lf	0
+劵	qe;jl	0
 匇	cs;gx	0
 匊	jb;gm	0
 匔	qs;gg	0
