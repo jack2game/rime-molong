@@ -2142,8 +2142,8 @@
 乔	qv;yp	767
 睁	vg;ov	767
 梳	uu;mi	766
-思	si;tx	765
 思	si;xt	765
+思	si;tx	765
 舒	uu;yu	761
 舒	uu;uy	761
 凸	tu;aa	760
@@ -20598,8 +20598,8 @@
 嘔	iu;kq	1
 嘕	xm;ky	1
 嘖	zr;kz	1
-嘗	ij;dv	1
 嘗	ij;xv	1
+嘗	ij;dv	1
 嘙	pp;kp	1
 嘚	dr;kd	1
 嘚	dl;kd	1
@@ -23684,8 +23684,8 @@
 怛	dh;xd	1
 怜	lu;xl	1
 怜	li;xl	1
-思	sl;tx	1
 思	sl;xt	1
+思	sl;tx	1
 怞	in;xy	1
 怞	yn;xy	1
 怟	du;xd	1
@@ -41586,6 +41586,7 @@
 頇	hj;yg	1
 頇	ab;gy	1
 頇	ab;yg	1
+須	xv;py	1
 須	xv;yp	1
 頉	yo;vy	1
 頉	yo;yv	1

@@ -2165,8 +2165,8 @@ use_preset_vocabulary: false
 乔	qm;yp	767
 睁	vg;ov	767
 梳	uu;mi	766
-思	si;tx	765
 思	si;xt	765
+思	si;tx	765
 舒	uu;yu	761
 舒	uu;uy	761
 凸	tu;aa	760
@@ -20611,8 +20611,8 @@ use_preset_vocabulary: false
 嘔	iu;kq	1
 嘕	xm;ky	1
 嘖	zr;kz	1
-嘗	ij;dv	1
 嘗	ij;xv	1
+嘗	ij;dv	1
 嘙	pp;kp	1
 嘚	dr;kd	1
 嘚	dd;kd	1
@@ -23694,8 +23694,8 @@ use_preset_vocabulary: false
 怛	dh;xd	1
 怜	ll;xl	1
 怜	la;xl	1
-思	sd;tx	1
 思	sd;xt	1
+思	sd;tx	1
 怞	ix;xy	1
 怞	yx;xy	1
 怟	du;xd	1
@@ -41596,6 +41596,7 @@ use_preset_vocabulary: false
 頇	hj;yg	1
 頇	ab;gy	1
 頇	ab;yg	1
+須	xv;py	1
 須	xv;yp	1
 頉	yo;vy	1
 頉	yo;yv	1
@@ -74740,8 +74741,8 @@ use_preset_vocabulary: false
 嘕	xM;ky	231
 嘕	yJ;ky	231
 嘖	zE;kz	718
-嘗	iH;dv	586
 嘗	iH;xv	586
+嘗	iH;dv	586
 嘘	xU;kx	0
 嘙	pO;kp	567
 嘚	dE;kd	0
@@ -78791,10 +78792,10 @@ use_preset_vocabulary: false
 怛	tJ;xd	611
 怜	lM;xl	0
 怜	lK;xl	90
-思	sI;tx	5265
 思	sI;xt	5265
-思	sD;tx	0
+思	sI;tx	5265
 思	sD;xt	0
+思	sD;tx	0
 怞	vZ;xy	413
 怞	yZ;xy	413
 怟	dI;xd	261
@@ -100911,6 +100912,7 @@ use_preset_vocabulary: false
 頇	gJ;yg	398
 頇	hJ;gy	398
 頇	hJ;yg	398
+須	xU;py	6361
 須	xU;yp	6361
 頉	yI;vy	329
 頉	yI;yv	329

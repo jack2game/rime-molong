@@ -3600,8 +3600,8 @@
 嘕	xM;ky	231
 嘕	yJ;ky	231
 嘖	zE;kz	718
-嘗	iH;dv	586
 嘗	iH;xv	586
+嘗	iH;dv	586
 嘘	xU;kx	0
 嘙	pO;kp	567
 嘚	dE;kd	0
@@ -7651,10 +7651,10 @@
 怛	tJ;xd	611
 怜	lM;xl	0
 怜	lY;xl	90
-思	sI;tx	5265
 思	sI;xt	5265
-思	sL;tx	0
+思	sI;tx	5265
 思	sL;xt	0
+思	sL;tx	0
 怞	vB;xy	413
 怞	yB;xy	413
 怟	dI;xd	261
@@ -29771,6 +29771,7 @@
 頇	gJ;yg	398
 頇	hJ;gy	398
 頇	hJ;yg	398
+須	xU;py	6361
 須	xU;yp	6361
 頉	yI;vy	329
 頉	yI;yv	329

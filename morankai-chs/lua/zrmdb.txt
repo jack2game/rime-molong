@@ -9266,8 +9266,8 @@
 嘔 kq
 嘕 ky
 嘖 kz
-嘗 dv
 嘗 xv
+嘗 dv
 嘘 kx
 嘙 kp
 嘚 kd
@@ -12459,8 +12459,8 @@
 怚 xq
 怛 xd
 怜 xl
-思 tx
 思 xt
+思 tx
 怞 xy
 怟 xd
 怠 xt
@@ -30051,6 +30051,7 @@
 順 yi
 頇 gy
 頇 yg
+須 py
 須 yp
 頉 vy
 頉 yv
